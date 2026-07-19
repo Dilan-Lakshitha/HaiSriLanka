@@ -27,14 +27,51 @@
     padding: 3.5rem 1.25rem 2.25rem;
     display: grid;
     gap: 2rem;
-    grid-template-columns: 1.35fr 0.8fr 0.8fr 0.8fr 1.25fr;
+    grid-template-columns: 1.35fr 1.8fr 1fr;
+    align-items: start;
 
     @media (max-width: 1100px) {
       grid-template-columns: 1fr 1fr;
+      gap: 1.75rem 1.5rem;
+
+      .site-footer__meta {
+        grid-column: 1 / -1;
+      }
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 720px) {
       grid-template-columns: 1fr;
+      gap: 1.35rem;
+      padding: 2rem 1rem 1.5rem;
+    }
+  }
+
+  &__links {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem 1.5rem;
+
+    @media (max-width: 720px) {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.15rem 1rem;
+      padding-top: 0.25rem;
+      border-top: 1px solid color-mix(in srgb, var(--color-green) 40%, transparent);
+    }
+  }
+
+  &__col {
+    min-width: 0;
+
+    &--legal {
+      @media (max-width: 720px) {
+        grid-column: 1 / -1;
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.35rem 1rem;
+        }
+      }
     }
   }
 
@@ -43,6 +80,11 @@
     height: 2.6rem;
     object-fit: contain;
     margin-bottom: 0.75rem;
+
+    @media (max-width: 720px) {
+      height: 2.15rem;
+      margin-bottom: 0.45rem;
+    }
   }
 
   &__logo {
@@ -56,6 +98,11 @@
     margin: 0 0 1rem;
     opacity: 0.8;
     max-width: 30ch;
+
+    @media (max-width: 720px) {
+      margin: 0 0 0.65rem;
+      font-size: 0.9rem;
+    }
   }
 
   &__contact {
@@ -63,6 +110,18 @@
     gap: 0.35rem;
     margin-bottom: 1.1rem;
     font-size: 0.92rem;
+
+    @media (max-width: 720px) {
+      gap: 0.25rem;
+      margin-bottom: 0.75rem;
+      font-size: 0.88rem;
+
+      p {
+        margin: 0.15rem 0 0;
+        opacity: 0.8;
+        line-height: 1.4;
+      }
+    }
   }
 
   &__social {
@@ -73,6 +132,10 @@
     flex-wrap: wrap;
     gap: 0.75rem;
     font-size: 0.85rem;
+
+    @media (max-width: 720px) {
+      gap: 0.65rem 1rem;
+    }
   }
 
   &__heading {
@@ -81,6 +144,11 @@
     color: var(--color-gold);
     margin: 0 0 0.9rem;
     font-weight: 600;
+
+    @media (max-width: 720px) {
+      margin: 0 0 0.55rem;
+      font-size: 0.92rem;
+    }
   }
 
   ul {
@@ -89,44 +157,36 @@
     padding: 0;
     display: grid;
     gap: 0.45rem;
-  }
 
-  &__newsletter p {
-    margin: 0 0 0.85rem;
-    opacity: 0.82;
-    font-size: 0.92rem;
-  }
+    @media (max-width: 720px) {
+      gap: 0.35rem;
 
-  &__form {
-    display: grid;
-    gap: 0.55rem;
-    margin-bottom: 0.45rem;
-
-    input {
-      width: 100%;
-      padding: 0.7rem 0.8rem;
-      border: 1px solid color-mix(out srgb, var(--color-gold) 28%, transparent);
-      border-radius: var(--radius-sm);
-      background: color-mix(out srgb, var(--color-navy) 70%, black);
-      color: var(--color-on-navy);
-      font: inherit;
+      a {
+        font-size: 0.9rem;
+      }
     }
   }
 
-  &__disclaimer,
-  &__thanks {
-    font-size: 0.78rem;
-    opacity: 0.7;
+  &__meta {
+    @media (max-width: 720px) {
+      padding-top: 0.35rem;
+      border-top: 1px solid color-mix(in srgb, var(--color-green) 40%, transparent);
+    }
   }
 
   &__tripadvisor {
     display: grid;
     gap: 0.2rem;
-    margin: 1.1rem 0 0.85rem;
+    margin: 0 0 0.85rem;
     padding: 0.85rem 0.9rem;
-    border: 1px solid color-mix(out srgb, var(--color-green) 55%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-green) 55%, transparent);
     border-radius: var(--radius-sm);
-    background: color-mix(out srgb, var(--color-green) 18%, transparent);
+    background: color-mix(in srgb, var(--color-green) 18%, transparent);
+
+    @media (max-width: 720px) {
+      margin: 0 0 0.65rem;
+      padding: 0.7rem 0.8rem;
+    }
   }
 
   &__ta-label {
@@ -136,7 +196,10 @@
   }
 
   &__ta-score {
-    font-size: 0.9rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--color-sand);
+    letter-spacing: 0.02em;
   }
 
   &__awards {
@@ -148,7 +211,7 @@
       justify-content: space-between;
       gap: 0.75rem;
       padding-top: 0.45rem;
-      border-top: 1px solid color-mix(out srgb, var(--color-green) 40%, transparent);
+      border-top: 1px solid color-mix(in srgb, var(--color-green) 40%, transparent);
       font-size: 0.82rem;
     }
   }
@@ -157,8 +220,18 @@
     max-width: var(--container);
     margin: 0 auto;
     padding: 1rem 1.25rem 0;
-    border-top: 1px solid color-mix(out srgb, var(--color-green) 45%, transparent);
+    border-top: 1px solid color-mix(in srgb, var(--color-green) 45%, transparent);
     font-size: 0.84rem;
     opacity: 0.72;
+
+    @media (max-width: 720px) {
+      padding: 0.85rem 1rem 0;
+      font-size: 0.78rem;
+      text-align: center;
+
+      p {
+        margin: 0;
+      }
+    }
   }
 }
