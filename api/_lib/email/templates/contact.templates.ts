@@ -1,4 +1,4 @@
-import type { ContactPayload } from '../types/contact.types';
+import type { ContactPayload } from '../../types/contact.types';
 
 function escapeHtml(value: string): string {
   return value

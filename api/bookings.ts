@@ -8,7 +8,7 @@ import { BookingEmailService } from './_lib/email/email.service';
  * Frontend contract is stable; swap this host for .NET/Node API later via apiBaseUrl.
  */
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  res.setHeader('Access-Control-Allow-Origin', process.env.PUBLIC_SITE_URL || '*');
+  res.setHeader('Access-Control-Allow-Origin', process.env['PUBLIC_SITE_URL'] || '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 

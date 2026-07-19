@@ -7,9 +7,9 @@ export class ContactEmailService {
 
   async sendContactEmails(contact: ContactPayload): Promise<void> {
     const adminTo =
-      process.env.CONTACT_ADMIN_EMAIL ||
-      process.env.BOOKING_ADMIN_EMAIL ||
-      process.env.SMTP_USER;
+      process.env['CONTACT_ADMIN_EMAIL'] ||
+      process.env['BOOKING_ADMIN_EMAIL'] ||
+      process.env['SMTP_USER'];
 
     if (!adminTo) {
       throw new Error('CONTACT_ADMIN_EMAIL is not configured');

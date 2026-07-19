@@ -1,4 +1,4 @@
-import type { BookingPayload } from '../types/booking.types';
+import type { BookingPayload } from '../../types/booking.types';
 
 export function adminBookingHtml(booking: BookingPayload, bookingRef: string): string {
   return `

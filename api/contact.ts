@@ -8,7 +8,7 @@ import { validateContact } from './_lib/validation/contact.schema';
  * Sends inquiry email to admin + acknowledgement to the visitor.
  */
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  res.setHeader('Access-Control-Allow-Origin', process.env.PUBLIC_SITE_URL || '*');
+  res.setHeader('Access-Control-Allow-Origin', process.env['PUBLIC_SITE_URL'] || '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 

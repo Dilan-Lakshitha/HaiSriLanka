@@ -9,7 +9,7 @@ export class BookingEmailService {
   constructor(private readonly mailer: EmailPort) {}
 
   async sendBookingEmails(booking: BookingPayload, bookingRef: string): Promise<void> {
-    const adminTo = process.env.BOOKING_ADMIN_EMAIL || process.env.SMTP_USER;
+    const adminTo = process.env['BOOKING_ADMIN_EMAIL'] || process.env['SMTP_USER'];
     if (!adminTo) {
       throw new Error('BOOKING_ADMIN_EMAIL is not configured');
     }
