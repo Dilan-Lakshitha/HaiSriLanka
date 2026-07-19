@@ -1,0 +1,115 @@
+@if (vm$ | async; as vm) {
+  @if (vm.experience; as experience) {
+    <article class="exp-detail">
+      <section class="exp-detail__hero">
+        <div class="exp-detail__hero-media" aria-hidden="true">
+          <img
+            [ngSrc]="experience.images[0]?.src || '/assets/images/placeholders/dest-galle.svg'"
+            [alt]="experience.images[0]?.alt || experience.title"
+            [width]="experience.images[0]?.width || 1600"
+            [height]="experience.images[0]?.height || 900"
+            priority
+          />
+          <div class="exp-detail__hero-veil"></div>
+        </div>
+        <app-ui-container>
+          <div class="exp-detail__hero-copy">
+            <app-breadcrumb />
+            <p class="exp-detail__eyebrow">{{ experience.category }}</p>
+            <h1>{{ experience.title }}</h1>
+            <p>{{ experience.shortDescription }}</p>
+            <div class="exp-detail__actions">
+              <a
+                appUiButton
+                variant="primary"
+                [routerLink]="['/', vm.lang, 'sri-lanka-tours']"
+              >
+                View tours
+              </a>
+              <a
+                appUiButton
+                variant="ghost"
+                class="exp-detail__ghost"
+                [routerLink]="['/', vm.lang, 'contact']"
+              >
+                Plan this experience
+              </a>
+            </div>
+          </div>
+        </app-ui-container>
+      </section>
+
+      <div class="exp-detail__body">
+        <app-ui-container>
+          <div class="exp-detail__story" appReveal>
+            <p class="exp-detail__label">About this experience</p>
+            <p class="exp-detail__description">{{ experience.description }}</p>
+
+            @if (experience.highlights?.length) {
+              <ul class="exp-detail__highlights">
+                @for (item of experience.highlights; track item) {
+                  <li>{{ item }}</li>
+                }
+              </ul>
+            }
+
+            @if (vm.places.length) {
+              <div class="exp-detail__places">
+                <p class="exp-detail__label">Where it shines</p>
+                <div class="exp-detail__place-links">
+                  @for (place of vm.places; track place.slug) {
+                    <a [routerLink]="['/', vm.lang, 'destinations', place.slug]">
+                      {{ place.title }}
+                    </a>
+                  }
+                </div>
+              </div>
+            }
+          </div>
+
+          @if (vm.gallery.length) {
+            <app-tour-gallery-preview
+              [images]="vm.gallery"
+              (openGallery)="openGallery($event)"
+            />
+          }
+
+          <div class="exp-detail__panel" appReveal>
+            <div>
+              <p class="exp-detail__label">Travel with us</p>
+              <h2>Add {{ experience.title }} to your private journey</h2>
+              <p>
+                Ask for this as a highlight day, or fold it into a multi-day route
+                with stays and timing already considered.
+              </p>
+            </div>
+            <a appUiButton variant="primary" [routerLink]="['/', vm.lang, 'contact']">
+              Contact our planners
+            </a>
+          </div>
+        </app-ui-container>
+      </div>
+
+      <app-tour-related [tours]="vm.related" [lang]="vm.lang" />
+
+      @if (vm.gallery.length) {
+        <app-lightbox
+          [open]="galleryOpen()"
+          [images]="vm.gallery"
+          [startIndex]="galleryStart()"
+          (closed)="closeGallery()"
+        />
+      }
+    </article>
+  } @else {
+    <section class="exp-detail__missing">
+      <app-ui-container>
+        <h1>Experience not found</h1>
+        <p>This experience isn’t listed yet browse all things to do instead.</p>
+        <a appUiButton variant="primary" [routerLink]="['/', vm.lang, 'things-to-do']">
+          Back to experiences
+        </a>
+      </app-ui-container>
+    </section>
+  }
+}

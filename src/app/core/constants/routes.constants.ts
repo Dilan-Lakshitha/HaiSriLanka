@@ -1,0 +1,21 @@
+/** SEO-friendly path segments (English canonical). Locale is prepended separately. */
+export const ROUTE_PATHS = {
+  home: '',
+  about: 'about',
+  toursHub: 'sri-lanka-tours',
+  dayTours: 'day-tours',
+  dayTour: 'day-tour',
+  multiDayTours: 'multi-day-tours',
+  multiDayTour: 'multi-day-tour',
+  destinations: 'destinations',
+  travelGuide: 'travel-guide',
+  thingsToDo: 'things-to-do',
+  reviews: 'reviews',
+  faq: 'faq',
+  contact: 'contact',
+  blog: 'blog',
+  specialOffers: 'special-offers',
+  booking: 'booking',
+  privacy: 'privacy',
+  terms: 'terms',
+} as const;

@@ -1,0 +1,53 @@
+<header
+  class="site-header"
+  [class.site-header--solid]="solid()"
+  [class.site-header--over-hero]="overHero() && !scrolled()"
+>
+  <app-top-bar />
+
+  <div class="site-header__nav">
+    <div class="site-header__inner">
+      @if (company$ | async; as company) {
+        <a class="site-header__brand" [routerLink]="['/', locale.activeLang()]">
+          @if (solid()) {
+            <img
+              class="site-header__logo"
+              [ngSrc]="company.logos.sticky.src"
+              [alt]="company.logos.sticky.alt"
+              [title]="company.brandName"
+              [width]="company.logos.sticky.width || 180"
+              [height]="company.logos.sticky.height || 48"
+              priority
+            />
+          } @else {
+            <img
+              class="site-header__logo"
+              [ngSrc]="company.logos.onDark.src"
+              [alt]="company.logos.onDark.alt"
+              [title]="company.brandName"
+              [width]="company.logos.onDark.width || 180"
+              [height]="company.logos.onDark.height || 48"
+              priority
+            />
+          }
+          <span class="visually-hidden">{{ company.brandName }}</span>
+        </a>
+      }
+
+      @if (primaryNav$ | async; as items) {
+        <app-main-nav [items]="items" [lang]="locale.activeLang()" />
+        <div class="site-header__actions">
+          <app-language-switcher [currentLang]="locale.activeLang()" />
+          <app-mobile-nav [items]="items" [lang]="locale.activeLang()" />
+        </div>
+      }
+    </div>
+  </div>
+</header>
+
+<!-- Keeps page content below the always-fixed header on non-hero routes. -->
+<div
+  class="site-header-spacer"
+  [class.site-header-spacer--active]="needsSpacer()"
+  aria-hidden="true"
+></div>

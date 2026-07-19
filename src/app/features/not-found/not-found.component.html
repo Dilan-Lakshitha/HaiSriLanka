@@ -1,0 +1,9 @@
+<app-ui-section>
+  <app-ui-container [narrow]="true">
+    <app-ui-heading [level]="1">{{ 'common.notFoundTitle' | transloco }}</app-ui-heading>
+    <p>{{ 'common.notFoundBody' | transloco }}</p>
+    <a appUiButton variant="primary" [routerLink]="['/', locale.activeLang()]">
+      {{ 'common.backHome' | transloco }}
+    </a>
+  </app-ui-container>
+</app-ui-section>

@@ -1,0 +1,5 @@
+{
+  "currency": "USD",
+  "notes": "Tour-level personPricing in tour JSON is source of truth. This file holds optional seasonal overrides for future use.",
+  "seasonalOverrides": []
+}

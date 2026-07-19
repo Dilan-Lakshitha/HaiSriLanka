@@ -1,0 +1,72 @@
+@if (open() && current(); as image) {
+  <div
+    class="lightbox"
+    role="dialog"
+    aria-modal="true"
+    [attr.aria-label]="'Gallery · ' + images().length + ' photos'"
+    (click)="close()"
+  >
+    <button
+      type="button"
+      class="lightbox__close"
+      (click)="$event.stopPropagation(); close()"
+      aria-label="Close gallery"
+    >
+      Close
+    </button>
+
+    <p class="lightbox__count" (click)="$event.stopPropagation()">
+      {{ images().length }} photos · {{ index() + 1 }} / {{ images().length }}
+    </p>
+
+    <button
+      type="button"
+      class="lightbox__nav lightbox__nav--prev"
+      (click)="$event.stopPropagation(); prev()"
+      aria-label="Previous photo"
+    >
+      ‹
+    </button>
+
+    <figure class="lightbox__figure" (click)="$event.stopPropagation()">
+      <img
+        [src]="image.src"
+        [alt]="image.alt"
+        [title]="image.title || image.alt"
+        decoding="async"
+      />
+      <figcaption>{{ image.alt || image.title }}</figcaption>
+    </figure>
+
+    <button
+      type="button"
+      class="lightbox__nav lightbox__nav--next"
+      (click)="$event.stopPropagation(); next()"
+      aria-label="Next photo"
+    >
+      ›
+    </button>
+
+    <ul
+      class="lightbox__thumbs"
+      role="list"
+      aria-label="All gallery photos"
+      (click)="$event.stopPropagation()"
+    >
+      @for (thumb of images(); track thumb.src; let i = $index) {
+        <li>
+          <button
+            type="button"
+            class="lightbox__thumb"
+            [class.is-active]="index() === i"
+            [attr.aria-label]="'Photo ' + (i + 1) + ' of ' + images().length"
+            [attr.aria-current]="index() === i ? 'true' : null"
+            (click)="goTo(i)"
+          >
+            <img [src]="thumb.src" [alt]="thumb.alt" loading="lazy" decoding="async" />
+          </button>
+        </li>
+      }
+    </ul>
+  </div>
+}

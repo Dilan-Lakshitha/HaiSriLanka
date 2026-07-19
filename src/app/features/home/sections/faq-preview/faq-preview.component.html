@@ -1,0 +1,24 @@
+<section class="faq" aria-labelledby="faq-title" appReveal>
+  <app-ui-container>
+    <header class="faq__header">
+      <div>
+        <p class="faq__eyebrow">{{ intro().eyebrow }}</p>
+        <h2 id="faq-title">{{ intro().title }}</h2>
+        <p>{{ intro().subtitle }}</p>
+      </div>
+      @if (intro().viewAllPath && intro().viewAllLabel) {
+        <a appUiButton variant="ghost" [routerLink]="['/', lang(), intro().viewAllPath]">
+          {{ intro().viewAllLabel }}
+        </a>
+      }
+    </header>
+    <div class="faq__list">
+      @for (item of items(); track item.question) {
+        <details class="faq__item">
+          <summary>{{ item.question }}</summary>
+          <p>{{ item.answer }}</p>
+        </details>
+      }
+    </div>
+  </app-ui-container>
+</section>

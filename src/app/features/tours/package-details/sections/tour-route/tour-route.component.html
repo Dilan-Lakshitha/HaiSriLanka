@@ -1,0 +1,24 @@
+@if (stops().length) {
+  <section class="route" aria-labelledby="route-title" appReveal>
+    <p class="route__eyebrow">Tour route</p>
+    <h2 id="route-title">Journey path</h2>
+    <ol class="route__path">
+      @for (stop of stops(); track stop.name; let last = $last) {
+        <li>
+          <span>{{ stop.name }}</span>
+          @if (!last) {
+            <span class="route__arrow" aria-hidden="true">↓</span>
+          }
+        </li>
+      }
+    </ol>
+    <a
+      class="route__maps"
+      [href]="mapsUrl()"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Open Google Maps
+    </a>
+  </section>
+}

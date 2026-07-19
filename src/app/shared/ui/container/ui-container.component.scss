@@ -1,0 +1,8 @@
+.ui-container {
+  width: min(100% - 2.5rem, var(--container));
+  margin-inline: auto;
+
+  &--narrow {
+    width: min(100% - 2.5rem, var(--container-narrow));
+  }
+}

@@ -1,0 +1,11 @@
+<app-form-field [label]="label()" [forId]="forId()">
+  <input
+    type="date"
+    [id]="forId()"
+    [value]="value"
+    [min]="min()"
+    [disabled]="disabled"
+    (input)="onInput($event)"
+    (blur)="onTouched()"
+  />
+</app-form-field>

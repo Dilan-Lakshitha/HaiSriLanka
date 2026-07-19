@@ -1,0 +1,201 @@
+.tour-hub {
+  background:
+    radial-gradient(ellipse 80% 50% at 10% 0%, color-mix(out srgb, var(--color-gold) 12%, transparent), transparent),
+    linear-gradient(180deg, color-mix(out srgb, var(--color-sand) 92%, #fff) 0%, var(--color-sand) 100%);
+  padding-bottom: 3.5rem;
+
+  &__hero {
+    position: relative;
+    min-height: min(52vh, 28rem);
+    display: grid;
+    align-items: end;
+    color: var(--color-sand);
+    overflow: hidden;
+  }
+
+  &__hero-media {
+    position: absolute;
+    inset: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__hero-veil {
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(115deg, rgba(9, 24, 44, 0.78) 0%, rgba(9, 24, 44, 0.35) 55%, rgba(9, 24, 44, 0.62) 100%),
+      linear-gradient(180deg, rgba(15, 39, 68, 0.2), rgba(9, 24, 44, 0.9));
+  }
+
+  &__hero-copy {
+    position: relative;
+    z-index: 1;
+    padding: calc(var(--header-height) + 2.5rem) 0 2.5rem;
+    max-width: 42rem;
+
+    :host ::ng-deep .breadcrumb,
+    ::ng-deep .breadcrumb {
+      margin-bottom: 1rem;
+
+      a,
+      span {
+        color: color-mix(out srgb, var(--color-sand) 88%, transparent);
+      }
+
+      a:hover {
+        color: var(--color-gold);
+      }
+    }
+
+    h1 {
+      margin: 0 0 0.7rem;
+      font-size: clamp(2.1rem, 5vw, 3.4rem);
+      color: var(--color-sand);
+      line-height: 1.12;
+    }
+
+    > p:last-child {
+      margin: 0;
+      max-width: 38ch;
+      opacity: 0.92;
+      font-size: 1.05rem;
+    }
+  }
+
+  &__eyebrow {
+    margin: 0 0 0.45rem;
+    color: var(--color-gold);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  &__tabs {
+    padding: 1.5rem 0 0;
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-sand);
+  }
+
+  &__tablist {
+    display: flex;
+    gap: 0;
+    border-bottom: 1px solid var(--color-border);
+
+    button {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      padding: 0.95rem 1.25rem 0.85rem;
+      font: inherit;
+      cursor: pointer;
+      color: var(--color-ink-muted);
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.55rem;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: color 180ms ease, border-color 180ms ease;
+
+      &:hover {
+        color: var(--color-navy);
+      }
+
+      &.is-active {
+        color: var(--color-navy);
+        border-bottom-color: var(--color-gold);
+      }
+    }
+  }
+
+  &__tab-label {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+  }
+
+  &__tab-count {
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    color: var(--color-ink-muted);
+  }
+
+  &__panel-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1.35rem 0 1rem;
+
+    h2 {
+      margin: 0 0 0.25rem;
+      color: var(--color-navy);
+      font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+    }
+  }
+
+  &__panel-meta {
+    margin: 0;
+    color: var(--color-ink-muted);
+    font-size: 0.9rem;
+  }
+
+  &__filters {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: minmax(0, 1.6fr) repeat(2, minmax(0, 0.9fr));
+    padding-bottom: 1.25rem;
+
+    @media (max-width: 800px) {
+      grid-template-columns: 1fr;
+    }
+
+    label {
+      display: grid;
+      gap: 0.3rem;
+      font-size: 0.78rem;
+      color: var(--color-ink-muted);
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 0.65rem 0.75rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm, 8px);
+      background: var(--color-white);
+      font: inherit;
+      color: var(--color-ink);
+    }
+  }
+
+  &__results {
+    padding-top: 1.75rem;
+  }
+
+  &__grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1.35rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    @media (max-width: 1000px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__empty {
+    margin: 2rem 0;
+    color: var(--color-ink-muted);
+  }
+}

@@ -1,0 +1,418 @@
+[
+  {
+    "id": "exp-wildlife-safaris",
+    "slug": "wildlife-safaris",
+    "title": "Wildlife Safaris",
+    "shortDescription": "Private jeep mornings for leopard, elephant, and park light.",
+    "description": "Move at dawn through scrub, lagoon, and grassland with a private jeep and guide who knows when to wait. From Yala to broader park circuits, safari days are paced for sightings never rushed convoy chaos then ease into southern coast nights on longer itineraries.",
+    "category": "Wildlife",
+    "highlights": [
+      "Private jeep safaris at first light",
+      "Leopard and elephant habitat across southern parks",
+      "Calm pacing with expert trackers",
+      "Pairs seamlessly with south-coast stays"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+        "alt": "Elephant herd seen from a safari jeep",
+        "title": "Safari elephants",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/hero/carousel-yala-leopard.jpg",
+        "alt": "Leopard resting on a sandy track",
+        "title": "Leopard sighting",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+        "alt": "Elephants bathing in a river",
+        "title": "River elephants",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/destinations/yala.webp",
+        "alt": "Yala National Park landscape",
+        "title": "Yala landscape",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": ["10-days-classic-ceylon", "14-days-grand-sri-lanka", "7-days-sri-lanka-highlights"],
+    "relatedDestinationSlugs": ["yala"],
+    "seo": {
+      "metaTitle": "Wildlife Safaris in Sri Lanka | Experiences | Hai Sri Lanka",
+      "metaDescription": "Private wildlife safaris with Hai Sri Lanka Yala game drives, elephants, and carefully paced park mornings.",
+      "keywords": ["Sri Lanka safari", "Yala safari", "wildlife experiences"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "exp-elephant-encounters",
+    "slug": "elephant-encounters",
+    "title": "Elephant Encounters",
+    "shortDescription": "River baths, forest rides, and respectful wildlife moments.",
+    "description": "Meet Asia’s gentle giants through carefully chosen encounters riverside bathing, forest rides near Sigiriya, and ethical viewing that puts animal welfare first. Ideal as a highlight day within Cultural Triangle or highland routes.",
+    "category": "Wildlife",
+    "highlights": [
+      "River bathing experiences with guides",
+      "Forest elephant rides near Sigiriya",
+      "Ethical, welfare-first partners only",
+      "Memorable for families and couples"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/tours/guest-experiences/elephant-bathing-guests.png",
+        "alt": "Guests bathing an elephant in a river",
+        "title": "Elephant bathing",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/elephant-ride-forest.png",
+        "alt": "Couple on an elephant ride in the forest",
+        "title": "Forest ride",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+        "alt": "Guests riding an elephant near Sigiriya",
+        "title": "Sigiriya elephants",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/elephants-town-walk.png",
+        "alt": "Elephants walking through a Sri Lankan town",
+        "title": "Town elephants",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "relatedTourSlugs": ["sigiriya-dambulla-day-tour", "7-days-sri-lanka-highlights", "10-days-classic-ceylon"],
+    "relatedDestinationSlugs": ["sigiriya"],
+    "seo": {
+      "metaTitle": "Elephant Experiences in Sri Lanka | Hai Sri Lanka",
+      "metaDescription": "Plan ethical elephant encounters with Hai Sri Lanka bathing, forest rides, and Cultural Triangle wildlife moments.",
+      "keywords": ["elephant experience Sri Lanka", "elephant bath", "Sigiriya elephants"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "exp-temple-heritage",
+    "slug": "temple-heritage",
+    "title": "Temples & Heritage",
+    "shortDescription": "Cave temples, sacred cities, and living Buddhist culture.",
+    "description": "Step into Sri Lanka’s spiritual architecture Dambulla’s painted caves, Kandy’s Temple of the Tooth, and ancient capitals of the Cultural Triangle. Private guides keep temple etiquette clear and pacing unhurried so the atmosphere stays intact.",
+    "category": "Culture",
+    "highlights": [
+      "Dambulla Cave Temple and Golden Temple",
+      "Temple of the Tooth in Kandy",
+      "Cultural Triangle sacred cities",
+      "Local hosts for etiquette and storytelling"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+        "alt": "Travelers at Dambulla Cave Temple",
+        "title": "Dambulla caves",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/dambulla-golden-temple.png",
+        "alt": "Golden Temple at Dambulla",
+        "title": "Golden Temple",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/hero/carousel-kandy-perahera.jpg",
+        "alt": "Ceremonial elephants by the Temple of the Tooth",
+        "title": "Kandy culture",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/assets/images/destinations/kandy.webp",
+        "alt": "Temple complex in Kandy",
+        "title": "Kandy temples",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": ["sigiriya-dambulla-day-tour", "kandy-day-tour", "10-days-classic-ceylon"],
+    "relatedDestinationSlugs": ["sigiriya", "kandy", "anuradhapura", "polonnaruwa"],
+    "seo": {
+      "metaTitle": "Temple & Heritage Experiences | Hai Sri Lanka",
+      "metaDescription": "Explore Sri Lanka’s temples and heritage with Hai Sri Lanka Dambulla, Kandy, and Cultural Triangle private tours.",
+      "keywords": ["Dambulla Cave Temple", "Temple of the Tooth", "Sri Lanka heritage"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "exp-mangrove-boat",
+    "slug": "mangrove-boat-safaris",
+    "title": "Mangrove Boat Safaris",
+    "shortDescription": "Quiet waterways, root tunnels, and south-coast wildlife.",
+    "description": "Slip into mangrove tunnels on a private boat birds overhead, still water under the hull, and a slower coastal rhythm. Perfect as a half-day beside Galle Fort walks or a soft adventure on southern routes.",
+    "category": "Coast",
+    "highlights": [
+      "Private mangrove boat channels",
+      "Birdlife and lagoon scenery",
+      "Ideal pair with Galle day tours",
+      "Gentle adventure for all ages"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+        "alt": "Guests on a mangrove boat safari",
+        "title": "Mangrove boat",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/destinations/galle.webp",
+        "alt": "Galle southern coast nearby",
+        "title": "South coast",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/south-coast.webp",
+        "alt": "Southern coastal scenery",
+        "title": "Coastal light",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+        "alt": "Guests enjoying a coastal day with their guide",
+        "title": "Coastal days",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "relatedTourSlugs": ["galle-day-tour", "7-days-sri-lanka-highlights", "14-days-grand-sri-lanka"],
+    "relatedDestinationSlugs": ["galle"],
+    "seo": {
+      "metaTitle": "Mangrove Boat Safaris | Experiences | Hai Sri Lanka",
+      "metaDescription": "Private mangrove boat safaris with Hai Sri Lanka quiet channels, wildlife, and Galle coast days.",
+      "keywords": ["mangrove boat Sri Lanka", "Madu River", "south coast experiences"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "exp-tuk-tuk",
+    "slug": "tuk-tuk-adventures",
+    "title": "Tuk-Tuk Adventures",
+    "shortDescription": "Local lanes, open-air rides, and city soul.",
+    "description": "See towns the way locals do open sides, market turns, and a chauffeur guide who knows the shortcuts. Tuk-tuk hops thread between temples, cafés, and viewpoints without the sealed-bus feeling of a group coach.",
+    "category": "Adventure",
+    "highlights": [
+      "Open-air city and town circuits",
+      "Photogenic local neighborhoods",
+      "Flexible stops with your guide",
+      "Great ice-breaker on any day tour"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+        "alt": "Guests and guide smiling in a tuk-tuk",
+        "title": "Tuk-tuk ride",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/destinations/colombo.webp",
+        "alt": "Colombo cityscapes for tuk-tuk circuits",
+        "title": "City circuits",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/kandy.webp",
+        "alt": "Kandy streets and lake roads",
+        "title": "Kandy rides",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/galle.webp",
+        "alt": "Galle Fort and coastal roads",
+        "title": "Galle lanes",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": ["galle-day-tour", "kandy-day-tour", "sigiriya-dambulla-day-tour"],
+    "relatedDestinationSlugs": ["colombo", "kandy", "galle"],
+    "seo": {
+      "metaTitle": "Tuk-Tuk Adventures in Sri Lanka | Hai Sri Lanka",
+      "metaDescription": "Private tuk-tuk adventures with Hai Sri Lanka local lanes, flexible city stops, and open-air travel.",
+      "keywords": ["tuk tuk Sri Lanka", "Colombo tuk tuk", "local experiences"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "exp-highland-scenic",
+    "slug": "highland-scenic",
+    "title": "Highland & Scenic Rails",
+    "shortDescription": "Tea mist, Nine Arch Bridge, and cool mountain air.",
+    "description": "Climb into Sri Lanka’s hill country for tea slopes, iconic bridges, and scenic train windows. Ella and tea country deliver soft adventure short walks, cool mornings, and viewpoints that earn their place on classic island routes.",
+    "category": "Adventure",
+    "highlights": [
+      "Nine Arch Bridge viewpoints",
+      "Tea estate walks and tastings",
+      "Scenic highland train segments",
+      "Cool-climate boutique stays"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+        "alt": "Family at Nine Arch Bridge in Ella",
+        "title": "Nine Arch Bridge",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/destinations/ella-bridge.webp",
+        "alt": "Nine Arch Bridge in Ella tea country",
+        "title": "Ella highlands",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/tea-country.webp",
+        "alt": "Tea plantations in the highlands",
+        "title": "Tea country",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/hero/carousel-nine-arch-ella.jpg",
+        "alt": "Nine Arch Bridge rising above tea plantations",
+        "title": "Highland scenery",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "relatedTourSlugs": ["7-days-sri-lanka-highlights", "10-days-classic-ceylon", "14-days-grand-sri-lanka"],
+    "relatedDestinationSlugs": ["ella", "tea-country", "kandy"],
+    "seo": {
+      "metaTitle": "Highland & Scenic Rail Experiences | Hai Sri Lanka",
+      "metaDescription": "Discover Ella and tea country with Hai Sri Lanka Nine Arch Bridge, highland trains, and private mountain routes.",
+      "keywords": ["Ella Nine Arch Bridge", "tea country Sri Lanka", "highland train"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "exp-village-life",
+    "slug": "village-life",
+    "title": "Village Life",
+    "shortDescription": "Tractor rides, countryside hospitality, and rural Sri Lanka.",
+    "description": "Leave the highway for village lanes tractor carts, rice fields, home hospitality, and the quieter rhythms that travelers remember longest. Soft cultural immersion that slots into multi-day itineraries without feeling staged.",
+    "category": "Village",
+    "highlights": [
+      "Village tractor and countryside rides",
+      "Local meals and family hosts",
+      "Rice field and rural photography",
+      "Authentic pacing away from crowds"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+        "alt": "Family on a village tractor ride",
+        "title": "Village tractor",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/assets/images/hero/carousel-king-coconut.png",
+        "alt": "Guests enjoying king coconuts with a local host",
+        "title": "Local hospitality",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/cycling-trail-family.png",
+        "alt": "Family exploring rural trails",
+        "title": "Countryside trails",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/assets/images/destinations/anuradhapura.webp",
+        "alt": "Heritage countryside near Cultural Triangle villages",
+        "title": "Heritage countryside",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": ["10-days-classic-ceylon", "14-days-grand-sri-lanka", "7-days-sri-lanka-highlights"],
+    "relatedDestinationSlugs": ["anuradhapura", "polonnaruwa", "sigiriya"],
+    "seo": {
+      "metaTitle": "Village Life Experiences in Sri Lanka | Hai Sri Lanka",
+      "metaDescription": "Experience Sri Lankan village life with Hai Sri Lanka tractor rides, local hosts, and countryside hospitality.",
+      "keywords": ["village tour Sri Lanka", "rural experiences", "local hospitality"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "exp-cycling-trails",
+    "slug": "cycling-trails",
+    "title": "Cycling Trails",
+    "shortDescription": "Active mornings on shaded paths and country lanes.",
+    "description": "Pedal through tropical greenery on quiet tracks family-friendly routes and guided rides that stretch the legs without turning the day into a race. Pair cycling with tea country, villages, or coast depending on your itinerary.",
+    "category": "Adventure",
+    "highlights": [
+      "Guided trails through greenery",
+      "Family-friendly pace options",
+      "Scenic countryside and canopy roads",
+      "Active balance on luxury itineraries"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/tours/guest-experiences/cycling-trail-family.png",
+        "alt": "Family cycling on a tropical trail",
+        "title": "Family cycling",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/cycling-pair.png",
+        "alt": "Guests on a cycling tour",
+        "title": "Cycling tour",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/assets/images/destinations/tea-country.webp",
+        "alt": "Highland scenery for active days",
+        "title": "Active highlands",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+        "alt": "Rural landscapes near cycling routes",
+        "title": "Rural routes",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "relatedTourSlugs": ["10-days-classic-ceylon", "14-days-grand-sri-lanka"],
+    "relatedDestinationSlugs": ["tea-country", "ella"],
+    "seo": {
+      "metaTitle": "Cycling Trails in Sri Lanka | Experiences | Hai Sri Lanka",
+      "metaDescription": "Cycle Sri Lanka’s countryside with Hai Sri Lanka guided trails, family-friendly pace, and scenic highland lanes.",
+      "keywords": ["cycling Sri Lanka", "bike tours Sri Lanka", "active travel"]
+    },
+    "status": "published"
+  }
+]

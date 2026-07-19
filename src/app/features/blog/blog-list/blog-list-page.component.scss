@@ -1,0 +1,148 @@
+.blog-list {
+  &__hero {
+    position: relative;
+    min-height: 52vh;
+    display: grid;
+    align-items: end;
+    color: var(--color-sand);
+    overflow: hidden;
+    padding-top: calc(var(--header-height) + 2.4rem);
+  }
+
+  &__hero-media {
+    position: absolute;
+    inset: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__hero-veil {
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(180deg, rgba(15, 39, 68, 0.35) 0%, rgba(9, 24, 44, 0.88) 100%),
+      linear-gradient(90deg, rgba(11, 61, 46, 0.35), transparent 55%);
+  }
+
+  &__hero-copy {
+    position: relative;
+    z-index: 1;
+    padding: 1.75rem 0 2.5rem;
+    max-width: 42rem;
+
+    h1 {
+      margin: 0.35rem 0 0.75rem;
+      color: var(--color-sand);
+      font-size: clamp(1.85rem, 4vw, 2.85rem);
+      line-height: 1.15;
+    }
+
+    p:last-child {
+      margin: 0;
+      opacity: 0.92;
+      line-height: 1.6;
+      max-width: 44ch;
+    }
+  }
+
+  &__eyebrow {
+    margin: 0.85rem 0 0;
+    color: var(--color-gold);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  &__body {
+    padding: clamp(1.75rem, 3.5vw, 2.75rem) 0 3rem;
+  }
+
+  &__toolbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    align-items: end;
+    flex-wrap: wrap;
+    margin-bottom: 1.35rem;
+
+    h2 {
+      margin: 0 0 0.25rem;
+      color: var(--color-navy);
+    }
+  }
+
+  &__meta {
+    margin: 0;
+    color: var(--color-ink-muted);
+    font-size: 0.9rem;
+  }
+
+  &__filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  &__chip {
+    border: 1px solid var(--color-border);
+    background: var(--color-white);
+    color: var(--color-navy);
+    border-radius: 999px;
+    padding: 0.4rem 0.85rem;
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-transform: capitalize;
+
+    &.is-active,
+    &:hover,
+    &:focus-visible {
+      border-color: var(--color-gold);
+      background: color-mix(in srgb, var(--color-gold) 14%, white);
+      outline: none;
+    }
+  }
+
+  &__grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    @media (max-width: 960px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 560px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__empty {
+    color: var(--color-ink-muted);
+  }
+
+  &__cta {
+    margin-top: 2.25rem;
+    padding: 1.35rem 1.25rem;
+    border-radius: var(--radius-md);
+    background: var(--color-navy);
+    color: var(--color-sand);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    p {
+      margin: 0;
+      max-width: 36ch;
+    }
+  }
+}

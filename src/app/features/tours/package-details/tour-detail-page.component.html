@@ -1,0 +1,57 @@
+@if (vm$ | async; as vm) {
+  @if (vm) {
+    <article class="tour-detail">
+      <app-tour-hero
+        [tour]="vm.tour"
+        [lang]="vm.lang"
+        [galleryCount]="vm.galleryCount"
+        (openGallery)="openGallery(0)"
+      />
+
+      <div class="tour-detail__body">
+        <app-ui-container>
+          <div class="tour-detail__intro">
+            <app-tour-overview [tour]="vm.tour" mode="story" />
+            <app-tour-gallery-preview
+              [images]="vm.gallery"
+              (openGallery)="openGallery($event)"
+            />
+            <app-tour-overview [tour]="vm.tour" mode="facts" />
+          </div>
+
+          <!-- Booking sticks from Highlights through FAQ, then releases before Continue exploring -->
+          <div class="tour-detail__grid">
+            <div class="tour-detail__main">
+              @if (vm.tour.highlights?.length) {
+                <app-tour-highlights [highlights]="vm.tour.highlights" />
+              }
+              <app-tour-itinerary [days]="vm.tour.itinerary" />
+              <app-tour-includes [includes]="vm.included" [excludes]="vm.excluded" />
+              <app-tour-faq [items]="vm.faqs" />
+            </div>
+
+            <div class="tour-detail__aside">
+              <div class="tour-detail__sticky">
+                <app-tour-booking [tour]="vm.tour" />
+              </div>
+            </div>
+          </div>
+        </app-ui-container>
+      </div>
+
+      <app-tour-related [tours]="vm.related" [lang]="vm.lang" />
+      <app-tour-mobile-book-bar [tour]="vm.tour" />
+
+      @if (vm.galleryCount > 0) {
+        <app-lightbox
+          [open]="galleryOpen()"
+          [images]="vm.gallery"
+          [startIndex]="galleryStart()"
+          (closed)="closeGallery()"
+        />
+      }
+    </article>
+  } @else {
+    <p class="tour-detail__missing">Tour not found.</p>
+  }
+}

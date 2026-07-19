@@ -1,0 +1,83 @@
+:host.ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.78rem 1.35rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 560;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition:
+    background var(--duration-med) var(--ease-premium),
+    color var(--duration-med) var(--ease-premium),
+    border-color var(--duration-med) var(--ease-premium),
+    transform var(--duration-med) var(--ease-premium),
+    box-shadow var(--duration-med) var(--ease-premium);
+}
+
+:host.ui-button--primary {
+  background: var(--color-gold);
+  color: var(--color-navy);
+  box-shadow: 0 10px 24px rgba(201, 162, 39, 0.28);
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, transparent 20%, rgba(255, 255, 255, 0.35), transparent 80%);
+    transform: translateX(-120%);
+    transition: transform 0.7s var(--ease-premium);
+  }
+
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-2px);
+    background: color-mix(out srgb, var(--color-gold) 88%, white);
+    box-shadow: 0 14px 30px rgba(201, 162, 39, 0.38);
+
+    &::after {
+      transform: translateX(120%);
+    }
+  }
+}
+
+:host.ui-button--secondary {
+  background: var(--color-green);
+  color: var(--color-sand);
+
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-2px);
+    background: color-mix(out srgb, var(--color-green) 88%, black);
+  }
+}
+
+:host.ui-button--ghost {
+  background: transparent;
+  border-color: color-mix(out srgb, var(--color-gold) 55%, transparent);
+  color: inherit;
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--color-gold);
+    color: var(--color-gold);
+    background: color-mix(out srgb, var(--color-gold) 10%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :host.ui-button {
+    transition: none;
+
+    &::after {
+      display: none;
+    }
+  }
+}

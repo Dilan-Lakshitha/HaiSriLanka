@@ -1,0 +1,77 @@
+@if (vm$ | async; as vm) {
+  <article class="blog-list">
+    <section class="blog-list__hero">
+      <div class="blog-list__hero-media" aria-hidden="true">
+        <img
+          [ngSrc]="vm.heroImage.src"
+          [alt]="vm.heroImage.alt"
+          [width]="vm.heroImage.width || 1400"
+          [height]="vm.heroImage.height || 788"
+          priority
+        />
+        <div class="blog-list__hero-veil"></div>
+      </div>
+      <app-ui-container>
+        <div class="blog-list__hero-copy">
+          <app-breadcrumb />
+          <p class="blog-list__eyebrow">Travel journal</p>
+          <h1>Ideas for your Sri Lanka trip</h1>
+          <p>
+            Practical guides and quiet luxuries of pacing seasons, packing,
+            temples, safari mornings, and highland days.
+          </p>
+        </div>
+      </app-ui-container>
+    </section>
+
+    <section class="blog-list__body" appReveal>
+      <app-ui-container>
+        <div class="blog-list__toolbar">
+          <div>
+            <h2>All articles</h2>
+            <p class="blog-list__meta">{{ vm.filtered.length }} stories & guides</p>
+          </div>
+          <div class="blog-list__filters" role="group" aria-label="Filter by tag">
+            <button
+              type="button"
+              class="blog-list__chip"
+              [class.is-active]="vm.tag === 'all'"
+              (click)="setTag('all')"
+            >
+              All
+            </button>
+            @for (tag of vm.tags; track tag) {
+              <button
+                type="button"
+                class="blog-list__chip"
+                [class.is-active]="vm.tag === tag"
+                (click)="setTag(tag)"
+              >
+                {{ tag }}
+              </button>
+            }
+          </div>
+        </div>
+
+        @if (vm.filtered.length) {
+          <ul class="blog-list__grid">
+            @for (post of vm.filtered; track post.slug) {
+              <li>
+                <app-blog-card [post]="post" [lang]="vm.lang" />
+              </li>
+            }
+          </ul>
+        } @else {
+          <p class="blog-list__empty">No articles with this tag yet.</p>
+        }
+
+        <div class="blog-list__cta">
+          <p>Ready to turn reading into a private itinerary?</p>
+          <a appUiButton variant="primary" [routerLink]="['/', vm.lang, 'sri-lanka-tours']">
+            Explore tours
+          </a>
+        </div>
+      </app-ui-container>
+    </section>
+  </article>
+}

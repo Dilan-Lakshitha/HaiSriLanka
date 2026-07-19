@@ -1,0 +1,112 @@
+<section class="itinerary" aria-labelledby="itinerary-title" appReveal>
+  <header class="itinerary__intro">
+    <p class="itinerary__eyebrow">Day by day</p>
+    <h2 id="itinerary-title">Itinerary</h2>
+  </header>
+
+  <ol class="itinerary__timeline">
+    @for (day of days(); track day.day) {
+      <li
+        class="itinerary__day"
+        [class.itinerary__day--open]="isExpanded(day.day)"
+      >
+        <div class="itinerary__rail" aria-hidden="true">
+          <span class="itinerary__dot">{{ day.day }}</span>
+        </div>
+
+        <article class="itinerary__card">
+          <div class="itinerary__collapsed">
+            <div class="itinerary__copy">
+              <p class="itinerary__day-label">Day {{ day.day }}</p>
+              <h3>{{ day.title }}</h3>
+              <dl class="itinerary__meta">
+                @if (locationsLabel(day)) {
+                  <div>
+                    <dt>Locations</dt>
+                    <dd>{{ locationsLabel(day) }}</dd>
+                  </div>
+                }
+                @if (day.travelTime) {
+                  <div>
+                    <dt>Travel time</dt>
+                    <dd>{{ day.travelTime }}</dd>
+                  </div>
+                }
+                @if (day.meals?.length) {
+                  <div>
+                    <dt>Meals</dt>
+                    <dd>{{ day.meals!.join(', ') }}</dd>
+                  </div>
+                }
+                @if (day.accommodation) {
+                  <div>
+                    <dt>Accommodation</dt>
+                    <dd>{{ day.accommodation }}</dd>
+                  </div>
+                }
+              </dl>
+
+              @if (day.highlights?.length) {
+                <ul class="itinerary__highlights">
+                  @for (item of day.highlights!.slice(0, 3); track item) {
+                    <li>{{ item }}</li>
+                  }
+                </ul>
+              }
+            </div>
+
+            @if (day.images?.[0]; as thumb) {
+              <div class="itinerary__thumb">
+                <img
+                  [ngSrc]="thumb.src"
+                  [alt]="thumb.alt"
+                  [title]="thumb.title || thumb.alt"
+                  width="160"
+                  height="120"
+                  loading="lazy"
+                />
+              </div>
+            }
+
+            <button
+              type="button"
+              class="itinerary__expand"
+              [attr.aria-expanded]="isExpanded(day.day)"
+              (click)="toggle(day.day)"
+            >
+              {{ isExpanded(day.day) ? 'Collapse' : 'Expand' }}
+            </button>
+          </div>
+
+          @if (isExpanded(day.day)) {
+            <div class="itinerary__panel">
+              <p>{{ day.description }}</p>
+
+              @if (day.highlights?.length) {
+                <div>
+                  <h4>Highlights</h4>
+                  <ul>
+                    @for (item of day.highlights!; track item) {
+                      <li>{{ item }}</li>
+                    }
+                  </ul>
+                </div>
+              }
+
+              @if (day.optionalActivities?.length) {
+                <div>
+                  <h4>Optional activities</h4>
+                  <ul>
+                    @for (item of day.optionalActivities!; track item) {
+                      <li>{{ item }}</li>
+                    }
+                  </ul>
+                </div>
+              }
+            </div>
+          }
+        </article>
+      </li>
+    }
+  </ol>
+</section>

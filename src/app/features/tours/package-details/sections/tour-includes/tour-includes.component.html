@@ -1,0 +1,21 @@
+<section class="includes" aria-labelledby="includes-title" appReveal>
+  <h2 id="includes-title" class="visually-hidden">Included and excluded</h2>
+  <div class="includes__grid">
+    <div>
+      <h3>Included</h3>
+      <ul>
+        @for (item of includes(); track item) {
+          <li>{{ item }}</li>
+        }
+      </ul>
+    </div>
+    <div>
+      <h3>Excluded</h3>
+      <ul>
+        @for (item of excludes(); track item) {
+          <li>{{ item }}</li>
+        }
+      </ul>
+    </div>
+  </div>
+</section>

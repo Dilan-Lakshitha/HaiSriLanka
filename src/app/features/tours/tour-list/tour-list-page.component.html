@@ -1,0 +1,148 @@
+@if (vm$ | async; as vm) {
+  <article class="tour-list">
+    <section class="tour-list__hero">
+      <div class="tour-list__hero-media" aria-hidden="true">
+        <img
+          [ngSrc]="vm.content.hero.image.src"
+          [alt]="vm.content.hero.image.alt"
+          [width]="vm.content.hero.image.width || 1600"
+          [height]="vm.content.hero.image.height || 900"
+          priority
+        />
+        <div class="tour-list__hero-veil"></div>
+      </div>
+      <app-ui-container>
+        <div class="tour-list__hero-copy">
+          <app-breadcrumb />
+          <p class="tour-list__eyebrow">{{ vm.content.hero.eyebrow }}</p>
+          <h1>{{ vm.content.hero.title }}</h1>
+          <p>{{ vm.content.hero.subtitle }}</p>
+        </div>
+      </app-ui-container>
+    </section>
+
+    <nav class="tour-list__cats" aria-label="Tour categories" appReveal>
+      <app-ui-container>
+        <div class="tour-list__catlist" role="tablist">
+          <a
+            role="tab"
+            [routerLink]="['/', vm.lang, 'day-tours']"
+            [attr.aria-selected]="vm.category === 'day'"
+            [class.is-active]="vm.category === 'day'"
+          >
+            Day Tours
+          </a>
+          <a
+            role="tab"
+            [routerLink]="['/', vm.lang, 'multi-day-tours']"
+            [attr.aria-selected]="vm.category === 'multi-day'"
+            [class.is-active]="vm.category === 'multi-day'"
+          >
+            Multi-Day Tours
+          </a>
+          <a class="tour-list__hub-link" [routerLink]="['/', vm.lang, 'sri-lanka-tours']">
+            All tours
+          </a>
+        </div>
+      </app-ui-container>
+    </nav>
+
+    <section class="tour-list__tools" appReveal>
+      <app-ui-container>
+        <div class="tour-list__toolbar">
+          <label class="tour-list__search">
+            <span class="visually-hidden">Search tours</span>
+            <input
+              type="search"
+              placeholder="Search destinations, styles, tags…"
+              [ngModel]="search()"
+              (ngModelChange)="search.set($event)"
+            />
+          </label>
+
+          <label>
+            Style
+            <select [ngModel]="styleFilter()" (ngModelChange)="styleFilter.set($event)">
+              <option value="all">All styles</option>
+              @for (style of vm.styles; track style) {
+                <option [value]="style">{{ style }}</option>
+              }
+            </select>
+          </label>
+
+          <label>
+            Badge
+            <select [ngModel]="badgeFilter()" (ngModelChange)="badgeFilter.set($event)">
+              <option value="all">All badges</option>
+              @for (badge of vm.badges; track badge) {
+                <option [value]="badge">{{ badge }}</option>
+              }
+            </select>
+          </label>
+
+          <label>
+            Destination
+            <select [ngModel]="destinationFilter()" (ngModelChange)="destinationFilter.set($event)">
+              <option value="all">All destinations</option>
+              @for (dest of vm.destinations; track dest) {
+                <option [value]="dest">{{ dest }}</option>
+              }
+            </select>
+          </label>
+
+          <label>
+            Sort
+            <select [ngModel]="sort()" (ngModelChange)="sort.set($event)">
+              <option value="featured">Featured</option>
+              <option value="price-asc">Price · low to high</option>
+              <option value="price-desc">Price · high to low</option>
+              <option value="rating">Rating</option>
+              <option value="title">Title</option>
+            </select>
+          </label>
+
+          <div class="tour-list__view" role="group" aria-label="View mode">
+            <button type="button" [class.is-active]="view() === 'grid'" (click)="view.set('grid')">Grid</button>
+            <button type="button" [class.is-active]="view() === 'list'" (click)="view.set('list')">List</button>
+          </div>
+        </div>
+
+        @if (compare.count() > 0) {
+          <p class="tour-list__compare">Compare tray: {{ compare.count() }} / 3 selected</p>
+        }
+      </app-ui-container>
+    </section>
+
+    <section class="tour-list__results" aria-live="polite">
+      <app-ui-container>
+        @let items = filteredTours(vm.tours);
+        <p class="tour-list__count">{{ items.length }} tours</p>
+        <ul class="tour-list__grid" [class.tour-list__grid--list]="view() === 'list'">
+          @for (tour of items; track trackBySlug($index, tour)) {
+            <li>
+              <app-tour-card
+                [tour]="tour"
+                [lang]="vm.lang"
+                [detailPath]="vm.detailPath"
+                [layout]="view()"
+                (quickView)="openQuickView($event)"
+              />
+            </li>
+          }
+        </ul>
+        @if (!items.length) {
+          <p class="tour-list__empty">No tours match these filters.</p>
+        }
+      </app-ui-container>
+    </section>
+
+    @if (quickViewTour(); as tour) {
+      <app-tour-quick-view
+        [tour]="tour"
+        [lang]="vm.lang"
+        [detailPath]="vm.detailPath"
+        (closed)="closeQuickView()"
+      />
+    }
+  </article>
+}

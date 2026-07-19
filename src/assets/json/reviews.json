@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rev-001",
+    "author": "Emma R.",
+    "rating": 5,
+    "title": "Flawless Galle day",
+    "content": "Our guide was exceptional and the pacing perfect. Highly recommend Hai Sri Lanka for a private day tour.",
+    "date": "2025-11-02",
+    "source": "google",
+    "tourSlug": "galle-day-tour"
+  },
+  {
+    "id": "rev-002",
+    "author": "Marcus L.",
+    "rating": 5,
+    "title": "Highlights itinerary done right",
+    "content": "Seven days of culture and coast without feeling rushed. Hotels and transfers were seamless.",
+    "date": "2025-12-18",
+    "source": "tripadvisor",
+    "tourSlug": "7-days-sri-lanka-highlights"
+  },
+  {
+    "id": "rev-003",
+    "author": "Sophie & Tom",
+    "rating": 5,
+    "title": "Quiet luxury honeymoon",
+    "content": "Every detail felt considered from airport welcome to our final beach evening. We will return.",
+    "date": "2026-01-22",
+    "source": "tripadvisor",
+    "tourSlug": "10-days-classic-ceylon"
+  },
+  {
+    "id": "rev-004",
+    "author": "Hiroshi N.",
+    "rating": 5,
+    "title": "Sigiriya with expert care",
+    "content": "Clear guidance at Sigiriya and thoughtful timing around the heat. Outstanding private service.",
+    "date": "2026-02-08",
+    "source": "google",
+    "tourSlug": "sigiriya-dambulla-day-tour"
+  }
+]

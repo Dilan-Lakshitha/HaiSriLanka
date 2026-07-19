@@ -1,0 +1,31 @@
+<section
+  class="overview"
+  [class.overview--facts]="mode() === 'facts'"
+  [class.overview--story]="mode() === 'story'"
+  [attr.aria-labelledby]="mode() === 'facts' ? 'overview-facts-title' : 'overview-title'"
+  appReveal
+>
+  @if (mode() !== 'facts') {
+    <p class="overview__eyebrow">Tour overview</p>
+    <h2 id="overview-title">The journey at a glance</h2>
+    <p class="overview__body">{{ tour().overview || tour().description }}</p>
+  }
+
+  @if (mode() !== 'story') {
+    <h2 id="overview-facts-title" class="visually-hidden">Tour facts</h2>
+    <ul class="overview__meta">
+      <li>
+        <span>Duration</span>
+        <strong>{{ tour().duration }}</strong>
+      </li>
+      <li>
+        <span>Destinations</span>
+        <strong>{{ tour().destinations?.slice(0, 3)?.join(' · ') || tour().location.name }}</strong>
+      </li>
+      <li>
+        <span>Travel style</span>
+        <strong>{{ tour().travelStyle }}</strong>
+      </li>
+    </ul>
+  }
+</section>

@@ -1,0 +1,94 @@
+{
+  "legalName": "Hai Sri Lanka Tours",
+  "brandName": "Hai Sri Lanka",
+  "email": "haisrilankatour@gmail.com",
+  "phone": ["+94 74 313 7241"],
+  "whatsapp": "+94743137241",
+  "address": {
+    "streetAddress": "No. 12 Galle Road",
+    "addressLocality": "Colombo",
+    "addressRegion": "Western Province",
+    "postalCode": "00300",
+    "addressCountry": "LK"
+  },
+  "geo": { "lat": 6.9271, "lng": 79.8612 },
+  "social": {
+    "facebook": "https://www.facebook.com/haisrilankatours/",
+    "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g293962-d28654718-Reviews-Hai_Sri_Lanka_Tours-Colombo_Western_Province.html"
+  },
+  "tripadvisor": {
+    "rating": 4.9,
+    "reviewCount": 214,
+    "label": "TripAdvisor Travellers' Choice",
+    "url": "https://www.tripadvisor.com/Attraction_Review-g293962-d28654718-Reviews-Hai_Sri_Lanka_Tours-Colombo_Western_Province.html"
+  },
+  "awards": [
+    {
+      "id": "excellence",
+      "title": "Certificate of Excellence",
+      "year": "2025"
+    },
+    {
+      "id": "inbound",
+      "title": "Preferred Inbound Partner",
+      "year": "2024"
+    }
+  ],
+  "newsletter": {
+    "title": "Travel notes from Ceylon",
+    "subtitle": "Seasonal tips, new itineraries, and quiet luxury stays sent sparingly.",
+    "placeholder": "Your email address",
+    "buttonLabel": "Subscribe",
+    "disclaimer": "No spam. Unsubscribe anytime."
+  },
+  "logo": {
+    "src": "/assets/images/logos/logo-color.svg",
+    "alt": "Hai Sri Lanka Tours logo",
+    "title": "Hai Sri Lanka",
+    "width": 200,
+    "height": 56
+  },
+  "logos": {
+    "primary": {
+      "src": "/assets/images/logos/logo-color.svg",
+      "alt": "Hai Sri Lanka Tours",
+      "title": "Hai Sri Lanka",
+      "width": 200,
+      "height": 56
+    },
+    "onDark": {
+      "src": "/assets/images/logos/logo-white-transparent.png",
+      "alt": "Hai Sri Lanka Tours",
+      "title": "Hai Sri Lanka",
+      "width": 200,
+      "height": 56
+    },
+    "onLight": {
+      "src": "/assets/images/logos/logo-black-transparent.png",
+      "alt": "Hai Sri Lanka Tours",
+      "title": "Hai Sri Lanka",
+      "width": 200,
+      "height": 56
+    },
+    "sticky": {
+      "src": "/assets/images/logos/logo-white-transparent.png",
+      "alt": "Hai Sri Lanka Tours",
+      "title": "Hai Sri Lanka",
+      "width": 200,
+      "height": 56
+    },
+    "favicon": {
+      "src": "/favicon.png",
+      "alt": "Hai Sri Lanka favicon",
+      "width": 48,
+      "height": 48
+    }
+  },
+  "foundingYear": 2020,
+  "description": "Premium inbound tourism experiences across Sri Lanka private tours, cultural journeys, and tailor-made itineraries.",
+  "seo": {
+    "metaTitle": "Hai Sri Lanka Tours | Premium Sri Lanka Travel Experiences",
+    "metaDescription": "Discover Sri Lanka with Hai Sri Lanka Tours. Private day tours, multi-day itineraries, and premium inbound travel experiences.",
+    "keywords": ["Sri Lanka tours", "Hai Sri Lanka", "private tours Sri Lanka", "inbound tourism"]
+  }
+}

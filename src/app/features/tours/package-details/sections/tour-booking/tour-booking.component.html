@@ -1,0 +1,145 @@
+<aside id="tour-booking" class="booking-card" aria-labelledby="booking-title">
+  <header class="booking-card__head">
+    <div>
+      <p class="booking-card__eyebrow">Book this tour</p>
+      <h2 id="booking-title">Private inquiry</h2>
+    </div>
+    <div class="booking-card__badges" aria-label="Booking benefits">
+      <span>Free cancel</span>
+      <span>Pay later</span>
+    </div>
+  </header>
+
+  <form class="booking-card__form" (submit)="$event.preventDefault(); completeBooking()">
+    <div class="booking-card__row">
+      <label class="booking-card__field">
+        <span>Travelers *</span>
+        <select
+          [ngModel]="travelers()"
+          (ngModelChange)="onTravelersChange(+$event)"
+          name="travelers"
+          required
+        >
+          @for (option of travelerOptions; track option) {
+            <option [ngValue]="option">{{ option }}</option>
+          }
+        </select>
+      </label>
+
+      <label class="booking-card__field">
+        <span>Date *</span>
+        <input
+          type="date"
+          name="travelDate"
+          [ngModel]="travelDate()"
+          (ngModelChange)="onDateChange($event)"
+          required
+        />
+      </label>
+    </div>
+
+    <div class="booking-card__row">
+      <label class="booking-card__field">
+        <span>First name *</span>
+        <input
+          type="text"
+          name="firstName"
+          autocomplete="given-name"
+          [ngModel]="firstName()"
+          (ngModelChange)="firstName.set($event)"
+          required
+        />
+      </label>
+      <label class="booking-card__field">
+        <span>Last name *</span>
+        <input
+          type="text"
+          name="lastName"
+          autocomplete="family-name"
+          [ngModel]="lastName()"
+          (ngModelChange)="lastName.set($event)"
+          required
+        />
+      </label>
+    </div>
+
+    <label class="booking-card__field">
+      <span>Email *</span>
+      <input
+        type="email"
+        name="email"
+        autocomplete="email"
+        [ngModel]="email()"
+        (ngModelChange)="email.set($event)"
+        required
+      />
+    </label>
+
+    <div class="booking-card__row">
+      <label class="booking-card__field">
+        <span>Phone *</span>
+        <input
+          type="tel"
+          name="phone"
+          autocomplete="tel"
+          placeholder="+94 …"
+          [ngModel]="phone()"
+          (ngModelChange)="phone.set($event)"
+          required
+        />
+      </label>
+      <label class="booking-card__field">
+        <span>Country *</span>
+        <select
+          name="country"
+          [ngModel]="country()"
+          (ngModelChange)="country.set($event)"
+          required
+        >
+          <option value="" disabled>Select</option>
+          @for (item of countries; track item) {
+            <option [value]="item">{{ item }}</option>
+          }
+        </select>
+      </label>
+    </div>
+
+    <div class="booking-card__total-box">
+      <div>
+        <span>{{ travelers() }} travellers</span>
+        <strong>{{ totalPrice() | currency: tour().currency : 'symbol' : '1.0-0' }}</strong>
+      </div>
+      <p>
+        {{ pricePerPerson() | currency: tour().currency : 'symbol' : '1.0-0' }} / person · Pay at
+        destination
+      </p>
+    </div>
+
+    <label class="booking-card__agree">
+      <input
+        type="checkbox"
+        name="terms"
+        [ngModel]="agreed()"
+        (ngModelChange)="agreed.set($event)"
+        required
+      />
+      <span>I agree to the terms &amp; conditions *</span>
+    </label>
+
+    @if (submittedAttempt() && !formValid()) {
+      <p class="booking-card__error" role="alert">Please complete all required fields.</p>
+    }
+
+    <button appUiButton variant="primary" type="submit" class="booking-card__submit">
+      Complete booking
+    </button>
+  </form>
+
+  @if (company$ | async; as company) {
+    @if (whatsappLink(company.whatsapp, company.phone[0]); as wa) {
+      <a class="booking-card__whatsapp" [href]="wa" target="_blank" rel="noopener noreferrer">
+        WhatsApp inquiry
+      </a>
+    }
+  }
+</aside>

@@ -1,0 +1,22 @@
+<div class="ui-heading">
+  @if (eyebrow()) {
+    <p class="ui-heading__eyebrow">{{ eyebrow() }}</p>
+  }
+  @switch (level()) {
+    @case (1) {
+      <h1 class="ui-heading__title" [attr.id]="id()">
+        <ng-content />
+      </h1>
+    }
+    @case (3) {
+      <h3 class="ui-heading__title" [attr.id]="id()">
+        <ng-content />
+      </h3>
+    }
+    @default {
+      <h2 class="ui-heading__title" [attr.id]="id()">
+        <ng-content />
+      </h2>
+    }
+  }
+</div>

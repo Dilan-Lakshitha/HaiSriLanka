@@ -1,0 +1,39 @@
+<div class="quick-view" role="dialog" aria-modal="true" [attr.aria-label]="tour().title" (click)="closed.emit()">
+  <div class="quick-view__panel" (click)="$event.stopPropagation()">
+    <button type="button" class="quick-view__close" (click)="closed.emit()" aria-label="Close">Close</button>
+    <div class="quick-view__media">
+      <img
+        [ngSrc]="hero().src"
+        [alt]="hero().alt"
+        [width]="hero().width || 800"
+        [height]="hero().height || 560"
+        priority
+      />
+    </div>
+    <div class="quick-view__body">
+      <p class="quick-view__style">{{ tour().travelStyle }}</p>
+      <h2>{{ tour().title }}</h2>
+      <p>{{ tour().shortDescription }}</p>
+      <ul>
+        <li>{{ tour().duration }}</li>
+        <li>{{ tour().destinations?.slice(0, 3)?.join(' · ') }}</li>
+        <li>From {{ fromPrice() | currency: tour().currency : 'symbol' : '1.0-0' }}</li>
+      </ul>
+      @if (tour().highlights?.length) {
+        <ol>
+          @for (item of tour().highlights.slice(0, 4); track item) {
+            <li>{{ item }}</li>
+          }
+        </ol>
+      }
+      <a
+        appUiButton
+        variant="primary"
+        [routerLink]="['/', lang(), detailPath(), tour().slug]"
+        (click)="closed.emit()"
+      >
+        View full tour
+      </a>
+    </div>
+  </div>
+</div>

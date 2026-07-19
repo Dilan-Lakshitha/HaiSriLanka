@@ -1,0 +1,18 @@
+<section class="why" aria-labelledby="why-title" appReveal>
+  <app-ui-container>
+    <header class="why__header">
+      <p class="why__eyebrow">{{ intro().eyebrow }}</p>
+      <h2 id="why-title">{{ intro().title }}</h2>
+      <p class="why__subtitle">{{ intro().subtitle }}</p>
+    </header>
+    <ul class="why__grid">
+      @for (item of items(); track trackById($index, item)) {
+        <li class="why__card">
+          <span class="why__icon" aria-hidden="true"></span>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+        </li>
+      }
+    </ul>
+  </app-ui-container>
+</section>

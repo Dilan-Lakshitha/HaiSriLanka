@@ -1,0 +1,15 @@
+@if (tours().length) {
+  <section class="related" aria-labelledby="related-title" appReveal>
+    <app-ui-container>
+      <p class="related__eyebrow">Continue exploring</p>
+      <h2 id="related-title">Related tours</h2>
+      <ul class="related__grid">
+        @for (tour of tours(); track trackBySlug($index, tour)) {
+          <li>
+            <app-tour-card [tour]="tour" [lang]="lang()" [detailPath]="detailPath(tour)" />
+          </li>
+        }
+      </ul>
+    </app-ui-container>
+  </section>
+}

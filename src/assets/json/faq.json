@@ -1,0 +1,35 @@
+{
+  "global": [
+    {
+      "question": "Are tours private?",
+      "answer": "Yes. Hai Sri Lanka specializes in private inbound experiences for couples, families, and small groups."
+    },
+    {
+      "question": "Do you arrange airport transfers?",
+      "answer": "Yes. Airport welcomes and departures can be included with any multi-day itinerary or booked separately."
+    },
+    {
+      "question": "How do I book?",
+      "answer": "Select a tour, choose travelers and date, submit traveler details, and you will receive email confirmation. No online payment is required to request a booking."
+    },
+    {
+      "question": "Can itineraries be customized?",
+      "answer": "Absolutely. We adjust pace, hotels, and experiences to your preferences before confirming your journey."
+    }
+  ],
+  "pages": [
+    {
+      "pageKey": "home",
+      "items": [
+        {
+          "question": "Why choose Hai Sri Lanka?",
+          "answer": "Premium hospitality, expert local guides, and itineraries designed for comfort and authentic discovery."
+        },
+        {
+          "question": "What languages do your guides speak?",
+          "answer": "English is standard. German, French, and other European languages can be arranged on request."
+        }
+      ]
+    }
+  ]
+}

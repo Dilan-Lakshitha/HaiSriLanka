@@ -1,0 +1,69 @@
+{
+  "hub": {
+    "hero": {
+      "eyebrow": "Sri Lanka Tours",
+      "title": "Private tours across the island",
+      "subtitle": "Choose a day escape or a multi-day journey curated pacing, trusted stays, and transparent pricing.",
+      "image": {
+        "src": "/assets/images/tours/category-multi.webp",
+        "alt": "Private Sri Lanka tours with Hai Sri Lanka",
+        "width": 1600,
+        "height": 900
+      }
+    },
+    "seo": {
+      "metaTitle": "Sri Lanka Tours | Day & Multi-Day Packages | Hai Sri Lanka",
+      "metaDescription": "Browse private Sri Lanka day tours and multi-day itineraries culture, tea country, wildlife, and coast with Hai Sri Lanka Tours.",
+      "keywords": [
+        "Sri Lanka tours",
+        "private Sri Lanka packages",
+        "day tours Sri Lanka",
+        "multi-day Sri Lanka tour"
+      ]
+    }
+  },
+  "day": {
+    "hero": {
+      "eyebrow": "Day Tours",
+      "title": "Private day journeys across Sri Lanka",
+      "subtitle": "Curated single-day experiences from coast to Cultural Triangle fully private, paced for comfort.",
+      "image": {
+        "src": "/assets/images/tours/category-day.webp",
+        "alt": "Sri Lanka day tours",
+        "width": 1600,
+        "height": 900
+      }
+    },
+    "seo": {
+      "metaTitle": "Day Tours in Sri Lanka | Hai Sri Lanka Tours",
+      "metaDescription": "Browse premium private day tours Galle, Sigiriya, Kandy, and more with live pricing and flexible pacing.",
+      "keywords": [
+        "Sri Lanka day tours",
+        "private day trip Sri Lanka",
+        "Galle day tour"
+      ]
+    }
+  },
+  "multi-day": {
+    "hero": {
+      "eyebrow": "Multi-Day Tours",
+      "title": "Multi-day journeys with quiet luxury",
+      "subtitle": "Private itineraries across culture, tea country, wildlife, and coast flexible nights, trusted stays.",
+      "image": {
+        "src": "/assets/images/tours/category-multi.webp",
+        "alt": "Sri Lanka multi-day tours",
+        "width": 1600,
+        "height": 900
+      }
+    },
+    "seo": {
+      "metaTitle": "Multi-Day Tours in Sri Lanka | Hai Sri Lanka Tours",
+      "metaDescription": "Explore private multi-day Sri Lanka tours with boutique stays, expert guiding, and transparent pricing.",
+      "keywords": [
+        "Sri Lanka tour packages",
+        "multi-day Sri Lanka tour",
+        "private itinerary"
+      ]
+    }
+  }
+}

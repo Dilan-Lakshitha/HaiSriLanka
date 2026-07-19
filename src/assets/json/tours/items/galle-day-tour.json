@@ -1,0 +1,245 @@
+{
+  "id": "tour-galle-day",
+  "slug": "galle-day-tour",
+  "category": "day",
+  "title": "Galle Day Tour",
+  "seoTitle": "Galle Day Tour | Private Tour from Colombo | Hai Sri Lanka",
+  "metaDescription": "Book a private Galle day tour with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert.",
+  "shortDescription": "Explore Galle Fort, beaches, and southern coastal heritage in one private day.",
+  "overview": "A full-day private journey from Colombo or surrounding areas to Galle Fort, Dutch architecture, stilt fishermen viewpoints, and the southern coastline led by an experienced local guide.",
+  "duration": "1 Day",
+  "destinations": [
+    "Galle",
+    "Galle Fort",
+    "Southern Province"
+  ],
+  "travelStyle": "Private Day Journey",
+  "highlights": [
+    "Galle Fort rampart walk",
+    "Southern coastal viewpoints",
+    "Private luxury vehicle"
+  ],
+  "included": [
+    "Private air-conditioned vehicle",
+    "English-speaking chauffeur guide",
+    "Bottled water"
+  ],
+  "excluded": [
+    "Entrance tickets",
+    "Lunch",
+    "Personal expenses"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Galle Fort & Southern Coast",
+      "description": "Morning departure toward the south, exploring UNESCO Galle Fort, boutique streets, and scenic ocean margins before a comfortable return.",
+      "highlights": [
+        "Dutch Fort lanes",
+        "Ocean ramparts",
+        "Coastal photo stops"
+      ],
+      "location": {
+        "name": "Galle Fort",
+        "region": "Southern Province",
+        "geo": {
+          "lat": 6.0329,
+          "lng": 80.217
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+          "alt": "Mangrove boat safari on the south coast",
+          "title": "South coast",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "meals": [
+        "Lunch opportunity"
+      ],
+      "locations": [
+        "Galle Fort",
+        "Southern Province"
+      ],
+      "travelTime": "Private road transfer · flexible pacing",
+      "optionalActivities": [
+        "Optional: deepen the day with dutch fort lanes"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is this a private tour?",
+      "answer": "Yes. All Hai Sri Lanka day tours are private for your group."
+    }
+  ],
+  "reviews": [],
+  "pricing": [
+    {
+      "travelers": 1,
+      "pricePerPerson": 550
+    },
+    {
+      "travelers": 2,
+      "pricePerPerson": 420
+    },
+    {
+      "travelers": 3,
+      "pricePerPerson": 390
+    },
+    {
+      "travelers": 4,
+      "pricePerPerson": 360
+    },
+    {
+      "travelers": 5,
+      "pricePerPerson": 340
+    }
+  ],
+  "currency": "USD",
+  "relatedTours": [
+    "sigiriya-dambulla-day-tour",
+    "kandy-day-tour"
+  ],
+  "badges": [
+    "best-seller",
+    "featured"
+  ],
+  "tags": [
+    "private-day-journey",
+    "day",
+    "galle",
+    "southern",
+    "private"
+  ],
+  "route": [
+    {
+      "name": "Galle Fort"
+    },
+    {
+      "name": "Southern Province"
+    },
+    {
+      "name": "Galle"
+    }
+  ],
+  "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=6.0329,80.217",
+  "heroImage": {
+    "src": "/assets/images/tours/galle-day-tour/hero.webp",
+    "alt": "Galle Fort and southern coast on a private day tour",
+    "title": "Galle Day Tour",
+    "width": 1400,
+    "height": 1050
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+      "alt": "Guests on a mangrove boat safari in Sri Lanka",
+      "title": "Mangrove boat safari",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+      "alt": "Family visiting Nine Arch Bridge in Ella",
+      "title": "Nine Arch Bridge",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+      "alt": "Family on a village tractor ride in Sri Lanka",
+      "title": "Village tractor ride",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/cycling-pair.png",
+      "alt": "Guests on a cycling tour through greenery",
+      "title": "Cycling tour",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+      "alt": "Guests and guide smiling in a tuk-tuk",
+      "title": "Tuk-tuk moments",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+      "alt": "Elephants bathing in a Sri Lankan river",
+      "title": "River elephants",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "rating": {
+    "average": 4.9,
+    "count": 128
+  },
+  "seo": {
+    "metaTitle": "Galle Day Tour | Private Tour from Colombo | Hai Sri Lanka",
+    "metaDescription": "Book a private Galle day tour with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert.",
+    "keywords": [
+      "Galle day tour",
+      "Galle Fort tour",
+      "Colombo to Galle"
+    ],
+    "ogImage": "/assets/images/tours/galle-day-tour/hero.webp"
+  },
+  "localizedSlugs": {
+    "de": "galle-tagesausflug"
+  },
+  "status": "published",
+  "description": "A full-day private journey from Colombo or surrounding areas to Galle Fort, Dutch architecture, stilt fishermen viewpoints, and the southern coastline led by an experienced local guide.",
+  "location": {
+    "name": "Galle",
+    "region": "Southern Province",
+    "geo": {
+      "lat": 6.0329,
+      "lng": 80.217
+    }
+  },
+  "price": {
+    "1": 550,
+    "2": 420,
+    "3": 390,
+    "4": 360,
+    "5": 340
+  },
+  "images": [
+    {
+      "src": "/assets/images/tours/galle-day-tour/hero.webp",
+      "alt": "Galle Day Tour",
+      "title": "Galle Day Tour",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "includes": [
+    "Private air-conditioned vehicle",
+    "English-speaking chauffeur guide",
+    "Bottled water"
+  ],
+  "excludes": [
+    "Entrance tickets",
+    "Lunch",
+    "Personal expenses"
+  ],
+  "faq": [
+    {
+      "question": "Is this a private tour?",
+      "answer": "Yes. All Hai Sri Lanka day tours are private for your group."
+    }
+  ],
+  "relatedTourSlugs": [
+    "sigiriya-dambulla-day-tour",
+    "kandy-day-tour"
+  ],
+  "featured": true,
+  "bestSeller": true
+}

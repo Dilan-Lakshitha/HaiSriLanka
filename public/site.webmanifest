@@ -1,0 +1,23 @@
+{
+  "name": "Hai Sri Lanka Tours",
+  "short_name": "Hai Sri Lanka",
+  "description": "Premium inbound tourism experiences across Sri Lanka.",
+  "start_url": "/en/",
+  "display": "standalone",
+  "background_color": "#F8F5EF",
+  "theme_color": "#0B3D2E",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logos/logo-color.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

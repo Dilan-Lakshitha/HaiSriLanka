@@ -1,0 +1,231 @@
+{
+  "id": "tour-kandy-day",
+  "slug": "kandy-day-tour",
+  "category": "day",
+  "title": "Kandy Day Tour",
+  "seoTitle": "Kandy Day Tour | Hai Sri Lanka",
+  "metaDescription": "Private Kandy day tour with Temple of the Tooth and highland scenery.",
+  "shortDescription": "Temple of the Tooth, scenic hills, and the cultural heart of the highlands.",
+  "overview": "A private day to Kandy featuring the Temple of the Tooth Relic, panoramic viewpoints, and optional botanical gardens.",
+  "duration": "1 Day",
+  "destinations": [
+    "Kandy",
+    "Kandy",
+    "Central Province"
+  ],
+  "travelStyle": "Culture",
+  "highlights": [
+    "Temple of the Tooth",
+    "Lakeside city views",
+    "Highland gateway scenery"
+  ],
+  "included": [
+    "Private vehicle",
+    "Chauffeur guide"
+  ],
+  "excluded": [
+    "Entrance tickets",
+    "Lunch"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Sacred Kandy",
+      "description": "A private cultural day focused on the Temple of the Tooth Relic and the calm lakeside atmosphere of Kandy.",
+      "highlights": [
+        "Temple visit",
+        "City viewpoints",
+        "Boutique pause"
+      ],
+      "location": {
+        "name": "Kandy",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.2906,
+          "lng": 80.6337
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+          "alt": "Guests exploring with a local guide",
+          "title": "Kandy",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "meals": [
+        "Lunch opportunity"
+      ],
+      "locations": [
+        "Kandy",
+        "Central Province"
+      ],
+      "travelTime": "Private road transfer · flexible pacing",
+      "optionalActivities": [
+        "Optional: deepen the day with temple visit"
+      ]
+    }
+  ],
+  "faqs": [],
+  "reviews": [],
+  "pricing": [
+    {
+      "travelers": 1,
+      "pricePerPerson": 580
+    },
+    {
+      "travelers": 2,
+      "pricePerPerson": 440
+    },
+    {
+      "travelers": 3,
+      "pricePerPerson": 400
+    },
+    {
+      "travelers": 4,
+      "pricePerPerson": 370
+    },
+    {
+      "travelers": 5,
+      "pricePerPerson": 350
+    }
+  ],
+  "currency": "USD",
+  "relatedTours": [
+    "galle-day-tour",
+    "sigiriya-dambulla-day-tour"
+  ],
+  "badges": [
+    "featured",
+    "culture"
+  ],
+  "tags": [
+    "culture",
+    "day",
+    "temple",
+    "lakeside",
+    "highland"
+  ],
+  "route": [
+    {
+      "name": "Kandy"
+    },
+    {
+      "name": "Central Province"
+    }
+  ],
+  "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.2906,80.6337",
+  "heroImage": {
+    "src": "/assets/images/tours/kandy-day-tour/hero.webp",
+    "alt": "Temple of the Tooth area in Kandy on a private day tour",
+    "title": "Kandy Day Tour",
+    "width": 1400,
+    "height": 1050
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+      "alt": "Guests on a mangrove boat safari in Sri Lanka",
+      "title": "Mangrove boat safari",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+      "alt": "Travelers with guide at Dambulla Cave Temple",
+      "title": "Dambulla Cave Temple",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+      "alt": "Family visiting Nine Arch Bridge in Ella",
+      "title": "Nine Arch Bridge",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+      "alt": "Family on a village tractor ride in Sri Lanka",
+      "title": "Village tractor ride",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/cycling-pair.png",
+      "alt": "Guests on a cycling tour through greenery",
+      "title": "Cycling tour",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+      "alt": "Guests and guide smiling in a tuk-tuk",
+      "title": "Tuk-tuk moments",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+      "alt": "Elephants bathing in a Sri Lankan river",
+      "title": "River elephants",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "rating": {
+    "average": 4.88,
+    "count": 74
+  },
+  "seo": {
+    "metaTitle": "Kandy Day Tour | Hai Sri Lanka",
+    "metaDescription": "Private Kandy day tour with Temple of the Tooth and highland scenery.",
+    "keywords": [
+      "Kandy day tour",
+      "Temple of the Tooth"
+    ],
+    "ogImage": "/assets/images/tours/kandy-day-tour/hero.webp"
+  },
+  "status": "published",
+  "description": "A private day to Kandy featuring the Temple of the Tooth Relic, panoramic viewpoints, and optional botanical gardens.",
+  "location": {
+    "name": "Kandy",
+    "region": "Central Province",
+    "geo": {
+      "lat": 7.2906,
+      "lng": 80.6337
+    }
+  },
+  "price": {
+    "1": 580,
+    "2": 440,
+    "3": 400,
+    "4": 370,
+    "5": 350
+  },
+  "images": [
+    {
+      "src": "/assets/images/tours/kandy-day-tour/hero.webp",
+      "alt": "Kandy Day Tour",
+      "title": "Kandy Day Tour",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "includes": [
+    "Private vehicle",
+    "Chauffeur guide"
+  ],
+  "excludes": [
+    "Entrance tickets",
+    "Lunch"
+  ],
+  "faq": [],
+  "relatedTourSlugs": [
+    "galle-day-tour",
+    "sigiriya-dambulla-day-tour"
+  ],
+  "featured": true,
+  "bestSeller": false
+}

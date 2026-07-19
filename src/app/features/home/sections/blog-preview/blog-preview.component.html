@@ -1,0 +1,23 @@
+<section class="blog" aria-labelledby="blog-title" appReveal>
+  <app-ui-container>
+    <header class="blog__header">
+      <div>
+        <p class="blog__eyebrow">{{ intro().eyebrow }}</p>
+        <h2 id="blog-title">{{ intro().title }}</h2>
+        <p>{{ intro().subtitle }}</p>
+      </div>
+      @if (intro().viewAllPath && intro().viewAllLabel) {
+        <a appUiButton variant="ghost" [routerLink]="['/', lang(), intro().viewAllPath]">
+          {{ intro().viewAllLabel }}
+        </a>
+      }
+    </header>
+    <ul class="blog__grid">
+      @for (post of posts(); track trackBySlug($index, post)) {
+        <li>
+          <app-blog-card [post]="post" [lang]="lang()" />
+        </li>
+      }
+    </ul>
+  </app-ui-container>
+</section>

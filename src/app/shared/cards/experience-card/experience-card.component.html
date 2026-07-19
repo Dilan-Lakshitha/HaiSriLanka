@@ -1,0 +1,16 @@
+<article class="experience-card">
+  <a [routerLink]="['/', lang(), 'things-to-do', experience().slug]">
+    <img
+      [ngSrc]="experience().images[0]?.src || '/assets/images/placeholders/dest-galle.svg'"
+      [alt]="experience().images[0]?.alt || experience().title"
+      width="600"
+      height="400"
+      loading="lazy"
+    />
+    <div class="experience-card__overlay">
+      <p class="experience-card__category">{{ experience().category }}</p>
+      <h3>{{ experience().title }}</h3>
+      <p>{{ experience().shortDescription }}</p>
+    </div>
+  </a>
+</article>

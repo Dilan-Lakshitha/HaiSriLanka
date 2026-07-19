@@ -1,0 +1,235 @@
+.itinerary {
+  padding: 1.25rem 0 1.5rem;
+
+  &__intro {
+    max-width: 40rem;
+    margin-bottom: 1.15rem;
+
+    h2 {
+      margin: 0;
+      color: var(--color-navy);
+    }
+  }
+
+  &__eyebrow {
+    margin: 0 0 0.35rem;
+    color: var(--color-green);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  &__timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  &__day {
+    display: grid;
+    grid-template-columns: 2.5rem minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  &__rail {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 2.4rem;
+      bottom: -0.9rem;
+      width: 1px;
+      background: color-mix(out srgb, var(--color-navy) 18%, transparent);
+    }
+  }
+
+  &__day:last-child &__rail::before {
+    display: none;
+  }
+
+  &__dot {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 999px;
+    display: grid;
+    place-items: center;
+    background: var(--color-navy);
+    color: var(--color-sand);
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+  }
+
+  &__card {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md, 12px);
+    background: var(--color-white);
+    overflow: hidden;
+    transition: box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+
+  &__day--open &__card {
+    border-color: color-mix(out srgb, var(--color-gold) 45%, var(--color-border));
+    box-shadow: 0 10px 28px rgba(15, 39, 68, 0.08);
+  }
+
+  &__collapsed {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      'copy thumb'
+      'expand expand';
+    gap: 0.85rem 1rem;
+    align-items: start;
+    min-height: 220px;
+    max-height: 300px;
+    padding: 1rem 1rem 0.85rem;
+    overflow: hidden;
+
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        'copy'
+        'thumb'
+        'expand';
+      max-height: none;
+      min-height: 0;
+    }
+  }
+
+  &__day--open &__collapsed {
+    max-height: none;
+  }
+
+  &__copy {
+    grid-area: copy;
+    min-width: 0;
+  }
+
+  &__day-label {
+    margin: 0 0 0.2rem;
+    color: var(--color-gold);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+  }
+
+  h3 {
+    margin: 0 0 0.65rem;
+    color: var(--color-navy);
+    font-size: 1.15rem;
+  }
+
+  &__meta {
+    margin: 0;
+    display: grid;
+    gap: 0.35rem;
+
+    div {
+      display: grid;
+      grid-template-columns: 7.5rem minmax(0, 1fr);
+      gap: 0.5rem;
+      font-size: 0.86rem;
+    }
+
+    dt {
+      color: var(--color-ink-muted);
+    }
+
+    dd {
+      margin: 0;
+      color: var(--color-ink);
+    }
+  }
+
+  &__highlights {
+    list-style: none;
+    margin: 0.7rem 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+
+    li {
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      background: var(--color-sand);
+      color: var(--color-navy);
+      font-size: 0.75rem;
+    }
+  }
+
+  &__thumb {
+    grid-area: thumb;
+    width: 140px;
+    height: 105px;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @media (max-width: 640px) {
+      width: 120px;
+      height: 90px;
+    }
+  }
+
+  &__expand {
+    grid-area: expand;
+    justify-self: start;
+    border: 0;
+    background: transparent;
+    color: var(--color-green);
+    font: inherit;
+    font-size: 0.85rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0.15rem 0;
+  }
+
+  &__panel {
+    padding: 0 1rem 1.1rem;
+    border-top: 1px solid var(--color-border);
+    display: grid;
+    gap: 0.85rem;
+    animation: expand-in 0.28s ease both;
+
+    p {
+      margin: 0.85rem 0 0;
+      color: var(--color-ink-muted);
+    }
+
+    h4 {
+      margin: 0 0 0.35rem;
+      color: var(--color-navy);
+      font-size: 0.95rem;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.1rem;
+      color: var(--color-ink);
+    }
+  }
+}
+
+@keyframes expand-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

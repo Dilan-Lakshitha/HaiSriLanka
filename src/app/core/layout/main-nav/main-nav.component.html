@@ -1,0 +1,50 @@
+<nav class="main-nav" aria-label="Primary" (mouseleave)="close()">
+  <ul class="main-nav__list">
+    @for (item of items(); track item.key) {
+      <li
+        class="main-nav__item"
+        [class.main-nav__item--mega]="item.mega && item.children?.length"
+        (mouseenter)="item.mega ? open(item.key) : close()"
+      >
+        <a
+          class="main-nav__link"
+          [routerLink]="buildLink(item.path)"
+          routerLinkActive="is-active"
+          [routerLinkActiveOptions]="{ exact: item.path === '' }"
+          [attr.aria-expanded]="item.mega ? openMega() === item.key : null"
+          [attr.aria-haspopup]="item.mega ? 'true' : null"
+          (click)="onNavigated()"
+          (focus)="item.mega ? open(item.key) : null"
+        >
+          {{ labelOf(item) }}
+        </a>
+
+        @if (item.mega && item.children?.length && openMega() === item.key) {
+          <div class="mega-menu" role="region" [attr.aria-label]="labelOf(item)">
+            <div class="mega-menu__intro">
+              <p class="mega-menu__eyebrow">{{ labelOf(item) }}</p>
+              <p class="mega-menu__copy">
+                Private day tours and multi-day journeys across Sri Lanka.
+              </p>
+              <a class="mega-menu__all" [routerLink]="buildLink(item.path)" (click)="onNavigated()">
+                View all tours
+              </a>
+            </div>
+            <ul class="mega-menu__grid">
+              @for (child of item.children; track child.key) {
+                <li>
+                  <a [routerLink]="buildLink(child.path)" (click)="onNavigated()">
+                    <span class="mega-menu__title">{{ labelOf(child) }}</span>
+                    @if (child.description) {
+                      <span class="mega-menu__desc">{{ child.description }}</span>
+                    }
+                  </a>
+                </li>
+              }
+            </ul>
+          </div>
+        }
+      </li>
+    }
+  </ul>
+</nav>

@@ -1,0 +1,15 @@
+{
+  "locales": [
+    { "code": "en", "name": "English", "nativeName": "English", "dir": "ltr", "enabled": true, "hreflang": "en" },
+    { "code": "de", "name": "German", "nativeName": "Deutsch", "dir": "ltr", "enabled": true, "hreflang": "de" },
+    { "code": "fr", "name": "French", "nativeName": "Français", "dir": "ltr", "enabled": true, "hreflang": "fr" },
+    { "code": "es", "name": "Spanish", "nativeName": "Español", "dir": "ltr", "enabled": true, "hreflang": "es" },
+    { "code": "it", "name": "Italian", "nativeName": "Italiano", "dir": "ltr", "enabled": true, "hreflang": "it" },
+    { "code": "nl", "name": "Dutch", "nativeName": "Nederlands", "dir": "ltr", "enabled": true, "hreflang": "nl" },
+    { "code": "pl", "name": "Polish", "nativeName": "Polski", "dir": "ltr", "enabled": true, "hreflang": "pl" },
+    { "code": "sv", "name": "Swedish", "nativeName": "Svenska", "dir": "ltr", "enabled": true, "hreflang": "sv" },
+    { "code": "ru", "name": "Russian", "nativeName": "Русский", "dir": "ltr", "enabled": true, "hreflang": "ru" },
+    { "code": "ja", "name": "Japanese", "nativeName": "日本語", "dir": "ltr", "enabled": true, "hreflang": "ja" },
+    { "code": "zh", "name": "Chinese", "nativeName": "中文", "dir": "ltr", "enabled": true, "hreflang": "zh-Hans" }
+  ]
+}

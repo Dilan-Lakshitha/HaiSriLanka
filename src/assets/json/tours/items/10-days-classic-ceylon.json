@@ -1,0 +1,307 @@
+{
+  "id": "tour-10-days-classic",
+  "slug": "10-days-classic-ceylon",
+  "category": "multi-day",
+  "title": "10 Days Classic Ceylon",
+  "seoTitle": "10 Days Classic Ceylon Tour | Hai Sri Lanka",
+  "metaDescription": "Private 10-day Classic Ceylon itinerary with culture, tea country, safari, and coast.",
+  "shortDescription": "A deeper classic route with extra wildlife and coast time.",
+  "overview": "Ten private days spanning Cultural Triangle marvels, hill-country trains or drives, safari mornings, and a soft southern coast landing.",
+  "duration": "10 Days / 9 Nights",
+  "destinations": [
+    "Sri Lanka",
+    "Arrival",
+    "Sri Lanka",
+    "Ancient cities"
+  ],
+  "travelStyle": "Wildlife",
+  "highlights": [
+    "Deeper wildlife window",
+    "Tea highlands",
+    "South coast nights"
+  ],
+  "included": [
+    "Private vehicle",
+    "Hand-picked hotels",
+    "Breakfast daily"
+  ],
+  "excluded": [
+    "Flights",
+    "Entrance fees",
+    "Safari jeeps"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival",
+      "description": "Airport meet and west-coast overnight.",
+      "location": {
+        "name": "Arrival",
+        "region": "Sri Lanka",
+        "geo": {
+          "lat": 6.9271,
+          "lng": 79.8612
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+          "alt": "Mangrove boat safari on the south coast",
+          "title": "South coast",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "highlights": [
+        "Private pacing",
+        "Curated stops"
+      ],
+      "locations": [
+        "Arrival",
+        "Sri Lanka"
+      ],
+      "travelTime": "Airport transfer · 45–90 min",
+      "optionalActivities": [
+        "Optional: deepen the day with private pacing"
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Ancient cities",
+      "description": "Begin the Cultural Triangle circuit.",
+      "location": {
+        "name": "Ancient cities",
+        "region": "Sri Lanka",
+        "geo": {
+          "lat": 7.957,
+          "lng": 80.7603
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+          "alt": "Travelers at Dambulla and Cultural Triangle sites",
+          "title": "Ancient cities",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "highlights": [
+        "Private pacing",
+        "Curated stops"
+      ],
+      "locations": [
+        "Ancient cities",
+        "Sri Lanka"
+      ],
+      "travelTime": "Scenic inland transfer · 3–5 hrs",
+      "optionalActivities": [
+        "Optional: deepen the day with private pacing"
+      ]
+    }
+  ],
+  "faqs": [],
+  "reviews": [],
+  "pricing": [
+    {
+      "travelers": 1,
+      "pricePerPerson": 1980
+    },
+    {
+      "travelers": 2,
+      "pricePerPerson": 1320
+    },
+    {
+      "travelers": 3,
+      "pricePerPerson": 1180
+    },
+    {
+      "travelers": 4,
+      "pricePerPerson": 1090
+    },
+    {
+      "travelers": 5,
+      "pricePerPerson": 1020
+    }
+  ],
+  "currency": "USD",
+  "relatedTours": [
+    "7-days-sri-lanka-highlights",
+    "14-days-grand-sri-lanka"
+  ],
+  "badges": [
+    "best-seller",
+    "featured",
+    "wildlife"
+  ],
+  "tags": [
+    "wildlife",
+    "multi-day",
+    "deeper",
+    "south"
+  ],
+  "route": [
+    {
+      "name": "Airport"
+    },
+    {
+      "name": "Arrival"
+    },
+    {
+      "name": "Sri Lanka"
+    },
+    {
+      "name": "Ancient cities"
+    }
+  ],
+  "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=6.8667,81.0466",
+  "heroImage": {
+    "src": "/assets/images/tours/10-days-classic-ceylon/hero.webp",
+    "alt": "Classic Ceylon landscapes on a ten-day private tour",
+    "title": "10 Days Classic Ceylon",
+    "width": 1400,
+    "height": 1050
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+      "alt": "Guests on a mangrove boat safari in Sri Lanka",
+      "title": "Mangrove boat safari",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+      "alt": "Travelers with guide at Dambulla Cave Temple",
+      "title": "Dambulla Cave Temple",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/dambulla-golden-temple.png",
+      "alt": "Travelers at the Golden Temple in Dambulla",
+      "title": "Golden Temple Dambulla",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+      "alt": "Family visiting Nine Arch Bridge in Ella",
+      "title": "Nine Arch Bridge",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+      "alt": "Family on a village tractor ride in Sri Lanka",
+      "title": "Village tractor ride",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/cycling-trail-family.png",
+      "alt": "Family cycling on a tropical trail in Sri Lanka",
+      "title": "Cycling adventure",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+      "alt": "Guests and guide smiling in a tuk-tuk",
+      "title": "Tuk-tuk moments",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-bathing-guests.png",
+      "alt": "Guests bathing an elephant in a river",
+      "title": "Elephant bathing",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "alt": "Guests riding an elephant near Sigiriya Rock",
+      "title": "Sigiriya elephant experience",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+      "alt": "Elephant herd seen from a safari jeep",
+      "title": "Safari elephants",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+      "alt": "Elephants bathing in a Sri Lankan river",
+      "title": "River elephants",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephants-town-walk.png",
+      "alt": "Elephants walking through a Sri Lankan town",
+      "title": "Elephant procession",
+      "width": 1200,
+      "height": 1200
+    }
+  ],
+  "rating": {
+    "average": 4.97,
+    "count": 54
+  },
+  "seo": {
+    "metaTitle": "10 Days Classic Ceylon Tour | Hai Sri Lanka",
+    "metaDescription": "Private 10-day Classic Ceylon itinerary with culture, tea country, safari, and coast.",
+    "keywords": [
+      "10 days Sri Lanka",
+      "Classic Ceylon tour"
+    ],
+    "ogImage": "/assets/images/tours/10-days-classic-ceylon/hero.webp"
+  },
+  "status": "published",
+  "description": "Ten private days spanning Cultural Triangle marvels, hill-country trains or drives, safari mornings, and a soft southern coast landing.",
+  "location": {
+    "name": "Sri Lanka",
+    "region": "Island-wide",
+    "geo": {
+      "lat": 6.3725,
+      "lng": 81.5185
+    }
+  },
+  "price": {
+    "1": 1980,
+    "2": 1320,
+    "3": 1180,
+    "4": 1090,
+    "5": 1020
+  },
+  "images": [
+    {
+      "src": "/assets/images/tours/10-days-classic-ceylon/hero.webp",
+      "alt": "10 Days Classic Ceylon",
+      "title": "10 Days Classic Ceylon",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "includes": [
+    "Private vehicle",
+    "Hand-picked hotels",
+    "Breakfast daily"
+  ],
+  "excludes": [
+    "Flights",
+    "Entrance fees",
+    "Safari jeeps"
+  ],
+  "faq": [],
+  "relatedTourSlugs": [
+    "7-days-sri-lanka-highlights",
+    "14-days-grand-sri-lanka"
+  ],
+  "featured": true,
+  "bestSeller": true
+}

@@ -1,0 +1,8 @@
+<blockquote class="review-card">
+  <p class="review-card__rating" aria-label="Rating {{ review().rating }} out of 5">
+    {{ review().rating }}/5 · {{ review().source }}
+  </p>
+  <p class="review-card__title">{{ review().title }}</p>
+  <p class="review-card__body">“{{ review().content }}”</p>
+  <footer>— {{ review().author }}</footer>
+</blockquote>

@@ -1,0 +1,774 @@
+[
+  {
+    "id": "tour-7-days-highlights",
+    "slug": "7-days-sri-lanka-highlights",
+    "category": "multi-day",
+    "title": "7 Days Sri Lanka Highlights",
+    "shortDescription": "Culture, wildlife, tea country, and coast the essential Sri Lanka circuit.",
+    "description": "A curated seven-day private itinerary covering cultural Triangle highlights, highland tea estates, wildlife, and a coastal finale paced for comfort and discovery.",
+    "duration": "7 Days / 6 Nights",
+    "location": {
+      "name": "Sri Lanka",
+      "region": "Island-wide",
+      "geo": {
+        "lat": 7.957,
+        "lng": 80.7603
+      }
+    },
+    "price": {
+      "1": 1450,
+      "2": 980,
+      "3": 890,
+      "4": 820,
+      "5": 780
+    },
+    "currency": "USD",
+    "images": [
+      {
+        "src": "/assets/images/tours/7-days-highlights.webp",
+        "alt": "Highlights of Sri Lanka on a seven-day private itinerary",
+        "title": "7 Days Sri Lanka Highlights",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival & West Coast",
+        "description": "Airport welcome and gentle settle-in near Negombo or Colombo with time to recover from travel.",
+        "highlights": [
+          "Private airport meet",
+          "Coastal overnight"
+        ],
+        "location": {
+          "name": "Negombo",
+          "region": "Western Province",
+          "geo": {
+            "lat": 7.2083,
+            "lng": 79.8358
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/destinations/colombo.webp",
+            "alt": "West coast arrival near Colombo",
+            "title": "West coast arrival near Colombo",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "meals": [
+          "Dinner opportunity"
+        ],
+        "accommodation": "Boutique west-coast hotel",
+        "locations": [
+          "Negombo",
+          "Western Province"
+        ],
+        "travelTime": "Airport transfer · 45–90 min",
+        "optionalActivities": [
+          "Optional: deepen the day with private airport meet"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Toward the Cultural Triangle",
+        "description": "Journey inland through countryside landscapes toward ancient-city country.",
+        "highlights": [
+          "Scenic transfer",
+          "Village vistas"
+        ],
+        "location": {
+          "name": "Dambulla",
+          "region": "Central Province",
+          "geo": {
+            "lat": 7.8567,
+            "lng": 80.6492
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/destinations/anuradhapura.webp",
+            "alt": "Cultural Triangle countryside",
+            "title": "Cultural Triangle countryside",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "meals": [
+          "Breakfast"
+        ],
+        "accommodation": "Cultural Triangle hotel",
+        "locations": [
+          "Dambulla",
+          "Central Province"
+        ],
+        "travelTime": "Scenic inland transfer · 3–5 hrs",
+        "optionalActivities": [
+          "Optional: deepen the day with scenic transfer"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Sigiriya & Dambulla",
+        "description": "Climb Lion Rock and visit Dambulla Cave Temple with considered pacing and recovery time.",
+        "highlights": [
+          "Sigiriya ascent",
+          "Cave temples"
+        ],
+        "location": {
+          "name": "Sigiriya",
+          "region": "Central Province",
+          "geo": {
+            "lat": 7.957,
+            "lng": 80.7603
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/destinations/sigiriya.webp",
+            "alt": "Sigiriya Rock Fortress",
+            "title": "Sigiriya Rock Fortress",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "meals": [
+          "Breakfast"
+        ],
+        "accommodation": "Cultural Triangle hotel",
+        "locations": [
+          "Sigiriya",
+          "Central Province"
+        ],
+        "travelTime": "Regional exploration · short hops",
+        "optionalActivities": [
+          "Optional: deepen the day with sigiriya ascent"
+        ]
+      },
+      {
+        "day": 4,
+        "title": "Kandy",
+        "description": "Continue to the highland capital for the Temple of the Tooth and lakeside atmosphere.",
+        "highlights": [
+          "Temple of the Tooth",
+          "Lake views"
+        ],
+        "location": {
+          "name": "Kandy",
+          "region": "Central Province",
+          "geo": {
+            "lat": 7.2906,
+            "lng": 80.6337
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/destinations/kandy.webp",
+            "alt": "Kandy Temple of the Tooth",
+            "title": "Kandy Temple of the Tooth",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "meals": [
+          "Breakfast"
+        ],
+        "accommodation": "Kandy hotel",
+        "locations": [
+          "Kandy",
+          "Central Province"
+        ],
+        "travelTime": "Mountain / tea-country transfer · 2–4 hrs",
+        "optionalActivities": [
+          "Optional: deepen the day with temple of the tooth"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Tea Country",
+        "description": "Rise into misty tea estates around Nuwara Eliya for tasting and highland air.",
+        "highlights": [
+          "Tea factory visit",
+          "Cool climate"
+        ],
+        "location": {
+          "name": "Nuwara Eliya",
+          "region": "Central Province",
+          "geo": {
+            "lat": 6.9497,
+            "lng": 80.7891
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/hero/hero-tea-country.webp",
+            "alt": "Tea plantations in the highlands",
+            "title": "Tea plantations in the highlands",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "meals": [
+          "Breakfast"
+        ],
+        "accommodation": "Highland hotel",
+        "locations": [
+          "Nuwara Eliya",
+          "Central Province"
+        ],
+        "travelTime": "Scenic rail or road · 2–4 hrs",
+        "optionalActivities": [
+          "Optional: deepen the day with tea factory visit"
+        ]
+      },
+      {
+        "day": 6,
+        "title": "South Coast",
+        "description": "Descend toward the southern shoreline with Galle Fort and beach light.",
+        "highlights": [
+          "Galle Fort",
+          "Coastal evening"
+        ],
+        "location": {
+          "name": "Galle",
+          "region": "Southern Province",
+          "geo": {
+            "lat": 6.0329,
+            "lng": 80.217
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/destinations/galle.webp",
+            "alt": "Galle Fort on the south coast",
+            "title": "Galle Fort on the south coast",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "meals": [
+          "Breakfast"
+        ],
+        "accommodation": "South-coast hotel",
+        "locations": [
+          "Galle",
+          "Southern Province"
+        ],
+        "travelTime": "Coastal transfer · 3–5 hrs",
+        "optionalActivities": [
+          "Optional: deepen the day with galle fort"
+        ]
+      },
+      {
+        "day": 7,
+        "title": "Departure",
+        "description": "Leisure morning and private transfer to the airport timed to your flight.",
+        "highlights": [
+          "Flexible morning",
+          "Airport transfer"
+        ],
+        "location": {
+          "name": "Colombo Airport corridor",
+          "region": "Western Province",
+          "geo": {
+            "lat": 6.9271,
+            "lng": 79.8612
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/destinations/colombo.webp",
+            "alt": "Departure transfer toward Colombo",
+            "title": "Departure transfer toward Colombo",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "meals": [
+          "Breakfast"
+        ],
+        "locations": [
+          "Colombo Airport corridor",
+          "Western Province"
+        ],
+        "travelTime": "Leisure day · optional short transfers",
+        "optionalActivities": [
+          "Optional: deepen the day with flexible morning"
+        ]
+      }
+    ],
+    "includes": [
+      "Private vehicle",
+      "Hotels (B&B)",
+      "Daily breakfast",
+      "Guide service"
+    ],
+    "excludes": [
+      "International flights",
+      "Lunch & dinner",
+      "Entrance fees"
+    ],
+    "rating": {
+      "average": 4.95,
+      "count": 86
+    },
+    "faq": [
+      {
+        "question": "Can the itinerary be customized?",
+        "answer": "Yes. We tailor pace, hotels, and experiences to your preferences."
+      }
+    ],
+    "seo": {
+      "metaTitle": "7 Days Sri Lanka Highlights Tour | Hai Sri Lanka",
+      "metaDescription": "Experience Sri Lanka’s highlights in 7 days culture, tea country, wildlife, and coast with a private Hai Sri Lanka itinerary.",
+      "keywords": [
+        "7 days Sri Lanka tour",
+        "Sri Lanka highlights",
+        "private multi day tour"
+      ]
+    },
+    "status": "published",
+    "featured": true,
+    "bestSeller": true,
+    "gallery": [
+      {
+        "src": "/assets/images/tours/7-days-highlights.webp",
+        "alt": "Highlights of Sri Lanka on a seven-day private itinerary",
+        "title": "7 Days Sri Lanka Highlights",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/hero/hero-ella-bridge.webp",
+        "alt": "Ella Nine Arch Bridge",
+        "title": "Ella Nine Arch Bridge",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/yala.webp",
+        "alt": "Yala safari scenery",
+        "title": "Yala safari scenery",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/galle.webp",
+        "alt": "Galle Fort",
+        "title": "Galle Fort",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": [
+      "10-days-classic-ceylon",
+      "14-days-grand-sri-lanka"
+    ],
+    "highlights": [
+      "Cultural Triangle icons",
+      "Tea country immersion",
+      "South coast finale",
+      "Private vehicle throughout"
+    ],
+    "mapOverview": {
+      "center": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "zoom": 7,
+      "path": [
+        {
+          "lat": 7.2083,
+          "lng": 79.8358
+        },
+        {
+          "lat": 7.957,
+          "lng": 80.7603
+        },
+        {
+          "lat": 7.2906,
+          "lng": 80.6337
+        },
+        {
+          "lat": 6.9497,
+          "lng": 80.7891
+        },
+        {
+          "lat": 6.0329,
+          "lng": 80.217
+        },
+        {
+          "lat": 6.9271,
+          "lng": 79.8612
+        }
+      ]
+    }
+  },
+  {
+    "id": "tour-10-days-classic",
+    "slug": "10-days-classic-ceylon",
+    "category": "multi-day",
+    "title": "10 Days Classic Ceylon",
+    "shortDescription": "A deeper classic route with extra wildlife and coast time.",
+    "description": "Ten private days spanning Cultural Triangle marvels, hill-country trains or drives, safari mornings, and a soft southern coast landing.",
+    "duration": "10 Days / 9 Nights",
+    "location": {
+      "name": "Sri Lanka",
+      "region": "Island-wide",
+      "geo": {
+        "lat": 6.3725,
+        "lng": 81.5185
+      }
+    },
+    "price": {
+      "1": 1980,
+      "2": 1320,
+      "3": 1180,
+      "4": 1090,
+      "5": 1020
+    },
+    "currency": "USD",
+    "images": [
+      {
+        "src": "/assets/images/tours/10-days-classic.webp",
+        "alt": "Classic Ceylon landscapes on a ten-day private tour",
+        "title": "10 Days Classic Ceylon",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival",
+        "description": "Airport meet and west-coast overnight.",
+        "location": {
+          "name": "Arrival",
+          "region": "Sri Lanka",
+          "geo": {
+            "lat": 6.9271,
+            "lng": 79.8612
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/tours/10-days-classic.webp",
+            "alt": "Classic Ceylon landscapes on a ten-day private tour",
+            "title": "10 Days Classic Ceylon",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "highlights": [
+          "Private pacing",
+          "Curated stops"
+        ],
+        "locations": [
+          "Arrival",
+          "Sri Lanka"
+        ],
+        "travelTime": "Airport transfer · 45–90 min",
+        "optionalActivities": [
+          "Optional: deepen the day with private pacing"
+        ]
+      },
+      {
+        "day": 2,
+        "title": "Ancient cities",
+        "description": "Begin the Cultural Triangle circuit.",
+        "location": {
+          "name": "Ancient cities",
+          "region": "Sri Lanka",
+          "geo": {
+            "lat": 7.957,
+            "lng": 80.7603
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/tours/10-days-classic.webp",
+            "alt": "Classic Ceylon landscapes on a ten-day private tour",
+            "title": "10 Days Classic Ceylon",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "highlights": [
+          "Private pacing",
+          "Curated stops"
+        ],
+        "locations": [
+          "Ancient cities",
+          "Sri Lanka"
+        ],
+        "travelTime": "Scenic inland transfer · 3–5 hrs",
+        "optionalActivities": [
+          "Optional: deepen the day with private pacing"
+        ]
+      }
+    ],
+    "includes": [
+      "Private vehicle",
+      "Hand-picked hotels",
+      "Breakfast daily"
+    ],
+    "excludes": [
+      "Flights",
+      "Entrance fees",
+      "Safari jeeps"
+    ],
+    "rating": {
+      "average": 4.97,
+      "count": 54
+    },
+    "faq": [],
+    "seo": {
+      "metaTitle": "10 Days Classic Ceylon Tour | Hai Sri Lanka",
+      "metaDescription": "Private 10-day Classic Ceylon itinerary with culture, tea country, safari, and coast.",
+      "keywords": [
+        "10 days Sri Lanka",
+        "Classic Ceylon tour"
+      ]
+    },
+    "status": "published",
+    "featured": true,
+    "bestSeller": true,
+    "gallery": [
+      {
+        "src": "/assets/images/tours/10-days-classic.webp",
+        "alt": "Classic Ceylon landscapes on a ten-day private tour",
+        "title": "10 Days Classic Ceylon",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/hero/hero-ella-bridge.webp",
+        "alt": "Ella Nine Arch Bridge",
+        "title": "Ella Nine Arch Bridge",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/yala.webp",
+        "alt": "Yala safari scenery",
+        "title": "Yala safari scenery",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/galle.webp",
+        "alt": "Galle Fort",
+        "title": "Galle Fort",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": [
+      "7-days-sri-lanka-highlights",
+      "14-days-grand-sri-lanka"
+    ],
+    "highlights": [
+      "Deeper wildlife window",
+      "Tea highlands",
+      "South coast nights"
+    ],
+    "mapOverview": {
+      "center": {
+        "lat": 6.8667,
+        "lng": 81.0466
+      },
+      "zoom": 7,
+      "path": [
+        {
+          "lat": 6.9271,
+          "lng": 79.8612
+        },
+        {
+          "lat": 7.957,
+          "lng": 80.7603
+        },
+        {
+          "lat": 7.2906,
+          "lng": 80.6337
+        },
+        {
+          "lat": 6.8667,
+          "lng": 81.0466
+        },
+        {
+          "lat": 6.3725,
+          "lng": 81.5185
+        },
+        {
+          "lat": 6.0329,
+          "lng": 80.217
+        }
+      ]
+    }
+  },
+  {
+    "id": "tour-14-days-grand",
+    "slug": "14-days-grand-sri-lanka",
+    "category": "multi-day",
+    "title": "14 Days Grand Sri Lanka",
+    "shortDescription": "The grand private circuit east coast windows, parks, and unhurried stays.",
+    "description": "Two weeks designed for travelers who want depth: cultural icons, highland elegance, multiple wildlife parks, and soft beach days.",
+    "duration": "14 Days / 13 Nights",
+    "location": {
+      "name": "Sri Lanka",
+      "region": "Island-wide",
+      "geo": {
+        "lat": 5.9483,
+        "lng": 80.471
+      }
+    },
+    "price": {
+      "1": 2850,
+      "2": 1890,
+      "3": 1680,
+      "4": 1540,
+      "5": 1450
+    },
+    "currency": "USD",
+    "images": [
+      {
+        "src": "/assets/images/tours/14-days-grand.webp",
+        "alt": "Grand Sri Lanka coastal and cultural scenery",
+        "title": "14 Days Grand Sri Lanka",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival",
+        "description": "Soft landing and orientation.",
+        "location": {
+          "name": "Arrival",
+          "region": "Sri Lanka",
+          "geo": {
+            "lat": 5.9483,
+            "lng": 80.471
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/tours/14-days-grand.webp",
+            "alt": "Grand Sri Lanka coastal and cultural scenery",
+            "title": "14 Days Grand Sri Lanka",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "highlights": [
+          "Boutique stays",
+          "Private guiding"
+        ],
+        "locations": [
+          "Arrival",
+          "Sri Lanka"
+        ],
+        "travelTime": "Airport transfer · 45–90 min",
+        "optionalActivities": [
+          "Optional: deepen the day with boutique stays"
+        ]
+      }
+    ],
+    "includes": [
+      "Private vehicle",
+      "Boutique & luxury hotels",
+      "Breakfast"
+    ],
+    "excludes": [
+      "Flights",
+      "Some meals",
+      "Optional experiences"
+    ],
+    "rating": {
+      "average": 5,
+      "count": 31
+    },
+    "faq": [],
+    "seo": {
+      "metaTitle": "14 Days Grand Sri Lanka Tour | Hai Sri Lanka",
+      "metaDescription": "Private 14-day Grand Sri Lanka itinerary for unhurried luxury travel.",
+      "keywords": [
+        "14 days Sri Lanka tour",
+        "luxury Sri Lanka itinerary"
+      ]
+    },
+    "status": "published",
+    "featured": true,
+    "gallery": [
+      {
+        "src": "/assets/images/tours/14-days-grand.webp",
+        "alt": "Grand Sri Lanka coastal and cultural scenery",
+        "title": "14 Days Grand Sri Lanka",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/hero/hero-ella-bridge.webp",
+        "alt": "Ella Nine Arch Bridge",
+        "title": "Ella Nine Arch Bridge",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/yala.webp",
+        "alt": "Yala safari scenery",
+        "title": "Yala safari scenery",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/galle.webp",
+        "alt": "Galle Fort",
+        "title": "Galle Fort",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": [
+      "7-days-sri-lanka-highlights",
+      "10-days-classic-ceylon"
+    ],
+    "highlights": [
+      "Unhurried two-week circuit",
+      "East & south options",
+      "Luxury lodge nights"
+    ],
+    "mapOverview": {
+      "center": {
+        "lat": 6.0329,
+        "lng": 80.217
+      },
+      "zoom": 7,
+      "path": [
+        {
+          "lat": 6.9271,
+          "lng": 79.8612
+        },
+        {
+          "lat": 7.957,
+          "lng": 80.7603
+        },
+        {
+          "lat": 7.2906,
+          "lng": 80.6337
+        },
+        {
+          "lat": 6.3725,
+          "lng": 81.5185
+        },
+        {
+          "lat": 6.0329,
+          "lng": 80.217
+        }
+      ]
+    }
+  }
+]

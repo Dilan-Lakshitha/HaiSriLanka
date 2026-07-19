@@ -1,0 +1,23 @@
+<section class="destinations" aria-labelledby="destinations-title" appReveal>
+  <app-ui-container>
+    <header class="destinations__header">
+      <div>
+        <p class="destinations__eyebrow">{{ intro().eyebrow }}</p>
+        <h2 id="destinations-title">{{ intro().title }}</h2>
+        <p>{{ intro().subtitle }}</p>
+      </div>
+      @if (intro().viewAllPath && intro().viewAllLabel) {
+        <a appUiButton variant="ghost" [routerLink]="['/', lang(), intro().viewAllPath]">
+          {{ intro().viewAllLabel }}
+        </a>
+      }
+    </header>
+    <ul class="destinations__grid">
+      @for (destination of destinations(); track trackBySlug($index, destination)) {
+        <li>
+          <app-destination-card [destination]="destination" [lang]="lang()" />
+        </li>
+      }
+    </ul>
+  </app-ui-container>
+</section>

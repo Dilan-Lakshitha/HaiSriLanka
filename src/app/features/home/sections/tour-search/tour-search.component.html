@@ -1,0 +1,41 @@
+<section class="tour-search" aria-labelledby="tour-search-title" appReveal>
+  <app-ui-container>
+    <div class="tour-search__panel">
+      <div class="tour-search__intro">
+        <h2 id="tour-search-title">{{ search().title }}</h2>
+        <p>{{ search().subtitle }}</p>
+      </div>
+      <form class="tour-search__form" (submit)="onSubmit($event)">
+        <label>
+          <span>{{ search().destinationLabel }}</span>
+          <select
+            [ngModel]="destination()"
+            (ngModelChange)="destination.set($event)"
+            name="destination"
+          >
+            @for (opt of search().destinations; track opt.value) {
+              <option [value]="opt.value">{{ opt.label }}</option>
+            }
+          </select>
+        </label>
+        <label>
+          <span>{{ search().durationLabel }}</span>
+          <select [ngModel]="duration()" (ngModelChange)="duration.set($event)" name="duration">
+            @for (opt of search().durations; track opt.value) {
+              <option [value]="opt.value">{{ opt.label }}</option>
+            }
+          </select>
+        </label>
+        <label>
+          <span>{{ search().styleLabel }}</span>
+          <select [ngModel]="style()" (ngModelChange)="style.set($event)" name="style">
+            @for (opt of search().styles; track opt.value) {
+              <option [value]="opt.value">{{ opt.label }}</option>
+            }
+          </select>
+        </label>
+        <button appUiButton variant="primary" type="submit">{{ search().submitLabel }}</button>
+      </form>
+    </div>
+  </app-ui-container>
+</section>

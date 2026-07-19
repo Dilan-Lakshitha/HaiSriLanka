@@ -1,0 +1,361 @@
+{
+  "seo": {
+    "metaTitle": "Hai Sri Lanka Tours | Private Luxury Tours in Sri Lanka",
+    "metaDescription": "Plan a private Sri Lanka journey with Hai Sri Lanka Tours. Luxury multi-day itineraries, curated day tours, and expert local hosts across the island.",
+    "keywords": [
+      "Sri Lanka luxury tours",
+      "private tours Sri Lanka",
+      "Hai Sri Lanka",
+      "multi day Sri Lanka itinerary",
+      "day tours Colombo"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Private inbound travel · Sri Lanka",
+    "title": "Discover Ceylon in quiet luxury",
+    "subtitle": "Tailor-made journeys through temples, tea country, wildlife, and coast paced for discerning travelers.",
+    "primaryCta": {
+      "label": "Explore tours",
+      "path": "sri-lanka-tours"
+    },
+    "secondaryCta": {
+      "label": "Plan with us",
+      "path": "contact"
+    },
+    "image": {
+      "src": "/assets/images/hero/carousel-nine-arch-ella.jpg",
+      "alt": "Nine Arch Bridge and tea country near Ella, Sri Lanka",
+      "title": "Ella Nine Arch Bridge",
+      "width": 1920,
+      "height": 1080
+    },
+    "images": [
+      {
+        "src": "/assets/images/hero/carousel-king-coconut.png",
+        "alt": "Guests and guide enjoying king coconuts in a jungle riverside stop in Sri Lanka",
+        "title": "Local hospitality",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/assets/images/hero/carousel-safari-guests.jpg",
+        "alt": "Travelers on a Sri Lanka jeep safari with elephants nearby",
+        "title": "Safari moments",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/assets/images/hero/carousel-dambulla-guests.png",
+        "alt": "Travelers with their guide at Dambulla Cave Temple in Sri Lanka",
+        "title": "Temple visits",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/assets/images/hero/carousel-yala-leopard.jpg",
+        "alt": "Leopard resting on a sandy track in Yala National Park",
+        "title": "Yala wildlife",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/assets/images/hero/carousel-nine-arch-ella.jpg",
+        "alt": "Nine Arch Bridge rising above tea plantations in Ella",
+        "title": "Ella highlands",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  },
+  "search": {
+    "title": "Find your journey",
+    "subtitle": "Search private tours by destination, duration, and travel style.",
+    "destinationLabel": "Destination",
+    "durationLabel": "Duration",
+    "styleLabel": "Travel style",
+    "submitLabel": "Search tours",
+    "destinations": [
+      {
+        "value": "all",
+        "label": "Anywhere in Sri Lanka"
+      },
+      {
+        "value": "galle",
+        "label": "Galle & South Coast"
+      },
+      {
+        "value": "sigiriya",
+        "label": "Cultural Triangle"
+      },
+      {
+        "value": "kandy",
+        "label": "Kandy & Highlands"
+      },
+      {
+        "value": "yala",
+        "label": "Yala & Wildlife"
+      },
+      {
+        "value": "east",
+        "label": "East Coast"
+      }
+    ],
+    "durations": [
+      {
+        "value": "all",
+        "label": "Any duration"
+      },
+      {
+        "value": "day",
+        "label": "Day tours"
+      },
+      {
+        "value": "3-7",
+        "label": "3–7 days"
+      },
+      {
+        "value": "8-14",
+        "label": "8–14 days"
+      },
+      {
+        "value": "15+",
+        "label": "15+ days"
+      }
+    ],
+    "styles": [
+      {
+        "value": "all",
+        "label": "All styles"
+      },
+      {
+        "value": "culture",
+        "label": "Culture & heritage"
+      },
+      {
+        "value": "wildlife",
+        "label": "Wildlife"
+      },
+      {
+        "value": "beach",
+        "label": "Beach & coast"
+      },
+      {
+        "value": "luxury",
+        "label": "Luxury & wellness"
+      },
+      {
+        "value": "family",
+        "label": "Family"
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Why Hai Sri Lanka",
+    "title": "Hospitality shaped for private travel",
+    "subtitle": "We design calm, seamless journeys never crowded group buses with hosts who know every winding road.",
+    "items": [
+      {
+        "id": "private",
+        "title": "Fully private experiences",
+        "description": "Your vehicle, your pace, your preferences. Every tour is reserved exclusively for your party.",
+        "icon": "private"
+      },
+      {
+        "id": "experts",
+        "title": "Expert local hosts",
+        "description": "Chauffeur-guides trained in storytelling, safety, and quiet luxury hospitality across the island.",
+        "icon": "hosts"
+      },
+      {
+        "id": "tailored",
+        "title": "Tailor-made itineraries",
+        "description": "We refine hotels, timing, and hidden stops to match how you prefer to travel.",
+        "icon": "tailored"
+      },
+      {
+        "id": "care",
+        "title": "End-to-end care",
+        "description": "From airport welcome to farewell transfer, a dedicated team supports every day of your journey.",
+        "icon": "care"
+      }
+    ]
+  },
+  "tourCategories": {
+    "eyebrow": "Tour categories",
+    "title": "Choose how you meet Sri Lanka",
+    "subtitle": "From a single coastal day to a fortnight of highlands and wildlife start with the style that fits you.",
+    "items": [
+      {
+        "id": "day",
+        "title": "Day Tours",
+        "description": "Private day escapes from Colombo and coastal bases forts, temples, and scenic drives.",
+        "path": "day-tours",
+        "image": {
+          "src": "/assets/images/tours/category-day.webp",
+          "alt": "Private day tour along the Sri Lankan coast",
+          "width": 1400,
+          "height": 1050
+        }
+      },
+      {
+        "id": "multi",
+        "title": "Multi-Day Tours",
+        "description": "Curated island circuits combining culture, tea country, wildlife, and shoreline stays.",
+        "path": "multi-day-tours",
+        "image": {
+          "src": "/assets/images/tours/category-multi.webp",
+          "alt": "Multi-day journey through Sri Lanka highlands",
+          "width": 1400,
+          "height": 1050
+        }
+      },
+      {
+        "id": "wildlife",
+        "title": "Wildlife Journeys",
+        "description": "Safari days and overnight lodges near Yala, Wilpattu, and Udawalawe.",
+        "path": "things-to-do",
+        "image": {
+          "src": "/assets/images/tours/category-wildlife.webp",
+          "alt": "Jeep safari in Sri Lanka wildlife parks",
+          "width": 1400,
+          "height": 1050
+        }
+      },
+      {
+        "id": "honeymoon",
+        "title": "Honeymoon & Escape",
+        "description": "Secluded boutique stays, spa rituals, and unhurried coastal evenings.",
+        "path": "special-offers",
+        "image": {
+          "src": "/assets/images/tours/category-honeymoon.webp",
+          "alt": "Luxury beach escape for couples in Sri Lanka",
+          "width": 1400,
+          "height": 1050
+        }
+      }
+    ]
+  },
+  "featuredMultiDay": {
+    "eyebrow": "Featured journeys",
+    "title": "Multi-day tours travelers love",
+    "subtitle": "Signature private itineraries with room to breathe culture, highlands, and coast in balance.",
+    "viewAllPath": "multi-day-tours",
+    "viewAllLabel": "View all multi-day tours"
+  },
+  "featuredDay": {
+    "eyebrow": "One perfect day",
+    "title": "Featured day tours",
+    "subtitle": "Private day experiences from Colombo and the west coast refined pacing, memorable stops.",
+    "viewAllPath": "day-tours",
+    "viewAllLabel": "View all day tours"
+  },
+  "destinations": {
+    "eyebrow": "Destinations",
+    "title": "Places that define Sri Lanka",
+    "subtitle": "From Lion Rock to Dutch fort walls explore the regions that shape every great itinerary.",
+    "viewAllPath": "destinations",
+    "viewAllLabel": "Explore destinations"
+  },
+  "map": {
+    "eyebrow": "Travel map",
+    "title": "An island of regions, perfectly connected",
+    "subtitle": "We choreograph routes so Cultural Triangle, highlands, wildlife, and coast feel natural never rushed.",
+    "image": {
+      "src": "/assets/images/destinations/ella-bridge.webp",
+      "alt": "Nine Arch Bridge in Ella representing travel regions of Sri Lanka",
+      "title": "Sri Lanka travel regions",
+      "width": 1920,
+      "height": 1080
+    },
+    "regions": [
+      {
+        "id": "triangle",
+        "name": "Cultural Triangle",
+        "description": "Sigiriya, Polonnaruwa, Dambulla, and Anuradhapura."
+      },
+      {
+        "id": "highlands",
+        "name": "Hill Country",
+        "description": "Kandy, Nuwara Eliya, tea estates, and misty trails."
+      },
+      {
+        "id": "south",
+        "name": "South Coast",
+        "description": "Galle Fort, Mirissa, and quiet boutique beaches."
+      },
+      {
+        "id": "wildlife",
+        "name": "Wildlife Parks",
+        "description": "Yala, Udawalawe, and Wilpattu safari mornings."
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Guest stories",
+    "title": "Trusted by travelers worldwide",
+    "subtitle": "Words from guests who journeyed with Hai Sri Lanka on Google and TripAdvisor.",
+    "viewAllPath": "reviews",
+    "viewAllLabel": "Read all reviews"
+  },
+  "stats": {
+    "eyebrow": "By the numbers",
+    "title": "Travel that feels considered",
+    "items": [
+      {
+        "id": "guests",
+        "value": "2,400+",
+        "label": "Private guests hosted"
+      },
+      {
+        "id": "rating",
+        "value": "4.9",
+        "label": "Average guest rating"
+      },
+      {
+        "id": "years",
+        "value": "6+",
+        "label": "Years of inbound expertise"
+      },
+      {
+        "id": "repeat",
+        "value": "38%",
+        "label": "Repeat & referred travelers"
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Travel journal",
+    "title": "Ideas for your Sri Lanka trip",
+    "subtitle": "Practical guides and seasonal insight from our planning team.",
+    "viewAllPath": "blog",
+    "viewAllLabel": "Visit the blog"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Frequently asked",
+    "subtitle": "Clear answers before you request a private itinerary.",
+    "viewAllPath": "faq",
+    "viewAllLabel": "See all FAQs",
+    "pageKey": "home"
+  },
+  "cta": {
+    "eyebrow": "Begin here",
+    "title": "Tell us how you want to travel",
+    "subtitle": "Share your dates, pace, and interests we will craft a private Sri Lanka journey worth the voyage.",
+    "primaryCta": {
+      "label": "Contact our planners",
+      "path": "contact"
+    },
+    "secondaryCta": {
+      "label": "Browse special offers",
+      "path": "special-offers"
+    },
+    "image": {
+      "src": "/assets/images/hero/carousel-nine-arch-ella.jpg",
+      "alt": "Nine Arch Bridge rising above tea plantations in Ella, Sri Lanka",
+      "title": "Ella Nine Arch Bridge",
+      "width": 1920,
+      "height": 1080
+    }
+  }
+}

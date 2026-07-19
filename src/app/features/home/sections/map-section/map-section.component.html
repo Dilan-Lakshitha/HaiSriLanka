@@ -1,0 +1,29 @@
+<section class="map" aria-labelledby="map-title" appReveal>
+  <app-ui-container>
+    <div class="map__layout">
+      <div class="map__copy">
+        <p class="map__eyebrow">{{ map().eyebrow }}</p>
+        <h2 id="map-title">{{ map().title }}</h2>
+        <p class="map__subtitle">{{ map().subtitle }}</p>
+        <ul class="map__regions">
+          @for (region of map().regions; track trackById($index, region)) {
+            <li>
+              <h3>{{ region.name }}</h3>
+              <p>{{ region.description }}</p>
+            </li>
+          }
+        </ul>
+      </div>
+      <figure class="map__figure img-zoom">
+        <img
+          [ngSrc]="map().image.src"
+          [alt]="map().image.alt"
+          [title]="map().image.title || map().title"
+          [width]="map().image.width || 900"
+          [height]="map().image.height || 1100"
+          loading="lazy"
+        />
+      </figure>
+    </div>
+  </app-ui-container>
+</section>

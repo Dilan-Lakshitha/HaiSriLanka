@@ -1,0 +1,28 @@
+<section class="categories" aria-labelledby="categories-title" appReveal>
+  <app-ui-container>
+    <header class="categories__header">
+      <p class="categories__eyebrow">{{ intro().eyebrow }}</p>
+      <h2 id="categories-title">{{ intro().title }}</h2>
+      <p>{{ intro().subtitle }}</p>
+    </header>
+    <ul class="categories__grid">
+      @for (item of items(); track trackById($index, item)) {
+        <li>
+          <a class="categories__card img-zoom" [routerLink]="['/', lang(), item.path]">
+            <img
+              [ngSrc]="item.image.src"
+              [alt]="item.image.alt"
+              [width]="item.image.width || 800"
+              [height]="item.image.height || 600"
+              loading="lazy"
+            />
+            <div class="categories__overlay">
+              <h3>{{ item.title }}</h3>
+              <p>{{ item.description }}</p>
+            </div>
+          </a>
+        </li>
+      }
+    </ul>
+  </app-ui-container>
+</section>

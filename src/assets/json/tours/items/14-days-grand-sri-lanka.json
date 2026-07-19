@@ -1,0 +1,268 @@
+{
+  "id": "tour-14-days-grand",
+  "slug": "14-days-grand-sri-lanka",
+  "category": "multi-day",
+  "title": "14 Days Grand Sri Lanka",
+  "seoTitle": "14 Days Grand Sri Lanka Tour | Hai Sri Lanka",
+  "metaDescription": "Private 14-day Grand Sri Lanka itinerary for unhurried luxury travel.",
+  "shortDescription": "The grand private circuit east coast windows, parks, and unhurried stays.",
+  "overview": "Two weeks designed for travelers who want depth: cultural icons, highland elegance, multiple wildlife parks, and soft beach days.",
+  "duration": "14 Days / 13 Nights",
+  "destinations": [
+    "Sri Lanka",
+    "Arrival",
+    "Sri Lanka"
+  ],
+  "travelStyle": "Private Multi-Day Journey",
+  "highlights": [
+    "Unhurried two-week circuit",
+    "East & south options",
+    "Luxury lodge nights"
+  ],
+  "included": [
+    "Private vehicle",
+    "Boutique & luxury hotels",
+    "Breakfast"
+  ],
+  "excluded": [
+    "Flights",
+    "Some meals",
+    "Optional experiences"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival",
+      "description": "Soft landing and orientation.",
+      "location": {
+        "name": "Arrival",
+        "region": "Sri Lanka",
+        "geo": {
+          "lat": 5.9483,
+          "lng": 80.471
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+          "alt": "Discovering Sri Lanka with Hai Sri Lanka Tours",
+          "title": "Grand Sri Lanka",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "highlights": [
+        "Boutique stays",
+        "Private guiding"
+      ],
+      "locations": [
+        "Arrival",
+        "Sri Lanka"
+      ],
+      "travelTime": "Airport transfer · 45–90 min",
+      "optionalActivities": [
+        "Optional: deepen the day with boutique stays"
+      ]
+    }
+  ],
+  "faqs": [],
+  "reviews": [],
+  "pricing": [
+    {
+      "travelers": 1,
+      "pricePerPerson": 2850
+    },
+    {
+      "travelers": 2,
+      "pricePerPerson": 1890
+    },
+    {
+      "travelers": 3,
+      "pricePerPerson": 1680
+    },
+    {
+      "travelers": 4,
+      "pricePerPerson": 1540
+    },
+    {
+      "travelers": 5,
+      "pricePerPerson": 1450
+    }
+  ],
+  "currency": "USD",
+  "relatedTours": [
+    "7-days-sri-lanka-highlights",
+    "10-days-classic-ceylon"
+  ],
+  "badges": [
+    "featured"
+  ],
+  "tags": [
+    "private-multi-day-journey",
+    "multi-day",
+    "unhurried",
+    "east",
+    "luxury"
+  ],
+  "route": [
+    {
+      "name": "Airport"
+    },
+    {
+      "name": "Arrival"
+    },
+    {
+      "name": "Sri Lanka"
+    }
+  ],
+  "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=6.0329,80.217",
+  "heroImage": {
+    "src": "/assets/images/tours/14-days-grand-sri-lanka/hero.webp",
+    "alt": "Grand Sri Lanka coastal and cultural scenery",
+    "title": "14 Days Grand Sri Lanka",
+    "width": 1400,
+    "height": 1050
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+      "alt": "Guests on a mangrove boat safari in Sri Lanka",
+      "title": "Mangrove boat safari",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+      "alt": "Travelers with guide at Dambulla Cave Temple",
+      "title": "Dambulla Cave Temple",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/dambulla-golden-temple.png",
+      "alt": "Travelers at the Golden Temple in Dambulla",
+      "title": "Golden Temple Dambulla",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+      "alt": "Family visiting Nine Arch Bridge in Ella",
+      "title": "Nine Arch Bridge",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+      "alt": "Family on a village tractor ride in Sri Lanka",
+      "title": "Village tractor ride",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/cycling-trail-family.png",
+      "alt": "Family cycling on a tropical trail in Sri Lanka",
+      "title": "Cycling adventure",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+      "alt": "Guests and guide smiling in a tuk-tuk",
+      "title": "Tuk-tuk moments",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-bathing-guests.png",
+      "alt": "Guests bathing an elephant in a river",
+      "title": "Elephant bathing",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "alt": "Guests riding an elephant near Sigiriya Rock",
+      "title": "Sigiriya elephant experience",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+      "alt": "Elephant herd seen from a safari jeep",
+      "title": "Safari elephants",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+      "alt": "Elephants bathing in a Sri Lankan river",
+      "title": "River elephants",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephants-town-walk.png",
+      "alt": "Elephants walking through a Sri Lankan town",
+      "title": "Elephant procession",
+      "width": 1200,
+      "height": 1200
+    }
+  ],
+  "rating": {
+    "average": 5,
+    "count": 31
+  },
+  "seo": {
+    "metaTitle": "14 Days Grand Sri Lanka Tour | Hai Sri Lanka",
+    "metaDescription": "Private 14-day Grand Sri Lanka itinerary for unhurried luxury travel.",
+    "keywords": [
+      "14 days Sri Lanka tour",
+      "luxury Sri Lanka itinerary"
+    ],
+    "ogImage": "/assets/images/tours/14-days-grand-sri-lanka/hero.webp"
+  },
+  "status": "published",
+  "description": "Two weeks designed for travelers who want depth: cultural icons, highland elegance, multiple wildlife parks, and soft beach days.",
+  "location": {
+    "name": "Sri Lanka",
+    "region": "Island-wide",
+    "geo": {
+      "lat": 5.9483,
+      "lng": 80.471
+    }
+  },
+  "price": {
+    "1": 2850,
+    "2": 1890,
+    "3": 1680,
+    "4": 1540,
+    "5": 1450
+  },
+  "images": [
+    {
+      "src": "/assets/images/tours/14-days-grand-sri-lanka/hero.webp",
+      "alt": "14 Days Grand Sri Lanka",
+      "title": "14 Days Grand Sri Lanka",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "includes": [
+    "Private vehicle",
+    "Boutique & luxury hotels",
+    "Breakfast"
+  ],
+  "excludes": [
+    "Flights",
+    "Some meals",
+    "Optional experiences"
+  ],
+  "faq": [],
+  "relatedTourSlugs": [
+    "7-days-sri-lanka-highlights",
+    "10-days-classic-ceylon"
+  ],
+  "featured": true,
+  "bestSeller": false
+}

@@ -1,0 +1,12 @@
+<app-ui-section>
+  <app-ui-container>
+    <app-breadcrumb />
+    <app-ui-heading [level]="1" [eyebrow]="'placeholder.foundationReady' | transloco">
+      {{ pageTitleKey() | transloco }}
+    </app-ui-heading>
+    <p class="foundation-page__body">{{ 'common.comingSoon' | transloco }}</p>
+    <a appUiButton variant="ghost" [routerLink]="['/', locale.activeLang()]">
+      {{ 'common.backHome' | transloco }}
+    </a>
+  </app-ui-container>
+</app-ui-section>

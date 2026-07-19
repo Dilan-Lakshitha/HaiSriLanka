@@ -1,0 +1,11 @@
+@if (highlights().length) {
+  <section class="highlights" aria-labelledby="highlights-title" appReveal>
+    <p class="highlights__eyebrow">Highlights</p>
+    <h2 id="highlights-title">Why travelers love this tour</h2>
+    <ul>
+      @for (item of highlights(); track item) {
+        <li>{{ item }}</li>
+      }
+    </ul>
+  </section>
+}

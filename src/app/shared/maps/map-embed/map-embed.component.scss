@@ -1,0 +1,25 @@
+.map-embed {
+  display: grid;
+  gap: 0.55rem;
+
+  &__frame {
+    width: 100%;
+    height: var(--map-h, 280px);
+    border: 0;
+    border-radius: var(--radius-md);
+    background: var(--color-surface-muted);
+  }
+
+  &__open {
+    justify-self: start;
+    color: var(--color-green);
+    font-size: 0.85rem;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--color-navy);
+      text-decoration: underline;
+    }
+  }
+}

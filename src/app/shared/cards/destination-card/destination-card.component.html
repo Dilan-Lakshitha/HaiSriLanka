@@ -1,0 +1,15 @@
+<article class="destination-card">
+  <a [routerLink]="['/', lang(), 'destinations', destination().slug]">
+    <img
+      [ngSrc]="destination().images[0]?.src || '/assets/images/placeholders/dest-galle.svg'"
+      [alt]="destination().images[0]?.alt || destination().title"
+      width="600"
+      height="400"
+      loading="lazy"
+    />
+    <div class="destination-card__overlay">
+      <h3 class="destination-card__title">{{ destination().title }}</h3>
+      <p class="destination-card__desc">{{ destination().shortDescription }}</p>
+    </div>
+  </a>
+</article>

@@ -1,0 +1,484 @@
+[
+  {
+    "id": "dest-galle",
+    "slug": "galle",
+    "title": "Galle",
+    "shortDescription": "UNESCO-listed fort city on Sri Lanka’s southern coast.",
+    "description": "Wander Dutch-era ramparts, boutique streets, and ocean light in one of Asia’s most atmospheric coastal towns. Galle pairs heritage walks with beach evenings and mangrove boat safaris nearby ideal as a day trip from Colombo or a soft landing on multi-day routes.",
+    "region": "Southern Province",
+    "highlights": [
+      "Galle Fort ramparts and lighthouse views",
+      "Boutique streets and Dutch colonial lanes",
+      "Nearby beaches and mangrove boat safaris",
+      "Easy day-tour or multi-day coastal stop"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/destinations/galle.webp",
+        "alt": "Galle Fort lighthouse and southern coastline",
+        "title": "Galle Fort",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/south-coast.webp",
+        "alt": "Southern coastal scenery near Galle",
+        "title": "South coast",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+        "alt": "Guests on a mangrove boat safari near the south coast",
+        "title": "Mangrove boat",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+        "alt": "Guests exploring with a local guide",
+        "title": "Local moments",
+        "width": 1200,
+        "height": 1200
+      }
+    ],
+    "relatedTourSlugs": ["galle-day-tour", "7-days-sri-lanka-highlights"],
+    "seo": {
+      "metaTitle": "Galle Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Plan your visit to Galle with Hai Sri Lanka fort walks, beaches, mangrove safaris, and curated southern coast tours.",
+      "keywords": ["Galle Sri Lanka", "Galle Fort", "Southern Province"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "dest-sigiriya",
+    "slug": "sigiriya",
+    "title": "Sigiriya",
+    "shortDescription": "The Lion Rock fortress and Cultural Triangle icon.",
+    "description": "Climb the ancient rock fortress for frescoes, mirror wall lore, and jungle views across the Cultural Triangle. Pair Sigiriya with Dambulla cave temples for a full day, or linger across a multi-day route with Pidurangala sunsets and countryside stays.",
+    "region": "Central Province",
+    "highlights": [
+      "Sigiriya Rock Fortress ascent",
+      "Water gardens and fresco galleries",
+      "Nearby Dambulla Cave Temple",
+      "Cultural Triangle pacing with private guides"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/destinations/sigiriya.webp",
+        "alt": "Sigiriya Rock Fortress rising above the jungle",
+        "title": "Sigiriya Rock",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+        "alt": "Guests near Sigiriya Rock",
+        "title": "Sigiriya experience",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+        "alt": "Travelers at Dambulla Cave Temple",
+        "title": "Dambulla caves",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/dambulla-golden-temple.png",
+        "alt": "Golden Temple at Dambulla",
+        "title": "Golden Temple",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "relatedTourSlugs": ["sigiriya-dambulla-day-tour", "7-days-sri-lanka-highlights"],
+    "seo": {
+      "metaTitle": "Sigiriya Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Discover Sigiriya with Hai Sri Lanka Tours Lion Rock, gardens, Dambulla, and Cultural Triangle journeys.",
+      "keywords": ["Sigiriya", "Lion Rock", "Cultural Triangle"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "dest-kandy",
+    "slug": "kandy",
+    "title": "Kandy",
+    "shortDescription": "Sacred lakeside city and gateway to the highlands.",
+    "description": "Temple of the Tooth, serene lake circuits, and cool hill air mark Kandy as the cultural heart of the island. From here, highland trains and tea country roads open toward Ella making Kandy a natural midpoint on classic Ceylon itineraries.",
+    "region": "Central Province",
+    "highlights": [
+      "Temple of the Sacred Tooth Relic",
+      "Lakeside city walks",
+      "Gateway to tea country and Ella",
+      "Cultural shows and market mornings"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/destinations/kandy.webp",
+        "alt": "Temple of the Sacred Tooth Relic in Kandy",
+        "title": "Kandy temple",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/hero/carousel-kandy-perahera.jpg",
+        "alt": "Ceremonial elephants near the Temple of the Tooth",
+        "title": "Kandy culture",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+        "alt": "Guests exploring Kandy with a guide",
+        "title": "City exploration",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/destinations/tea-country.webp",
+        "alt": "Tea country beyond Kandy",
+        "title": "Highland roads",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": ["kandy-day-tour", "10-days-classic-ceylon"],
+    "seo": {
+      "metaTitle": "Kandy Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Explore Kandy Temple of the Tooth and highland gateway with Hai Sri Lanka private tours.",
+      "keywords": ["Kandy Sri Lanka", "Temple of the Tooth"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "dest-yala",
+    "slug": "yala",
+    "title": "Yala",
+    "shortDescription": "Iconic safari country on Sri Lanka’s southeast.",
+    "description": "Dawn game drives across scrub forest and lagoons leopard, elephant, and coastal light. Yala rewards early starts and private jeep pacing, then softens into southern beach nights on longer island routes.",
+    "region": "Southern Province",
+    "highlights": [
+      "Private jeep safaris at first light",
+      "Leopard and elephant habitat",
+      "Lagoons and coastal scrub landscapes",
+      "Pairs well with south-coast stays"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/destinations/yala.webp",
+        "alt": "Wildlife safari landscape in Yala National Park",
+        "title": "Yala landscape",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+        "alt": "Elephant herd seen from a safari jeep",
+        "title": "Safari elephants",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/hero/carousel-yala-leopard.jpg",
+        "alt": "Leopard resting on a sandy track",
+        "title": "Yala leopard",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+        "alt": "Elephants bathing in a river",
+        "title": "River elephants",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "relatedTourSlugs": ["10-days-classic-ceylon", "14-days-grand-sri-lanka"],
+    "seo": {
+      "metaTitle": "Yala National Park | Destinations | Hai Sri Lanka",
+      "metaDescription": "Plan Yala safari experiences with Hai Sri Lanka Tours private jeeps, wildlife, and southeast coast routes.",
+      "keywords": ["Yala safari", "Yala National Park"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "dest-ella",
+    "slug": "ella",
+    "title": "Ella",
+    "shortDescription": "Highland tea country, Nine Arch Bridge, and cool mornings.",
+    "description": "Ella is the soft heart of Sri Lanka’s hill country misty tea slopes, the iconic Nine Arch Bridge, and short walks with huge views. Arrive by scenic train or private vehicle and linger for waterfalls, cafés, and unhurried highland evenings.",
+    "region": "Uva Province",
+    "highlights": [
+      "Nine Arch Bridge viewpoints",
+      "Tea estate walks and cool climate",
+      "Scenic highland train journeys",
+      "Little Adam’s Peak and cascades nearby"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/destinations/ella-bridge.webp",
+        "alt": "Nine Arch Bridge in Ella tea country",
+        "title": "Nine Arch Bridge",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+        "alt": "Family visiting Nine Arch Bridge in Ella",
+        "title": "Ella with guests",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/destinations/tea-country.webp",
+        "alt": "Tea plantations near Ella",
+        "title": "Tea country",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/hero/carousel-nine-arch-ella.jpg",
+        "alt": "Nine Arch Bridge rising above tea plantations",
+        "title": "Ella highlands",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "relatedTourSlugs": ["7-days-sri-lanka-highlights", "10-days-classic-ceylon", "14-days-grand-sri-lanka"],
+    "seo": {
+      "metaTitle": "Ella Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Visit Ella with Hai Sri Lanka Nine Arch Bridge, tea country, and highland private tours.",
+      "keywords": ["Ella Sri Lanka", "Nine Arch Bridge", "tea country"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "dest-colombo",
+    "slug": "colombo",
+    "title": "Colombo",
+    "shortDescription": "Gateway city of markets, temples, and coastal boulevard light.",
+    "description": "Colombo sets the tone for arrival Galle Face breezes, temples and churches in one grid, and modern dining beside colonial façades. Use it as a soft first night, a day of city culture, or a calm finale before flying home.",
+    "region": "Western Province",
+    "highlights": [
+      "Galle Face and ocean boulevard walks",
+      "City temples, churches, and markets",
+      "Ideal arrival or departure night",
+      "Private city highlights without rush"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/destinations/colombo.webp",
+        "alt": "Colombo city skyline and coastline",
+        "title": "Colombo",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+        "alt": "Guests exploring the city with a guide",
+        "title": "City guide moments",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "/assets/images/destinations/south-coast.webp",
+        "alt": "Coastal roads south of Colombo",
+        "title": "Coastal approaches",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": ["galle-day-tour", "kandy-day-tour", "7-days-sri-lanka-highlights"],
+    "seo": {
+      "metaTitle": "Colombo Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Discover Colombo with Hai Sri Lanka city culture, coastal evenings, and private arrival tours.",
+      "keywords": ["Colombo Sri Lanka", "Colombo city tour"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "dest-anuradhapura",
+    "slug": "anuradhapura",
+    "title": "Anuradhapura",
+    "shortDescription": "Ancient capitals, dagobas, and sacred Bodhi shade.",
+    "description": "Anuradhapura invites slower cultural days vast dagobas, monastic ruins, and the sacred Sri Maha Bodhi. Cycle or ride between sites with private guides, then continue deeper into the Cultural Triangle toward Sigiriya and Polonnaruwa.",
+    "region": "North Central Province",
+    "highlights": [
+      "UNESCO sacred city walks",
+      "Iconic dagobas and monastery ruins",
+      "Sri Maha Bodhi pilgrimage tree",
+      "Calm Cultural Triangle pacing"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/destinations/anuradhapura.webp",
+        "alt": "Ancient stupas in Anuradhapura",
+        "title": "Anuradhapura",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/polonnaruwa.webp",
+        "alt": "Nearby Cultural Triangle heritage at Polonnaruwa",
+        "title": "Cultural Triangle",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+        "alt": "Village countryside experience near heritage towns",
+        "title": "Countryside travel",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "relatedTourSlugs": ["10-days-classic-ceylon", "14-days-grand-sri-lanka"],
+    "seo": {
+      "metaTitle": "Anuradhapura Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Explore Anuradhapura’s sacred city with Hai Sri Lanka private Cultural Triangle tours.",
+      "keywords": ["Anuradhapura", "Cultural Triangle", "Sri Lanka heritage"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "dest-polonnaruwa",
+    "slug": "polonnaruwa",
+    "title": "Polonnaruwa",
+    "shortDescription": "Medieval ruins, rock temples, and quiet tanks.",
+    "description": "Polonnaruwa’s medieval capital rewards bicycle loops and private guiding among stone palaces, Buddha images, and reservoir shorelines. Pair it with Sigiriya or Anuradhapura for a Cultural Triangle sequence that never feels rushed.",
+    "region": "North Central Province",
+    "highlights": [
+      "UNESCO medieval city ruins",
+      "Gal Vihara rock temples",
+      "Quiet tank and countryside scenery",
+      "Ideal Cultural Triangle pairing"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/destinations/polonnaruwa.webp",
+        "alt": "Ancient ruins of Polonnaruwa",
+        "title": "Polonnaruwa",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/anuradhapura.webp",
+        "alt": "Heritage landscapes of the Cultural Triangle",
+        "title": "Cultural Triangle",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/sigiriya.webp",
+        "alt": "Sigiriya within reach of Polonnaruwa routes",
+        "title": "Nearby Sigiriya",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": ["sigiriya-dambulla-day-tour", "10-days-classic-ceylon"],
+    "seo": {
+      "metaTitle": "Polonnaruwa Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Visit Polonnaruwa with Hai Sri Lanka medieval ruins and Cultural Triangle private tours.",
+      "keywords": ["Polonnaruwa", "Gal Vihara", "Cultural Triangle"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "dest-arugam-bay",
+    "slug": "arugam-bay",
+    "title": "Arugam Bay",
+    "shortDescription": "East coast surf town with lagoon sunsets.",
+    "description": "Arugam Bay brings easier east-coast energy surf breaks, lagoon life, and long golden evenings. Best in season, it makes a striking finale or freestanding stay when you want ocean space beyond the south.",
+    "region": "Eastern Province",
+    "highlights": [
+      "Surf beaches and coastal cafés",
+      "Lagoon boat moments",
+      "Seasonal east-coast sunshine",
+      "Relaxed contrast to heritage routes"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/destinations/arugam-bay.webp",
+        "alt": "Arugam Bay beach and surf coast",
+        "title": "Arugam Bay",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/marble-beach.webp",
+        "alt": "Clear coastal waters on Sri Lanka’s coast",
+        "title": "Coastal light",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/south-coast.webp",
+        "alt": "Island coastal scenery",
+        "title": "Coastline travel",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": ["14-days-grand-sri-lanka"],
+    "seo": {
+      "metaTitle": "Arugam Bay Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Plan Arugam Bay with Hai Sri Lanka east coast surf, lagoons, and longer private itineraries.",
+      "keywords": ["Arugam Bay", "east coast Sri Lanka", "surf Sri Lanka"]
+    },
+    "status": "published"
+  },
+  {
+    "id": "dest-tea-country",
+    "slug": "tea-country",
+    "title": "Tea Country",
+    "shortDescription": "Nuwara Eliya hills, mist, and plantation mornings.",
+    "description": "Tea country stretches through Nuwara Eliya and hillside estates where green waves meet cool air. Factory visits, garden walks, and classic colonial towns give highland itineraries texture between Kandy and Ella.",
+    "region": "Central Province",
+    "highlights": [
+      "Tea plantation walks and tastings",
+      "Cool climate highland towns",
+      "Scenic roads toward Ella",
+      "Boutique stays among the hills"
+    ],
+    "images": [
+      {
+        "src": "/assets/images/destinations/tea-country.webp",
+        "alt": "Tea plantations in Sri Lanka’s highlands",
+        "title": "Tea country",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/destinations/ella-bridge.webp",
+        "alt": "Highland scenery toward Ella",
+        "title": "Highland bridges",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/tours/guest-experiences/cycling-trail-family.png",
+        "alt": "Active travel through Sri Lankan greenery",
+        "title": "Highland adventure",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "/assets/images/hero/carousel-family-ceylon.jpg",
+        "alt": "Family enjoying a highland stop",
+        "title": "Family highlands",
+        "width": 1080,
+        "height": 1440
+      }
+    ],
+    "relatedTourSlugs": ["10-days-classic-ceylon", "7-days-sri-lanka-highlights", "14-days-grand-sri-lanka"],
+    "seo": {
+      "metaTitle": "Tea Country Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Explore Sri Lanka’s tea country with Hai Sri Lanka Nuwara Eliya, plantations, and highland private tours.",
+      "keywords": ["tea country Sri Lanka", "Nuwara Eliya", "highland tours"]
+    },
+    "status": "published"
+  }
+]

@@ -1,0 +1,48 @@
+@if (vm$ | async; as vm) {
+  <article class="reviews-page">
+    <section class="reviews-page__hero">
+      <div class="reviews-page__hero-media" aria-hidden="true">
+        <img
+          [ngSrc]="heroImage.src"
+          [alt]="heroImage.alt"
+          [width]="heroImage.width || 1600"
+          [height]="heroImage.height || 900"
+          priority
+        />
+        <div class="reviews-page__hero-veil"></div>
+      </div>
+      <app-ui-container>
+        <div class="reviews-page__hero-copy">
+          <app-breadcrumb />
+          <p class="reviews-page__eyebrow">Reviews</p>
+          <h1>What our guests say</h1>
+          <p>
+            Real traveler feedback from TripAdvisor, Google, and more curated
+            for you in one place.
+          </p>
+        </div>
+      </app-ui-container>
+    </section>
+
+    <section class="reviews-page__body">
+      <app-ui-container>
+        <app-elfsight-reviews />
+
+        <div class="reviews-page__cta">
+          <div>
+            <p class="reviews-page__cta-eyebrow">Ready for your own journey?</p>
+            <p>Browse private tours, then tell us your dates we reply personally.</p>
+          </div>
+          <div class="reviews-page__cta-actions">
+            <a appUiButton variant="primary" [routerLink]="['/', vm.lang, 'sri-lanka-tours']">
+              Explore tours
+            </a>
+            <a appUiButton variant="ghost" class="reviews-page__cta-ghost" [routerLink]="['/', vm.lang, 'contact']">
+              Contact us
+            </a>
+          </div>
+        </div>
+      </app-ui-container>
+    </section>
+  </article>
+}

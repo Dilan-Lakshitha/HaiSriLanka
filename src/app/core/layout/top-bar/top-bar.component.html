@@ -1,0 +1,50 @@
+@if (company$ | async; as company) {
+  <div class="top-bar">
+    <div class="top-bar__inner">
+      <ul class="top-bar__contact" aria-label="Contact">
+        @if (company.phone[0]) {
+          <li>
+            <a [href]="telLink(company.phone[0])">{{ company.phone[0] }}</a>
+          </li>
+        }
+        <li>
+          <a [href]="'mailto:' + company.email">{{ company.email }}</a>
+        </li>
+        @if (company.whatsapp) {
+          <li>
+            <a
+              [href]="whatsappLink(company.whatsapp)"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp
+            </a>
+          </li>
+        }
+      </ul>
+
+      <ul class="top-bar__social" aria-label="Social media">
+        @if (company.social.facebook) {
+          <li>
+            <a [href]="company.social.facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </li>
+        }
+        @if (company.social.instagram) {
+          <li>
+            <a [href]="company.social.instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </li>
+        }
+        @if (company.social.tripadvisor) {
+          <li>
+            <a [href]="company.social.tripadvisor" target="_blank" rel="noopener noreferrer">TripAdvisor</a>
+          </li>
+        }
+        @if (company.social.youtube) {
+          <li>
+            <a [href]="company.social.youtube" target="_blank" rel="noopener noreferrer">YouTube</a>
+          </li>
+        }
+      </ul>
+    </div>
+  </div>
+}

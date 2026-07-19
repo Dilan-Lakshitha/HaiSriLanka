@@ -1,0 +1,27 @@
+<section class="featured" aria-labelledby="featured-title-{{ detailPath() }}" appReveal>
+  <app-ui-container>
+    <header class="featured__header">
+      <div>
+        <p class="featured__eyebrow">{{ intro().eyebrow }}</p>
+        <h2 [id]="'featured-title-' + detailPath()">{{ intro().title }}</h2>
+        <p>{{ intro().subtitle }}</p>
+      </div>
+      @if (intro().viewAllPath && intro().viewAllLabel) {
+        <a
+          appUiButton
+          variant="ghost"
+          [routerLink]="['/', lang(), intro().viewAllPath]"
+        >
+          {{ intro().viewAllLabel }}
+        </a>
+      }
+    </header>
+    <ul class="featured__grid">
+      @for (tour of tours(); track trackBySlug($index, tour)) {
+        <li>
+          <app-tour-card [tour]="tour" [lang]="lang()" [detailPath]="detailPath()" />
+        </li>
+      }
+    </ul>
+  </app-ui-container>
+</section>

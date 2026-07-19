@@ -1,0 +1,36 @@
+<button
+  type="button"
+  class="mobile-nav__toggle"
+  [attr.aria-expanded]="open()"
+  [attr.aria-label]="(open() ? 'nav.closeMenu' : 'nav.openMenu') | transloco"
+  (click)="toggle()"
+>
+  <span class="mobile-nav__bar"></span>
+  <span class="mobile-nav__bar"></span>
+  <span class="mobile-nav__bar"></span>
+</button>
+
+@if (open()) {
+  <div class="mobile-nav__panel" role="dialog" [attr.aria-label]="'nav.openMenu' | transloco">
+    <ul class="mobile-nav__list">
+      @for (item of items(); track item.key) {
+        <li>
+          <a [routerLink]="buildLink(item.path)" (click)="close()">
+            {{ item.label || (item.key | transloco) }}
+          </a>
+          @if (item.children?.length) {
+            <ul class="mobile-nav__sub">
+              @for (child of item.children; track child.key) {
+                <li>
+                  <a [routerLink]="buildLink(child.path)" (click)="close()">
+                    {{ child.label || (child.key | transloco) }}
+                  </a>
+                </li>
+              }
+            </ul>
+          }
+        </li>
+      }
+    </ul>
+  </div>
+}

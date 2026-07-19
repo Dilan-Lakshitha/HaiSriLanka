@@ -1,0 +1,19 @@
+{
+  "logos": {
+    "color": "/assets/images/logos/logo-color.svg",
+    "colorPng": "/assets/images/logos/logo-color.png",
+    "whiteTransparent": "/assets/images/logos/logo-white-transparent.png",
+    "whiteSvg": "/assets/images/logos/logo-white.svg",
+    "blackTransparent": "/assets/images/logos/logo-black-transparent.png",
+    "blackSvg": "/assets/images/logos/logo-black.svg",
+    "transparent": "/assets/images/logos/logo-transparent.png",
+    "favicon": "/favicon.png"
+  },
+  "hero": {
+    "main": "/assets/images/hero/hero-main.webp",
+    "teaCountry": "/assets/images/hero/hero-tea-country.webp",
+    "ella": "/assets/images/hero/hero-ella-bridge.webp",
+    "coast": "/assets/images/hero/hero-coast.webp",
+    "cta": "/assets/images/tours/cta-journey.webp"
+  }
+}

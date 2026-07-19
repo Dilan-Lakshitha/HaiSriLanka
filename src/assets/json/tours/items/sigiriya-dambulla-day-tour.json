@@ -1,0 +1,235 @@
+{
+  "id": "tour-sigiriya-day",
+  "slug": "sigiriya-dambulla-day-tour",
+  "category": "day",
+  "title": "Sigiriya & Dambulla Day Tour",
+  "seoTitle": "Sigiriya & Dambulla Day Tour | Hai Sri Lanka",
+  "metaDescription": "Private Sigiriya and Dambulla day tour from Colombo with Hai Sri Lanka Tours.",
+  "shortDescription": "Climb Lion Rock and visit the golden cave temples on a private Cultural Triangle day.",
+  "overview": "A private day from Colombo or Negombo into the Cultural Triangle Sigiriya Rock Fortress, Dambulla Cave Temple, and scenic countryside roads with generous pacing.",
+  "duration": "1 Day",
+  "destinations": [
+    "Sigiriya",
+    "Sigiriya",
+    "Central Province"
+  ],
+  "travelStyle": "Culture",
+  "highlights": [
+    "Sigiriya Lion Rock",
+    "Dambulla Cave Temple",
+    "Cultural Triangle landscapes"
+  ],
+  "included": [
+    "Private vehicle",
+    "Chauffeur guide",
+    "Bottled water"
+  ],
+  "excluded": [
+    "Entrance fees",
+    "Meals"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Sigiriya & Dambulla",
+      "description": "Travel into the Cultural Triangle for Sigiriya Rock Fortress and the golden cave temples of Dambulla with expert pacing.",
+      "highlights": [
+        "Sunrise-friendly timing",
+        "Guided fortress ascent",
+        "Cave temple visit"
+      ],
+      "location": {
+        "name": "Sigiriya",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.957,
+          "lng": 80.7603
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/dambulla-golden-temple.png",
+          "alt": "Travelers at the Golden Temple in Dambulla",
+          "title": "Dambulla",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "meals": [
+        "Lunch opportunity"
+      ],
+      "locations": [
+        "Sigiriya",
+        "Central Province"
+      ],
+      "travelTime": "Private road transfer · flexible pacing",
+      "optionalActivities": [
+        "Optional: deepen the day with sunrise-friendly timing"
+      ]
+    }
+  ],
+  "faqs": [],
+  "reviews": [],
+  "pricing": [
+    {
+      "travelers": 1,
+      "pricePerPerson": 620
+    },
+    {
+      "travelers": 2,
+      "pricePerPerson": 460
+    },
+    {
+      "travelers": 3,
+      "pricePerPerson": 420
+    },
+    {
+      "travelers": 4,
+      "pricePerPerson": 390
+    },
+    {
+      "travelers": 5,
+      "pricePerPerson": 360
+    }
+  ],
+  "currency": "USD",
+  "relatedTours": [
+    "galle-day-tour",
+    "kandy-day-tour"
+  ],
+  "badges": [
+    "best-seller",
+    "featured",
+    "culture"
+  ],
+  "tags": [
+    "culture",
+    "day",
+    "sigiriya",
+    "dambulla",
+    "cultural"
+  ],
+  "route": [
+    {
+      "name": "Sigiriya"
+    },
+    {
+      "name": "Central Province"
+    }
+  ],
+  "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.957,80.7603",
+  "heroImage": {
+    "src": "/assets/images/tours/sigiriya-dambulla-day-tour/hero.webp",
+    "alt": "Sigiriya Rock Fortress on a Cultural Triangle day tour",
+    "title": "Sigiriya Day Tour",
+    "width": 1400,
+    "height": 1050
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+      "alt": "Guests on a mangrove boat safari in Sri Lanka",
+      "title": "Mangrove boat safari",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+      "alt": "Travelers with guide at Dambulla Cave Temple",
+      "title": "Dambulla Cave Temple",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/dambulla-golden-temple.png",
+      "alt": "Travelers at the Golden Temple in Dambulla",
+      "title": "Golden Temple Dambulla",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+      "alt": "Guests and guide smiling in a tuk-tuk",
+      "title": "Tuk-tuk moments",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-bathing-guests.png",
+      "alt": "Guests bathing an elephant in a river",
+      "title": "Elephant bathing",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "alt": "Guests riding an elephant near Sigiriya Rock",
+      "title": "Sigiriya elephant experience",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-ride-forest.png",
+      "alt": "Couple on an elephant ride near Sigiriya",
+      "title": "Forest elephant ride",
+      "width": 1200,
+      "height": 1600
+    }
+  ],
+  "rating": {
+    "average": 4.95,
+    "count": 96
+  },
+  "seo": {
+    "metaTitle": "Sigiriya & Dambulla Day Tour | Hai Sri Lanka",
+    "metaDescription": "Private Sigiriya and Dambulla day tour from Colombo with Hai Sri Lanka Tours.",
+    "keywords": [
+      "Sigiriya day tour",
+      "Dambulla tour",
+      "Cultural Triangle"
+    ],
+    "ogImage": "/assets/images/tours/sigiriya-dambulla-day-tour/hero.webp"
+  },
+  "status": "published",
+  "description": "A private day from Colombo or Negombo into the Cultural Triangle Sigiriya Rock Fortress, Dambulla Cave Temple, and scenic countryside roads with generous pacing.",
+  "location": {
+    "name": "Sigiriya",
+    "region": "Central Province",
+    "geo": {
+      "lat": 7.957,
+      "lng": 80.7603
+    }
+  },
+  "price": {
+    "1": 620,
+    "2": 460,
+    "3": 420,
+    "4": 390,
+    "5": 360
+  },
+  "images": [
+    {
+      "src": "/assets/images/tours/sigiriya-dambulla-day-tour/hero.webp",
+      "alt": "Sigiriya & Dambulla Day Tour",
+      "title": "Sigiriya & Dambulla Day Tour",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "includes": [
+    "Private vehicle",
+    "Chauffeur guide",
+    "Bottled water"
+  ],
+  "excludes": [
+    "Entrance fees",
+    "Meals"
+  ],
+  "faq": [],
+  "relatedTourSlugs": [
+    "galle-day-tour",
+    "kandy-day-tour"
+  ],
+  "featured": true,
+  "bestSeller": true
+}

@@ -1,0 +1,85 @@
+<section
+  class="hero"
+  aria-labelledby="hero-title"
+  aria-roledescription="carousel"
+  (mouseenter)="pause()"
+  (mouseleave)="resume()"
+  (focusin)="pause()"
+  (focusout)="resume()"
+>
+  <div class="hero__media" aria-hidden="true">
+    @for (slide of renderedSlides(); track slide.index) {
+      <img
+        class="hero__img"
+        [class.is-active]="slide.index === activeIndex()"
+        [src]="slide.src"
+        [alt]="slide.alt"
+        [title]="slide.title || hero().title"
+        width="1920"
+        height="1080"
+        [attr.fetchpriority]="slide.index === 0 && activeIndex() === 0 ? 'high' : 'low'"
+        [attr.loading]="slide.index === activeIndex() ? 'eager' : 'lazy'"
+        decoding="async"
+      />
+    }
+    <div class="hero__veil"></div>
+  </div>
+
+  <div class="hero__content">
+    <p class="hero__eyebrow">{{ hero().eyebrow }}</p>
+    <h1 id="hero-title" class="hero__title">{{ hero().title }}</h1>
+    <p class="hero__subtitle">{{ hero().subtitle }}</p>
+    <div class="hero__actions">
+      <a
+        appUiButton
+        variant="primary"
+        [routerLink]="['/', lang(), hero().primaryCta.path]"
+      >
+        {{ hero().primaryCta.label }}
+      </a>
+      <a
+        appUiButton
+        variant="ghost"
+        class="hero__ghost"
+        [routerLink]="['/', lang(), hero().secondaryCta.path]"
+      >
+        {{ hero().secondaryCta.label }}
+      </a>
+    </div>
+  </div>
+
+  @if (showControls()) {
+    <div class="hero__controls">
+      <button
+        type="button"
+        class="hero__arrow hero__arrow--prev"
+        aria-label="Previous image"
+        (click)="prev()"
+      >
+        <span aria-hidden="true">‹</span>
+      </button>
+      <button
+        type="button"
+        class="hero__arrow hero__arrow--next"
+        aria-label="Next image"
+        (click)="next()"
+      >
+        <span aria-hidden="true">›</span>
+      </button>
+
+      <div class="hero__dots" role="tablist" aria-label="Hero images">
+        @for (slide of slides(); track slide.src; let i = $index) {
+          <button
+            type="button"
+            class="hero__dot"
+            role="tab"
+            [attr.aria-selected]="i === activeIndex()"
+            [attr.aria-label]="'Show image ' + (i + 1)"
+            [class.is-active]="i === activeIndex()"
+            (click)="goTo(i)"
+          ></button>
+        }
+      </div>
+    </div>
+  }
+</section>

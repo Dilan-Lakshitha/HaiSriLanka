@@ -1,0 +1,141 @@
+@if (vm$ | async; as vm) {
+  <article class="tour-hub">
+    <section class="tour-hub__hero">
+      <div class="tour-hub__hero-media" aria-hidden="true">
+        <img
+          [ngSrc]="vm.content.hero.image.src"
+          [alt]="vm.content.hero.image.alt"
+          [width]="vm.content.hero.image.width || 1600"
+          [height]="vm.content.hero.image.height || 900"
+          priority
+        />
+        <div class="tour-hub__hero-veil"></div>
+      </div>
+      <app-ui-container>
+        <div class="tour-hub__hero-copy">
+          <app-breadcrumb />
+          <p class="tour-hub__eyebrow">{{ vm.content.hero.eyebrow }}</p>
+          <h1>{{ vm.content.hero.title }}</h1>
+          <p>{{ vm.content.hero.subtitle }}</p>
+        </div>
+      </app-ui-container>
+    </section>
+
+    <section class="tour-hub__tabs" appReveal aria-label="Tour categories">
+      <app-ui-container>
+        <div class="tour-hub__tablist" role="tablist" aria-label="Day or multi-day tours">
+          <button
+            type="button"
+            role="tab"
+            id="tab-day"
+            [attr.aria-selected]="vm.tab === 'day'"
+            [attr.aria-controls]="'panel-day'"
+            [class.is-active]="vm.tab === 'day'"
+            (click)="setTab('day')"
+          >
+            <span class="tour-hub__tab-label">Day Tours</span>
+            <span class="tour-hub__tab-count">{{ vm.dayTours.length }}</span>
+          </button>
+          <button
+            type="button"
+            role="tab"
+            id="tab-multi"
+            [attr.aria-selected]="vm.tab === 'multi-day'"
+            [attr.aria-controls]="'panel-multi'"
+            [class.is-active]="vm.tab === 'multi-day'"
+            (click)="setTab('multi-day')"
+          >
+            <span class="tour-hub__tab-label">Multi-Day Tours</span>
+            <span class="tour-hub__tab-count">{{ vm.multiDayTours.length }}</span>
+          </button>
+        </div>
+
+        <div class="tour-hub__panel-head">
+          <div>
+            <h2>{{ vm.listLabel }}</h2>
+            <p class="tour-hub__panel-meta">{{ filteredTours(vm.activeTours).length }} tours ready to book</p>
+          </div>
+          <a
+            appUiButton
+            variant="ghost"
+            [routerLink]="['/', vm.lang, vm.listPath]"
+          >
+            Open full {{ vm.tab === 'day' ? 'day' : 'multi-day' }} list
+          </a>
+        </div>
+
+        <div class="tour-hub__filters">
+          <label class="tour-hub__search">
+            <span class="visually-hidden">Search tours</span>
+            <input
+              type="search"
+              placeholder="Search destinations, styles…"
+              [value]="search()"
+              (input)="search.set($any($event.target).value)"
+            />
+          </label>
+          <label>
+            Style
+            <select
+              [value]="styleFilter()"
+              (change)="styleFilter.set($any($event.target).value)"
+            >
+              <option value="all">All styles</option>
+              @for (style of vm.styles; track style) {
+                <option [value]="style">{{ style }}</option>
+              }
+            </select>
+          </label>
+          <label>
+            Destination
+            <select
+              [value]="destinationFilter()"
+              (change)="destinationFilter.set($any($event.target).value)"
+            >
+              <option value="all">All destinations</option>
+              @for (dest of vm.destinations; track dest) {
+                <option [value]="dest">{{ dest }}</option>
+              }
+            </select>
+          </label>
+        </div>
+      </app-ui-container>
+    </section>
+
+    <section
+      class="tour-hub__results"
+      role="tabpanel"
+      [id]="vm.tab === 'day' ? 'panel-day' : 'panel-multi'"
+      [attr.aria-labelledby]="vm.tab === 'day' ? 'tab-day' : 'tab-multi'"
+      aria-live="polite"
+    >
+      <app-ui-container>
+        @let items = filteredTours(vm.activeTours);
+        <ul class="tour-hub__grid">
+          @for (tour of items; track trackBySlug($index, tour)) {
+            <li>
+              <app-tour-card
+                [tour]="tour"
+                [lang]="vm.lang"
+                [detailPath]="vm.detailPath"
+                (quickView)="openQuickView($event)"
+              />
+            </li>
+          }
+        </ul>
+        @if (!items.length) {
+          <p class="tour-hub__empty">No tours match these filters. Try another tab or clear search.</p>
+        }
+      </app-ui-container>
+    </section>
+
+    @if (quickViewTour(); as tour) {
+      <app-tour-quick-view
+        [tour]="tour"
+        [lang]="vm.lang"
+        [detailPath]="vm.detailPath"
+        (closed)="closeQuickView()"
+      />
+    }
+  </article>
+}

@@ -1,0 +1,102 @@
+@if (vm$ | async; as vm) {
+  @if (vm.destination; as destination) {
+    <article class="dest-detail">
+      <section class="dest-detail__hero">
+        <div class="dest-detail__hero-media" aria-hidden="true">
+          <img
+            [ngSrc]="destination.images[0]?.src || '/assets/images/placeholders/dest-galle.svg'"
+            [alt]="destination.images[0]?.alt || destination.title"
+            [width]="destination.images[0]?.width || 1600"
+            [height]="destination.images[0]?.height || 900"
+            priority
+          />
+          <div class="dest-detail__hero-veil"></div>
+        </div>
+        <app-ui-container>
+          <div class="dest-detail__hero-copy">
+            <app-breadcrumb />
+            <p class="dest-detail__eyebrow">{{ destination.region }}</p>
+            <h1>{{ destination.title }}</h1>
+            <p>{{ destination.shortDescription }}</p>
+            <div class="dest-detail__actions">
+              <a
+                appUiButton
+                variant="primary"
+                [routerLink]="['/', vm.lang, 'sri-lanka-tours']"
+              >
+                View tours
+              </a>
+              <a
+                appUiButton
+                variant="ghost"
+                class="dest-detail__ghost"
+                [routerLink]="['/', vm.lang, 'contact']"
+              >
+                Plan this stop
+              </a>
+            </div>
+          </div>
+        </app-ui-container>
+      </section>
+
+      <div class="dest-detail__body">
+        <app-ui-container>
+          <div class="dest-detail__story" appReveal>
+            <p class="dest-detail__label">About {{ destination.title }}</p>
+            <p class="dest-detail__description">{{ destination.description }}</p>
+
+            @if (destination.highlights?.length) {
+              <ul class="dest-detail__highlights">
+                @for (item of destination.highlights; track item) {
+                  <li>{{ item }}</li>
+                }
+              </ul>
+            }
+          </div>
+
+          @if (vm.gallery.length) {
+            <app-tour-gallery-preview
+              [images]="vm.gallery"
+              (openGallery)="openGallery($event)"
+            />
+          }
+
+          <div class="dest-detail__panel" appReveal>
+            <div>
+              <p class="dest-detail__label">Travel with us</p>
+              <h2>Build {{ destination.title }} into your private journey</h2>
+              <p>
+                Day tours and multi-day itineraries can centre here or weave
+                {{ destination.title }} into a wider island route.
+              </p>
+            </div>
+            <a appUiButton variant="primary" [routerLink]="['/', vm.lang, 'contact']">
+              Contact our planners
+            </a>
+          </div>
+        </app-ui-container>
+      </div>
+
+      <app-tour-related [tours]="vm.related" [lang]="vm.lang" />
+
+      @if (vm.gallery.length) {
+        <app-lightbox
+          [open]="galleryOpen()"
+          [images]="vm.gallery"
+          [startIndex]="galleryStart()"
+          (closed)="closeGallery()"
+        />
+      }
+    </article>
+  } @else {
+    <section class="dest-detail__missing">
+      <app-ui-container>
+        <h1>Destination not found</h1>
+        <p>This place isn’t in our guide yet browse all destinations instead.</p>
+        <a appUiButton variant="primary" [routerLink]="['/', vm.lang, 'destinations']">
+          Back to destinations
+        </a>
+      </app-ui-container>
+    </section>
+  }
+}

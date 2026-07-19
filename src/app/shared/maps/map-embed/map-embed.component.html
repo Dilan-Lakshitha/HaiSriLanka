@@ -1,0 +1,13 @@
+<div class="map-embed" [style.--map-h]="height()">
+  <iframe
+    class="map-embed__frame"
+    [src]="embedSrc()"
+    [title]="title()"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    allowfullscreen
+  ></iframe>
+  <a class="map-embed__open" [href]="openSrc()" target="_blank" rel="noopener noreferrer">
+    Open in Google Maps
+  </a>
+</div>

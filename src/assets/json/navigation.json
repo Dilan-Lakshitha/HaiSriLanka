@@ -1,0 +1,31 @@
+{
+  "primary": [
+    { "key": "nav.home", "path": "", "label": "Home" },
+    { "key": "nav.tours", "path": "sri-lanka-tours", "label": "Tours" },
+    { "key": "nav.destinations", "path": "destinations", "label": "Destinations" },
+    { "key": "nav.experiences", "path": "things-to-do", "label": "Experiences" },
+    { "key": "nav.blog", "path": "blog", "label": "Journal" },
+    { "key": "nav.reviews", "path": "reviews", "label": "Reviews" },
+    { "key": "nav.contact", "path": "contact", "label": "Contact" }
+  ],
+  "footer": {
+    "explore": [
+      { "key": "nav.dayTours", "path": "day-tours", "label": "Day Tours" },
+      { "key": "nav.multiDayTours", "path": "multi-day-tours", "label": "Multi-Day Tours" },
+      { "key": "nav.destinations", "path": "destinations", "label": "Destinations" },
+      { "key": "nav.experiences", "path": "things-to-do", "label": "Things To Do" },
+      { "key": "nav.specialOffers", "path": "special-offers", "label": "Special Offers" }
+    ],
+    "company": [
+      { "key": "nav.about", "path": "about", "label": "About" },
+      { "key": "nav.reviews", "path": "reviews", "label": "Reviews" },
+      { "key": "nav.blog", "path": "blog", "label": "Travel Journal" },
+      { "key": "nav.faq", "path": "faq", "label": "FAQ" },
+      { "key": "nav.contact", "path": "contact", "label": "Contact" }
+    ],
+    "legal": [
+      { "key": "nav.privacy", "path": "privacy", "label": "Privacy Policy" },
+      { "key": "nav.terms", "path": "terms", "label": "Terms of Service" }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+.faq {
+  padding: clamp(1.75rem, 3.5vw, 2.75rem) 0;
+  background: var(--color-white);
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    align-items: end;
+    margin-bottom: 1.15rem;
+    flex-wrap: wrap;
+
+    h2 {
+      margin: 0.35rem 0 0.5rem;
+      color: var(--color-navy);
+    }
+
+    p {
+      margin: 0;
+      color: var(--color-ink-muted);
+      max-width: 46ch;
+    }
+  }
+
+  &__eyebrow {
+    margin: 0;
+    color: var(--color-green);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  &__list {
+    display: grid;
+    gap: 0.65rem;
+    max-width: 52rem;
+  }
+
+  &__item {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    padding: 0.85rem 1rem;
+    background: var(--color-sand);
+
+    summary {
+      cursor: pointer;
+      font-family: var(--font-display);
+      color: var(--color-navy);
+      font-size: 1.05rem;
+    }
+
+    p {
+      margin: 0.75rem 0 0.15rem;
+      color: var(--color-ink-muted);
+      line-height: 1.55;
+    }
+  }
+}

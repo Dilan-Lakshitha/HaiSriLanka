@@ -1,0 +1,12 @@
+:root {
+  color-scheme: light;
+}
+
+[data-theme='deep'] {
+  --color-surface: var(--color-navy);
+  --color-surface-muted: #163052;
+  --color-ink: var(--color-sand);
+  --color-ink-strong: var(--color-white);
+  --color-ink-muted: #b7c0cc;
+  --color-border: #2a4060;
+}

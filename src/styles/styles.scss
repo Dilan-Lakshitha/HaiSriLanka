@@ -1,0 +1,21 @@
+@use 'tokens';
+@use 'themes';
+@use 'typography';
+@use 'animations';
+@use 'utilities';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

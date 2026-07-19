@@ -1,0 +1,195 @@
+@if (vm$ | async; as vm) {
+  <article class="contact">
+    <section class="contact__hero">
+      <div class="contact__hero-media" aria-hidden="true">
+        <img
+          [ngSrc]="heroImage.src"
+          [alt]="heroImage.alt"
+          [width]="heroImage.width || 1600"
+          [height]="heroImage.height || 900"
+          priority
+        />
+        <div class="contact__hero-veil"></div>
+      </div>
+      <app-ui-container>
+        <div class="contact__hero-copy">
+          <app-breadcrumb />
+          <p class="contact__eyebrow">Contact</p>
+          <h1>Plan your Sri Lanka journey with us</h1>
+          <p>
+            Send a short note we reply personally by email or WhatsApp and help
+            shape a private itinerary around your dates.
+          </p>
+        </div>
+      </app-ui-container>
+    </section>
+
+    <section class="contact__body" appReveal>
+      <app-ui-container>
+        <div class="contact__layout">
+          <div class="contact__form-panel">
+            <h2>Send us a message</h2>
+            <p class="contact__lead">
+              Tell us what you are looking for. Your note goes straight to our inbox.
+            </p>
+
+            @if (successMessage()) {
+              <p class="contact__status contact__status--success" role="status">
+                {{ successMessage() }}
+              </p>
+            }
+
+            @if (errorMessage()) {
+              <p class="contact__status contact__status--error" role="alert">
+                {{ errorMessage() }}
+              </p>
+            }
+
+            <form class="contact__form" (submit)="$event.preventDefault(); submit()">
+              <label class="contact__field">
+                <span>Name *</span>
+                <input
+                  type="text"
+                  name="name"
+                  autocomplete="name"
+                  [ngModel]="name()"
+                  (ngModelChange)="name.set($event)"
+                  required
+                />
+              </label>
+
+              <label class="contact__field">
+                <span>Email *</span>
+                <input
+                  type="email"
+                  name="email"
+                  autocomplete="email"
+                  [ngModel]="email()"
+                  (ngModelChange)="email.set($event)"
+                  required
+                />
+              </label>
+
+              <label class="contact__field">
+                <span>WhatsApp number *</span>
+                <input
+                  type="tel"
+                  name="whatsapp"
+                  autocomplete="tel"
+                  placeholder="+94 …"
+                  [ngModel]="whatsapp()"
+                  (ngModelChange)="whatsapp.set($event)"
+                  required
+                />
+              </label>
+
+              <label class="contact__field">
+                <span>Message *</span>
+                <textarea
+                  name="message"
+                  rows="5"
+                  [ngModel]="message()"
+                  (ngModelChange)="message.set($event)"
+                  required
+                ></textarea>
+              </label>
+
+              @if (submittedAttempt() && !formValid()) {
+                <p class="contact__hint" role="alert">
+                  Please fill in your name, a valid email, WhatsApp number, and a
+                  short message.
+                </p>
+              }
+
+              <button
+                appUiButton
+                variant="primary"
+                type="submit"
+                [disabled]="submitting()"
+              >
+                {{ submitting() ? 'Sending…' : 'Send message' }}
+              </button>
+            </form>
+          </div>
+
+          <aside class="contact__methods">
+            <h2>Other ways to reach us</h2>
+            <p class="contact__lead">Prefer a quick chat? Use phone or WhatsApp anytime.</p>
+
+            <ul class="contact__list">
+              @if (vm.phone) {
+                <li>
+                  <a class="contact__link" [href]="vm.telHref">
+                    <span class="contact__label">Phone</span>
+                    <span class="contact__value">{{ vm.phone }}</span>
+                  </a>
+                </li>
+              }
+              @if (vm.whatsappHref) {
+                <li>
+                  <a
+                    class="contact__link"
+                    [href]="vm.whatsappHref"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span class="contact__label">WhatsApp</span>
+                    <span class="contact__value">Message us on WhatsApp</span>
+                  </a>
+                </li>
+              }
+              <li>
+                <a class="contact__link" [href]="vm.mailtoHref">
+                  <span class="contact__label">Email</span>
+                  <span class="contact__value">{{ vm.company.email }}</span>
+                </a>
+              </li>
+            </ul>
+
+            @if (vm.company.social.facebook || vm.company.social.tripadvisor) {
+              <div class="contact__social">
+                <p class="contact__social-label">Find us online</p>
+                <ul>
+                  @if (vm.company.social.facebook) {
+                    <li>
+                      <a
+                        [href]="vm.company.social.facebook"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Facebook
+                      </a>
+                    </li>
+                  }
+                  @if (vm.company.social.tripadvisor) {
+                    <li>
+                      <a
+                        [href]="vm.company.social.tripadvisor"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        TripAdvisor
+                      </a>
+                    </li>
+                  }
+                </ul>
+              </div>
+            }
+          </aside>
+        </div>
+
+        <div class="contact__cta">
+          <div>
+            <p class="contact__cta-eyebrow">Ready when you are</p>
+            <p>Browse private day tours and multi-day journeys, then tell us your dates.</p>
+          </div>
+          <div class="contact__cta-actions">
+            <a appUiButton variant="primary" [routerLink]="['/', vm.lang, 'sri-lanka-tours']">
+              Explore tours
+            </a>
+          </div>
+        </div>
+      </app-ui-container>
+    </section>
+  </article>
+}

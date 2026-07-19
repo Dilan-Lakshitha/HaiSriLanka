@@ -1,0 +1,77 @@
+@if (vm$ | async; as vm) {
+  <article class="exp-list">
+    <section class="exp-list__hero">
+      <div class="exp-list__hero-media" aria-hidden="true">
+        <img
+          [ngSrc]="vm.heroImage.src"
+          [alt]="vm.heroImage.alt"
+          [width]="vm.heroImage.width || 1600"
+          [height]="vm.heroImage.height || 900"
+          priority
+        />
+        <div class="exp-list__hero-veil"></div>
+      </div>
+      <app-ui-container>
+        <div class="exp-list__hero-copy">
+          <app-breadcrumb />
+          <p class="exp-list__eyebrow">Experiences</p>
+          <h1>Things to do across Ceylon</h1>
+          <p>
+            Wildlife, temples, boats, highlands, and village days private
+            experiences shaped into every Hai Sri Lanka journey.
+          </p>
+        </div>
+      </app-ui-container>
+    </section>
+
+    <section class="exp-list__body" appReveal>
+      <app-ui-container>
+        <div class="exp-list__toolbar">
+          <div>
+            <h2>All experiences</h2>
+            <p class="exp-list__meta">{{ vm.filtered.length }} ways to travel deeper</p>
+          </div>
+          <div class="exp-list__filters" role="group" aria-label="Filter by category">
+            <button
+              type="button"
+              class="exp-list__chip"
+              [class.is-active]="vm.category === 'all'"
+              (click)="setCategory('all')"
+            >
+              All
+            </button>
+            @for (category of vm.categories; track category) {
+              <button
+                type="button"
+                class="exp-list__chip"
+                [class.is-active]="vm.category === category"
+                (click)="setCategory(category)"
+              >
+                {{ category }}
+              </button>
+            }
+          </div>
+        </div>
+
+        @if (vm.filtered.length) {
+          <ul class="exp-list__grid">
+            @for (experience of vm.filtered; track experience.slug) {
+              <li>
+                <app-experience-card [experience]="experience" [lang]="vm.lang" />
+              </li>
+            }
+          </ul>
+        } @else {
+          <p class="exp-list__empty">No experiences in this category yet.</p>
+        }
+
+        <div class="exp-list__cta">
+          <p>Want these woven into a private itinerary?</p>
+          <a appUiButton variant="primary" [routerLink]="['/', vm.lang, 'sri-lanka-tours']">
+            Explore tours
+          </a>
+        </div>
+      </app-ui-container>
+    </section>
+  </article>
+}

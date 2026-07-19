@@ -1,0 +1,77 @@
+@if (vm$ | async; as vm) {
+  <article class="dest-list">
+    <section class="dest-list__hero">
+      <div class="dest-list__hero-media" aria-hidden="true">
+        <img
+          [ngSrc]="vm.heroImage.src"
+          [alt]="vm.heroImage.alt"
+          [width]="vm.heroImage.width || 1600"
+          [height]="vm.heroImage.height || 900"
+          priority
+        />
+        <div class="dest-list__hero-veil"></div>
+      </div>
+      <app-ui-container>
+        <div class="dest-list__hero-copy">
+          <app-breadcrumb />
+          <p class="dest-list__eyebrow">Destinations</p>
+          <h1>Places that define Sri Lanka</h1>
+          <p>
+            From fort towns and sacred cities to tea country and safari parks
+            explore the landscapes that shape every Hai Sri Lanka journey.
+          </p>
+        </div>
+      </app-ui-container>
+    </section>
+
+    <section class="dest-list__body" appReveal>
+      <app-ui-container>
+        <div class="dest-list__toolbar">
+          <div>
+            <h2>All destinations</h2>
+            <p class="dest-list__meta">{{ vm.filtered.length }} places to explore</p>
+          </div>
+          <div class="dest-list__filters" role="group" aria-label="Filter by region">
+            <button
+              type="button"
+              class="dest-list__chip"
+              [class.is-active]="vm.region === 'all'"
+              (click)="setRegion('all')"
+            >
+              All regions
+            </button>
+            @for (region of vm.regions; track region) {
+              <button
+                type="button"
+                class="dest-list__chip"
+                [class.is-active]="vm.region === region"
+                (click)="setRegion(region)"
+              >
+                {{ region }}
+              </button>
+            }
+          </div>
+        </div>
+
+        @if (vm.filtered.length) {
+          <ul class="dest-list__grid">
+            @for (destination of vm.filtered; track destination.slug) {
+              <li>
+                <app-destination-card [destination]="destination" [lang]="vm.lang" />
+              </li>
+            }
+          </ul>
+        } @else {
+          <p class="dest-list__empty">No destinations in this region yet.</p>
+        }
+
+        <div class="dest-list__cta">
+          <p>Ready to turn these places into a private itinerary?</p>
+          <a appUiButton variant="primary" [routerLink]="['/', vm.lang, 'sri-lanka-tours']">
+            Explore tours
+          </a>
+        </div>
+      </app-ui-container>
+    </section>
+  </article>
+}

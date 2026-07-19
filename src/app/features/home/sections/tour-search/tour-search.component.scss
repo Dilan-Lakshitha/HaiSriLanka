@@ -1,0 +1,58 @@
+.tour-search {
+  margin-top: -2.5rem;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 1rem;
+
+  &__panel {
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-elevated);
+    padding: 1.5rem 1.35rem;
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  &__intro {
+    h2 {
+      margin: 0 0 0.35rem;
+      font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+      color: var(--color-navy);
+    }
+
+    p {
+      margin: 0;
+      color: var(--color-ink-muted);
+    }
+  }
+
+  &__form {
+    display: grid;
+    gap: 0.85rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: end;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
+
+    label {
+      display: grid;
+      gap: 0.35rem;
+      font-size: 0.82rem;
+      letter-spacing: 0.04em;
+      color: var(--color-navy);
+    }
+
+    select {
+      width: 100%;
+      padding: 0.75rem 0.8rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      background: var(--color-sand);
+      color: var(--color-text);
+      font: inherit;
+    }
+  }
+}

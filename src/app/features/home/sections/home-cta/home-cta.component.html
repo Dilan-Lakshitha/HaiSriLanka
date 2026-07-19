@@ -1,0 +1,28 @@
+<section class="cta" aria-labelledby="cta-title" appReveal>
+  <app-ui-container>
+    <div class="cta__panel">
+      <div class="cta__media img-zoom" aria-hidden="true">
+        <img
+          [ngSrc]="cta().image.src"
+          [alt]="cta().image.alt"
+          [width]="cta().image.width || 1400"
+          [height]="cta().image.height || 800"
+          loading="lazy"
+        />
+      </div>
+      <div class="cta__content">
+        <p class="cta__eyebrow">{{ cta().eyebrow }}</p>
+        <h2 id="cta-title">{{ cta().title }}</h2>
+        <p>{{ cta().subtitle }}</p>
+        <div class="cta__actions">
+          <a appUiButton variant="primary" [routerLink]="['/', lang(), cta().primaryCta.path]">
+            {{ cta().primaryCta.label }}
+          </a>
+          <a appUiButton variant="ghost" [routerLink]="['/', lang(), cta().secondaryCta.path]">
+            {{ cta().secondaryCta.label }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </app-ui-container>
+</section>

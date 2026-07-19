@@ -1,0 +1,14 @@
+@if (reviews().length) {
+  <section class="reviews" aria-labelledby="tour-reviews-title" appReveal>
+    <p class="reviews__eyebrow">Guest reviews</p>
+    <h2 id="tour-reviews-title">What travelers say</h2>
+    <div class="reviews__list">
+      @for (review of reviews(); track trackById($index, review)) {
+        <article class="reviews__item">
+          <p class="reviews__source">{{ sourceLabel(review.source) }}</p>
+          <app-review-card [review]="review" />
+        </article>
+      }
+    </div>
+  </section>
+}

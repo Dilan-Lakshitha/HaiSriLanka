@@ -1,0 +1,114 @@
+@if (total() > 0) {
+  <section class="gallery-preview" aria-labelledby="gallery-preview-title" appReveal>
+    <div class="gallery-preview__head">
+      <div>
+        <h2 id="gallery-preview-title">Gallery</h2>
+        <p class="gallery-preview__meta">
+          <strong>{{ total() }}</strong> photos · select a thumbnail to preview
+        </p>
+      </div>
+      <button type="button" class="gallery-preview__open-all" (click)="openLightbox(0)">
+        View all {{ total() }}
+      </button>
+    </div>
+
+    @if (activeImage(); as featured) {
+      <div class="gallery-preview__stage">
+        @if (total() > 1) {
+          <button
+            type="button"
+            class="gallery-preview__nav gallery-preview__nav--prev"
+            aria-label="Previous photo"
+            (click)="prevImage()"
+          >
+            <span aria-hidden="true">‹</span>
+          </button>
+        }
+
+        <button
+          type="button"
+          class="gallery-preview__hero"
+          (click)="openLightbox()"
+          [attr.aria-label]="'Open photo ' + (activeIndex() + 1) + ' of ' + total()"
+        >
+          <img
+            [src]="featured.src"
+            [alt]="featured.alt"
+            [title]="featured.title || featured.alt"
+            width="1200"
+            height="720"
+            decoding="async"
+          />
+          <span class="gallery-preview__hero-cta">
+            Open lightbox · {{ activeIndex() + 1 }}/{{ total() }}
+          </span>
+        </button>
+
+        @if (total() > 1) {
+          <button
+            type="button"
+            class="gallery-preview__nav gallery-preview__nav--next"
+            aria-label="Next photo"
+            (click)="nextImage()"
+          >
+            <span aria-hidden="true">›</span>
+          </button>
+        }
+      </div>
+    }
+
+    <div class="gallery-preview__rail">
+      @if (showThumbNav()) {
+        <button
+          type="button"
+          class="gallery-preview__rail-arrow gallery-preview__rail-arrow--prev"
+          aria-label="Scroll thumbnails left"
+          (click)="scrollThumbs(-1)"
+        >
+          <span aria-hidden="true">‹</span>
+        </button>
+      }
+
+      <ul
+        #thumbsTrack
+        class="gallery-preview__thumbs"
+        role="list"
+        [attr.aria-label]="total() + ' gallery thumbnails'"
+      >
+        @for (image of images(); track image.src; let i = $index) {
+          <li>
+            <button
+              type="button"
+              class="gallery-preview__thumb"
+              [class.is-active]="activeIndex() === i"
+              [attr.aria-label]="'Show photo ' + (i + 1) + ' of ' + total()"
+              [attr.aria-current]="activeIndex() === i ? 'true' : null"
+              (click)="selectThumb(i)"
+            >
+              <img
+                [src]="image.src"
+                [alt]="image.alt"
+                [title]="image.title || image.alt"
+                width="160"
+                height="100"
+                loading="lazy"
+                decoding="async"
+              />
+            </button>
+          </li>
+        }
+      </ul>
+
+      @if (showThumbNav()) {
+        <button
+          type="button"
+          class="gallery-preview__rail-arrow gallery-preview__rail-arrow--next"
+          aria-label="Scroll thumbnails right"
+          (click)="scrollThumbs(1)"
+        >
+          <span aria-hidden="true">›</span>
+        </button>
+      }
+    </div>
+  </section>
+}

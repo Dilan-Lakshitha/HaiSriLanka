@@ -1,0 +1,16 @@
+<section class="stats" aria-labelledby="stats-title" appReveal>
+  <app-ui-container>
+    <header class="stats__header">
+      <p class="stats__eyebrow">{{ eyebrow() }}</p>
+      <h2 id="stats-title">{{ title() }}</h2>
+    </header>
+    <ul class="stats__grid">
+      @for (item of items(); track trackById($index, item)) {
+        <li>
+          <p class="stats__value">{{ item.value }}</p>
+          <p class="stats__label">{{ item.label }}</p>
+        </li>
+      }
+    </ul>
+  </app-ui-container>
+</section>

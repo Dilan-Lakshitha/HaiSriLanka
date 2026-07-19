@@ -1,0 +1,139 @@
+<footer class="site-footer">
+  <div class="site-footer__accent" aria-hidden="true"></div>
+
+  @if (company$ | async; as company) {
+    <div class="site-footer__inner">
+      <div class="site-footer__brand">
+        <img
+          class="site-footer__logo-img"
+          [ngSrc]="company.logos.onDark.src"
+          [alt]="company.logos.onDark.alt"
+          [title]="company.logos.onDark.title || company.brandName"
+          [width]="company.logos.onDark.width || 180"
+          [height]="company.logos.onDark.height || 48"
+        />
+        <p class="site-footer__tagline">{{ 'brand.tagline' | transloco }}</p>
+        <div class="site-footer__contact">
+          <a [href]="'mailto:' + company.email">{{ company.email }}</a>
+          @if (company.phone[0]) {
+            <a [href]="'tel:' + company.phone[0]">{{ company.phone[0] }}</a>
+          }
+          <p>
+            {{ company.address.streetAddress }}, {{ company.address.addressLocality }},
+            {{ company.address.addressCountry }}
+          </p>
+        </div>
+
+        <ul class="site-footer__social" aria-label="Social media">
+          @if (company.social.facebook) {
+            <li>
+              <a [href]="company.social.facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+            </li>
+          }
+          @if (company.social.instagram) {
+            <li>
+              <a [href]="company.social.instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </li>
+          }
+          @if (company.social.youtube) {
+            <li>
+              <a [href]="company.social.youtube" target="_blank" rel="noopener noreferrer">YouTube</a>
+            </li>
+          }
+          @if (company.social.tripadvisor) {
+            <li>
+              <a [href]="company.social.tripadvisor" target="_blank" rel="noopener noreferrer">TripAdvisor</a>
+            </li>
+          }
+        </ul>
+      </div>
+
+      @if (nav$ | async; as nav) {
+        <div class="site-footer__col">
+          <h2 class="site-footer__heading">{{ 'footer.explore' | transloco }}</h2>
+          <ul>
+            @for (item of nav.footer.explore; track item.key) {
+              <li>
+                <a [routerLink]="buildLink(item.path)">{{ item.label || (item.key | transloco) }}</a>
+              </li>
+            }
+          </ul>
+        </div>
+
+        <div class="site-footer__col">
+          <h2 class="site-footer__heading">{{ 'footer.company' | transloco }}</h2>
+          <ul>
+            @for (item of nav.footer.company; track item.key) {
+              <li>
+                <a [routerLink]="buildLink(item.path)">{{ item.label || (item.key | transloco) }}</a>
+              </li>
+            }
+          </ul>
+        </div>
+
+        <div class="site-footer__col">
+          <h2 class="site-footer__heading">{{ 'footer.legal' | transloco }}</h2>
+          <ul>
+            @for (item of nav.footer.legal; track item.key) {
+              <li>
+                <a [routerLink]="buildLink(item.path)">{{ item.label || (item.key | transloco) }}</a>
+              </li>
+            }
+          </ul>
+        </div>
+      }
+
+      <div class="site-footer__newsletter">
+        @if (company.newsletter; as newsletter) {
+          <h2 class="site-footer__heading">{{ newsletter.title }}</h2>
+          <p>{{ newsletter.subtitle }}</p>
+          @if (!subscribed()) {
+            <form class="site-footer__form" (submit)="onSubscribe($event)">
+              <label class="visually-hidden" for="newsletter-email">{{ newsletter.placeholder }}</label>
+              <input
+                id="newsletter-email"
+                type="email"
+                name="email"
+                required
+                [placeholder]="newsletter.placeholder"
+                [ngModel]="email()"
+                (ngModelChange)="email.set($event)"
+              />
+              <button appUiButton variant="primary" type="submit">{{ newsletter.buttonLabel }}</button>
+            </form>
+            <p class="site-footer__disclaimer">{{ newsletter.disclaimer }}</p>
+          } @else {
+            <p class="site-footer__thanks">Thank you you are on the list.</p>
+          }
+        }
+
+        @if (company.tripadvisor; as ta) {
+          <a
+            class="site-footer__tripadvisor"
+            [href]="ta.url"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="site-footer__ta-label">{{ ta.label }}</span>
+            <span class="site-footer__ta-score">{{ ta.rating }} · {{ ta.reviewCount }} reviews</span>
+          </a>
+        }
+
+        @if (company.awards?.length) {
+          <ul class="site-footer__awards" aria-label="Awards">
+            @for (award of company.awards; track award.id) {
+              <li>
+                <span>{{ award.title }}</span>
+                <span>{{ award.year }}</span>
+              </li>
+            }
+          </ul>
+        }
+      </div>
+    </div>
+  }
+
+  <div class="site-footer__legal-bar">
+    <p>© {{ year }} Hai Sri Lanka. {{ 'footer.rights' | transloco }}</p>
+  </div>
+</footer>

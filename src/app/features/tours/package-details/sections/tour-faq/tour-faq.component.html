@@ -1,0 +1,14 @@
+@if (items().length) {
+  <section class="faq" aria-labelledby="tour-faq-title" appReveal>
+    <p class="faq__eyebrow">FAQ</p>
+    <h2 id="tour-faq-title">Questions about this tour</h2>
+    <div class="faq__list">
+      @for (item of items(); track item.question) {
+        <details>
+          <summary>{{ item.question }}</summary>
+          <p>{{ item.answer }}</p>
+        </details>
+      }
+    </div>
+  </section>
+}

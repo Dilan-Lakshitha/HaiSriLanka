@@ -1,0 +1,100 @@
+@if (vm$ | async; as vm) {
+  @if (vm.post; as post) {
+    <article class="blog-detail">
+      <section class="blog-detail__hero">
+        <div class="blog-detail__hero-media" aria-hidden="true">
+          <img
+            [ngSrc]="post.images[0]?.src || '/assets/images/placeholders/blog-season.svg'"
+            [alt]="post.images[0]?.alt || post.title"
+            [width]="post.images[0]?.width || 1400"
+            [height]="post.images[0]?.height || 788"
+            priority
+          />
+          <div class="blog-detail__hero-veil"></div>
+        </div>
+        <app-ui-container>
+          <div class="blog-detail__hero-copy">
+            <app-breadcrumb />
+            <p class="blog-detail__eyebrow">Travel journal</p>
+            <h1>{{ post.title }}</h1>
+            <p class="blog-detail__excerpt">{{ post.excerpt }}</p>
+            <div class="blog-detail__meta">
+              <span>{{ post.author }}</span>
+              <span aria-hidden="true">·</span>
+              <time [attr.datetime]="post.publishDate">
+                {{ post.publishDate | date: 'longDate' }}
+              </time>
+            </div>
+          </div>
+        </app-ui-container>
+      </section>
+
+      <div class="blog-detail__body">
+        <app-ui-container>
+          <div class="blog-detail__layout">
+            <div class="blog-detail__article" appReveal>
+              @if (post.tags?.length) {
+                <ul class="blog-detail__tags" aria-label="Tags">
+                  @for (tag of post.tags; track tag) {
+                    <li>{{ tag }}</li>
+                  }
+                </ul>
+              }
+
+              @for (paragraph of vm.paragraphs; track $index) {
+                <p>{{ paragraph }}</p>
+              }
+
+              <div class="blog-detail__actions">
+                <a
+                  appUiButton
+                  variant="primary"
+                  [routerLink]="['/', vm.lang, 'contact']"
+                >
+                  Plan with us
+                </a>
+                <a
+                  appUiButton
+                  variant="ghost"
+                  [routerLink]="['/', vm.lang, 'blog']"
+                >
+                  Back to journal
+                </a>
+              </div>
+            </div>
+
+            <aside class="blog-detail__aside" appReveal>
+              <div class="blog-detail__panel">
+                <p class="blog-detail__label">Continue planning</p>
+                <h2>Build this into a private journey</h2>
+                <p>
+                  Tell us your dates and interests we will shape a calm Sri
+                  Lanka route around what you just read.
+                </p>
+                <a
+                  appUiButton
+                  variant="primary"
+                  [routerLink]="['/', vm.lang, 'sri-lanka-tours']"
+                >
+                  Explore tours
+                </a>
+              </div>
+            </aside>
+          </div>
+        </app-ui-container>
+      </div>
+
+      <app-tour-related [tours]="vm.related" [lang]="vm.lang" />
+    </article>
+  } @else {
+    <section class="blog-detail__missing">
+      <app-ui-container>
+        <h1>Article not found</h1>
+        <p>This journal piece isn’t available browse all articles instead.</p>
+        <a appUiButton variant="primary" [routerLink]="['/', vm.lang, 'blog']">
+          Back to journal
+        </a>
+      </app-ui-container>
+    </section>
+  }
+}

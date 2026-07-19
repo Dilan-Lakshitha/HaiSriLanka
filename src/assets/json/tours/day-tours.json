@@ -1,0 +1,459 @@
+[
+  {
+    "id": "tour-galle-day",
+    "slug": "galle-day-tour",
+    "category": "day",
+    "title": "Galle Day Tour",
+    "shortDescription": "Explore Galle Fort, beaches, and southern coastal heritage in one private day.",
+    "description": "A full-day private journey from Colombo or surrounding areas to Galle Fort, Dutch architecture, stilt fishermen viewpoints, and the southern coastline led by an experienced local guide.",
+    "duration": "1 Day",
+    "location": {
+      "name": "Galle",
+      "region": "Southern Province",
+      "geo": {
+        "lat": 6.0329,
+        "lng": 80.217
+      }
+    },
+    "price": {
+      "1": 550,
+      "2": 420,
+      "3": 390,
+      "4": 360,
+      "5": 340
+    },
+    "currency": "USD",
+    "images": [
+      {
+        "src": "/assets/images/tours/galle-day-tour.webp",
+        "alt": "Galle Fort and southern coast on a private day tour",
+        "title": "Galle Day Tour",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Galle Fort & Southern Coast",
+        "description": "Morning departure toward the south, exploring UNESCO Galle Fort, boutique streets, and scenic ocean margins before a comfortable return.",
+        "highlights": [
+          "Dutch Fort lanes",
+          "Ocean ramparts",
+          "Coastal photo stops"
+        ],
+        "location": {
+          "name": "Galle Fort",
+          "region": "Southern Province",
+          "geo": {
+            "lat": 6.0329,
+            "lng": 80.217
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/destinations/galle.webp",
+            "alt": "Galle Fort lighthouse and ramparts",
+            "title": "Galle Fort lighthouse and ramparts",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "meals": [
+          "Lunch opportunity"
+        ],
+        "locations": [
+          "Galle Fort",
+          "Southern Province"
+        ],
+        "travelTime": "Private road transfer · flexible pacing",
+        "optionalActivities": [
+          "Optional: deepen the day with dutch fort lanes"
+        ]
+      }
+    ],
+    "includes": [
+      "Private air-conditioned vehicle",
+      "English-speaking chauffeur guide",
+      "Bottled water"
+    ],
+    "excludes": [
+      "Entrance tickets",
+      "Lunch",
+      "Personal expenses"
+    ],
+    "rating": {
+      "average": 4.9,
+      "count": 128
+    },
+    "faq": [
+      {
+        "question": "Is this a private tour?",
+        "answer": "Yes. All Hai Sri Lanka day tours are private for your group."
+      }
+    ],
+    "seo": {
+      "metaTitle": "Galle Day Tour | Private Tour from Colombo | Hai Sri Lanka",
+      "metaDescription": "Book a private Galle day tour with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert.",
+      "keywords": [
+        "Galle day tour",
+        "Galle Fort tour",
+        "Colombo to Galle"
+      ]
+    },
+    "localizedSlugs": {
+      "de": "galle-tagesausflug"
+    },
+    "status": "published",
+    "featured": true,
+    "bestSeller": true,
+    "highlights": [
+      "Galle Fort rampart walk",
+      "Southern coastal viewpoints",
+      "Private luxury vehicle"
+    ],
+    "gallery": [
+      {
+        "src": "/assets/images/tours/galle-day-tour.webp",
+        "alt": "Galle Fort and southern coast on a private day tour",
+        "title": "Galle Day Tour",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/gallery/gallery-01.webp",
+        "alt": "Sri Lanka journey gallery",
+        "title": "Sri Lanka journey gallery",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/gallery/gallery-02.webp",
+        "alt": "Coastal and cultural scenery",
+        "title": "Coastal and cultural scenery",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": [
+      "sigiriya-dambulla-day-tour",
+      "kandy-day-tour"
+    ],
+    "mapOverview": {
+      "center": {
+        "lat": 6.0329,
+        "lng": 80.217
+      },
+      "zoom": 11,
+      "path": [
+        {
+          "lat": 6.9271,
+          "lng": 79.8612
+        },
+        {
+          "lat": 6.0329,
+          "lng": 80.217
+        }
+      ]
+    }
+  },
+  {
+    "id": "tour-sigiriya-day",
+    "slug": "sigiriya-dambulla-day-tour",
+    "category": "day",
+    "title": "Sigiriya & Dambulla Day Tour",
+    "shortDescription": "Climb Lion Rock and visit the golden cave temples on a private Cultural Triangle day.",
+    "description": "A private day from Colombo or Negombo into the Cultural Triangle Sigiriya Rock Fortress, Dambulla Cave Temple, and scenic countryside roads with generous pacing.",
+    "duration": "1 Day",
+    "location": {
+      "name": "Sigiriya",
+      "region": "Central Province",
+      "geo": {
+        "lat": 7.957,
+        "lng": 80.7603
+      }
+    },
+    "price": {
+      "1": 620,
+      "2": 460,
+      "3": 420,
+      "4": 390,
+      "5": 360
+    },
+    "currency": "USD",
+    "images": [
+      {
+        "src": "/assets/images/tours/sigiriya-day-tour.webp",
+        "alt": "Sigiriya Rock Fortress on a Cultural Triangle day tour",
+        "title": "Sigiriya Day Tour",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Sigiriya & Dambulla",
+        "description": "Travel into the Cultural Triangle for Sigiriya Rock Fortress and the golden cave temples of Dambulla with expert pacing.",
+        "highlights": [
+          "Sunrise-friendly timing",
+          "Guided fortress ascent",
+          "Cave temple visit"
+        ],
+        "location": {
+          "name": "Sigiriya",
+          "region": "Central Province",
+          "geo": {
+            "lat": 7.957,
+            "lng": 80.7603
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/destinations/sigiriya.webp",
+            "alt": "Sigiriya Rock Fortress",
+            "title": "Sigiriya Rock Fortress",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "meals": [
+          "Lunch opportunity"
+        ],
+        "locations": [
+          "Sigiriya",
+          "Central Province"
+        ],
+        "travelTime": "Private road transfer · flexible pacing",
+        "optionalActivities": [
+          "Optional: deepen the day with sunrise-friendly timing"
+        ]
+      }
+    ],
+    "includes": [
+      "Private vehicle",
+      "Chauffeur guide",
+      "Bottled water"
+    ],
+    "excludes": [
+      "Entrance fees",
+      "Meals"
+    ],
+    "rating": {
+      "average": 4.95,
+      "count": 96
+    },
+    "faq": [],
+    "seo": {
+      "metaTitle": "Sigiriya & Dambulla Day Tour | Hai Sri Lanka",
+      "metaDescription": "Private Sigiriya and Dambulla day tour from Colombo with Hai Sri Lanka Tours.",
+      "keywords": [
+        "Sigiriya day tour",
+        "Dambulla tour",
+        "Cultural Triangle"
+      ]
+    },
+    "status": "published",
+    "featured": true,
+    "bestSeller": true,
+    "highlights": [
+      "Sigiriya Lion Rock",
+      "Dambulla Cave Temple",
+      "Cultural Triangle landscapes"
+    ],
+    "gallery": [
+      {
+        "src": "/assets/images/tours/sigiriya-day-tour.webp",
+        "alt": "Sigiriya Rock Fortress on a Cultural Triangle day tour",
+        "title": "Sigiriya Day Tour",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/gallery/gallery-01.webp",
+        "alt": "Sri Lanka journey gallery",
+        "title": "Sri Lanka journey gallery",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/gallery/gallery-02.webp",
+        "alt": "Coastal and cultural scenery",
+        "title": "Coastal and cultural scenery",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": [
+      "galle-day-tour",
+      "kandy-day-tour"
+    ],
+    "mapOverview": {
+      "center": {
+        "lat": 7.957,
+        "lng": 80.7603
+      },
+      "zoom": 9,
+      "path": [
+        {
+          "lat": 6.9271,
+          "lng": 79.8612
+        },
+        {
+          "lat": 7.8567,
+          "lng": 80.6492
+        },
+        {
+          "lat": 7.957,
+          "lng": 80.7603
+        }
+      ]
+    }
+  },
+  {
+    "id": "tour-kandy-day",
+    "slug": "kandy-day-tour",
+    "category": "day",
+    "title": "Kandy Day Tour",
+    "shortDescription": "Temple of the Tooth, scenic hills, and the cultural heart of the highlands.",
+    "description": "A private day to Kandy featuring the Temple of the Tooth Relic, panoramic viewpoints, and optional botanical gardens.",
+    "duration": "1 Day",
+    "location": {
+      "name": "Kandy",
+      "region": "Central Province",
+      "geo": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      }
+    },
+    "price": {
+      "1": 580,
+      "2": 440,
+      "3": 400,
+      "4": 370,
+      "5": 350
+    },
+    "currency": "USD",
+    "images": [
+      {
+        "src": "/assets/images/tours/kandy-day-tour.webp",
+        "alt": "Temple of the Tooth area in Kandy on a private day tour",
+        "title": "Kandy Day Tour",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Sacred Kandy",
+        "description": "A private cultural day focused on the Temple of the Tooth Relic and the calm lakeside atmosphere of Kandy.",
+        "highlights": [
+          "Temple visit",
+          "City viewpoints",
+          "Boutique pause"
+        ],
+        "location": {
+          "name": "Kandy",
+          "region": "Central Province",
+          "geo": {
+            "lat": 7.2906,
+            "lng": 80.6337
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/destinations/kandy.webp",
+            "alt": "Temple of the Tooth in Kandy",
+            "title": "Temple of the Tooth in Kandy",
+            "width": 640,
+            "height": 480
+          }
+        ],
+        "meals": [
+          "Lunch opportunity"
+        ],
+        "locations": [
+          "Kandy",
+          "Central Province"
+        ],
+        "travelTime": "Private road transfer · flexible pacing",
+        "optionalActivities": [
+          "Optional: deepen the day with temple visit"
+        ]
+      }
+    ],
+    "includes": [
+      "Private vehicle",
+      "Chauffeur guide"
+    ],
+    "excludes": [
+      "Entrance tickets",
+      "Lunch"
+    ],
+    "rating": {
+      "average": 4.88,
+      "count": 74
+    },
+    "faq": [],
+    "seo": {
+      "metaTitle": "Kandy Day Tour | Hai Sri Lanka",
+      "metaDescription": "Private Kandy day tour with Temple of the Tooth and highland scenery.",
+      "keywords": [
+        "Kandy day tour",
+        "Temple of the Tooth"
+      ]
+    },
+    "status": "published",
+    "featured": true,
+    "highlights": [
+      "Temple of the Tooth",
+      "Lakeside city views",
+      "Highland gateway scenery"
+    ],
+    "gallery": [
+      {
+        "src": "/assets/images/tours/kandy-day-tour.webp",
+        "alt": "Temple of the Tooth area in Kandy on a private day tour",
+        "title": "Kandy Day Tour",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/gallery/gallery-01.webp",
+        "alt": "Sri Lanka journey gallery",
+        "title": "Sri Lanka journey gallery",
+        "width": 1400,
+        "height": 1050
+      },
+      {
+        "src": "/assets/images/gallery/gallery-02.webp",
+        "alt": "Coastal and cultural scenery",
+        "title": "Coastal and cultural scenery",
+        "width": 1400,
+        "height": 1050
+      }
+    ],
+    "relatedTourSlugs": [
+      "galle-day-tour",
+      "sigiriya-dambulla-day-tour"
+    ],
+    "mapOverview": {
+      "center": {
+        "lat": 7.2906,
+        "lng": 80.6337
+      },
+      "zoom": 10,
+      "path": [
+        {
+          "lat": 6.9271,
+          "lng": 79.8612
+        },
+        {
+          "lat": 7.2906,
+          "lng": 80.6337
+        }
+      ]
+    }
+  }
+]

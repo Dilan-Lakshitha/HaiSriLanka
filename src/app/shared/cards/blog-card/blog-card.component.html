@@ -1,0 +1,18 @@
+<article class="blog-card">
+  <a [routerLink]="['/', lang(), 'blog', post().slug]">
+    <img
+      [ngSrc]="post().images[0]?.src || '/assets/images/placeholders/blog-season.svg'"
+      [alt]="post().images[0]?.alt || post().title"
+      width="640"
+      height="360"
+      loading="lazy"
+    />
+  </a>
+  <div class="blog-card__body">
+    <time [attr.datetime]="post().publishDate">{{ post().publishDate | date: 'mediumDate' }}</time>
+    <h3>
+      <a [routerLink]="['/', lang(), 'blog', post().slug]">{{ post().title }}</a>
+    </h3>
+    <p>{{ post().excerpt }}</p>
+  </div>
+</article>

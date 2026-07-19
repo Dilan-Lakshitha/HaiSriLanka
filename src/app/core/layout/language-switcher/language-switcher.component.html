@@ -1,0 +1,15 @@
+<label class="lang-switcher">
+  <span class="lang-switcher__label visually-hidden">{{ 'nav.language' | transloco }}</span>
+  <select
+    class="lang-switcher__select"
+    [value]="currentLang()"
+    (change)="onChange($event)"
+    [attr.aria-label]="'nav.language' | transloco"
+  >
+    @for (loc of locales(); track loc.code) {
+      <option [value]="loc.code" [selected]="loc.code === currentLang()">
+        {{ loc.nativeName }}
+      </option>
+    }
+  </select>
+</label>

@@ -1,0 +1,34 @@
+{
+  "tours": [
+    {
+      "slug": "galle-day-tour",
+      "category": "day",
+      "status": "published"
+    },
+    {
+      "slug": "sigiriya-dambulla-day-tour",
+      "category": "day",
+      "status": "published"
+    },
+    {
+      "slug": "kandy-day-tour",
+      "category": "day",
+      "status": "published"
+    },
+    {
+      "slug": "7-days-sri-lanka-highlights",
+      "category": "multi-day",
+      "status": "published"
+    },
+    {
+      "slug": "10-days-classic-ceylon",
+      "category": "multi-day",
+      "status": "published"
+    },
+    {
+      "slug": "14-days-grand-sri-lanka",
+      "category": "multi-day",
+      "status": "published"
+    }
+  ]
+}
