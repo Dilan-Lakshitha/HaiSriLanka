@@ -23,47 +23,47 @@
       "path": "contact"
     },
     "image": {
-      "src": "/assets/images/hero/carousel-nine-arch-ella.jpg",
+      "src": "/assets/images/hero/carousel-nine-arch-ella.webp",
       "alt": "Nine Arch Bridge and tea country near Ella, Sri Lanka",
       "title": "Ella Nine Arch Bridge",
-      "width": 1920,
-      "height": 1080
+      "width": 1400,
+      "height": 1120
     },
     "images": [
       {
-        "src": "/assets/images/hero/carousel-king-coconut.png",
+        "src": "/assets/images/hero/carousel-king-coconut.webp",
         "alt": "Guests and guide enjoying king coconuts in a jungle riverside stop in Sri Lanka",
         "title": "Local hospitality",
-        "width": 1920,
-        "height": 1080
+        "width": 1280,
+        "height": 960
       },
       {
-        "src": "/assets/images/hero/carousel-safari-guests.jpg",
+        "src": "/assets/images/hero/carousel-safari-guests.webp",
         "alt": "Travelers on a Sri Lanka jeep safari with elephants nearby",
         "title": "Safari moments",
-        "width": 1920,
-        "height": 1080
+        "width": 1280,
+        "height": 960
       },
       {
-        "src": "/assets/images/hero/carousel-dambulla-guests.png",
+        "src": "/assets/images/hero/carousel-dambulla-guests.webp",
         "alt": "Travelers with their guide at Dambulla Cave Temple in Sri Lanka",
         "title": "Temple visits",
-        "width": 1920,
-        "height": 1080
+        "width": 1280,
+        "height": 720
       },
       {
-        "src": "/assets/images/hero/carousel-yala-leopard.jpg",
+        "src": "/assets/images/hero/carousel-yala-leopard.webp",
         "alt": "Leopard resting on a sandy track in Yala National Park",
         "title": "Yala wildlife",
-        "width": 1920,
-        "height": 1080
+        "width": 1280,
+        "height": 853
       },
       {
-        "src": "/assets/images/hero/carousel-nine-arch-ella.jpg",
+        "src": "/assets/images/hero/carousel-nine-arch-ella.webp",
         "alt": "Nine Arch Bridge rising above tea plantations in Ella",
         "title": "Ella highlands",
-        "width": 1920,
-        "height": 1080
+        "width": 1400,
+        "height": 1120
       }
     ]
   },

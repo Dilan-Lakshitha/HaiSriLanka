@@ -15,7 +15,7 @@ export interface SeoInput {
   jsonLd?: Record<string, unknown> | Array<Record<string, unknown>> | null;
 }
 
-const DEFAULT_OG_IMAGE = '/assets/images/hero/carousel-nine-arch-ella.jpg';
+const DEFAULT_OG_IMAGE = '/assets/images/hero/carousel-nine-arch-ella.webp';
 
 @Injectable({ providedIn: 'root' })
 export class SeoService {

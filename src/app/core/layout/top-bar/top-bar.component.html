@@ -1,6 +1,6 @@
-@if (company$ | async; as company) {
-  <div class="top-bar">
-    <div class="top-bar__inner">
+<div class="top-bar">
+  <div class="top-bar__inner">
+    @if (company$ | async; as company) {
       <ul class="top-bar__contact" aria-label="Contact">
         @if (company.phone[0]) {
           <li>
@@ -45,6 +45,8 @@
           </li>
         }
       </ul>
-    </div>
+    } @else {
+      <span class="top-bar__placeholder" aria-hidden="true"></span>
+    }
   </div>
-}
+</div>

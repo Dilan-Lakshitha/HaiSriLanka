@@ -56,7 +56,15 @@ export class HomePageComponent implements OnInit {
   private readonly company = inject(CompanyService);
   readonly locale = inject(LocaleService);
 
-  readonly vm$ = combineLatest({
+  /** Paint hero immediately — do not wait for tours/reviews/blogs. */
+  readonly heroVm$ = this.home.getContent().pipe(
+    map((content) => ({
+      content,
+      lang: this.locale.activeLang(),
+    })),
+  );
+
+  readonly restVm$ = combineLatest({
     content: this.home.getContent(),
     multiDay: this.home.getFeaturedMultiDay(3),
     dayTours: this.home.getFeaturedDayTours(3),
@@ -84,12 +92,14 @@ export class HomePageComponent implements OnInit {
         ),
       )
       .subscribe(({ content, company, faqs }) => {
+        const lcp =
+          content.hero.images?.[0]?.src || content.hero.image.src;
         this.seo.update({
           title: content.seo.metaTitle,
           description: content.seo.metaDescription,
           keywords: content.seo.keywords,
           path: '',
-          image: content.hero.image.src,
+          image: lcp,
           type: 'website',
           jsonLd: buildGraph(
             buildOrganizationSchema(company),

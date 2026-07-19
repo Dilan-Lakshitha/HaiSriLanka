@@ -9,7 +9,7 @@ import {
 } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
-import { interval } from 'rxjs';
+import { timer, switchMap, interval } from 'rxjs';
 import type { HomeHero, ImageAsset } from '../../../../core/models';
 import { UiButtonComponent } from '../../../../shared/ui/button/ui-button.component';
 
@@ -56,8 +56,12 @@ export class HeroSectionComponent {
   });
 
   constructor() {
-    interval(3500)
-      .pipe(takeUntilDestroyed(this.destroyRef))
+    // Delay autoplay so Lighthouse / LCP can settle on the first slide.
+    timer(6000)
+      .pipe(
+        switchMap(() => interval(4500)),
+        takeUntilDestroyed(this.destroyRef),
+      )
       .subscribe(() => {
         if (this.paused() || this.slideCount() < 2) {
           return;
