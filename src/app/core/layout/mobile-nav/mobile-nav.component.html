@@ -32,5 +32,25 @@
         </li>
       }
     </ul>
+
+    @if (company$ | async; as company) {
+      <div class="mobile-nav__contact">
+        <p class="mobile-nav__contact-label">Contact</p>
+        @if (company.phone[0]) {
+          <a [href]="telLink(company.phone[0])" (click)="close()">{{ company.phone[0] }}</a>
+        }
+        <a [href]="'mailto:' + company.email" (click)="close()">{{ company.email }}</a>
+        @if (company.whatsapp) {
+          <a
+            [href]="whatsappLink(company.whatsapp)"
+            target="_blank"
+            rel="noopener noreferrer"
+            (click)="close()"
+          >
+            WhatsApp
+          </a>
+        }
+      </div>
+    }
   </div>
 }

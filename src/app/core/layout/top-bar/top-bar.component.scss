@@ -3,7 +3,7 @@
   color: var(--color-sand);
   font-size: 0.8rem;
   letter-spacing: 0.02em;
-  border-bottom: 1px solid color-mix(out srgb, var(--color-gold) 28%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-gold) 28%, transparent);
 
   &__inner {
     max-width: var(--container);
@@ -37,15 +37,8 @@
     }
   }
 
-  @media (max-width: 720px) {
-    &__inner {
-      justify-content: center;
-      text-align: center;
-    }
-
-    &__social {
-      width: 100%;
-      justify-content: center;
-    }
+  /* Keep desktop only — frees the mobile hero viewport */
+  @media (max-width: 768px) {
+    display: none;
   }
 }

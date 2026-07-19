@@ -1,4 +1,5 @@
 import { TestBed } from '@angular/core/testing';
+import { provideHttpClient } from '@angular/common/http';
 import { provideRouter } from '@angular/router';
 import { TranslocoTestingModule } from '@jsverse/transloco';
 import { MobileNavComponent } from './mobile-nav.component';
@@ -13,7 +14,7 @@ describe('MobileNavComponent', () => {
           translocoConfig: { availableLangs: ['en'], defaultLang: 'en' },
         }),
       ],
-      providers: [provideRouter([])],
+      providers: [provideHttpClient(), provideRouter([])],
     }).compileComponents();
     const fixture = TestBed.createComponent(MobileNavComponent);
     fixture.componentRef.setInput('items', []);
