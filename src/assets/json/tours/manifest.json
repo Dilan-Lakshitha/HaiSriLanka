@@ -16,12 +16,32 @@
       "status": "published"
     },
     {
+      "slug": "3-nights-4-days",
+      "category": "multi-day",
+      "status": "published"
+    },
+    {
+      "slug": "4-nights-5-days",
+      "category": "multi-day",
+      "status": "published"
+    },
+    {
       "slug": "7-days-sri-lanka-highlights",
       "category": "multi-day",
       "status": "published"
     },
     {
+      "slug": "8-days-wilpattu-to-coast",
+      "category": "multi-day",
+      "status": "published"
+    },
+    {
       "slug": "10-days-classic-ceylon",
+      "category": "multi-day",
+      "status": "published"
+    },
+    {
+      "slug": "12-days-sri-lanka-explorer",
       "category": "multi-day",
       "status": "published"
     },

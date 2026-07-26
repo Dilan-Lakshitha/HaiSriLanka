@@ -1,0 +1,450 @@
+{
+  "id": "tour-4-nights-5-days",
+  "slug": "4-nights-5-days",
+  "category": "multi-day",
+  "title": "4 Nights 5 Days",
+  "seoTitle": "4 Nights 5 Days Sri Lanka Tour | Hai Sri Lanka",
+  "metaDescription": "Private 5-day Sri Lanka tour: Sigiriya, Kandy, Ella, Yala safari, Mirissa whale watching, Galle Fort, and Bentota.",
+  "shortDescription": "Sigiriya to the south coast — culture, tea hills, Yala safari, and coastal highlights in five days.",
+  "overview": "A private five-day itinerary from Sigiriya through Kandy and Ella to Yala, finishing along the south coast with Mirissa whale watching, Galle Fort, and Bentota before your hotel or airport drop-off.",
+  "duration": "5 Days / 4 Nights",
+  "destinations": [
+    "Sigiriya",
+    "Kandy",
+    "Ella",
+    "Yala",
+    "Mirissa",
+    "Galle",
+    "Bentota"
+  ],
+  "travelStyle": "Culture",
+  "highlights": [
+    "Sigiriya / Pidurangala & village or elephant safari",
+    "Dambulla, spice garden & Kandy cultural dance",
+    "Temple of the Tooth, tea country & Ella",
+    "Train ride, Yala safari & south-coast finale"
+  ],
+  "included": [
+    "Private vehicle",
+    "Hotels (B&B)",
+    "Daily breakfast",
+    "Guide service"
+  ],
+  "excluded": [
+    "International flights",
+    "Lunch & dinner",
+    "Entrance fees",
+    "Safari jeep & whale-watching boat"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "BIA / Hotel – Sigiriya",
+      "description": "Travel inland to Sigiriya for a village tour or elephant safari at Minneriya, Kaudulla, or Hurulu Eco Park, plus Pidurangala or Lion Rock.",
+      "highlights": [
+        "Village Tour or Minneriya / Kaudulla / Eco Park Safari",
+        "Pidurangala Rock / Lion's Rock"
+      ],
+      "location": {
+        "name": "Sigiriya",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.957,
+          "lng": 80.7603
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+          "alt": "Guests near Sigiriya Rock",
+          "title": "Sigiriya",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "meals": [
+        "Dinner opportunity"
+      ],
+      "accommodation": "Sigiriya hotel",
+      "locations": [
+        "BIA / Hotel",
+        "Sigiriya"
+      ],
+      "travelTime": "Airport / hotel to Sigiriya · 3–5 hrs"
+    },
+    {
+      "day": 2,
+      "title": "Sigiriya – Kandy",
+      "description": "Leave the Triangle via Dambulla Cave Temple and Matale Spice Garden, then visit a gem museum and enjoy a Kandyan cultural dance in the evening.",
+      "highlights": [
+        "Visit Dambulla Cave Temple",
+        "Matale Spice Garden",
+        "Gem Museum",
+        "Kandy Cultural Dance"
+      ],
+      "location": {
+        "name": "Kandy",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.2906,
+          "lng": 80.6337
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+          "alt": "Travelers at Dambulla Cave Temple",
+          "title": "Dambulla",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Kandy hotel",
+      "locations": [
+        "Sigiriya",
+        "Dambulla",
+        "Matale",
+        "Kandy"
+      ],
+      "travelTime": "Transfer to Kandy · 2–3 hrs"
+    },
+    {
+      "day": 3,
+      "title": "Kandy – Ella",
+      "description": "Morning at the Temple of the Tooth Relic, then climb into tea country for a plantation and factory visit before an Ella city tour.",
+      "highlights": [
+        "Temple of the Tooth Relic",
+        "Visit the Tea Plantation & Factory",
+        "Ella City Tour"
+      ],
+      "location": {
+        "name": "Ella",
+        "region": "Uva Province",
+        "geo": {
+          "lat": 6.8667,
+          "lng": 81.0466
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+          "alt": "Family at Nine Arch Bridge in Ella",
+          "title": "Ella",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Ella hotel",
+      "locations": [
+        "Kandy",
+        "Tea Country",
+        "Ella"
+      ],
+      "travelTime": "Highland transfer · 3–5 hrs"
+    },
+    {
+      "day": 4,
+      "title": "Ella – Yala",
+      "description": "Ride the scenic train through the hills, pause at Ravana Falls, then continue to Yala for a safari in the national park.",
+      "highlights": [
+        "Train Ride",
+        "Ravana Waterfall",
+        "Safari @ Yala National Park"
+      ],
+      "location": {
+        "name": "Yala",
+        "region": "Southern Province",
+        "geo": {
+          "lat": 6.3725,
+          "lng": 81.5185
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+          "alt": "Wildlife safari in Yala National Park",
+          "title": "Yala safari",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Yala hotel",
+      "locations": [
+        "Ella",
+        "Ravana Falls",
+        "Yala"
+      ],
+      "travelTime": "Train & road · half day + safari"
+    },
+    {
+      "day": 5,
+      "title": "Yala – Drop off",
+      "description": "Coastal finale with Mirissa dolphin and whale watching, Galle Dutch Fort, a turtle hatchery, and a Bentota boat safari before drop-off to your hotel or the airport.",
+      "highlights": [
+        "Mirissa Dolphin and Whale Watching",
+        "Galle Dutch Fort",
+        "Turtle Hatchery",
+        "Bentota boat safari",
+        "Drop off to Hotel / Airport"
+      ],
+      "location": {
+        "name": "Bentota",
+        "region": "Southern Province",
+        "geo": {
+          "lat": 6.4259,
+          "lng": 79.9951
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+          "alt": "Boat safari along the south coast",
+          "title": "Bentota boat safari",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "locations": [
+        "Mirissa",
+        "Galle",
+        "Bentota",
+        "Hotel / Airport"
+      ],
+      "travelTime": "South-coast circuit · full day"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can the itinerary be customized?",
+      "answer": "Yes. We tailor pace, hotels, and experiences — for example choosing village tour or elephant safari on Day 1 — to your preferences."
+    },
+    {
+      "question": "Is whale watching seasonal?",
+      "answer": "Mirissa dolphin and whale watching is typically best from November to April. Outside peak season we suggest other coastal alternatives."
+    }
+  ],
+  "reviews": [],
+  "pricing": [
+    {
+      "travelers": 1,
+      "pricePerPerson": 830
+    },
+    {
+      "travelers": 2,
+      "pricePerPerson": 595
+    },
+    {
+      "travelers": 3,
+      "pricePerPerson": 522
+    },
+    {
+      "travelers": 4,
+      "pricePerPerson": 448
+    },
+    {
+      "travelers": 5,
+      "pricePerPerson": 420
+    }
+  ],
+  "currency": "USD",
+  "relatedTours": [
+    "3-nights-4-days",
+    "7-days-sri-lanka-highlights",
+    "10-days-classic-ceylon"
+  ],
+  "badges": [
+    "featured",
+    "culture",
+    "wildlife"
+  ],
+  "tags": [
+    "multi-day",
+    "cultural",
+    "wildlife",
+    "sigiriya",
+    "ella",
+    "yala",
+    "south"
+  ],
+  "route": [
+    {
+      "name": "Airport"
+    },
+    {
+      "name": "Sigiriya"
+    },
+    {
+      "name": "Kandy"
+    },
+    {
+      "name": "Ella"
+    },
+    {
+      "name": "Yala"
+    },
+    {
+      "name": "Mirissa"
+    },
+    {
+      "name": "Galle"
+    },
+    {
+      "name": "Bentota"
+    }
+  ],
+  "mapsUrl": "https://www.google.com/maps/dir/Bandaranaike+International+Airport/Sigiriya/Kandy/Ella/Yala/Mirissa/Galle/Bentota",
+  "heroImage": {
+    "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+    "alt": "Sigiriya Rock on a five-day Sri Lanka private itinerary",
+    "title": "4 Nights 5 Days",
+    "width": 1200,
+    "height": 1600
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "alt": "Guests near Sigiriya Rock",
+      "title": "Sigiriya",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+      "alt": "Travelers at Dambulla Cave Temple en route to Kandy",
+      "title": "Dambulla & Kandy",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+      "alt": "Family at Nine Arch Bridge in Ella",
+      "title": "Ella",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+      "alt": "Wildlife safari in Yala National Park",
+      "title": "Yala",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+      "alt": "Boat safari on the south coast near Galle and Bentota",
+      "title": "South coast",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-bathing-guests.png",
+      "alt": "Guests bathing an elephant in a river",
+      "title": "Elephant experience",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+      "alt": "Elephants bathing in a Sri Lankan river",
+      "title": "River elephants",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+      "alt": "Family on a village tractor ride in Sri Lanka",
+      "title": "Village tour",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+      "alt": "Guests and guide smiling in a tuk-tuk",
+      "title": "Tuk-tuk moments",
+      "width": 1200,
+      "height": 1200
+    }
+  ],
+  "rating": {
+    "average": 4.92,
+    "count": 38
+  },
+  "seo": {
+    "metaTitle": "4 Nights 5 Days Sri Lanka Tour | Hai Sri Lanka",
+    "metaDescription": "Private 5-day Sri Lanka tour: Sigiriya, Kandy, Ella, Yala safari, Mirissa whale watching, Galle Fort, and Bentota.",
+    "keywords": [
+      "4 nights 5 days Sri Lanka",
+      "5 days Sri Lanka tour",
+      "Sigiriya Kandy Ella Yala",
+      "private multi day tour"
+    ],
+    "ogImage": "/assets/images/tours/guest-experiences/elephant-sigiriya.png"
+  },
+  "status": "published",
+  "description": "A private five-day itinerary from Sigiriya through Kandy and Ella to Yala, finishing along the south coast with Mirissa whale watching, Galle Fort, and Bentota before your hotel or airport drop-off.",
+  "location": {
+    "name": "Sri Lanka",
+    "region": "Island-wide",
+    "geo": {
+      "lat": 7.957,
+      "lng": 80.7603
+    }
+  },
+  "price": {
+    "1": 830,
+    "2": 595,
+    "3": 522,
+    "4": 448,
+    "5": 420
+  },
+  "images": [
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "alt": "4 Nights 5 Days",
+      "title": "4 Nights 5 Days",
+      "width": 1200,
+      "height": 1600
+    }
+  ],
+  "includes": [
+    "Private vehicle",
+    "Hotels (B&B)",
+    "Daily breakfast",
+    "Guide service"
+  ],
+  "excludes": [
+    "International flights",
+    "Lunch & dinner",
+    "Entrance fees",
+    "Safari jeep & whale-watching boat"
+  ],
+  "faq": [
+    {
+      "question": "Can the itinerary be customized?",
+      "answer": "Yes. We tailor pace, hotels, and experiences — for example choosing village tour or elephant safari on Day 1 — to your preferences."
+    },
+    {
+      "question": "Is whale watching seasonal?",
+      "answer": "Mirissa dolphin and whale watching is typically best from November to April. Outside peak season we suggest other coastal alternatives."
+    }
+  ],
+  "relatedTourSlugs": [
+    "3-nights-4-days",
+    "7-days-sri-lanka-highlights",
+    "10-days-classic-ceylon"
+  ],
+  "featured": true,
+  "bestSeller": false
+}

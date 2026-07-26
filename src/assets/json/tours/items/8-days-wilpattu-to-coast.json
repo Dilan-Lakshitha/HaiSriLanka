@@ -1,0 +1,580 @@
+{
+  "id": "tour-8-days-wilpattu-to-coast",
+  "slug": "8-days-wilpattu-to-coast",
+  "category": "multi-day",
+  "title": "8 Days Wilpattu to Coast",
+  "seoTitle": "8 Days Wilpattu to Coast Tour | Hai Sri Lanka",
+  "metaDescription": "Private 8-day Sri Lanka tour: Wilpattu safari, Sigiriya, Kaudulla elephants, Kandy, Ella hills, Mirissa, Galle Fort, and south-coast beaches.",
+  "shortDescription": "Wilpattu wildlife, Cultural Triangle, Kandy, Ella, Mirissa, and a flexible south-coast finale.",
+  "overview": "An eight-day private journey from Wilpattu’s wild lakes through Sigiriya and Kaudulla, into Kandy and the hill country, then Ella, Mirissa’s marine coast, and a flexible finish at Galle, Bentota, Kalutara, or the airport.",
+  "duration": "8 Days / 7 Nights",
+  "destinations": [
+    "Wilpattu",
+    "Sigiriya",
+    "Habarana",
+    "Kandy",
+    "Ella",
+    "Mirissa",
+    "Yala",
+    "Galle",
+    "Hikkaduwa",
+    "Bentota"
+  ],
+  "travelStyle": "Wildlife",
+  "highlights": [
+    "Wilpattu & Kaudulla jeep safaris",
+    "Sigiriya Rock, Pidurangala & Dambulla",
+    "Kandy culture, tea hills & Ella views",
+    "Mirissa whales/turtles & Galle Fort finale"
+  ],
+  "included": [
+    "Private vehicle",
+    "Hotels (B&B)",
+    "Daily breakfast",
+    "Dinner (Days 1–7)",
+    "Guide service"
+  ],
+  "excluded": [
+    "International flights",
+    "Lunch",
+    "Entrance fees",
+    "Safari jeep & whale-watching boat",
+    "Ayurveda spa treatments"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Airport / Hotel – Wilpattu – Sigiriya",
+      "description": "Welcome to Sri Lanka. After pickup from the airport or your hotel, travel to Wilpattu National Park — the island’s largest and oldest wildlife sanctuary, famous for its natural lakes (villus). Enjoy a jeep safari with chances to spot leopards, elephants, sloth bears, deer, crocodiles, and rich birdlife in a peaceful, less-crowded park. Continue to Sigiriya for overnight.",
+      "highlights": [
+        "Wilpattu National Park jeep safari",
+        "Wildlife among villus & jungle landscapes"
+      ],
+      "location": {
+        "name": "Wilpattu",
+        "region": "North Western Province",
+        "geo": {
+          "lat": 8.456,
+          "lng": 80.05
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+          "alt": "Wildlife safari in a Sri Lankan national park",
+          "title": "Wilpattu safari",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Dinner"
+      ],
+      "accommodation": "Sigiriya hotel",
+      "locations": [
+        "Airport / Hotel",
+        "Wilpattu",
+        "Sigiriya"
+      ],
+      "travelTime": "Pickup + Wilpattu safari · ~4 hrs in park"
+    },
+    {
+      "day": 2,
+      "title": "Sigiriya & Habarana",
+      "description": "Experience Hiriwadunna village life near Habarana — a scenic walk past mud houses and paddy fields, a lake boat ride, and optional traditional cooking. Hike Pidurangala Rock for panoramic views of Sigiriya Fortress. Visit UNESCO Dambulla Cave Temple with ancient murals and Buddha statues, then unwind with Ayurveda at Athreya Spa in Sigiriya.",
+      "highlights": [
+        "Habarana / Hiriwadunna village tour & boat ride",
+        "Pidurangala Rock hike",
+        "Dambulla Cave Temple",
+        "Athreya Ayurvedic Spa"
+      ],
+      "location": {
+        "name": "Sigiriya",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.957,
+          "lng": 80.7603
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+          "alt": "Village tour experience near Habarana",
+          "title": "Village tour",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Sigiriya hotel",
+      "locations": [
+        "Habarana",
+        "Pidurangala",
+        "Dambulla",
+        "Sigiriya"
+      ],
+      "travelTime": "Cultural Triangle day · short hops"
+    },
+    {
+      "day": 3,
+      "title": "Sigiriya",
+      "description": "Morning jeep safari at Kaudulla National Park for wild elephant herds around the reservoir, plus deer, monkeys, and birdlife. Then climb Sigiriya Lion Rock — UNESCO citadel with frescoes, the Mirror Wall, Lion’s Paw Terrace, and summit views over the ancient water gardens.",
+      "highlights": [
+        "Kaudulla National Park safari",
+        "Sigiriya Lion Rock Fortress"
+      ],
+      "location": {
+        "name": "Sigiriya",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.957,
+          "lng": 80.7603
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+          "alt": "Guests near Sigiriya Rock Fortress",
+          "title": "Sigiriya",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Sigiriya hotel",
+      "locations": [
+        "Kaudulla",
+        "Sigiriya"
+      ],
+      "travelTime": "Safari ~3 hrs + Sigiriya climb ~2 hrs"
+    },
+    {
+      "day": 4,
+      "title": "Sigiriya – Kandy",
+      "description": "Travel toward the hill capital via Matale’s herbal and spice garden. In Kandy visit the Temple of the Sacred Tooth Relic, enjoy a Kandyan cultural dance show at Kandy Lake Club, pause at Kandy Lake / viewpoint, and explore the Natural Gems and Gemmological Museum.",
+      "highlights": [
+        "Matale Herbal & Spice Garden",
+        "Temple of the Sacred Tooth Relic",
+        "Kandy Lake Club cultural show",
+        "Kandy Lake & viewpoint",
+        "Gemmological Museum"
+      ],
+      "location": {
+        "name": "Kandy",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.2906,
+          "lng": 80.6337
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+          "alt": "Cultural stops en route to Kandy",
+          "title": "Kandy culture",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Kandy hotel",
+      "locations": [
+        "Sigiriya",
+        "Matale",
+        "Kandy"
+      ],
+      "travelTime": "Transfer to Kandy · 2–3 hrs"
+    },
+    {
+      "day": 5,
+      "title": "Kandy – Ella",
+      "description": "Climb into the highlands via Ambuluwawa Tower for 360° mountain views, stop at Ramboda Falls, and visit a tea centre/garden (Damro Labookellie / Blue Field) to see Ceylon tea production and taste a fresh cup before continuing to Ella.",
+      "highlights": [
+        "Ambuluwawa Tower",
+        "Ramboda Waterfall",
+        "Tea plantation & factory visit"
+      ],
+      "location": {
+        "name": "Ella",
+        "region": "Uva Province",
+        "geo": {
+          "lat": 6.8667,
+          "lng": 81.0466
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/tea-country.webp",
+          "alt": "Tea plantations in Sri Lanka’s hill country",
+          "title": "Tea country",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Ella hotel",
+      "locations": [
+        "Kandy",
+        "Gampola",
+        "Ramboda",
+        "Ella"
+      ],
+      "travelTime": "Scenic highland transfer · 4–6 hrs"
+    },
+    {
+      "day": 6,
+      "title": "Ella",
+      "description": "A full Ella day: visit the iconic Nine Arches Bridge, hike Little Adam’s Peak for Ella Gap views, stop at Ravana Falls, and enjoy a scenic hill-country train ride through tea estates and misty mountains.",
+      "highlights": [
+        "Nine Arches Bridge",
+        "Little Adam's Peak",
+        "Ravana Falls",
+        "Scenic Ella train ride"
+      ],
+      "location": {
+        "name": "Ella",
+        "region": "Uva Province",
+        "geo": {
+          "lat": 6.8667,
+          "lng": 81.0466
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+          "alt": "Family at Nine Arch Bridge in Ella",
+          "title": "Nine Arches Bridge",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Ella hotel",
+      "locations": [
+        "Ella",
+        "Nine Arches",
+        "Ravana Falls"
+      ],
+      "travelTime": "Ella exploration · half to full day"
+    },
+    {
+      "day": 7,
+      "title": "Ella – Mirissa – Yala",
+      "description": "Descend to the south coast for Mirissa whale and dolphin watching, observe sea turtles at Turtle Beach, and enjoy an evening kayak safari toward Kamburugamuwa as the coastline turns golden. Overnight near Yala.",
+      "highlights": [
+        "Mirissa whale & dolphin watching",
+        "Turtle Beach Mirissa",
+        "Mirissa evening kayak safari"
+      ],
+      "location": {
+        "name": "Mirissa",
+        "region": "Southern Province",
+        "geo": {
+          "lat": 5.9483,
+          "lng": 80.4715
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/south-coast.webp",
+          "alt": "South coast near Mirissa",
+          "title": "Mirissa coast",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Yala hotel",
+      "locations": [
+        "Ella",
+        "Mirissa",
+        "Yala"
+      ],
+      "travelTime": "Ella to south coast · full day"
+    },
+    {
+      "day": 8,
+      "title": "Yala – Beach / Airport",
+      "description": "Flexible finale: explore Galle Dutch Fort, enjoy a Madu River mangrove boat safari in Balapitiya, and visit the Turtle Hatchery in Hikkaduwa. End with a beach stay of your choice (Hikkaduwa, Bentota, or Kalutara) or airport drop-off.",
+      "highlights": [
+        "Galle Dutch Fort",
+        "Madu River boat safari",
+        "Turtle Hatchery Hikkaduwa",
+        "Beach stay or airport drop (your choice)"
+      ],
+      "location": {
+        "name": "Galle",
+        "region": "Southern Province",
+        "geo": {
+          "lat": 6.0329,
+          "lng": 80.217
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+          "alt": "Madu River style boat safari on the south-west coast",
+          "title": "Madu River safari",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "locations": [
+        "Galle",
+        "Balapitiya",
+        "Hikkaduwa",
+        "Bentota / Kalutara / Airport"
+      ],
+      "travelTime": "Coastal circuit · flexible drop-off"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I choose where Day 8 ends?",
+      "answer": "Yes. After the south-coast stops you can continue to a beach hotel in Hikkaduwa, Bentota, or Kalutara, or go directly to the airport — whichever you prefer."
+    },
+    {
+      "question": "Is whale watching seasonal?",
+      "answer": "Mirissa whale and dolphin watching is typically best from November to April. Outside peak season we suggest turtle watching, kayaking, or other coastal alternatives."
+    },
+    {
+      "question": "Can the itinerary be customized?",
+      "answer": "Yes. We tailor pace, hotels, and experiences to your preferences."
+    }
+  ],
+  "reviews": [],
+  "pricing": [
+    {
+      "travelers": 1,
+      "pricePerPerson": 1490
+    },
+    {
+      "travelers": 2,
+      "pricePerPerson": 860
+    },
+    {
+      "travelers": 3,
+      "pricePerPerson": 740
+    },
+    {
+      "travelers": 4,
+      "pricePerPerson": 715
+    },
+    {
+      "travelers": 5,
+      "pricePerPerson": 640
+    }
+  ],
+  "currency": "USD",
+  "relatedTours": [
+    "7-days-sri-lanka-highlights",
+    "10-days-classic-ceylon",
+    "12-days-sri-lanka-explorer"
+  ],
+  "badges": [
+    "featured",
+    "wildlife"
+  ],
+  "tags": [
+    "wildlife",
+    "multi-day",
+    "wilpattu",
+    "sigiriya",
+    "ella",
+    "mirissa",
+    "south"
+  ],
+  "route": [
+    {
+      "name": "Airport"
+    },
+    {
+      "name": "Wilpattu"
+    },
+    {
+      "name": "Sigiriya"
+    },
+    {
+      "name": "Kandy"
+    },
+    {
+      "name": "Ella"
+    },
+    {
+      "name": "Mirissa"
+    },
+    {
+      "name": "Galle"
+    }
+  ],
+  "mapsUrl": "https://www.google.com/maps/dir/Bandaranaike+International+Airport/Wilpattu/Sigiriya/Kandy/Ella/Mirissa/Galle",
+  "heroImage": {
+    "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+    "alt": "Sigiriya and wildlife on an eight-day Sri Lanka private itinerary",
+    "title": "8 Days Wilpattu to Coast",
+    "width": 1200,
+    "height": 1600
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+      "alt": "Safari elephants in a Sri Lankan national park",
+      "title": "Wilpattu & Kaudulla",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "alt": "Guests near Sigiriya Rock",
+      "title": "Sigiriya",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+      "alt": "Village tour near Habarana",
+      "title": "Village tour",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+      "alt": "Travelers at Dambulla Cave Temple",
+      "title": "Dambulla",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+      "alt": "Family at Nine Arch Bridge in Ella",
+      "title": "Ella",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+      "alt": "Boat safari on the south-west coast",
+      "title": "Madu River / coast",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+      "alt": "Elephants in a Sri Lankan landscape",
+      "title": "Wildlife",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+      "alt": "Guests exploring with a local guide",
+      "title": "Local moments",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/destinations/turtles.jpg",
+      "alt": "Sea turtle conservation on the south coast",
+      "title": "Turtle hatchery",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "rating": {
+    "average": 4.94,
+    "count": 28
+  },
+  "seo": {
+    "metaTitle": "8 Days Wilpattu to Coast Tour | Hai Sri Lanka",
+    "metaDescription": "Private 8-day Sri Lanka tour: Wilpattu safari, Sigiriya, Kaudulla elephants, Kandy, Ella hills, Mirissa, Galle Fort, and south-coast beaches.",
+    "keywords": [
+      "8 days Sri Lanka",
+      "Wilpattu Sigiriya Ella tour",
+      "Mirissa Galle private tour",
+      "private multi day tour"
+    ],
+    "ogImage": "/assets/images/tours/guest-experiences/elephant-sigiriya.png"
+  },
+  "status": "published",
+  "description": "An eight-day private journey from Wilpattu’s wild lakes through Sigiriya and Kaudulla, into Kandy and the hill country, then Ella, Mirissa’s marine coast, and a flexible finish at Galle, Bentota, Kalutara, or the airport.",
+  "location": {
+    "name": "Sri Lanka",
+    "region": "Island-wide",
+    "geo": {
+      "lat": 7.957,
+      "lng": 80.7603
+    }
+  },
+  "price": {
+    "1": 1490,
+    "2": 860,
+    "3": 740,
+    "4": 715,
+    "5": 640
+  },
+  "images": [
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "alt": "8 Days Wilpattu to Coast",
+      "title": "8 Days Wilpattu to Coast",
+      "width": 1200,
+      "height": 1600
+    }
+  ],
+  "includes": [
+    "Private vehicle",
+    "Hotels (B&B)",
+    "Daily breakfast",
+    "Dinner (Days 1–7)",
+    "Guide service"
+  ],
+  "excludes": [
+    "International flights",
+    "Lunch",
+    "Entrance fees",
+    "Safari jeep & whale-watching boat",
+    "Ayurveda spa treatments"
+  ],
+  "faq": [
+    {
+      "question": "Can I choose where Day 8 ends?",
+      "answer": "Yes. After the south-coast stops you can continue to a beach hotel in Hikkaduwa, Bentota, or Kalutara, or go directly to the airport — whichever you prefer."
+    },
+    {
+      "question": "Is whale watching seasonal?",
+      "answer": "Mirissa whale and dolphin watching is typically best from November to April. Outside peak season we suggest turtle watching, kayaking, or other coastal alternatives."
+    },
+    {
+      "question": "Can the itinerary be customized?",
+      "answer": "Yes. We tailor pace, hotels, and experiences to your preferences."
+    }
+  ],
+  "relatedTourSlugs": [
+    "7-days-sri-lanka-highlights",
+    "10-days-classic-ceylon",
+    "12-days-sri-lanka-explorer"
+  ],
+  "featured": true,
+  "bestSeller": false
+}

@@ -337,6 +337,7 @@
   ],
   "currency": "USD",
   "relatedTours": [
+    "3-nights-4-days",
     "10-days-classic-ceylon",
     "14-days-grand-sri-lanka"
   ],
@@ -523,6 +524,7 @@
     }
   ],
   "relatedTourSlugs": [
+    "3-nights-4-days",
     "10-days-classic-ceylon",
     "14-days-grand-sri-lanka"
   ],

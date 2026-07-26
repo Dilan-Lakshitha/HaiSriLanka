@@ -1,0 +1,702 @@
+{
+  "id": "tour-12-days-explorer",
+  "slug": "12-days-sri-lanka-explorer",
+  "category": "multi-day",
+  "title": "12 Days Sri Lanka Explorer",
+  "seoTitle": "11 Nights 12 Days Sri Lanka Tour | Hai Sri Lanka",
+  "metaDescription": "Private 12-day Sri Lanka tour: Wilpattu safari, Sigiriya, Trincomalee whales, Kandy, tea country, Ella, Galle, and Kalutara.",
+  "shortDescription": "Wilpattu to the east coast, highlands, and south — wildlife, culture, and beach in twelve days.",
+  "overview": "An eleven-night private journey from Wilpattu and the Cultural Triangle to Trincomalee’s east coast, then through Kandy and tea country to Ella, Galle, and Kalutara before your airport departure.",
+  "duration": "12 Days / 11 Nights",
+  "destinations": [
+    "Wilpattu",
+    "Anuradhapura",
+    "Sigiriya",
+    "Trincomalee",
+    "Kandy",
+    "Nuwara Eliya",
+    "Ella",
+    "Galle",
+    "Kalutara",
+    "Colombo"
+  ],
+  "travelStyle": "Wildlife",
+  "highlights": [
+    "Wilpattu & Minneriya / Kaudulla safaris",
+    "Sigiriya, Pidurangala & Trincomalee whales",
+    "Kandy culture & highland tea country",
+    "Ella, Galle Fort & Bentota finale"
+  ],
+  "included": [
+    "Private vehicle",
+    "Hotels (B&B)",
+    "Daily breakfast",
+    "Guide service"
+  ],
+  "excluded": [
+    "International flights",
+    "Lunch & dinner",
+    "Entrance fees",
+    "Safari jeep, whale-watching boat & scuba",
+    "Ayurveda massage"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Airport / Hotel – Wilpattu",
+      "description": "Travel north to Wilpattu for a safari in one of Sri Lanka’s oldest and wildest national parks, then overnight near Wilpattu or Anuradhapura.",
+      "highlights": [
+        "Safari @ Wilpattu National Park"
+      ],
+      "location": {
+        "name": "Wilpattu",
+        "region": "North Western Province",
+        "geo": {
+          "lat": 8.456,
+          "lng": 80.05
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+          "alt": "Wildlife safari in Sri Lanka",
+          "title": "Wilpattu safari",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Dinner opportunity"
+      ],
+      "accommodation": "Wilpattu / Anuradhapura hotel",
+      "locations": [
+        "Airport / Hotel",
+        "Wilpattu"
+      ],
+      "travelTime": "Airport to Wilpattu · 3–5 hrs + safari"
+    },
+    {
+      "day": 2,
+      "title": "Wilpattu – Sigiriya",
+      "description": "Continue to Sigiriya to climb Lion Rock, enjoy a village tour, and unwind with an Ayurveda massage.",
+      "highlights": [
+        "Visit Sigiriya Rock Fortress",
+        "Village Tour",
+        "Ayurveda Massage"
+      ],
+      "location": {
+        "name": "Sigiriya",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.957,
+          "lng": 80.7603
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+          "alt": "Guests near Sigiriya Rock",
+          "title": "Sigiriya",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Sigiriya hotel",
+      "locations": [
+        "Wilpattu",
+        "Sigiriya"
+      ],
+      "travelTime": "Wilpattu to Sigiriya · 2–3 hrs"
+    },
+    {
+      "day": 3,
+      "title": "Sigiriya",
+      "description": "Climb Pidurangala for sunrise or panoramic views, then an elephant safari at Minneriya, Kaudulla, or Hurulu Eco Park.",
+      "highlights": [
+        "Visit Pidurangala Rock",
+        "Minneriya / Kaudulla / Eco Park Safari"
+      ],
+      "location": {
+        "name": "Sigiriya",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.957,
+          "lng": 80.7603
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+          "alt": "Elephants at a Cultural Triangle eco park",
+          "title": "Elephant safari",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Sigiriya hotel",
+      "locations": [
+        "Sigiriya",
+        "Pidurangala",
+        "Minneriya / Kaudulla"
+      ],
+      "travelTime": "Regional exploration · short hops"
+    },
+    {
+      "day": 4,
+      "title": "Sigiriya – Trincomalee",
+      "description": "Cross to the east coast for Koneswaram Hindu Temple and Lover’s Leap viewpoints above the Indian Ocean.",
+      "highlights": [
+        "Koneswaram Hindu Temple",
+        "Lover's Leap"
+      ],
+      "location": {
+        "name": "Trincomalee",
+        "region": "Eastern Province",
+        "geo": {
+          "lat": 8.5874,
+          "lng": 81.2152
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/marble-beach.jpg",
+          "alt": "East coast near Trincomalee",
+          "title": "Trincomalee",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Trincomalee hotel",
+      "locations": [
+        "Sigiriya",
+        "Trincomalee"
+      ],
+      "travelTime": "Sigiriya to Trincomalee · 3–4 hrs"
+    },
+    {
+      "day": 5,
+      "title": "Trincomalee",
+      "description": "A full east-coast day for dolphin and whale watching, scuba diving, and snorkeling in clear waters.",
+      "highlights": [
+        "Dolphin & Whale Watching",
+        "Scuba Diving",
+        "Snorkeling"
+      ],
+      "location": {
+        "name": "Trincomalee",
+        "region": "Eastern Province",
+        "geo": {
+          "lat": 8.5874,
+          "lng": 81.2152
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/marble-beach.jpg",
+          "alt": "Trincomalee coastal waters for whale watching and diving",
+          "title": "East coast activities",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Trincomalee hotel",
+      "locations": [
+        "Trincomalee"
+      ],
+      "travelTime": "Leisure marine day"
+    },
+    {
+      "day": 6,
+      "title": "Trincomalee – Kandy",
+      "description": "Return inland via Dambulla Cave Temple and Matale Spice Garden, then a gem museum, Upper Lake Drive, and Kandyan cultural dance.",
+      "highlights": [
+        "Visit the Dambulla Cave Temple",
+        "Visit Matale Spice Garden",
+        "Gem Museum",
+        "Upper Lake Drive",
+        "Kandyan Cultural Dance"
+      ],
+      "location": {
+        "name": "Kandy",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.2906,
+          "lng": 80.6337
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+          "alt": "Travelers at Dambulla Cave Temple",
+          "title": "Dambulla",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Kandy hotel",
+      "locations": [
+        "Trincomalee",
+        "Dambulla",
+        "Matale",
+        "Kandy"
+      ],
+      "travelTime": "East coast to Kandy · 5–7 hrs"
+    },
+    {
+      "day": 7,
+      "title": "Kandy – Nuwara Eliya",
+      "description": "Morning at the Temple of the Tooth Relic, then climb into the tea hills with Ambuluwawa Tower, a plantation and factory visit, and a Nuwara Eliya city tour.",
+      "highlights": [
+        "Visit Temple of the Tooth Relic",
+        "Ambuluwawa Tower",
+        "Visit Tea Plantation & Tea Factory",
+        "City Tour"
+      ],
+      "location": {
+        "name": "Nuwara Eliya",
+        "region": "Central Province",
+        "geo": {
+          "lat": 6.9497,
+          "lng": 80.7891
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/tea-country.webp",
+          "alt": "Tea plantations near Nuwara Eliya",
+          "title": "Tea country",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Nuwara Eliya hotel",
+      "locations": [
+        "Kandy",
+        "Ambuluwawa",
+        "Nuwara Eliya"
+      ],
+      "travelTime": "Highland transfer · 3–4 hrs"
+    },
+    {
+      "day": 8,
+      "title": "Nuwara Eliya – Ella",
+      "description": "Early trek in Horton Plains National Park, then continue to Ella by scenic train through the hills.",
+      "highlights": [
+        "Trek in Horton Plains National Park",
+        "Train Ride"
+      ],
+      "location": {
+        "name": "Ella",
+        "region": "Uva Province",
+        "geo": {
+          "lat": 6.8667,
+          "lng": 81.0466
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+          "alt": "Family enjoying the Ella highlands",
+          "title": "Ella",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Ella hotel",
+      "locations": [
+        "Nuwara Eliya",
+        "Horton Plains",
+        "Ella"
+      ],
+      "travelTime": "Horton Plains trek + scenic train"
+    },
+    {
+      "day": 9,
+      "title": "Ella",
+      "description": "A relaxed Ella day — city tour in the morning, then free time to unwind in the hills.",
+      "highlights": [
+        "Ella City Tour",
+        "Relax for the rest of the day"
+      ],
+      "location": {
+        "name": "Ella",
+        "region": "Uva Province",
+        "geo": {
+          "lat": 6.8667,
+          "lng": 81.0466
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/ella-bridge.jpg",
+          "alt": "Nine Arch Bridge in Ella",
+          "title": "Ella city",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Ella hotel",
+      "locations": [
+        "Ella"
+      ],
+      "travelTime": "Leisure day in Ella"
+    },
+    {
+      "day": 10,
+      "title": "Ella – Galle",
+      "description": "Descend toward the south coast with a stop at Ravana Falls, then explore historic Galle Fort.",
+      "highlights": [
+        "Ravana Waterfall",
+        "Visit Galle Fort"
+      ],
+      "location": {
+        "name": "Galle",
+        "region": "Southern Province",
+        "geo": {
+          "lat": 6.0329,
+          "lng": 80.217
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/ravana-falls.jpg",
+          "alt": "Ravana Falls on the way to the south coast",
+          "title": "Ravana Falls",
+          "width": 1920,
+          "height": 700
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Galle hotel",
+      "locations": [
+        "Ella",
+        "Ravana Falls",
+        "Galle"
+      ],
+      "travelTime": "Ella to Galle · 4–5 hrs"
+    },
+    {
+      "day": 11,
+      "title": "Galle – Kalutara",
+      "description": "Visit a turtle hatchery and enjoy a Bentota boat ride before overnighting in Kalutara.",
+      "highlights": [
+        "Visit Turtle Hatchery",
+        "Bentota Boat Ride"
+      ],
+      "location": {
+        "name": "Kalutara",
+        "region": "Western Province",
+        "geo": {
+          "lat": 6.5854,
+          "lng": 79.9607
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+          "alt": "Boat ride along the south-west coast",
+          "title": "Bentota boat ride",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Kalutara hotel",
+      "locations": [
+        "Galle",
+        "Bentota",
+        "Kalutara"
+      ],
+      "travelTime": "Coastal transfer · half day"
+    },
+    {
+      "day": 12,
+      "title": "Kalutara – Airport",
+      "description": "A Colombo city tour timed to your schedule, then private drop-off to the airport.",
+      "highlights": [
+        "Colombo City Tour",
+        "Drop off to Airport"
+      ],
+      "location": {
+        "name": "Colombo",
+        "region": "Western Province",
+        "geo": {
+          "lat": 6.9271,
+          "lng": 79.8612
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/colombo.jpg",
+          "alt": "Colombo city before airport departure",
+          "title": "Colombo",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "locations": [
+        "Kalutara",
+        "Colombo",
+        "Airport"
+      ],
+      "travelTime": "City tour + airport transfer"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can the itinerary be customized?",
+      "answer": "Yes. We tailor pace, hotels, and experiences — including safari parks and marine activities — to your preferences."
+    },
+    {
+      "question": "Is whale watching seasonal?",
+      "answer": "Trincomalee whale and dolphin watching is typically best from May to October. Outside peak season we suggest snorkeling, diving, or other coastal alternatives."
+    }
+  ],
+  "reviews": [],
+  "pricing": [
+    {
+      "travelers": 1,
+      "pricePerPerson": 1615
+    },
+    {
+      "travelers": 2,
+      "pricePerPerson": 1184
+    },
+    {
+      "travelers": 3,
+      "pricePerPerson": 1197
+    },
+    {
+      "travelers": 4,
+      "pricePerPerson": 997
+    },
+    {
+      "travelers": 5,
+      "pricePerPerson": 900
+    }
+  ],
+  "currency": "USD",
+  "relatedTours": [
+    "10-days-classic-ceylon",
+    "14-days-grand-sri-lanka",
+    "7-days-sri-lanka-highlights"
+  ],
+  "badges": [
+    "featured",
+    "wildlife",
+    "adventure"
+  ],
+  "tags": [
+    "wildlife",
+    "multi-day",
+    "cultural",
+    "east-coast",
+    "wilpattu",
+    "trincomalee",
+    "ella"
+  ],
+  "route": [
+    {
+      "name": "Airport"
+    },
+    {
+      "name": "Wilpattu"
+    },
+    {
+      "name": "Sigiriya"
+    },
+    {
+      "name": "Trincomalee"
+    },
+    {
+      "name": "Kandy"
+    },
+    {
+      "name": "Nuwara Eliya"
+    },
+    {
+      "name": "Ella"
+    },
+    {
+      "name": "Galle"
+    },
+    {
+      "name": "Kalutara"
+    }
+  ],
+  "mapsUrl": "https://www.google.com/maps/dir/Bandaranaike+International+Airport/Wilpattu/Sigiriya/Trincomalee/Kandy/Nuwara+Eliya/Ella/Galle/Kalutara",
+  "heroImage": {
+    "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+    "alt": "Wildlife safari on a twelve-day Sri Lanka private itinerary",
+    "title": "12 Days Sri Lanka Explorer",
+    "width": 1600,
+    "height": 1200
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+      "alt": "Safari elephants in a Sri Lankan national park",
+      "title": "Wilpattu & wildlife",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "alt": "Guests near Sigiriya Rock",
+      "title": "Sigiriya",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+      "alt": "Elephants at a Cultural Triangle eco park",
+      "title": "Elephant gathering",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+      "alt": "Travelers at Dambulla Cave Temple",
+      "title": "Dambulla",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+      "alt": "Family at Nine Arch Bridge in Ella",
+      "title": "Ella",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+      "alt": "Boat safari on the south-west coast",
+      "title": "Bentota boat ride",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+      "alt": "Village tour experience in Sri Lanka",
+      "title": "Village tour",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
+      "alt": "Guests exploring with a local guide",
+      "title": "Local moments",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/destinations/turtles.jpg",
+      "alt": "Turtle hatchery on the south-west coast",
+      "title": "Turtle hatchery",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "rating": {
+    "average": 4.96,
+    "count": 31
+  },
+  "seo": {
+    "metaTitle": "11 Nights 12 Days Sri Lanka Tour | Hai Sri Lanka",
+    "metaDescription": "Private 12-day Sri Lanka tour: Wilpattu safari, Sigiriya, Trincomalee whales, Kandy, tea country, Ella, Galle, and Kalutara.",
+    "keywords": [
+      "12 days Sri Lanka",
+      "11 nights 12 days Sri Lanka",
+      "Wilpattu Trincomalee tour",
+      "private multi day tour"
+    ],
+    "ogImage": "/assets/images/tours/guest-experiences/safari-elephant-herd.png"
+  },
+  "status": "published",
+  "description": "An eleven-night private journey from Wilpattu and the Cultural Triangle to Trincomalee’s east coast, then through Kandy and tea country to Ella, Galle, and Kalutara before your airport departure.",
+  "location": {
+    "name": "Sri Lanka",
+    "region": "Island-wide",
+    "geo": {
+      "lat": 8.456,
+      "lng": 80.05
+    }
+  },
+  "price": {
+    "1": 1615,
+    "2": 1184,
+    "3": 1197,
+    "4": 997,
+    "5": 900
+  },
+  "images": [
+    {
+      "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+      "alt": "12 Days Sri Lanka Explorer",
+      "title": "12 Days Sri Lanka Explorer",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "includes": [
+    "Private vehicle",
+    "Hotels (B&B)",
+    "Daily breakfast",
+    "Guide service"
+  ],
+  "excludes": [
+    "International flights",
+    "Lunch & dinner",
+    "Entrance fees",
+    "Safari jeep, whale-watching boat & scuba",
+    "Ayurveda massage"
+  ],
+  "faq": [
+    {
+      "question": "Can the itinerary be customized?",
+      "answer": "Yes. We tailor pace, hotels, and experiences — including safari parks and marine activities — to your preferences."
+    },
+    {
+      "question": "Is whale watching seasonal?",
+      "answer": "Trincomalee whale and dolphin watching is typically best from May to October. Outside peak season we suggest snorkeling, diving, or other coastal alternatives."
+    }
+  ],
+  "relatedTourSlugs": [
+    "10-days-classic-ceylon",
+    "14-days-grand-sri-lanka",
+    "7-days-sri-lanka-highlights"
+  ],
+  "featured": true,
+  "bestSeller": false
+}

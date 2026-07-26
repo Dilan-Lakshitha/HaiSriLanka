@@ -3,75 +3,54 @@
   "slug": "10-days-classic-ceylon",
   "category": "multi-day",
   "title": "10 Days Classic Ceylon",
-  "seoTitle": "10 Days Classic Ceylon Tour | Hai Sri Lanka",
-  "metaDescription": "Private 10-day Classic Ceylon itinerary with culture, tea country, safari, and coast.",
-  "shortDescription": "A deeper classic route with extra wildlife and coast time.",
-  "overview": "Ten private days spanning Cultural Triangle marvels, hill-country trains or drives, safari mornings, and a soft southern coast landing.",
+  "seoTitle": "9 Nights 10 Days Classic Ceylon Tour | Hai Sri Lanka",
+  "metaDescription": "Private 9 nights / 10 days Sri Lanka tour: Sigiriya, Kandy, Nuwara Eliya, Ella, Yala, Mirissa, Galle, and Kalutara with half-board hotels.",
+  "shortDescription": "Sigiriya to the south coast — culture, tea hills, safari, whales, and beach time in ten days.",
+  "overview": "A private nine-night journey from the Cultural Triangle through highland tea country and Ella, then Yala safari and a soft south-coast finale via Mirissa, Galle, and Kalutara — with half-board stays at hand-picked hotels.",
   "duration": "10 Days / 9 Nights",
   "destinations": [
-    "Sri Lanka",
-    "Arrival",
-    "Sri Lanka",
-    "Ancient cities"
+    "Sigiriya",
+    "Kandy",
+    "Nuwara Eliya",
+    "Ella",
+    "Yala",
+    "Mirissa",
+    "Galle",
+    "Kalutara",
+    "Colombo"
   ],
   "travelStyle": "Wildlife",
   "highlights": [
-    "Deeper wildlife window",
-    "Tea highlands",
-    "South coast nights"
+    "Sigiriya & Pidurangala climbs",
+    "Elephant safari at Minneriya / Kaudulla / Hurulu",
+    "Tea country, Horton Plains & Ella train",
+    "Yala safari, Mirissa whales & Galle Fort"
   ],
   "included": [
     "Private vehicle",
-    "Hand-picked hotels",
-    "Breakfast daily"
+    "Hotels on half-board (HB) basis",
+    "Daily breakfast & dinner",
+    "Guide service"
   ],
   "excluded": [
-    "Flights",
+    "International flights",
+    "Lunch",
     "Entrance fees",
-    "Safari jeeps"
+    "Safari jeep & whale-watching boat",
+    "Ayurveda massage"
   ],
   "itinerary": [
     {
       "day": 1,
-      "title": "Arrival",
-      "description": "Airport meet and west-coast overnight.",
-      "location": {
-        "name": "Arrival",
-        "region": "Sri Lanka",
-        "geo": {
-          "lat": 6.9271,
-          "lng": 79.8612
-        }
-      },
-      "images": [
-        {
-          "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
-          "alt": "Mangrove boat safari on the south coast",
-          "title": "South coast",
-          "width": 1200,
-          "height": 900
-        }
-      ],
+      "title": "Airport / Hotel – Sigiriya",
+      "description": "Travel inland to Sigiriya, climb Lion Rock, and enjoy a village tour before settling in for the night.",
       "highlights": [
-        "Private pacing",
-        "Curated stops"
+        "Climb Sigiriya Rock",
+        "Village Tour"
       ],
-      "locations": [
-        "Arrival",
-        "Sri Lanka"
-      ],
-      "travelTime": "Airport transfer · 45–90 min",
-      "optionalActivities": [
-        "Optional: deepen the day with private pacing"
-      ]
-    },
-    {
-      "day": 2,
-      "title": "Ancient cities",
-      "description": "Begin the Cultural Triangle circuit.",
       "location": {
-        "name": "Ancient cities",
-        "region": "Sri Lanka",
+        "name": "Sigiriya",
+        "region": "Central Province",
         "geo": {
           "lat": 7.957,
           "lng": 80.7603
@@ -79,53 +58,401 @@
       },
       "images": [
         {
+          "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+          "alt": "Guests near Sigiriya Rock",
+          "title": "Sigiriya",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "meals": [
+        "Dinner"
+      ],
+      "accommodation": "Kassapa Lions Rock or similar (HB)",
+      "locations": [
+        "Airport / Hotel",
+        "Sigiriya"
+      ],
+      "travelTime": "Airport / hotel to Sigiriya · 3–5 hrs"
+    },
+    {
+      "day": 2,
+      "title": "Sigiriya",
+      "description": "Sunrise views from Pidurangala, an elephant safari at Minneriya, Kaudulla, or Hurulu Eco Park, and an optional Ayurveda massage.",
+      "highlights": [
+        "Climb Pidurangala Rock",
+        "Visit Minneriya / Kaudulla / Hurulu Eco Park",
+        "Ayurveda Massage"
+      ],
+      "location": {
+        "name": "Sigiriya",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.957,
+          "lng": 80.7603
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+          "alt": "Elephants at a Cultural Triangle eco park",
+          "title": "Elephant safari",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Kassapa Lions Rock or similar (HB)",
+      "locations": [
+        "Sigiriya",
+        "Pidurangala",
+        "Minneriya / Kaudulla / Hurulu"
+      ],
+      "travelTime": "Regional exploration · short hops"
+    },
+    {
+      "day": 3,
+      "title": "Sigiriya – Kandy",
+      "description": "Leave the Triangle via Dambulla Cave Temple, pause at a spice garden and gem museum, then enjoy a Kandyan cultural dance in the evening.",
+      "highlights": [
+        "Dambulla Cave Temple",
+        "Spice Garden",
+        "Gem Museum",
+        "Kandyan Cultural Dance"
+      ],
+      "location": {
+        "name": "Kandy",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.2906,
+          "lng": 80.6337
+        }
+      },
+      "images": [
+        {
           "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
-          "alt": "Travelers at Dambulla and Cultural Triangle sites",
-          "title": "Ancient cities",
+          "alt": "Travelers at Dambulla Cave Temple",
+          "title": "Dambulla",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Hotel Topaz or similar (HB)",
+      "locations": [
+        "Sigiriya",
+        "Dambulla",
+        "Kandy"
+      ],
+      "travelTime": "Transfer to Kandy · 2–3 hrs"
+    },
+    {
+      "day": 4,
+      "title": "Kandy – Nuwara Eliya",
+      "description": "Morning at the Temple of the Tooth Relic, then climb toward the tea hills with Ambuluwawa Tower, a plantation and factory visit, and a Nuwara Eliya city tour.",
+      "highlights": [
+        "Temple of the Tooth Relic",
+        "Ambuluwawa Tower",
+        "Tea Plantation and Factory",
+        "City Tour"
+      ],
+      "location": {
+        "name": "Nuwara Eliya",
+        "region": "Central Province",
+        "geo": {
+          "lat": 6.9497,
+          "lng": 80.7891
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/tea-country.webp",
+          "alt": "Tea plantations near Nuwara Eliya",
+          "title": "Tea country",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Oakray Summer Hill Breeze or similar (HB)",
+      "locations": [
+        "Kandy",
+        "Ambuluwawa",
+        "Nuwara Eliya"
+      ],
+      "travelTime": "Highland transfer · 3–4 hrs"
+    },
+    {
+      "day": 5,
+      "title": "Nuwara Eliya – Ella",
+      "description": "Early trek in Horton Plains National Park, then continue to Ella by scenic train through the hills.",
+      "highlights": [
+        "Trek in Horton Plains National Park",
+        "Train Ride"
+      ],
+      "location": {
+        "name": "Ella",
+        "region": "Uva Province",
+        "geo": {
+          "lat": 6.8667,
+          "lng": 81.0466
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+          "alt": "Family enjoying the Ella highlands",
+          "title": "Ella",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "La Ella Breeze or similar (HB)",
+      "locations": [
+        "Nuwara Eliya",
+        "Horton Plains",
+        "Ella"
+      ],
+      "travelTime": "Horton Plains trek + scenic train"
+    },
+    {
+      "day": 6,
+      "title": "Ella",
+      "description": "A relaxed Ella day — light city tour in the morning, then free time to unwind in the hills.",
+      "highlights": [
+        "City Tour",
+        "Relax for the rest of the day"
+      ],
+      "location": {
+        "name": "Ella",
+        "region": "Uva Province",
+        "geo": {
+          "lat": 6.8667,
+          "lng": 81.0466
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/ella-bridge.webp",
+          "alt": "Nine Arch Bridge in Ella",
+          "title": "Ella city",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "La Ella Breeze or similar (HB)",
+      "locations": [
+        "Ella"
+      ],
+      "travelTime": "Leisure day in Ella"
+    },
+    {
+      "day": 7,
+      "title": "Ella – Yala",
+      "description": "Descend toward the plains with a stop at Ravana Falls, then an afternoon or evening safari in Yala National Park.",
+      "highlights": [
+        "Ravana Waterfall",
+        "Safari @ Yala National Park"
+      ],
+      "location": {
+        "name": "Yala",
+        "region": "Southern Province",
+        "geo": {
+          "lat": 6.3725,
+          "lng": 81.5185
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+          "alt": "Wildlife safari in Yala National Park",
+          "title": "Yala safari",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Chaarya Resort and Spa or similar (HB)",
+      "locations": [
+        "Ella",
+        "Ravana Falls",
+        "Yala"
+      ],
+      "travelTime": "Ella to Yala · 3–4 hrs + safari"
+    },
+    {
+      "day": 8,
+      "title": "Yala – Mirissa",
+      "description": "Coastal day at Mirissa — whale watching, snorkeling with whales or sea turtles, kayaking, and beach time.",
+      "highlights": [
+        "Mirissa Whale Watching",
+        "Snorkeling with Whales or Sea Turtles",
+        "Kayaking",
+        "Relax @ the beach"
+      ],
+      "location": {
+        "name": "Mirissa",
+        "region": "Southern Province",
+        "geo": {
+          "lat": 5.9483,
+          "lng": 80.4715
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/south-coast.webp",
+          "alt": "South coast beaches near Mirissa",
+          "title": "Mirissa",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Mandara Resort or similar (HB)",
+      "locations": [
+        "Yala",
+        "Mirissa"
+      ],
+      "travelTime": "Yala to Mirissa · 2–3 hrs"
+    },
+    {
+      "day": 9,
+      "title": "Mirissa – Galle – Kalutara",
+      "description": "Explore Galle Fort, visit a turtle hatchery, and enjoy a Bentota boat ride before overnighting in Kalutara.",
+      "highlights": [
+        "Galle Fort",
+        "Turtle Hatchery",
+        "Bentota Boat Ride"
+      ],
+      "location": {
+        "name": "Kalutara",
+        "region": "Western Province",
+        "geo": {
+          "lat": 6.5854,
+          "lng": 79.9607
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+          "alt": "Boat ride along the south-west coast",
+          "title": "Bentota boat ride",
           "width": 1200,
           "height": 900
         }
       ],
+      "meals": [
+        "Breakfast",
+        "Dinner"
+      ],
+      "accommodation": "Kamili Beach Hotel or similar (HB)",
+      "locations": [
+        "Mirissa",
+        "Galle",
+        "Bentota",
+        "Kalutara"
+      ],
+      "travelTime": "Coastal transfer · half to full day"
+    },
+    {
+      "day": 10,
+      "title": "Kalutara",
+      "description": "A Colombo city tour timed to your schedule, then private drop-off to the airport or your hotel.",
       "highlights": [
-        "Private pacing",
-        "Curated stops"
+        "Colombo City Tour",
+        "Drop off to Airport / Hotel"
+      ],
+      "location": {
+        "name": "Colombo",
+        "region": "Western Province",
+        "geo": {
+          "lat": 6.9271,
+          "lng": 79.8612
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/destinations/colombo.webp",
+          "alt": "Colombo city before airport departure",
+          "title": "Colombo",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
       ],
       "locations": [
-        "Ancient cities",
-        "Sri Lanka"
+        "Kalutara",
+        "Colombo",
+        "Airport / Hotel"
       ],
-      "travelTime": "Scenic inland transfer · 3–5 hrs",
-      "optionalActivities": [
-        "Optional: deepen the day with private pacing"
-      ]
+      "travelTime": "City tour + airport / hotel transfer"
     }
   ],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "Are hotels on half board?",
+      "answer": "Yes. Overnight stays are on an HB (half-board) basis — breakfast and dinner included — at the named hotels or similar."
+    },
+    {
+      "question": "Is whale watching seasonal?",
+      "answer": "Mirissa whale watching is typically best from November to April. Outside peak season we suggest snorkeling with sea turtles or other coastal alternatives."
+    },
+    {
+      "question": "Can the itinerary be customized?",
+      "answer": "Yes. We tailor pace, hotels, and experiences to your preferences."
+    }
+  ],
   "reviews": [],
   "pricing": [
     {
       "travelers": 1,
-      "pricePerPerson": 1980
+      "pricePerPerson": 1348
     },
     {
       "travelers": 2,
-      "pricePerPerson": 1320
+      "pricePerPerson": 990
     },
     {
       "travelers": 3,
-      "pricePerPerson": 1180
+      "pricePerPerson": 896
     },
     {
       "travelers": 4,
-      "pricePerPerson": 1090
+      "pricePerPerson": 837
     },
     {
       "travelers": 5,
-      "pricePerPerson": 1020
+      "pricePerPerson": 780
     }
   ],
   "currency": "USD",
   "relatedTours": [
+    "3-nights-4-days",
     "7-days-sri-lanka-highlights",
     "14-days-grand-sri-lanka"
   ],
@@ -137,24 +464,42 @@
   "tags": [
     "wildlife",
     "multi-day",
-    "deeper",
-    "south"
+    "cultural",
+    "south",
+    "sigiriya",
+    "ella",
+    "yala"
   ],
   "route": [
     {
       "name": "Airport"
     },
     {
-      "name": "Arrival"
+      "name": "Sigiriya"
     },
     {
-      "name": "Sri Lanka"
+      "name": "Kandy"
     },
     {
-      "name": "Ancient cities"
+      "name": "Nuwara Eliya"
+    },
+    {
+      "name": "Ella"
+    },
+    {
+      "name": "Yala"
+    },
+    {
+      "name": "Mirissa"
+    },
+    {
+      "name": "Galle"
+    },
+    {
+      "name": "Kalutara"
     }
   ],
-  "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=6.8667,81.0466",
+  "mapsUrl": "https://www.google.com/maps/dir/Bandaranaike+International+Airport/Sigiriya/Kandy/Nuwara+Eliya/Ella/Yala/Mirissa/Galle/Kalutara",
   "heroImage": {
     "src": "/assets/images/tours/10-days-classic-ceylon/hero.webp",
     "alt": "Classic Ceylon landscapes on a ten-day private tour",
@@ -164,11 +509,11 @@
   },
   "gallery": [
     {
-      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
-      "alt": "Guests on a mangrove boat safari in Sri Lanka",
-      "title": "Mangrove boat safari",
-      "width": 1600,
-      "height": 1200
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "alt": "Guests near Sigiriya Rock",
+      "title": "Sigiriya",
+      "width": 1200,
+      "height": 1600
     },
     {
       "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
@@ -178,9 +523,9 @@
       "height": 1200
     },
     {
-      "src": "/assets/images/tours/guest-experiences/dambulla-golden-temple.png",
-      "alt": "Travelers at the Golden Temple in Dambulla",
-      "title": "Golden Temple Dambulla",
+      "src": "/assets/images/destinations/tea-country.webp",
+      "alt": "Tea plantations in the highlands",
+      "title": "Tea country",
       "width": 1600,
       "height": 1200
     },
@@ -192,46 +537,32 @@
       "height": 1200
     },
     {
-      "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
-      "alt": "Family on a village tractor ride in Sri Lanka",
-      "title": "Village tractor ride",
-      "width": 1200,
-      "height": 1600
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/cycling-trail-family.png",
-      "alt": "Family cycling on a tropical trail in Sri Lanka",
-      "title": "Cycling adventure",
-      "width": 1200,
-      "height": 1600
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
-      "alt": "Guests and guide smiling in a tuk-tuk",
-      "title": "Tuk-tuk moments",
-      "width": 1200,
-      "height": 1200
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/elephant-bathing-guests.png",
-      "alt": "Guests bathing an elephant in a river",
-      "title": "Elephant bathing",
-      "width": 1200,
-      "height": 1600
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
-      "alt": "Guests riding an elephant near Sigiriya Rock",
-      "title": "Sigiriya elephant experience",
-      "width": 1200,
-      "height": 1600
-    },
-    {
       "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
       "alt": "Elephant herd seen from a safari jeep",
-      "title": "Safari elephants",
+      "title": "Yala safari",
       "width": 1600,
       "height": 1200
+    },
+    {
+      "src": "/assets/images/destinations/south-coast.webp",
+      "alt": "South coast beaches near Mirissa",
+      "title": "Mirissa coast",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+      "alt": "Guests on a mangrove boat safari",
+      "title": "Boat safari",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
+      "alt": "Family on a village tractor ride in Sri Lanka",
+      "title": "Village tour",
+      "width": 1200,
+      "height": 1600
     },
     {
       "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
@@ -241,10 +572,10 @@
       "height": 1200
     },
     {
-      "src": "/assets/images/tours/guest-experiences/elephants-town-walk.png",
-      "alt": "Elephants walking through a Sri Lankan town",
-      "title": "Elephant procession",
-      "width": 1200,
+      "src": "/assets/images/destinations/galle.webp",
+      "alt": "Galle Fort on the south coast",
+      "title": "Galle Fort",
+      "width": 1600,
       "height": 1200
     }
   ],
@@ -253,30 +584,32 @@
     "count": 54
   },
   "seo": {
-    "metaTitle": "10 Days Classic Ceylon Tour | Hai Sri Lanka",
-    "metaDescription": "Private 10-day Classic Ceylon itinerary with culture, tea country, safari, and coast.",
+    "metaTitle": "9 Nights 10 Days Classic Ceylon Tour | Hai Sri Lanka",
+    "metaDescription": "Private 9 nights / 10 days Sri Lanka tour: Sigiriya, Kandy, Nuwara Eliya, Ella, Yala, Mirissa, Galle, and Kalutara with half-board hotels.",
     "keywords": [
       "10 days Sri Lanka",
-      "Classic Ceylon tour"
+      "9 nights 10 days Sri Lanka",
+      "Classic Ceylon tour",
+      "Sigiriya Kandy Ella Yala"
     ],
     "ogImage": "/assets/images/tours/10-days-classic-ceylon/hero.webp"
   },
   "status": "published",
-  "description": "Ten private days spanning Cultural Triangle marvels, hill-country trains or drives, safari mornings, and a soft southern coast landing.",
+  "description": "A private nine-night journey from the Cultural Triangle through highland tea country and Ella, then Yala safari and a soft south-coast finale via Mirissa, Galle, and Kalutara — with half-board stays at hand-picked hotels.",
   "location": {
     "name": "Sri Lanka",
     "region": "Island-wide",
     "geo": {
-      "lat": 6.3725,
-      "lng": 81.5185
+      "lat": 7.957,
+      "lng": 80.7603
     }
   },
   "price": {
-    "1": 1980,
-    "2": 1320,
-    "3": 1180,
-    "4": 1090,
-    "5": 1020
+    "1": 1348,
+    "2": 990,
+    "3": 896,
+    "4": 837,
+    "5": 780
   },
   "images": [
     {
@@ -289,16 +622,33 @@
   ],
   "includes": [
     "Private vehicle",
-    "Hand-picked hotels",
-    "Breakfast daily"
+    "Hotels on half-board (HB) basis",
+    "Daily breakfast & dinner",
+    "Guide service"
   ],
   "excludes": [
-    "Flights",
+    "International flights",
+    "Lunch",
     "Entrance fees",
-    "Safari jeeps"
+    "Safari jeep & whale-watching boat",
+    "Ayurveda massage"
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Are hotels on half board?",
+      "answer": "Yes. Overnight stays are on an HB (half-board) basis — breakfast and dinner included — at the named hotels or similar."
+    },
+    {
+      "question": "Is whale watching seasonal?",
+      "answer": "Mirissa whale watching is typically best from November to April. Outside peak season we suggest snorkeling with sea turtles or other coastal alternatives."
+    },
+    {
+      "question": "Can the itinerary be customized?",
+      "answer": "Yes. We tailor pace, hotels, and experiences to your preferences."
+    }
+  ],
   "relatedTourSlugs": [
+    "3-nights-4-days",
     "7-days-sri-lanka-highlights",
     "14-days-grand-sri-lanka"
   ],

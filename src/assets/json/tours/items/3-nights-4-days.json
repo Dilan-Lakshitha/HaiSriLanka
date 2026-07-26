@@ -1,0 +1,409 @@
+{
+  "id": "tour-3-nights-4-days",
+  "slug": "3-nights-4-days",
+  "category": "multi-day",
+  "title": "3 Nights 4 Days",
+  "seoTitle": "3 Nights 4 Days Sri Lanka Tour | Hai Sri Lanka",
+  "metaDescription": "Private 4-day Sri Lanka tour: Kandy, Ella, Yala safari, Mirissa whale watching, Galle Fort, and Bentota.",
+  "shortDescription": "Kandy culture, Ella hills, Yala safari, and a south-coast finale in four days.",
+  "overview": "A compact private itinerary from the highlands to the south coast — Kandy and tea country, the scenic Ella train, a Yala safari, then Mirissa, Galle Fort, and Bentota before your hotel or airport transfer.",
+  "duration": "4 Days / 3 Nights",
+  "destinations": [
+    "Kandy",
+    "Ella",
+    "Yala",
+    "Mirissa",
+    "Galle",
+    "Bentota"
+  ],
+  "travelStyle": "Culture",
+  "highlights": [
+    "Pinnawala & Kandy cultural evening",
+    "Temple of the Tooth & tea factory",
+    "Scenic train ride & Yala safari",
+    "Whale watching, Galle Fort & Bentota"
+  ],
+  "included": [
+    "Private vehicle",
+    "Hotels (B&B)",
+    "Daily breakfast",
+    "Guide service"
+  ],
+  "excluded": [
+    "International flights",
+    "Lunch & dinner",
+    "Entrance fees",
+    "Safari jeep & whale-watching boat"
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Airport / Hotel – Kandy",
+      "description": "Travel inland toward Kandy with classic cultural stops — elephants at Pinnawala, spice garden scents, lakeside views, and an evening of Kandyan dance.",
+      "highlights": [
+        "Pinnawala Elephant Orphanage",
+        "Spice Garden",
+        "Upper Lake Drive",
+        "Kandy Cultural Dance",
+        "Gem Museum"
+      ],
+      "location": {
+        "name": "Kandy",
+        "region": "Central Province",
+        "geo": {
+          "lat": 7.2906,
+          "lng": 80.6337
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/elephant-bathing-guests.png",
+          "alt": "Guests at an elephant experience near Kandy",
+          "title": "Pinnawala",
+          "width": 1200,
+          "height": 1600
+        }
+      ],
+      "meals": [
+        "Dinner opportunity"
+      ],
+      "accommodation": "Kandy hotel",
+      "locations": [
+        "Pinnawala",
+        "Kandy"
+      ],
+      "travelTime": "Airport / hotel to Kandy · 3–5 hrs"
+    },
+    {
+      "day": 2,
+      "title": "Kandy – Ella",
+      "description": "Morning at the Temple of the Tooth Relic, then climb into tea country with a factory visit before settling into Ella for a gentle city tour.",
+      "highlights": [
+        "Temple of the Tooth Relic",
+        "Visit the Tea Factory",
+        "Ella City Tour"
+      ],
+      "location": {
+        "name": "Ella",
+        "region": "Uva Province",
+        "geo": {
+          "lat": 6.8667,
+          "lng": 81.0466
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+          "alt": "Family at Nine Arch Bridge in Ella",
+          "title": "Ella",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Ella hotel",
+      "locations": [
+        "Kandy",
+        "Tea Country",
+        "Ella"
+      ],
+      "travelTime": "Highland transfer · 3–5 hrs"
+    },
+    {
+      "day": 3,
+      "title": "Ella – Yala",
+      "description": "Ride the scenic train through the hills, pause at Ravana Falls, then continue to Yala for an afternoon or evening safari in the national park.",
+      "highlights": [
+        "Train Ride",
+        "Ravana Falls",
+        "Safari @ Yala NP"
+      ],
+      "location": {
+        "name": "Yala",
+        "region": "Southern Province",
+        "geo": {
+          "lat": 6.3725,
+          "lng": 81.5185
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+          "alt": "Elephant herd seen from a safari jeep in Yala",
+          "title": "Yala safari",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "accommodation": "Yala / Tissamaharama hotel",
+      "locations": [
+        "Ella",
+        "Ravana Falls",
+        "Yala"
+      ],
+      "travelTime": "Train & road · half day + safari"
+    },
+    {
+      "day": 4,
+      "title": "Yala – Bentota – Hotel / Airport",
+      "description": "Coastal finale along the south: Mirissa whale watching or snorkeling with whales or sea turtles, Galle Fort, a turtle hatchery, and a Bentota boat safari before your hotel or airport drop-off.",
+      "highlights": [
+        "Mirissa Whale Watching / Snorkeling with Whales or Sea Turtles",
+        "Galle Fort",
+        "Turtle Hatchery",
+        "Bentota boat safari"
+      ],
+      "location": {
+        "name": "Bentota",
+        "region": "Southern Province",
+        "geo": {
+          "lat": 6.4259,
+          "lng": 79.9951
+        }
+      },
+      "images": [
+        {
+          "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+          "alt": "Boat safari along the south coast mangroves",
+          "title": "Bentota boat safari",
+          "width": 1200,
+          "height": 900
+        }
+      ],
+      "meals": [
+        "Breakfast"
+      ],
+      "locations": [
+        "Mirissa",
+        "Galle",
+        "Bentota",
+        "Hotel / Airport"
+      ],
+      "travelTime": "South-coast circuit · full day"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can the itinerary be customized?",
+      "answer": "Yes. We tailor pace, hotels, and experiences — for example swapping whale watching for more beach time — to your preferences."
+    },
+    {
+      "question": "Is whale watching seasonal?",
+      "answer": "Mirissa whale watching is typically best from November to April. Outside peak season we suggest snorkeling with sea turtles or other coastal alternatives."
+    }
+  ],
+  "reviews": [],
+  "pricing": [
+    {
+      "travelers": 1,
+      "pricePerPerson": 730
+    },
+    {
+      "travelers": 2,
+      "pricePerPerson": 500
+    },
+    {
+      "travelers": 3,
+      "pricePerPerson": 487
+    },
+    {
+      "travelers": 4,
+      "pricePerPerson": 420
+    },
+    {
+      "travelers": 5,
+      "pricePerPerson": 399
+    }
+  ],
+  "currency": "USD",
+  "relatedTours": [
+    "7-days-sri-lanka-highlights",
+    "10-days-classic-ceylon",
+    "kandy-day-tour"
+  ],
+  "badges": [
+    "featured",
+    "culture",
+    "wildlife"
+  ],
+  "tags": [
+    "multi-day",
+    "cultural",
+    "wildlife",
+    "south",
+    "kandy",
+    "ella",
+    "yala"
+  ],
+  "route": [
+    {
+      "name": "Airport"
+    },
+    {
+      "name": "Kandy"
+    },
+    {
+      "name": "Ella"
+    },
+    {
+      "name": "Yala"
+    },
+    {
+      "name": "Mirissa"
+    },
+    {
+      "name": "Galle"
+    },
+    {
+      "name": "Bentota"
+    }
+  ],
+  "mapsUrl": "https://www.google.com/maps/dir/Bandaranaike+International+Airport/Kandy/Ella/Yala/Mirissa/Galle/Bentota",
+  "heroImage": {
+    "src": "/assets/images/tours/3-nights-4-days/hero.webp",
+    "alt": "Ella highlands on a four-day Sri Lanka private itinerary",
+    "title": "3 Nights 4 Days",
+    "width": 1400,
+    "height": 1050
+  },
+  "gallery": [
+    {
+      "src": "/assets/images/tours/3-nights-4-days/gallery-01.webp",
+      "alt": "Kandy cultural capital of the highlands",
+      "title": "Kandy",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/3-nights-4-days/gallery-02.webp",
+      "alt": "Nine Arch Bridge and Ella hills",
+      "title": "Ella",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/3-nights-4-days/gallery-03.webp",
+      "alt": "Wildlife safari in Yala National Park",
+      "title": "Yala",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/3-nights-4-days/gallery-04.webp",
+      "alt": "Galle Fort on the south coast",
+      "title": "Galle Fort",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/3-nights-4-days/gallery-05.webp",
+      "alt": "South coast beaches near Bentota",
+      "title": "South coast",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-bathing-guests.png",
+      "alt": "Guests bathing an elephant in a river",
+      "title": "Elephant experience",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+      "alt": "Elephant herd seen from a safari jeep",
+      "title": "Safari elephants",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+      "alt": "Guests on a mangrove boat safari",
+      "title": "Boat safari",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+      "alt": "Family visiting Nine Arch Bridge in Ella",
+      "title": "Nine Arch Bridge",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "rating": {
+    "average": 4.9,
+    "count": 42
+  },
+  "seo": {
+    "metaTitle": "3 Nights 4 Days Sri Lanka Tour | Hai Sri Lanka",
+    "metaDescription": "Private 4-day Sri Lanka tour: Kandy, Ella, Yala safari, Mirissa whale watching, Galle Fort, and Bentota.",
+    "keywords": [
+      "3 nights 4 days Sri Lanka",
+      "4 days Sri Lanka tour",
+      "Kandy Ella Yala tour",
+      "private multi day tour"
+    ],
+    "ogImage": "/assets/images/tours/3-nights-4-days/hero.webp"
+  },
+  "status": "published",
+  "description": "A compact private itinerary from the highlands to the south coast — Kandy and tea country, the scenic Ella train, a Yala safari, then Mirissa, Galle Fort, and Bentota before your hotel or airport transfer.",
+  "location": {
+    "name": "Sri Lanka",
+    "region": "Island-wide",
+    "geo": {
+      "lat": 7.2906,
+      "lng": 80.6337
+    }
+  },
+  "price": {
+    "1": 730,
+    "2": 500,
+    "3": 487,
+    "4": 420,
+    "5": 399
+  },
+  "images": [
+    {
+      "src": "/assets/images/tours/3-nights-4-days/hero.webp",
+      "alt": "3 Nights 4 Days",
+      "title": "3 Nights 4 Days",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "includes": [
+    "Private vehicle",
+    "Hotels (B&B)",
+    "Daily breakfast",
+    "Guide service"
+  ],
+  "excludes": [
+    "International flights",
+    "Lunch & dinner",
+    "Entrance fees",
+    "Safari jeep & whale-watching boat"
+  ],
+  "faq": [
+    {
+      "question": "Can the itinerary be customized?",
+      "answer": "Yes. We tailor pace, hotels, and experiences — for example swapping whale watching for more beach time — to your preferences."
+    },
+    {
+      "question": "Is whale watching seasonal?",
+      "answer": "Mirissa whale watching is typically best from November to April. Outside peak season we suggest snorkeling with sea turtles or other coastal alternatives."
+    }
+  ],
+  "relatedTourSlugs": [
+    "7-days-sri-lanka-highlights",
+    "10-days-classic-ceylon",
+    "kandy-day-tour"
+  ],
+  "featured": true,
+  "bestSeller": false
+}
