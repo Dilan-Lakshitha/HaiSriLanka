@@ -2,11 +2,11 @@
   "id": "tour-8-days-wilpattu-to-coast",
   "slug": "8-days-wilpattu-to-coast",
   "category": "multi-day",
-  "title": "8 Days Wilpattu to Coast",
-  "seoTitle": "8 Days Wilpattu to Coast Tour | Hai Sri Lanka",
+  "title": "8-Day Wilpattu to Coast with 4 STAR Hotels & Private Transport",
+  "seoTitle": "8-Day Wilpattu to Coast with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
   "metaDescription": "Private 8-day Sri Lanka tour: Wilpattu safari, Sigiriya, Kaudulla elephants, Kandy, Ella hills, Mirissa, Galle Fort, and south-coast beaches.",
-  "shortDescription": "Wilpattu wildlife, Cultural Triangle, Kandy, Ella, Mirissa, and a flexible south-coast finale.",
-  "overview": "An eight-day private journey from Wilpattu’s wild lakes through Sigiriya and Kaudulla, into Kandy and the hill country, then Ella, Mirissa’s marine coast, and a flexible finish at Galle, Bentota, Kalutara, or the airport.",
+  "shortDescription": "Wilpattu to the south coast in eight days - wildlife, culture, and beach with 4 STAR stays and private transport.",
+  "overview": "An eight-day private journey starting in Wilpattu's wild lakes — a quieter safari landscape famous for leopards and rich biodiversity — then into Sigiriya, Habarana village life, Kaudulla elephants, and Ayurveda downtime.\nContinue to Kandy's sacred temple and cultural show, climb through Ambuluwawa and tea country to Ella for Nine Arches and Little Adam's Peak, then Mirissa for whales, turtles, and kayaking. End flexibly at Galle Fort, Madu River, and a beach stay or airport drop of your choice.",
   "duration": "8 Days / 7 Nights",
   "destinations": [
     "Wilpattu",
@@ -28,8 +28,8 @@
     "Mirissa whales/turtles & Galle Fort finale"
   ],
   "included": [
-    "Private vehicle",
-    "Hotels (B&B)",
+    "Private transport / private driver",
+    "4 STAR hotels",
     "Daily breakfast",
     "Dinner (Days 1–7)",
     "Guide service"
@@ -506,7 +506,7 @@
     "count": 28
   },
   "seo": {
-    "metaTitle": "8 Days Wilpattu to Coast Tour | Hai Sri Lanka",
+    "metaTitle": "8-Day Wilpattu to Coast with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
     "metaDescription": "Private 8-day Sri Lanka tour: Wilpattu safari, Sigiriya, Kaudulla elephants, Kandy, Ella hills, Mirissa, Galle Fort, and south-coast beaches.",
     "keywords": [
       "8 days Sri Lanka",
@@ -517,7 +517,7 @@
     "ogImage": "/assets/images/tours/guest-experiences/elephant-sigiriya.png"
   },
   "status": "published",
-  "description": "An eight-day private journey from Wilpattu’s wild lakes through Sigiriya and Kaudulla, into Kandy and the hill country, then Ella, Mirissa’s marine coast, and a flexible finish at Galle, Bentota, Kalutara, or the airport.",
+  "description": "An eight-day private journey starting in Wilpattu's wild lakes — a quieter safari landscape famous for leopards and rich biodiversity — then into Sigiriya, Habarana village life, Kaudulla elephants, and Ayurveda downtime.\nContinue to Kandy's sacred temple and cultural show, climb through Ambuluwawa and tea country to Ella for Nine Arches and Little Adam's Peak, then Mirissa for whales, turtles, and kayaking. End flexibly at Galle Fort, Madu River, and a beach stay or airport drop of your choice.",
   "location": {
     "name": "Sri Lanka",
     "region": "Island-wide",
@@ -543,8 +543,8 @@
     }
   ],
   "includes": [
-    "Private vehicle",
-    "Hotels (B&B)",
+    "Private transport / private driver",
+    "4 STAR hotels",
     "Daily breakfast",
     "Dinner (Days 1–7)",
     "Guide service"

@@ -2,11 +2,11 @@
   "id": "tour-3-nights-4-days",
   "slug": "3-nights-4-days",
   "category": "multi-day",
-  "title": "3 Nights 4 Days",
-  "seoTitle": "3 Nights 4 Days Sri Lanka Tour | Hai Sri Lanka",
+  "title": "4-Day Ceylon Escape with 4 STAR Hotels & Private Transport",
+  "seoTitle": "4-Day Ceylon Escape with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
   "metaDescription": "Private 4-day Sri Lanka tour: Kandy, Ella, Yala safari, Mirissa whale watching, Galle Fort, and Bentota.",
-  "shortDescription": "Kandy culture, Ella hills, Yala safari, and a south-coast finale in four days.",
-  "overview": "A compact private itinerary from the highlands to the south coast — Kandy and tea country, the scenic Ella train, a Yala safari, then Mirissa, Galle Fort, and Bentota before your hotel or airport transfer.",
+  "shortDescription": "Kandy, Ella, Yala, and the south coast in four days - 4 STAR hotels and a private driver throughout.",
+  "overview": "A compact four-day private journey from the highlands to the south coast. Begin with Kandy's culture and tea country, continue by scenic train into Ella, then wildlife at Yala National Park.\nYour finale follows the southern shoreline — Mirissa for the ocean, Galle Fort for heritage, and Bentota for a boat safari — before drop-off at your hotel or the airport. Ideal when you want Sri Lanka's classic highlights without a long itinerary.",
   "duration": "4 Days / 3 Nights",
   "destinations": [
     "Kandy",
@@ -24,8 +24,8 @@
     "Whale watching, Galle Fort & Bentota"
   ],
   "included": [
-    "Private vehicle",
-    "Hotels (B&B)",
+    "Private transport / private driver",
+    "4 STAR hotels",
     "Daily breakfast",
     "Guide service"
   ],
@@ -341,7 +341,7 @@
     "count": 42
   },
   "seo": {
-    "metaTitle": "3 Nights 4 Days Sri Lanka Tour | Hai Sri Lanka",
+    "metaTitle": "4-Day Ceylon Escape with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
     "metaDescription": "Private 4-day Sri Lanka tour: Kandy, Ella, Yala safari, Mirissa whale watching, Galle Fort, and Bentota.",
     "keywords": [
       "3 nights 4 days Sri Lanka",
@@ -352,7 +352,7 @@
     "ogImage": "/assets/images/tours/3-nights-4-days/hero.webp"
   },
   "status": "published",
-  "description": "A compact private itinerary from the highlands to the south coast — Kandy and tea country, the scenic Ella train, a Yala safari, then Mirissa, Galle Fort, and Bentota before your hotel or airport transfer.",
+  "description": "A compact four-day private journey from the highlands to the south coast. Begin with Kandy's culture and tea country, continue by scenic train into Ella, then wildlife at Yala National Park.\nYour finale follows the southern shoreline — Mirissa for the ocean, Galle Fort for heritage, and Bentota for a boat safari — before drop-off at your hotel or the airport. Ideal when you want Sri Lanka's classic highlights without a long itinerary.",
   "location": {
     "name": "Sri Lanka",
     "region": "Island-wide",
@@ -378,8 +378,8 @@
     }
   ],
   "includes": [
-    "Private vehicle",
-    "Hotels (B&B)",
+    "Private transport / private driver",
+    "4 STAR hotels",
     "Daily breakfast",
     "Guide service"
   ],

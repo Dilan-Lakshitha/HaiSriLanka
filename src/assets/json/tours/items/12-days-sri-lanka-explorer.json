@@ -2,11 +2,11 @@
   "id": "tour-12-days-explorer",
   "slug": "12-days-sri-lanka-explorer",
   "category": "multi-day",
-  "title": "12 Days Sri Lanka Explorer",
-  "seoTitle": "11 Nights 12 Days Sri Lanka Tour | Hai Sri Lanka",
+  "title": "12-Day Island Explorer with 4 STAR Hotels & Private Transport",
+  "seoTitle": "12-Day Island Explorer with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
   "metaDescription": "Private 12-day Sri Lanka tour: Wilpattu safari, Sigiriya, Trincomalee whales, Kandy, tea country, Ella, Galle, and Kalutara.",
-  "shortDescription": "Wilpattu to the east coast, highlands, and south — wildlife, culture, and beach in twelve days.",
-  "overview": "An eleven-night private journey from Wilpattu and the Cultural Triangle to Trincomalee’s east coast, then through Kandy and tea country to Ella, Galle, and Kalutara before your airport departure.",
+  "shortDescription": "Wilpattu, east coast, highlands, and south in twelve days - 4 STAR hotels and private transport throughout.",
+  "overview": "An eleven-night private exploration from Wilpattu and the Cultural Triangle to Trincomalee's east coast for dolphin and whale watching, scuba, and snorkeling.\nReturn inland via Dambulla and Kandy, rise into tea country and Ella, then finish through Galle, turtle hatcheries, and Bentota before a Colombo city tour and airport departure — wildlife, culture, east coast, and south coast in one unhurried circuit.",
   "duration": "12 Days / 11 Nights",
   "destinations": [
     "Wilpattu",
@@ -28,8 +28,8 @@
     "Ella, Galle Fort & Bentota finale"
   ],
   "included": [
-    "Private vehicle",
-    "Hotels (B&B)",
+    "Private transport / private driver",
+    "4 STAR hotels",
     "Daily breakfast",
     "Guide service"
   ],
@@ -509,7 +509,6 @@
   "currency": "USD",
   "relatedTours": [
     "10-days-classic-ceylon",
-    "14-days-grand-sri-lanka",
     "7-days-sri-lanka-highlights"
   ],
   "badges": [
@@ -633,7 +632,7 @@
     "count": 31
   },
   "seo": {
-    "metaTitle": "11 Nights 12 Days Sri Lanka Tour | Hai Sri Lanka",
+    "metaTitle": "12-Day Island Explorer with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
     "metaDescription": "Private 12-day Sri Lanka tour: Wilpattu safari, Sigiriya, Trincomalee whales, Kandy, tea country, Ella, Galle, and Kalutara.",
     "keywords": [
       "12 days Sri Lanka",
@@ -644,7 +643,7 @@
     "ogImage": "/assets/images/tours/guest-experiences/safari-elephant-herd.png"
   },
   "status": "published",
-  "description": "An eleven-night private journey from Wilpattu and the Cultural Triangle to Trincomalee’s east coast, then through Kandy and tea country to Ella, Galle, and Kalutara before your airport departure.",
+  "description": "An eleven-night private exploration from Wilpattu and the Cultural Triangle to Trincomalee's east coast for dolphin and whale watching, scuba, and snorkeling.\nReturn inland via Dambulla and Kandy, rise into tea country and Ella, then finish through Galle, turtle hatcheries, and Bentota before a Colombo city tour and airport departure — wildlife, culture, east coast, and south coast in one unhurried circuit.",
   "location": {
     "name": "Sri Lanka",
     "region": "Island-wide",
@@ -670,8 +669,8 @@
     }
   ],
   "includes": [
-    "Private vehicle",
-    "Hotels (B&B)",
+    "Private transport / private driver",
+    "4 STAR hotels",
     "Daily breakfast",
     "Guide service"
   ],
@@ -694,7 +693,6 @@
   ],
   "relatedTourSlugs": [
     "10-days-classic-ceylon",
-    "14-days-grand-sri-lanka",
     "7-days-sri-lanka-highlights"
   ],
   "featured": true,

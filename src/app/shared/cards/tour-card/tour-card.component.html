@@ -8,15 +8,17 @@
       height="400"
       loading="lazy"
     />
+    <div class="tour-card__media-veil" aria-hidden="true"></div>
     @if (badgeList().length) {
       <ul class="tour-card__badges">
-        @for (badge of badgeList().slice(0, 2); track badge) {
+        @for (badge of badgeList().slice(0, 1); track badge) {
           <li>
             <app-ui-badge tone="accent">{{ badge }}</app-ui-badge>
           </li>
         }
       </ul>
     }
+    <span class="tour-card__duration">{{ tour().duration }}</span>
     <div class="tour-card__actions" aria-label="Tour actions">
       <button type="button" (click)="onQuickView($event)">Quick View</button>
       <button type="button" (click)="toggleCompare($event)" [attr.aria-pressed]="isCompared()">
@@ -27,19 +29,23 @@
       </button>
     </div>
   </a>
+
   <div class="tour-card__body">
     <p class="tour-card__style">{{ tour().travelStyle }}</p>
     <h3 class="tour-card__title">
       <a [routerLink]="['/', lang(), detailPath(), tour().slug]">{{ tour().title }}</a>
     </h3>
-    <p class="tour-card__excerpt">{{ tour().shortDescription }}</p>
-    <p class="tour-card__meta">
-      <span>{{ tour().duration }}</span>
-      <span>{{ tour().destinations?.slice(0, 2)?.join(' · ') }}</span>
-      <span>
-        From
-        {{ fromPrice() | currency: tour().currency : 'symbol' : '1.0-0' }}
-      </span>
-    </p>
+
+    <div class="tour-card__offer">
+      <p class="tour-card__price">
+        <span class="tour-card__price-label">From</span>
+        <strong>{{ fromPrice() | currency: tour().currency : 'symbol' : '1.0-0' }}</strong>
+        <span class="tour-card__price-unit">/ person</span>
+      </p>
+      <p class="tour-card__perks">
+        <span>Free cancellation</span>
+        <span>Pay at destination</span>
+      </p>
+    </div>
   </div>
 </article>

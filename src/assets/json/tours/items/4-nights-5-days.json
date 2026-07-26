@@ -2,11 +2,11 @@
   "id": "tour-4-nights-5-days",
   "slug": "4-nights-5-days",
   "category": "multi-day",
-  "title": "4 Nights 5 Days",
-  "seoTitle": "4 Nights 5 Days Sri Lanka Tour | Hai Sri Lanka",
+  "title": "5-Day Triangle to Coast with 4 STAR Hotels & Private Transport",
+  "seoTitle": "5-Day Triangle to Coast with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
   "metaDescription": "Private 5-day Sri Lanka tour: Sigiriya, Kandy, Ella, Yala safari, Mirissa whale watching, Galle Fort, and Bentota.",
-  "shortDescription": "Sigiriya to the south coast — culture, tea hills, Yala safari, and coastal highlights in five days.",
-  "overview": "A private five-day itinerary from Sigiriya through Kandy and Ella to Yala, finishing along the south coast with Mirissa whale watching, Galle Fort, and Bentota before your hotel or airport drop-off.",
+  "shortDescription": "Sigiriya to Mirissa in five days - culture, tea hills, safari, and coast with 4 STAR hotels and private transport.",
+  "overview": "A five-day private journey from Sigiriya and the Cultural Triangle through Kandy and Ella to Yala. Climb Lion Rock or Pidurangala, enjoy village or elephant safari options, and travel into tea country and the hills.\nFinish on the south coast with Mirissa dolphin and whale watching, Galle Dutch Fort, a turtle hatchery, and a Bentota boat safari before your hotel or airport transfer — a balanced mix of culture, wildlife, and coast.",
   "duration": "5 Days / 4 Nights",
   "destinations": [
     "Sigiriya",
@@ -25,8 +25,8 @@
     "Train ride, Yala safari & south-coast finale"
   ],
   "included": [
-    "Private vehicle",
-    "Hotels (B&B)",
+    "Private transport / private driver",
+    "4 STAR hotels",
     "Daily breakfast",
     "Guide service"
   ],
@@ -382,7 +382,7 @@
     "count": 38
   },
   "seo": {
-    "metaTitle": "4 Nights 5 Days Sri Lanka Tour | Hai Sri Lanka",
+    "metaTitle": "5-Day Triangle to Coast with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
     "metaDescription": "Private 5-day Sri Lanka tour: Sigiriya, Kandy, Ella, Yala safari, Mirissa whale watching, Galle Fort, and Bentota.",
     "keywords": [
       "4 nights 5 days Sri Lanka",
@@ -393,7 +393,7 @@
     "ogImage": "/assets/images/tours/guest-experiences/elephant-sigiriya.png"
   },
   "status": "published",
-  "description": "A private five-day itinerary from Sigiriya through Kandy and Ella to Yala, finishing along the south coast with Mirissa whale watching, Galle Fort, and Bentota before your hotel or airport drop-off.",
+  "description": "A five-day private journey from Sigiriya and the Cultural Triangle through Kandy and Ella to Yala. Climb Lion Rock or Pidurangala, enjoy village or elephant safari options, and travel into tea country and the hills.\nFinish on the south coast with Mirissa dolphin and whale watching, Galle Dutch Fort, a turtle hatchery, and a Bentota boat safari before your hotel or airport transfer — a balanced mix of culture, wildlife, and coast.",
   "location": {
     "name": "Sri Lanka",
     "region": "Island-wide",
@@ -419,8 +419,8 @@
     }
   ],
   "includes": [
-    "Private vehicle",
-    "Hotels (B&B)",
+    "Private transport / private driver",
+    "4 STAR hotels",
     "Daily breakfast",
     "Guide service"
   ],

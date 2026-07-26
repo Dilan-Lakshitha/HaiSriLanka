@@ -14,7 +14,6 @@ export const ROUTE_PATHS = {
   faq: 'faq',
   contact: 'contact',
   blog: 'blog',
-  specialOffers: 'special-offers',
   booking: 'booking',
   privacy: 'privacy',
   terms: 'terms',

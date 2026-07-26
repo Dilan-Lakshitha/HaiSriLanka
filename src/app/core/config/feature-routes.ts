@@ -80,15 +80,6 @@ export const FEATURE_CHILD_ROUTES: Routes = [
     loadChildren: () =>
       import('../../features/blog/blog.routes').then((m) => m.BLOG_ROUTES),
   },
-  foundation('special-offers', 'nav.specialOffers', 'specialOffers'),
-  {
-    path: 'special-offers/:slug',
-    loadComponent: () =>
-      import('../../shared/components/foundation-page/foundation-page.component').then(
-        (m) => m.FoundationPageComponent,
-      ),
-    data: { pageTitleKey: 'nav.specialOffers', seoKey: 'specialOffers', path: 'special-offers' },
-  },
   {
     path: 'booking/:tourSlug',
     loadComponent: () =>

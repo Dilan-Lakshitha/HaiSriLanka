@@ -8,7 +8,7 @@ const cta: HomeCta = {
   title: 'Plan',
   subtitle: 'Tell us',
   primaryCta: { label: 'Contact', path: 'contact' },
-  secondaryCta: { label: 'Offers', path: 'special-offers' },
+  secondaryCta: { label: 'Browse tours', path: 'sri-lanka-tours' },
   image: {
     src: '/assets/images/placeholders/cta-journey.svg',
     alt: 'Journey',

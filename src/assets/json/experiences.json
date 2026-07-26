@@ -42,7 +42,7 @@
         "height": 1050
       }
     ],
-    "relatedTourSlugs": ["10-days-classic-ceylon", "14-days-grand-sri-lanka", "7-days-sri-lanka-highlights"],
+    "relatedTourSlugs": ["10-days-classic-ceylon", "7-days-sri-lanka-highlights"],
     "relatedDestinationSlugs": ["yala"],
     "seo": {
       "metaTitle": "Wildlife Safaris in Sri Lanka | Experiences | Hai Sri Lanka",
@@ -198,7 +198,7 @@
         "height": 1200
       }
     ],
-    "relatedTourSlugs": ["galle-day-tour", "7-days-sri-lanka-highlights", "14-days-grand-sri-lanka"],
+    "relatedTourSlugs": ["galle-day-tour", "7-days-sri-lanka-highlights"],
     "relatedDestinationSlugs": ["galle"],
     "seo": {
       "metaTitle": "Mangrove Boat Safaris | Experiences | Hai Sri Lanka",
@@ -302,7 +302,7 @@
         "height": 1080
       }
     ],
-    "relatedTourSlugs": ["7-days-sri-lanka-highlights", "10-days-classic-ceylon", "14-days-grand-sri-lanka"],
+    "relatedTourSlugs": ["7-days-sri-lanka-highlights", "10-days-classic-ceylon"],
     "relatedDestinationSlugs": ["ella", "tea-country", "kandy"],
     "seo": {
       "metaTitle": "Highland & Scenic Rail Experiences | Hai Sri Lanka",
@@ -354,7 +354,7 @@
         "height": 1050
       }
     ],
-    "relatedTourSlugs": ["10-days-classic-ceylon", "14-days-grand-sri-lanka", "7-days-sri-lanka-highlights"],
+    "relatedTourSlugs": ["10-days-classic-ceylon", "7-days-sri-lanka-highlights"],
     "relatedDestinationSlugs": ["anuradhapura", "polonnaruwa", "sigiriya"],
     "seo": {
       "metaTitle": "Village Life Experiences in Sri Lanka | Hai Sri Lanka",
@@ -406,7 +406,7 @@
         "height": 1600
       }
     ],
-    "relatedTourSlugs": ["10-days-classic-ceylon", "14-days-grand-sri-lanka"],
+    "relatedTourSlugs": ["10-days-classic-ceylon"],
     "relatedDestinationSlugs": ["tea-country", "ella"],
     "seo": {
       "metaTitle": "Cycling Trails in Sri Lanka | Experiences | Hai Sri Lanka",

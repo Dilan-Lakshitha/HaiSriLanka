@@ -2,11 +2,11 @@
   "id": "tour-10-days-classic",
   "slug": "10-days-classic-ceylon",
   "category": "multi-day",
-  "title": "10 Days Classic Ceylon",
-  "seoTitle": "9 Nights 10 Days Classic Ceylon Tour | Hai Sri Lanka",
+  "title": "10-Day Classic Ceylon with 4 STAR Hotels & Private Transport",
+  "seoTitle": "10-Day Classic Ceylon with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
   "metaDescription": "Private 9 nights / 10 days Sri Lanka tour: Sigiriya, Kandy, Nuwara Eliya, Ella, Yala, Mirissa, Galle, and Kalutara with half-board hotels.",
-  "shortDescription": "Sigiriya to the south coast — culture, tea hills, safari, whales, and beach time in ten days.",
-  "overview": "A private nine-night journey from the Cultural Triangle through highland tea country and Ella, then Yala safari and a soft south-coast finale via Mirissa, Galle, and Kalutara — with half-board stays at hand-picked hotels.",
+  "shortDescription": "Sigiriya to the south coast in ten days - tea hills, safari, and beach with 4 STAR hotels and a private driver.",
+  "overview": "A classic ten-day private journey through Sri Lanka's most loved regions. From Sigiriya and Pidurangala to Kandy, Nuwara Eliya tea country, Horton Plains, and a scenic Ella train ride, then Yala safari and the south coast.\nMirissa whale watching, Galle Fort, Bentota, and Kalutara round out the route, with half-board stays at hand-picked hotels so you can travel deeper without daily logistics stress.",
   "duration": "10 Days / 9 Nights",
   "destinations": [
     "Sigiriya",
@@ -27,8 +27,8 @@
     "Yala safari, Mirissa whales & Galle Fort"
   ],
   "included": [
-    "Private vehicle",
-    "Hotels on half-board (HB) basis",
+    "Private transport / private driver",
+    "4 STAR hotels (half board)",
     "Daily breakfast & dinner",
     "Guide service"
   ],
@@ -453,8 +453,7 @@
   "currency": "USD",
   "relatedTours": [
     "3-nights-4-days",
-    "7-days-sri-lanka-highlights",
-    "14-days-grand-sri-lanka"
+    "7-days-sri-lanka-highlights"
   ],
   "badges": [
     "best-seller",
@@ -584,7 +583,7 @@
     "count": 54
   },
   "seo": {
-    "metaTitle": "9 Nights 10 Days Classic Ceylon Tour | Hai Sri Lanka",
+    "metaTitle": "10-Day Classic Ceylon with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
     "metaDescription": "Private 9 nights / 10 days Sri Lanka tour: Sigiriya, Kandy, Nuwara Eliya, Ella, Yala, Mirissa, Galle, and Kalutara with half-board hotels.",
     "keywords": [
       "10 days Sri Lanka",
@@ -595,7 +594,7 @@
     "ogImage": "/assets/images/tours/10-days-classic-ceylon/hero.webp"
   },
   "status": "published",
-  "description": "A private nine-night journey from the Cultural Triangle through highland tea country and Ella, then Yala safari and a soft south-coast finale via Mirissa, Galle, and Kalutara — with half-board stays at hand-picked hotels.",
+  "description": "A classic ten-day private journey through Sri Lanka's most loved regions. From Sigiriya and Pidurangala to Kandy, Nuwara Eliya tea country, Horton Plains, and a scenic Ella train ride, then Yala safari and the south coast.\nMirissa whale watching, Galle Fort, Bentota, and Kalutara round out the route, with half-board stays at hand-picked hotels so you can travel deeper without daily logistics stress.",
   "location": {
     "name": "Sri Lanka",
     "region": "Island-wide",
@@ -621,8 +620,8 @@
     }
   ],
   "includes": [
-    "Private vehicle",
-    "Hotels on half-board (HB) basis",
+    "Private transport / private driver",
+    "4 STAR hotels (half board)",
     "Daily breakfast & dinner",
     "Guide service"
   ],
@@ -649,8 +648,7 @@
   ],
   "relatedTourSlugs": [
     "3-nights-4-days",
-    "7-days-sri-lanka-highlights",
-    "14-days-grand-sri-lanka"
+    "7-days-sri-lanka-highlights"
   ],
   "featured": true,
   "bestSeller": true

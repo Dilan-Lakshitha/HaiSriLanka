@@ -363,8 +363,7 @@
       }
     ],
     "relatedTourSlugs": [
-      "10-days-classic-ceylon",
-      "14-days-grand-sri-lanka"
+      "10-days-classic-ceylon"
     ],
     "highlights": [
       "Cultural Triangle icons",
@@ -566,8 +565,7 @@
       }
     ],
     "relatedTourSlugs": [
-      "7-days-sri-lanka-highlights",
-      "14-days-grand-sri-lanka"
+      "7-days-sri-lanka-highlights"
     ],
     "highlights": [
       "Deeper wildlife window",
@@ -596,169 +594,6 @@
         {
           "lat": 6.8667,
           "lng": 81.0466
-        },
-        {
-          "lat": 6.3725,
-          "lng": 81.5185
-        },
-        {
-          "lat": 6.0329,
-          "lng": 80.217
-        }
-      ]
-    }
-  },
-  {
-    "id": "tour-14-days-grand",
-    "slug": "14-days-grand-sri-lanka",
-    "category": "multi-day",
-    "title": "14 Days Grand Sri Lanka",
-    "shortDescription": "The grand private circuit east coast windows, parks, and unhurried stays.",
-    "description": "Two weeks designed for travelers who want depth: cultural icons, highland elegance, multiple wildlife parks, and soft beach days.",
-    "duration": "14 Days / 13 Nights",
-    "location": {
-      "name": "Sri Lanka",
-      "region": "Island-wide",
-      "geo": {
-        "lat": 5.9483,
-        "lng": 80.471
-      }
-    },
-    "price": {
-      "1": 2850,
-      "2": 1890,
-      "3": 1680,
-      "4": 1540,
-      "5": 1450
-    },
-    "currency": "USD",
-    "images": [
-      {
-        "src": "/assets/images/tours/14-days-grand.webp",
-        "alt": "Grand Sri Lanka coastal and cultural scenery",
-        "title": "14 Days Grand Sri Lanka",
-        "width": 1400,
-        "height": 1050
-      }
-    ],
-    "itinerary": [
-      {
-        "day": 1,
-        "title": "Arrival",
-        "description": "Soft landing and orientation.",
-        "location": {
-          "name": "Arrival",
-          "region": "Sri Lanka",
-          "geo": {
-            "lat": 5.9483,
-            "lng": 80.471
-          }
-        },
-        "images": [
-          {
-            "src": "/assets/images/tours/14-days-grand.webp",
-            "alt": "Grand Sri Lanka coastal and cultural scenery",
-            "title": "14 Days Grand Sri Lanka",
-            "width": 640,
-            "height": 480
-          }
-        ],
-        "highlights": [
-          "Boutique stays",
-          "Private guiding"
-        ],
-        "locations": [
-          "Arrival",
-          "Sri Lanka"
-        ],
-        "travelTime": "Airport transfer · 45–90 min",
-        "optionalActivities": [
-          "Optional: deepen the day with boutique stays"
-        ]
-      }
-    ],
-    "includes": [
-      "Private vehicle",
-      "Boutique & luxury hotels",
-      "Breakfast"
-    ],
-    "excludes": [
-      "Flights",
-      "Some meals",
-      "Optional experiences"
-    ],
-    "rating": {
-      "average": 5,
-      "count": 31
-    },
-    "faq": [],
-    "seo": {
-      "metaTitle": "14 Days Grand Sri Lanka Tour | Hai Sri Lanka",
-      "metaDescription": "Private 14-day Grand Sri Lanka itinerary for unhurried luxury travel.",
-      "keywords": [
-        "14 days Sri Lanka tour",
-        "luxury Sri Lanka itinerary"
-      ]
-    },
-    "status": "published",
-    "featured": true,
-    "gallery": [
-      {
-        "src": "/assets/images/tours/14-days-grand.webp",
-        "alt": "Grand Sri Lanka coastal and cultural scenery",
-        "title": "14 Days Grand Sri Lanka",
-        "width": 1400,
-        "height": 1050
-      },
-      {
-        "src": "/assets/images/hero/hero-ella-bridge.webp",
-        "alt": "Ella Nine Arch Bridge",
-        "title": "Ella Nine Arch Bridge",
-        "width": 1400,
-        "height": 1050
-      },
-      {
-        "src": "/assets/images/destinations/yala.webp",
-        "alt": "Yala safari scenery",
-        "title": "Yala safari scenery",
-        "width": 1400,
-        "height": 1050
-      },
-      {
-        "src": "/assets/images/destinations/galle.webp",
-        "alt": "Galle Fort",
-        "title": "Galle Fort",
-        "width": 1400,
-        "height": 1050
-      }
-    ],
-    "relatedTourSlugs": [
-      "7-days-sri-lanka-highlights",
-      "10-days-classic-ceylon"
-    ],
-    "highlights": [
-      "Unhurried two-week circuit",
-      "East & south options",
-      "Luxury lodge nights"
-    ],
-    "mapOverview": {
-      "center": {
-        "lat": 6.0329,
-        "lng": 80.217
-      },
-      "zoom": 7,
-      "path": [
-        {
-          "lat": 6.9271,
-          "lng": 79.8612
-        },
-        {
-          "lat": 7.957,
-          "lng": 80.7603
-        },
-        {
-          "lat": 7.2906,
-          "lng": 80.6337
         },
         {
           "lat": 6.3725,

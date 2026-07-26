@@ -2,11 +2,11 @@
   "id": "tour-7-days-highlights",
   "slug": "7-days-sri-lanka-highlights",
   "category": "multi-day",
-  "title": "7 Days Sri Lanka Highlights",
-  "seoTitle": "7 Days Sri Lanka Highlights Tour | Hai Sri Lanka",
+  "title": "7-Day Sri Lanka Highlights with 4 STAR Hotels & Private Transport",
+  "seoTitle": "7-Day Sri Lanka Highlights with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
   "metaDescription": "Experience Sri Lanka’s highlights in 7 days culture, tea country, wildlife, and coast with a private Hai Sri Lanka itinerary.",
-  "shortDescription": "Culture, wildlife, tea country, and coast the essential Sri Lanka circuit.",
-  "overview": "A curated seven-day private itinerary covering cultural Triangle highlights, highland tea estates, wildlife, and a coastal finale paced for comfort and discovery.",
+  "shortDescription": "The essential Sri Lanka circuit - culture, wildlife, tea country, and coast with 4 STAR hotels and a private driver.",
+  "overview": "A curated seven-day private circuit designed as the essential Sri Lanka experience. Move from Cultural Triangle icons into highland tea estates, then wildlife and a soft coastal finale.\nDays are paced for comfort and discovery — private vehicle throughout, thoughtfully chosen stays, and enough time at each stop to feel the island rather than rush past it.",
   "duration": "7 Days / 6 Nights",
   "destinations": [
     "Sri Lanka",
@@ -29,8 +29,8 @@
     "Private vehicle throughout"
   ],
   "included": [
-    "Private vehicle",
-    "Hotels (B&B)",
+    "Private transport / private driver",
+    "4 STAR hotels",
     "Daily breakfast",
     "Guide service"
   ],
@@ -338,8 +338,7 @@
   "currency": "USD",
   "relatedTours": [
     "3-nights-4-days",
-    "10-days-classic-ceylon",
-    "14-days-grand-sri-lanka"
+    "10-days-classic-ceylon"
   ],
   "badges": [
     "best-seller",
@@ -471,7 +470,7 @@
     "count": 86
   },
   "seo": {
-    "metaTitle": "7 Days Sri Lanka Highlights Tour | Hai Sri Lanka",
+    "metaTitle": "7-Day Sri Lanka Highlights with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
     "metaDescription": "Experience Sri Lanka’s highlights in 7 days culture, tea country, wildlife, and coast with a private Hai Sri Lanka itinerary.",
     "keywords": [
       "7 days Sri Lanka tour",
@@ -481,7 +480,7 @@
     "ogImage": "/assets/images/tours/7-days-sri-lanka-highlights/hero.webp"
   },
   "status": "published",
-  "description": "A curated seven-day private itinerary covering cultural Triangle highlights, highland tea estates, wildlife, and a coastal finale paced for comfort and discovery.",
+  "description": "A curated seven-day private circuit designed as the essential Sri Lanka experience. Move from Cultural Triangle icons into highland tea estates, then wildlife and a soft coastal finale.\nDays are paced for comfort and discovery — private vehicle throughout, thoughtfully chosen stays, and enough time at each stop to feel the island rather than rush past it.",
   "location": {
     "name": "Sri Lanka",
     "region": "Island-wide",
@@ -507,8 +506,8 @@
     }
   ],
   "includes": [
-    "Private vehicle",
-    "Hotels (B&B)",
+    "Private transport / private driver",
+    "4 STAR hotels",
     "Daily breakfast",
     "Guide service"
   ],
@@ -525,8 +524,7 @@
   ],
   "relatedTourSlugs": [
     "3-nights-4-days",
-    "10-days-classic-ceylon",
-    "14-days-grand-sri-lanka"
+    "10-days-classic-ceylon"
   ],
   "featured": true,
   "bestSeller": true

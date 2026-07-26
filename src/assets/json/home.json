@@ -225,7 +225,7 @@
         "id": "honeymoon",
         "title": "Honeymoon & Escape",
         "description": "Secluded boutique stays, spa rituals, and unhurried coastal evenings.",
-        "path": "special-offers",
+        "path": "multi-day-tours",
         "image": {
           "src": "/assets/images/tours/category-honeymoon.webp",
           "alt": "Luxury beach escape for couples in Sri Lanka",
@@ -347,8 +347,8 @@
       "path": "contact"
     },
     "secondaryCta": {
-      "label": "Browse special offers",
-      "path": "special-offers"
+      "label": "Browse tours",
+      "path": "sri-lanka-tours"
     },
     "image": {
       "src": "/assets/images/hero/carousel-nine-arch-ella.jpg",

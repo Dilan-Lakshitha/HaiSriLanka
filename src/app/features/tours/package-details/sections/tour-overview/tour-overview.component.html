@@ -8,7 +8,9 @@
   @if (mode() !== 'facts') {
     <p class="overview__eyebrow">Tour overview</p>
     <h2 id="overview-title">The journey at a glance</h2>
-    <p class="overview__body">{{ tour().overview || tour().description }}</p>
+    @for (paragraph of journeyParagraphs(); track $index) {
+      <p class="overview__body">{{ paragraph }}</p>
+    }
   }
 
   @if (mode() !== 'story') {

@@ -39,7 +39,6 @@ export type {
   LocaleDefinition,
   NavigationConfig,
   NavItem,
-  SpecialOffer,
 } from './company.model';
 export type {
   HomeContent,

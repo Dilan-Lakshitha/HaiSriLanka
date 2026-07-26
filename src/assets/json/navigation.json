@@ -13,8 +13,7 @@
       { "key": "nav.dayTours", "path": "day-tours", "label": "Day Tours" },
       { "key": "nav.multiDayTours", "path": "multi-day-tours", "label": "Multi-Day Tours" },
       { "key": "nav.destinations", "path": "destinations", "label": "Destinations" },
-      { "key": "nav.experiences", "path": "things-to-do", "label": "Things To Do" },
-      { "key": "nav.specialOffers", "path": "special-offers", "label": "Special Offers" }
+      { "key": "nav.experiences", "path": "things-to-do", "label": "Things To Do" }
     ],
     "company": [
       { "key": "nav.about", "path": "about", "label": "About" },

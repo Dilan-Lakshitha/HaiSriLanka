@@ -109,74 +109,6 @@
     color: var(--color-green) !important;
   }
 
-  &__tools {
-    padding: 1.25rem 0;
-    border-bottom: 1px solid var(--color-border);
-    background: var(--color-sand);
-  }
-
-  &__toolbar {
-    display: grid;
-    gap: 0.75rem;
-    grid-template-columns: minmax(0, 1.4fr) repeat(4, minmax(0, 0.85fr)) auto;
-
-    @media (max-width: 1100px) {
-      grid-template-columns: 1fr 1fr;
-    }
-
-    label {
-      display: grid;
-      gap: 0.3rem;
-      font-size: 0.78rem;
-      color: var(--color-ink-muted);
-    }
-
-    input,
-    select {
-      width: 100%;
-      padding: 0.65rem 0.75rem;
-      border: 1px solid var(--color-border);
-      border-radius: var(--radius-sm, 8px);
-      background: var(--color-white);
-      font: inherit;
-      color: var(--color-ink);
-    }
-  }
-
-  &__search {
-    @media (max-width: 1100px) {
-      grid-column: 1 / -1;
-    }
-  }
-
-  &__view {
-    display: inline-flex;
-    align-self: end;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-sm, 8px);
-    overflow: hidden;
-
-    button {
-      border: 0;
-      background: var(--color-white);
-      padding: 0.65rem 0.85rem;
-      font: inherit;
-      cursor: pointer;
-      color: var(--color-ink-muted);
-
-      &.is-active {
-        background: var(--color-navy);
-        color: var(--color-sand);
-      }
-    }
-  }
-
-  &__compare {
-    margin: 0.75rem 0 0;
-    color: var(--color-green);
-    font-size: 0.85rem;
-  }
-
   &__results {
     padding-top: 1.5rem;
   }
@@ -192,7 +124,7 @@
     margin: 0;
     padding: 0;
     display: grid;
-    gap: 1.25rem;
+    gap: 1.5rem;
     grid-template-columns: repeat(3, minmax(0, 1fr));
 
     @media (max-width: 1000px) {
@@ -200,10 +132,6 @@
     }
 
     @media (max-width: 640px) {
-      grid-template-columns: 1fr;
-    }
-
-    &--list {
       grid-template-columns: 1fr;
     }
   }

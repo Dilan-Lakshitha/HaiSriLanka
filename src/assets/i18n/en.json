@@ -16,7 +16,6 @@
     "contact": "Contact",
     "about": "About",
     "faq": "FAQ",
-    "specialOffers": "Special Offers",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "travelGuide": "Travel Guide",
@@ -97,10 +96,6 @@
     "blog": {
       "title": "Travel Blog | Hai Sri Lanka",
       "description": "Sri Lanka travel tips, guides, and stories from Hai Sri Lanka Tours."
-    },
-    "specialOffers": {
-      "title": "Special Offers | Hai Sri Lanka",
-      "description": "Current special offers for private Sri Lanka tours with Hai Sri Lanka."
     },
     "booking": {
       "title": "Book a Tour | Hai Sri Lanka",

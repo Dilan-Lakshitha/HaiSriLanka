@@ -92,16 +92,3 @@ export interface NavigationConfig {
     legal: NavItem[];
   };
 }
-
-export interface SpecialOffer {
-  id: string;
-  slug: string;
-  title: string;
-  description: string;
-  tourSlug: string;
-  discountPercent?: number;
-  validUntil: string;
-  images: ImageAsset[];
-  seo: PageSeo;
-  status: 'published' | 'draft';
-}

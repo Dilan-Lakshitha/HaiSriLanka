@@ -53,7 +53,7 @@
         <div class="tour-hub__panel-head">
           <div>
             <h2>{{ vm.listLabel }}</h2>
-            <p class="tour-hub__panel-meta">{{ filteredTours(vm.activeTours).length }} tours ready to book</p>
+            <p class="tour-hub__panel-meta">{{ vm.activeTours.length }} tours ready to book</p>
           </div>
           <a
             appUiButton
@@ -62,42 +62,6 @@
           >
             Open full {{ vm.tab === 'day' ? 'day' : 'multi-day' }} list
           </a>
-        </div>
-
-        <div class="tour-hub__filters">
-          <label class="tour-hub__search">
-            <span class="visually-hidden">Search tours</span>
-            <input
-              type="search"
-              placeholder="Search destinations, styles…"
-              [value]="search()"
-              (input)="search.set($any($event.target).value)"
-            />
-          </label>
-          <label>
-            Style
-            <select
-              [value]="styleFilter()"
-              (change)="styleFilter.set($any($event.target).value)"
-            >
-              <option value="all">All styles</option>
-              @for (style of vm.styles; track style) {
-                <option [value]="style">{{ style }}</option>
-              }
-            </select>
-          </label>
-          <label>
-            Destination
-            <select
-              [value]="destinationFilter()"
-              (change)="destinationFilter.set($any($event.target).value)"
-            >
-              <option value="all">All destinations</option>
-              @for (dest of vm.destinations; track dest) {
-                <option [value]="dest">{{ dest }}</option>
-              }
-            </select>
-          </label>
         </div>
       </app-ui-container>
     </section>
@@ -110,9 +74,8 @@
       aria-live="polite"
     >
       <app-ui-container>
-        @let items = filteredTours(vm.activeTours);
         <ul class="tour-hub__grid">
-          @for (tour of items; track trackBySlug($index, tour)) {
+          @for (tour of vm.activeTours; track trackBySlug($index, tour)) {
             <li>
               <app-tour-card
                 [tour]="tour"
@@ -123,8 +86,8 @@
             </li>
           }
         </ul>
-        @if (!items.length) {
-          <p class="tour-hub__empty">No tours match these filters. Try another tab or clear search.</p>
+        @if (!vm.activeTours.length) {
+          <p class="tour-hub__empty">No tours available in this category right now.</p>
         }
       </app-ui-container>
     </section>

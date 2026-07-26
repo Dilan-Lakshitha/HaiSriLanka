@@ -1,7 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map, shareReplay } from 'rxjs';
-import type { Destination, Experience, BlogPost, Review, FaqDataset, CompanyInfo, NavigationConfig, SpecialOffer } from '../models';
+import type { Destination, Experience, BlogPost, Review, FaqDataset, CompanyInfo, NavigationConfig } from '../models';
 
 @Injectable({ providedIn: 'root' })
 export class DestinationService {
@@ -110,17 +110,5 @@ export class NavigationService {
 
   getNavigation(): Observable<NavigationConfig> {
     return this.data$;
-  }
-}
-
-@Injectable({ providedIn: 'root' })
-export class OfferService {
-  private readonly http = inject(HttpClient);
-  private readonly data$ = this.http
-    .get<SpecialOffer[]>('/assets/json/special-offers.json')
-    .pipe(shareReplay(1));
-
-  getAll(): Observable<SpecialOffer[]> {
-    return this.data$.pipe(map((items) => items.filter((o) => o.status === 'published')));
   }
 }

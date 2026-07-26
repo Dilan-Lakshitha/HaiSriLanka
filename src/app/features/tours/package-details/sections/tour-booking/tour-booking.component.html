@@ -21,7 +21,7 @@
           required
         >
           @for (option of travelerOptions; track option) {
-            <option [ngValue]="option">{{ option }}</option>
+            <option [ngValue]="option">{{ travelerLabel(option) }}</option>
           }
         </select>
       </label>
@@ -104,16 +104,46 @@
       </label>
     </div>
 
-    <div class="booking-card__total-box">
-      <div>
-        <span>{{ travelers() }} travellers</span>
-        <strong>{{ totalPrice() | currency: tour().currency : 'symbol' : '1.0-0' }}</strong>
+    @if (needsCustomQuote()) {
+      <div class="booking-card__custom-quote" role="status">
+        <p class="booking-card__custom-quote-title">
+          Contact our tour administrator to plan your group tour
+        </p>
+        <p class="booking-card__custom-quote-text">
+          Groups of 6 or more are custom-priced. Reach out and we’ll tailor the itinerary for
+          you.
+        </p>
+        @if (company$ | async; as company) {
+          <ul class="booking-card__custom-quote-contacts">
+            @if (whatsappLink(company.whatsapp, company.phone[0]); as wa) {
+              <li>
+                <span>WhatsApp</span>
+                <a [href]="wa" target="_blank" rel="noopener noreferrer">
+                  {{ formatPhone(company.whatsapp || company.phone[0]) }}
+                </a>
+              </li>
+            }
+            @if (mailtoLink(company.email); as mail) {
+              <li>
+                <span>Email</span>
+                <a [href]="mail">{{ company.email }}</a>
+              </li>
+            }
+          </ul>
+        }
       </div>
-      <p>
-        {{ pricePerPerson() | currency: tour().currency : 'symbol' : '1.0-0' }} / person · Pay at
-        destination
-      </p>
-    </div>
+    } @else {
+      <div class="booking-card__total-box">
+        <div>
+          <span>{{ travelers() }} travellers</span>
+          <strong>{{ totalPrice() | currency: tour().currency : 'symbol' : '1.0-0' }}</strong>
+        </div>
+        <p>
+          {{ pricePerPerson() | currency: tour().currency : 'symbol' : '1.0-0' }} / person · Pay at
+          destination
+        </p>
+      </div>
+    }
 
     <label class="booking-card__agree">
       <input
@@ -126,20 +156,37 @@
       <span>I agree to the terms &amp; conditions *</span>
     </label>
 
-    @if (submittedAttempt() && !formValid()) {
+    @if (submittedAttempt() && !formValid() && !needsCustomQuote()) {
       <p class="booking-card__error" role="alert">Please complete all required fields.</p>
     }
 
-    <button appUiButton variant="primary" type="submit" class="booking-card__submit">
-      Complete booking
-    </button>
+    @if (!needsCustomQuote()) {
+      <button appUiButton variant="primary" type="submit" class="booking-card__submit">
+        Complete booking
+      </button>
+    } @else if (company$ | async; as company) {
+      @if (whatsappLink(company.whatsapp, company.phone[0]); as wa) {
+        <a
+          appUiButton
+          variant="primary"
+          class="booking-card__submit"
+          [href]="wa"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WhatsApp tour administrator
+        </a>
+      }
+    }
   </form>
 
   @if (company$ | async; as company) {
     @if (whatsappLink(company.whatsapp, company.phone[0]); as wa) {
-      <a class="booking-card__whatsapp" [href]="wa" target="_blank" rel="noopener noreferrer">
-        WhatsApp inquiry
-      </a>
+      @if (!needsCustomQuote()) {
+        <a class="booking-card__whatsapp" [href]="wa" target="_blank" rel="noopener noreferrer">
+          WhatsApp inquiry
+        </a>
+      }
     }
   }
 </aside>
