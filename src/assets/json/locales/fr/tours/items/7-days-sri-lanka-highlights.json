@@ -1,0 +1,67 @@
+{
+  "title": "Points forts du Sri Lanka de 7 jours avec hôtels 4 étoiles et transport privé",
+  "seoTitle": "Points forts du Sri Lanka de 7 jours avec hôtels 4 étoiles et transport privé | Hai Sri Lanka",
+  "metaDescription": "Découvrez les points forts du Sri Lanka en 7 jours sur la culture, le pays du thé, la faune et la côte avec un itinéraire privé Hai Sri Lanka.",
+  "shortDescription": "Le circuit incontournable du Sri Lanka - culture, faune, pays du thé et côte avec hôtels 4 ÉTOILES et chauffeur privé.",
+  "overview": "Un circuit privé organisé de sept jours conçu comme l'expérience essentielle du Sri Lanka. Passez des icônes du Triangle culturel aux plantations de thé des hautes terres, puis à la faune et à une douce finale côtière.\nLes journées sont rythmées par le confort et la découverte : véhicule privé tout au long, séjours soigneusement choisis et suffisamment de temps à chaque arrêt pour découvrir l'île plutôt que de la dépasser en toute hâte.",
+  "description": "Un circuit privé organisé de sept jours conçu comme l'expérience essentielle du Sri Lanka. Passez des icônes du Triangle culturel aux plantations de thé des hautes terres, puis à la faune et à une douce finale côtière.\nLes journées sont rythmées par le confort et la découverte : véhicule privé tout au long, séjours soigneusement choisis et suffisamment de temps à chaque arrêt pour découvrir l'île plutôt que de la dépasser en toute hâte.",
+  "duration": "7 jours / 6 nuits",
+  "travelStyle": "Faune",
+  "highlights": [
+    "Icônes du Triangle culturel",
+    "Immersion au pays du thé",
+    "Finale sur la côte sud",
+    "Véhicule privé partout"
+  ],
+  "included": [
+    "Transport privé / chauffeur privé",
+    "Hôtels 4 ÉTOILES",
+    "Petit-déjeuner quotidien",
+    "Service de guides"
+  ],
+  "excluded": [
+    "Vols internationaux",
+    "Déjeuner et dîner",
+    "Frais d'entrée"
+  ],
+  "seo": {
+    "metaTitle": "Points forts du Sri Lanka de 7 jours avec hôtels 4 étoiles et transport privé | Hai Sri Lanka",
+    "metaDescription": "Découvrez les points forts du Sri Lanka en 7 jours sur la culture, le pays du thé, la faune et la côte avec un itinéraire privé Hai Sri Lanka."
+  },
+  "itinerary": [
+    {
+      "title": "Arrivée et côte ouest",
+      "description": "Accueil à l'aéroport et installation en douceur près de Negombo ou de Colombo avec le temps de récupérer du voyage."
+    },
+    {
+      "title": "Vers le Triangle Culturel",
+      "description": "Voyagez à l’intérieur des terres à travers des paysages ruraux en direction d’une ville ancienne."
+    },
+    {
+      "title": "Sigiriya et Dambulla",
+      "description": "Grimpez le Rocher du Lion et visitez le temple de la grotte de Dambulla avec un temps de rythme et de récupération réfléchi."
+    },
+    {
+      "title": "Kandy",
+      "description": "Continuez vers la capitale des Highlands pour le Temple de la Dent et l'atmosphère au bord du lac."
+    },
+    {
+      "title": "Pays du thé",
+      "description": "Montez dans les plantations de thé brumeuses autour de Nuwara Eliya pour une dégustation et l'air des montagnes."
+    },
+    {
+      "title": "Côte Sud",
+      "description": "Descendez vers la rive sud avec le fort de Galle et la lumière de la plage."
+    },
+    {
+      "title": "Départ",
+      "description": "Matinée libre et transfert privé à l'aéroport programmé pour votre vol."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "L'itinéraire peut-il être personnalisé ?",
+      "answer": "Oui. Nous adaptons le rythme, les hôtels et les expériences à vos préférences."
+    }
+  ]
+}

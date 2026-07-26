@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "galle",
+    "title": "Galle",
+    "shortDescription": "Miasto-forte wpisane na listę UNESCO na południowym wybrzeżu Sri Lanki.",
+    "description": "Spaceruj po murach obronnych z czasów holenderskich, butikowych ulicach i świetle oceanu w jednym z najbardziej klimatycznych nadmorskich miast Azji. Galle łączy spacery po zabytkach z wieczorami na plaży i safari łodzią namorzynową w pobliżu, co idealnie nadaje się na jednodniową wycieczkę z Kolombo lub miękkie lądowanie na kilkudniowych trasach.",
+    "seo": {
+      "metaTitle": "Przewodnik po Galle | Miejsca docelowe | Hai Sri Lanka",
+      "metaDescription": "Zaplanuj wizytę w Galle, biorąc pod uwagę spacery po forcie Hai Sri Lanka, plaże, safari po namorzynach i wybrane wycieczki po południowym wybrzeżu."
+    }
+  },
+  {
+    "slug": "sigiriya",
+    "title": "Sigirija",
+    "shortDescription": "Twierdza Lwia Skała i ikona Trójkąta Kulturowego.",
+    "description": "Wejdź na starożytną skalną fortecę, aby zobaczyć freski, wiedzę o lustrzanych ścianach i widoki na dżunglę w Trójkącie Kulturowym. Połącz Sigiriya ze świątyniami w jaskini Dambulla na cały dzień lub zatrzymaj się na kilkudniowej trasie z zachodami słońca w Pidurangala i pobytami na wsi.",
+    "seo": {
+      "metaTitle": "Przewodnik turystyczny po Sigiriya | Miejsca docelowe | Hai Sri Lanka",
+      "metaDescription": "Odkryj Sigiriya podczas wycieczek po Hai Sri Lanka Lwia Skała, ogrodów, Dambulli i Trójkąta Kulturowego."
+    }
+  },
+  {
+    "slug": "kandy",
+    "title": "Kandy",
+    "shortDescription": "Święte miasto nad jeziorem i brama do wyżyn.",
+    "description": "Świątynia Zęba, spokojne jeziora i chłodne powietrze na wzgórzach sprawiają, że Kandy jest kulturalnym sercem wyspy. Stąd górskie pociągi i wiejskie drogi herbaciane otwierają się w stronę Elli, dzięki czemu Kandy jest naturalnym punktem środkowym klasycznych tras po Cejlonie.",
+    "seo": {
+      "metaTitle": "Przewodnik po Kandy | Miejsca docelowe | Hai Sri Lanka",
+      "metaDescription": "Odkryj Świątynię Zęba w Kandy i górską bramę podczas prywatnych wycieczek po Hai Sri Lance."
+    }
+  },
+  {
+    "slug": "yala",
+    "title": "Yala",
+    "shortDescription": "Kultowy kraj safari na południowym wschodzie Sri Lanki.",
+    "description": "Dzika gra o świcie przemierza zarośla i laguny, lamparty, słonie i przybrzeżne światła. Yala nagradza wczesny start i przejażdżkę prywatnym jeepem, a następnie na dłuższych trasach po wyspie przechodzi w wieczory na południowej plaży.",
+    "seo": {
+      "metaTitle": "Park Narodowy Yala | Miejsca docelowe | Hai Sri Lanka",
+      "metaDescription": "Zaplanuj safari w Yala z prywatnymi jeepami Hai Sri Lanka Tours, dziką przyrodą i trasami południowo-wschodniego wybrzeża."
+    }
+  },
+  {
+    "slug": "ella",
+    "title": "Ela",
+    "shortDescription": "Górska kraina herbaty, most Dziewięciu Łuków i chłodne poranki.",
+    "description": "Ella to miękkie serce górskich, mglistych zboczy herbacianych na Sri Lance, kultowy most Dziewięciu Łuków i krótkie spacery z ogromnymi widokami. Przyjedź malowniczym pociągiem lub prywatnym pojazdem i zatrzymaj się przy wodospadach, kawiarniach i niespiesznych góralskich wieczorach.",
+    "seo": {
+      "metaTitle": "Przewodnik turystyczny Elli | Miejsca docelowe | Hai Sri Lanka",
+      "metaDescription": "Odwiedź Ellę z mostem Dziewięciu Łuków Hai Sri Lanka, krainą herbaty i prywatnymi wycieczkami po górach."
+    }
+  },
+  {
+    "slug": "colombo",
+    "title": "Colombo",
+    "shortDescription": "Brama miasta targów, świątyń i świateł nadmorskich bulwarów.",
+    "description": "Kolombo nadaje ton bryzie Galle Face, świątyniom i kościołom w jednej siatce oraz nowoczesnej restauracji obok kolonialnych fasad. Wykorzystaj go jako delikatną pierwszą noc, dzień pełen kultury miejskiej lub spokojny finał przed lotem do domu.",
+    "seo": {
+      "metaTitle": "Przewodnik po Kolombo | Miejsca docelowe | Hai Sri Lanka",
+      "metaDescription": "Odkryj Kolombo z kulturą miasta Hai Sri Lanka, wieczorami przybrzeżnymi i prywatnymi wycieczkami."
+    }
+  },
+  {
+    "slug": "anuradhapura",
+    "title": "Anuradhapura",
+    "shortDescription": "Starożytne stolice, dagoby i święty cień Bodhi.",
+    "description": "Anuradhapura zaprasza na wolniejsze dni kulturalne, rozległe dagoby, ruiny klasztorne i święte Sri Maha Bodhi. Jedź rowerem lub jedź między miejscami z prywatnymi przewodnikami, a następnie jedź dalej w głąb Trójkąta Kulturowego w kierunku Sigiriya i Polonnaruwa.",
+    "seo": {
+      "metaTitle": "Przewodnik turystyczny po Anuradhapurze | Miejsca docelowe | Hai Sri Lanka",
+      "metaDescription": "Odkryj święte miasto Anuradhapura podczas prywatnych wycieczek po Hai Sri Lance w ramach trójkąta kulturowego."
+    }
+  },
+  {
+    "slug": "polonnaruwa",
+    "title": "Polonnaruwa",
+    "shortDescription": "Średniowieczne ruiny, skalne świątynie i ciche czołgi.",
+    "description": "Średniowieczna stolica Polonnaruwy nagradza pętle rowerowe i prywatne wycieczki po kamiennych pałacach, wizerunkach Buddy i liniach brzegowych zbiorników wodnych. Połącz go z Sigiriya lub Anuradhapurą, aby stworzyć sekwencję Trójkąta Kulturowego, w której nigdy nie poczujesz pośpiechu.",
+    "seo": {
+      "metaTitle": "Przewodnik po Polonnaruwie | Miejsca docelowe | Hai Sri Lanka",
+      "metaDescription": "Odwiedź Polonnaruwę ze średniowiecznymi ruinami Hai na Sri Lance i prywatnymi wycieczkami do Trójkąta Kulturowego."
+    }
+  },
+  {
+    "slug": "arugam-bay",
+    "title": "Zatoka Arugam",
+    "shortDescription": "Miasteczko surfingowe na wschodnim wybrzeżu z zachodami słońca nad laguną.",
+    "description": "Zatoka Arugam zapewnia łatwiejsze przerwy na surfowanie po wschodnim wybrzeżu, życie w lagunie i długie, złote wieczory. Najlepszy w sezonie, stanowi efektowne zakończenie lub wolnostojący pobyt, gdy chcesz przestrzeni oceanicznej poza południem.",
+    "seo": {
+      "metaTitle": "Przewodnik turystyczny po zatoce Arugam | Miejsca docelowe | Hai Sri Lanka",
+      "metaDescription": "Zaplanuj zatokę Arugam z surfowaniem na wschodnim wybrzeżu Hai na Sri Lance, lagunami i dłuższymi prywatnymi trasami."
+    }
+  },
+  {
+    "slug": "tea-country",
+    "title": "Kraj herbaty",
+    "shortDescription": "Wzgórza Nuwara Eliya, mgła i poranki na plantacjach.",
+    "description": "Kraj herbaty rozciąga się przez Nuwara Eliya i posiadłości na wzgórzach, gdzie zielone fale spotykają się z chłodnym powietrzem. Wizyty w fabrykach, spacery po ogrodach i klasyczne miasta kolonialne nadają góralskim trasom między Kandy i Ella.",
+    "seo": {
+      "metaTitle": "Przewodnik turystyczny po kraju herbaty | Miejsca docelowe | Hai Sri Lanka",
+      "metaDescription": "Odkryj kraj herbaty na Sri Lance z Hai Sri Lanka Nuwara Eliya, plantacjami i prywatnymi wycieczkami po górach."
+    }
+  }
+]

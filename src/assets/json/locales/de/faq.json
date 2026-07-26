@@ -1,0 +1,35 @@
+{
+  "global": [
+    {
+      "question": "Sind Touren privat?",
+      "answer": "Ja. Hai Sri Lanka ist auf private Inbound-Erlebnisse für Paare, Familien und kleine Gruppen spezialisiert."
+    },
+    {
+      "question": "Organisieren Sie Flughafentransfers?",
+      "answer": "Ja. Die Begrüßung und Abreise am Flughafen kann in jeder mehrtägigen Reiseroute enthalten oder separat gebucht werden."
+    },
+    {
+      "question": "Wie buche ich?",
+      "answer": "Wählen Sie eine Tour aus, wählen Sie Reisende und Datum aus, übermitteln Sie die Reisedaten und Sie erhalten eine E-Mail-Bestätigung. Für die Buchungsanfrage ist keine Online-Zahlung erforderlich."
+    },
+    {
+      "question": "Können Reiserouten individuell angepasst werden?",
+      "answer": "Absolut. Wir passen Tempo, Hotels und Erlebnisse an Ihre Vorlieben an, bevor wir Ihre Reise bestätigen."
+    }
+  ],
+  "pages": [
+    {
+      "pageKey": "home",
+      "items": [
+        {
+          "question": "Warum Hai Sri Lanka wählen?",
+          "answer": "Erstklassige Gastfreundschaft, erfahrene lokale Reiseführer und Reiserouten, die auf Komfort und authentische Entdeckungen ausgelegt sind."
+        },
+        {
+          "question": "Welche Sprachen sprechen Ihre Guides?",
+          "answer": "Englisch ist Standard. Deutsch, Französisch und andere europäische Sprachen können auf Anfrage arrangiert werden."
+        }
+      ]
+    }
+  ]
+}

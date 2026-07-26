@@ -1,0 +1,35 @@
+{
+  "global": [
+    {
+      "question": "Czy wycieczki są prywatne?",
+      "answer": "Tak. Hai Sri Lanka specjalizuje się w prywatnych wyjazdach dla par, rodzin i małych grup."
+    },
+    {
+      "question": "Organizujesz transfer lotniskowy?",
+      "answer": "Tak. Powitania i odloty na lotniskach można uwzględnić w dowolnym wielodniowym planie podróży lub zarezerwować osobno."
+    },
+    {
+      "question": "Jak dokonać rezerwacji?",
+      "answer": "Wybierz wycieczkę, wybierz podróżnych i datę, podaj dane podróżnego, a otrzymasz potwierdzenie e-mailem. Do złożenia wniosku o rezerwację nie jest wymagana żadna płatność online."
+    },
+    {
+      "question": "Czy plany podróży można dostosować?",
+      "answer": "Absolutnie. Przed potwierdzeniem podróży dostosowujemy tempo, hotele i doświadczenia do Twoich preferencji."
+    }
+  ],
+  "pages": [
+    {
+      "pageKey": "home",
+      "items": [
+        {
+          "question": "Dlaczego wybrać Hai Sri Lankę?",
+          "answer": "Gościnność na najwyższym poziomie, doświadczeni lokalni przewodnicy i plany podróży zaprojektowane z myślą o komforcie i autentycznych odkryciach."
+        },
+        {
+          "question": "W jakich językach mówią Twoi przewodnicy?",
+          "answer": "Angielski jest standardem. Na życzenie istnieje możliwość zamówienia języka niemieckiego, francuskiego i innych języków europejskich."
+        }
+      ]
+    }
+  ]
+}

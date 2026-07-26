@@ -1,79 +1,122 @@
 {
   "brand": {
     "name": "Hai Sri Lanka",
-    "tagline": "Premium inbound journeys across Sri Lanka"
+    "tagline": "Premium inbound-reizen door Sri Lanka"
   },
   "nav": {
     "home": "Home",
     "tours": "Tours",
-    "dayTours": "Day Tours",
-    "multiDayTours": "Multi-Day Tours",
-    "destinations": "Destinations",
-    "experiences": "Things To Do",
-    "blog": "Blog",
+    "dayTours": "Dagtrips",
+    "multiDayTours": "Meerdaagse tours",
+    "destinations": "Bestemmingen",
+    "experiences": "Activiteiten",
+    "blog": "Journal",
     "reviews": "Reviews",
-    "gallery": "Gallery",
+    "gallery": "Galerie",
     "contact": "Contact",
-    "about": "About",
+    "about": "Over ons",
     "faq": "FAQ",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "travelGuide": "Travel Guide",
-    "bookNow": "Book Now",
-    "language": "Language",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu",
-    "skipToContent": "Skip to main content"
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "travelGuide": "Reisgids",
+    "bookNow": "Boeken",
+    "language": "Taal",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "skipToContent": "Naar inhoud",
+    "whatsapp": "WhatsApp",
+    "viewAllTours": "Alle tours bekijken",
+    "toursMegaCopy": "Privé dagtrips en meerdaagse reizen door Sri Lanka.",
+    "primary": "Hoofdnavigatie",
+    "contactLabel": "Contact",
+    "social": "Sociale media"
   },
   "footer": {
-    "explore": "Explore",
-    "company": "Company",
-    "legal": "Legal",
-    "rights": "All rights reserved.",
-    "contactCta": "Plan your journey"
+    "explore": "Ontdekken",
+    "company": "Bedrijf",
+    "legal": "Juridisch",
+    "rights": "Alle rechten voorbehouden.",
+    "contactCta": "Plan je reis",
+    "newsletterThanks": "Bedankt — je staat op de lijst."
   },
   "common": {
-    "loading": "Loading…",
-    "learnMore": "Learn more",
-    "viewAll": "View all",
-    "from": "From",
-    "perPerson": "per person",
-    "comingSoon": "This page foundation is ready. Content arrives in the next feature phase.",
-    "backHome": "Back to home",
-    "notFoundTitle": "Page not found",
-    "notFoundBody": "The page you requested does not exist or has moved."
+    "loading": "Laden…",
+    "learnMore": "Meer info",
+    "viewAll": "Alles bekijken",
+    "from": "Vanaf",
+    "perPerson": "per persoon",
+    "comingSoon": "Deze pagina is klaar. Content volgt binnenkort.",
+    "backHome": "Terug naar home",
+    "notFoundTitle": "Pagina niet gevonden",
+    "notFoundBody": "De gevraagde pagina bestaat niet of is verplaatst.",
+    "freeCancellation": "Gratis annuleren",
+    "payAtDestination": "Betalen op bestemming",
+    "toursCount": "{{count}} tours",
+    "toursReady": "{{count}} tours klaar om te boeken",
+    "noTours": "Geen tours beschikbaar.",
+    "noToursCategory": "Geen tours in deze categorie.",
+    "openFullDayList": "Volledige daglijst openen",
+    "openFullMultiList": "Volledige meerdaagse lijst openen",
+    "quickView": "Snel bekijken",
+    "compare": "Vergelijken",
+    "compared": "Vergeleken",
+    "wishlist": "Verlanglijst",
+    "saved": "Opgeslagen",
+    "allTours": "Alle tours"
+  },
+  "booking": {
+    "title": "Boek je tour",
+    "eyebrow": "Boek deze tour",
+    "privateInquiry": "Privéaanvraag",
+    "travelers": "Reizigers",
+    "date": "Reisdatum",
+    "details": "Reizigersgegevens",
+    "summary": "Boekingsoverzicht",
+    "confirm": "Boeking bevestigen",
+    "success": "Aanvraag verzonden",
+    "perPerson": "Prijs per persoon",
+    "total": "Totaal",
+    "emailNote": "Jij en ons team ontvangen bevestiging per e-mail.",
+    "freeCancel": "Gratis annuleren",
+    "payLater": "Later betalen",
+    "payAtDestination": "Betalen op bestemming",
+    "whatsappAdmin": "WhatsApp tourbeheerder"
+  },
+  "placeholder": {
+    "pageTitle": "{{page}}",
+    "foundationReady": "Basis klaar"
   },
   "seo": {
     "home": {
-      "title": "Hai Sri Lanka Tours | Premium Sri Lanka Travel",
-      "description": "Private day tours and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
+      "title": "Hai Sri Lanka Tours | Premium Sri Lanka Reizen",
+      "description": "Private Dagtrips and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
     },
     "about": {
-      "title": "About Us | Hai Sri Lanka Tours",
+      "title": "Over ons Us | Hai Sri Lanka Tours",
       "description": "Meet Hai Sri Lanka Tours a premium inbound tourism company crafting private Sri Lankan journeys."
     },
     "toursHub": {
       "title": "Sri Lanka Tours | Hai Sri Lanka",
-      "description": "Browse private day tours and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
+      "description": "Browse private Dagtrips and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
     },
     "dayTours": {
-      "title": "Day Tours in Sri Lanka | Hai Sri Lanka",
-      "description": "Private day tours across Sri Lanka Galle, culture, wildlife, and more."
+      "title": "Dagtrips in Sri Lanka | Hai Sri Lanka",
+      "description": "Private Dagtrips across Sri Lanka Galle, culture, wildlife, and more."
     },
     "multiDayTours": {
-      "title": "Multi-Day Sri Lanka Tours | Hai Sri Lanka",
+      "title": "Meerdaags Sri Lanka Tours | Hai Sri Lanka",
       "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
     },
     "destinations": {
-      "title": "Sri Lanka Destinations | Hai Sri Lanka",
+      "title": "Sri Lanka Bestemmingen | Hai Sri Lanka",
       "description": "Explore top Sri Lanka destinations with local expertise from Hai Sri Lanka Tours."
     },
     "travelGuide": {
-      "title": "Sri Lanka Travel Guide | Hai Sri Lanka",
+      "title": "Sri Lanka Reizen Gids | Hai Sri Lanka",
       "description": "Practical Sri Lanka travel guidance from Hai Sri Lanka Tours."
     },
     "thingsToDo": {
-      "title": "Things To Do in Sri Lanka | Hai Sri Lanka",
+      "title": "Activiteiten in Sri Lanka | Hai Sri Lanka",
       "description": "Experiences and things to do across Sri Lanka with Hai Sri Lanka Tours."
     },
     "reviews": {
@@ -81,7 +124,7 @@
       "description": "Read Google and TripAdvisor reviews from Hai Sri Lanka travelers."
     },
     "gallery": {
-      "title": "Gallery | Hai Sri Lanka Tours",
+      "title": "Galerie | Hai Sri Lanka Tours",
       "description": "A visual journey through Sri Lanka with Hai Sri Lanka Tours."
     },
     "faq": {
@@ -93,7 +136,7 @@
       "description": "Contact Hai Sri Lanka Tours to plan your private Sri Lanka journey."
     },
     "blog": {
-      "title": "Travel Blog | Hai Sri Lanka",
+      "title": "Reizen Blog | Hai Sri Lanka",
       "description": "Sri Lanka travel tips, guides, and stories from Hai Sri Lanka Tours."
     },
     "booking": {
@@ -105,28 +148,33 @@
       "description": "Privacy policy for HaiSriLanka.com."
     },
     "terms": {
-      "title": "Terms of Service | Hai Sri Lanka",
+      "title": "Voorwaarden of Service | Hai Sri Lanka",
       "description": "Terms of service for Hai Sri Lanka Tours."
     },
     "notFound": {
-      "title": "Page Not Found | Hai Sri Lanka",
+      "title": "Pagina niet gevonden | Hai Sri Lanka",
       "description": "The requested page could not be found."
     }
   },
-  "booking": {
-    "title": "Book your tour",
-    "travelers": "Travelers",
-    "date": "Travel date",
-    "details": "Traveler details",
-    "summary": "Booking summary",
-    "confirm": "Confirm booking",
-    "success": "Booking request sent",
-    "perPerson": "Price per person",
-    "total": "Total",
-    "emailNote": "You and our team will receive confirmation by email."
-  },
-  "placeholder": {
-    "pageTitle": "{{page}}",
-    "foundationReady": "Foundation ready"
+  "tour": {
+    "badge": {
+      "best-seller": "Bestseller",
+      "featured": "Uitgelicht",
+      "luxury": "Luxe",
+      "family": "Familie",
+      "adventure": "Avontuur",
+      "wildlife": "Wildlife",
+      "culture": "Cultuur"
+    },
+    "style": {
+      "culture": "Cultuur",
+      "wildlife": "Wildlife",
+      "adventure": "Avontuur",
+      "luxury": "Luxe",
+      "family": "Familie",
+      "privateDay": "Privé dagtrip",
+      "privateMulti": "Privé meerdaagse reis",
+      "beach": "Strand & kust"
+    }
   }
 }

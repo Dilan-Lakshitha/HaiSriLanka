@@ -1,0 +1,44 @@
+{
+  "hub": {
+    "hero": {
+      "eyebrow": "Circuits au Sri Lanka",
+      "title": "Visites privées à travers l'île",
+      "subtitle": "Choisissez une escapade d'une journée ou un voyage de plusieurs jours au rythme organisé, aux séjours de confiance et aux tarifs transparents.",
+      "image": {
+        "alt": "Circuits privés au Sri Lanka avec Hai Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Circuits au Sri Lanka | Forfaits d'une journée et de plusieurs jours | Hai Sri Lanka",
+      "metaDescription": "Parcourez des visites privées d'une journée au Sri Lanka et des itinéraires de plusieurs jours sur la culture, le pays du thé, la faune et la côte avec Hai Sri Lanka Tours."
+    }
+  },
+  "day": {
+    "hero": {
+      "eyebrow": "Excursions d'une journée",
+      "title": "Excursions privées d'une journée à travers le Sri Lanka",
+      "subtitle": "Expériences d'une journée organisées de la côte au triangle culturel entièrement privées, rythmées pour le confort.",
+      "image": {
+        "alt": "Excursions d'une journée au Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Excursions d'une journée au Sri Lanka | Visites à Hai Sri Lanka",
+      "metaDescription": "Parcourez des excursions privées haut de gamme à Galle, Sigiriya, Kandy et bien plus encore, avec des tarifs en direct et un rythme flexible."
+    }
+  },
+  "multi-day": {
+    "hero": {
+      "eyebrow": "Circuits de plusieurs jours",
+      "title": "Voyages de plusieurs jours dans un luxe tranquille",
+      "subtitle": "Itinéraires privés à travers la culture, le pays du thé, la faune et la côte, nuits flexibles, séjours de confiance.",
+      "image": {
+        "alt": "Circuits de plusieurs jours au Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Circuits de plusieurs jours au Sri Lanka | Visites à Hai Sri Lanka",
+      "metaDescription": "Explorez des circuits privés de plusieurs jours au Sri Lanka avec des séjours en boutique, des guides experts et des tarifs transparents."
+    }
+  }
+}

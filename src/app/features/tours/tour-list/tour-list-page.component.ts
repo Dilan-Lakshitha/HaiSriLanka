@@ -28,6 +28,7 @@ import { BreadcrumbComponent } from '../../../shared/components/breadcrumb/bread
 import { trackBySlug } from '../../../core/utils/track-by.util';
 import type { Tour, TourListPageContent } from '../../../core/models/tour.model';
 import { TourQuickViewComponent } from './tour-quick-view/tour-quick-view.component';
+import { TranslocoPipe } from '@jsverse/transloco';
 
 export type TourListCategory = 'day' | 'multi-day';
 
@@ -43,6 +44,7 @@ export type TourListCategory = 'day' | 'multi-day';
     TourCardComponent,
     TourQuickViewComponent,
     BreadcrumbComponent,
+    TranslocoPipe,
   ],
   templateUrl: './tour-list-page.component.html',
   styleUrl: './tour-list-page.component.scss',

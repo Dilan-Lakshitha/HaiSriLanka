@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "wildlife-safaris",
+    "title": "Safari's in het wild",
+    "shortDescription": "Privé-jeepochtenden voor luipaard-, olifant- en parklicht.",
+    "description": "Ga bij zonsopgang door struikgewas, lagune en grasland met een privéjeep en gids die weet wanneer hij moet wachten. Van Yala tot bredere parkcircuits, de safaridagen zijn afgewisseld met waarnemingen, nooit overhaaste konvooichaos en vervolgens op langere routes naar de zuidelijke kustnachten.",
+    "seo": {
+      "metaTitle": "Wildsafari's in Sri Lanka | Ervaringen | Hoi Sri Lanka",
+      "metaDescription": "Privé-wildsafari's met Hai Sri Lanka Yala-gamedrives, olifanten en parkochtenden met een rustig tempo."
+    }
+  },
+  {
+    "slug": "elephant-encounters",
+    "title": "Ontmoetingen met olifanten",
+    "shortDescription": "Rivierbaden, bosritten en respectvolle natuurmomenten.",
+    "description": "Maak kennis met de vriendelijke reuzen van Azië via zorgvuldig gekozen ontmoetingen, zwemmen langs de rivier, bosritten in de buurt van Sigiriya en ethisch kijken waarbij dierenwelzijn voorop staat. Ideaal als hoogtepuntdag binnen Culturele Driehoek of hooglandroutes.",
+    "seo": {
+      "metaTitle": "Olifantenervaringen in Sri Lanka | Hoi Sri Lanka",
+      "metaDescription": "Plan ethische ontmoetingen met olifanten met baden in Hai Sri Lanka, bosritten en natuurmomenten in de Culturele Driehoek."
+    }
+  },
+  {
+    "slug": "temple-heritage",
+    "title": "Tempels en erfgoed",
+    "shortDescription": "Grottempels, heilige steden en een levende boeddhistische cultuur.",
+    "description": "Betreed de spirituele architectuur van Sri Lanka, de geschilderde grotten van Dambulla, Kandy's Tempel van de Tand en de oude hoofdsteden van de Culturele Driehoek. Privégidsen houden de tempeletiquette duidelijk en lopen rustig rond, zodat de sfeer intact blijft.",
+    "seo": {
+      "metaTitle": "Tempel- en erfgoedervaringen | Hoi Sri Lanka",
+      "metaDescription": "Ontdek de tempels en het erfgoed van Sri Lanka met privérondleidingen Hai Sri Lanka Dambulla, Kandy en Cultural Triangle."
+    }
+  },
+  {
+    "slug": "mangrove-boat-safaris",
+    "title": "Mangrovebootsafari's",
+    "shortDescription": "Stille waterwegen, worteltunnels en wilde dieren aan de zuidkust.",
+    "description": "Glip mangrovetunnels in op een privéboot met vogels boven je hoofd, stilstaand water onder de romp en een langzamer kustritme. Perfect als een halve dag naast Galle Fort-wandelingen of als een zacht avontuur op zuidelijke routes.",
+    "seo": {
+      "metaTitle": "Mangrovebootsafari's | Ervaringen | Hoi Sri Lanka",
+      "metaDescription": "Privémangrovebootsafari's met rustige kanalen van Hai Sri Lanka, wilde dieren en dagen aan de kust van Galle."
+    }
+  },
+  {
+    "slug": "tuk-tuk-adventures",
+    "title": "Tuk-Tuk-avonturen",
+    "shortDescription": "Lokale straatjes, openluchtattracties en stadsziel.",
+    "description": "Bekijk steden zoals de lokale bevolking open kanten doet, marktwissels en een chauffeur-gids die de sluiproutes kent. Tuk-tuk-huppelt tussen tempels, cafés en uitkijkpunten zonder het afgesloten busgevoel van een groepsbus.",
+    "seo": {
+      "metaTitle": "Tuk-Tuk-avonturen in Sri Lanka | Hoi Sri Lanka",
+      "metaDescription": "Privé-tuk-tuk-avonturen met lokale rijstroken in Hai Sri Lanka, flexibele stadsstops en reizen in de open lucht."
+    }
+  },
+  {
+    "slug": "highland-scenic",
+    "title": "Highland- en schilderachtige rails",
+    "shortDescription": "Theemist, Nine Arch Bridge en koele berglucht.",
+    "description": "Klim het heuvelland van Sri Lanka in voor theehellingen, iconische bruggen en schilderachtige treinramen. Ella en het theeland zorgen voor zachte, avontuurlijke korte wandelingen, koele ochtenden en uitzichtpunten die hun plaats verdienen op klassieke eilandroutes.",
+    "seo": {
+      "metaTitle": "Highland & Scenic Rail-ervaringen | Hoi Sri Lanka",
+      "metaDescription": "Ontdek Ella en het theeland met de Negenbogenbrug van Hai Sri Lanka, hooglandtreinen en privébergroutes."
+    }
+  },
+  {
+    "slug": "village-life",
+    "title": "Dorpsleven",
+    "shortDescription": "Tractorritten, gastvrijheid op het platteland en het platteland van Sri Lanka.",
+    "description": "Verlaat de snelweg voor dorpswegen, tractorkarren, rijstvelden, huiselijke gastvrijheid en de rustigere ritmes die reizigers zich het langst herinneren. Zachte culturele onderdompeling die past in meerdaagse routes zonder dat u zich in scène gezet voelt.",
+    "seo": {
+      "metaTitle": "Dorpslevenservaringen in Sri Lanka | Hoi Sri Lanka",
+      "metaDescription": "Ervaar het Sri Lankaanse dorpsleven met Hai Sri Lanka-tractorritten, lokale gastheren en gastvrijheid op het platteland."
+    }
+  },
+  {
+    "slug": "cycling-trails",
+    "title": "Fietspaden",
+    "shortDescription": "Actieve ochtenden op schaduwrijke paden en landweggetjes.",
+    "description": "Fiets door tropisch groen op rustige paden, gezinsvriendelijke routes en begeleide ritten die de benen strekken zonder van de dag een race te maken. Combineer fietsen met theeland, dorpen of kust, afhankelijk van je route.",
+    "seo": {
+      "metaTitle": "Fietsroutes in Sri Lanka | Ervaringen | Hoi Sri Lanka",
+      "metaDescription": "Fiets door het platteland van Sri Lanka met begeleide routes van Hai Sri Lanka, een gezinsvriendelijk tempo en schilderachtige hooglandwegen."
+    }
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "galle",
+    "title": "Galle",
+    "shortDescription": "UNESCO-listed fort city on Sri Lanka’s southern coast.",
+    "description": "Wander Dutch-era ramparts, boutique streets, and ocean light in one of Asia’s most atmospheric coastal towns. Galle pairs heritage walks with beach evenings and mangrove boat safaris nearby ideal as a day trip from Colombo or a soft landing on multi-day routes.",
+    "seo": {
+      "metaTitle": "Galle Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Plan your visit to Galle with Hai Sri Lanka fort walks, beaches, mangrove safaris, and curated southern coast tours."
+    }
+  },
+  {
+    "slug": "sigiriya",
+    "title": "Sigiriya",
+    "shortDescription": "The Lion Rock fortress and Cultural Triangle icon.",
+    "description": "Climb the ancient rock fortress for frescoes, mirror wall lore, and jungle views across the Cultural Triangle. Pair Sigiriya with Dambulla cave temples for a full day, or linger across a multi-day route with Pidurangala sunsets and countryside stays.",
+    "seo": {
+      "metaTitle": "Sigiriya Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Discover Sigiriya with Hai Sri Lanka Tours Lion Rock, gardens, Dambulla, and Cultural Triangle journeys."
+    }
+  },
+  {
+    "slug": "kandy",
+    "title": "Kandy",
+    "shortDescription": "Sacred lakeside city and gateway to the highlands.",
+    "description": "Temple of the Tooth, serene lake circuits, and cool hill air mark Kandy as the cultural heart of the island. From here, highland trains and tea country roads open toward Ella making Kandy a natural midpoint on classic Ceylon itineraries.",
+    "seo": {
+      "metaTitle": "Kandy Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Explore Kandy Temple of the Tooth and highland gateway with Hai Sri Lanka private tours."
+    }
+  },
+  {
+    "slug": "yala",
+    "title": "Yala",
+    "shortDescription": "Iconic safari country on Sri Lanka’s southeast.",
+    "description": "Dawn game drives across scrub forest and lagoons leopard, elephant, and coastal light. Yala rewards early starts and private jeep pacing, then softens into southern beach nights on longer island routes.",
+    "seo": {
+      "metaTitle": "Yala National Park | Destinations | Hai Sri Lanka",
+      "metaDescription": "Plan Yala safari experiences with Hai Sri Lanka Tours private jeeps, wildlife, and southeast coast routes."
+    }
+  },
+  {
+    "slug": "ella",
+    "title": "Ella",
+    "shortDescription": "Highland tea country, Nine Arch Bridge, and cool mornings.",
+    "description": "Ella is the soft heart of Sri Lanka’s hill country misty tea slopes, the iconic Nine Arch Bridge, and short walks with huge views. Arrive by scenic train or private vehicle and linger for waterfalls, cafés, and unhurried highland evenings.",
+    "seo": {
+      "metaTitle": "Ella Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Visit Ella with Hai Sri Lanka Nine Arch Bridge, tea country, and highland private tours."
+    }
+  },
+  {
+    "slug": "colombo",
+    "title": "Colombo",
+    "shortDescription": "Gateway city of markets, temples, and coastal boulevard light.",
+    "description": "Colombo sets the tone for arrival Galle Face breezes, temples and churches in one grid, and modern dining beside colonial façades. Use it as a soft first night, a day of city culture, or a calm finale before flying home.",
+    "seo": {
+      "metaTitle": "Colombo Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Discover Colombo with Hai Sri Lanka city culture, coastal evenings, and private arrival tours."
+    }
+  },
+  {
+    "slug": "anuradhapura",
+    "title": "Anuradhapura",
+    "shortDescription": "Ancient capitals, dagobas, and sacred Bodhi shade.",
+    "description": "Anuradhapura invites slower cultural days vast dagobas, monastic ruins, and the sacred Sri Maha Bodhi. Cycle or ride between sites with private guides, then continue deeper into the Cultural Triangle toward Sigiriya and Polonnaruwa.",
+    "seo": {
+      "metaTitle": "Anuradhapura Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Explore Anuradhapura’s sacred city with Hai Sri Lanka private Cultural Triangle tours."
+    }
+  },
+  {
+    "slug": "polonnaruwa",
+    "title": "Polonnaruwa",
+    "shortDescription": "Medieval ruins, rock temples, and quiet tanks.",
+    "description": "Polonnaruwa’s medieval capital rewards bicycle loops and private guiding among stone palaces, Buddha images, and reservoir shorelines. Pair it with Sigiriya or Anuradhapura for a Cultural Triangle sequence that never feels rushed.",
+    "seo": {
+      "metaTitle": "Polonnaruwa Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Visit Polonnaruwa with Hai Sri Lanka medieval ruins and Cultural Triangle private tours."
+    }
+  },
+  {
+    "slug": "arugam-bay",
+    "title": "Arugam Bay",
+    "shortDescription": "East coast surf town with lagoon sunsets.",
+    "description": "Arugam Bay brings easier east-coast energy surf breaks, lagoon life, and long golden evenings. Best in season, it makes a striking finale or freestanding stay when you want ocean space beyond the south.",
+    "seo": {
+      "metaTitle": "Arugam Bay Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Plan Arugam Bay with Hai Sri Lanka east coast surf, lagoons, and longer private itineraries."
+    }
+  },
+  {
+    "slug": "tea-country",
+    "title": "Tea Country",
+    "shortDescription": "Nuwara Eliya hills, mist, and plantation mornings.",
+    "description": "Tea country stretches through Nuwara Eliya and hillside estates where green waves meet cool air. Factory visits, garden walks, and classic colonial towns give highland itineraries texture between Kandy and Ella.",
+    "seo": {
+      "metaTitle": "Tea Country Travel Guide | Destinations | Hai Sri Lanka",
+      "metaDescription": "Explore Sri Lanka’s tea country with Hai Sri Lanka Nuwara Eliya, plantations, and highland private tours."
+    }
+  }
+]

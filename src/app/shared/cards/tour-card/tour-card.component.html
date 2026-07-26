@@ -9,42 +9,48 @@
       loading="lazy"
     />
     <div class="tour-card__media-veil" aria-hidden="true"></div>
-    @if (badgeList().length) {
+    @if (badgeKeys().length) {
       <ul class="tour-card__badges">
-        @for (badge of badgeList().slice(0, 1); track badge) {
+        @for (badge of badgeKeys().slice(0, 1); track badge) {
           <li>
-            <app-ui-badge tone="accent">{{ badge }}</app-ui-badge>
+            <app-ui-badge tone="accent">{{ ('tour.badge.' + badge) | transloco }}</app-ui-badge>
           </li>
         }
       </ul>
     }
     <span class="tour-card__duration">{{ tour().duration }}</span>
     <div class="tour-card__actions" aria-label="Tour actions">
-      <button type="button" (click)="onQuickView($event)">Quick View</button>
+      <button type="button" (click)="onQuickView($event)">{{ 'common.quickView' | transloco }}</button>
       <button type="button" (click)="toggleCompare($event)" [attr.aria-pressed]="isCompared()">
-        {{ isCompared() ? 'Compared' : 'Compare' }}
+        {{ isCompared() ? ('common.compared' | transloco) : ('common.compare' | transloco) }}
       </button>
       <button type="button" (click)="toggleWishlist($event)" [attr.aria-pressed]="isWishlisted()">
-        {{ isWishlisted() ? 'Saved' : 'Wishlist' }}
+        {{ isWishlisted() ? ('common.saved' | transloco) : ('common.wishlist' | transloco) }}
       </button>
     </div>
   </a>
 
   <div class="tour-card__body">
-    <p class="tour-card__style">{{ tour().travelStyle }}</p>
+    <p class="tour-card__style">
+      @if (styleKey()) {
+        {{ ('tour.style.' + styleKey()) | transloco }}
+      } @else {
+        {{ tour().travelStyle }}
+      }
+    </p>
     <h3 class="tour-card__title">
       <a [routerLink]="['/', lang(), detailPath(), tour().slug]">{{ tour().title }}</a>
     </h3>
 
     <div class="tour-card__offer">
       <p class="tour-card__price">
-        <span class="tour-card__price-label">From</span>
+        <span class="tour-card__price-label">{{ 'common.from' | transloco }}</span>
         <strong>{{ fromPrice() | currency: tour().currency : 'symbol' : '1.0-0' }}</strong>
-        <span class="tour-card__price-unit">/ person</span>
+        <span class="tour-card__price-unit">/ {{ 'common.perPerson' | transloco }}</span>
       </p>
       <p class="tour-card__perks">
-        <span>Free cancellation</span>
-        <span>Pay at destination</span>
+        <span>{{ 'common.freeCancellation' | transloco }}</span>
+        <span>{{ 'common.payAtDestination' | transloco }}</span>
       </p>
     </div>
   </div>

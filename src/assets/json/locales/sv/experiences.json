@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "wildlife-safaris",
+    "title": "Wildlife Safaris",
+    "shortDescription": "Privata jeepmorgnar för leopard, elefant och parkljus.",
+    "description": "Rör dig i gryningen genom buskmarker, laguner och gräsmarker med en privat jeep och guide som vet när du ska vänta. Från Yala till bredare parkkretsar, safaridagar är temporika för iakttagelser aldrig hastigt konvojkaos och sedan lätta in på södra kustnätter på längre resvägar.",
+    "seo": {
+      "metaTitle": "Wildlife Safaris i Sri Lanka | Erfarenheter | Hai Sri Lanka",
+      "metaDescription": "Privata djursafari med Hai Sri Lanka Yala-safari, elefanter och noggrant tempofyllda parkmorgnar."
+    }
+  },
+  {
+    "slug": "elephant-encounters",
+    "title": "Elefantmöten",
+    "shortDescription": "Flodbad, skogsturer och respektfulla stunder med vilda djur.",
+    "description": "Möt Asiens milda jättar genom noggrant utvalda möten med bad vid floden, skogsturer nära Sigiriya och etiskt betraktande som sätter djurens välbefinnande främst. Idealisk som en höjdpunktsdag inom kulturtriangeln eller höglandsrutter.",
+    "seo": {
+      "metaTitle": "Elefantupplevelser i Sri Lanka | Hai Sri Lanka",
+      "metaDescription": "Planera möten med etiska elefanter med bad i Hai Sri Lanka, skogsturer och stunder med kulturtriangelns djurliv."
+    }
+  },
+  {
+    "slug": "temple-heritage",
+    "title": "Tempel och arv",
+    "shortDescription": "Grotttempel, heliga städer och levande buddhistisk kultur.",
+    "description": "Kliv in i Sri Lankas andliga arkitektur Dambullas målade grottor, Kandys tandtempel och antika huvudstäder i den kulturella triangeln. Privata guider håller templets etikett tydlig och går lugnt så att atmosfären förblir intakt.",
+    "seo": {
+      "metaTitle": "Tempel- och kulturarvsupplevelser | Hai Sri Lanka",
+      "metaDescription": "Utforska Sri Lankas tempel och arv med Hai Sri Lanka Dambulla, Kandy och Cultural Triangle privata turer."
+    }
+  },
+  {
+    "slug": "mangrove-boat-safaris",
+    "title": "Mangrovebåtsafari",
+    "shortDescription": "Tysta vattenvägar, rottunnlar och vilda djur på sydkusten.",
+    "description": "Glid in i mangrovetunnlar på en privat båt fåglar ovanför, stilla vatten under skrovet och en långsammare kustrytm. Perfekt som en halvdag bredvid Galle Fort promenader eller ett mjukt äventyr på sydliga rutter.",
+    "seo": {
+      "metaTitle": "Mangrovebåtsafari | Erfarenheter | Hai Sri Lanka",
+      "metaDescription": "Privata mangrovebåtsafari med Hai Sri Lanka tysta kanaler, vilda djur och Gallekustdagar."
+    }
+  },
+  {
+    "slug": "tuk-tuk-adventures",
+    "title": "Tuk-Tuk äventyr",
+    "shortDescription": "Lokala banor, friluftsturer och stadssjäl.",
+    "description": "Se städer som lokalbefolkningen gör öppna sidor, marknadsvändningar och en chaufförsguide som kan genvägarna. Tuk-tuk hops tränger sig mellan tempel, kaféer och utsiktsplatser utan känslan av en förseglad buss som en gruppbuss.",
+    "seo": {
+      "metaTitle": "Tuk-Tuk äventyr i Sri Lanka | Hai Sri Lanka",
+      "metaDescription": "Privata tuk-tuk äventyr med Hai Sri Lanka lokala banor, flexibla stadsstopp och utomhusresor."
+    }
+  },
+  {
+    "slug": "highland-scenic",
+    "title": "Highland & Scenic Rails",
+    "shortDescription": "Tedimma, Nine Arch Bridge och sval bergsluft.",
+    "description": "Klättra in i Sri Lankas bergsland för tebackar, ikoniska broar och natursköna tågfönster. Ella och teland levererar mjuka äventyrsvandringar, svala morgnar och utsiktsplatser som tjänar sin plats på klassiska ö-rutter.",
+    "seo": {
+      "metaTitle": "Highland & Scenic Rail Experiences | Hai Sri Lanka",
+      "metaDescription": "Upptäck Ella och teland med Hai Sri Lanka Nine Arch Bridge, höglandståg och privata bergsvägar."
+    }
+  },
+  {
+    "slug": "village-life",
+    "title": "Byliv",
+    "shortDescription": "Traktorturer, gästfrihet på landsbygden och Sri Lanka på landsbygden.",
+    "description": "Lämna motorvägen för bybanor med traktorkärror, risfält, gästfrihet och de tystare rytmerna som resenärer minns längst. Mjuk kulturell fördjupning som passar in i flerdagars resplaner utan att kännas iscensatt.",
+    "seo": {
+      "metaTitle": "Village Life Experiences i Sri Lanka | Hai Sri Lanka",
+      "metaDescription": "Upplev Sri Lankas byliv med Hai Sri Lanka traktorturer, lokala värdar och gästfrihet på landsbygden."
+    }
+  },
+  {
+    "slug": "cycling-trails",
+    "title": "Cykelvägar",
+    "shortDescription": "Aktiva morgnar på skuggiga stigar och landsvägar.",
+    "description": "Trampa genom tropisk grönska på lugna banor familjevänliga rutter och guidade turer som sträcker på benen utan att förvandla dagen till ett lopp. Para cykling med teland, byar eller kust beroende på din resplan.",
+    "seo": {
+      "metaTitle": "Cykelleder i Sri Lanka | Erfarenheter | Hai Sri Lanka",
+      "metaDescription": "Cykla Sri Lankas landsbygd med Hai Sri Lanka guidade stigar, familjevänligt tempo och natursköna höglandsstråk."
+    }
+  }
+]

@@ -55,7 +55,7 @@
             <ul>
               @for (item of nav.footer.explore; track item.key) {
                 <li>
-                  <a [routerLink]="buildLink(item.path)">{{ item.label || (item.key | transloco) }}</a>
+                  <a [routerLink]="buildLink(item.path)">{{ item.key | transloco }}</a>
                 </li>
               }
             </ul>
@@ -66,7 +66,7 @@
             <ul>
               @for (item of nav.footer.company; track item.key) {
                 <li>
-                  <a [routerLink]="buildLink(item.path)">{{ item.label || (item.key | transloco) }}</a>
+                  <a [routerLink]="buildLink(item.path)">{{ item.key | transloco }}</a>
                 </li>
               }
             </ul>
@@ -77,7 +77,7 @@
             <ul>
               @for (item of nav.footer.legal; track item.key) {
                 <li>
-                  <a [routerLink]="buildLink(item.path)">{{ item.label || (item.key | transloco) }}</a>
+                  <a [routerLink]="buildLink(item.path)">{{ item.key | transloco }}</a>
                 </li>
               }
             </ul>

@@ -1,4 +1,4 @@
-<nav class="main-nav" aria-label="Primary" (mouseleave)="close()">
+<nav class="main-nav" [attr.aria-label]="'nav.primary' | transloco" (mouseleave)="close()">
   <ul class="main-nav__list">
     @for (item of items(); track item.key) {
       <li
@@ -16,25 +16,23 @@
           (click)="onNavigated()"
           (focus)="item.mega ? open(item.key) : null"
         >
-          {{ labelOf(item) }}
+          {{ item.key | transloco }}
         </a>
 
         @if (item.mega && item.children?.length && openMega() === item.key) {
-          <div class="mega-menu" role="region" [attr.aria-label]="labelOf(item)">
+          <div class="mega-menu" role="region" [attr.aria-label]="item.key | transloco">
             <div class="mega-menu__intro">
-              <p class="mega-menu__eyebrow">{{ labelOf(item) }}</p>
-              <p class="mega-menu__copy">
-                Private day tours and multi-day journeys across Sri Lanka.
-              </p>
+              <p class="mega-menu__eyebrow">{{ item.key | transloco }}</p>
+              <p class="mega-menu__copy">{{ 'nav.toursMegaCopy' | transloco }}</p>
               <a class="mega-menu__all" [routerLink]="buildLink(item.path)" (click)="onNavigated()">
-                View all tours
+                {{ 'nav.viewAllTours' | transloco }}
               </a>
             </div>
             <ul class="mega-menu__grid">
               @for (child of item.children; track child.key) {
                 <li>
                   <a [routerLink]="buildLink(child.path)" (click)="onNavigated()">
-                    <span class="mega-menu__title">{{ labelOf(child) }}</span>
+                    <span class="mega-menu__title">{{ child.key | transloco }}</span>
                     @if (child.description) {
                       <span class="mega-menu__desc">{{ child.description }}</span>
                     }

@@ -1,0 +1,60 @@
+{
+  "title": "Évasion de 4 jours à Ceylan avec hôtels 4 étoiles et transport privé",
+  "seoTitle": "Évasion de 4 jours à Ceylan avec hôtels 4 étoiles et transport privé | Hai Sri Lanka",
+  "metaDescription": "Circuit privé de 4 jours au Sri Lanka : Kandy, Ella, safari à Yala, observation des baleines à Mirissa, Galle Fort et Bentota.",
+  "shortDescription": "Kandy, Ella, Yala et la côte sud en quatre jours - hôtels 4 étoiles et chauffeur privé tout au long.",
+  "overview": "Un voyage privé compact de quatre jours des hauts plateaux à la côte sud. Commencez par la culture de Kandy et le pays du thé, continuez en train panoramique jusqu'à Ella, puis la faune du parc national de Yala.\nVotre finale suit la côte sud - Mirissa pour l'océan, Galle Fort pour le patrimoine et Bentota pour un safari en bateau - avant de vous déposer à votre hôtel ou à l'aéroport. Idéal lorsque vous souhaitez découvrir les points forts classiques du Sri Lanka sans un long itinéraire.",
+  "description": "Un voyage privé compact de quatre jours des hauts plateaux à la côte sud. Commencez par la culture de Kandy et le pays du thé, continuez en train panoramique jusqu'à Ella, puis la faune du parc national de Yala.\nVotre finale suit la côte sud - Mirissa pour l'océan, Galle Fort pour le patrimoine et Bentota pour un safari en bateau - avant de vous déposer à votre hôtel ou à l'aéroport. Idéal lorsque vous souhaitez découvrir les points forts classiques du Sri Lanka sans un long itinéraire.",
+  "duration": "4 jours / 3 nuits",
+  "travelStyle": "Culture",
+  "highlights": [
+    "Soirée culturelle Pinnawala et Kandy",
+    "Temple de la Dent et usine de thé",
+    "Promenade en train panoramique et safari à Yala",
+    "Observation des baleines, Galle Fort et Bentota"
+  ],
+  "included": [
+    "Transport privé / chauffeur privé",
+    "Hôtels 4 ÉTOILES",
+    "Petit-déjeuner quotidien",
+    "Service de guides"
+  ],
+  "excluded": [
+    "Vols internationaux",
+    "Déjeuner et dîner",
+    "Frais d'entrée",
+    "Jeep safari et bateau d'observation des baleines"
+  ],
+  "seo": {
+    "metaTitle": "Évasion de 4 jours à Ceylan avec hôtels 4 étoiles et transport privé | Hai Sri Lanka",
+    "metaDescription": "Circuit privé de 4 jours au Sri Lanka : Kandy, Ella, safari à Yala, observation des baleines à Mirissa, Galle Fort et Bentota."
+  },
+  "itinerary": [
+    {
+      "title": "Aéroport / Hôtel – Kandy",
+      "description": "Voyagez à l'intérieur des terres en direction de Kandy avec des arrêts culturels classiques : éléphants à Pinnawala, parfums de jardins d'épices, vues sur le lac et soirée de danse Kandyan."
+    },
+    {
+      "title": "Kandy-Ella",
+      "description": "Matinée au Temple de la Relique de la Dent, puis montée au pays du thé avec une visite d'usine avant de vous installer à Ella pour une douce visite de la ville."
+    },
+    {
+      "title": "Ella-Yala",
+      "description": "Montez à bord du train panoramique à travers les collines, faites une pause aux chutes de Ravana, puis continuez vers Yala pour un safari en après-midi ou en soirée dans le parc national."
+    },
+    {
+      "title": "Yala – Bentota – Hôtel / Aéroport",
+      "description": "Finale côtière le long du sud : observation des baleines à Mirissa ou plongée en apnée avec des baleines ou des tortues de mer, Galle Fort, une écloserie de tortues et un safari en bateau Bentota avant le dépôt à votre hôtel ou à l'aéroport."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "L'itinéraire peut-il être personnalisé ?",
+      "answer": "Oui. Nous adaptons le rythme, les hôtels et les expériences (par exemple en échangeant l'observation des baleines contre plus de temps à la plage) selon vos préférences."
+    },
+    {
+      "question": "L’observation des baleines est-elle saisonnière ?",
+      "answer": "L'observation des baleines à Mirissa est généralement meilleure de novembre à avril. En dehors de la haute saison, nous vous suggérons de faire de la plongée en apnée avec les tortues de mer ou d'autres alternatives côtières."
+    }
+  ]
+}

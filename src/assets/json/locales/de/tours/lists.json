@@ -1,0 +1,44 @@
+{
+  "hub": {
+    "hero": {
+      "eyebrow": "Sri Lanka Touren",
+      "title": "Private Touren über die Insel",
+      "subtitle": "Wählen Sie einen Tagesausflug oder eine mehrtägige Reise mit kuratiertem Tempo, zuverlässigen Aufenthalten und transparenten Preisen.",
+      "image": {
+        "alt": "Private Sri Lanka-Touren mit Hai Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Sri Lanka Touren | Tages- und Mehrtagespakete | Hallo Sri Lanka",
+      "metaDescription": "Durchsuchen Sie private Sri Lanka-Tagestouren und mehrtägige Reiserouten zu Kultur, Teeland, Tierwelt und Küste mit Hai Sri Lanka Tours."
+    }
+  },
+  "day": {
+    "hero": {
+      "eyebrow": "Tagestouren",
+      "title": "Private Tagesreisen durch Sri Lanka",
+      "subtitle": "Kuratierte eintägige Erlebnisse von der Küste bis zum Kulturdreieck, völlig privat und auf Komfort ausgelegt.",
+      "image": {
+        "alt": "Tagestouren in Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Tagestouren in Sri Lanka | Hai Sri Lanka Touren",
+      "metaDescription": "Durchsuchen Sie private Premium-Tagestouren nach Galle, Sigiriya, Kandy und mehr mit Live-Preisen und flexiblem Tempo."
+    }
+  },
+  "multi-day": {
+    "hero": {
+      "eyebrow": "Mehrtägige Touren",
+      "title": "Mehrtägige Reisen mit stillem Luxus",
+      "subtitle": "Private Reiserouten durch Kultur, Teeland, Tierwelt und Küste, flexible Übernachtungen und vertrauenswürdige Aufenthalte.",
+      "image": {
+        "alt": "Mehrtägige Touren durch Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Mehrtägige Touren in Sri Lanka | Hai Sri Lanka Touren",
+      "metaDescription": "Entdecken Sie private mehrtägige Sri Lanka-Touren mit Boutique-Aufenthalten, fachkundiger Führung und transparenten Preisen."
+    }
+  }
+}

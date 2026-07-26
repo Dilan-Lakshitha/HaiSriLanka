@@ -1,0 +1,115 @@
+{
+  "seo": {
+    "metaTitle": "Hai Sri Lanka Tours｜斯里兰卡私人奢华行程",
+    "metaDescription": "与 Hai Sri Lanka Tours 规划私人斯里兰卡之旅。多日行程、一日游与专业本地向导。"
+  },
+  "hero": {
+    "eyebrow": "私人入境旅行 · 斯里兰卡",
+    "title": "以静奢发现锡兰",
+    "subtitle": "为品味旅人量身定制：寺庙、茶园、野生动物与海岸，从容前行。",
+    "primaryCta": {
+      "label": "探索行程"
+    },
+    "secondaryCta": {
+      "label": "与我们规划"
+    }
+  },
+  "whyChoose": {
+    "eyebrow": "为什么选择 Hai Sri Lanka",
+    "title": "为私人旅行而设计的待客之道",
+    "subtitle": "我们打造平静顺畅的旅程——绝非拥挤的团体巴士——由熟悉每条弯路的主人相伴。",
+    "items": [
+      {
+        "id": "private",
+        "title": "完全私人体验",
+        "description": "专属车辆、您的节奏、您的偏好。每次行程仅供您的同行宾客专享。"
+      },
+      {
+        "id": "experts",
+        "title": "专业本地向导",
+        "description": "精通讲述、安全与静奢待客的司机向导，遍布全岛。"
+      },
+      {
+        "id": "tailored",
+        "title": "量身定制行程",
+        "description": "我们按您的出行方式精调酒店、时间安排与隐秘停留点。"
+      },
+      {
+        "id": "care",
+        "title": "全程贴心照料",
+        "description": "从机场迎接到送机，专属团队陪伴旅程的每一天。"
+      }
+    ]
+  },
+  "tourCategories": {
+    "eyebrow": "行程分类",
+    "title": "选择你与斯里兰卡相遇的方式",
+    "subtitle": "从海岸一日到高地与野生动物的两周——从适合你的风格开始。",
+    "items": [
+      {
+        "id": "day",
+        "title": "一日游",
+        "description": "从科伦坡与海岸基地出发的私人一日行程——要塞、寺庙与风景公路。",
+        "image": {
+          "alt": "斯里兰卡海岸私人一日游"
+        }
+      },
+      {
+        "id": "multi",
+        "title": "多日游",
+        "description": "结合文化、茶园、野生动物与海岸停留的精选环岛路线。",
+        "image": {
+          "alt": "穿越斯里兰卡高地的多日旅程"
+        }
+      },
+      {
+        "id": "wildlife",
+        "title": "野生动物之旅",
+        "description": "亚拉、威尔帕图与乌达瓦拉韦附近的狩猎日与营地住宿。",
+        "image": {
+          "alt": "斯里兰卡国家公园吉普车狩猎"
+        }
+      },
+      {
+        "id": "honeymoon",
+        "title": "蜜月与度假",
+        "description": "隐秘精品住宿、水疗仪式与从容的海岸夜晚。",
+        "image": {
+          "alt": "斯里兰卡情侣奢华海滩度假"
+        }
+      }
+    ]
+  },
+  "featuredMultiDay": {
+    "eyebrow": "精选旅程",
+    "title": "旅客喜爱的多日游",
+    "subtitle": "留有呼吸空间的私人招牌行程：文化、高地与海岸平衡兼顾。",
+    "viewAllLabel": "查看全部多日游"
+  },
+  "featuredDay": {
+    "eyebrow": "完美的一天",
+    "title": "精选一日游",
+    "subtitle": "从科伦坡与西海岸出发的私人一日体验——从容节奏，难忘停留。",
+    "viewAllLabel": "查看全部一日游"
+  },
+  "destinations": {
+    "eyebrow": "目的地",
+    "title": "定义斯里兰卡的地方",
+    "subtitle": "从狮子岩到荷兰要塞城墙——探索塑造精彩行程的区域。",
+    "viewAllLabel": "探索目的地"
+  },
+  "cta": {
+    "eyebrow": "从这里开始",
+    "title": "告诉我们你想怎样旅行",
+    "subtitle": "分享日期、节奏与兴趣——我们将打造值得远行的私人斯里兰卡旅程。",
+    "primaryCta": {
+      "label": "联系我们的规划师"
+    },
+    "secondaryCta": {
+      "label": "浏览行程"
+    }
+  },
+  "map": {
+    "eyebrow": "Travel map"
+  }
+}

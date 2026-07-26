@@ -1,0 +1,93 @@
+{
+  "title": "Explorateur d'île de 12 jours avec hôtels 4 étoiles et transport privé",
+  "seoTitle": "Exploration de l'île de 12 jours avec hôtels 4 étoiles et transport privé | Hai Sri Lanka",
+  "metaDescription": "Circuit privé de 12 jours au Sri Lanka : safari Wilpattu, Sigiriya, baleines de Trincomalee, Kandy, pays du thé, Ella, Galle et Kalutara.",
+  "shortDescription": "Wilpattu, la côte est, les hauts plateaux et le sud en douze jours - hôtels 4 étoiles et transports privés partout.",
+  "overview": "Une exploration privée de onze nuits depuis Wilpattu et le Triangle culturel jusqu'à la côte est de Trincomalee pour l'observation des dauphins et des baleines, la plongée sous-marine et avec tuba.\nRetournez vers l'intérieur des terres via Dambulla et Kandy, montez dans la région du thé et Ella, puis terminez par Galle, les écloseries de tortues et Bentota avant une visite de la ville de Colombo et un départ de l'aéroport - faune, culture, côte est et côte sud dans un circuit sans hâte.",
+  "description": "Une exploration privée de onze nuits depuis Wilpattu et le Triangle culturel jusqu'à la côte est de Trincomalee pour l'observation des dauphins et des baleines, la plongée sous-marine et avec tuba.\nRetournez vers l'intérieur des terres via Dambulla et Kandy, montez dans la région du thé et Ella, puis terminez par Galle, les écloseries de tortues et Bentota avant une visite de la ville de Colombo et un départ de l'aéroport - faune, culture, côte est et côte sud dans un circuit sans hâte.",
+  "duration": "12 jours / 11 nuits",
+  "travelStyle": "Faune",
+  "highlights": [
+    "Safaris à Wilpattu et Minneriya / Kaudulla",
+    "Baleines de Sigiriya, Pidurangala et Trincomalee",
+    "Culture de Kandy et pays du thé des Highlands",
+    "Ella, Galle Fort et finale de Bentota"
+  ],
+  "included": [
+    "Transport privé / chauffeur privé",
+    "Hôtels 4 ÉTOILES",
+    "Petit-déjeuner quotidien",
+    "Service de guides"
+  ],
+  "excluded": [
+    "Vols internationaux",
+    "Déjeuner et dîner",
+    "Frais d'entrée",
+    "Safari en jeep, bateau d'observation des baleines et plongée sous-marine",
+    "Massage ayurvédique"
+  ],
+  "seo": {
+    "metaTitle": "Exploration de l'île de 12 jours avec hôtels 4 étoiles et transport privé | Hai Sri Lanka",
+    "metaDescription": "Circuit privé de 12 jours au Sri Lanka : safari Wilpattu, Sigiriya, baleines de Trincomalee, Kandy, pays du thé, Ella, Galle et Kalutara."
+  },
+  "itinerary": [
+    {
+      "title": "Aéroport / Hôtel – Wilpattu",
+      "description": "Voyagez vers le nord jusqu'à Wilpattu pour un safari dans l'un des parcs nationaux les plus anciens et les plus sauvages du Sri Lanka, puis passez la nuit près de Wilpattu ou d'Anuradhapura."
+    },
+    {
+      "title": "Wilpattu – Sigiriya",
+      "description": "Continuez vers Sigiriya pour escalader le Rocher du Lion, profitez d'une visite du village et détendez-vous avec un massage ayurvédique."
+    },
+    {
+      "title": "Sigirîya",
+      "description": "Grimpez Pidurangala pour admirer le lever du soleil ou une vue panoramique, puis un safari à dos d'éléphant à Minneriya, Kaudulla ou Hurulu Eco Park."
+    },
+    {
+      "title": "Sigiriya – Trincomalee",
+      "description": "Traversez la côte est pour découvrir le temple hindou de Koneswaram et les points de vue de Lover's Leap au-dessus de l'océan Indien."
+    },
+    {
+      "title": "Trincomalee",
+      "description": "Une journée complète sur la côte est pour l'observation des dauphins et des baleines, la plongée sous-marine et le snorkeling dans des eaux claires."
+    },
+    {
+      "title": "Trincomalee – Kandy",
+      "description": "Retournez vers l'intérieur des terres via le temple de la grotte de Dambulla et le jardin d'épices de Matale, puis un musée de pierres précieuses, Upper Lake Drive et une danse culturelle de Kandyan."
+    },
+    {
+      "title": "Kandy – Nuwara Eliya",
+      "description": "Matinée au Temple de la Relique de la Dent, puis montée dans les collines de thé avec la tour Ambuluwawa, visite d'une plantation et d'une usine et visite de la ville de Nuwara Eliya."
+    },
+    {
+      "title": "Nuwara Eliya – Ella",
+      "description": "Randonnée matinale dans le parc national de Horton Plains, puis continuation vers Ella en train panoramique à travers les collines."
+    },
+    {
+      "title": "Ella",
+      "description": "Une journée détendue à Ella : visite de la ville le matin, puis temps libre pour vous détendre dans les collines."
+    },
+    {
+      "title": "Ella – Galle",
+      "description": "Descendez vers la côte sud avec un arrêt aux chutes Ravana, puis explorez le fort historique de Galle."
+    },
+    {
+      "title": "Galle-Kalutara",
+      "description": "Visitez une écloserie de tortues et profitez d'une promenade en bateau Bentota avant de passer la nuit à Kalutara."
+    },
+    {
+      "title": "Kalutara – Aéroport",
+      "description": "Une visite de la ville de Colombo programmée selon votre emploi du temps, puis un retour privé à l'aéroport."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "L'itinéraire peut-il être personnalisé ?",
+      "answer": "Oui. Nous adaptons le rythme, les hôtels et les expériences, y compris les parcs safari et les activités marines, à vos préférences."
+    },
+    {
+      "question": "L’observation des baleines est-elle saisonnière ?",
+      "answer": "L'observation des baleines et des dauphins à Trincomalee est généralement meilleure de mai à octobre. En dehors de la haute saison, nous suggérons la plongée en apnée, la plongée ou d'autres alternatives côtières."
+    }
+  ]
+}

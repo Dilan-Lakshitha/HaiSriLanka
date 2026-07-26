@@ -1,0 +1,82 @@
+{
+  "title": "Wilpattu de 8 días a la costa con hoteles de 4 ESTRELLAS y transporte privado",
+  "seoTitle": "8 días de Wilpattu a la costa con hoteles de 4 ESTRELLAS y transporte privado | hai sri lanka",
+  "metaDescription": "Tour privado de 8 días por Sri Lanka: safari en Wilpattu, Sigiriya, elefantes Kaudulla, Kandy, colinas Ella, Mirissa, Fuerte Galle y playas de la costa sur.",
+  "shortDescription": "Wilpattu a la costa sur en ocho días: vida silvestre, cultura y playa con estadías de 4 ESTRELLAS y transporte privado.",
+  "overview": "Un viaje privado de ocho días que comienza en los lagos salvajes de Wilpattu, un paisaje de safari más tranquilo famoso por los leopardos y la rica biodiversidad, y luego a Sigiriya, la vida del pueblo Habarana, los elefantes Kaudulla y el tiempo de inactividad del Ayurveda.\nContinúe hasta el templo sagrado y el espectáculo cultural de Kandy, suba a través de Ambuluwawa y la región del té hasta Ella para ver Nine Arches y Little Adam's Peak, luego Mirissa para observar ballenas, tortugas y practicar kayak. Termine de manera flexible en Galle Fort, el río Madu y una estadía en la playa o traslado al aeropuerto de su elección.",
+  "description": "Un viaje privado de ocho días que comienza en los lagos salvajes de Wilpattu, un paisaje de safari más tranquilo famoso por los leopardos y la rica biodiversidad, y luego a Sigiriya, la vida del pueblo Habarana, los elefantes Kaudulla y el tiempo de inactividad del Ayurveda.\nContinúe hasta el templo sagrado y el espectáculo cultural de Kandy, suba a través de Ambuluwawa y la región del té hasta Ella para ver Nine Arches y Little Adam's Peak, luego Mirissa para observar ballenas, tortugas y practicar kayak. Termine de manera flexible en Galle Fort, el río Madu y una estadía en la playa o traslado al aeropuerto de su elección.",
+  "duration": "8 Días / 7 Noches",
+  "travelStyle": "Fauna",
+  "highlights": [
+    "Safaris en jeep por Wilpattu y Kaudulla",
+    "Roca de Sigiriya, Pidurangala y Dambulla",
+    "Cultura de Kandy, colinas de té y vistas de Ella",
+    "Ballenas/tortugas de Mirissa y final del Fuerte Galle"
+  ],
+  "included": [
+    "Transporte privado / conductor privado",
+    "Hoteles de 4 ESTRELLAS",
+    "Desayuno diario",
+    "Cena (días 1 a 7)",
+    "Servicio de guía"
+  ],
+  "excluded": [
+    "Vuelos internacionales",
+    "Almuerzo",
+    "Tarifas de entrada",
+    "Jeep safari y barco para avistar ballenas",
+    "Tratamientos de spa ayurvédicos"
+  ],
+  "seo": {
+    "metaTitle": "8 días de Wilpattu a la costa con hoteles de 4 ESTRELLAS y transporte privado | hai sri lanka",
+    "metaDescription": "Tour privado de 8 días por Sri Lanka: safari en Wilpattu, Sigiriya, elefantes Kaudulla, Kandy, colinas Ella, Mirissa, Fuerte Galle y playas de la costa sur."
+  },
+  "itinerary": [
+    {
+      "title": "Aeropuerto / Hotel – Wilpattu – Sigiriya",
+      "description": "Bienvenidos a Sri Lanka. Después de que lo recojan en el aeropuerto o en su hotel, viaje al Parque Nacional Wilpattu, el santuario de vida silvestre más grande y antiguo de la isla, famoso por sus lagos naturales (vellosidades). Disfrute de un safari en jeep con posibilidades de observar leopardos, elefantes, osos perezosos, ciervos, cocodrilos y una rica avifauna en un parque tranquilo y menos concurrido. Continúe hacia Sigiriya para pasar la noche."
+    },
+    {
+      "title": "Sigiriya y Habarana",
+      "description": "Experimente la vida del pueblo Hiriwadunna cerca de Habarana: un paseo panorámico por casas de barro y arrozales, un paseo en bote por el lago y cocina tradicional opcional. Camine por la roca Pidurangala para disfrutar de vistas panorámicas de la fortaleza de Sigiriya. Visite el templo de la cueva de Dambulla, declarado Patrimonio de la Humanidad por la UNESCO, con murales antiguos y estatuas de Buda, luego relájese con Ayurveda en el spa Athreya en Sigiriya."
+    },
+    {
+      "title": "Sigiriya",
+      "description": "Safari en jeep por la mañana en el Parque Nacional Kaudulla para observar manadas de elefantes salvajes alrededor del embalse, además de ciervos, monos y aves. Luego, suba a la Roca del León de Sigiriya, la ciudadela de la UNESCO con frescos, el Muro de los Espejos, la Terraza de la Pata del León y vistas desde la cima de los antiguos jardines acuáticos."
+    },
+    {
+      "title": "Sigiriya-Kandy",
+      "description": "Viaje hacia la capital de la colina a través del jardín de hierbas y especias de Matale. En Kandy, visite el Templo de la Reliquia del Diente Sagrado, disfrute de un espectáculo de danza cultural de Kandy en el Kandy Lake Club, haga una pausa en el lago/mirador de Kandy y explore el Museo Gemológico y de Gemas Naturales."
+    },
+    {
+      "title": "Kandy – Ella",
+      "description": "Suba a las tierras altas a través de la Torre Ambuluwawa para disfrutar de vistas de 360° de las montañas, deténgase en las cataratas Ramboda y visite un centro/jardín de té (Damro Labookellie/Blue Field) para ver la producción de té de Ceilán y probar una taza fresca antes de continuar hacia Ella."
+    },
+    {
+      "title": "ella",
+      "description": "Un día completo en Ella: visite el emblemático Puente de los Nueve Arcos, camine por Little Adam's Peak para disfrutar de las vistas de Ella Gap, deténgase en las cataratas Ravana y disfrute de un pintoresco viaje en tren por una zona montañosa a través de plantaciones de té y montañas brumosas."
+    },
+    {
+      "title": "Ella – Mirissa – Yala",
+      "description": "Descienda a la costa sur para observar ballenas y delfines en Mirissa, observe tortugas marinas en Turtle Beach y disfrute de un safari nocturno en kayak hacia Kamburugamuwa mientras la costa se vuelve dorada. Noche cerca de Yala."
+    },
+    {
+      "title": "Yala – Playa / Aeropuerto",
+      "description": "Final flexible: explore el fuerte holandés de Galle, disfrute de un safari en barco por los manglares del río Madu en Balapitiya y visite el criadero de tortugas en Hikkaduwa. Termine con una estadía en la playa de su elección (Hikkaduwa, Bentota o Kalutara) o traslado al aeropuerto."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Puedo elegir dónde termina el día 8?",
+      "answer": "Sí. Después de las paradas en la costa sur, puedes continuar hasta un hotel de playa en Hikkaduwa, Bentota o Kalutara, o ir directamente al aeropuerto, lo que prefieras."
+    },
+    {
+      "question": "¿El avistamiento de ballenas es estacional?",
+      "answer": "La observación de ballenas y delfines en Mirissa suele ser mejor de noviembre a abril. Fuera de temporada alta sugerimos avistamiento de tortugas, paseos en kayak u otras alternativas costeras."
+    },
+    {
+      "question": "¿Se puede personalizar el itinerario?",
+      "answer": "Sí. Adaptamos el ritmo, los hoteles y las experiencias a tus preferencias."
+    }
+  ]
+}

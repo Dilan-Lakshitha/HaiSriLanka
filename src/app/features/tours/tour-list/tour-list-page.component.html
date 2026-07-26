@@ -30,7 +30,7 @@
             [attr.aria-selected]="vm.category === 'day'"
             [class.is-active]="vm.category === 'day'"
           >
-            Day Tours
+            {{ 'nav.dayTours' | transloco }}
           </a>
           <a
             role="tab"
@@ -38,10 +38,10 @@
             [attr.aria-selected]="vm.category === 'multi-day'"
             [class.is-active]="vm.category === 'multi-day'"
           >
-            Multi-Day Tours
+            {{ 'nav.multiDayTours' | transloco }}
           </a>
           <a class="tour-list__hub-link" [routerLink]="['/', vm.lang, 'sri-lanka-tours']">
-            All tours
+            {{ 'common.allTours' | transloco }}
           </a>
         </div>
       </app-ui-container>
@@ -49,7 +49,7 @@
 
     <section class="tour-list__results" aria-live="polite">
       <app-ui-container>
-        <p class="tour-list__count">{{ vm.tours.length }} tours</p>
+        <p class="tour-list__count">{{ 'common.toursCount' | transloco: { count: vm.tours.length } }}</p>
         <ul class="tour-list__grid">
           @for (tour of vm.tours; track trackBySlug($index, tour)) {
             <li>
@@ -64,7 +64,7 @@
           }
         </ul>
         @if (!vm.tours.length) {
-          <p class="tour-list__empty">No tours available right now.</p>
+          <p class="tour-list__empty">{{ 'common.noTours' | transloco }}</p>
         }
       </app-ui-container>
     </section>

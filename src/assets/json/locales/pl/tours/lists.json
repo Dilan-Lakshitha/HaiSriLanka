@@ -1,0 +1,44 @@
+{
+  "hub": {
+    "hero": {
+      "eyebrow": "Wycieczki po Sri Lance",
+      "title": "Prywatne wycieczki po wyspie",
+      "subtitle": "Wybierz jednodniową lub wielodniową podróż według własnego wyboru, zaufanych pobytów i przejrzystych cen.",
+      "image": {
+        "alt": "Prywatne wycieczki po Sri Lance z Hai Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Wycieczki po Sri Lance | Pakiety dzienne i wielodniowe | Hai Sri Lanka",
+      "metaDescription": "Przeglądaj prywatne jednodniowe wycieczki po Sri Lance i wielodniowe plany podróży związane z kulturą, krajem herbaty, dziką przyrodą i wybrzeżem dzięki Hai Sri Lanka Tours."
+    }
+  },
+  "day": {
+    "hero": {
+      "eyebrow": "Wycieczki jednodniowe",
+      "title": "Prywatne jednodniowe wycieczki po Sri Lance",
+      "subtitle": "Wyselekcjonowane jednodniowe atrakcje od wybrzeża po Trójkąt Kulturowy, w pełni prywatne i zapewniające wygodę.",
+      "image": {
+        "alt": "Jednodniowe wycieczki po Sri Lance"
+      }
+    },
+    "seo": {
+      "metaTitle": "Wycieczki jednodniowe na Sri Lance | Wycieczki po Sri Lance",
+      "metaDescription": "Przeglądaj prywatne wycieczki premium do Galle, Sigiriya, Kandy i nie tylko, korzystając z cen na żywo i elastycznego tempa."
+    }
+  },
+  "multi-day": {
+    "hero": {
+      "eyebrow": "Wycieczki wielodniowe",
+      "title": "Wielodniowe podróże w cichym luksusie",
+      "subtitle": "Prywatne wycieczki obejmujące kulturę, kraj herbaty, dziką przyrodę i wybrzeże, elastyczne noclegi, zaufane pobyty.",
+      "image": {
+        "alt": "Wielodniowe wycieczki na Sri Lankę"
+      }
+    },
+    "seo": {
+      "metaTitle": "Wycieczki wielodniowe na Sri Lance | Wycieczki po Sri Lance",
+      "metaDescription": "Odkryj prywatne wielodniowe wycieczki po Sri Lance z pobytami w butikach, profesjonalnym przewodnikiem i przejrzystymi cenami."
+    }
+  }
+}

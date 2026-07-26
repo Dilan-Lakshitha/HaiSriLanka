@@ -1,99 +1,142 @@
 {
   "brand": {
     "name": "Hai Sri Lanka",
-    "tagline": "Premium inbound journeys across Sri Lanka"
+    "tagline": "Premium inbound-resor genom Sri Lanka"
   },
   "nav": {
-    "home": "Home",
-    "tours": "Tours",
-    "dayTours": "Day Tours",
-    "multiDayTours": "Multi-Day Tours",
-    "destinations": "Destinations",
-    "experiences": "Things To Do",
-    "blog": "Blog",
-    "reviews": "Reviews",
-    "gallery": "Gallery",
-    "contact": "Contact",
-    "about": "About",
+    "home": "Hem",
+    "tours": "Turer",
+    "dayTours": "Dagsutflykter",
+    "multiDayTours": "Flerdagsturer",
+    "destinations": "Destinationer",
+    "experiences": "Att göra",
+    "blog": "Journal",
+    "reviews": "Omdömen",
+    "gallery": "Galleri",
+    "contact": "Kontakt",
+    "about": "Om oss",
     "faq": "FAQ",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "travelGuide": "Travel Guide",
-    "bookNow": "Book Now",
-    "language": "Language",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu",
-    "skipToContent": "Skip to main content"
+    "privacy": "Integritet",
+    "terms": "Villkor",
+    "travelGuide": "Reseguide",
+    "bookNow": "Boka",
+    "language": "Språk",
+    "openMenu": "Öppna meny",
+    "closeMenu": "Stäng meny",
+    "skipToContent": "Hoppa till innehåll",
+    "whatsapp": "WhatsApp",
+    "viewAllTours": "Visa alla turer",
+    "toursMegaCopy": "Privata dagsutflykter och flerdagsresor genom Sri Lanka.",
+    "primary": "Huvudnavigering",
+    "contactLabel": "Kontakt",
+    "social": "Sociala medier"
   },
   "footer": {
-    "explore": "Explore",
-    "company": "Company",
-    "legal": "Legal",
-    "rights": "All rights reserved.",
-    "contactCta": "Plan your journey"
+    "explore": "Utforska",
+    "company": "Företag",
+    "legal": "Juridiskt",
+    "rights": "Alla rättigheter förbehållna.",
+    "contactCta": "Planera din resa",
+    "newsletterThanks": "Tack — du är på listan."
   },
   "common": {
-    "loading": "Loading…",
-    "learnMore": "Learn more",
-    "viewAll": "View all",
-    "from": "From",
+    "loading": "Laddar…",
+    "learnMore": "Läs mer",
+    "viewAll": "Visa alla",
+    "from": "Från",
     "perPerson": "per person",
-    "comingSoon": "This page foundation is ready. Content arrives in the next feature phase.",
-    "backHome": "Back to home",
-    "notFoundTitle": "Page not found",
-    "notFoundBody": "The page you requested does not exist or has moved."
+    "comingSoon": "Sidan är redo. Innehåll kommer snart.",
+    "backHome": "Tillbaka till hem",
+    "notFoundTitle": "Sidan hittades inte",
+    "notFoundBody": "Den begärda sidan finns inte eller har flyttats.",
+    "freeCancellation": "Gratis avbokning",
+    "payAtDestination": "Betala på plats",
+    "toursCount": "{{count}} turer",
+    "toursReady": "{{count}} turer redo att boka",
+    "noTours": "Inga turer tillgängliga just nu.",
+    "noToursCategory": "Inga turer i denna kategori.",
+    "openFullDayList": "Öppna full daglista",
+    "openFullMultiList": "Öppna full flerdagslista",
+    "quickView": "Snabbvy",
+    "compare": "Jämför",
+    "compared": "Jämförd",
+    "wishlist": "Önskelista",
+    "saved": "Sparad",
+    "allTours": "Alla turer"
+  },
+  "booking": {
+    "title": "Boka din tur",
+    "eyebrow": "Boka denna tur",
+    "privateInquiry": "Privat förfrågan",
+    "travelers": "Resenärer",
+    "date": "Resedatum",
+    "details": "Resenärsuppgifter",
+    "summary": "Bokningsöversikt",
+    "confirm": "Bekräfta bokning",
+    "success": "Förfrågan skickad",
+    "perPerson": "Pris per person",
+    "total": "Totalt",
+    "emailNote": "Du och vårt team får bekräftelse via e-post.",
+    "freeCancel": "Gratis avbokning",
+    "payLater": "Betala senare",
+    "payAtDestination": "Betala på plats",
+    "whatsappAdmin": "WhatsApp turadministratör"
+  },
+  "placeholder": {
+    "pageTitle": "{{page}}",
+    "foundationReady": "Grund klar"
   },
   "seo": {
     "home": {
-      "title": "Hai Sri Lanka Tours | Premium Sri Lanka Travel",
-      "description": "Private day tours and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
+      "title": "Hai Sri Lanka Turer | Premium Sri Lanka Resor",
+      "description": "Private Dagsutflykts and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
     },
     "about": {
-      "title": "About Us | Hai Sri Lanka Tours",
+      "title": "Om oss Us | Hai Sri Lanka Turer",
       "description": "Meet Hai Sri Lanka Tours a premium inbound tourism company crafting private Sri Lankan journeys."
     },
     "toursHub": {
-      "title": "Sri Lanka Tours | Hai Sri Lanka",
-      "description": "Browse private day tours and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
+      "title": "Sri Lanka Turer | Hai Sri Lanka",
+      "description": "Browse private Dagsutflykts and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
     },
     "dayTours": {
-      "title": "Day Tours in Sri Lanka | Hai Sri Lanka",
-      "description": "Private day tours across Sri Lanka Galle, culture, wildlife, and more."
+      "title": "Day Turer in Sri Lanka | Hai Sri Lanka",
+      "description": "Private Dagsutflykts across Sri Lanka Galle, culture, wildlife, and more."
     },
     "multiDayTours": {
-      "title": "Multi-Day Sri Lanka Tours | Hai Sri Lanka",
+      "title": "Flerdagars Sri Lanka Turer | Hai Sri Lanka",
       "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
     },
     "destinations": {
-      "title": "Sri Lanka Destinations | Hai Sri Lanka",
+      "title": "Sri Lanka Destinationer | Hai Sri Lanka",
       "description": "Explore top Sri Lanka destinations with local expertise from Hai Sri Lanka Tours."
     },
     "travelGuide": {
-      "title": "Sri Lanka Travel Guide | Hai Sri Lanka",
+      "title": "Sri Lanka Resor Guide | Hai Sri Lanka",
       "description": "Practical Sri Lanka travel guidance from Hai Sri Lanka Tours."
     },
     "thingsToDo": {
-      "title": "Things To Do in Sri Lanka | Hai Sri Lanka",
+      "title": "Att göra in Sri Lanka | Hai Sri Lanka",
       "description": "Experiences and things to do across Sri Lanka with Hai Sri Lanka Tours."
     },
     "reviews": {
-      "title": "Guest Reviews | Hai Sri Lanka Tours",
+      "title": "Guest Omdömen | Hai Sri Lanka Turer",
       "description": "Read Google and TripAdvisor reviews from Hai Sri Lanka travelers."
     },
     "gallery": {
-      "title": "Gallery | Hai Sri Lanka Tours",
+      "title": "Galleri | Hai Sri Lanka Turer",
       "description": "A visual journey through Sri Lanka with Hai Sri Lanka Tours."
     },
     "faq": {
-      "title": "FAQ | Hai Sri Lanka Tours",
+      "title": "FAQ | Hai Sri Lanka Turer",
       "description": "Frequently asked questions about booking and traveling with Hai Sri Lanka."
     },
     "contact": {
-      "title": "Contact | Hai Sri Lanka Tours",
+      "title": "Kontakt | Hai Sri Lanka Turer",
       "description": "Contact Hai Sri Lanka Tours to plan your private Sri Lanka journey."
     },
     "blog": {
-      "title": "Travel Blog | Hai Sri Lanka",
+      "title": "Resor Blogg | Hai Sri Lanka",
       "description": "Sri Lanka travel tips, guides, and stories from Hai Sri Lanka Tours."
     },
     "booking": {
@@ -101,32 +144,37 @@
       "description": "Request a private tour booking with Hai Sri Lanka Tours. No online payment required."
     },
     "privacy": {
-      "title": "Privacy Policy | Hai Sri Lanka",
+      "title": "Integritet Policy | Hai Sri Lanka",
       "description": "Privacy policy for HaiSriLanka.com."
     },
     "terms": {
-      "title": "Terms of Service | Hai Sri Lanka",
+      "title": "Villkor of Service | Hai Sri Lanka",
       "description": "Terms of service for Hai Sri Lanka Tours."
     },
     "notFound": {
-      "title": "Page Not Found | Hai Sri Lanka",
+      "title": "Sidan hittades inte | Hai Sri Lanka",
       "description": "The requested page could not be found."
     }
   },
-  "booking": {
-    "title": "Book your tour",
-    "travelers": "Travelers",
-    "date": "Travel date",
-    "details": "Traveler details",
-    "summary": "Booking summary",
-    "confirm": "Confirm booking",
-    "success": "Booking request sent",
-    "perPerson": "Price per person",
-    "total": "Total",
-    "emailNote": "You and our team will receive confirmation by email."
-  },
-  "placeholder": {
-    "pageTitle": "{{page}}",
-    "foundationReady": "Foundation ready"
+  "tour": {
+    "badge": {
+      "best-seller": "Bästsäljare",
+      "featured": "Utvald",
+      "luxury": "Lyx",
+      "family": "Familj",
+      "adventure": "Äventyr",
+      "wildlife": "Wildlife",
+      "culture": "Kultur"
+    },
+    "style": {
+      "culture": "Kultur",
+      "wildlife": "Wildlife",
+      "adventure": "Äventyr",
+      "luxury": "Lyx",
+      "family": "Familj",
+      "privateDay": "Privat dagsutflykt",
+      "privateMulti": "Privat flerdagsresa",
+      "beach": "Strand & kust"
+    }
   }
 }

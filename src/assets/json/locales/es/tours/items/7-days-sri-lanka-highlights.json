@@ -1,0 +1,67 @@
+{
+  "title": "Lo más destacado de Sri Lanka de 7 días con hoteles de 4 ESTRELLAS y transporte privado",
+  "seoTitle": "Lo más destacado de Sri Lanka de 7 días con hoteles de 4 ESTRELLAS y transporte privado | hai sri lanka",
+  "metaDescription": "Experimente lo más destacado de Sri Lanka en 7 días de cultura, región del té, vida silvestre y costa con un itinerario privado de Hai Sri Lanka.",
+  "shortDescription": "El circuito esencial de Sri Lanka: cultura, vida silvestre, región del té y costa con hoteles de 4 ESTRELLAS y un conductor privado.",
+  "overview": "Un circuito privado de siete días diseñado como la experiencia esencial de Sri Lanka. Pase de los íconos del Triángulo Cultural a las plantaciones de té de las tierras altas, luego a la vida silvestre y a un suave final costero.\nLos días están marcados por la comodidad y el descubrimiento: vehículo privado en todo momento, estadías cuidadosamente elegidas y tiempo suficiente en cada parada para sentir la isla en lugar de pasar corriendo por ella.",
+  "description": "Un circuito privado de siete días diseñado como la experiencia esencial de Sri Lanka. Pase de los íconos del Triángulo Cultural a las plantaciones de té de las tierras altas, luego a la vida silvestre y a un suave final costero.\nLos días están marcados por la comodidad y el descubrimiento: vehículo privado en todo momento, estadías cuidadosamente elegidas y tiempo suficiente en cada parada para sentir la isla en lugar de pasar corriendo por ella.",
+  "duration": "7 Días / 6 Noches",
+  "travelStyle": "Fauna",
+  "highlights": [
+    "Iconos del Triángulo Cultural",
+    "Inmersión en el país del té",
+    "final de la costa sur",
+    "Vehículo privado en todo"
+  ],
+  "included": [
+    "Transporte privado / conductor privado",
+    "Hoteles de 4 ESTRELLAS",
+    "Desayuno diario",
+    "Servicio de guía"
+  ],
+  "excluded": [
+    "Vuelos internacionales",
+    "Almuerzo y cena",
+    "Tarifas de entrada"
+  ],
+  "seo": {
+    "metaTitle": "Lo más destacado de Sri Lanka de 7 días con hoteles de 4 ESTRELLAS y transporte privado | hai sri lanka",
+    "metaDescription": "Experimente lo más destacado de Sri Lanka en 7 días de cultura, región del té, vida silvestre y costa con un itinerario privado de Hai Sri Lanka."
+  },
+  "itinerary": [
+    {
+      "title": "Llegada y Costa Oeste",
+      "description": "Bienvenida en el aeropuerto y agradable instalación cerca de Negombo o Colombo con tiempo para recuperarse del viaje."
+    },
+    {
+      "title": "Hacia el Triángulo Cultural",
+      "description": "Viaje tierra adentro a través de paisajes rurales hacia el campo de las ciudades antiguas."
+    },
+    {
+      "title": "Sigiriya y Dambulla",
+      "description": "Suba a Lion Rock y visite el templo de la cueva de Dambulla con un ritmo y un tiempo de recuperación considerados."
+    },
+    {
+      "title": "kandy",
+      "description": "Continúe hasta la capital de las tierras altas para visitar el Templo del Diente y la atmósfera junto al lago."
+    },
+    {
+      "title": "País del té",
+      "description": "Sube a las brumosas plantaciones de té alrededor de Nuwara Eliya para saborear el aire de las tierras altas."
+    },
+    {
+      "title": "Costa Sur",
+      "description": "Descienda hacia la costa sur con Galle Fort y la luz de la playa."
+    },
+    {
+      "title": "Partida",
+      "description": "Mañana libre y traslado privado al aeropuerto programado para su vuelo."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Se puede personalizar el itinerario?",
+      "answer": "Sí. Adaptamos el ritmo, los hoteles y las experiencias a tus preferencias."
+    }
+  ]
+}

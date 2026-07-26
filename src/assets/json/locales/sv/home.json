@@ -1,0 +1,262 @@
+{
+  "seo": {
+    "metaTitle": "Hai Sri Lanka Tours | Privata lyxturer i Sri Lanka",
+    "metaDescription": "Planera en privat Sri Lanka-resa med Hai Sri Lanka Tours. Lyxiga flerdagarsresplaner, kurerade dagsturer och experter på lokala värdar över hela ön."
+  },
+  "hero": {
+    "eyebrow": "Privata inkommande resor · Sri Lanka",
+    "title": "Upptäck Ceylon i lugn lyx",
+    "subtitle": "Skräddarsydda resor genom tempel, teland, djurliv och kusttempo för kräsna resenärer.",
+    "image": {
+      "alt": "Nine Arch Bridge och teland nära Ella, Sri Lanka",
+      "title": "Ella Nine Arch Bridge"
+    },
+    "images": [
+      {
+        "alt": "Gäster och guide njuter av kungkokosnötter i ett stopp vid floden i djungeln i Sri Lanka",
+        "title": "Lokal gästfrihet"
+      },
+      {
+        "alt": "Resenärer på Sri Lanka jeepsafari med elefanter i närheten",
+        "title": "Safari-ögonblick"
+      },
+      {
+        "alt": "Resenärer med sin guide vid Dambulla Cave Temple i Sri Lanka",
+        "title": "Tempelbesök"
+      },
+      {
+        "alt": "Leopard vilar på en sandig bana i Yala National Park",
+        "title": "Yala djurliv"
+      },
+      {
+        "alt": "Nine Arch Bridge reser sig över teplantager i Ella",
+        "title": "Ella höglandet"
+      }
+    ]
+  },
+  "search": {
+    "title": "Hitta din resa",
+    "subtitle": "Sök privata turer efter destination, varaktighet och resstil.",
+    "destinations": [
+      {
+        "label": "Var som helst i Sri Lanka"
+      },
+      {
+        "label": "Galle & Sydkusten"
+      },
+      {
+        "label": "Kulturell triangel"
+      },
+      {
+        "label": "Kandy och höglandet"
+      },
+      {
+        "label": "Yala och vilda djur"
+      },
+      {
+        "label": "Ostkust"
+      }
+    ],
+    "durations": [
+      {
+        "label": "Vilken varaktighet som helst"
+      },
+      {
+        "label": "Dagsturer"
+      },
+      {
+        "label": "3–7 dagar"
+      },
+      {
+        "label": "8–14 dagar"
+      },
+      {
+        "label": "15+ dagar"
+      }
+    ],
+    "styles": [
+      {
+        "label": "Alla stilar"
+      },
+      {
+        "label": "Kultur & arv"
+      },
+      {
+        "label": "Vilda djur och växter"
+      },
+      {
+        "label": "Strand & kust"
+      },
+      {
+        "label": "Lyx & wellness"
+      },
+      {
+        "label": "Familj"
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Varför Hai Sri Lanka",
+    "title": "Gästfrihet utformad för privata resor",
+    "subtitle": "Vi designar lugna, sömlösa resor aldrig trånga gruppbussar med värdar som kan varje slingrande väg.",
+    "items": [
+      {
+        "title": "Helt privata upplevelser",
+        "description": "Ditt fordon, din takt, dina preferenser. Varje turné är reserverad exklusivt för din fest.",
+        "id": "private"
+      },
+      {
+        "title": "Expert lokala värdar",
+        "description": "Chaufför-guider utbildade i berättande, säkerhet och tyst lyxig gästfrihet över hela ön.",
+        "id": "experts"
+      },
+      {
+        "title": "Skräddarsydda resplaner",
+        "description": "Vi förfinar hotell, timing och dolda stopp för att matcha hur du föredrar att resa.",
+        "id": "tailored"
+      },
+      {
+        "title": "Vård från slut till slut",
+        "description": "Från flygplats välkommen till avskedstransfer, ett dedikerat team stödjer varje dag på din resa.",
+        "id": "care"
+      }
+    ]
+  },
+  "tourCategories": {
+    "eyebrow": "Tour kategorier",
+    "title": "Välj hur du möter Sri Lanka",
+    "subtitle": "Från en enskild dag vid kusten till två veckor av högland och vilda djur, börja med den stil som passar dig.",
+    "items": [
+      {
+        "title": "Dagsturer",
+        "description": "Privata dagars flykter från Colombo och kustbaser, fort, tempel och natursköna bilturer.",
+        "image": {
+          "alt": "Privat dagstur längs Sri Lankas kust"
+        },
+        "id": "day"
+      },
+      {
+        "title": "Flerdagarsturer",
+        "description": "Kurerade ökretsar som kombinerar kultur, teland, djurliv och strandvistelser.",
+        "image": {
+          "alt": "Flerdagarsresa genom Sri Lankas högland"
+        },
+        "id": "multi"
+      },
+      {
+        "title": "Vilda resor",
+        "description": "Safaridagar och övernattningsställen nära Yala, Wilpattu och Udawalawe.",
+        "image": {
+          "alt": "Jeepsafari i Sri Lankas djurparker"
+        },
+        "id": "wildlife"
+      },
+      {
+        "title": "Smekmånad & Escape",
+        "description": "Avskilda boutiquevistelser, spa-ritualer och lugna kustkvällar.",
+        "image": {
+          "alt": "Lyxig strandflykt för par i Sri Lanka"
+        },
+        "id": "honeymoon"
+      }
+    ]
+  },
+  "featuredMultiDay": {
+    "eyebrow": "Utvalda resor",
+    "title": "Flerdagarsturer som resenärer älskar",
+    "subtitle": "Signatur privata resplaner med utrymme att andas kultur, högland och kust i balans.",
+    "viewAllLabel": "Se alla flerdagarsturer"
+  },
+  "featuredDay": {
+    "eyebrow": "En perfekt dag",
+    "title": "Utvalda dagsturer",
+    "subtitle": "Privata dagsupplevelser från Colombo och västkusten förfinat tempo, minnesvärda stopp.",
+    "viewAllLabel": "Se alla dagsturer"
+  },
+  "destinations": {
+    "eyebrow": "Destinationer",
+    "title": "Platser som definierar Sri Lanka",
+    "subtitle": "Från Lion Rock till holländska fortmurar utforska de regioner som formar alla fantastiska resplaner.",
+    "viewAllLabel": "Utforska destinationer"
+  },
+  "map": {
+    "eyebrow": "Resekarta",
+    "title": "En ö av regioner, perfekt sammankopplade",
+    "subtitle": "Vi koreograferar rutter så att kulturtriangeln, höglandet, vilda djur och kuster känns naturliga aldrig förhastade.",
+    "image": {
+      "alt": "Nine Arch Bridge i Ella som representerar reseregioner i Sri Lanka",
+      "title": "Sri Lanka reseregioner"
+    },
+    "regions": [
+      {
+        "name": "Kulturell triangel",
+        "description": "Sigiriya, Polonnaruwa, Dambulla och Anuradhapura.",
+        "id": "triangle"
+      },
+      {
+        "name": "Hill Country",
+        "description": "Kandy, Nuwara Eliya, tegårdar och dimmiga stigar.",
+        "id": "highlands"
+      },
+      {
+        "name": "Sydkusten",
+        "description": "Galle Fort, Mirissa och lugna boutiquestränder.",
+        "id": "south"
+      },
+      {
+        "name": "Vilda parker",
+        "description": "Yala, Udawalawe och Wilpattu safari morgnar.",
+        "id": "wildlife"
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Gästberättelser",
+    "title": "Betrodd av resenärer över hela världen",
+    "subtitle": "Ord från gäster som reste med Hai Sri Lanka på Google och TripAdvisor.",
+    "viewAllLabel": "Läs alla recensioner"
+  },
+  "stats": {
+    "eyebrow": "Med siffrorna",
+    "title": "Resor som känns övervägda",
+    "items": [
+      {
+        "label": "Privata gäster var värd",
+        "id": "guests"
+      },
+      {
+        "label": "Genomsnittligt gästbetyg",
+        "id": "rating"
+      },
+      {
+        "label": "År av inbound expertis",
+        "id": "years"
+      },
+      {
+        "label": "Återkommande & hänvisade resenärer",
+        "id": "repeat"
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Resedagbok",
+    "title": "Idéer för din Sri Lanka-resa",
+    "subtitle": "Praktiska guider och säsongsinsikter från vårt planeringsteam.",
+    "viewAllLabel": "Besök bloggen"
+  },
+  "faq": {
+    "eyebrow": "Frågor",
+    "title": "Vanliga frågor",
+    "subtitle": "Tydliga svar innan du begär en privat resplan.",
+    "viewAllLabel": "Se alla vanliga frågor"
+  },
+  "cta": {
+    "eyebrow": "Börja här",
+    "title": "Berätta hur du vill resa",
+    "subtitle": "Dela dina datum, tempo och intressen vi kommer att skapa en privat Sri Lanka-resa värd resan.",
+    "image": {
+      "alt": "Nine Arch Bridge reser sig över teplantager i Ella, Sri Lanka",
+      "title": "Ella Nine Arch Bridge"
+    }
+  }
+}

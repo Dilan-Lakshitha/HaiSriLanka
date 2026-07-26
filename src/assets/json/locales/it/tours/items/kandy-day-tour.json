@@ -1,0 +1,34 @@
+{
+  "title": "Tour di un giorno a Kandy",
+  "seoTitle": "Tour di un giorno a Kandy | Hai Sri Lanka",
+  "metaDescription": "Tour privato di un giorno a Kandy con il Tempio del Dente e lo scenario dell'altopiano.",
+  "shortDescription": "Tempio del Dente, colline panoramiche e cuore culturale degli altopiani.",
+  "overview": "Una giornata privata nella capitale collinare dello Sri Lanka, incentrata sul Tempio della Sacra Reliquia del Dente, uno dei siti buddisti più importanti dell'isola. Esplora il complesso del tempio, osserva la devozione locale e immergiti nell'ambiente lacustre di Kandy.\nGoditi i punti panoramici sulla città e sulle colline circostanti, con tempo facoltativo ai Giardini Botanici Reali o ad altre attrazioni dell'altopiano. La tua guida con autista mantiene la giornata flessibile in modo che tu possa soffermarti dove l'atmosfera sembra giusta.",
+  "description": "Una giornata privata nella capitale collinare dello Sri Lanka, incentrata sul Tempio della Sacra Reliquia del Dente, uno dei siti buddisti più importanti dell'isola. Esplora il complesso del tempio, osserva la devozione locale e immergiti nell'ambiente lacustre di Kandy.\nGoditi i punti panoramici sulla città e sulle colline circostanti, con tempo facoltativo ai Giardini Botanici Reali o ad altre attrazioni dell'altopiano. La tua guida con autista mantiene la giornata flessibile in modo che tu possa soffermarti dove l'atmosfera sembra giusta.",
+  "duration": "1 giorno",
+  "travelStyle": "Cultura",
+  "highlights": [
+    "Tempio del dente",
+    "Vista sulla città sul lago",
+    "Scenario del gateway dell'altopiano"
+  ],
+  "included": [
+    "Veicolo privato",
+    "Guida con autista"
+  ],
+  "excluded": [
+    "Biglietti d'ingresso",
+    "Pranzo"
+  ],
+  "seo": {
+    "metaTitle": "Tour di un giorno a Kandy | Hai Sri Lanka",
+    "metaDescription": "Tour privato di un giorno a Kandy con il Tempio del Dente e lo scenario dell'altopiano."
+  },
+  "itinerary": [
+    {
+      "title": "Il sacro Kandy",
+      "description": "Una giornata culturale privata incentrata sul Tempio della Reliquia del Dente e sulla tranquilla atmosfera lacustre di Kandy."
+    }
+  ],
+  "faqs": []
+}

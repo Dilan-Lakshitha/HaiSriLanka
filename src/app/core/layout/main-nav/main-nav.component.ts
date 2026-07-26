@@ -6,12 +6,13 @@ import {
   signal,
 } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { TranslocoPipe } from '@jsverse/transloco';
 import type { NavItem } from '../../models';
 
 @Component({
   selector: 'app-main-nav',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive],
+  imports: [RouterLink, RouterLinkActive, TranslocoPipe],
   templateUrl: './main-nav.component.html',
   styleUrl: './main-nav.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -25,10 +26,6 @@ export class MainNavComponent {
 
   buildLink(path: string): string[] {
     return path ? ['/', this.lang(), path] : ['/', this.lang()];
-  }
-
-  labelOf(item: NavItem): string {
-    return item.label ?? item.key;
   }
 
   open(key: string): void {

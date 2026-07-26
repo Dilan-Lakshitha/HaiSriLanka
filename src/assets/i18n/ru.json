@@ -1,99 +1,142 @@
 {
   "brand": {
     "name": "Hai Sri Lanka",
-    "tagline": "Premium inbound journeys across Sri Lanka"
+    "tagline": "Премиальные inbound-путешествия по Шри-Ланке"
   },
   "nav": {
-    "home": "Home",
-    "tours": "Tours",
-    "dayTours": "Day Tours",
-    "multiDayTours": "Multi-Day Tours",
-    "destinations": "Destinations",
-    "experiences": "Things To Do",
-    "blog": "Blog",
-    "reviews": "Reviews",
-    "gallery": "Gallery",
-    "contact": "Contact",
-    "about": "About",
+    "home": "Главная",
+    "tours": "Туры",
+    "dayTours": "Однодневные туры",
+    "multiDayTours": "Многодневные туры",
+    "destinations": "Направления",
+    "experiences": "Чем заняться",
+    "blog": "Журнал",
+    "reviews": "Отзывы",
+    "gallery": "Галерея",
+    "contact": "Контакты",
+    "about": "О нас",
     "faq": "FAQ",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "travelGuide": "Travel Guide",
-    "bookNow": "Book Now",
-    "language": "Language",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu",
-    "skipToContent": "Skip to main content"
+    "privacy": "Конфиденциальность",
+    "terms": "Условия",
+    "travelGuide": "Путеводитель",
+    "bookNow": "Забронировать",
+    "language": "Язык",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню",
+    "skipToContent": "К содержимому",
+    "whatsapp": "WhatsApp",
+    "viewAllTours": "Все туры",
+    "toursMegaCopy": "Частные однодневные и многодневные путешествия по Шри-Ланке.",
+    "primary": "Основная навигация",
+    "contactLabel": "Контакты",
+    "social": "Соцсети"
   },
   "footer": {
-    "explore": "Explore",
-    "company": "Company",
-    "legal": "Legal",
-    "rights": "All rights reserved.",
-    "contactCta": "Plan your journey"
+    "explore": "Обзор",
+    "company": "Компания",
+    "legal": "Правовая информация",
+    "rights": "Все права защищены.",
+    "contactCta": "Спланировать поездку",
+    "newsletterThanks": "Спасибо — вы в списке."
   },
   "common": {
-    "loading": "Loading…",
-    "learnMore": "Learn more",
-    "viewAll": "View all",
-    "from": "From",
-    "perPerson": "per person",
-    "comingSoon": "This page foundation is ready. Content arrives in the next feature phase.",
-    "backHome": "Back to home",
-    "notFoundTitle": "Page not found",
-    "notFoundBody": "The page you requested does not exist or has moved."
+    "loading": "Загрузка…",
+    "learnMore": "Подробнее",
+    "viewAll": "Смотреть все",
+    "from": "От",
+    "perPerson": "с человека",
+    "comingSoon": "Страница готова. Контент появится позже.",
+    "backHome": "На главную",
+    "notFoundTitle": "Страница не найдена",
+    "notFoundBody": "Запрошенная страница не существует или была перемещена.",
+    "freeCancellation": "Бесплатная отмена",
+    "payAtDestination": "Оплата на месте",
+    "toursCount": "{{count}} туров",
+    "toursReady": "{{count}} туров готовы к бронированию",
+    "noTours": "Туры сейчас недоступны.",
+    "noToursCategory": "В этой категории нет туров.",
+    "openFullDayList": "Открыть полный список дней",
+    "openFullMultiList": "Открыть полный многодневный список",
+    "quickView": "Быстрый просмотр",
+    "compare": "Сравнить",
+    "compared": "Сравнено",
+    "wishlist": "Избранное",
+    "saved": "Сохранено",
+    "allTours": "Все туры"
+  },
+  "booking": {
+    "title": "Забронируйте тур",
+    "eyebrow": "Забронировать этот тур",
+    "privateInquiry": "Частный запрос",
+    "travelers": "Путешественники",
+    "date": "Дата поездки",
+    "details": "Данные путешественников",
+    "summary": "Сводка бронирования",
+    "confirm": "Подтвердить бронирование",
+    "success": "Запрос отправлен",
+    "perPerson": "Цена с человека",
+    "total": "Итого",
+    "emailNote": "Вы и наша команда получите подтверждение по электронной почте.",
+    "freeCancel": "Бесплатная отмена",
+    "payLater": "Оплатить позже",
+    "payAtDestination": "Оплата на месте",
+    "whatsappAdmin": "WhatsApp администратора тура"
+  },
+  "placeholder": {
+    "pageTitle": "{{page}}",
+    "foundationReady": "Основа готова"
   },
   "seo": {
     "home": {
-      "title": "Hai Sri Lanka Tours | Premium Sri Lanka Travel",
-      "description": "Private day tours and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
+      "title": "Hai Sri Lanka Туры | Premium Sri Lanka Путешествия",
+      "description": "Private Однодневный турs and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
     },
     "about": {
-      "title": "About Us | Hai Sri Lanka Tours",
+      "title": "О нас Us | Hai Sri Lanka Туры",
       "description": "Meet Hai Sri Lanka Tours a premium inbound tourism company crafting private Sri Lankan journeys."
     },
     "toursHub": {
-      "title": "Sri Lanka Tours | Hai Sri Lanka",
-      "description": "Browse private day tours and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
+      "title": "Sri Lanka Туры | Hai Sri Lanka",
+      "description": "Browse private Однодневный турs and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
     },
     "dayTours": {
-      "title": "Day Tours in Sri Lanka | Hai Sri Lanka",
-      "description": "Private day tours across Sri Lanka Galle, culture, wildlife, and more."
+      "title": "Day Туры in Sri Lanka | Hai Sri Lanka",
+      "description": "Private Однодневный турs across Sri Lanka Galle, culture, wildlife, and more."
     },
     "multiDayTours": {
-      "title": "Multi-Day Sri Lanka Tours | Hai Sri Lanka",
+      "title": "Многодневные Sri Lanka Туры | Hai Sri Lanka",
       "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
     },
     "destinations": {
-      "title": "Sri Lanka Destinations | Hai Sri Lanka",
+      "title": "Sri Lanka Направления | Hai Sri Lanka",
       "description": "Explore top Sri Lanka destinations with local expertise from Hai Sri Lanka Tours."
     },
     "travelGuide": {
-      "title": "Sri Lanka Travel Guide | Hai Sri Lanka",
+      "title": "Sri Lanka Путешествия Путеводитель | Hai Sri Lanka",
       "description": "Practical Sri Lanka travel guidance from Hai Sri Lanka Tours."
     },
     "thingsToDo": {
-      "title": "Things To Do in Sri Lanka | Hai Sri Lanka",
+      "title": "Развлечения in Sri Lanka | Hai Sri Lanka",
       "description": "Experiences and things to do across Sri Lanka with Hai Sri Lanka Tours."
     },
     "reviews": {
-      "title": "Guest Reviews | Hai Sri Lanka Tours",
+      "title": "Guest Отзывы | Hai Sri Lanka Туры",
       "description": "Read Google and TripAdvisor reviews from Hai Sri Lanka travelers."
     },
     "gallery": {
-      "title": "Gallery | Hai Sri Lanka Tours",
+      "title": "Галерея | Hai Sri Lanka Туры",
       "description": "A visual journey through Sri Lanka with Hai Sri Lanka Tours."
     },
     "faq": {
-      "title": "FAQ | Hai Sri Lanka Tours",
+      "title": "FAQ | Hai Sri Lanka Туры",
       "description": "Frequently asked questions about booking and traveling with Hai Sri Lanka."
     },
     "contact": {
-      "title": "Contact | Hai Sri Lanka Tours",
+      "title": "Контакты | Hai Sri Lanka Туры",
       "description": "Contact Hai Sri Lanka Tours to plan your private Sri Lanka journey."
     },
     "blog": {
-      "title": "Travel Blog | Hai Sri Lanka",
+      "title": "Путешествия Блог | Hai Sri Lanka",
       "description": "Sri Lanka travel tips, guides, and stories from Hai Sri Lanka Tours."
     },
     "booking": {
@@ -101,32 +144,37 @@
       "description": "Request a private tour booking with Hai Sri Lanka Tours. No online payment required."
     },
     "privacy": {
-      "title": "Privacy Policy | Hai Sri Lanka",
+      "title": "Конфиденциальность Policy | Hai Sri Lanka",
       "description": "Privacy policy for HaiSriLanka.com."
     },
     "terms": {
-      "title": "Terms of Service | Hai Sri Lanka",
+      "title": "Условия of Service | Hai Sri Lanka",
       "description": "Terms of service for Hai Sri Lanka Tours."
     },
     "notFound": {
-      "title": "Page Not Found | Hai Sri Lanka",
+      "title": "Страница не найдена | Hai Sri Lanka",
       "description": "The requested page could not be found."
     }
   },
-  "booking": {
-    "title": "Book your tour",
-    "travelers": "Travelers",
-    "date": "Travel date",
-    "details": "Traveler details",
-    "summary": "Booking summary",
-    "confirm": "Confirm booking",
-    "success": "Booking request sent",
-    "perPerson": "Price per person",
-    "total": "Total",
-    "emailNote": "You and our team will receive confirmation by email."
-  },
-  "placeholder": {
-    "pageTitle": "{{page}}",
-    "foundationReady": "Foundation ready"
+  "tour": {
+    "badge": {
+      "best-seller": "Бестселлер",
+      "featured": "Избранное",
+      "luxury": "Люкс",
+      "family": "Семья",
+      "adventure": "Приключения",
+      "wildlife": "Дикая природа",
+      "culture": "Культура"
+    },
+    "style": {
+      "culture": "Культура",
+      "wildlife": "Дикая природа",
+      "adventure": "Приключения",
+      "luxury": "Люкс",
+      "family": "Семья",
+      "privateDay": "Частный однодневный тур",
+      "privateMulti": "Частное многодневное путешествие",
+      "beach": "Пляж и побережье"
+    }
   }
 }

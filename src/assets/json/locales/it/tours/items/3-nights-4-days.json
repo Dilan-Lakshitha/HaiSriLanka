@@ -1,0 +1,60 @@
+{
+  "title": "Fuga di 4 giorni a Ceylon con hotel a 4 stelle e trasporto privato",
+  "seoTitle": "Fuga di 4 giorni a Ceylon con hotel a 4 stelle e trasporto privato | Hai Sri Lanka",
+  "metaDescription": "Tour privato di 4 giorni nello Sri Lanka: Kandy, Ella, safari a Yala, osservazione delle balene a Mirissa, Forte di Galle e Bentota.",
+  "shortDescription": "Kandy, Ella, Yala e la costa meridionale in quattro giorni: hotel a 4 STELLE e autista privato ovunque.",
+  "overview": "Un viaggio privato compatto di quattro giorni dagli altopiani alla costa meridionale. Inizia con la cultura di Kandy e la regione del tè, prosegui con il treno panoramico fino a Ella, poi la fauna selvatica nel Parco Nazionale di Yala.\nIl tuo finale segue la costa meridionale - Mirissa per l'oceano, Galle Fort per il patrimonio e Bentota per un safari in barca - prima del rientro in hotel o all'aeroporto. Ideale quando desideri le principali attrazioni classiche dello Sri Lanka senza un lungo itinerario.",
+  "description": "Un viaggio privato compatto di quattro giorni dagli altopiani alla costa meridionale. Inizia con la cultura di Kandy e la regione del tè, prosegui con il treno panoramico fino a Ella, poi la fauna selvatica nel Parco Nazionale di Yala.\nIl tuo finale segue la costa meridionale - Mirissa per l'oceano, Galle Fort per il patrimonio e Bentota per un safari in barca - prima del rientro in hotel o all'aeroporto. Ideale quando desideri le principali attrazioni classiche dello Sri Lanka senza un lungo itinerario.",
+  "duration": "4 giorni/3 notti",
+  "travelStyle": "Cultura",
+  "highlights": [
+    "Serata culturale Pinnawala e Kandy",
+    "Tempio del dente e fabbrica del tè",
+    "Viaggio panoramico in treno e safari a Yala",
+    "Osservazione delle balene, Forte di Galle e Bentota"
+  ],
+  "included": [
+    "Trasporto privato/autista privato",
+    "Alberghi 4 STELLE",
+    "Colazione quotidiana",
+    "Servizio guida"
+  ],
+  "excluded": [
+    "Voli internazionali",
+    "Pranzo e cena",
+    "Biglietti d'ingresso",
+    "Jeep safari e barca per l'osservazione delle balene"
+  ],
+  "seo": {
+    "metaTitle": "Fuga di 4 giorni a Ceylon con hotel a 4 stelle e trasporto privato | Hai Sri Lanka",
+    "metaDescription": "Tour privato di 4 giorni nello Sri Lanka: Kandy, Ella, safari a Yala, osservazione delle balene a Mirissa, Forte di Galle e Bentota."
+  },
+  "itinerary": [
+    {
+      "title": "Aeroporto/Hotel – Kandy",
+      "description": "Viaggia nell'entroterra verso Kandy con le classiche soste culturali: elefanti a Pinnawala, profumi del giardino delle spezie, viste sul lago e una serata di danza Kandyan."
+    },
+    {
+      "title": "Kandy-Ella",
+      "description": "Mattinata al Tempio della Reliquia del Dente, poi addentratevi nella regione del tè con una visita alla fabbrica prima di stabilirvi a Ella per un tranquillo tour della città."
+    },
+    {
+      "title": "Ella – Yala",
+      "description": "Viaggia sul treno panoramico attraverso le colline, fai una pausa alle Ravana Falls, quindi prosegui per Yala per un safari pomeridiano o serale nel parco nazionale."
+    },
+    {
+      "title": "Yala – Bentota – Hotel/Aeroporto",
+      "description": "Finale costiero lungo il sud: osservazione delle balene a Mirissa o snorkeling con balene o tartarughe marine, Forte di Galle, un vivaio di tartarughe e un safari in barca a Bentota prima del trasferimento in hotel o aeroporto."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "L'itinerario è personalizzabile?",
+      "answer": "SÌ. Personalizziamo ritmi, hotel ed esperienze, ad esempio scambiando l'osservazione delle balene con più tempo in spiaggia, in base alle tue preferenze."
+    },
+    {
+      "question": "L'osservazione delle balene è stagionale?",
+      "answer": "L'avvistamento delle balene a Mirissa è generalmente migliore da novembre ad aprile. Al di fuori dell'alta stagione suggeriamo lo snorkeling con le tartarughe marine o altre alternative costiere."
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "seo": {
+    "metaTitle": "Hai Sri Lanka-rondleidingen | Privé luxe tours in Sri Lanka",
+    "metaDescription": "Plan een privéreis door Sri Lanka met Hai Sri Lanka Tours. Luxe meerdaagse routes, samengestelde dagtochten en deskundige lokale gastheren over het hele eiland."
+  },
+  "hero": {
+    "eyebrow": "Privé inkomende reizen · Sri Lanka",
+    "title": "Ontdek Ceylon in rustige luxe",
+    "subtitle": "Op maat gemaakte reizen door tempels, theelanden, dieren in het wild en de kust, geschikt voor veeleisende reizigers.",
+    "image": {
+      "alt": "Negenboogbrug en theeland nabij Ella, Sri Lanka",
+      "title": "Ella Negenbogenbrug"
+    },
+    "images": [
+      {
+        "alt": "Gasten en gids genieten van koningkokosnoten in een jungle-rivierstop in Sri Lanka",
+        "title": "Lokale gastvrijheid"
+      },
+      {
+        "alt": "Reizigers op een jeepsafari in Sri Lanka met olifanten in de buurt",
+        "title": "Safari-momenten"
+      },
+      {
+        "alt": "Reizigers met hun gids bij de Dambulla-grottempel in Sri Lanka",
+        "title": "Tempelbezoeken"
+      },
+      {
+        "alt": "Luipaard rust op een zandpad in Yala National Park",
+        "title": "Yala-dieren in het wild"
+      },
+      {
+        "alt": "Nine Arch Bridge die boven de theeplantages in Ella uitsteekt",
+        "title": "Ella hooglanden"
+      }
+    ]
+  },
+  "search": {
+    "title": "Vind jouw reis",
+    "subtitle": "Zoek privérondleidingen op bestemming, duur en reisstijl.",
+    "destinations": [
+      {
+        "label": "Waar dan ook in Sri Lanka"
+      },
+      {
+        "label": "Galle en zuidkust"
+      },
+      {
+        "label": "Culturele Driehoek"
+      },
+      {
+        "label": "Kandy en Hooglanden"
+      },
+      {
+        "label": "Yala en wilde dieren"
+      },
+      {
+        "label": "Oostkust"
+      }
+    ],
+    "durations": [
+      {
+        "label": "Elke duur"
+      },
+      {
+        "label": "Dagtochten"
+      },
+      {
+        "label": "3–7 dagen"
+      },
+      {
+        "label": "8–14 dagen"
+      },
+      {
+        "label": "15+ dagen"
+      }
+    ],
+    "styles": [
+      {
+        "label": "Alle stijlen"
+      },
+      {
+        "label": "Cultuur & erfgoed"
+      },
+      {
+        "label": "Dieren in het wild"
+      },
+      {
+        "label": "Strand & kust"
+      },
+      {
+        "label": "Luxe & wellness"
+      },
+      {
+        "label": "Familie"
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Waarom Hai Sri Lanka",
+    "title": "Gastvrijheid gevormd voor privéreizen",
+    "subtitle": "We ontwerpen rustige, naadloze reizen, nooit overvolle groepsbussen met gastheren die elke bochtige weg kennen.",
+    "items": [
+      {
+        "title": "Volledig privé-ervaringen",
+        "description": "Uw voertuig, uw tempo, uw voorkeuren. Elke rondleiding is exclusief gereserveerd voor uw gezelschap.",
+        "id": "private"
+      },
+      {
+        "title": "Deskundige lokale gastheren",
+        "description": "Chauffeur-gidsen getraind in het vertellen van verhalen, veiligheid en rustige luxe gastvrijheid over het hele eiland.",
+        "id": "experts"
+      },
+      {
+        "title": "Op maat gemaakte routes",
+        "description": "We verfijnen hotels, timing en verborgen tussenstops zodat ze overeenkomen met hoe u het liefst reist.",
+        "id": "tailored"
+      },
+      {
+        "title": "Zorg van begin tot eind",
+        "description": "Van welkom op de luchthaven tot afscheidstransfer, een toegewijd team ondersteunt u elke dag van uw reis.",
+        "id": "care"
+      }
+    ]
+  },
+  "tourCategories": {
+    "eyebrow": "Tourcategorieën",
+    "title": "Kies hoe je Sri Lanka ontmoet",
+    "subtitle": "Van een enkele kustdag tot veertien dagen vol hooglanden en wilde dieren, begin met de stijl die bij je past.",
+    "items": [
+      {
+        "title": "Dagtochten",
+        "description": "Privédagtochten vanuit Colombo en kustbasissen, tempels en schilderachtige tochten.",
+        "image": {
+          "alt": "Privédagtocht langs de Sri Lankaanse kust"
+        },
+        "id": "day"
+      },
+      {
+        "title": "Meerdaagse tochten",
+        "description": "Samengestelde eilandcircuits die cultuur, theeland, natuur en verblijf aan de kust combineren.",
+        "image": {
+          "alt": "Meerdaagse reis door de hooglanden van Sri Lanka"
+        },
+        "id": "multi"
+      },
+      {
+        "title": "Reizen in het wild",
+        "description": "Safaridagen en overnachtingslodges in de buurt van Yala, Wilpattu en Udawalawe.",
+        "image": {
+          "alt": "Jeepsafari in de wildparken van Sri Lanka"
+        },
+        "id": "wildlife"
+      },
+      {
+        "title": "Huwelijksreis en ontsnapping",
+        "description": "Afgelegen boetiekverblijven, spa-rituelen en ongehaaste kustavonden.",
+        "image": {
+          "alt": "Luxe strandvakantie voor koppels in Sri Lanka"
+        },
+        "id": "honeymoon"
+      }
+    ]
+  },
+  "featuredMultiDay": {
+    "eyebrow": "Uitgelichte reizen",
+    "title": "Meerdaagse tochten waar reizigers dol op zijn",
+    "subtitle": "Kenmerkende privéroutes met ruimte om cultuur, hooglanden en kust in balans te ademen.",
+    "viewAllLabel": "Bekijk alle meerdaagse reizen"
+  },
+  "featuredDay": {
+    "eyebrow": "Eén perfecte dag",
+    "title": "Uitgelichte dagtochten",
+    "subtitle": "Privédagervaringen vanuit Colombo en de westkust verfijnd tempo, gedenkwaardige stops.",
+    "viewAllLabel": "Bekijk alle dagtochten"
+  },
+  "destinations": {
+    "eyebrow": "Bestemmingen",
+    "title": "Plaatsen die Sri Lanka definiëren",
+    "subtitle": "Van Lion Rock tot Nederlandse fortmuren, verken de regio's die vorm geven aan elke geweldige route.",
+    "viewAllLabel": "Bestemmingen verkennen"
+  },
+  "map": {
+    "eyebrow": "Reiskaart",
+    "title": "Een eiland van regio's, perfect met elkaar verbonden",
+    "subtitle": "We choreograferen routes zodat de Culturele Driehoek, de hooglanden, de natuur en de kust natuurlijk en nooit gehaast aanvoelen.",
+    "image": {
+      "alt": "Nine Arch Bridge in Ella die reisregio's van Sri Lanka vertegenwoordigt",
+      "title": "Reisregio's Sri Lanka"
+    },
+    "regions": [
+      {
+        "name": "Culturele Driehoek",
+        "description": "Sigiriya, Polonnaruwa, Dambulla en Anuradhapura.",
+        "id": "triangle"
+      },
+      {
+        "name": "Heuvelland",
+        "description": "Kandy, Nuwara Eliya, theeplantages en mistige paden.",
+        "id": "highlands"
+      },
+      {
+        "name": "Zuidkust",
+        "description": "Galle Fort, Mirissa en rustige boetiekstranden.",
+        "id": "south"
+      },
+      {
+        "name": "Dierenparken",
+        "description": "Yala, Udawalawe en Wilpattu safari-ochtenden.",
+        "id": "wildlife"
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Gastverhalen",
+    "title": "Vertrouwd door reizigers over de hele wereld",
+    "subtitle": "Woorden van gasten die met Hai Sri Lanka op Google en TripAdvisor hebben gereisd.",
+    "viewAllLabel": "Lees alle beoordelingen"
+  },
+  "stats": {
+    "eyebrow": "Door de cijfers",
+    "title": "Reizen die overwogen aanvoelen",
+    "items": [
+      {
+        "label": "Particuliere gasten gehost",
+        "id": "guests"
+      },
+      {
+        "label": "Gemiddelde gastenwaardering",
+        "id": "rating"
+      },
+      {
+        "label": "Jarenlange inbound expertise",
+        "id": "years"
+      },
+      {
+        "label": "Herhaalde en doorverwezen reizigers",
+        "id": "repeat"
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Reisdagboek",
+    "title": "Ideeën voor uw Sri Lanka-reis",
+    "subtitle": "Praktische handleidingen en seizoensinzichten van ons planningsteam.",
+    "viewAllLabel": "Bezoek de blog"
+  },
+  "faq": {
+    "eyebrow": "Vragen",
+    "title": "Vaak gevraagd",
+    "subtitle": "Duidelijke antwoorden voordat u een privéroute aanvraagt.",
+    "viewAllLabel": "Bekijk alle veelgestelde vragen"
+  },
+  "cta": {
+    "eyebrow": "Begin hier",
+    "title": "Vertel ons hoe u wilt reizen",
+    "subtitle": "Deel uw data, tempo en interesses, we zullen een privéreis door Sri Lanka maken die de reis waard is.",
+    "image": {
+      "alt": "Nine Arch Bridge stijgt boven theeplantages in Ella, Sri Lanka",
+      "title": "Ella Negenbogenbrug"
+    }
+  }
+}

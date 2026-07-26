@@ -28,6 +28,7 @@ import { TourCardComponent } from '../../../shared/cards/tour-card/tour-card.com
 import { UiButtonComponent } from '../../../shared/ui/button/ui-button.component';
 import { UiContainerComponent } from '../../../shared/ui/container/ui-container.component';
 import { TourQuickViewComponent } from '../tour-list/tour-quick-view/tour-quick-view.component';
+import { TranslocoPipe } from '@jsverse/transloco';
 
 export type TourHubTab = 'day' | 'multi-day';
 
@@ -44,6 +45,7 @@ export type TourHubTab = 'day' | 'multi-day';
     TourQuickViewComponent,
     UiButtonComponent,
     UiContainerComponent,
+    TranslocoPipe,
   ],
   templateUrl: './tour-hub-page.component.html',
   styleUrl: './tour-hub-page.component.scss',

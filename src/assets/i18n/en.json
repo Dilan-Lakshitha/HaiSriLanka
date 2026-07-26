@@ -10,7 +10,7 @@
     "multiDayTours": "Multi-Day Tours",
     "destinations": "Destinations",
     "experiences": "Things To Do",
-    "blog": "Blog",
+    "blog": "Journal",
     "reviews": "Reviews",
     "gallery": "Gallery",
     "contact": "Contact",
@@ -23,7 +23,13 @@
     "language": "Language",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "skipToContent": "Skip to main content"
+    "skipToContent": "Skip to main content",
+    "whatsapp": "WhatsApp",
+    "viewAllTours": "View all tours",
+    "toursMegaCopy": "Private day tours and multi-day journeys across Sri Lanka.",
+    "primary": "Primary",
+    "contactLabel": "Contact",
+    "social": "Social media"
   },
   "footer": {
     "explore": "Explore",
@@ -42,7 +48,21 @@
     "comingSoon": "This page foundation is ready. Content arrives in the next feature phase.",
     "backHome": "Back to home",
     "notFoundTitle": "Page not found",
-    "notFoundBody": "The page you requested does not exist or has moved."
+    "notFoundBody": "The page you requested does not exist or has moved.",
+    "freeCancellation": "Free cancellation",
+    "payAtDestination": "Pay at destination",
+    "toursCount": "{{count}} tours",
+    "toursReady": "{{count}} tours ready to book",
+    "noTours": "No tours available right now.",
+    "noToursCategory": "No tours available in this category right now.",
+    "openFullDayList": "Open full day list",
+    "openFullMultiList": "Open full multi-day list",
+    "quickView": "Quick View",
+    "compare": "Compare",
+    "compared": "Compared",
+    "wishlist": "Wishlist",
+    "saved": "Saved",
+    "allTours": "All tours"
   },
   "seo": {
     "home": {
@@ -116,6 +136,8 @@
   },
   "booking": {
     "title": "Book your tour",
+    "eyebrow": "Book this tour",
+    "privateInquiry": "Private inquiry",
     "travelers": "Travelers",
     "date": "Travel date",
     "details": "Traveler details",
@@ -124,10 +146,35 @@
     "success": "Booking request sent",
     "perPerson": "Price per person",
     "total": "Total",
-    "emailNote": "You and our team will receive confirmation by email."
+    "emailNote": "You and our team will receive confirmation by email.",
+    "freeCancel": "Free cancel",
+    "payLater": "Pay later",
+    "payAtDestination": "Pay at destination",
+    "whatsappAdmin": "WhatsApp tour administrator"
   },
   "placeholder": {
     "pageTitle": "{{page}}",
     "foundationReady": "Foundation ready"
+  },
+  "tour": {
+    "badge": {
+      "best-seller": "Best Seller",
+      "featured": "Featured",
+      "luxury": "Luxury",
+      "family": "Family",
+      "adventure": "Adventure",
+      "wildlife": "Wildlife",
+      "culture": "Culture"
+    },
+    "style": {
+      "culture": "Culture",
+      "wildlife": "Wildlife",
+      "adventure": "Adventure",
+      "luxury": "Luxury",
+      "family": "Family",
+      "privateDay": "Private Day Journey",
+      "privateMulti": "Private Multi-Day Journey",
+      "beach": "Beach & Coast"
+    }
   }
 }

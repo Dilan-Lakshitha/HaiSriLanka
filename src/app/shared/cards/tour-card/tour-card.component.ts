@@ -8,9 +8,9 @@ import {
 } from '@angular/core';
 import { CurrencyPipe, NgOptimizedImage } from '@angular/common';
 import { RouterLink } from '@angular/router';
+import { TranslocoPipe } from '@jsverse/transloco';
 import type { Tour } from '../../../core/models';
 import {
-  TOUR_BADGE_LABELS,
   tourHasBadge,
   tourHero,
   tourPriceMap,
@@ -23,7 +23,7 @@ import { WishlistService } from '../../../core/services/wishlist.service';
 @Component({
   selector: 'app-tour-card',
   standalone: true,
-  imports: [RouterLink, NgOptimizedImage, CurrencyPipe, UiBadgeComponent],
+  imports: [RouterLink, NgOptimizedImage, CurrencyPipe, UiBadgeComponent, TranslocoPipe],
   templateUrl: './tour-card.component.html',
   styleUrl: './tour-card.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -41,7 +41,7 @@ export class TourCardComponent {
 
   readonly hero = computed(() => tourHero(this.tour()));
   readonly fromPrice = computed(() => tourPriceMap(this.tour())['2']);
-  readonly badgeList = computed(() => {
+  readonly badgeKeys = computed(() => {
     const tour = this.tour();
     const order: TourBadge[] = [
       'best-seller',
@@ -52,7 +52,24 @@ export class TourCardComponent {
       'wildlife',
       'culture',
     ];
-    return order.filter((b) => tourHasBadge(tour, b)).map((b) => TOUR_BADGE_LABELS[b]);
+    return order.filter((b) => tourHasBadge(tour, b));
+  });
+
+  readonly styleKey = computed(() => {
+    const raw = (this.tour().travelStyle || '').trim().toLowerCase();
+    const map: Record<string, string> = {
+      culture: 'culture',
+      wildlife: 'wildlife',
+      adventure: 'adventure',
+      luxury: 'luxury',
+      family: 'family',
+      'private day journey': 'privateDay',
+      'private multi-day journey': 'privateMulti',
+      'beach & coast': 'beach',
+      'culture & heritage': 'culture',
+      'luxury & wellness': 'luxury',
+    };
+    return map[raw] || '';
   });
 
   isCompared(): boolean {

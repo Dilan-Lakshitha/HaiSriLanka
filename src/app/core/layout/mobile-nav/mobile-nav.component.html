@@ -16,14 +16,14 @@
       @for (item of items(); track item.key) {
         <li>
           <a [routerLink]="buildLink(item.path)" (click)="close()">
-            {{ item.label || (item.key | transloco) }}
+            {{ item.key | transloco }}
           </a>
           @if (item.children?.length) {
             <ul class="mobile-nav__sub">
               @for (child of item.children; track child.key) {
                 <li>
                   <a [routerLink]="buildLink(child.path)" (click)="close()">
-                    {{ child.label || (child.key | transloco) }}
+                    {{ child.key | transloco }}
                   </a>
                 </li>
               }
@@ -35,7 +35,7 @@
 
     @if (company$ | async; as company) {
       <div class="mobile-nav__contact">
-        <p class="mobile-nav__contact-label">Contact</p>
+        <p class="mobile-nav__contact-label">{{ 'nav.contactLabel' | transloco }}</p>
         @if (company.phone[0]) {
           <a [href]="telLink(company.phone[0])" (click)="close()">{{ company.phone[0] }}</a>
         }
@@ -47,7 +47,7 @@
             rel="noopener noreferrer"
             (click)="close()"
           >
-            WhatsApp
+            {{ 'nav.whatsapp' | transloco }}
           </a>
         }
       </div>

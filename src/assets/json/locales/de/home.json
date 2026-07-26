@@ -1,0 +1,262 @@
+{
+  "seo": {
+    "metaTitle": "Hai Sri Lanka Touren | Private Luxustouren in Sri Lanka",
+    "metaDescription": "Planen Sie eine private Sri Lanka-Reise mit Hai Sri Lanka Tours. Luxuriöse mehrtägige Reiserouten, kuratierte Tagestouren und erfahrene lokale Gastgeber auf der ganzen Insel."
+  },
+  "hero": {
+    "eyebrow": "Private Inbound-Reisen · Sri Lanka",
+    "title": "Entdecken Sie Ceylon in ruhigem Luxus",
+    "subtitle": "Maßgeschneiderte Reisen zu Tempeln, Teeanbaugebieten, Wildtieren und an der Küste für anspruchsvolle Reisende.",
+    "image": {
+      "alt": "Neun-Bogen-Brücke und Teeland in der Nähe von Ella, Sri Lanka",
+      "title": "Ella Nine Arch Bridge"
+    },
+    "images": [
+      {
+        "alt": "Gäste und Reiseführer genießen Königskokosnüsse bei einem Zwischenstopp am Flussufer des Dschungels in Sri Lanka",
+        "title": "Lokale Gastfreundschaft"
+      },
+      {
+        "alt": "Reisende auf einer Jeep-Safari in Sri Lanka mit Elefanten in der Nähe",
+        "title": "Safari-Momente"
+      },
+      {
+        "alt": "Reisende mit ihrem Führer im Höhlentempel von Dambulla in Sri Lanka",
+        "title": "Tempelbesuche"
+      },
+      {
+        "alt": "Leopard ruht auf einem Sandweg im Yala-Nationalpark",
+        "title": "Yala-Tierwelt"
+      },
+      {
+        "alt": "Neun-Bogen-Brücke erhebt sich über Teeplantagen in Ella",
+        "title": "Ella-Hochland"
+      }
+    ]
+  },
+  "search": {
+    "title": "Finden Sie Ihre Reise",
+    "subtitle": "Suchen Sie private Touren nach Ziel, Dauer und Reisestil.",
+    "destinations": [
+      {
+        "label": "Überall in Sri Lanka"
+      },
+      {
+        "label": "Galle und Südküste"
+      },
+      {
+        "label": "Kulturelles Dreieck"
+      },
+      {
+        "label": "Kandy und Highlands"
+      },
+      {
+        "label": "Yala & Wildtiere"
+      },
+      {
+        "label": "Ostküste"
+      }
+    ],
+    "durations": [
+      {
+        "label": "Beliebige Dauer"
+      },
+      {
+        "label": "Tagestouren"
+      },
+      {
+        "label": "3–7 Tage"
+      },
+      {
+        "label": "8–14 Tage"
+      },
+      {
+        "label": "15+ Tage"
+      }
+    ],
+    "styles": [
+      {
+        "label": "Alle Stile"
+      },
+      {
+        "label": "Kultur und Erbe"
+      },
+      {
+        "label": "Tierwelt"
+      },
+      {
+        "label": "Strand und Küste"
+      },
+      {
+        "label": "Luxus & Wellness"
+      },
+      {
+        "label": "Familie"
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Warum Hai Sri Lanka",
+    "title": "Gastfreundschaft für Privatreisende",
+    "subtitle": "Wir entwerfen ruhige, reibungslose Fahrten ohne überfüllte Gruppenbusse mit Gastgebern, die jede kurvenreiche Straße kennen.",
+    "items": [
+      {
+        "title": "Völlig private Erlebnisse",
+        "description": "Ihr Fahrzeug, Ihr Tempo, Ihre Vorlieben. Jede Führung ist exklusiv für Ihre Gruppe reserviert.",
+        "id": "private"
+      },
+      {
+        "title": "Erfahrene lokale Gastgeber",
+        "description": "Chauffeur-Guides, die auf der ganzen Insel in Geschichtenerzählen, Sicherheit und ruhiger, luxuriöser Gastfreundschaft geschult sind.",
+        "id": "experts"
+      },
+      {
+        "title": "Maßgeschneiderte Reiserouten",
+        "description": "Wir verfeinern Hotels, Zeitpläne und versteckte Stopps so, dass sie zu Ihren Reisevorlieben passen.",
+        "id": "tailored"
+      },
+      {
+        "title": "Rundum-Betreuung",
+        "description": "Von der Begrüßung am Flughafen bis zum Abschiedstransfer unterstützt Sie ein engagiertes Team an jedem Tag Ihrer Reise.",
+        "id": "care"
+      }
+    ]
+  },
+  "tourCategories": {
+    "eyebrow": "Tourkategorien",
+    "title": "Wählen Sie, wie Sie Sri Lanka kennenlernen",
+    "subtitle": "Beginnen Sie mit dem Stil, der zu Ihnen passt – von einem einzigen Tag an der Küste bis zu zwei Wochen voller Hochland- und Wildtiererlebnisse.",
+    "items": [
+      {
+        "title": "Tagestouren",
+        "description": "Private Tagesausflüge von Colombo und Küstenstützpunkten, Festungen, Tempeln und malerischen Fahrten.",
+        "image": {
+          "alt": "Private Tagestour entlang der Küste Sri Lankas"
+        },
+        "id": "day"
+      },
+      {
+        "title": "Mehrtägige Touren",
+        "description": "Kuratierte Inselrundgänge, die Kultur, Teeanbau, Tierwelt und Küstenaufenthalte kombinieren.",
+        "image": {
+          "alt": "Mehrtägige Reise durch das Hochland Sri Lankas"
+        },
+        "id": "multi"
+      },
+      {
+        "title": "Wildtierreisen",
+        "description": "Safaritage und Übernachtungshütten in der Nähe von Yala, Wilpattu und Udawalawe.",
+        "image": {
+          "alt": "Jeep-Safari in den Wildparks Sri Lankas"
+        },
+        "id": "wildlife"
+      },
+      {
+        "title": "Flitterwochen und Flucht",
+        "description": "Abgeschiedene Boutique-Aufenthalte, Spa-Rituale und entspannte Abende an der Küste.",
+        "image": {
+          "alt": "Luxuriöser Strandurlaub für Paare in Sri Lanka"
+        },
+        "id": "honeymoon"
+      }
+    ]
+  },
+  "featuredMultiDay": {
+    "eyebrow": "Ausgewählte Reisen",
+    "title": "Mehrtägige Touren lieben Reisende",
+    "subtitle": "Einzigartige private Reiserouten mit Raum für Kultur, Hochland und Küste im Einklang.",
+    "viewAllLabel": "Alle Mehrtagestouren ansehen"
+  },
+  "featuredDay": {
+    "eyebrow": "Ein perfekter Tag",
+    "title": "Ausgewählte Tagestouren",
+    "subtitle": "Private Tageserlebnisse aus Colombo und der Westküste, raffiniertes Tempo, unvergessliche Stopps.",
+    "viewAllLabel": "Alle Tagestouren ansehen"
+  },
+  "destinations": {
+    "eyebrow": "Reiseziele",
+    "title": "Orte, die Sri Lanka definieren",
+    "subtitle": "Vom Löwenfelsen bis zu den niederländischen Festungsmauern erkunden Sie die Regionen, die jede großartige Reiseroute prägen.",
+    "viewAllLabel": "Entdecken Sie Reiseziele"
+  },
+  "map": {
+    "eyebrow": "Reisekarte",
+    "title": "Eine Insel der Regionen, perfekt verbunden",
+    "subtitle": "Wir choreografieren Routen, damit sich das Kulturdreieck, das Hochland, die Tierwelt und die Küste natürlich und nie überstürzt anfühlen.",
+    "image": {
+      "alt": "Neun-Bogen-Brücke in Ella, die Reiseregionen Sri Lankas repräsentiert",
+      "title": "Reiseregionen Sri Lanka"
+    },
+    "regions": [
+      {
+        "name": "Kulturelles Dreieck",
+        "description": "Sigiriya, Polonnaruwa, Dambulla und Anuradhapura.",
+        "id": "triangle"
+      },
+      {
+        "name": "Hügelland",
+        "description": "Kandy, Nuwara Eliya, Teeplantagen und neblige Pfade.",
+        "id": "highlands"
+      },
+      {
+        "name": "Südküste",
+        "description": "Galle Fort, Mirissa und ruhige Boutique-Strände.",
+        "id": "south"
+      },
+      {
+        "name": "Wildparks",
+        "description": "Yala-, Udawalawe- und Wilpattu-Safarimorgen.",
+        "id": "wildlife"
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Gastgeschichten",
+    "title": "Reisende weltweit vertrauen darauf",
+    "subtitle": "Worte von Gästen, die mit Hai Sri Lanka auf Google und TripAdvisor gereist sind.",
+    "viewAllLabel": "Lesen Sie alle Bewertungen"
+  },
+  "stats": {
+    "eyebrow": "Anhand der Zahlen",
+    "title": "Reisen, das sich gut durchdacht anfühlt",
+    "items": [
+      {
+        "label": "Private Gäste bewirtet",
+        "id": "guests"
+      },
+      {
+        "label": "Durchschnittliche Gästebewertung",
+        "id": "rating"
+      },
+      {
+        "label": "Jahrelange Inbound-Expertise",
+        "id": "years"
+      },
+      {
+        "label": "Wiederholende und empfohlene Reisende",
+        "id": "repeat"
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Reisetagebuch",
+    "title": "Ideen für Ihre Sri Lanka-Reise",
+    "subtitle": "Praktische Leitfäden und saisonale Einblicke von unserem Planungsteam.",
+    "viewAllLabel": "Besuchen Sie den Blog"
+  },
+  "faq": {
+    "eyebrow": "Fragen",
+    "title": "Häufig gefragt",
+    "subtitle": "Klare Antworten, bevor Sie eine private Reiseroute anfordern.",
+    "viewAllLabel": "Alle FAQs ansehen"
+  },
+  "cta": {
+    "eyebrow": "Beginnen Sie hier",
+    "title": "Sagen Sie uns, wie Sie reisen möchten",
+    "subtitle": "Teilen Sie uns Ihre Daten, Ihr Tempo und Ihre Interessen mit, wir gestalten für Sie eine private Reise nach Sri Lanka, die eine Reise wert ist.",
+    "image": {
+      "alt": "Neun-Bogen-Brücke über Teeplantagen in Ella, Sri Lanka",
+      "title": "Ella Nine Arch Bridge"
+    }
+  }
+}

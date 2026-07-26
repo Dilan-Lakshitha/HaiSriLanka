@@ -1,0 +1,35 @@
+{
+  "global": [
+    {
+      "question": "Zijn rondleidingen privé?",
+      "answer": "Ja. Hai Sri Lanka is gespecialiseerd in privé-inkomende ervaringen voor koppels, gezinnen en kleine groepen."
+    },
+    {
+      "question": "Regelt u vervoer naar de luchthaven?",
+      "answer": "Ja. Ontvangst en vertrek op de luchthaven kunnen bij elk meerdaags reisschema worden inbegrepen of afzonderlijk worden geboekt."
+    },
+    {
+      "question": "Hoe boek ik?",
+      "answer": "Selecteer een tour, kies reizigers en datum, dien reizigersgegevens in en u ontvangt een e-mailbevestiging. Er is geen online betaling vereist om een ​​boeking aan te vragen."
+    },
+    {
+      "question": "Kunnen reisroutes worden aangepast?",
+      "answer": "Absoluut. We passen het tempo, de hotels en de ervaringen aan uw voorkeuren aan voordat we uw reis bevestigen."
+    }
+  ],
+  "pages": [
+    {
+      "pageKey": "home",
+      "items": [
+        {
+          "question": "Waarom kiezen voor Hai Sri Lanka?",
+          "answer": "Eersteklas gastvrijheid, deskundige lokale gidsen en routes ontworpen voor comfort en authentieke ontdekkingen."
+        },
+        {
+          "question": "Welke talen spreken uw gidsen?",
+          "answer": "Engels is standaard. Duits, Frans en andere Europese talen kunnen op verzoek worden geregeld."
+        }
+      ]
+    }
+  ]
+}

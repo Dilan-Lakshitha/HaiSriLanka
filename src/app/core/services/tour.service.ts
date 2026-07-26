@@ -1,6 +1,16 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, catchError, forkJoin, map, of, shareReplay, switchMap } from 'rxjs';
+import { toObservable } from '@angular/core/rxjs-interop';
+import {
+  Observable,
+  catchError,
+  combineLatest,
+  forkJoin,
+  map,
+  of,
+  shareReplay,
+  switchMap,
+} from 'rxjs';
 import type {
   Tour,
   TourListPageContent,
@@ -8,10 +18,15 @@ import type {
   TourManifest,
 } from '../models/tour.model';
 import { tourHasBadge } from '../models/tour.model';
+import { ContentLocalizeService } from './content-localize.service';
+import { LocaleService } from './locale.service';
 
 @Injectable({ providedIn: 'root' })
 export class TourService {
   private readonly http = inject(HttpClient);
+  private readonly localize = inject(ContentLocalizeService);
+  private readonly locale = inject(LocaleService);
+  private readonly lang$ = toObservable(this.locale.activeLang);
 
   private readonly manifest$ = this.http
     .get<TourManifest>('/assets/json/tours/manifest.json')
@@ -21,7 +36,7 @@ export class TourService {
     .get<TourListsContent>('/assets/json/tours/lists.json')
     .pipe(shareReplay(1));
 
-  private readonly allTours$ = this.manifest$.pipe(
+  private readonly baseTours$ = this.manifest$.pipe(
     switchMap((manifest) => {
       const published = manifest.tours.filter((t) => t.status === 'published');
       if (!published.length) {
@@ -43,25 +58,52 @@ export class TourService {
   }
 
   getListContent(category: 'hub' | 'day' | 'multi-day'): Observable<TourListPageContent> {
-    return this.lists$.pipe(map((lists) => lists[category]));
+    return combineLatest([this.lists$, this.lang$]).pipe(
+      switchMap(([lists, lang]) =>
+        this.localize.localizeEntity(lists, 'tours/lists.json', lang).pipe(
+          map((localized) => localized[category]),
+        ),
+      ),
+    );
   }
 
   getDayTours(): Observable<Tour[]> {
-    return this.allTours$.pipe(map((tours) => tours.filter((t) => t.category === 'day')));
+    return this.getAllTours().pipe(map((tours) => tours.filter((t) => t.category === 'day')));
   }
 
   getMultiDayTours(): Observable<Tour[]> {
-    return this.allTours$.pipe(map((tours) => tours.filter((t) => t.category === 'multi-day')));
+    return this.getAllTours().pipe(map((tours) => tours.filter((t) => t.category === 'multi-day')));
   }
 
   getAllTours(): Observable<Tour[]> {
-    return this.allTours$;
+    return combineLatest([this.baseTours$, this.lang$]).pipe(
+      switchMap(([tours, lang]) => {
+        if (!tours.length) {
+          return of([]);
+        }
+        return forkJoin(
+          tours.map((tour) =>
+            this.localize.localizeEntity(tour, `tours/items/${tour.slug}.json`, lang),
+          ),
+        );
+      }),
+    );
   }
 
   getBySlug(slug: string): Observable<Tour | undefined> {
-    return this.http.get<Tour>(`/assets/json/tours/items/${slug}.json`).pipe(
-      map((tour) => (tour.status === 'published' ? tour : undefined)),
-      catchError(() => of(undefined)),
+    return combineLatest([
+      this.http.get<Tour>(`/assets/json/tours/items/${slug}.json`).pipe(
+        map((tour) => (tour.status === 'published' ? tour : undefined)),
+        catchError(() => of(undefined)),
+      ),
+      this.lang$,
+    ]).pipe(
+      switchMap(([tour, lang]) => {
+        if (!tour) {
+          return of(undefined);
+        }
+        return this.localize.localizeEntity(tour, `tours/items/${tour.slug}.json`, lang);
+      }),
     );
   }
 
@@ -94,25 +136,33 @@ export class TourService {
     if (!slugs.length) {
       return of([]);
     }
-    // Fetch only requested tours — avoid waiting on the full catalog.
     const unique = [...new Set(slugs)];
-    return forkJoin(
-      unique.map((slug) =>
-        this.http
-          .get<Tour>(`/assets/json/tours/items/${slug}.json`)
-          .pipe(
+    return combineLatest([
+      forkJoin(
+        unique.map((slug) =>
+          this.http.get<Tour>(`/assets/json/tours/items/${slug}.json`).pipe(
             map((tour) => (tour.status === 'published' ? tour : null)),
             catchError(() => of(null)),
           ),
+        ),
       ),
-    ).pipe(
-      map((items) => {
-        const bySlug = new Map(
-          items.filter((t): t is Tour => Boolean(t)).map((t) => [t.slug, t]),
+      this.lang$,
+    ]).pipe(
+      switchMap(([items, lang]) => {
+        const published = items.filter((t): t is Tour => Boolean(t));
+        if (!published.length) {
+          return of([]);
+        }
+        return forkJoin(
+          published.map((tour) =>
+            this.localize.localizeEntity(tour, `tours/items/${tour.slug}.json`, lang),
+          ),
+        ).pipe(
+          map((localized) => {
+            const bySlug = new Map(localized.map((t) => [t.slug, t]));
+            return slugs.map((slug) => bySlug.get(slug)).filter((t): t is Tour => Boolean(t));
+          }),
         );
-        return slugs
-          .map((slug) => bySlug.get(slug))
-          .filter((t): t is Tour => Boolean(t));
       }),
     );
   }

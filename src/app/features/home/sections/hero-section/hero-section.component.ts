@@ -10,13 +10,14 @@ import {
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
 import { timer, switchMap, interval } from 'rxjs';
+import { TranslocoPipe } from '@jsverse/transloco';
 import type { HomeHero, ImageAsset } from '../../../../core/models';
 import { UiButtonComponent } from '../../../../shared/ui/button/ui-button.component';
 
 @Component({
   selector: 'app-hero-section',
   standalone: true,
-  imports: [RouterLink, UiButtonComponent],
+  imports: [RouterLink, UiButtonComponent, TranslocoPipe],
   templateUrl: './hero-section.component.html',
   styleUrl: './hero-section.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

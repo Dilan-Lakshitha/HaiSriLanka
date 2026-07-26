@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "wildlife-safaris",
+    "title": "Safari nella fauna selvatica",
+    "shortDescription": "Mattinate in jeep privata per leopardi, elefanti e luci del parco.",
+    "description": "Muoviti all'alba attraverso la macchia, la laguna e le praterie con una jeep privata e una guida che sa quando aspettare. Da Yala ai circuiti dei parchi più ampi, le giornate dei safari sono scandite da avvistamenti mai frenetici nel caos dei convogli, per poi passare alle notti della costa meridionale su itinerari più lunghi.",
+    "seo": {
+      "metaTitle": "Safari nella fauna selvatica nello Sri Lanka | Esperienze | Hai Sri Lanka",
+      "metaDescription": "Safari privati ​​nella fauna selvatica con safari Hai Sri Lanka Yala, elefanti e mattine al parco con attenzione."
+    }
+  },
+  {
+    "slug": "elephant-encounters",
+    "title": "Incontri con gli elefanti",
+    "shortDescription": "Bagni nel fiume, passeggiate nella foresta e momenti rispettosi della natura.",
+    "description": "Incontra i giganti gentili dell'Asia attraverso incontri scelti con cura, bagni lungo il fiume, passeggiate nella foresta vicino a Sigiriya e visite etiche che mettono al primo posto il benessere degli animali. Ideale come giornata clou all'interno del Triangolo Culturale o dei percorsi degli altopiani.",
+    "seo": {
+      "metaTitle": "Esperienze con gli elefanti in Sri Lanka | Hai Sri Lanka",
+      "metaDescription": "Pianifica incontri etici con gli elefanti con i bagni di Hai Sri Lanka, le passeggiate nella foresta e i momenti di fauna selvatica del Triangolo Culturale."
+    }
+  },
+  {
+    "slug": "temple-heritage",
+    "title": "Templi e patrimonio",
+    "shortDescription": "Templi rupestri, città sacre e cultura buddista vivente.",
+    "description": "Entra nell'architettura spirituale dello Sri Lanka, nelle grotte dipinte di Dambulla, nel Tempio del Dente di Kandy e nelle antiche capitali del Triangolo Culturale. Le guide private mantengono chiara l'etichetta del tempio e camminano senza fretta in modo che l'atmosfera rimanga intatta.",
+    "seo": {
+      "metaTitle": "Esperienze nei templi e nel patrimonio | Hai Sri Lanka",
+      "metaDescription": "Esplora i templi e il patrimonio dello Sri Lanka con i tour privati ​​di Hai Sri Lanka Dambulla, Kandy e Triangolo Culturale."
+    }
+  },
+  {
+    "slug": "mangrove-boat-safaris",
+    "title": "Safari in barca tra le mangrovie",
+    "shortDescription": "Corsi d'acqua tranquilli, tunnel di radici e fauna selvatica della costa meridionale.",
+    "description": "Scivola nei tunnel di mangrovie su una barca privata con uccelli in alto, acqua ferma sotto lo scafo e un ritmo costiero più lento. Perfetto come mezza giornata accanto alle passeggiate al Forte di Galle o per un'avventura dolce sulle rotte del sud.",
+    "seo": {
+      "metaTitle": "Safari in barca nelle mangrovie | Esperienze | Hai Sri Lanka",
+      "metaDescription": "Safari privati ​​in barca sulle mangrovie con canali tranquilli di Hai Sri Lanka, fauna selvatica e giornate sulla costa di Galle."
+    }
+  },
+  {
+    "slug": "tuk-tuk-adventures",
+    "title": "Avventure in tuk-tuk",
+    "shortDescription": "Viuzze locali, giostre all'aria aperta e anima cittadina.",
+    "description": "Osserva le città nel modo in cui la gente del posto apre i lati, le svolte del mercato e una guida con autista che conosce le scorciatoie. Il tuk-tuk salta tra templi, caffè e punti panoramici senza la sensazione di un autobus sigillato di un pullman di gruppo.",
+    "seo": {
+      "metaTitle": "Avventure in tuk-tuk nello Sri Lanka | Hai Sri Lanka",
+      "metaDescription": "Avventure private in tuk-tuk con le corsie locali di Hai Sri Lanka, fermate flessibili in città e viaggi all'aria aperta."
+    }
+  },
+  {
+    "slug": "highland-scenic",
+    "title": "Binari panoramici e delle Highland",
+    "shortDescription": "Nebbia di tè, ponte a nove archi e aria fresca di montagna.",
+    "description": "Sali sulla zona collinare dello Sri Lanka per ammirare piste da tè, ponti iconici e finestrini panoramici. Ella e la regione del tè offrono brevi passeggiate avventurose, mattine fresche e punti panoramici che meritano il loro posto sui classici percorsi dell'isola.",
+    "seo": {
+      "metaTitle": "Esperienze ferroviarie nelle Highland e panoramiche | Hai Sri Lanka",
+      "metaDescription": "Scopri Ella e la regione del tè con il ponte a nove archi di Hai Sri Lanka, i treni degli altopiani e i percorsi montani privati."
+    }
+  },
+  {
+    "slug": "village-life",
+    "title": "Vita del villaggio",
+    "shortDescription": "Giri in trattore, ospitalità in campagna e Sri Lanka rurale.",
+    "description": "Lascia l'autostrada per le corsie dei villaggi, i carri dei trattori, le risaie, l'ospitalità domestica e i ritmi più tranquilli che i viaggiatori ricordano più a lungo. Una morbida immersione culturale che si inserisce in itinerari di più giorni senza sentirsi messi in scena.",
+    "seo": {
+      "metaTitle": "Esperienze di vita di villaggio in Sri Lanka | Hai Sri Lanka",
+      "metaDescription": "Sperimenta la vita del villaggio dello Sri Lanka con i giri in trattore Hai Sri Lanka, gli host locali e l'ospitalità in campagna."
+    }
+  },
+  {
+    "slug": "cycling-trails",
+    "title": "Piste ciclabili",
+    "shortDescription": "Mattinate attive su sentieri ombreggiati e stradine di campagna.",
+    "description": "Pedala attraverso la vegetazione tropicale su piste tranquille, percorsi adatti alle famiglie e passeggiate guidate che sgranchiscono le gambe senza trasformare la giornata in una gara. Abbina il ciclismo alla regione del tè, ai villaggi o alla costa a seconda del tuo itinerario.",
+    "seo": {
+      "metaTitle": "Percorsi ciclabili nello Sri Lanka | Esperienze | Hai Sri Lanka",
+      "metaDescription": "Pedala nella campagna dello Sri Lanka con i sentieri guidati di Hai Sri Lanka, il ritmo adatto alle famiglie e le strade panoramiche degli altopiani."
+    }
+  }
+]

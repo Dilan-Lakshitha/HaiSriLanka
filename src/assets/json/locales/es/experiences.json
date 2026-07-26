@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "wildlife-safaris",
+    "title": "Safaris de vida silvestre",
+    "shortDescription": "Mañanas en jeep privado para leopardos, elefantes y luces de estacionamiento.",
+    "description": "Muévase al amanecer a través de matorrales, lagunas y pastizales con un jeep privado y un guía que sabe cuándo esperar. Desde Yala hasta circuitos de parques más amplios, los días de safari tienen un ritmo para que los avistamientos nunca se apresuren y el caos de los convoyes luego se relaje hacia las noches de la costa sur en itinerarios más largos.",
+    "seo": {
+      "metaTitle": "Safaris de vida silvestre en Sri Lanka | Experiencias | hai sri lanka",
+      "metaDescription": "Safaris privados de vida silvestre con safaris en Hai Sri Lanka Yala, elefantes y mañanas en el parque a un ritmo cuidadoso."
+    }
+  },
+  {
+    "slug": "elephant-encounters",
+    "title": "Encuentros con elefantes",
+    "shortDescription": "Baños en el río, paseos por el bosque y momentos de respeto hacia la vida silvestre.",
+    "description": "Conozca a los gentiles gigantes de Asia a través de encuentros cuidadosamente seleccionados, baños junto al río, paseos por el bosque cerca de Sigiriya y visitas éticas que priorizan el bienestar animal. Ideal como día destacado dentro del Triángulo Cultural o rutas de montaña.",
+    "seo": {
+      "metaTitle": "Experiencias con elefantes en Sri Lanka | hai sri lanka",
+      "metaDescription": "Planifique encuentros éticos con elefantes con baños en Hai Sri Lanka, paseos por el bosque y momentos de vida silvestre en el Triángulo Cultural."
+    }
+  },
+  {
+    "slug": "temple-heritage",
+    "title": "Templos y patrimonio",
+    "shortDescription": "Templos rupestres, ciudades sagradas y cultura budista viva.",
+    "description": "Adéntrese en la arquitectura espiritual de Sri Lanka, las cuevas pintadas de Dambulla, el Templo del Diente de Kandy y las antiguas capitales del Triángulo Cultural. Los guías privados mantienen clara la etiqueta del templo y caminan sin prisas para que la atmósfera permanezca intacta.",
+    "seo": {
+      "metaTitle": "Experiencias en templos y patrimonio | hai sri lanka",
+      "metaDescription": "Explore los templos y el patrimonio de Sri Lanka con los tours privados de Hai Sri Lanka Dambulla, Kandy y Cultural Triangle."
+    }
+  },
+  {
+    "slug": "mangrove-boat-safaris",
+    "title": "Safaris en barco por los manglares",
+    "shortDescription": "Canales tranquilos, túneles de raíces y vida silvestre de la costa sur.",
+    "description": "Deslícese por los túneles de los manglares en un barco privado, aves en el cielo, aguas tranquilas bajo el casco y un ritmo costero más lento. Perfecto como paseo de medio día junto al fuerte de Galle o como una suave aventura en las rutas del sur.",
+    "seo": {
+      "metaTitle": "Safaris en barco por los manglares | Experiencias | hai sri lanka",
+      "metaDescription": "Safaris privados en barco por los manglares con los tranquilos canales de Hai Sri Lanka, la vida salvaje y los días en la costa de Galle."
+    }
+  },
+  {
+    "slug": "tuk-tuk-adventures",
+    "title": "Aventuras en tuk-tuk",
+    "shortDescription": "Carriles locales, atracciones al aire libre y alma de ciudad.",
+    "description": "Vea las ciudades como lo hacen los lugareños, recorra los mercados y tenga un guía con chofer que conozca los atajos. Los saltos en tuk-tuk pasan entre templos, cafés y miradores sin la sensación de ser un autobús sellado de un autocar grupal.",
+    "seo": {
+      "metaTitle": "Aventuras en tuk-tuk en Sri Lanka | hai sri lanka",
+      "metaDescription": "Aventuras privadas en tuk-tuk con carriles locales de Hai Sri Lanka, paradas flexibles en la ciudad y viajes al aire libre."
+    }
+  },
+  {
+    "slug": "highland-scenic",
+    "title": "Highlands y carriles panorámicos",
+    "shortDescription": "Niebla de té, Puente de los Nueve Arcos y aire fresco de la montaña.",
+    "description": "Suba a la región montañosa de Sri Lanka para disfrutar de las pistas de té, los puentes emblemáticos y las ventanas panorámicas de los trenes. Ella y Tea Country ofrecen caminatas cortas de aventuras, mañanas frescas y miradores que se ganan un lugar en las rutas clásicas de las islas.",
+    "seo": {
+      "metaTitle": "Experiencias en tren panorámico y en las tierras altas | hai sri lanka",
+      "metaDescription": "Descubra Ella y el país del té con el puente Hai Sri Lanka Nine Arch, los trenes de las tierras altas y las rutas privadas de montaña."
+    }
+  },
+  {
+    "slug": "village-life",
+    "title": "Vida del pueblo",
+    "shortDescription": "Paseos en tractor, hospitalidad rural y Sri Lanka rural.",
+    "description": "Deje la carretera hacia los carriles del pueblo, los carros tractores, los campos de arroz, la hospitalidad hogareña y los ritmos más tranquilos que los viajeros recuerdan por más tiempo. Suave inmersión cultural que se adapta a itinerarios de varios días sin sentirse escenificado.",
+    "seo": {
+      "metaTitle": "Experiencias de vida de pueblo en Sri Lanka | hai sri lanka",
+      "metaDescription": "Experimente la vida del pueblo de Sri Lanka con paseos en tractor Hai Sri Lanka, anfitriones locales y hospitalidad rural."
+    }
+  },
+  {
+    "slug": "cycling-trails",
+    "title": "Rutas ciclistas",
+    "shortDescription": "Mañanas activas por senderos sombreados y caminos rurales.",
+    "description": "Pedalea a través de la vegetación tropical por senderos tranquilos, rutas familiares y paseos guiados que estiran las piernas sin convertir el día en una carrera. Combine el ciclismo con la región del té, los pueblos o la costa, según su itinerario.",
+    "seo": {
+      "metaTitle": "Rutas ciclistas en Sri Lanka | Experiencias | hai sri lanka",
+      "metaDescription": "Pasee en bicicleta por el campo de Sri Lanka con los senderos guiados de Hai Sri Lanka, un ritmo familiar y senderos pintorescos en las tierras altas."
+    }
+  }
+]

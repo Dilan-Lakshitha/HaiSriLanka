@@ -1,0 +1,262 @@
+{
+  "seo": {
+    "metaTitle": "Wycieczki po Sri Lance | Prywatne luksusowe wycieczki po Sri Lance",
+    "metaDescription": "Zaplanuj prywatną podróż na Sri Lankę z Hai Sri Lanka Tours. Luksusowe wielodniowe wycieczki, wybrane jednodniowe wycieczki i doświadczeni lokalni gospodarze na całej wyspie."
+  },
+  "hero": {
+    "eyebrow": "Prywatne podróże przychodzące · Sri Lanka",
+    "title": "Odkryj Cejlon w cichym i luksusowym miejscu",
+    "subtitle": "Spersonalizowane podróże przez świątynie, krainę herbaty, dziką przyrodę i wybrzeże są dostosowane do potrzeb wymagających podróżników.",
+    "image": {
+      "alt": "Most Dziewięciu Łuków i kraina herbaty w pobliżu Elli na Sri Lance",
+      "title": "Most łukowy Ella Nine"
+    },
+    "images": [
+      {
+        "alt": "Goście i przewodnik delektujący się królewskimi kokosami na przystanku nad rzeką w dżungli na Sri Lance",
+        "title": "Lokalna gościnność"
+      },
+      {
+        "alt": "Podróżujący na safari jeepem na Sri Lance ze słoniami w pobliżu",
+        "title": "Chwile safari"
+      },
+      {
+        "alt": "Podróżnicy ze swoim przewodnikiem w świątyni jaskini Dambulla na Sri Lance",
+        "title": "Wizyty w świątyni"
+      },
+      {
+        "alt": "Lampart odpoczywa na piaszczystej ścieżce w Parku Narodowym Yala",
+        "title": "Dzika przyroda Yala"
+      },
+      {
+        "alt": "Most Nine Arch Bridge wznoszący się nad plantacjami herbaty w Ella",
+        "title": "Wyżyny Elli"
+      }
+    ]
+  },
+  "search": {
+    "title": "Znajdź swoją podróż",
+    "subtitle": "Wyszukaj prywatne wycieczki według miejsca docelowego, czasu trwania i stylu podróży.",
+    "destinations": [
+      {
+        "label": "Gdziekolwiek na Sri Lance"
+      },
+      {
+        "label": "Galle i południowe wybrzeże"
+      },
+      {
+        "label": "Trójkąt Kulturowy"
+      },
+      {
+        "label": "Kandy i wyżyny"
+      },
+      {
+        "label": "Yala i dzika przyroda"
+      },
+      {
+        "label": "Wschodnie Wybrzeże"
+      }
+    ],
+    "durations": [
+      {
+        "label": "Dowolny czas trwania"
+      },
+      {
+        "label": "Wycieczki jednodniowe"
+      },
+      {
+        "label": "3–7 dni"
+      },
+      {
+        "label": "8–14 dni"
+      },
+      {
+        "label": "15+ dni"
+      }
+    ],
+    "styles": [
+      {
+        "label": "Wszystkie style"
+      },
+      {
+        "label": "Kultura i dziedzictwo"
+      },
+      {
+        "label": "Dzika przyroda"
+      },
+      {
+        "label": "Plaża i wybrzeże"
+      },
+      {
+        "label": "Luksus i dobre samopoczucie"
+      },
+      {
+        "label": "Rodzina"
+      }
+    ]
+  },
+  "whyChoose": {
+    "eyebrow": "Dlaczego Hai Sri Lanka",
+    "title": "Gościnność stworzona z myślą o prywatnych podróżach",
+    "subtitle": "Projektujemy spokojne, płynne podróże, nigdy zatłoczone autobusy grupowe z gospodarzami, którzy znają każdą krętą drogę.",
+    "items": [
+      {
+        "title": "Całkowicie prywatne doświadczenia",
+        "description": "Twój pojazd, Twoje tempo, Twoje preferencje. Każda wycieczka jest zarezerwowana wyłącznie dla Twojej imprezy.",
+        "id": "private"
+      },
+      {
+        "title": "Doświadczeni lokalni gospodarze",
+        "description": "Przewodnicy-szoferzy przeszkoleni w zakresie opowiadania historii, bezpieczeństwa i cichej, luksusowej gościnności na całej wyspie.",
+        "id": "experts"
+      },
+      {
+        "title": "Trasy szyte na miarę",
+        "description": "Dopasowujemy hotele, terminy i ukryte przystanki, aby dopasować je do Twojego stylu podróżowania.",
+        "id": "tailored"
+      },
+      {
+        "title": "Kompleksowa opieka",
+        "description": "Od powitania na lotnisku po transfer pożegnalny – oddany zespół wspiera każdego dnia Twojej podróży.",
+        "id": "care"
+      }
+    ]
+  },
+  "tourCategories": {
+    "eyebrow": "Kategorie wycieczek",
+    "title": "Wybierz sposób, w jaki poznasz Sri Lankę",
+    "subtitle": "Od jednego dnia na wybrzeżu po dwa tygodnie spędzone na wyżynach i dzikiej przyrodzie, zacznij od stylu, który Ci odpowiada.",
+    "items": [
+      {
+        "title": "Wycieczki jednodniowe",
+        "description": "Prywatne ucieczki z Kolombo i przybrzeżnych baz, fortów, świątyń i malowniczych przejażdżek.",
+        "image": {
+          "alt": "Prywatna jednodniowa wycieczka wzdłuż wybrzeża Sri Lanki"
+        },
+        "id": "day"
+      },
+      {
+        "title": "Wycieczki wielodniowe",
+        "description": "Wyselekcjonowane wycieczki po wyspach łączące kulturę, kraj herbaty, dziką przyrodę i pobyty na wybrzeżu.",
+        "image": {
+          "alt": "Kilkudniowa podróż przez wyżyny Sri Lanki"
+        },
+        "id": "multi"
+      },
+      {
+        "title": "Podróże dzikiej przyrody",
+        "description": "Dni safari i noclegi w pobliżu Yala, Wilpattu i Udawalawe.",
+        "image": {
+          "alt": "Safari jeepami po parkach dzikiej przyrody na Sri Lance"
+        },
+        "id": "wildlife"
+      },
+      {
+        "title": "Miesiąc miodowy i ucieczka",
+        "description": "Zaciszne pobyty butikowe, rytuały spa i niespieszne wieczory nad morzem.",
+        "image": {
+          "alt": "Luksusowa ucieczka na plażę dla par na Sri Lance"
+        },
+        "id": "honeymoon"
+      }
+    ]
+  },
+  "featuredMultiDay": {
+    "eyebrow": "Polecane podróże",
+    "title": "Wielodniowe wycieczki, które uwielbiają podróżnicy",
+    "subtitle": "Charakterystyczne prywatne trasy, w których można oddychać kulturą, wyżynami i wybrzeżem w równowadze.",
+    "viewAllLabel": "Zobacz wszystkie wycieczki wielodniowe"
+  },
+  "featuredDay": {
+    "eyebrow": "Jeden idealny dzień",
+    "title": "Polecane wycieczki jednodniowe",
+    "subtitle": "Prywatne przeżycia z Kolombo i zachodniego wybrzeża wyrafinowane tempo, niezapomniane przystanki.",
+    "viewAllLabel": "Zobacz wycieczki całodniowe"
+  },
+  "destinations": {
+    "eyebrow": "Miejsca docelowe",
+    "title": "Miejsca, które definiują Sri Lankę",
+    "subtitle": "Od Lion Rock po holenderskie mury fortów — odkrywaj regiony, które kształtują każdą wspaniałą trasę.",
+    "viewAllLabel": "Przeglądaj miejsca docelowe"
+  },
+  "map": {
+    "eyebrow": "Mapa podróży",
+    "title": "Wyspa regionów doskonale skomunikowana",
+    "subtitle": "Opracowujemy choreografie tras, dzięki którym Trójkąt Kulturowy, wyżyny, dzika przyroda i wybrzeże czują się naturalnie, bez pośpiechu.",
+    "image": {
+      "alt": "Most Dziewięciu Łuków w Ella reprezentujący regiony turystyczne Sri Lanki",
+      "title": "Regiony podróży Sri Lanki"
+    },
+    "regions": [
+      {
+        "name": "Trójkąt Kulturowy",
+        "description": "Sigiriya, Polonnaruwa, Dambulla i Anuradhapura.",
+        "id": "triangle"
+      },
+      {
+        "name": "Kraj wzgórz",
+        "description": "Kandy, Nuwara Eliya, plantacje herbaty i mgliste szlaki.",
+        "id": "highlands"
+      },
+      {
+        "name": "Południowe Wybrzeże",
+        "description": "Fort Galle, Mirissa i ciche plaże butikowe.",
+        "id": "south"
+      },
+      {
+        "name": "Parki dzikiej przyrody",
+        "description": "Poranne safari w Yala, Udawalawe i Wilpattu.",
+        "id": "wildlife"
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Historie gości",
+    "title": "Zaufali podróżnicy na całym świecie",
+    "subtitle": "Słowa gości, którzy podróżowali z Hai Sri Lanka, w Google i TripAdvisor.",
+    "viewAllLabel": "Przeczytaj wszystkie recenzje"
+  },
+  "stats": {
+    "eyebrow": "Według liczb",
+    "title": "Podróż, która wydaje się przemyślana",
+    "items": [
+      {
+        "label": "Przyjęli prywatni goście",
+        "id": "guests"
+      },
+      {
+        "label": "Średnia ocena gości",
+        "id": "rating"
+      },
+      {
+        "label": "Lata doświadczenia w zakresie przychodzących informacji",
+        "id": "years"
+      },
+      {
+        "label": "Powtarzający się i polecani podróżnicy",
+        "id": "repeat"
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Dziennik podróży",
+    "title": "Pomysły na podróż po Sri Lance",
+    "subtitle": "Praktyczne przewodniki i informacje sezonowe od naszego zespołu planistów.",
+    "viewAllLabel": "Odwiedź bloga"
+  },
+  "faq": {
+    "eyebrow": "Pytania",
+    "title": "Często zadawane pytania",
+    "subtitle": "Wyraź odpowiedzi, zanim poprosisz o prywatną trasę.",
+    "viewAllLabel": "Zobacz wszystkie często zadawane pytania"
+  },
+  "cta": {
+    "eyebrow": "Zacznij tutaj",
+    "title": "Opowiedz nam, jak chcesz podróżować",
+    "subtitle": "Podziel się datami, tempem i zainteresowaniami, a my stworzymy prywatną podróż po Sri Lance, która będzie warta podróży.",
+    "image": {
+      "alt": "Most Nine Arch Bridge wznoszący się nad plantacjami herbaty w Ella na Sri Lance",
+      "title": "Most łukowy Ella Nine"
+    }
+  }
+}

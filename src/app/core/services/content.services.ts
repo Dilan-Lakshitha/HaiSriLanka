@@ -1,17 +1,33 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, map, shareReplay } from 'rxjs';
+import { toObservable } from '@angular/core/rxjs-interop';
+import { Observable, combineLatest, map, shareReplay, switchMap } from 'rxjs';
 import type { Destination, Experience, BlogPost, Review, FaqDataset, CompanyInfo, NavigationConfig } from '../models';
+import { ContentLocalizeService } from './content-localize.service';
+import { LocaleService } from './locale.service';
 
 @Injectable({ providedIn: 'root' })
 export class DestinationService {
   private readonly http = inject(HttpClient);
+  private readonly localize = inject(ContentLocalizeService);
+  private readonly locale = inject(LocaleService);
+  private readonly lang$ = toObservable(this.locale.activeLang);
+
   private readonly data$ = this.http
     .get<Destination[]>('/assets/json/destinations.json')
     .pipe(shareReplay(1));
 
   getAll(): Observable<Destination[]> {
-    return this.data$.pipe(map((items) => items.filter((d) => d.status === 'published')));
+    return combineLatest([this.data$, this.lang$]).pipe(
+      switchMap(([items, lang]) =>
+        this.localize
+          .localizeListBySlug(
+            items.filter((d) => d.status === 'published'),
+            'destinations.json',
+            lang,
+          ),
+      ),
+    );
   }
 
   getBySlug(slug: string): Observable<Destination | undefined> {
@@ -22,12 +38,24 @@ export class DestinationService {
 @Injectable({ providedIn: 'root' })
 export class ExperienceService {
   private readonly http = inject(HttpClient);
+  private readonly localize = inject(ContentLocalizeService);
+  private readonly locale = inject(LocaleService);
+  private readonly lang$ = toObservable(this.locale.activeLang);
+
   private readonly data$ = this.http
     .get<Experience[]>('/assets/json/experiences.json')
     .pipe(shareReplay(1));
 
   getAll(): Observable<Experience[]> {
-    return this.data$.pipe(map((items) => items.filter((e) => e.status === 'published')));
+    return combineLatest([this.data$, this.lang$]).pipe(
+      switchMap(([items, lang]) =>
+        this.localize.localizeListBySlug(
+          items.filter((e) => e.status === 'published'),
+          'experiences.json',
+          lang,
+        ),
+      ),
+    );
   }
 
   getBySlug(slug: string): Observable<Experience | undefined> {
@@ -38,17 +66,22 @@ export class ExperienceService {
 @Injectable({ providedIn: 'root' })
 export class BlogService {
   private readonly http = inject(HttpClient);
+  private readonly localize = inject(ContentLocalizeService);
+  private readonly locale = inject(LocaleService);
+  private readonly lang$ = toObservable(this.locale.activeLang);
+
   private readonly data$ = this.http
     .get<BlogPost[]>('/assets/json/blogs.json')
     .pipe(shareReplay(1));
 
   getAll(): Observable<BlogPost[]> {
-    return this.data$.pipe(
-      map((items) =>
-        items
+    return combineLatest([this.data$, this.lang$]).pipe(
+      switchMap(([items, lang]) => {
+        const published = items
           .filter((b) => b.status === 'published')
-          .sort((a, b) => b.publishDate.localeCompare(a.publishDate)),
-      ),
+          .sort((a, b) => b.publishDate.localeCompare(a.publishDate));
+        return this.localize.localizeListBySlug(published, 'blogs.json', lang);
+      }),
     );
   }
 
@@ -76,28 +109,38 @@ export class ReviewService {
 @Injectable({ providedIn: 'root' })
 export class FaqService {
   private readonly http = inject(HttpClient);
+  private readonly localize = inject(ContentLocalizeService);
+  private readonly locale = inject(LocaleService);
+  private readonly lang$ = toObservable(this.locale.activeLang);
+
   private readonly data$ = this.http
     .get<FaqDataset>('/assets/json/faq.json')
     .pipe(shareReplay(1));
 
   getDataset(): Observable<FaqDataset> {
-    return this.data$;
-  }
-
-  getGlobal(): Observable<FaqDataset['global']> {
-    return this.data$.pipe(map((d) => d.global));
+    return combineLatest([this.data$, this.lang$]).pipe(
+      switchMap(([faq, lang]) => this.localize.localizeEntity(faq, 'faq.json', lang)),
+    );
   }
 }
 
 @Injectable({ providedIn: 'root' })
 export class CompanyService {
   private readonly http = inject(HttpClient);
+  private readonly localize = inject(ContentLocalizeService);
+  private readonly locale = inject(LocaleService);
+  private readonly lang$ = toObservable(this.locale.activeLang);
+
   private readonly data$ = this.http
     .get<CompanyInfo>('/assets/json/company.json')
     .pipe(shareReplay(1));
 
   getCompany(): Observable<CompanyInfo> {
-    return this.data$;
+    return combineLatest([this.data$, this.lang$]).pipe(
+      switchMap(([company, lang]) =>
+        this.localize.localizeEntity(company, 'company.json', lang),
+      ),
+    );
   }
 }
 

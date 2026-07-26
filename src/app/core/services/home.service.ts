@@ -1,9 +1,12 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, map, shareReplay, combineLatest } from 'rxjs';
+import { toObservable } from '@angular/core/rxjs-interop';
+import { Observable, map, shareReplay, combineLatest, switchMap } from 'rxjs';
 import type { HomeContent, FaqItem, Tour, Destination, Review, BlogPost } from '../models';
 import { TourService } from './tour.service';
 import { DestinationService, BlogService, ReviewService, FaqService } from './content.services';
+import { ContentLocalizeService } from './content-localize.service';
+import { LocaleService } from './locale.service';
 
 @Injectable({ providedIn: 'root' })
 export class HomeService {
@@ -13,13 +16,18 @@ export class HomeService {
   private readonly blogs = inject(BlogService);
   private readonly reviews = inject(ReviewService);
   private readonly faqs = inject(FaqService);
+  private readonly localize = inject(ContentLocalizeService);
+  private readonly locale = inject(LocaleService);
+  private readonly lang$ = toObservable(this.locale.activeLang);
 
   private readonly home$ = this.http
     .get<HomeContent>('/assets/json/home.json')
     .pipe(shareReplay(1));
 
   getContent(): Observable<HomeContent> {
-    return this.home$;
+    return combineLatest([this.home$, this.lang$]).pipe(
+      switchMap(([home, lang]) => this.localize.localizeEntity(home, 'home.json', lang)),
+    );
   }
 
   getFeaturedMultiDay(limit = 3): Observable<Tour[]> {
@@ -27,7 +35,15 @@ export class HomeService {
       .getMultiDayTours()
       .pipe(
         map((items) =>
-          items.filter((t) => t.featured || t.bestSeller || t.badges?.includes('featured') || t.badges?.includes('best-seller')).slice(0, limit),
+          items
+            .filter(
+              (t) =>
+                t.featured ||
+                t.bestSeller ||
+                t.badges?.includes('featured') ||
+                t.badges?.includes('best-seller'),
+            )
+            .slice(0, limit),
         ),
       );
   }
@@ -37,7 +53,15 @@ export class HomeService {
       .getDayTours()
       .pipe(
         map((items) =>
-          items.filter((t) => t.featured || t.bestSeller || t.badges?.includes('featured') || t.badges?.includes('best-seller')).slice(0, limit),
+          items
+            .filter(
+              (t) =>
+                t.featured ||
+                t.bestSeller ||
+                t.badges?.includes('featured') ||
+                t.badges?.includes('best-seller'),
+            )
+            .slice(0, limit),
         ),
       );
   }
@@ -55,7 +79,7 @@ export class HomeService {
   }
 
   getHomeFaqs(): Observable<FaqItem[]> {
-    return combineLatest([this.home$, this.faqs.getDataset()]).pipe(
+    return combineLatest([this.getContent(), this.faqs.getDataset()]).pipe(
       map(([home, dataset]) => {
         const pageFaqs =
           dataset.pages.find((p) => p.pageKey === home.faq.pageKey)?.items ?? [];

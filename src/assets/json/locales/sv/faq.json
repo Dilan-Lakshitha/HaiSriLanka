@@ -1,0 +1,35 @@
+{
+  "global": [
+    {
+      "question": "Är turer privata?",
+      "answer": "Ja. Hai Sri Lanka specialiserar sig på privata inkommande upplevelser för par, familjer och små grupper."
+    },
+    {
+      "question": "Ordnar ni flygplatstransfer?",
+      "answer": "Ja. Välkommen till flygplatser och avgångar kan inkluderas i valfri flerdagarsresplan eller bokas separat."
+    },
+    {
+      "question": "Hur bokar jag?",
+      "answer": "Välj en turné, välj resenärer och datum, skicka in resenärsinformation så får du e-postbekräftelse. Ingen onlinebetalning krävs för att begära en bokning."
+    },
+    {
+      "question": "Kan resvägar anpassas?",
+      "answer": "Absolut. Vi anpassar tempo, hotell och upplevelser efter dina önskemål innan vi bekräftar din resa."
+    }
+  ],
+  "pages": [
+    {
+      "pageKey": "home",
+      "items": [
+        {
+          "question": "Varför välja Hai Sri Lanka?",
+          "answer": "Premium gästfrihet, expert lokala guider och resplaner designade för komfort och autentisk upptäckt."
+        },
+        {
+          "question": "Vilka språk talar dina guider?",
+          "answer": "Engelska är standard. Tyska, franska och andra europeiska språk kan ordnas på begäran."
+        }
+      ]
+    }
+  ]
+}

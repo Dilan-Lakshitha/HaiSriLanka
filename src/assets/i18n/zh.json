@@ -1,99 +1,142 @@
 {
   "brand": {
     "name": "Hai Sri Lanka",
-    "tagline": "Premium inbound journeys across Sri Lanka"
+    "tagline": "斯里兰卡高端入境私人旅程"
   },
   "nav": {
-    "home": "Home",
-    "tours": "Tours",
-    "dayTours": "Day Tours",
-    "multiDayTours": "Multi-Day Tours",
-    "destinations": "Destinations",
-    "experiences": "Things To Do",
-    "blog": "Blog",
-    "reviews": "Reviews",
-    "gallery": "Gallery",
-    "contact": "Contact",
-    "about": "About",
-    "faq": "FAQ",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "travelGuide": "Travel Guide",
-    "bookNow": "Book Now",
-    "language": "Language",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu",
-    "skipToContent": "Skip to main content"
+    "home": "首页",
+    "tours": "行程",
+    "dayTours": "一日游",
+    "multiDayTours": "多日游",
+    "destinations": "目的地",
+    "experiences": "体验",
+    "blog": "日志",
+    "reviews": "评价",
+    "gallery": "图库",
+    "contact": "联系",
+    "about": "关于我们",
+    "faq": "常见问题",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "travelGuide": "旅行指南",
+    "bookNow": "立即预订",
+    "language": "语言",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "skipToContent": "跳到内容",
+    "whatsapp": "WhatsApp",
+    "viewAllTours": "查看全部行程",
+    "toursMegaCopy": "斯里兰卡私人一日游与多日旅程。",
+    "primary": "主导航",
+    "contactLabel": "联系",
+    "social": "社交媒体"
   },
   "footer": {
-    "explore": "Explore",
-    "company": "Company",
-    "legal": "Legal",
-    "rights": "All rights reserved.",
-    "contactCta": "Plan your journey"
+    "explore": "探索",
+    "company": "公司",
+    "legal": "法律",
+    "rights": "版权所有。",
+    "contactCta": "规划旅程",
+    "newsletterThanks": "谢谢 — 您已加入名单。"
   },
   "common": {
-    "loading": "Loading…",
-    "learnMore": "Learn more",
-    "viewAll": "View all",
-    "from": "From",
-    "perPerson": "per person",
-    "comingSoon": "This page foundation is ready. Content arrives in the next feature phase.",
-    "backHome": "Back to home",
-    "notFoundTitle": "Page not found",
-    "notFoundBody": "The page you requested does not exist or has moved."
+    "loading": "加载中…",
+    "learnMore": "了解更多",
+    "viewAll": "查看全部",
+    "from": "起价",
+    "perPerson": "每人",
+    "comingSoon": "页面已就绪，内容即将上线。",
+    "backHome": "返回首页",
+    "notFoundTitle": "页面未找到",
+    "notFoundBody": "您请求的页面不存在或已移动。",
+    "freeCancellation": "免费取消",
+    "payAtDestination": "目的地付款",
+    "toursCount": "{{count}} 个行程",
+    "toursReady": "{{count}} 个行程可预订",
+    "noTours": "暂无行程。",
+    "noToursCategory": "该分类暂无行程。",
+    "openFullDayList": "打开一日游列表",
+    "openFullMultiList": "打开多日游列表",
+    "quickView": "快速预览",
+    "compare": "对比",
+    "compared": "已对比",
+    "wishlist": "心愿单",
+    "saved": "已保存",
+    "allTours": "全部行程"
+  },
+  "booking": {
+    "title": "预订行程",
+    "eyebrow": "预订此行程",
+    "privateInquiry": "私人咨询",
+    "travelers": "旅客",
+    "date": "出行日期",
+    "details": "旅客信息",
+    "summary": "预订摘要",
+    "confirm": "确认预订",
+    "success": "请求已发送",
+    "perPerson": "每人价格",
+    "total": "合计",
+    "emailNote": "您与我们的团队将收到电子邮件确认。",
+    "freeCancel": "免费取消",
+    "payLater": "稍后付款",
+    "payAtDestination": "目的地付款",
+    "whatsappAdmin": "WhatsApp 行程管理员"
+  },
+  "placeholder": {
+    "pageTitle": "{{page}}",
+    "foundationReady": "基础已就绪"
   },
   "seo": {
     "home": {
-      "title": "Hai Sri Lanka Tours | Premium Sri Lanka Travel",
-      "description": "Private day tours and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
+      "title": "Hai Sri Lanka 行程 | Premium Sri Lanka 旅行",
+      "description": "Private 一日游s and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
     },
     "about": {
-      "title": "About Us | Hai Sri Lanka Tours",
+      "title": "关于我们 Us | Hai Sri Lanka 行程",
       "description": "Meet Hai Sri Lanka Tours a premium inbound tourism company crafting private Sri Lankan journeys."
     },
     "toursHub": {
-      "title": "Sri Lanka Tours | Hai Sri Lanka",
-      "description": "Browse private day tours and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
+      "title": "Sri Lanka 行程 | Hai Sri Lanka",
+      "description": "Browse private 一日游s and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
     },
     "dayTours": {
-      "title": "Day Tours in Sri Lanka | Hai Sri Lanka",
-      "description": "Private day tours across Sri Lanka Galle, culture, wildlife, and more."
+      "title": "Day 行程 in Sri Lanka | Hai Sri Lanka",
+      "description": "Private 一日游s across Sri Lanka Galle, culture, wildlife, and more."
     },
     "multiDayTours": {
-      "title": "Multi-Day Sri Lanka Tours | Hai Sri Lanka",
+      "title": "多日游 Sri Lanka 行程 | Hai Sri Lanka",
       "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
     },
     "destinations": {
-      "title": "Sri Lanka Destinations | Hai Sri Lanka",
+      "title": "Sri Lanka 目的地 | Hai Sri Lanka",
       "description": "Explore top Sri Lanka destinations with local expertise from Hai Sri Lanka Tours."
     },
     "travelGuide": {
-      "title": "Sri Lanka Travel Guide | Hai Sri Lanka",
+      "title": "Sri Lanka 旅行 指南 | Hai Sri Lanka",
       "description": "Practical Sri Lanka travel guidance from Hai Sri Lanka Tours."
     },
     "thingsToDo": {
-      "title": "Things To Do in Sri Lanka | Hai Sri Lanka",
+      "title": "体验 in Sri Lanka | Hai Sri Lanka",
       "description": "Experiences and things to do across Sri Lanka with Hai Sri Lanka Tours."
     },
     "reviews": {
-      "title": "Guest Reviews | Hai Sri Lanka Tours",
+      "title": "Guest 评价 | Hai Sri Lanka 行程",
       "description": "Read Google and TripAdvisor reviews from Hai Sri Lanka travelers."
     },
     "gallery": {
-      "title": "Gallery | Hai Sri Lanka Tours",
+      "title": "图库 | Hai Sri Lanka 行程",
       "description": "A visual journey through Sri Lanka with Hai Sri Lanka Tours."
     },
     "faq": {
-      "title": "FAQ | Hai Sri Lanka Tours",
+      "title": "常见问题 | Hai Sri Lanka 行程",
       "description": "Frequently asked questions about booking and traveling with Hai Sri Lanka."
     },
     "contact": {
-      "title": "Contact | Hai Sri Lanka Tours",
+      "title": "联系 | Hai Sri Lanka 行程",
       "description": "Contact Hai Sri Lanka Tours to plan your private Sri Lanka journey."
     },
     "blog": {
-      "title": "Travel Blog | Hai Sri Lanka",
+      "title": "旅行 博客 | Hai Sri Lanka",
       "description": "Sri Lanka travel tips, guides, and stories from Hai Sri Lanka Tours."
     },
     "booking": {
@@ -101,32 +144,37 @@
       "description": "Request a private tour booking with Hai Sri Lanka Tours. No online payment required."
     },
     "privacy": {
-      "title": "Privacy Policy | Hai Sri Lanka",
+      "title": "隐私 Policy | Hai Sri Lanka",
       "description": "Privacy policy for HaiSriLanka.com."
     },
     "terms": {
-      "title": "Terms of Service | Hai Sri Lanka",
+      "title": "条款 of Service | Hai Sri Lanka",
       "description": "Terms of service for Hai Sri Lanka Tours."
     },
     "notFound": {
-      "title": "Page Not Found | Hai Sri Lanka",
+      "title": "页面未找到 | Hai Sri Lanka",
       "description": "The requested page could not be found."
     }
   },
-  "booking": {
-    "title": "Book your tour",
-    "travelers": "Travelers",
-    "date": "Travel date",
-    "details": "Traveler details",
-    "summary": "Booking summary",
-    "confirm": "Confirm booking",
-    "success": "Booking request sent",
-    "perPerson": "Price per person",
-    "total": "Total",
-    "emailNote": "You and our team will receive confirmation by email."
-  },
-  "placeholder": {
-    "pageTitle": "{{page}}",
-    "foundationReady": "Foundation ready"
+  "tour": {
+    "badge": {
+      "best-seller": "畅销",
+      "featured": "精选",
+      "luxury": "奢华",
+      "family": "家庭",
+      "adventure": "冒险",
+      "wildlife": "野生动物",
+      "culture": "文化"
+    },
+    "style": {
+      "culture": "文化",
+      "wildlife": "野生动物",
+      "adventure": "冒险",
+      "luxury": "奢华",
+      "family": "家庭",
+      "privateDay": "私人一日游",
+      "privateMulti": "私人多日游",
+      "beach": "海滩与海岸"
+    }
   }
 }

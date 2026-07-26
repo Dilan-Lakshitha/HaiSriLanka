@@ -1,0 +1,34 @@
+{
+  "title": "Excursión de un día a Kandy",
+  "seoTitle": "Excursión de un día a Kandy | hai sri lanka",
+  "metaDescription": "Excursión privada de un día a Kandy con el Templo del Diente y paisajes de las tierras altas.",
+  "shortDescription": "Templo del Diente, colinas pintorescas y el corazón cultural de las tierras altas.",
+  "overview": "Un día privado en la capital montañosa de Sri Lanka, centrado en el Templo de la Reliquia del Diente Sagrado, uno de los sitios budistas más importantes de la isla. Explore el complejo del templo, observe la devoción local y sumérjase en el entorno junto al lago de Kandy.\nDisfrute de miradores panorámicos de la ciudad y las colinas circundantes, con tiempo opcional en el Real Jardín Botánico u otros lugares destacados de las tierras altas. Su guía con chofer mantiene el día flexible para que pueda quedarse donde el ambiente le parezca adecuado.",
+  "description": "Un día privado en la capital montañosa de Sri Lanka, centrado en el Templo de la Reliquia del Diente Sagrado, uno de los sitios budistas más importantes de la isla. Explore el complejo del templo, observe la devoción local y sumérjase en el entorno junto al lago de Kandy.\nDisfrute de miradores panorámicos de la ciudad y las colinas circundantes, con tiempo opcional en el Real Jardín Botánico u otros lugares destacados de las tierras altas. Su guía con chofer mantiene el día flexible para que pueda quedarse donde el ambiente le parezca adecuado.",
+  "duration": "1 día",
+  "travelStyle": "Cultura",
+  "highlights": [
+    "Templo del Diente",
+    "Vistas de la ciudad junto al lago",
+    "Paisaje de entrada de las tierras altas"
+  ],
+  "included": [
+    "Vehículo privado",
+    "Guía con chofer"
+  ],
+  "excluded": [
+    "Boletos de entrada",
+    "Almuerzo"
+  ],
+  "seo": {
+    "metaTitle": "Excursión de un día a Kandy | hai sri lanka",
+    "metaDescription": "Excursión privada de un día a Kandy con el Templo del Diente y paisajes de las tierras altas."
+  },
+  "itinerary": [
+    {
+      "title": "Kandy sagrado",
+      "description": "Un día cultural privado centrado en el Templo de la Reliquia del Diente y la tranquila atmósfera junto al lago de Kandy."
+    }
+  ],
+  "faqs": []
+}

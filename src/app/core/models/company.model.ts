@@ -73,6 +73,8 @@ export interface LocaleDefinition {
   dir: 'ltr' | 'rtl';
   enabled: boolean;
   hreflang: string;
+  /** ISO 3166-1 alpha-2 used for flag asset, e.g. gb, de, jp */
+  flagCode: string;
 }
 
 export interface NavItem {

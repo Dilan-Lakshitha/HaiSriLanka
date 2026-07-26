@@ -1,0 +1,44 @@
+{
+  "hub": {
+    "hero": {
+      "eyebrow": "Sri Lanka turer",
+      "title": "Privata turer över ön",
+      "subtitle": "Välj en dagsutflykt eller en flerdagarsresa kurerad takt, pålitliga vistelser och transparent prissättning.",
+      "image": {
+        "alt": "Privata Sri Lanka-turer med Hai Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Sri Lanka Tours | Dags- och flerdagarspaket | Hai Sri Lanka",
+      "metaDescription": "Bläddra bland privata Sri Lanka dagsturer och flerdagars färdvägar kultur, teland, djurliv och kust med Hai Sri Lanka Tours."
+    }
+  },
+  "day": {
+    "hero": {
+      "eyebrow": "Dagsturer",
+      "title": "Privata dagsresor över Sri Lanka",
+      "subtitle": "Kurerade endagsupplevelser från kust till kulturtriangel helt privat, tempo för komfort.",
+      "image": {
+        "alt": "Sri Lanka dagsturer"
+      }
+    },
+    "seo": {
+      "metaTitle": "Dagsturer i Sri Lanka | Hai Sri Lanka Tours",
+      "metaDescription": "Bläddra förstklassiga privata dagsturer Galle, Sigiriya, Kandy och mer med livepriser och flexibel takt."
+    }
+  },
+  "multi-day": {
+    "hero": {
+      "eyebrow": "Flerdagarsturer",
+      "title": "Flerdagarsresor med lugn lyx",
+      "subtitle": "Privata resplaner över kultur, teland, vilda djur och flexibla nätter vid kusten, pålitliga vistelser.",
+      "image": {
+        "alt": "Sri Lanka flerdagarsturer"
+      }
+    },
+    "seo": {
+      "metaTitle": "Flerdagarsturer i Sri Lanka | Hai Sri Lanka Tours",
+      "metaDescription": "Utforska privata flerdagarsturer i Sri Lanka med boutiquevistelser, expertguidning och transparent prissättning."
+    }
+  }
+}

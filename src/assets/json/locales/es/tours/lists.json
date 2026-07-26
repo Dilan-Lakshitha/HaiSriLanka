@@ -1,0 +1,44 @@
+{
+  "hub": {
+    "hero": {
+      "eyebrow": "Visitas turísticas en Sri Lanka",
+      "title": "Tours privados por toda la isla.",
+      "subtitle": "Elija una escapada de un día o un viaje de varios días con un ritmo seleccionado, estadías confiables y precios transparentes.",
+      "image": {
+        "alt": "Tours privados a Sri Lanka con Hai Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Viajes a Sri Lanka | Paquetes de un día y de varios días | hai sri lanka",
+      "metaDescription": "Explore tours privados de un día en Sri Lanka e itinerarios de varios días sobre cultura, región del té, vida silvestre y costa con Hai Sri Lanka Tours."
+    }
+  },
+  "day": {
+    "hero": {
+      "eyebrow": "Excursiones de un día",
+      "title": "Viajes privados de un día por Sri Lanka",
+      "subtitle": "Experiencias seleccionadas de un solo día desde la costa hasta el Triángulo Cultural, totalmente privadas y diseñadas para mayor comodidad.",
+      "image": {
+        "alt": "Excursiones de un día en Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Tours de un día en Sri Lanka | Visitas turísticas en Hai Sri Lanka",
+      "metaDescription": "Explore tours privados premium de un día en Galle, Sigiriya, Kandy y más con precios en vivo y ritmo flexible."
+    }
+  },
+  "multi-day": {
+    "hero": {
+      "eyebrow": "Tours de varios días",
+      "title": "Viajes de varios días con lujo tranquilo.",
+      "subtitle": "Itinerarios privados a través de la cultura, la región del té, la vida silvestre y la costa, noches flexibles y estadías confiables.",
+      "image": {
+        "alt": "Tours de varios días en Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Tours de varios días en Sri Lanka | Visitas turísticas en Hai Sri Lanka",
+      "metaDescription": "Explore recorridos privados de varios días por Sri Lanka con estadías boutique, guías expertos y precios transparentes."
+    }
+  }
+}

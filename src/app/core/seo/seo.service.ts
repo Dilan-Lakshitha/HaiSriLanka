@@ -128,6 +128,7 @@ export class SeoService {
             name: code,
             nativeName: code,
             dir: 'ltr' as const,
+            flagCode: code === 'en' ? 'gb' : code === 'sv' ? 'se' : code === 'ja' ? 'jp' : code === 'zh' ? 'cn' : code,
           }));
 
     for (const loc of locales) {

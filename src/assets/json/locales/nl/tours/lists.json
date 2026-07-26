@@ -1,0 +1,44 @@
+{
+  "hub": {
+    "hero": {
+      "eyebrow": "Rondreizen Sri Lanka",
+      "title": "Privérondleidingen over het eiland",
+      "subtitle": "Kies voor een dagje uit of een meerdaagse reis, samengesteld tempo, vertrouwde verblijven en transparante prijzen.",
+      "image": {
+        "alt": "Privérondreizen door Sri Lanka met Hai Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Rondreizen Sri Lanka | Dag- & Meerdaagse Arrangementen | Hoi Sri Lanka",
+      "metaDescription": "Blader door privé-dagtochten en meerdaagse routes over Sri Lanka, cultuur, theeland, natuur en kust met Hai Sri Lanka Tours."
+    }
+  },
+  "day": {
+    "hero": {
+      "eyebrow": "Dagtochten",
+      "title": "Privédagtochten door Sri Lanka",
+      "subtitle": "Samengestelde eendaagse ervaringen van de kust tot de Culturele Driehoek, volledig privé, afgestemd op comfort.",
+      "image": {
+        "alt": "Dagtochten door Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Dagtochten in Sri Lanka | Hai Sri Lanka-rondleidingen",
+      "metaDescription": "Blader door premium privédagtochten Galle, Sigiriya, Kandy en meer met live prijzen en flexibel tempo."
+    }
+  },
+  "multi-day": {
+    "hero": {
+      "eyebrow": "Meerdaagse tochten",
+      "title": "Meerdaagse reizen met rustige luxe",
+      "subtitle": "Privéroutes door cultuur, theeland, natuur en kust, flexibele nachten, vertrouwde verblijven.",
+      "image": {
+        "alt": "Meerdaagse rondreizen door Sri Lanka"
+      }
+    },
+    "seo": {
+      "metaTitle": "Meerdaagse reizen in Sri Lanka | Hai Sri Lanka-rondleidingen",
+      "metaDescription": "Ontdek meerdaagse privérondreizen door Sri Lanka met boetiekverblijven, deskundige begeleiding en transparante prijzen."
+    }
+  }
+}

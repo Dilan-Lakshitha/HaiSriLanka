@@ -1,0 +1,34 @@
+{
+  "title": "Wycieczka po Kandy",
+  "seoTitle": "Wycieczka po Kandy | Hai Sri Lanka",
+  "metaDescription": "Prywatna wycieczka po Kandy ze Świątynią Zęba i góralską scenerią.",
+  "shortDescription": "Świątynia Zęba, malownicze wzgórza i kulturalne serce wyżyn.",
+  "overview": "Prywatny dzień w położonej na wzgórzu stolicy Sri Lanki, skupionej wokół Świątyni Relikwii Najświętszego Zęba — jednego z najważniejszych miejsc buddyjskich na wyspie. Poznaj kompleks świątynny, obserwuj lokalne nabożeństwo i zanurz się w otoczeniu jeziora Kandy.\nCiesz się panoramicznymi punktami widokowymi na miasto i okoliczne wzgórza, z opcjonalnym czasem spędzonym w Królewskim Ogrodzie Botanicznym lub innych atrakcjach góralskich. Twój przewodnik z szoferem zapewnia elastyczność dnia, dzięki czemu możesz pozostać tam, gdzie panuje odpowiednia atmosfera.",
+  "description": "Prywatny dzień w położonej na wzgórzu stolicy Sri Lanki, skupionej wokół Świątyni Relikwii Najświętszego Zęba — jednego z najważniejszych miejsc buddyjskich na wyspie. Poznaj kompleks świątynny, obserwuj lokalne nabożeństwo i zanurz się w otoczeniu jeziora Kandy.\nCiesz się panoramicznymi punktami widokowymi na miasto i okoliczne wzgórza, z opcjonalnym czasem spędzonym w Królewskim Ogrodzie Botanicznym lub innych atrakcjach góralskich. Twój przewodnik z szoferem zapewnia elastyczność dnia, dzięki czemu możesz pozostać tam, gdzie panuje odpowiednia atmosfera.",
+  "duration": "1 dzień",
+  "travelStyle": "Kultura",
+  "highlights": [
+    "Świątynia Zęba",
+    "Widoki na miasto nad jeziorem",
+    "Górska sceneria bramy"
+  ],
+  "included": [
+    "Prywatny pojazd",
+    "Przewodnik szofera"
+  ],
+  "excluded": [
+    "Bilety wstępu",
+    "Obiad"
+  ],
+  "seo": {
+    "metaTitle": "Wycieczka po Kandy | Hai Sri Lanka",
+    "metaDescription": "Prywatna wycieczka po Kandy ze Świątynią Zęba i góralską scenerią."
+  },
+  "itinerary": [
+    {
+      "title": "Święte Kandy",
+      "description": "Prywatny dzień kulturalny skupiający się na Świątyni Relikwii Zęba i spokojnej atmosferze Kandy nad jeziorem."
+    }
+  ],
+  "faqs": []
+}

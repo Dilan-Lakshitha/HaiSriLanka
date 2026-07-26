@@ -1,11 +1,12 @@
 import { AsyncPipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { TranslocoPipe } from '@jsverse/transloco';
 import { CompanyService } from '../../services/content.services';
 
 @Component({
   selector: 'app-top-bar',
   standalone: true,
-  imports: [AsyncPipe],
+  imports: [AsyncPipe, TranslocoPipe],
   templateUrl: './top-bar.component.html',
   styleUrl: './top-bar.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

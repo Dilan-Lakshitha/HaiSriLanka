@@ -1,0 +1,35 @@
+{
+  "global": [
+    {
+      "question": "Les visites sont-elles privées ?",
+      "answer": "Oui. Hai Sri Lanka se spécialise dans les expériences entrantes privées pour les couples, les familles et les petits groupes."
+    },
+    {
+      "question": "Organisez-vous les transferts aéroport ?",
+      "answer": "Oui. Les accueils et les départs à l'aéroport peuvent être inclus dans tout itinéraire de plusieurs jours ou réservés séparément."
+    },
+    {
+      "question": "Comment réserver ?",
+      "answer": "Sélectionnez une visite, choisissez les voyageurs et la date, soumettez les détails du voyageur et vous recevrez une confirmation par e-mail. Aucun paiement en ligne n'est requis pour demander une réservation."
+    },
+    {
+      "question": "Les itinéraires peuvent-ils être personnalisés ?",
+      "answer": "Absolument. Nous ajustons le rythme, les hôtels et les expériences selon vos préférences avant de confirmer votre voyage."
+    }
+  ],
+  "pages": [
+    {
+      "pageKey": "home",
+      "items": [
+        {
+          "question": "Pourquoi choisir Hai Sri Lanka ?",
+          "answer": "Une hospitalité haut de gamme, des guides locaux experts et des itinéraires conçus pour le confort et la découverte authentique."
+        },
+        {
+          "question": "Quelles langues parlent vos guides ?",
+          "answer": "L'anglais est standard. L'allemand, le français et d'autres langues européennes peuvent être organisés sur demande."
+        }
+      ]
+    }
+  ]
+}

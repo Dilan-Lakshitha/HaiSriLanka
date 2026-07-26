@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "galle",
+    "title": "Galle",
+    "shortDescription": "Ville fortifiée classée au patrimoine mondial de l'UNESCO sur la côte sud du Sri Lanka.",
+    "description": "Promenez-vous dans les remparts de l’époque hollandaise, les rues commerçantes et la lumière de l’océan dans l’une des villes côtières les plus atmosphériques d’Asie. Galle associe des promenades patrimoniales à des soirées sur la plage et à des safaris en bateau dans les mangroves à proximité, idéal pour une excursion d'une journée au départ de Colombo ou un atterrissage en douceur sur des itinéraires de plusieurs jours.",
+    "seo": {
+      "metaTitle": "Guide de voyage à Galle | Destinations | Hai Sri Lanka",
+      "metaDescription": "Planifiez votre visite à Galle avec des promenades dans le fort Hai Sri Lanka, des plages, des safaris dans les mangroves et des visites organisées sur la côte sud."
+    }
+  },
+  {
+    "slug": "sigiriya",
+    "title": "Sigirîya",
+    "shortDescription": "La forteresse du Rocher du Lion et l'icône du Triangle culturel.",
+    "description": "Escaladez l'ancienne forteresse rocheuse pour découvrir des fresques, des traditions sur les murs de miroirs et des vues sur la jungle à travers le Triangle culturel. Associez Sigiriya aux temples rupestres de Dambulla pour une journée complète, ou attardez-vous sur un itinéraire de plusieurs jours avec les couchers de soleil de Pidurangala et les séjours à la campagne.",
+    "seo": {
+      "metaTitle": "Guide de voyage de Sigirîya | Destinations | Hai Sri Lanka",
+      "metaDescription": "Découvrez Sigiriya avec les voyages Hai Sri Lanka Tours du Rocher du Lion, des jardins, de Dambulla et du Triangle culturel."
+    }
+  },
+  {
+    "slug": "kandy",
+    "title": "Kandy",
+    "shortDescription": "Ville sacrée au bord du lac et porte d’entrée vers les hauts plateaux.",
+    "description": "Le temple de la Dent, les circuits sereins des lacs et l'air frais des collines font de Kandy le cœur culturel de l'île. De là, des trains de montagne et des routes de thé s'ouvrent vers Ella, faisant de Kandy un point intermédiaire naturel sur les itinéraires classiques de Ceylan.",
+    "seo": {
+      "metaTitle": "Guide de voyage de Kandy | Destinations | Hai Sri Lanka",
+      "metaDescription": "Explorez le temple de la Dent de Kandy et la porte des hautes terres avec les visites privées de Hai Sri Lanka."
+    }
+  },
+  {
+    "slug": "yala",
+    "title": "Yala",
+    "shortDescription": "Pays de safari emblématique du sud-est du Sri Lanka.",
+    "description": "Des safaris à l'aube traversent des forêts de broussailles et des lagons, des léopards, des éléphants et des lumières côtières. Yala récompense les départs matinaux et le rythme des jeeps privées, puis s'adoucit avec les nuits de plage du sud sur les routes insulaires plus longues.",
+    "seo": {
+      "metaTitle": "Parc national de Yala | Destinations | Hai Sri Lanka",
+      "metaDescription": "Planifiez des expériences de safari à Yala avec les jeeps privées de Hai Sri Lanka Tours, la faune et les itinéraires de la côte sud-est."
+    }
+  },
+  {
+    "slug": "ella",
+    "title": "Ella",
+    "shortDescription": "Pays du thé des Highlands, Nine Arch Bridge et matinées fraîches.",
+    "description": "Ella est le cœur doux des collines brumeuses du Sri Lanka, de l'emblématique pont aux neuf arches et de courtes promenades offrant des vues immenses. Arrivez en train panoramique ou en véhicule privé et attardez-vous devant les cascades, les cafés et les soirées tranquilles dans les Highlands.",
+    "seo": {
+      "metaTitle": "Ella Guide de Voyage | Destinations | Hai Sri Lanka",
+      "metaDescription": "Visitez Ella avec le pont à neuf arches Hai Sri Lanka, le pays du thé et les visites privées des hautes terres."
+    }
+  },
+  {
+    "slug": "colombo",
+    "title": "Colombo",
+    "shortDescription": "Ville porte d'entrée de marchés, de temples et de boulevard côtier.",
+    "description": "Colombo donne le ton à l'arrivée des brises de Galle Face, des temples et des églises dans une seule grille, et des restaurants modernes à côté des façades coloniales. Utilisez-le comme une première nuit douce, une journée de culture urbaine ou une finale calme avant de rentrer chez vous.",
+    "seo": {
+      "metaTitle": "Guide de voyage de Colombo | Destinations | Hai Sri Lanka",
+      "metaDescription": "Découvrez Colombo avec la culture de la ville Hai Sri Lanka, les soirées côtières et les visites privées à l'arrivée."
+    }
+  },
+  {
+    "slug": "anuradhapura",
+    "title": "Anuradhapura",
+    "shortDescription": "Chapiteaux anciens, dagobas et ombre sacrée de la Bodhi.",
+    "description": "Anuradhapura invite à des journées culturelles plus lentes, de vastes dagobas, des ruines monastiques et le sacré Sri Maha Bodhi. Faites du vélo ou roulez entre les sites avec des guides privés, puis continuez plus profondément dans le triangle culturel en direction de Sigiriya et Polonnaruwa.",
+    "seo": {
+      "metaTitle": "Guide de voyage Anurâdhapura | Destinations | Hai Sri Lanka",
+      "metaDescription": "Explorez la ville sacrée d'Anuradhapura avec les visites privées du triangle culturel Hai Sri Lanka."
+    }
+  },
+  {
+    "slug": "polonnaruwa",
+    "title": "Polonnâruvâ",
+    "shortDescription": "Ruines médiévales, temples rocheux et chars silencieux.",
+    "description": "La capitale médiévale de Polonnaruwa récompense les boucles à vélo et les guides privés parmi les palais de pierre, les images de Bouddha et les rives des réservoirs. Associez-le à Sigiriya ou Anuradhapura pour une séquence de triangle culturel qui ne semble jamais précipitée.",
+    "seo": {
+      "metaTitle": "Guide de voyage de Polonnâruvâ | Destinations | Hai Sri Lanka",
+      "metaDescription": "Visitez Polonnaruwa avec les ruines médiévales de Hai Sri Lanka et les visites privées du Triangle culturel."
+    }
+  },
+  {
+    "slug": "arugam-bay",
+    "title": "Baie d'Arugam",
+    "shortDescription": "Ville de surf de la côte est avec couchers de soleil sur le lagon.",
+    "description": "La baie d'Arugam offre des spots de surf énergétiques plus faciles sur la côte est, la vie dans le lagon et de longues soirées dorées. Idéal en saison, il constitue une finale saisissante ou un séjour indépendant lorsque vous souhaitez un espace océanique au-delà du sud.",
+    "seo": {
+      "metaTitle": "Guide de voyage Baie d'Arugam | Destinations | Hai Sri Lanka",
+      "metaDescription": "Planifiez la baie d'Arugam avec le surf, les lagons et les itinéraires privés plus longs de la côte est de Hai Sri Lanka."
+    }
+  },
+  {
+    "slug": "tea-country",
+    "title": "Pays du thé",
+    "shortDescription": "Collines de Nuwara Eliya, brume et matins de plantation.",
+    "description": "La région du thé s'étend à travers Nuwara Eliya et ses domaines à flanc de colline, où les vagues vertes rencontrent l'air frais. Les visites d'usines, les promenades dans les jardins et les villes coloniales classiques donnent de la texture aux itinéraires des hautes terres entre Kandy et Ella.",
+    "seo": {
+      "metaTitle": "Guide de voyage au pays du thé | Destinations | Hai Sri Lanka",
+      "metaDescription": "Explorez le pays du thé du Sri Lanka avec Hai Sri Lanka Nuwara Eliya, des plantations et des visites privées dans les hautes terres."
+    }
+  }
+]

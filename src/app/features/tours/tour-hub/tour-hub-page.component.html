@@ -33,7 +33,7 @@
             [class.is-active]="vm.tab === 'day'"
             (click)="setTab('day')"
           >
-            <span class="tour-hub__tab-label">Day Tours</span>
+            <span class="tour-hub__tab-label">{{ 'nav.dayTours' | transloco }}</span>
             <span class="tour-hub__tab-count">{{ vm.dayTours.length }}</span>
           </button>
           <button
@@ -45,7 +45,7 @@
             [class.is-active]="vm.tab === 'multi-day'"
             (click)="setTab('multi-day')"
           >
-            <span class="tour-hub__tab-label">Multi-Day Tours</span>
+            <span class="tour-hub__tab-label">{{ 'nav.multiDayTours' | transloco }}</span>
             <span class="tour-hub__tab-count">{{ vm.multiDayTours.length }}</span>
           </button>
         </div>
@@ -53,14 +53,14 @@
         <div class="tour-hub__panel-head">
           <div>
             <h2>{{ vm.listLabel }}</h2>
-            <p class="tour-hub__panel-meta">{{ vm.activeTours.length }} tours ready to book</p>
+            <p class="tour-hub__panel-meta">{{ 'common.toursReady' | transloco: { count: vm.activeTours.length } }}</p>
           </div>
           <a
             appUiButton
             variant="ghost"
             [routerLink]="['/', vm.lang, vm.listPath]"
           >
-            Open full {{ vm.tab === 'day' ? 'day' : 'multi-day' }} list
+            {{ vm.tab === 'day' ? ('common.openFullDayList' | transloco) : ('common.openFullMultiList' | transloco) }}
           </a>
         </div>
       </app-ui-container>
@@ -87,7 +87,7 @@
           }
         </ul>
         @if (!vm.activeTours.length) {
-          <p class="tour-hub__empty">No tours available in this category right now.</p>
+          <p class="tour-hub__empty">{{ 'common.noToursCategory' | transloco }}</p>
         }
       </app-ui-container>
     </section>
