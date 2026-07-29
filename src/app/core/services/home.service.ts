@@ -1,16 +1,15 @@
 import { Injectable, inject } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { toObservable } from '@angular/core/rxjs-interop';
-import { Observable, map, shareReplay, combineLatest, switchMap } from 'rxjs';
+import { Observable, map, of, shareReplay, combineLatest, switchMap } from 'rxjs';
 import type { HomeContent, FaqItem, Tour, Destination, Review, BlogPost } from '../models';
 import { TourService } from './tour.service';
 import { DestinationService, BlogService, ReviewService, FaqService } from './content.services';
 import { ContentLocalizeService } from './content-localize.service';
 import { LocaleService } from './locale.service';
+import homeSeed from '../../../assets/json/home.json';
 
 @Injectable({ providedIn: 'root' })
 export class HomeService {
-  private readonly http = inject(HttpClient);
   private readonly tours = inject(TourService);
   private readonly destinations = inject(DestinationService);
   private readonly blogs = inject(BlogService);
@@ -20,9 +19,8 @@ export class HomeService {
   private readonly locale = inject(LocaleService);
   private readonly lang$ = toObservable(this.locale.activeLang);
 
-  private readonly home$ = this.http
-    .get<HomeContent>('/assets/json/home.json')
-    .pipe(shareReplay(1));
+  /** Sync seed so the hero paints on first CD (cuts CSR CLS ~1.0+). */
+  private readonly home$ = of(homeSeed as HomeContent).pipe(shareReplay(1));
 
   getContent(): Observable<HomeContent> {
     return combineLatest([this.home$, this.lang$]).pipe(

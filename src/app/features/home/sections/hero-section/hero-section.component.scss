@@ -1,19 +1,27 @@
 .hero {
   position: relative;
-  min-height: 78vh;
+  /* Locked height (not only min-height) so late font/copy cannot grow the section. */
+  height: 78vh;
+  height: 78dvh;
+  min-height: 32rem;
+  max-height: 56rem;
   display: grid;
   align-items: end;
   color: var(--color-sand);
   overflow: hidden;
+  contain: layout;
+  background: var(--color-navy);
 
   @media (max-width: 768px) {
-    min-height: 62vh;
-    min-height: 62svh;
+    height: 62svh;
+    min-height: 24rem;
+    max-height: none;
   }
 
   &__media {
     position: absolute;
     inset: 0;
+    background: var(--color-navy);
   }
 
   &__img {

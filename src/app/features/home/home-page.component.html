@@ -1,45 +1,54 @@
-@if (heroVm$ | async; as heroVm) {
-  <div class="home-page">
+<div class="home-page">
+  @if (heroVm$ | async; as heroVm) {
     <app-hero-section [hero]="heroVm.content.hero" [lang]="heroVm.lang" />
+  } @else {
+    <!-- Reserve hero height before content emits (prevents footer jump / CLS). -->
+    <section class="home-page__hero-slot" aria-hidden="true"></section>
+  }
 
-    @if (restVm$ | async; as vm) {
-      <app-why-choose [intro]="vm.content.whyChoose" [items]="vm.content.whyChoose.items" />
-      <app-tour-categories
-        [intro]="vm.content.tourCategories"
-        [items]="vm.content.tourCategories.items"
-        [lang]="vm.lang"
-      />
-      <app-featured-tours
-        [intro]="vm.content.featuredMultiDay"
-        [tours]="vm.multiDay"
-        [lang]="vm.lang"
-        detailPath="multi-day-tour"
-      />
-      <app-featured-tours
-        [intro]="vm.content.featuredDay"
-        [tours]="vm.dayTours"
-        [lang]="vm.lang"
-        detailPath="day-tour"
-      />
-      <app-destinations-preview
-        [intro]="vm.content.destinations"
-        [destinations]="vm.destinations"
-        [lang]="vm.lang"
-      />
-      <app-map-section [map]="vm.content.map" />
-      <app-reviews-preview
-        [intro]="vm.content.reviews"
-        [reviews]="vm.reviews"
-        [lang]="vm.lang"
-      />
-      <app-travel-stats
-        [eyebrow]="vm.content.stats.eyebrow"
-        [title]="vm.content.stats.title"
-        [items]="vm.content.stats.items"
-      />
-      <app-blog-preview [intro]="vm.content.blog" [posts]="vm.posts" [lang]="vm.lang" />
-      <app-faq-preview [intro]="vm.content.faq" [items]="vm.faqs" [lang]="vm.lang" />
-      <app-home-cta [cta]="vm.content.cta" [lang]="vm.lang" />
-    }
-  </div>
-}
+  @if (restVm$ | async; as vm) {
+    <app-why-choose [intro]="vm.content.whyChoose" [items]="vm.content.whyChoose.items" />
+    <app-tour-categories
+      [intro]="vm.content.tourCategories"
+      [items]="vm.content.tourCategories.items"
+      [lang]="vm.lang"
+    />
+    <app-featured-tours
+      [intro]="vm.content.featuredMultiDay"
+      [tours]="vm.multiDay"
+      [lang]="vm.lang"
+      detailPath="multi-day-tour"
+    />
+    <app-featured-tours
+      [intro]="vm.content.featuredDay"
+      [tours]="vm.dayTours"
+      [lang]="vm.lang"
+      detailPath="day-tour"
+    />
+    <app-destinations-preview
+      [intro]="vm.content.destinations"
+      [destinations]="vm.destinations"
+      [lang]="vm.lang"
+    />
+    <app-map-section [map]="vm.content.map" />
+    <app-reviews-preview
+      [intro]="vm.content.reviews"
+      [reviews]="vm.reviews"
+      [lang]="vm.lang"
+    />
+    <app-travel-stats
+      [eyebrow]="vm.content.stats.eyebrow"
+      [title]="vm.content.stats.title"
+      [items]="vm.content.stats.items"
+    />
+    <app-blog-preview [intro]="vm.content.blog" [posts]="vm.posts" [lang]="vm.lang" />
+    <app-faq-preview [intro]="vm.content.faq" [items]="vm.faqs" [lang]="vm.lang" />
+    <app-home-cta [cta]="vm.content.cta" [lang]="vm.lang" />
+  } @else {
+    <div class="home-page__rest-slot" aria-hidden="true">
+      <div class="home-page__rest-block"></div>
+      <div class="home-page__rest-block home-page__rest-block--tall"></div>
+      <div class="home-page__rest-block"></div>
+    </div>
+  }
+</div>
