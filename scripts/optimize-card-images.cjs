@@ -1,6 +1,5 @@
 /**
- * Recompress homepage image-delivery offenders from PageSpeed.
- * Card images display ~300–530px; keep ~800px (2×) WebP sources.
+ * Recompress homepage card/map images to ~1.15× display width (PSI image-delivery).
  */
 const fs = require('fs');
 const path = require('path');
@@ -9,33 +8,33 @@ const sharp = require('sharp');
 const ROOT = path.join(__dirname, '..');
 const IMG = path.join(ROOT, 'src/assets/images');
 
-/** In-place WebP recompress (resize + quality). */
 const webpJobs = [
-  // Tour card heroes (~365px display → ~480–560px 1.5× source)
-  { file: 'tours/3-nights-4-days/hero.webp', width: 560, quality: 62 },
-  { file: 'tours/4-nights-5-days/hero.webp', width: 560, quality: 62 },
-  { file: 'tours/kandy-day-tour/hero.webp', width: 560, quality: 62 },
-  { file: 'tours/7-days-sri-lanka-highlights/hero.webp', width: 560, quality: 62 },
-  { file: 'tours/galle-day-tour/hero.webp', width: 560, quality: 62 },
-  { file: 'tours/sigiriya-dambulla-day-tour/hero.webp', width: 560, quality: 62 },
-  // Destination / map cards
-  { file: 'destinations/ella-bridge.webp', width: 720, quality: 62 },
-  { file: 'destinations/galle.webp', width: 560, quality: 62 },
-  { file: 'destinations/kandy.webp', width: 560, quality: 62 },
-  { file: 'destinations/yala.webp', width: 560, quality: 62 },
-  { file: 'destinations/sigiriya.webp', width: 560, quality: 62 },
-  // Categories (~274px display)
-  { file: 'tours/category-honeymoon.webp', width: 480, quality: 62 },
-  { file: 'tours/category-day.webp', width: 480, quality: 62 },
-  { file: 'tours/category-wildlife.webp', width: 480, quality: 62 },
-  { file: 'tours/category-multi.webp', width: 480, quality: 62 },
+  // Tour cards ~365 CSS px
+  { file: 'tours/3-nights-4-days/hero.webp', width: 420, quality: 55 },
+  { file: 'tours/4-nights-5-days/hero.webp', width: 420, quality: 55 },
+  { file: 'tours/kandy-day-tour/hero.webp', width: 420, quality: 55 },
+  { file: 'tours/7-days-sri-lanka-highlights/hero.webp', width: 420, quality: 55 },
+  { file: 'tours/galle-day-tour/hero.webp', width: 420, quality: 55 },
+  { file: 'tours/sigiriya-dambulla-day-tour/hero.webp', width: 420, quality: 55 },
+  // Map image ~532 CSS px
+  { file: 'destinations/ella-bridge.webp', width: 560, quality: 55 },
+  // Destination cards ~309–367 CSS px
+  { file: 'destinations/galle.webp', width: 360, quality: 55 },
+  { file: 'destinations/sigiriya.webp', width: 360, quality: 55 },
+  { file: 'destinations/kandy.webp', width: 420, quality: 55 },
+  { file: 'destinations/yala.webp', width: 420, quality: 55 },
+  // Category tiles ~274 CSS px
+  { file: 'tours/category-honeymoon.webp', width: 340, quality: 55 },
+  { file: 'tours/category-day.webp', width: 340, quality: 55 },
+  { file: 'tours/category-wildlife.webp', width: 340, quality: 55 },
+  { file: 'tours/category-multi.webp', width: 340, quality: 55 },
 ];
 
 async function optimizeWebp(job) {
   const file = path.join(IMG, job.file);
   if (!fs.existsSync(file)) {
     console.warn('skip missing', job.file);
-    return;
+    return null;
   }
   const inputBuf = fs.readFileSync(file);
   const oldSize = inputBuf.length;
@@ -44,43 +43,27 @@ async function optimizeWebp(job) {
     .resize({ width: job.width, withoutEnlargement: true })
     .webp({ quality: job.quality })
     .toBuffer();
-  if (outBuf.length >= oldSize * 0.98) {
+  const meta = await sharp(outBuf).metadata();
+  if (outBuf.length < oldSize) {
+    const tmp = `${file}.tmp`;
+    fs.writeFileSync(tmp, outBuf);
+    fs.renameSync(tmp, file);
+    console.log(
+      `${job.file}: ${(oldSize / 1024).toFixed(1)} → ${(outBuf.length / 1024).toFixed(1)} KiB (${meta.width}x${meta.height})`,
+    );
+  } else {
     console.log(`${job.file}: kept ${(oldSize / 1024).toFixed(1)} KiB (no win)`);
-    return;
   }
-  const tmp = `${file}.tmp`;
-  fs.writeFileSync(tmp, outBuf);
-  fs.renameSync(tmp, file);
-  console.log(
-    `${job.file}: ${(oldSize / 1024).toFixed(1)} → ${(outBuf.length / 1024).toFixed(1)} KiB`,
-  );
-}
-
-async function convertPngToWebp() {
-  const pngRel = 'tours/guest-experiences/elephant-sigiriya.png';
-  const png = path.join(IMG, pngRel);
-  const webp = path.join(IMG, 'tours/guest-experiences/elephant-at-sigiriya.webp');
-  if (!fs.existsSync(png)) {
-    console.warn('skip missing', pngRel);
-    return;
-  }
-  const inputBuf = fs.readFileSync(png);
-  const outBuf = await sharp(inputBuf)
-    .rotate()
-    .resize({ width: 800, withoutEnlargement: true })
-    .webp({ quality: 70 })
-    .toBuffer();
-  fs.writeFileSync(webp, outBuf);
-  console.log(
-    `elephant-sigiriya: ${(inputBuf.length / 1024).toFixed(1)} KiB PNG → ${(outBuf.length / 1024).toFixed(1)} KiB WebP`,
-  );
+  return { file: job.file, width: meta.width, height: meta.height };
 }
 
 async function run() {
+  const dims = {};
   for (const job of webpJobs) {
-    await optimizeWebp(job);
+    const result = await optimizeWebp(job);
+    if (result) dims[result.file] = result;
   }
-  await convertPngToWebp();
+  console.log(JSON.stringify(dims, null, 2));
 }
 
 run().catch((err) => {

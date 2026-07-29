@@ -19,8 +19,9 @@
           [ngSrc]="map().image.src"
           [alt]="map().image.alt"
           [title]="map().image.title || map().title"
-          [width]="map().image.width || 900"
-          [height]="map().image.height || 1100"
+          [width]="map().image.width || 560"
+          [height]="map().image.height || 448"
+          sizes="(max-width: 900px) 92vw, 532px"
           loading="lazy"
         />
       </figure>

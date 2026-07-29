@@ -193,8 +193,8 @@
         "image": {
           "src": "/assets/images/tours/category-day.webp",
           "alt": "Private day tour along the Sri Lankan coast",
-          "width": 800,
-          "height": 1067
+          "width": 340,
+          "height": 453
         }
       },
       {
@@ -205,8 +205,8 @@
         "image": {
           "src": "/assets/images/tours/category-multi.webp",
           "alt": "Multi-day journey through Sri Lanka highlands",
-          "width": 800,
-          "height": 533
+          "width": 340,
+          "height": 227
         }
       },
       {
@@ -217,8 +217,8 @@
         "image": {
           "src": "/assets/images/tours/category-wildlife.webp",
           "alt": "Jeep safari in Sri Lanka wildlife parks",
-          "width": 800,
-          "height": 566
+          "width": 340,
+          "height": 240
         }
       },
       {
@@ -229,8 +229,8 @@
         "image": {
           "src": "/assets/images/tours/category-honeymoon.webp",
           "alt": "Luxury beach escape for couples in Sri Lanka",
-          "width": 800,
-          "height": 1067
+          "width": 340,
+          "height": 453
         }
       }
     ]
@@ -264,8 +264,8 @@
       "src": "/assets/images/destinations/ella-bridge.webp",
       "alt": "Nine Arch Bridge in Ella representing travel regions of Sri Lanka",
       "title": "Sri Lanka travel regions",
-      "width": 1920,
-      "height": 1080
+      "width": 560,
+      "height": 448
     },
     "regions": [
       {

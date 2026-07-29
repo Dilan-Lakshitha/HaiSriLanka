@@ -12,8 +12,9 @@
             <img
               [ngSrc]="item.image.src"
               [alt]="item.image.alt"
-              [width]="item.image.width || 800"
-              [height]="item.image.height || 600"
+              [width]="item.image.width || 340"
+              [height]="item.image.height || 453"
+              sizes="(max-width: 720px) 92vw, 274px"
               loading="lazy"
             />
             <div class="categories__overlay">
