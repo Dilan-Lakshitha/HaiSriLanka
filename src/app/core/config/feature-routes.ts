@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { HOME_ROUTES } from '../../features/home/home.routes';
 
 function foundation(
   path: string,
@@ -17,9 +18,10 @@ function foundation(
 }
 
 export const FEATURE_CHILD_ROUTES: Routes = [
+  // Eager home: avoids an extra lazy-chunk round-trip before the LCP <img> mounts.
   {
     path: '',
-    loadChildren: () => import('../../features/home/home.routes').then((m) => m.HOME_ROUTES),
+    children: HOME_ROUTES,
   },
   foundation('about', 'nav.about', 'about'),
   {

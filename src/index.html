@@ -126,6 +126,49 @@
         color: #f5f0e6;
         border-color: #c9a227;
       }
+      /* Static LCP hero: paints before Angular boots (cuts ~2s element render delay). */
+      #hsl-lcp-hero {
+        display: none;
+        position: fixed;
+        inset: 0 0 auto;
+        z-index: 0;
+        width: 100%;
+        height: 78vh;
+        height: 78dvh;
+        min-height: 32rem;
+        max-height: 56rem;
+        overflow: hidden;
+        pointer-events: none;
+        background: #0f2744;
+      }
+      html.hsl-home #hsl-lcp-hero {
+        display: block;
+      }
+      html.hsl-home #hsl-lcp-hero[hidden] {
+        display: none;
+      }
+      #hsl-lcp-hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      @media (max-width: 768px) {
+        #hsl-lcp-hero {
+          height: 62svh;
+          min-height: 24rem;
+          max-height: none;
+        }
+      }
+      /* Let the shell image show through until the carousel leaves slide 0. */
+      html.hsl-home:not(.hsl-hero-carousel) .hero,
+      html.hsl-home:not(.hsl-hero-carousel) .hero__media {
+        background: transparent !important;
+      }
+      app-root {
+        position: relative;
+        z-index: 1;
+      }
     </style>
     <!-- Consent Mode v2 defaults BEFORE Google tag (order is required). -->
     <script>
@@ -165,6 +208,33 @@
     </script>
   </head>
   <body>
+    <!--
+      Homepage LCP image in the first HTML so Chrome can paint it without waiting
+      for Angular bootstrap (PSI "element render delay").
+    -->
+    <div id="hsl-lcp-hero" aria-hidden="true">
+      <img
+        id="hsl-lcp-hero-img"
+        src="/assets/images/hero/carousel-king-coconut.webp"
+        alt=""
+        width="1024"
+        height="768"
+        decoding="async"
+        fetchpriority="high"
+      />
+    </div>
+    <script>
+      (function () {
+        var path = (location.pathname || '/').replace(/\/+$/, '') || '/';
+        // Home: /, /en, /sv, etc. (single locale segment only)
+        if (path === '/' || /^\/[a-z]{2}$/i.test(path)) {
+          document.documentElement.classList.add('hsl-home');
+        } else {
+          var shell = document.getElementById('hsl-lcp-hero');
+          if (shell) shell.remove();
+        }
+      })();
+    </script>
     <div
       id="hsl-consent-banner"
       role="dialog"

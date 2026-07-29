@@ -56,16 +56,18 @@ const jobs = [
     quality: 68,
     format: 'webp',
   },
+  // Hero slides: keep native resolution + higher quality (full-bleed desktop).
+  // Do not crush to ~860/q44 — that looks blurry on large viewports.
   {
     file: path.join(IMG, 'hero/carousel-king-coconut.webp'),
-    width: 860,
-    quality: 44,
+    width: 1920,
+    quality: 76,
     format: 'webp',
   },
   {
     file: path.join(IMG, 'hero/carousel-safari-guests.webp'),
-    width: 860,
-    quality: 44,
+    width: 1920,
+    quality: 76,
     format: 'webp',
   },
 ];
