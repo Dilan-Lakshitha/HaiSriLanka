@@ -3,7 +3,8 @@ html {
   font-size: 100%;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+  /* clip (not hidden) — hidden on html+body forces overflow-y:auto on both = double scrollbars */
+  overflow-x: clip;
   width: 100%;
   max-width: 100%;
 }
@@ -22,10 +23,10 @@ body {
   margin: 0;
   color: var(--color-ink);
   background: var(--color-sand);
-  overflow-x: hidden;
   width: 100%;
   max-width: 100%;
   min-width: 0;
+  /* Do not set overflow here — only html clips X so there is one vertical scrollbar. */
 }
 
 h1,
