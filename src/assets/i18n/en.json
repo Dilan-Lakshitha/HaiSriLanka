@@ -177,6 +177,12 @@
       "beach": "Beach & Coast"
     }
   },
+  "consent": {
+    "title": "Cookies & privacy",
+    "body": "We use cookies for analytics and to improve your experience. You can accept all cookies or continue with essential only.",
+    "essential": "Essential only",
+    "acceptAll": "Accept all"
+  },
   "bookingConfirm": {
     "breadcrumb": "Booking confirmation",
     "seoTitle": "Booking confirmation | Hai Sri Lanka Tours",

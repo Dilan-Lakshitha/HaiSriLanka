@@ -9,7 +9,7 @@ export const APP_CONFIG = {
   contactApiPath: environment.contactApiPath,
   cookieLocaleKey: 'hsl_lang',
   /** Bump when locale JSON changes so browsers bypass long-lived /assets cache. */
-  i18nVersion: '20260729b',
+  i18nVersion: '20260729c',
   supportedLocales: [
     'en',
     'de',
