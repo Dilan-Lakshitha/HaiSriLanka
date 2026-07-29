@@ -164,16 +164,6 @@
       <p class="booking-card__error" role="alert">{{ errorMessage() }}</p>
     }
 
-    @if (successMessage()) {
-      <div class="booking-card__success" role="status">
-        <p class="booking-card__success-title">Booking request sent</p>
-        <p>{{ successMessage() }}</p>
-        @if (bookingRef()) {
-          <p class="booking-card__success-ref">Reference: <strong>{{ bookingRef() }}</strong></p>
-        }
-      </div>
-    }
-
     @if (!needsCustomQuote()) {
       <button
         appUiButton

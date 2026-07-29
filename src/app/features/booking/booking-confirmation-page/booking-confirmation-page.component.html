@@ -1,0 +1,161 @@
+<article class="booking-confirm">
+  <section class="booking-confirm__hero">
+    <app-ui-container>
+      <div class="booking-confirm__hero-copy">
+        <app-breadcrumb />
+        <p class="booking-confirm__eyebrow">Booking</p>
+        @if (confirmation(); as booking) {
+          <h1>Booking request received</h1>
+          <p>
+            Thank you. We have emailed your confirmation and our team will contact you
+            shortly to finalize arrangements.
+          </p>
+        } @else {
+          <h1>No booking details found</h1>
+          <p>
+            This confirmation page only shows details right after you complete a booking.
+            Start again from a tour page if needed.
+          </p>
+        }
+      </div>
+    </app-ui-container>
+  </section>
+
+  <section class="booking-confirm__body">
+    <app-ui-container>
+      @if (confirmation(); as booking) {
+        <div class="booking-confirm__layout">
+          <div class="booking-confirm__card">
+            <div class="booking-confirm__status" role="status">
+              <span class="booking-confirm__badge">
+                {{ booking.status === 'confirmed' ? 'Request received' : 'Pending review' }}
+              </span>
+              <p class="booking-confirm__ref">
+                Reference <strong>{{ booking.bookingRef }}</strong>
+              </p>
+              <p class="booking-confirm__message">{{ booking.message }}</p>
+            </div>
+
+            <h2>Booking details</h2>
+            <dl class="booking-confirm__details">
+              <div>
+                <dt>Tour</dt>
+                <dd>{{ booking.tourTitle }}</dd>
+              </div>
+              @if (booking.tourDuration) {
+                <div>
+                  <dt>Duration</dt>
+                  <dd>{{ booking.tourDuration }}</dd>
+                </div>
+              }
+              <div>
+                <dt>Travel date</dt>
+                <dd>{{ booking.travelDate | date: 'd MMMM y' }}</dd>
+              </div>
+              <div>
+                <dt>Travelers</dt>
+                <dd>{{ booking.travelersCount }}</dd>
+              </div>
+              <div>
+                <dt>Price / person</dt>
+                <dd>
+                  {{
+                    booking.pricePerPerson
+                      | currency: booking.currency : 'symbol' : '1.0-0'
+                  }}
+                </dd>
+              </div>
+              <div class="booking-confirm__details-total">
+                <dt>Estimated total</dt>
+                <dd>
+                  {{
+                    booking.totalPrice | currency: booking.currency : 'symbol' : '1.0-0'
+                  }}
+                </dd>
+              </div>
+            </dl>
+
+            <h2>Guest details</h2>
+            <dl class="booking-confirm__details">
+              <div>
+                <dt>Name</dt>
+                <dd>
+                  {{ booking.primaryTraveler.firstName }}
+                  {{ booking.primaryTraveler.lastName }}
+                </dd>
+              </div>
+              <div>
+                <dt>Email</dt>
+                <dd>{{ booking.primaryTraveler.email }}</dd>
+              </div>
+              <div>
+                <dt>Phone</dt>
+                <dd>{{ booking.primaryTraveler.phone }}</dd>
+              </div>
+              @if (booking.primaryTraveler.nationality) {
+                <div>
+                  <dt>Country</dt>
+                  <dd>{{ booking.primaryTraveler.nationality }}</dd>
+                </div>
+              }
+            </dl>
+
+            <p class="booking-confirm__note">
+              No payment was taken online. You can pay at destination once your tour is
+              confirmed. A copy of these details was also sent to your email.
+            </p>
+          </div>
+
+          <aside class="booking-confirm__aside">
+            <h2>What happens next</h2>
+            <ol>
+              <li>Our team reviews your dates and tour request.</li>
+              <li>We contact you by email or WhatsApp to confirm.</li>
+              <li>You travel with your private host — pay at destination.</li>
+            </ol>
+
+            <div class="booking-confirm__actions">
+              <a
+                appUiButton
+                variant="primary"
+                [routerLink]="['/', locale.activeLang(), 'sri-lanka-tours']"
+              >
+                Browse more tours
+              </a>
+              <a
+                appUiButton
+                variant="ghost"
+                [routerLink]="['/', locale.activeLang(), 'contact']"
+              >
+                Contact us
+              </a>
+            </div>
+
+            @if (company$ | async; as company) {
+              @if (whatsappLink(company.whatsapp, company.phone[0]); as wa) {
+                <a
+                  class="booking-confirm__whatsapp"
+                  [href]="wa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  WhatsApp about this booking
+                </a>
+              }
+            }
+          </aside>
+        </div>
+      } @else {
+        <div class="booking-confirm__empty">
+          <a
+            appUiButton
+            variant="primary"
+            [routerLink]="['/', locale.activeLang(), 'sri-lanka-tours']"
+          >
+            View Sri Lanka tours
+          </a>
+        </div>
+      }
+    </app-ui-container>
+  </section>
+</article>

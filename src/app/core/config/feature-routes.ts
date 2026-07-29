@@ -81,20 +81,16 @@ export const FEATURE_CHILD_ROUTES: Routes = [
       import('../../features/blog/blog.routes').then((m) => m.BLOG_ROUTES),
   },
   {
-    path: 'booking/:tourSlug',
-    loadComponent: () =>
-      import('../../shared/components/foundation-page/foundation-page.component').then(
-        (m) => m.FoundationPageComponent,
-      ),
-    data: { pageTitleKey: 'booking.title', seoKey: 'booking', path: 'booking' },
-  },
-  {
     path: 'booking/:tourSlug/confirmation/:ref',
     loadComponent: () =>
-      import('../../shared/components/foundation-page/foundation-page.component').then(
-        (m) => m.FoundationPageComponent,
+      import('../../features/booking/booking-confirmation-page/booking-confirmation-page.component').then(
+        (m) => m.BookingConfirmationPageComponent,
       ),
-    data: { pageTitleKey: 'booking.success', seoKey: 'booking', path: 'booking' },
+  },
+  {
+    path: 'booking/:tourSlug',
+    redirectTo: 'sri-lanka-tours',
+    pathMatch: 'full',
   },
   foundation('privacy', 'nav.privacy', 'privacy'),
   foundation('terms', 'nav.terms', 'terms'),

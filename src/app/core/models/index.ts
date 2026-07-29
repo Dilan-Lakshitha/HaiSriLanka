@@ -31,6 +31,7 @@ export type {
   BookingRequest,
   BookingResponse,
   BookingState,
+  BookingConfirmationDetails,
   TravelerInfo,
 } from './booking.model';
 export type {

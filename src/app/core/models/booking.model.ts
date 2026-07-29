@@ -38,4 +38,20 @@ export interface BookingState {
   currency: 'USD' | 'EUR';
 }
 
+/** Snapshot shown on the booking confirmation page after submit. */
+export interface BookingConfirmationDetails {
+  bookingRef: string;
+  status: 'confirmed' | 'pending';
+  message: string;
+  tourSlug: string;
+  tourTitle: string;
+  tourDuration?: string;
+  travelersCount: number;
+  travelDate: string;
+  pricePerPerson: number;
+  totalPrice: number;
+  currency: 'USD' | 'EUR';
+  primaryTraveler: TravelerInfo;
+}
+
 export type { PersonPricing };
