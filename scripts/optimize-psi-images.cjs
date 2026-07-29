@@ -69,12 +69,6 @@ const jobs = [
     format: 'webp',
   },
   {
-    file: path.join(IMG, 'hero/carousel-guest-moments-1600.webp'),
-    width: 1600,
-    quality: 52,
-    format: 'webp',
-  },
-  {
     file: path.join(IMG, 'hero/carousel-guest-moments-960.avif'),
     width: 960,
     quality: 36,
@@ -84,12 +78,6 @@ const jobs = [
     file: path.join(IMG, 'hero/carousel-guest-moments.avif'),
     width: 1280,
     quality: 42,
-    format: 'avif',
-  },
-  {
-    file: path.join(IMG, 'hero/carousel-guest-moments-1600.avif'),
-    width: 1600,
-    quality: 45,
     format: 'avif',
   },
   {
