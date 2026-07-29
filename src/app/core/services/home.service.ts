@@ -1,5 +1,4 @@
 import { Injectable, inject } from '@angular/core';
-import { toObservable } from '@angular/core/rxjs-interop';
 import { Observable, map, of, shareReplay, combineLatest, switchMap } from 'rxjs';
 import type { HomeContent, FaqItem, Tour, Destination, Review, BlogPost } from '../models';
 import { TourService } from './tour.service';
@@ -17,7 +16,7 @@ export class HomeService {
   private readonly faqs = inject(FaqService);
   private readonly localize = inject(ContentLocalizeService);
   private readonly locale = inject(LocaleService);
-  private readonly lang$ = toObservable(this.locale.activeLang);
+  private readonly lang$ = this.locale.lang$;
 
   /** Sync seed so the hero paints on first CD (cuts CSR CLS ~1.0+). */
   private readonly home$ = of(homeSeed as HomeContent).pipe(shareReplay(1));

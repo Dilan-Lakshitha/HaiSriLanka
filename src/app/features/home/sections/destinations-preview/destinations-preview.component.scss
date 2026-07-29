@@ -46,4 +46,10 @@
       grid-template-columns: 1fr;
     }
   }
+
+  &__skeleton {
+    min-height: 14rem;
+    border-radius: var(--radius-md, 12px);
+    background: color-mix(in srgb, var(--color-border) 50%, var(--color-sand));
+  }
 }

@@ -1,9 +1,10 @@
 import { Injectable, PLATFORM_ID, inject, signal, computed } from '@angular/core';
+import { toObservable } from '@angular/core/rxjs-interop';
 import { isPlatformBrowser, DOCUMENT } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { TranslocoService } from '@jsverse/transloco';
-import { firstValueFrom } from 'rxjs';
+import { distinctUntilChanged, firstValueFrom, startWith } from 'rxjs';
 import { APP_CONFIG, type SupportedLocale } from '../config/app.config';
 import type { LocaleDefinition } from '../models';
 
@@ -25,6 +26,15 @@ export class LocaleService {
     this.localesSignal().filter((l) => l.enabled),
   );
   readonly activeLang = signal<string>(APP_CONFIG.defaultLocale);
+
+  /**
+   * Prefer over raw toObservable(activeLang): first emit is synchronous so
+   * combineLatest(home/company) can paint on the first CD (cuts footer CLS).
+   */
+  readonly lang$ = toObservable(this.activeLang).pipe(
+    startWith(this.activeLang()),
+    distinctUntilChanged(),
+  );
 
   async init(): Promise<void> {
     const data = await firstValueFrom(

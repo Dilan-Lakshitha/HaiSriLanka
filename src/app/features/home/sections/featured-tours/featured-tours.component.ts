@@ -1,7 +1,6 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import type { HomeSectionIntro, Tour } from '../../../../core/models';
-import { RevealDirective } from '../../../../core/directives/reveal.directive';
 import { UiContainerComponent } from '../../../../shared/ui/container/ui-container.component';
 import { UiButtonComponent } from '../../../../shared/ui/button/ui-button.component';
 import { TourCardComponent } from '../../../../shared/cards/tour-card/tour-card.component';
@@ -12,7 +11,6 @@ import { trackBySlug } from '../../../../core/utils/track-by.util';
   standalone: true,
   imports: [
     RouterLink,
-    RevealDirective,
     UiContainerComponent,
     UiButtonComponent,
     TourCardComponent,
@@ -27,4 +25,5 @@ export class FeaturedToursComponent {
   readonly lang = input.required<string>();
   readonly detailPath = input.required<string>();
   readonly trackBySlug = trackBySlug;
+  readonly skeletonSlots = [0, 1, 2];
 }

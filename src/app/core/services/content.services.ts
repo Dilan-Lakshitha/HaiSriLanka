@@ -1,6 +1,5 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { toObservable } from '@angular/core/rxjs-interop';
 import { Observable, combineLatest, map, of, shareReplay, switchMap } from 'rxjs';
 import type { Destination, Experience, BlogPost, Review, FaqDataset, CompanyInfo, NavigationConfig } from '../models';
 import { ContentLocalizeService } from './content-localize.service';
@@ -13,7 +12,7 @@ export class DestinationService {
   private readonly http = inject(HttpClient);
   private readonly localize = inject(ContentLocalizeService);
   private readonly locale = inject(LocaleService);
-  private readonly lang$ = toObservable(this.locale.activeLang);
+  private readonly lang$ = this.locale.lang$;
 
   private readonly data$ = this.http
     .get<Destination[]>('/assets/json/destinations.json')
@@ -42,7 +41,7 @@ export class ExperienceService {
   private readonly http = inject(HttpClient);
   private readonly localize = inject(ContentLocalizeService);
   private readonly locale = inject(LocaleService);
-  private readonly lang$ = toObservable(this.locale.activeLang);
+  private readonly lang$ = this.locale.lang$;
 
   private readonly data$ = this.http
     .get<Experience[]>('/assets/json/experiences.json')
@@ -70,7 +69,7 @@ export class BlogService {
   private readonly http = inject(HttpClient);
   private readonly localize = inject(ContentLocalizeService);
   private readonly locale = inject(LocaleService);
-  private readonly lang$ = toObservable(this.locale.activeLang);
+  private readonly lang$ = this.locale.lang$;
 
   private readonly data$ = this.http
     .get<BlogPost[]>('/assets/json/blogs.json')
@@ -113,7 +112,7 @@ export class FaqService {
   private readonly http = inject(HttpClient);
   private readonly localize = inject(ContentLocalizeService);
   private readonly locale = inject(LocaleService);
-  private readonly lang$ = toObservable(this.locale.activeLang);
+  private readonly lang$ = this.locale.lang$;
 
   private readonly data$ = this.http
     .get<FaqDataset>('/assets/json/faq.json')
@@ -130,7 +129,7 @@ export class FaqService {
 export class CompanyService {
   private readonly localize = inject(ContentLocalizeService);
   private readonly locale = inject(LocaleService);
-  private readonly lang$ = toObservable(this.locale.activeLang);
+  private readonly lang$ = this.locale.lang$;
 
   /** Sync seed avoids header/footer CLS while HTTP would still be in flight. */
   private readonly data$ = of(companySeed as CompanyInfo).pipe(shareReplay(1));

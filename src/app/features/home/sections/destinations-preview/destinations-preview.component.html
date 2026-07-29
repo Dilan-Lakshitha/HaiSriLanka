@@ -1,4 +1,4 @@
-<section class="destinations" aria-labelledby="destinations-title" appReveal>
+<section class="destinations" aria-labelledby="destinations-title">
   <app-ui-container>
     <header class="destinations__header">
       <div>
@@ -12,11 +12,15 @@
         </a>
       }
     </header>
-    <ul class="destinations__grid">
+    <ul class="destinations__grid" [attr.aria-busy]="destinations().length ? null : 'true'">
       @for (destination of destinations(); track trackBySlug($index, destination)) {
         <li>
           <app-destination-card [destination]="destination" [lang]="lang()" />
         </li>
+      } @empty {
+        @for (_ of skeletonSlots; track $index) {
+          <li class="destinations__skeleton" aria-hidden="true"></li>
+        }
       }
     </ul>
   </app-ui-container>

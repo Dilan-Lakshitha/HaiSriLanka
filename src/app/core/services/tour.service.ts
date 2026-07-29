@@ -1,6 +1,5 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { toObservable } from '@angular/core/rxjs-interop';
 import {
   Observable,
   catchError,
@@ -26,7 +25,7 @@ export class TourService {
   private readonly http = inject(HttpClient);
   private readonly localize = inject(ContentLocalizeService);
   private readonly locale = inject(LocaleService);
-  private readonly lang$ = toObservable(this.locale.activeLang);
+  private readonly lang$ = this.locale.lang$;
 
   private readonly manifest$ = this.http
     .get<TourManifest>('/assets/json/tours/manifest.json')

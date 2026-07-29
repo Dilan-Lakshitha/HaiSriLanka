@@ -11,23 +11,24 @@ const IMG = path.join(ROOT, 'src/assets/images');
 
 /** In-place WebP recompress (resize + quality). */
 const webpJobs = [
-  // Tour card heroes (~365px display)
-  { file: 'tours/3-nights-4-days/hero.webp', width: 800, quality: 68 },
-  { file: 'tours/kandy-day-tour/hero.webp', width: 800, quality: 68 },
-  { file: 'tours/7-days-sri-lanka-highlights/hero.webp', width: 800, quality: 68 },
-  { file: 'tours/galle-day-tour/hero.webp', width: 800, quality: 68 },
-  { file: 'tours/sigiriya-dambulla-day-tour/hero.webp', width: 800, quality: 68 },
+  // Tour card heroes (~365px display → ~480–560px 1.5× source)
+  { file: 'tours/3-nights-4-days/hero.webp', width: 560, quality: 62 },
+  { file: 'tours/4-nights-5-days/hero.webp', width: 560, quality: 62 },
+  { file: 'tours/kandy-day-tour/hero.webp', width: 560, quality: 62 },
+  { file: 'tours/7-days-sri-lanka-highlights/hero.webp', width: 560, quality: 62 },
+  { file: 'tours/galle-day-tour/hero.webp', width: 560, quality: 62 },
+  { file: 'tours/sigiriya-dambulla-day-tour/hero.webp', width: 560, quality: 62 },
   // Destination / map cards
-  { file: 'destinations/ella-bridge.webp', width: 900, quality: 68 },
-  { file: 'destinations/galle.webp', width: 720, quality: 68 },
-  { file: 'destinations/kandy.webp', width: 800, quality: 68 },
-  { file: 'destinations/yala.webp', width: 800, quality: 68 },
-  { file: 'destinations/sigiriya.webp', width: 720, quality: 68 },
-  // Categories (already OK-ish; tighten a bit for 274px display)
-  { file: 'tours/category-honeymoon.webp', width: 560, quality: 68 },
-  { file: 'tours/category-day.webp', width: 560, quality: 68 },
-  { file: 'tours/category-wildlife.webp', width: 560, quality: 68 },
-  { file: 'tours/category-multi.webp', width: 560, quality: 68 },
+  { file: 'destinations/ella-bridge.webp', width: 720, quality: 62 },
+  { file: 'destinations/galle.webp', width: 560, quality: 62 },
+  { file: 'destinations/kandy.webp', width: 560, quality: 62 },
+  { file: 'destinations/yala.webp', width: 560, quality: 62 },
+  { file: 'destinations/sigiriya.webp', width: 560, quality: 62 },
+  // Categories (~274px display)
+  { file: 'tours/category-honeymoon.webp', width: 480, quality: 62 },
+  { file: 'tours/category-day.webp', width: 480, quality: 62 },
+  { file: 'tours/category-wildlife.webp', width: 480, quality: 62 },
+  { file: 'tours/category-multi.webp', width: 480, quality: 62 },
 ];
 
 async function optimizeWebp(job) {

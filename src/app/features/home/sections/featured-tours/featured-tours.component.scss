@@ -41,4 +41,15 @@
       grid-template-columns: 1fr;
     }
   }
+
+  /* Match tour-card height so empty → loaded swap does not shove the footer. */
+  &__skeleton {
+    min-height: 28rem;
+    border-radius: var(--radius-lg, 16px);
+    background: color-mix(in srgb, var(--color-border) 55%, var(--color-sand));
+
+    @media (max-width: 900px) {
+      min-height: 26rem;
+    }
+  }
 }

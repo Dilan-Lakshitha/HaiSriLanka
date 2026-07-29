@@ -33,9 +33,11 @@
     display: grid;
     gap: 0.25rem;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    min-height: 16rem;
 
     @media (max-width: 900px) {
       grid-template-columns: 1fr;
+      min-height: 28rem;
     }
   }
 }

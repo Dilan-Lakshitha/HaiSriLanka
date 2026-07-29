@@ -36,9 +36,11 @@
     display: grid;
     gap: 1.35rem;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    min-height: 18rem;
 
     @media (max-width: 900px) {
       grid-template-columns: 1fr;
+      min-height: 36rem;
     }
   }
 }
