@@ -16,7 +16,6 @@ import type {
   TourListsContent,
   TourManifest,
 } from '../models/tour.model';
-import { tourHasBadge } from '../models/tour.model';
 import { ContentLocalizeService } from './content-localize.service';
 import { LocaleService } from './locale.service';
 
@@ -126,8 +125,30 @@ export class TourService {
   }
 
   getFeatured(): Observable<Tour[]> {
-    return this.getAllTours().pipe(
-      map((tours) => tours.filter((t) => tourHasBadge(t, 'featured'))),
+    return this.getFeaturedTours(undefined, 50);
+  }
+
+  /**
+   * Homepage-safe featured loader: reads compact manifest flags, then fetches
+   * only the needed item JSON files (avoids N+1 critical-path chain).
+   */
+  getFeaturedTours(
+    category?: 'day' | 'multi-day',
+    limit = 3,
+  ): Observable<Tour[]> {
+    return this.manifest$.pipe(
+      map((manifest) =>
+        manifest.tours
+          .filter(
+            (t) =>
+              t.status === 'published' &&
+              (!category || t.category === category) &&
+              (t.featured || t.bestSeller),
+          )
+          .slice(0, limit)
+          .map((t) => t.slug),
+      ),
+      switchMap((slugs) => this.getBySlugs(slugs)),
     );
   }
 

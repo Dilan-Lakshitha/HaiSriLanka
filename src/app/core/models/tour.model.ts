@@ -149,6 +149,9 @@ export interface TourManifestEntry {
   slug: string;
   category: 'day' | 'multi-day';
   status: 'published' | 'draft';
+  /** Optional homepage/list hints so we do not fetch every tour JSON up front. */
+  featured?: boolean;
+  bestSeller?: boolean;
 }
 
 export interface TourManifest {

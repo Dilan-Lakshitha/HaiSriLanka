@@ -28,39 +28,11 @@ export class HomeService {
   }
 
   getFeaturedMultiDay(limit = 3): Observable<Tour[]> {
-    return this.tours
-      .getMultiDayTours()
-      .pipe(
-        map((items) =>
-          items
-            .filter(
-              (t) =>
-                t.featured ||
-                t.bestSeller ||
-                t.badges?.includes('featured') ||
-                t.badges?.includes('best-seller'),
-            )
-            .slice(0, limit),
-        ),
-      );
+    return this.tours.getFeaturedTours('multi-day', limit);
   }
 
   getFeaturedDayTours(limit = 3): Observable<Tour[]> {
-    return this.tours
-      .getDayTours()
-      .pipe(
-        map((items) =>
-          items
-            .filter(
-              (t) =>
-                t.featured ||
-                t.bestSeller ||
-                t.badges?.includes('featured') ||
-                t.badges?.includes('best-seller'),
-            )
-            .slice(0, limit),
-        ),
-      );
+    return this.tours.getFeaturedTours('day', limit);
   }
 
   getPopularDestinations(limit = 4): Observable<Destination[]> {

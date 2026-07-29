@@ -3,47 +3,58 @@
     {
       "slug": "galle-day-tour",
       "category": "day",
-      "status": "published"
+      "status": "published",
+      "featured": true
     },
     {
       "slug": "sigiriya-dambulla-day-tour",
       "category": "day",
-      "status": "published"
+      "status": "published",
+      "featured": true
     },
     {
       "slug": "kandy-day-tour",
       "category": "day",
-      "status": "published"
+      "status": "published",
+      "featured": true
     },
     {
       "slug": "3-nights-4-days",
       "category": "multi-day",
-      "status": "published"
+      "status": "published",
+      "featured": true
     },
     {
       "slug": "4-nights-5-days",
       "category": "multi-day",
-      "status": "published"
+      "status": "published",
+      "featured": true
     },
     {
       "slug": "7-days-sri-lanka-highlights",
       "category": "multi-day",
-      "status": "published"
+      "status": "published",
+      "featured": true,
+      "bestSeller": true
     },
     {
       "slug": "8-days-wilpattu-to-coast",
       "category": "multi-day",
-      "status": "published"
+      "status": "published",
+      "featured": true
     },
     {
       "slug": "10-days-classic-ceylon",
       "category": "multi-day",
-      "status": "published"
+      "status": "published",
+      "featured": true,
+      "bestSeller": true
     },
     {
       "slug": "12-days-sri-lanka-explorer",
       "category": "multi-day",
-      "status": "published"
+      "status": "published",
+      "featured": true
     }
   ]
 }
