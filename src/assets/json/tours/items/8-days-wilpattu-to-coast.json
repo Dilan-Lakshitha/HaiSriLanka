@@ -136,7 +136,7 @@
       },
       "images": [
         {
-          "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+          "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.webp",
           "alt": "Guests near Sigiriya Rock Fortress",
           "title": "Sigiriya",
           "width": 1200,
@@ -430,7 +430,7 @@
   ],
   "mapsUrl": "https://www.google.com/maps/dir/Bandaranaike+International+Airport/Wilpattu/Sigiriya/Kandy/Ella/Mirissa/Galle",
   "heroImage": {
-    "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+    "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.webp",
     "alt": "Sigiriya and wildlife on an eight-day Sri Lanka private itinerary",
     "title": "8 Days Wilpattu to Coast",
     "width": 1200,
@@ -445,7 +445,7 @@
       "height": 1200
     },
     {
-      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.webp",
       "alt": "Guests near Sigiriya Rock",
       "title": "Sigiriya",
       "width": 1200,
@@ -514,7 +514,7 @@
       "Mirissa Galle private tour",
       "private multi day tour"
     ],
-    "ogImage": "/assets/images/tours/guest-experiences/elephant-sigiriya.png"
+    "ogImage": "/assets/images/tours/guest-experiences/elephant-sigiriya.webp"
   },
   "status": "published",
   "description": "An eight-day private journey starting in Wilpattu's wild lakes — a quieter safari landscape famous for leopards and rich biodiversity — then into Sigiriya, Habarana village life, Kaudulla elephants, and Ayurveda downtime.\nContinue to Kandy's sacred temple and cultural show, climb through Ambuluwawa and tea country to Ella for Nine Arches and Little Adam's Peak, then Mirissa for whales, turtles, and kayaking. End flexibly at Galle Fort, Madu River, and a beach stay or airport drop of your choice.",
@@ -535,7 +535,7 @@
   },
   "images": [
     {
-      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.webp",
       "alt": "8 Days Wilpattu to Coast",
       "title": "8 Days Wilpattu to Coast",
       "width": 1200,

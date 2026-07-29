@@ -55,7 +55,7 @@
       },
       "images": [
         {
-          "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+          "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.webp",
           "alt": "Guests near Sigiriya Rock",
           "title": "Sigiriya",
           "width": 1200,
@@ -306,7 +306,7 @@
   ],
   "mapsUrl": "https://www.google.com/maps/dir/Bandaranaike+International+Airport/Sigiriya/Kandy/Ella/Yala/Mirissa/Galle/Bentota",
   "heroImage": {
-    "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+    "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.webp",
     "alt": "Sigiriya Rock on a five-day Sri Lanka private itinerary",
     "title": "4 Nights 5 Days",
     "width": 1200,
@@ -314,7 +314,7 @@
   },
   "gallery": [
     {
-      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.webp",
       "alt": "Guests near Sigiriya Rock",
       "title": "Sigiriya",
       "width": 1200,
@@ -390,7 +390,7 @@
       "Sigiriya Kandy Ella Yala",
       "private multi day tour"
     ],
-    "ogImage": "/assets/images/tours/guest-experiences/elephant-sigiriya.png"
+    "ogImage": "/assets/images/tours/guest-experiences/elephant-sigiriya.webp"
   },
   "status": "published",
   "description": "A five-day private journey from Sigiriya and the Cultural Triangle through Kandy and Ella to Yala. Climb Lion Rock or Pidurangala, enjoy village or elephant safari options, and travel into tea country and the hills.\nFinish on the south coast with Mirissa dolphin and whale watching, Galle Dutch Fort, a turtle hatchery, and a Bentota boat safari before your hotel or airport transfer — a balanced mix of culture, wildlife, and coast.",
@@ -411,7 +411,7 @@
   },
   "images": [
     {
-      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.png",
+      "src": "/assets/images/tours/guest-experiences/elephant-sigiriya.webp",
       "alt": "4 Nights 5 Days",
       "title": "4 Nights 5 Days",
       "width": 1200,
