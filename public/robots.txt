@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://haisrilanka.com/sitemap-index.xml
+# See /llms.txt for AI/agent guidance

@@ -1,10 +1,12 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { toObservable } from '@angular/core/rxjs-interop';
-import { Observable, combineLatest, map, shareReplay, switchMap } from 'rxjs';
+import { Observable, combineLatest, map, of, shareReplay, switchMap } from 'rxjs';
 import type { Destination, Experience, BlogPost, Review, FaqDataset, CompanyInfo, NavigationConfig } from '../models';
 import { ContentLocalizeService } from './content-localize.service';
 import { LocaleService } from './locale.service';
+import companySeed from '../../../assets/json/company.json';
+import navigationSeed from '../../../assets/json/navigation.json';
 
 @Injectable({ providedIn: 'root' })
 export class DestinationService {
@@ -126,14 +128,12 @@ export class FaqService {
 
 @Injectable({ providedIn: 'root' })
 export class CompanyService {
-  private readonly http = inject(HttpClient);
   private readonly localize = inject(ContentLocalizeService);
   private readonly locale = inject(LocaleService);
   private readonly lang$ = toObservable(this.locale.activeLang);
 
-  private readonly data$ = this.http
-    .get<CompanyInfo>('/assets/json/company.json')
-    .pipe(shareReplay(1));
+  /** Sync seed avoids header/footer CLS while HTTP would still be in flight. */
+  private readonly data$ = of(companySeed as CompanyInfo).pipe(shareReplay(1));
 
   getCompany(): Observable<CompanyInfo> {
     return combineLatest([this.data$, this.lang$]).pipe(
@@ -146,10 +146,7 @@ export class CompanyService {
 
 @Injectable({ providedIn: 'root' })
 export class NavigationService {
-  private readonly http = inject(HttpClient);
-  private readonly data$ = this.http
-    .get<NavigationConfig>('/assets/json/navigation.json')
-    .pipe(shareReplay(1));
+  private readonly data$ = of(navigationSeed as NavigationConfig).pipe(shareReplay(1));
 
   getNavigation(): Observable<NavigationConfig> {
     return this.data$;

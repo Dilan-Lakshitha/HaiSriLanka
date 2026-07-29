@@ -1,0 +1,28 @@
+# Hai Sri Lanka Tours
+
+> Premium private tours and inbound travel experiences across Sri Lanka.
+
+Hai Sri Lanka Tours designs quiet-luxury day trips and multi-day journeys with private hosts, tailored pacing, and carefully chosen stays.
+
+## Main pages
+
+- [Home](https://www.haisrilanka.com/en)
+- [Sri Lanka tours](https://www.haisrilanka.com/en/sri-lanka-tours)
+- [Day tours](https://www.haisrilanka.com/en/day-tours)
+- [Multi-day tours](https://www.haisrilanka.com/en/multi-day-tours)
+- [Destinations](https://www.haisrilanka.com/en/destinations)
+- [Things to do](https://www.haisrilanka.com/en/things-to-do)
+- [Travel journal](https://www.haisrilanka.com/en/blog)
+- [Guest reviews](https://www.haisrilanka.com/en/reviews)
+- [Contact](https://www.haisrilanka.com/en/contact)
+
+## Optional
+
+- [Sitemap index](https://www.haisrilanka.com/sitemap-index.xml)
+- [robots.txt](https://www.haisrilanka.com/robots.txt)
+
+## Contact
+
+- Email: haisrilankatour@gmail.com
+- Phone / WhatsApp: +94 74 313 7241
+- Website: https://www.haisrilanka.com

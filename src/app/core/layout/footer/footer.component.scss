@@ -3,6 +3,17 @@
   background: linear-gradient(180deg, var(--color-navy) 0%, #09182c 100%);
   color: var(--color-on-navy);
   padding: 0 0 1.25rem;
+  /* Reserve approximate mobile footer height before async content paints */
+  min-height: 28rem;
+  contain: layout style;
+
+  @media (min-width: 721px) {
+    min-height: 22rem;
+  }
+
+  @media (min-width: 1101px) {
+    min-height: 20rem;
+  }
 
   a {
     color: inherit;

@@ -193,8 +193,8 @@
         "image": {
           "src": "/assets/images/tours/category-day.webp",
           "alt": "Private day tour along the Sri Lankan coast",
-          "width": 1400,
-          "height": 1050
+          "width": 800,
+          "height": 1067
         }
       },
       {
@@ -205,8 +205,8 @@
         "image": {
           "src": "/assets/images/tours/category-multi.webp",
           "alt": "Multi-day journey through Sri Lanka highlands",
-          "width": 1400,
-          "height": 1050
+          "width": 800,
+          "height": 533
         }
       },
       {
@@ -217,8 +217,8 @@
         "image": {
           "src": "/assets/images/tours/category-wildlife.webp",
           "alt": "Jeep safari in Sri Lanka wildlife parks",
-          "width": 1400,
-          "height": 1050
+          "width": 800,
+          "height": 566
         }
       },
       {
@@ -229,8 +229,8 @@
         "image": {
           "src": "/assets/images/tours/category-honeymoon.webp",
           "alt": "Luxury beach escape for couples in Sri Lanka",
-          "width": 1400,
-          "height": 1050
+          "width": 800,
+          "height": 1067
         }
       }
     ]
