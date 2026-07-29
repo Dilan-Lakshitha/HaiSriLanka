@@ -57,6 +57,12 @@ const jobs = [
     format: 'webp',
   },
   {
+    file: path.join(IMG, 'hero/carousel-guest-moments-800.webp'),
+    width: 800,
+    quality: 40,
+    format: 'webp',
+  },
+  {
     file: path.join(IMG, 'hero/carousel-guest-moments-960.webp'),
     width: 960,
     quality: 32,
@@ -65,8 +71,14 @@ const jobs = [
   {
     file: path.join(IMG, 'hero/carousel-guest-moments.webp'),
     width: 1280,
-    quality: 48,
+    quality: 42,
     format: 'webp',
+  },
+  {
+    file: path.join(IMG, 'hero/carousel-guest-moments-800.avif'),
+    width: 800,
+    quality: 38,
+    format: 'avif',
   },
   {
     file: path.join(IMG, 'hero/carousel-guest-moments-960.avif'),
@@ -77,19 +89,19 @@ const jobs = [
   {
     file: path.join(IMG, 'hero/carousel-guest-moments.avif'),
     width: 1280,
-    quality: 42,
+    quality: 32,
     format: 'avif',
+  },
+  {
+    file: path.join(IMG, 'hero/carousel-safari-guests.webp'),
+    width: 600,
+    quality: 50,
+    format: 'webp',
   },
   {
     file: path.join(IMG, 'hero/carousel-king-coconut.webp'),
     width: 1920,
     quality: 88,
-    format: 'webp',
-  },
-  {
-    file: path.join(IMG, 'hero/carousel-safari-guests.webp'),
-    width: 1920,
-    quality: 82,
     format: 'webp',
   },
 ];

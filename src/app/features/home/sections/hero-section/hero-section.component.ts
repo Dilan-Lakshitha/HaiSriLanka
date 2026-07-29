@@ -58,21 +58,18 @@ export class HeroSectionComponent implements AfterViewInit {
   readonly slideCount = computed(() => this.slides().length);
   readonly showControls = computed(() => this.slideCount() > 1);
 
-  /** Active + next only. Skip Angular slide 0 while adopted LCP <img> owns it. */
+  /** Active slide only. Do not mount the "next" slide in-DOM — opacity:0 images
+   *  still load when in the viewport (PSI downloaded safari while slide 0 was showing). */
   readonly renderedSlides = computed(() => {
     const all = this.slides();
     const i = this.activeIndex();
     if (all.length === 0) {
       return [] as Array<ImageAsset & { index: number }>;
     }
-    const indices = new Set<number>();
-    if (!(this.adoptedLcp() && i === 0)) {
-      indices.add(i);
+    if (this.adoptedLcp() && i === 0) {
+      return [];
     }
-    if (all.length > 1) {
-      indices.add((i + 1) % all.length);
-    }
-    return [...indices].map((index) => ({ ...all[index], index }));
+    return [{ ...all[i], index: i }];
   });
 
   constructor() {
@@ -95,8 +92,8 @@ export class HeroSectionComponent implements AfterViewInit {
       document.documentElement.classList.toggle('hsl-hero-carousel', !onZero);
     });
 
-    // Delay autoplay so Lighthouse / LCP can settle on the first slide.
-    timer(6000)
+    // Delay autoplay so Lighthouse / LCP settle on the first slide (lab often runs ~5–10s).
+    timer(12000)
       .pipe(
         switchMap(() => interval(4500)),
         takeUntilDestroyed(this.destroyRef),
