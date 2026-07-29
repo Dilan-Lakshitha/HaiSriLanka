@@ -1,8 +1,18 @@
 .ui-container {
   width: min(100% - 2.5rem, var(--container));
   margin-inline: auto;
+  max-width: 100%;
+  min-width: 0;
+
+  @media (max-width: 720px) {
+    width: min(100% - 1.5rem, var(--container));
+  }
 
   &--narrow {
     width: min(100% - 2.5rem, var(--container-narrow));
+
+    @media (max-width: 720px) {
+      width: min(100% - 1.5rem, var(--container-narrow));
+    }
   }
 }

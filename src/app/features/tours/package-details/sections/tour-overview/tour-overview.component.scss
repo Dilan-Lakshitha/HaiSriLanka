@@ -1,6 +1,8 @@
 .overview {
   padding: 1.5rem 0 1rem;
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
 
   &__eyebrow {
     margin: 0 0 0.35rem;
@@ -13,6 +15,7 @@
   h2 {
     margin: 0 0 0.85rem;
     color: var(--color-navy);
+    overflow-wrap: anywhere;
   }
 
   &__body {
@@ -21,7 +24,8 @@
     max-width: none;
     color: var(--color-ink-muted);
     line-height: 1.7;
-    font-size: 1.05rem;
+    font-size: clamp(0.95rem, 2.8vw, 1.05rem);
+    overflow-wrap: anywhere;
   }
 
   &__body:last-of-type {

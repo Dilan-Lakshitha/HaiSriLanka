@@ -3,6 +3,7 @@ html {
   font-size: 100%;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
 }
 
 /* Metric-adjusted fallback to cut font-swap CLS (PSI footer culprit). */
@@ -19,6 +20,8 @@ body {
   margin: 0;
   color: var(--color-ink);
   background: var(--color-sand);
+  overflow-x: clip;
+  max-width: 100%;
 }
 
 h1,

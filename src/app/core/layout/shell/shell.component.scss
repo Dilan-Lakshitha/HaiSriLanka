@@ -2,12 +2,16 @@
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 .shell-main {
   flex: 1;
   outline: none;
   animation: page-enter 0.45s ease both;
+  max-width: 100%;
+  min-width: 0;
 }
 
 @keyframes page-enter {

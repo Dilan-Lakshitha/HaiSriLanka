@@ -19,3 +19,16 @@ img {
   height: auto;
   display: block;
 }
+
+/* Cover / fill images must ignore the global height:auto rule */
+img[ng-img].tour-hero__media-img,
+.tour-hero__media img,
+.gallery-preview__hero img,
+.gallery-preview__thumb img,
+.itinerary__thumb img,
+.lightbox img {
+  max-width: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -4,6 +4,10 @@
   background: var(--color-white);
   padding: 0.85rem 0.9rem 0.95rem;
   box-shadow: var(--shadow-elevated, 0 16px 40px rgba(15, 39, 68, 0.08));
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
 
   &__head {
     display: flex;

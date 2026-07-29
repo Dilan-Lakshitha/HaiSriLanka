@@ -1,6 +1,8 @@
 .tour-detail {
   background: var(--color-sand);
   padding-bottom: 5.5rem;
+  overflow-x: clip;
+  max-width: 100%;
 
   @media (min-width: 981px) {
     padding-bottom: 0;
@@ -8,6 +10,8 @@
 
   &__body {
     padding: 0 0 clamp(2rem, 4vw, 3rem);
+    max-width: 100%;
+    min-width: 0;
   }
 
   &__intro {
@@ -15,6 +19,7 @@
     gap: 0.35rem;
     margin-bottom: 1rem;
     width: 100%;
+    min-width: 0;
   }
 
   &__grid {
@@ -22,9 +27,11 @@
     grid-template-columns: minmax(0, 1fr) minmax(280px, 340px);
     gap: clamp(1.5rem, 3vw, 2.75rem);
     align-items: stretch;
+    width: 100%;
+    min-width: 0;
 
     @media (max-width: 980px) {
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(0, 1fr);
     }
   }
 
@@ -32,22 +39,31 @@
     display: grid;
     gap: 0.25rem;
     min-width: 0;
+    max-width: 100%;
   }
 
   &__aside {
     min-width: 0;
+    max-width: 100%;
     height: 100%;
+
+    @media (max-width: 980px) {
+      /* Keep booking reachable but not sticky under the mobile book bar */
+      order: -1;
+      margin-bottom: 0.5rem;
+    }
   }
 
   &__sticky {
     position: sticky;
-    /* Stick from the card top edge, below fixed top-bar + main nav */
     top: calc(var(--header-height) + 2.4rem + 0.75rem);
     width: 100%;
+    max-width: 100%;
     z-index: 5;
 
-    @media (max-width: 768px) {
-      top: calc(var(--header-height) + 0.75rem);
+    @media (max-width: 980px) {
+      position: static;
+      top: auto;
     }
   }
 

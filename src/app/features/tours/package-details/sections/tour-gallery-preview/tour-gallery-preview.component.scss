@@ -1,5 +1,9 @@
 .gallery-preview {
   padding: 1rem 0 1.35rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
 
   &__head {
     display: flex;
@@ -41,13 +45,16 @@
   &__stage {
     position: relative;
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   &__hero {
     position: relative;
     display: block;
     width: 100%;
-    height: clamp(420px, 68vh, 700px);
+    max-width: 100%;
+    height: clamp(280px, 48vw, 620px);
     padding: 0;
     border: 0;
     border-radius: var(--radius-md, 12px);
@@ -56,9 +63,11 @@
     background: var(--color-surface-muted, #e8e4dc);
 
     img {
-      width: 100%;
-      height: 100%;
+      width: 100% !important;
+      height: 100% !important;
+      max-width: none !important;
       object-fit: cover;
+      display: block;
       transition: transform 480ms var(--ease-premium, ease);
     }
 
@@ -73,7 +82,8 @@
     }
 
     @media (max-width: 720px) {
-      height: clamp(280px, 52vh, 460px);
+      height: clamp(220px, 58vw, 360px);
+      border-radius: var(--radius-sm, 8px);
     }
   }
 
@@ -127,6 +137,14 @@
       width: 2.15rem;
       height: 2.15rem;
       font-size: 1.3rem;
+
+      &--prev {
+        left: 0.4rem;
+      }
+
+      &--next {
+        right: 0.4rem;
+      }
     }
   }
 
