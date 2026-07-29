@@ -21,6 +21,18 @@ const jobs = [
     format: 'png',
   },
   {
+    file: path.join(IMG, 'logos/logo-white-transparent.webp'),
+    width: 400,
+    quality: 82,
+    format: 'webp',
+  },
+  {
+    file: path.join(IMG, 'logos/logo-black-transparent.webp'),
+    width: 400,
+    quality: 82,
+    format: 'webp',
+  },
+  {
     file: path.join(IMG, 'tours/category-honeymoon.webp'),
     width: 720,
     quality: 68,
@@ -46,14 +58,14 @@ const jobs = [
   },
   {
     file: path.join(IMG, 'hero/carousel-king-coconut.webp'),
-    width: 1080,
-    quality: 62,
+    width: 900,
+    quality: 48,
     format: 'webp',
   },
   {
     file: path.join(IMG, 'hero/carousel-safari-guests.webp'),
-    width: 1080,
-    quality: 62,
+    width: 900,
+    quality: 48,
     format: 'webp',
   },
 ];
