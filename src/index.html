@@ -6,7 +6,10 @@
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0b3d2e" />
-    <meta name="description" content="Premium inbound tourism experiences across Sri Lanka with Hai Sri Lanka Tours." />
+    <meta
+      name="description"
+      content="Premium inbound tourism experiences across Sri Lanka with Hai Sri Lanka Tours."
+    />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="apple-touch-icon" href="favicon.png" />
     <link rel="manifest" href="site.webmanifest" />
@@ -24,7 +27,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=optional"
       rel="stylesheet"
     />
-    <!-- Reserve consent-banner space before first paint (avoids CLS 0.1+). -->
+    <!-- First-paint consent banner: present before Angular boots (avoids CLS ~0.1). -->
     <script>
       (function () {
         try {
@@ -38,28 +41,91 @@
     </script>
     <style>
       html.consent-pending {
-        --consent-banner-h: 7.25rem;
+        --consent-banner-h: 7.5rem;
       }
       @media (max-width: 640px) {
         html.consent-pending {
-          --consent-banner-h: 10.5rem;
+          --consent-banner-h: 11.5rem;
         }
       }
       html.consent-pending body {
         padding-bottom: var(--consent-banner-h);
       }
-      #consent-banner-shell {
+      #hsl-consent-banner {
         display: none;
         position: fixed;
         inset: auto 0 0;
-        z-index: 199;
+        z-index: 200;
         box-sizing: border-box;
-        min-height: var(--consent-banner-h, 7.25rem);
+        min-height: var(--consent-banner-h, 7.5rem);
+        padding: 0.85rem 0.85rem calc(0.85rem + env(safe-area-inset-bottom, 0px));
         background: #0f2744;
+        color: #f5f0e6;
         border-top: 1px solid rgba(201, 162, 39, 0.35);
+        box-shadow: 0 -12px 36px rgba(9, 24, 44, 0.28);
       }
-      html.consent-pending:not(.consent-hydrated) #consent-banner-shell {
+      html.consent-pending #hsl-consent-banner {
         display: block;
+      }
+      #hsl-consent-banner .hsl-consent__inner {
+        max-width: 72rem;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+      #hsl-consent-banner .hsl-consent__copy {
+        flex: 1 1 16rem;
+        min-width: 0;
+      }
+      #hsl-consent-banner .hsl-consent__title {
+        margin: 0 0 0.35rem;
+        font-family: Poppins, Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #f5f0e6;
+      }
+      #hsl-consent-banner .hsl-consent__text {
+        margin: 0;
+        font-family: Poppins, Arial, sans-serif;
+        font-size: 0.86rem;
+        line-height: 1.5;
+        opacity: 0.92;
+        max-width: 52rem;
+      }
+      #hsl-consent-banner .hsl-consent__text a {
+        color: #c9a227;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      #hsl-consent-banner .hsl-consent__actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        flex-shrink: 0;
+      }
+      #hsl-consent-banner .hsl-consent__btn {
+        min-height: 44px;
+        min-width: 44px;
+        padding: 0.55rem 1rem;
+        border-radius: 0.4rem;
+        font-family: Poppins, Arial, sans-serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+        border: 1px solid transparent;
+      }
+      #hsl-consent-banner .hsl-consent__btn--ghost {
+        background: transparent;
+        color: #f5f0e6;
+        border-color: rgba(245, 240, 230, 0.35);
+      }
+      #hsl-consent-banner .hsl-consent__btn--primary {
+        background: #0b3d2e;
+        color: #f5f0e6;
+        border-color: #c9a227;
       }
     </style>
     <!-- Consent Mode v2 defaults BEFORE Google tag (order is required). -->
@@ -100,7 +166,46 @@
     </script>
   </head>
   <body>
-    <div id="consent-banner-shell" aria-hidden="true"></div>
+    <div
+      id="hsl-consent-banner"
+      role="dialog"
+      aria-modal="false"
+      aria-labelledby="hsl-consent-title"
+      aria-describedby="hsl-consent-desc"
+    >
+      <div class="hsl-consent__inner">
+        <div class="hsl-consent__copy">
+          <p id="hsl-consent-title" class="hsl-consent__title" data-i18n="title">
+            Cookies &amp; privacy
+          </p>
+          <p id="hsl-consent-desc" class="hsl-consent__text">
+            <span data-i18n="body"
+              >We use cookies for analytics and to improve your experience. You can accept all
+              cookies or continue with essential only.</span
+            >
+            <a data-i18n="privacy" href="/en/privacy">Privacy Policy</a>
+          </p>
+        </div>
+        <div class="hsl-consent__actions">
+          <button
+            type="button"
+            class="hsl-consent__btn hsl-consent__btn--ghost"
+            data-consent="essential"
+            data-i18n="essential"
+          >
+            Essential only
+          </button>
+          <button
+            type="button"
+            class="hsl-consent__btn hsl-consent__btn--primary"
+            data-consent="all"
+            data-i18n="acceptAll"
+          >
+            Accept all
+          </button>
+        </div>
+      </div>
+    </div>
     <app-root></app-root>
   </body>
 </html>
