@@ -56,20 +56,24 @@ const jobs = [
     quality: 68,
     format: 'webp',
   },
-    // Hero slides: keep native resolution + high quality (full-bleed must stay sharp).
-    // Never crush below ~q80 / native width — that makes faces look messy.
-    {
-      file: path.join(IMG, 'hero/carousel-king-coconut.webp'),
-      width: 1920,
-      quality: 88,
-      format: 'webp',
-    },
-    {
-      file: path.join(IMG, 'hero/carousel-safari-guests.webp'),
-      width: 1920,
-      quality: 82,
-      format: 'webp',
-    },
+  {
+    file: path.join(IMG, 'hero/carousel-guest-moments.webp'),
+    width: 1920,
+    quality: 82,
+    format: 'webp',
+  },
+  {
+    file: path.join(IMG, 'hero/carousel-king-coconut.webp'),
+    width: 1920,
+    quality: 88,
+    format: 'webp',
+  },
+  {
+    file: path.join(IMG, 'hero/carousel-safari-guests.webp'),
+    width: 1920,
+    quality: 82,
+    format: 'webp',
+  },
 ];
 
 async function optimize(job) {

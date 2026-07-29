@@ -31,11 +31,11 @@
     },
     "images": [
       {
-        "src": "/assets/images/hero/carousel-king-coconut.webp",
-        "alt": "Guests and guide enjoying king coconuts in a jungle riverside stop in Sri Lanka",
-        "title": "Local hospitality",
-        "width": 1024,
-        "height": 768
+        "src": "/assets/images/hero/carousel-guest-moments.webp",
+        "alt": "Hai Sri Lanka guest moments — king coconuts, tuk-tuk rides, cycling, and elephant experiences",
+        "title": "Guest moments",
+        "width": 1920,
+        "height": 1080
       },
       {
         "src": "/assets/images/hero/carousel-safari-guests.webp",

@@ -86,6 +86,7 @@ export class HeroSectionComponent implements AfterViewInit {
       const adopted = document.querySelector<HTMLImageElement>('img.hero__img--lcp');
       if (adopted) {
         adopted.classList.toggle('is-active', onZero);
+        adopted.style.opacity = onZero ? '1' : '0';
       }
       document.documentElement.classList.toggle('hsl-hero-carousel', !onZero);
     });
@@ -149,12 +150,15 @@ export class HeroSectionComponent implements AfterViewInit {
 
     shellImg.id = '';
     shellImg.className = 'hero__img hero__img--lcp is-active';
+    // Moved nodes are outside Angular emulated encapsulation — set layout inline.
+    shellImg.style.cssText =
+      'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;pointer-events:none;';
     shellImg.alt = first.alt || '';
     if (first.title) {
       shellImg.title = first.title;
     }
-    shellImg.setAttribute('width', String(first.width || 1024));
-    shellImg.setAttribute('height', String(first.height || 768));
+    shellImg.setAttribute('width', String(first.width || 1920));
+    shellImg.setAttribute('height', String(first.height || 1080));
     shellImg.fetchPriority = 'high';
     media.insertBefore(shellImg, media.firstChild);
     shell?.remove();

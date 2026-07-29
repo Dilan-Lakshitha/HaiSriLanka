@@ -38,6 +38,23 @@
     &.is-active {
       opacity: 1;
     }
+
+    /* Adopted from index.html — no _ngcontent attr, so pin styles here too. */
+    &--lcp {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.9s var(--ease-premium, ease);
+
+      &.is-active {
+        opacity: 1;
+      }
+    }
   }
 
   &__veil {
