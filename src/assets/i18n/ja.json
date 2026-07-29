@@ -220,5 +220,11 @@
     "viewTours": "スリランカのツアーを見る",
     "whatsappPrefill": "こんにちは Hai Sri Lanka — 予約 {{ref}}（{{tour}}）について。",
     "whatsappPrefillGeneric": "こんにちは Hai Sri Lanka — 予約について質問があります。"
+  },
+  "consent": {
+    "title": "Cookieとプライバシー",
+    "body": "分析とサービス改善のためにCookieを使用します。すべて同意するか、必須のみで続行できます。",
+    "essential": "必須のみ",
+    "acceptAll": "すべて同意"
   }
 }

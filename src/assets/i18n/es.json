@@ -220,5 +220,11 @@
     "viewTours": "Ver tours de Sri Lanka",
     "whatsappPrefill": "Hola Hai Sri Lanka — respecto a la reserva {{ref}} ({{tour}}).",
     "whatsappPrefillGeneric": "Hola Hai Sri Lanka — tengo una pregunta sobre mi reserva."
+  },
+  "consent": {
+    "title": "Cookies y privacidad",
+    "body": "Usamos cookies para analítica y para mejorar su experiencia. Puede aceptar todas o continuar solo con las esenciales.",
+    "essential": "Solo esenciales",
+    "acceptAll": "Aceptar todas"
   }
 }

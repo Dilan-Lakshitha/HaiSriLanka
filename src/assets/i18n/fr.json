@@ -220,5 +220,11 @@
     "viewTours": "Voir les circuits au Sri Lanka",
     "whatsappPrefill": "Bonjour Hai Sri Lanka — concernant la réservation {{ref}} ({{tour}}).",
     "whatsappPrefillGeneric": "Bonjour Hai Sri Lanka — j’ai une question sur ma réservation."
+  },
+  "consent": {
+    "title": "Cookies et confidentialité",
+    "body": "Nous utilisons des cookies pour l’analyse et pour améliorer votre expérience. Vous pouvez tout accepter ou continuer avec les cookies essentiels uniquement.",
+    "essential": "Essentiels uniquement",
+    "acceptAll": "Tout accepter"
   }
 }

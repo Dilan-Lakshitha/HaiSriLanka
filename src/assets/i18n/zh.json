@@ -220,5 +220,11 @@
     "viewTours": "查看斯里兰卡行程",
     "whatsappPrefill": "您好 Hai Sri Lanka — 关于预订 {{ref}}（{{tour}}）。",
     "whatsappPrefillGeneric": "您好 Hai Sri Lanka — 我想咨询我的预订。"
+  },
+  "consent": {
+    "title": "Cookie 与隐私",
+    "body": "我们使用 Cookie 进行分析并改进体验。您可以接受全部，或仅继续使用必要 Cookie。",
+    "essential": "仅必要",
+    "acceptAll": "全部接受"
   }
 }

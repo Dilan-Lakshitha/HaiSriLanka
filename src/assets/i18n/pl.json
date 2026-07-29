@@ -220,5 +220,11 @@
     "viewTours": "Zobacz wycieczki po Sri Lance",
     "whatsappPrefill": "Witaj Hai Sri Lanka — w sprawie rezerwacji {{ref}} ({{tour}}).",
     "whatsappPrefillGeneric": "Witaj Hai Sri Lanka — mam pytanie dotyczące mojej rezerwacji."
+  },
+  "consent": {
+    "title": "Pliki cookie i prywatność",
+    "body": "Używamy plików cookie do analityki i poprawy jakości. Możesz zaakceptować wszystkie lub kontynuować tylko z niezbędnymi.",
+    "essential": "Tylko niezbędne",
+    "acceptAll": "Zaakceptuj wszystkie"
   }
 }
