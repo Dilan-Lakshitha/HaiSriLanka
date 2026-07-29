@@ -1,6 +1,16 @@
+:host {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
 .blog-card {
   display: grid;
   gap: 0.85rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 
   img {
     width: 100%;

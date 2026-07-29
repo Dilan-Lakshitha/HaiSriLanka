@@ -45,6 +45,10 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+
+    @media (max-width: 400px) {
+      max-width: 4.5rem;
+    }
   }
 
   &__caret {

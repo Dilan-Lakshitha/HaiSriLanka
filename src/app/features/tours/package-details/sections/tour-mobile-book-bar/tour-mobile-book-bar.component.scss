@@ -10,8 +10,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
-    padding: 0.85rem 1.15rem calc(0.85rem + env(safe-area-inset-bottom));
+    gap: 0.75rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0.85rem 0.85rem calc(0.85rem + env(safe-area-inset-bottom));
     background: color-mix(out srgb, var(--color-navy) 94%, transparent);
     backdrop-filter: blur(16px);
     box-shadow: 0 -10px 30px rgba(15, 39, 68, 0.28);
@@ -21,6 +24,7 @@
   &__price {
     display: grid;
     gap: 0.1rem;
+    min-width: 0;
 
     span {
       font-size: 0.72rem;
@@ -41,8 +45,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
     min-height: 2.75rem;
-    padding: 0 1.25rem;
+    padding: 0 1rem;
     border-radius: var(--radius-sm, 8px);
     background: var(--color-green);
     color: var(--color-sand);

@@ -48,6 +48,7 @@
 
   &__inner {
     max-width: var(--container);
+    width: 100%;
     margin: 0 auto;
     padding: 0 1.25rem;
     min-height: var(--header-height);
@@ -56,6 +57,8 @@
     justify-content: space-between;
     gap: 1rem;
     position: relative;
+    box-sizing: border-box;
+    min-width: 0;
 
     @media (max-width: 768px) {
       padding: 0 0.85rem;
@@ -70,7 +73,8 @@
     text-decoration: none;
     line-height: 1.05;
     color: inherit;
-    min-width: 7.5rem;
+    min-width: 0;
+    flex: 0 1 auto;
     min-height: 2.35rem;
 
     @media (max-width: 768px) {
@@ -92,6 +96,8 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    flex-shrink: 0;
+    min-width: 0;
   }
 }
 

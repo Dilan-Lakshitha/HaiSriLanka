@@ -14,8 +14,32 @@ html {
   scroll-behavior: smooth;
 }
 
-img {
+/* Custom-element hosts default to inline — force block so % widths / grids don't overflow. */
+app-root,
+app-shell {
+  display: block;
+  width: 100%;
   max-width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video,
+canvas,
+iframe {
+  max-width: 100%;
+}
+
+input,
+select,
+textarea,
+button {
+  max-width: 100%;
+}
+
+img {
   height: auto;
   display: block;
 }

@@ -8,7 +8,7 @@
 .tour-detail {
   background: var(--color-sand);
   padding-bottom: 5.5rem;
-  overflow-x: clip;
+  overflow-x: hidden;
   max-width: 100%;
   width: 100%;
   min-width: 0;
@@ -21,7 +21,7 @@
     padding: 0 0 clamp(2rem, 4vw, 3rem);
     max-width: 100%;
     min-width: 0;
-    overflow-x: clip;
+    overflow-x: hidden;
   }
 
   &__intro {

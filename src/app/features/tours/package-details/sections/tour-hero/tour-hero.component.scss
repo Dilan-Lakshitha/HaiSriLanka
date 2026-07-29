@@ -97,6 +97,13 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 0.65rem;
+    max-width: 100%;
+    min-width: 0;
+
+    > * {
+      max-width: 100%;
+      min-width: 0;
+    }
   }
 
   &__gallery {
@@ -111,6 +118,7 @@
     cursor: pointer;
     backdrop-filter: blur(6px);
     transition: background 0.2s ease;
+    box-sizing: border-box;
 
     &:hover {
       background: color-mix(in srgb, var(--color-navy) 55%, transparent);

@@ -205,9 +205,15 @@
     scroll-behavior: smooth;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
 
     &::-webkit-scrollbar {
       display: none;
+    }
+
+    > li {
+      flex: 0 0 auto;
+      min-width: 0;
     }
   }
 
