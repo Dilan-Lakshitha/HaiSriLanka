@@ -1,6 +1,7 @@
 export interface BookingPayload {
   tourSlug: string;
   tourTitle: string;
+  tourDuration?: string;
   travelersCount: number;
   travelDate: string;
   pricePerPerson: number;

@@ -160,9 +160,29 @@
       <p class="booking-card__error" role="alert">Please complete all required fields.</p>
     }
 
+    @if (errorMessage()) {
+      <p class="booking-card__error" role="alert">{{ errorMessage() }}</p>
+    }
+
+    @if (successMessage()) {
+      <div class="booking-card__success" role="status">
+        <p class="booking-card__success-title">Booking request sent</p>
+        <p>{{ successMessage() }}</p>
+        @if (bookingRef()) {
+          <p class="booking-card__success-ref">Reference: <strong>{{ bookingRef() }}</strong></p>
+        }
+      </div>
+    }
+
     @if (!needsCustomQuote()) {
-      <button appUiButton variant="primary" type="submit" class="booking-card__submit">
-        Complete booking
+      <button
+        appUiButton
+        variant="primary"
+        type="submit"
+        class="booking-card__submit"
+        [disabled]="submitting()"
+      >
+        {{ submitting() ? 'Sending…' : 'Complete booking' }}
       </button>
     } @else if (company$ | async; as company) {
       @if (whatsappLink(company.whatsapp, company.phone[0]); as wa) {

@@ -12,6 +12,7 @@ export interface TravelerInfo {
 export interface BookingRequest {
   tourSlug: string;
   tourTitle: string;
+  tourDuration?: string;
   travelersCount: 1 | 2 | 3 | 4 | 5;
   travelDate: string;
   pricePerPerson: number;

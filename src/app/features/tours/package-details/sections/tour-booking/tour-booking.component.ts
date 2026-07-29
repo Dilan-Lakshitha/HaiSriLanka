@@ -8,10 +8,11 @@ import {
   signal,
 } from '@angular/core';
 import { AsyncPipe, CurrencyPipe } from '@angular/common';
+import { HttpErrorResponse } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
 import type { Tour } from '../../../../../core/models';
 import { tourPriceMap } from '../../../../../core/models/tour.model';
+import { BookingApiService } from '../../../../../core/services/booking-api.service';
 import { BookingStateService } from '../../../../../core/services/booking-state.service';
 import { CompanyService } from '../../../../../core/services/content.services';
 import { LocaleService } from '../../../../../core/services/locale.service';
@@ -48,9 +49,9 @@ export class TourBookingComponent implements OnInit {
 
   private readonly pricing = inject(PricingService);
   private readonly bookingState = inject(BookingStateService);
+  private readonly bookingApi = inject(BookingApiService);
   private readonly company = inject(CompanyService);
   private readonly locale = inject(LocaleService);
-  private readonly router = inject(Router);
 
   readonly travelerOptions: TravelerOption[] = [1, 2, 3, 4, 5, 6];
   readonly countries = COUNTRIES;
@@ -64,6 +65,10 @@ export class TourBookingComponent implements OnInit {
   readonly country = signal('');
   readonly agreed = signal(false);
   readonly submittedAttempt = signal(false);
+  readonly submitting = signal(false);
+  readonly successMessage = signal('');
+  readonly errorMessage = signal('');
+  readonly bookingRef = signal('');
 
   readonly priceTable = computed(() => tourPriceMap(this.tour()));
   readonly needsCustomQuote = computed(() => this.travelers() >= 6);
@@ -134,20 +139,63 @@ export class TourBookingComponent implements OnInit {
 
   completeBooking(): void {
     this.submittedAttempt.set(true);
-    if (this.needsCustomQuote() || !this.formValid()) {
+    this.errorMessage.set('');
+    this.successMessage.set('');
+
+    if (this.needsCustomQuote() || !this.formValid() || this.submitting()) {
       return;
     }
 
-    this.bookingState.setTravelDate(this.travelDate());
-    this.bookingState.setPrimaryTraveler({
+    const travelersCount = this.travelers() as 1 | 2 | 3 | 4 | 5;
+    const primaryTraveler = {
       firstName: this.firstName().trim(),
       lastName: this.lastName().trim(),
       email: this.email().trim(),
       phone: this.phone().trim(),
       nationality: this.country().trim(),
-    });
+    };
 
-    void this.router.navigate(['/', this.locale.activeLang(), 'booking', this.tour().slug]);
+    this.bookingState.setTravelDate(this.travelDate());
+    this.bookingState.setPrimaryTraveler(primaryTraveler);
+    this.submitting.set(true);
+
+    this.bookingApi
+      .submit({
+        tourSlug: this.tour().slug,
+        tourTitle: this.tour().title,
+        tourDuration: this.tour().duration,
+        travelersCount,
+        travelDate: this.travelDate(),
+        pricePerPerson: this.pricePerPerson(),
+        totalPrice: this.totalPrice(),
+        currency: this.tour().currency,
+        primaryTraveler,
+        locale: this.locale.activeLang(),
+      })
+      .subscribe({
+        next: (res) => {
+          this.submitting.set(false);
+          this.bookingRef.set(res.bookingRef);
+          this.successMessage.set(
+            res.message ||
+              'Booking request received. Confirmation emails have been sent to you and our team.',
+          );
+          this.submittedAttempt.set(false);
+          this.agreed.set(false);
+        },
+        error: (err: HttpErrorResponse) => {
+          this.submitting.set(false);
+          const apiMessage =
+            typeof err.error?.message === 'string' ? err.error.message : null;
+          const ref =
+            typeof err.error?.bookingRef === 'string' ? err.error.bookingRef : '';
+          if (ref) this.bookingRef.set(ref);
+          this.errorMessage.set(
+            apiMessage ||
+              'Could not complete your booking right now. Please try WhatsApp or email us directly.',
+          );
+        },
+      });
   }
 
   private buildInquiryMessage(): string {

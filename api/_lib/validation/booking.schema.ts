@@ -28,6 +28,7 @@ export function validateBooking(body: unknown): { ok: true; data: BookingPayload
     data: {
       tourSlug: String(data.tourSlug),
       tourTitle: String(data.tourTitle),
+      tourDuration: data.tourDuration ? String(data.tourDuration) : undefined,
       travelersCount: Number(data.travelersCount) as 1 | 2 | 3 | 4 | 5,
       travelDate: String(data.travelDate),
       pricePerPerson: Number(data.pricePerPerson) || 0,

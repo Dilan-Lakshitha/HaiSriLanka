@@ -196,11 +196,42 @@
     font-size: 0.74rem;
   }
 
+  &__success {
+    margin: 0;
+    padding: 0.65rem 0.7rem;
+    border-radius: var(--radius-sm, 8px);
+    background: color-mix(in srgb, var(--color-green) 12%, #fff);
+    border: 1px solid color-mix(in srgb, var(--color-green) 35%, transparent);
+    color: var(--color-navy);
+    font-size: 0.78rem;
+    line-height: 1.45;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__success-title {
+    margin: 0 0 0.25rem !important;
+    font-weight: 700;
+    color: var(--color-green);
+  }
+
+  &__success-ref {
+    margin-top: 0.35rem !important;
+    font-size: 0.74rem;
+  }
+
   &__submit {
     width: 100%;
     justify-content: center;
     min-height: 2.35rem !important;
     font-size: 0.9rem !important;
+
+    &:disabled {
+      opacity: 0.65;
+      cursor: not-allowed;
+    }
   }
 
   &__whatsapp {

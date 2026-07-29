@@ -56,17 +56,18 @@ Set these environment variables in the Vercel project:
 | Variable | Example |
 |----------|---------|
 | `SMTP_HOST` | `smtp.gmail.com` |
-| `SMTP_PORT` | `465` |
-| `SMTP_SECURE` | `true` |
+| `SMTP_PORT` | `587` |
+| `SMTP_SECURE` | `false` |
 | `SMTP_USER` | `your@gmail.com` |
 | `SMTP_PASS` | Gmail App Password |
-| `SMTP_FROM` | `Hai Sri Lanka <your@gmail.com>` |
-| `BOOKING_ADMIN_EMAIL` | `bookings@haisrilanka.com` |
-| `PUBLIC_SITE_URL` | `https://haisrilanka.com` |
+| `SMTP_FROM` | `Hai Sri Lanka Tours <your@gmail.com>` |
+| `BOOKING_ADMIN_EMAIL` | `haisrilankatour@gmail.com` (comma-separated for multiple) |
+| `CONTACT_ADMIN_EMAIL` | `haisrilankatour@gmail.com` |
+| `PUBLIC_SITE_URL` | `https://www.haisrilanka.com` |
 
 Without SMTP credentials, the API still validates bookings and **logs** emails (local-safe).
 
-Frontend calls `POST /api/bookings` via `BookingApiService`. Point `environment.apiBaseUrl` at a dedicated API later without changing the booking UI.
+**Complete booking** on tour details calls `POST /api/bookings` and sends professional emails to **both** the guest and `BOOKING_ADMIN_EMAIL`.
 
 ## Deploy
 

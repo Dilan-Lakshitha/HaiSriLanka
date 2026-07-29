@@ -8,7 +8,9 @@ import { BookingEmailService } from './_lib/email/email.service';
  * Frontend contract is stable; swap this host for .NET/Node API later via apiBaseUrl.
  */
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-  res.setHeader('Access-Control-Allow-Origin', process.env['PUBLIC_SITE_URL'] || '*');
+  const allowedOrigin =
+    process.env['PUBLIC_SITE_URL'] || 'https://www.haisrilanka.com';
+  res.setHeader('Access-Control-Allow-Origin', allowedOrigin);
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
@@ -42,6 +44,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   return res.status(201).json({
     bookingRef,
     status: 'confirmed',
-    message: 'Booking request received. Confirmation emails sent.',
+    message: 'Booking request received. Confirmation emails sent to you and our team.',
   });
 }
