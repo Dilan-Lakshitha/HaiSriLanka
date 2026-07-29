@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  siteUrl: 'https://haisrilanka.com',
+  siteUrl: 'https://www.haisrilanka.com',
   siteName: 'Hai Sri Lanka Tours',
   defaultLocale: 'en',
   apiBaseUrl: '',

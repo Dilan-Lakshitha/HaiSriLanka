@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
-const SITE_URL = process.env.PUBLIC_SITE_URL || 'https://haisrilanka.com';
+const SITE_URL = process.env.PUBLIC_SITE_URL || 'https://www.haisrilanka.com';
 const ROOT = process.cwd();
 const PUBLIC = join(ROOT, 'public');
 const LOCALES_PATH = join(ROOT, 'src/assets/language/locales.json');
