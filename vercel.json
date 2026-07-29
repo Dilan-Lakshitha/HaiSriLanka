@@ -1,19 +1,19 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm run build && node scripts/generate-sitemaps.mjs",
+  "buildCommand": "npm run build && node scripts/generate-sitemaps.mjs && node scripts/prepare-vercel.mjs",
   "outputDirectory": "dist/haisrilanka/browser",
   "framework": null,
   "functions": {
     "api/ssr.ts": {
-      "includeFiles": "dist/haisrilanka/**",
+      "includeFiles": "dist/haisrilanka/server/**",
       "maxDuration": 30
     }
   },
   "rewrites": [
     { "source": "/api/contact", "destination": "/api/contact" },
     { "source": "/api/bookings", "destination": "/api/bookings" },
-    { "source": "/", "destination": "/api/ssr?__path=/" },
-    { "source": "/(.*)", "destination": "/api/ssr?__path=/$1" }
+    { "source": "/api/ssr", "destination": "/api/ssr" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ],
   "headers": [
     {
