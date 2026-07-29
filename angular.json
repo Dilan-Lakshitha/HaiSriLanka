@@ -40,7 +40,12 @@
             "server": "src/main.server.ts",
             "outputMode": "server",
             "security": {
-              "allowedHosts": []
+              "allowedHosts": [
+                "haisrilanka.com",
+                "www.haisrilanka.com",
+                "localhost",
+                "*.vercel.app"
+              ]
             },
             "ssr": {
               "entry": "src/server.ts"

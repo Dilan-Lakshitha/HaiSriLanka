@@ -10,9 +10,10 @@
     }
   },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/$1" },
-    { "source": "/", "destination": "/api/ssr" },
-    { "source": "/(.*)", "destination": "/api/ssr" }
+    { "source": "/api/contact", "destination": "/api/contact" },
+    { "source": "/api/bookings", "destination": "/api/bookings" },
+    { "source": "/", "destination": "/api/ssr?__path=/" },
+    { "source": "/(.*)", "destination": "/api/ssr?__path=/$1" }
   ],
   "headers": [
     {
