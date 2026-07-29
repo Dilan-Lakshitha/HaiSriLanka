@@ -61,7 +61,8 @@
     width: min(100% - 2.5rem, var(--container));
     margin: 0 auto;
     padding: calc(var(--header-height) + 3.25rem) 0 4.5rem;
-    animation: slide-up 0.9s var(--ease-premium) both;
+    /* Avoid animation-fill both+opacity:0 — that delayed LCP on hero text. */
+    animation: hero-rise 0.7s var(--ease-premium) both;
 
     @media (max-width: 768px) {
       width: min(100% - 1.75rem, var(--container));
@@ -248,5 +249,15 @@
       background: rgba(248, 245, 239, 0.85);
       outline: none;
     }
+  }
+}
+
+/* Transform-only entrance — keep opacity at 1 so hero copy can be LCP immediately. */
+@keyframes hero-rise {
+  from {
+    transform: translateY(12px);
+  }
+  to {
+    transform: none;
   }
 }

@@ -5,7 +5,7 @@ import {
   OnInit,
   inject,
 } from '@angular/core';
-import { combineLatest, map, switchMap, take } from 'rxjs';
+import { combineLatest, map, startWith, switchMap, take } from 'rxjs';
 import { HomeService } from '../../core/services/home.service';
 import { LocaleService } from '../../core/services/locale.service';
 import { SeoService } from '../../core/seo/seo.service';
@@ -56,22 +56,25 @@ export class HomePageComponent implements OnInit {
   private readonly company = inject(CompanyService);
   readonly locale = inject(LocaleService);
 
-  /** Paint hero immediately — do not wait for tours/reviews/blogs. */
-  readonly heroVm$ = this.home.getContent().pipe(
+  /**
+   * Seeded home.json — paints hero + why-choose on first CD.
+   * Do not wait for tour/blog HTTP (that caused ~4s LCP element delay).
+   */
+  readonly homeVm$ = this.home.getContent().pipe(
     map((content) => ({
       content,
       lang: this.locale.activeLang(),
     })),
   );
 
-  readonly restVm$ = combineLatest({
-    content: this.home.getContent(),
-    multiDay: this.home.getFeaturedMultiDay(3),
-    dayTours: this.home.getFeaturedDayTours(3),
-    destinations: this.home.getPopularDestinations(4),
-    reviews: this.home.getLatestReviews(3),
-    posts: this.home.getLatestPosts(3),
-    faqs: this.home.getHomeFaqs(),
+  /** Catalog sections: emit immediately with empty lists, then hydrate. */
+  readonly catalogsVm$ = combineLatest({
+    multiDay: this.home.getFeaturedMultiDay(3).pipe(startWith([])),
+    dayTours: this.home.getFeaturedDayTours(3).pipe(startWith([])),
+    destinations: this.home.getPopularDestinations(4).pipe(startWith([])),
+    reviews: this.home.getLatestReviews(3).pipe(startWith([])),
+    posts: this.home.getLatestPosts(3).pipe(startWith([])),
+    faqs: this.home.getHomeFaqs().pipe(startWith([])),
   }).pipe(
     map((data) => ({
       ...data,
