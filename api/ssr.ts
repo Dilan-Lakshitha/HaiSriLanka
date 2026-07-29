@@ -5,7 +5,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 /**
  * Angular SSR on Vercel. Page routes rewrite here with `?__path=…`.
- * Static assets are served from `outputDirectory` before rewrites.
+ * Keep includeFiles limited to server bundle + CSR fallback shell (not /assets).
  */
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
@@ -23,16 +23,18 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       next?: (err?: unknown) => void,
     ) => unknown;
 
-    await new Promise<void>((resolve, reject) => {
+    return await new Promise<void>((resolve, reject) => {
       const finish = () => resolve();
       res.once('finish', finish);
       res.once('close', finish);
 
       try {
         const result = reqHandler(req, res, (err?: unknown) => {
-          if (err) reject(err);
-          else if (!res.headersSent) {
-            // Fall back to CSR shell if Angular returns no response.
+          if (err) {
+            reject(err);
+            return;
+          }
+          if (!res.headersSent) {
             serveCsrFallback(res);
             resolve();
           }
@@ -49,7 +51,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       error instanceof Error ? error.stack || error.message : String(error);
     console.error('[ssr] function failed', message);
     if (!res.headersSent) {
-      // Prefer a working CSR page over a hard 500 for visitors.
       if (serveCsrFallback(res)) return;
       res.statusCode = 500;
       res.setHeader('Content-Type', 'text/plain; charset=utf-8');
@@ -67,7 +68,6 @@ function ensureAllowedHost(req: VercelRequest): void {
     host.startsWith('127.0.0.1');
   if (allowed) return;
 
-  // Preview / unknown hosts: force a known allowed host for Angular SSRF checks.
   req.headers.host = 'www.haisrilanka.com';
   req.headers['x-forwarded-host'] = 'www.haisrilanka.com';
   req.headers['x-forwarded-proto'] = 'https';
@@ -111,7 +111,7 @@ function restoreOriginalUrl(req: VercelRequest): void {
 function serveCsrFallback(res: VercelResponse): boolean {
   const csrPath = path.join(
     process.cwd(),
-    'dist/haisrilanka/browser/index.csr.html',
+    'dist/haisrilanka/browser/csr-shell.html',
   );
   if (!existsSync(csrPath)) return false;
   res.statusCode = 200;
