@@ -57,9 +57,21 @@ const jobs = [
     format: 'webp',
   },
   {
+    file: path.join(IMG, 'hero/carousel-guest-moments-960.webp'),
+    width: 960,
+    quality: 64,
+    format: 'webp',
+  },
+  {
     file: path.join(IMG, 'hero/carousel-guest-moments.webp'),
-    width: 1920,
-    quality: 82,
+    width: 1280,
+    quality: 64,
+    format: 'webp',
+  },
+  {
+    file: path.join(IMG, 'hero/carousel-guest-moments-1600.webp'),
+    width: 1600,
+    quality: 68,
     format: 'webp',
   },
   {

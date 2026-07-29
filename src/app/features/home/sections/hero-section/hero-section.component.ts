@@ -157,8 +157,8 @@ export class HeroSectionComponent implements AfterViewInit {
     if (first.title) {
       shellImg.title = first.title;
     }
-    shellImg.setAttribute('width', String(first.width || 1920));
-    shellImg.setAttribute('height', String(first.height || 1080));
+    shellImg.setAttribute('width', String(first.width || 1280));
+    shellImg.setAttribute('height', String(first.height || 720));
     shellImg.fetchPriority = 'high';
     media.insertBefore(shellImg, media.firstChild);
     shell?.remove();
