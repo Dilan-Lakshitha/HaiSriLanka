@@ -1,6 +1,7 @@
 import {
   ApplicationConfig,
   provideBrowserGlobalErrorListeners,
+  provideZonelessChangeDetection,
   isDevMode,
   provideAppInitializer,
   inject,
@@ -13,7 +14,7 @@ import {
   withPreloading,
   NoPreloading,
 } from '@angular/router';
-import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
+import { provideClientHydration } from '@angular/platform-browser';
 import { IMAGE_CONFIG } from '@angular/common';
 import { provideTransloco } from '@jsverse/transloco';
 import { routes } from './app.routes';
@@ -26,6 +27,7 @@ import { ConsentService } from './core/services/consent.service';
 export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
+    provideZonelessChangeDetection(),
     provideHttpClient(withFetch()),
     provideRouter(
       routes,
@@ -36,7 +38,8 @@ export const appConfig: ApplicationConfig = {
       }),
       withPreloading(NoPreloading),
     ),
-    provideClientHydration(withEventReplay()),
+    // Event replay adds main-thread work; not needed for CSR-first paint / TBT.
+    provideClientHydration(),
     {
       provide: IMAGE_CONFIG,
       useValue: {

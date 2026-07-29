@@ -14,7 +14,6 @@
     <link rel="apple-touch-icon" href="favicon.png" />
     <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://www.googletagmanager.com" />
     <link
       rel="preload"
       as="image"
@@ -31,10 +30,24 @@
       media="(min-width: 901px)"
       fetchpriority="high"
     />
+    <!-- Fonts after first paint — stylesheet in head competes with LCP/TBT. -->
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=optional"
-      rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=optional"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=optional"
+      />
+    </noscript>
     <!-- First-paint consent banner: present before Angular boots (avoids CLS ~0.1). -->
     <script>
       (function () {
@@ -176,7 +189,7 @@
         z-index: 1;
       }
     </style>
-    <!-- Consent Mode v2 defaults BEFORE Google tag (order is required). -->
+    <!-- Consent Mode v2 defaults only — gtag.js loads after idle/input (cuts TBT). -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -205,12 +218,6 @@
       } catch (e) {
         /* ignore */
       }
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T3GGHR933Z"></script>
-    <script>
-      gtag('js', new Date());
-      gtag('config', 'G-T3GGHR933Z', { send_page_view: false, anonymize_ip: true });
     </script>
   </head>
   <body>

@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { HOME_ROUTES } from '../../features/home/home.routes';
 
 function foundation(
   path: string,
@@ -18,10 +17,10 @@ function foundation(
 }
 
 export const FEATURE_CHILD_ROUTES: Routes = [
-  // Eager home: avoids an extra lazy-chunk round-trip before the LCP <img> mounts.
+  // Lazy home: smaller initial JS (TBT). LCP image stays in index.html.
   {
     path: '',
-    children: HOME_ROUTES,
+    loadChildren: () => import('../../features/home/home.routes').then((m) => m.HOME_ROUTES),
   },
   foundation('about', 'nav.about', 'about'),
   {
