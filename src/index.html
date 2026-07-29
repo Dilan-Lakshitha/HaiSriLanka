@@ -24,6 +24,44 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=optional"
       rel="stylesheet"
     />
+    <!-- Reserve consent-banner space before first paint (avoids CLS 0.1+). -->
+    <script>
+      (function () {
+        try {
+          if (!localStorage.getItem('hsl_consent_v2')) {
+            document.documentElement.classList.add('consent-pending');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('consent-pending');
+        }
+      })();
+    </script>
+    <style>
+      html.consent-pending {
+        --consent-banner-h: 7.25rem;
+      }
+      @media (max-width: 640px) {
+        html.consent-pending {
+          --consent-banner-h: 10.5rem;
+        }
+      }
+      html.consent-pending body {
+        padding-bottom: var(--consent-banner-h);
+      }
+      #consent-banner-shell {
+        display: none;
+        position: fixed;
+        inset: auto 0 0;
+        z-index: 199;
+        box-sizing: border-box;
+        min-height: var(--consent-banner-h, 7.25rem);
+        background: #0f2744;
+        border-top: 1px solid rgba(201, 162, 39, 0.35);
+      }
+      html.consent-pending:not(.consent-hydrated) #consent-banner-shell {
+        display: block;
+      }
+    </style>
     <!-- Consent Mode v2 defaults BEFORE Google tag (order is required). -->
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -62,6 +100,7 @@
     </script>
   </head>
   <body>
+    <div id="consent-banner-shell" aria-hidden="true"></div>
     <app-root></app-root>
   </body>
 </html>

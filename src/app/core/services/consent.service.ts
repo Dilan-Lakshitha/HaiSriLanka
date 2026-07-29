@@ -10,7 +10,7 @@ export interface ConsentState {
   analytics_storage: ConsentValue;
 }
 
-const STORAGE_KEY = 'hsl_consent_v2';
+export const CONSENT_STORAGE_KEY = 'hsl_consent_v2';
 
 const DENIED: ConsentState = {
   ad_storage: 'denied',
@@ -35,6 +35,7 @@ declare global {
 
 /**
  * Google Consent Mode v2 — persist choice and call gtag('consent', 'update', …).
+ * Works with index.html pre-paint shell to avoid CLS from the banner appearing late.
  */
 @Injectable({ providedIn: 'root' })
 export class ConsentService {
@@ -51,11 +52,14 @@ export class ConsentService {
     if (stored) {
       this.choice.set(stored.analytics_storage === 'granted' ? 'all' : 'essential');
       this.showBanner.set(false);
+      this.setHtmlFlags({ pending: false, hydrated: false });
       this.pushUpdate(stored);
       return;
     }
     this.choice.set(null);
     this.showBanner.set(true);
+    // Keep reserved space; swap static shell → Angular banner without layout jump.
+    this.setHtmlFlags({ pending: true, hydrated: true });
   }
 
   acceptAll(): void {
@@ -70,6 +74,7 @@ export class ConsentService {
   openPreferences(): void {
     if (!this.isBrowser) return;
     this.showBanner.set(true);
+    this.setHtmlFlags({ pending: true, hydrated: true });
   }
 
   private apply(choice: 'all' | 'essential', state: ConsentState): void {
@@ -78,6 +83,14 @@ export class ConsentService {
     this.showBanner.set(false);
     this.writeStored(state);
     this.pushUpdate(state);
+    // User gesture — removing reserved space is excluded from CLS.
+    this.setHtmlFlags({ pending: false, hydrated: false });
+  }
+
+  private setHtmlFlags(flags: { pending: boolean; hydrated: boolean }): void {
+    const root = document.documentElement;
+    root.classList.toggle('consent-pending', flags.pending);
+    root.classList.toggle('consent-hydrated', flags.hydrated);
   }
 
   private pushUpdate(state: ConsentState): void {
@@ -87,7 +100,7 @@ export class ConsentService {
 
   private readStored(): ConsentState | null {
     try {
-      const raw = localStorage.getItem(STORAGE_KEY);
+      const raw = localStorage.getItem(CONSENT_STORAGE_KEY);
       if (!raw) return null;
       const parsed = JSON.parse(raw) as ConsentState;
       if (!parsed?.analytics_storage) return null;
@@ -106,7 +119,7 @@ export class ConsentService {
 
   private writeStored(state: ConsentState): void {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      localStorage.setItem(CONSENT_STORAGE_KEY, JSON.stringify(state));
     } catch {
       /* ignore */
     }
