@@ -58,7 +58,7 @@ async function optimizeWebp(job) {
 async function convertPngToWebp() {
   const pngRel = 'tours/guest-experiences/elephant-sigiriya.png';
   const png = path.join(IMG, pngRel);
-  const webp = path.join(IMG, 'tours/guest-experiences/elephant-sigiriya.webp');
+  const webp = path.join(IMG, 'tours/guest-experiences/elephant-at-sigiriya.webp');
   if (!fs.existsSync(png)) {
     console.warn('skip missing', pngRel);
     return;

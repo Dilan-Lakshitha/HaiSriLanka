@@ -19,7 +19,10 @@
     { "source": "/api/contact", "destination": "/api/contact" },
     { "source": "/api/bookings", "destination": "/api/bookings" },
     { "source": "/api/ssr", "destination": "/api/ssr" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/((?!assets/).*)",
+      "destination": "/index.html"
+    }
   ],
   "headers": [
     {
