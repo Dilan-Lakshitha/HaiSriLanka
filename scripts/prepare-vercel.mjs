@@ -1,9 +1,10 @@
-import { copyFileSync, existsSync } from 'node:fs';
+import { existsSync, unlinkSync } from 'node:fs';
 import { join } from 'node:path';
 
 /**
- * Angular SSR builds emit `index.csr.html` (no `index.html`).
- * Vercel static hosting + SPA rewrites need `index.html`.
+ * Angular SSR emits `index.csr.html`. Copying it to `index.html` makes Vercel
+ * serve the CSR shell for `/` before rewrites — which defeats SSR.
+ * Keep only `index.csr.html` so page traffic goes to `/api/ssr`.
  */
 const browserDir = join(process.cwd(), 'dist/haisrilanka/browser');
 const csr = join(browserDir, 'index.csr.html');
@@ -14,5 +15,9 @@ if (!existsSync(csr)) {
   process.exit(1);
 }
 
-copyFileSync(csr, index);
-console.log('prepare-vercel: copied index.csr.html → index.html');
+if (existsSync(index)) {
+  unlinkSync(index);
+  console.log('prepare-vercel: removed index.html (SSR via /api/ssr)');
+} else {
+  console.log('prepare-vercel: no index.html present (good for SSR)');
+}

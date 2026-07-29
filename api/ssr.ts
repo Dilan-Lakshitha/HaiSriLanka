@@ -1,14 +1,16 @@
+import { readFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 /**
- * Optional Angular SSR entry. Page traffic currently uses CSR fallback
- * (`index.csr.html`) until this function is confirmed stable on Vercel.
+ * Angular SSR on Vercel. Page routes rewrite here with `?__path=…`.
+ * Static assets are served from `outputDirectory` before rewrites.
  */
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
     restoreOriginalUrl(req);
+    ensureAllowedHost(req);
 
     const serverPath = path.join(
       process.cwd(),
@@ -30,8 +32,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         const result = reqHandler(req, res, (err?: unknown) => {
           if (err) reject(err);
           else if (!res.headersSent) {
-            res.statusCode = 404;
-            res.end('Not Found');
+            // Fall back to CSR shell if Angular returns no response.
+            serveCsrFallback(res);
             resolve();
           }
         });
@@ -43,14 +45,32 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       }
     });
   } catch (error) {
-    const message = error instanceof Error ? error.stack || error.message : String(error);
+    const message =
+      error instanceof Error ? error.stack || error.message : String(error);
     console.error('[ssr] function failed', message);
     if (!res.headersSent) {
+      // Prefer a working CSR page over a hard 500 for visitors.
+      if (serveCsrFallback(res)) return;
       res.statusCode = 500;
       res.setHeader('Content-Type', 'text/plain; charset=utf-8');
       res.end(`SSR failed:\n${message}`);
     }
   }
+}
+
+function ensureAllowedHost(req: VercelRequest): void {
+  const host = String(req.headers.host || '');
+  const allowed =
+    host.includes('haisrilanka.com') ||
+    host.includes('vercel.app') ||
+    host.startsWith('localhost') ||
+    host.startsWith('127.0.0.1');
+  if (allowed) return;
+
+  // Preview / unknown hosts: force a known allowed host for Angular SSRF checks.
+  req.headers.host = 'www.haisrilanka.com';
+  req.headers['x-forwarded-host'] = 'www.haisrilanka.com';
+  req.headers['x-forwarded-proto'] = 'https';
 }
 
 function restoreOriginalUrl(req: VercelRequest): void {
@@ -68,7 +88,9 @@ function restoreOriginalUrl(req: VercelRequest): void {
 
   const qIndex = pathName.indexOf('?');
   let pathname = qIndex >= 0 ? pathName.slice(0, qIndex) : pathName;
-  const params = new URLSearchParams(qIndex >= 0 ? pathName.slice(qIndex + 1) : '');
+  const params = new URLSearchParams(
+    qIndex >= 0 ? pathName.slice(qIndex + 1) : '',
+  );
   params.delete('__path');
 
   if (req.query && typeof req.query === 'object') {
@@ -81,6 +103,21 @@ function restoreOriginalUrl(req: VercelRequest): void {
     }
   }
 
+  if (!pathname.startsWith('/')) pathname = `/${pathname}`;
   const qs = params.toString();
   req.url = qs ? `${pathname}?${qs}` : pathname || '/';
+}
+
+function serveCsrFallback(res: VercelResponse): boolean {
+  const csrPath = path.join(
+    process.cwd(),
+    'dist/haisrilanka/browser/index.csr.html',
+  );
+  if (!existsSync(csrPath)) return false;
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/html; charset=utf-8');
+  res.setHeader('Cache-Control', 'no-store');
+  res.setHeader('X-SSR-Fallback', 'csr');
+  res.end(readFileSync(csrPath, 'utf8'));
+  return true;
 }
