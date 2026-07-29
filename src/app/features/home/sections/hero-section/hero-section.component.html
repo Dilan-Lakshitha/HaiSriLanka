@@ -7,7 +7,7 @@
   (focusin)="pause()"
   (focusout)="resume()"
 >
-  <div class="hero__media" aria-hidden="true">
+  <div class="hero__media" aria-hidden="true" #heroMedia>
     @for (slide of renderedSlides(); track slide.index) {
       <img
         class="hero__img"

@@ -126,7 +126,8 @@
         color: #f5f0e6;
         border-color: #c9a227;
       }
-      /* Static LCP hero: paints before Angular boots (cuts ~2s element render delay). */
+      /* Static LCP hero: paints before Angular boots (cuts ~2s element render delay).
+         Angular then moves this <img> into .hero__media (same node — stays sharp). */
       #hsl-lcp-hero {
         display: none;
         position: fixed;
@@ -144,9 +145,6 @@
       html.hsl-home #hsl-lcp-hero {
         display: block;
       }
-      html.hsl-home #hsl-lcp-hero[hidden] {
-        display: none;
-      }
       #hsl-lcp-hero img {
         width: 100%;
         height: 100%;
@@ -159,11 +157,6 @@
           min-height: 24rem;
           max-height: none;
         }
-      }
-      /* Let the shell image show through until the carousel leaves slide 0. */
-      html.hsl-home:not(.hsl-hero-carousel) .hero,
-      html.hsl-home:not(.hsl-hero-carousel) .hero__media {
-        background: transparent !important;
       }
       app-root {
         position: relative;

@@ -1,14 +1,17 @@
 import { isPlatformBrowser } from '@angular/common';
 import {
+  AfterViewInit,
   ChangeDetectionStrategy,
   Component,
   DestroyRef,
+  ElementRef,
   PLATFORM_ID,
   computed,
   effect,
   inject,
   input,
   signal,
+  viewChild,
 } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
@@ -18,6 +21,7 @@ import type { HomeHero, ImageAsset } from '../../../../core/models';
 import { UiButtonComponent } from '../../../../shared/ui/button/ui-button.component';
 
 const LCP_SHELL_ID = 'hsl-lcp-hero';
+const LCP_SHELL_IMG_ID = 'hsl-lcp-hero-img';
 
 @Component({
   selector: 'app-hero-section',
@@ -27,10 +31,12 @@ const LCP_SHELL_ID = 'hsl-lcp-hero';
   styleUrl: './hero-section.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HeroSectionComponent {
+export class HeroSectionComponent implements AfterViewInit {
   private readonly destroyRef = inject(DestroyRef);
   private readonly platformId = inject(PLATFORM_ID);
   private readonly isBrowser = isPlatformBrowser(this.platformId);
+
+  private readonly media = viewChild<ElementRef<HTMLElement>>('heroMedia');
 
   readonly hero = input.required<HomeHero>();
   readonly lang = input.required<string>();
@@ -38,10 +44,11 @@ export class HeroSectionComponent {
   readonly activeIndex = signal(0);
   readonly paused = signal(false);
 
-  /** True while the static index.html LCP shell covers slide 0. */
-  private readonly useLcpShell = signal(
-    this.isBrowser && !!document.getElementById(LCP_SHELL_ID),
-  );
+  /**
+   * When true, slide 0 is the adopted index.html <img> (same DOM node as early LCP).
+   * Do not mount a second copy — that caused a blank/veil-only hero.
+   */
+  private readonly adoptedLcp = signal(false);
 
   readonly slides = computed<ImageAsset[]>(() => {
     const hero = this.hero();
@@ -51,50 +58,36 @@ export class HeroSectionComponent {
   readonly slideCount = computed(() => this.slides().length);
   readonly showControls = computed(() => this.slideCount() > 1);
 
-  /**
-   * Keep active + next in the DOM. When the static LCP shell is showing slide 0,
-   * skip mounting a second copy of that image so PSI does not re-attribute LCP
-   * to a late Angular <img> (~2s element render delay).
-   */
+  /** Active + next only. Skip Angular slide 0 while adopted LCP <img> owns it. */
   readonly renderedSlides = computed(() => {
     const all = this.slides();
     const i = this.activeIndex();
     if (all.length === 0) {
       return [] as Array<ImageAsset & { index: number }>;
     }
-    if (all.length === 1) {
-      if (this.useLcpShell() && i === 0) {
-        return [];
-      }
-      return [{ ...all[0], index: 0 }];
+    const indices = new Set<number>();
+    if (!(this.adoptedLcp() && i === 0)) {
+      indices.add(i);
     }
-    const next = (i + 1) % all.length;
-    const out: Array<ImageAsset & { index: number }> = [];
-    if (!(this.useLcpShell() && i === 0)) {
-      out.push({ ...all[i], index: i });
+    if (all.length > 1) {
+      indices.add((i + 1) % all.length);
     }
-    if (next !== i) {
-      out.push({ ...all[next], index: next });
-    }
-    return out;
+    return [...indices].map((index) => ({ ...all[index], index }));
   });
 
   constructor() {
-    this.destroyRef.onDestroy(() => this.teardownLcpShell());
+    this.destroyRef.onDestroy(() => this.cleanupShellClasses());
 
     effect(() => {
-      if (!this.isBrowser || !this.useLcpShell()) {
+      if (!this.isBrowser || !this.adoptedLcp()) {
         return;
       }
-      const onSlideZero = this.activeIndex() === 0;
-      const shell = document.getElementById(LCP_SHELL_ID);
-      if (!shell) {
-        this.useLcpShell.set(false);
-        document.documentElement.classList.remove('hsl-hero-carousel');
-        return;
+      const onZero = this.activeIndex() === 0;
+      const adopted = document.querySelector<HTMLImageElement>('img.hero__img--lcp');
+      if (adopted) {
+        adopted.classList.toggle('is-active', onZero);
       }
-      shell.hidden = !onSlideZero;
-      document.documentElement.classList.toggle('hsl-hero-carousel', !onSlideZero);
+      document.documentElement.classList.toggle('hsl-hero-carousel', !onZero);
     });
 
     // Delay autoplay so Lighthouse / LCP can settle on the first slide.
@@ -109,6 +102,10 @@ export class HeroSectionComponent {
         }
         this.next();
       });
+  }
+
+  ngAfterViewInit(): void {
+    this.adoptLcpShellImage();
   }
 
   goTo(index: number): void {
@@ -135,12 +132,41 @@ export class HeroSectionComponent {
     this.paused.set(false);
   }
 
-  private teardownLcpShell(): void {
+  /** Move the first-HTML LCP <img> into the hero so it stays visible and sharp. */
+  private adoptLcpShellImage(): void {
+    if (!this.isBrowser) {
+      return;
+    }
+    const media = this.media()?.nativeElement;
+    const shellImg = document.getElementById(LCP_SHELL_IMG_ID) as HTMLImageElement | null;
+    const shell = document.getElementById(LCP_SHELL_ID);
+    const first = this.slides()[0];
+    if (!media || !shellImg || !first) {
+      shell?.remove();
+      document.documentElement.classList.remove('hsl-home');
+      return;
+    }
+
+    shellImg.id = '';
+    shellImg.className = 'hero__img hero__img--lcp is-active';
+    shellImg.alt = first.alt || '';
+    if (first.title) {
+      shellImg.title = first.title;
+    }
+    shellImg.setAttribute('width', String(first.width || 1024));
+    shellImg.setAttribute('height', String(first.height || 768));
+    shellImg.fetchPriority = 'high';
+    media.insertBefore(shellImg, media.firstChild);
+    shell?.remove();
+    document.documentElement.classList.remove('hsl-home');
+    this.adoptedLcp.set(true);
+  }
+
+  private cleanupShellClasses(): void {
     if (!this.isBrowser) {
       return;
     }
     document.documentElement.classList.remove('hsl-hero-carousel', 'hsl-home');
     document.getElementById(LCP_SHELL_ID)?.remove();
-    this.useLcpShell.set(false);
   }
 }
