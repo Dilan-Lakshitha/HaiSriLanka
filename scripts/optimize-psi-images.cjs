@@ -59,20 +59,38 @@ const jobs = [
   {
     file: path.join(IMG, 'hero/carousel-guest-moments-960.webp'),
     width: 960,
-    quality: 64,
+    quality: 32,
     format: 'webp',
   },
   {
     file: path.join(IMG, 'hero/carousel-guest-moments.webp'),
     width: 1280,
-    quality: 64,
+    quality: 48,
     format: 'webp',
   },
   {
     file: path.join(IMG, 'hero/carousel-guest-moments-1600.webp'),
     width: 1600,
-    quality: 68,
+    quality: 52,
     format: 'webp',
+  },
+  {
+    file: path.join(IMG, 'hero/carousel-guest-moments-960.avif'),
+    width: 960,
+    quality: 36,
+    format: 'avif',
+  },
+  {
+    file: path.join(IMG, 'hero/carousel-guest-moments.avif'),
+    width: 1280,
+    quality: 42,
+    format: 'avif',
+  },
+  {
+    file: path.join(IMG, 'hero/carousel-guest-moments-1600.avif'),
+    width: 1600,
+    quality: 45,
+    format: 'avif',
   },
   {
     file: path.join(IMG, 'hero/carousel-king-coconut.webp'),
@@ -98,7 +116,9 @@ async function optimize(job) {
   const outBuf =
     job.format === 'png'
       ? await pipeline.png({ compressionLevel: 9, palette: true }).toBuffer()
-      : await pipeline.webp({ quality: job.quality || 75 }).toBuffer();
+      : job.format === 'avif'
+        ? await pipeline.avif({ quality: job.quality || 45, effort: 6 }).toBuffer()
+        : await pipeline.webp({ quality: job.quality || 75 }).toBuffer();
 
   const tmp = `${job.file}.tmp`;
   fs.writeFileSync(tmp, outBuf);

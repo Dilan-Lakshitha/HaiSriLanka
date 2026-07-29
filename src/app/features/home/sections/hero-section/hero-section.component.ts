@@ -84,9 +84,13 @@ export class HeroSectionComponent implements AfterViewInit {
       }
       const onZero = this.activeIndex() === 0;
       const adopted = document.querySelector<HTMLImageElement>('img.hero__img--lcp');
+      const picture = adopted?.closest('picture') as HTMLElement | null;
       if (adopted) {
         adopted.classList.toggle('is-active', onZero);
         adopted.style.opacity = onZero ? '1' : '0';
+      }
+      if (picture) {
+        picture.style.opacity = onZero ? '1' : '0';
       }
       document.documentElement.classList.toggle('hsl-hero-carousel', !onZero);
     });
@@ -133,7 +137,7 @@ export class HeroSectionComponent implements AfterViewInit {
     this.paused.set(false);
   }
 
-  /** Move the first-HTML LCP <img> into the hero so it stays visible and sharp. */
+  /** Move the first-HTML LCP <picture>/<img> into the hero so it stays visible. */
   private adoptLcpShellImage(): void {
     if (!this.isBrowser) {
       return;
@@ -148,11 +152,19 @@ export class HeroSectionComponent implements AfterViewInit {
       return;
     }
 
+    const node: HTMLElement =
+      (document.getElementById('hsl-lcp-picture') as HTMLElement | null) || shellImg;
+
     shellImg.id = '';
     shellImg.className = 'hero__img hero__img--lcp is-active';
     // Moved nodes are outside Angular emulated encapsulation — set layout inline.
-    shellImg.style.cssText =
+    const fill =
       'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;pointer-events:none;';
+    shellImg.style.cssText = fill;
+    if (node !== shellImg) {
+      node.style.cssText =
+        'position:absolute;inset:0;width:100%;height:100%;margin:0;display:block;pointer-events:none;';
+    }
     shellImg.alt = first.alt || '';
     if (first.title) {
       shellImg.title = first.title;
@@ -160,7 +172,7 @@ export class HeroSectionComponent implements AfterViewInit {
     shellImg.setAttribute('width', String(first.width || 1280));
     shellImg.setAttribute('height', String(first.height || 720));
     shellImg.fetchPriority = 'high';
-    media.insertBefore(shellImg, media.firstChild);
+    media.insertBefore(node, media.firstChild);
     shell?.remove();
     document.documentElement.classList.remove('hsl-home');
     this.adoptedLcp.set(true);
