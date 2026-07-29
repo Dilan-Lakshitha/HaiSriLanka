@@ -10,7 +10,7 @@ import {
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { TranslocoPipe, TranslocoService } from '@jsverse/transloco';
-import { map } from 'rxjs';
+import { firstValueFrom, map } from 'rxjs';
 import type { BookingConfirmationDetails } from '../../../core/models';
 import { BookingStateService } from '../../../core/services/booking-state.service';
 import { BreadcrumbService } from '../../../core/services/breadcrumb.service';
@@ -73,8 +73,17 @@ export class BookingConfirmationPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.hydrateFromNavigationState();
+    void this.applyLocalizedChrome();
+  }
 
+  private async applyLocalizedChrome(): Promise<void> {
     const lang = this.locale.activeLang();
+    try {
+      await firstValueFrom(this.transloco.load(lang));
+    } catch {
+      /* fall through — translate() returns keys if load fails */
+    }
+
     this.breadcrumbs.set([
       { label: this.transloco.translate('nav.home'), url: `/${lang}` },
       { label: this.transloco.translate('bookingConfirm.breadcrumb') },
