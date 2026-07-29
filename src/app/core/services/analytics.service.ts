@@ -78,6 +78,20 @@ export class AnalyticsService {
     } else {
       window.setTimeout(kickoff, 3500);
     }
+
+    // PWA manifest is non-critical — keep it off the LCP dependency tree.
+    const injectManifest = () => {
+      if (document.querySelector('link[rel="manifest"]')) return;
+      const link = document.createElement('link');
+      link.rel = 'manifest';
+      link.href = '/site.webmanifest';
+      document.head.appendChild(link);
+    };
+    if (typeof ric === 'function') {
+      ric(injectManifest, { timeout: 5000 });
+    } else {
+      window.setTimeout(injectManifest, 4000);
+    }
   }
 
   private ensureGtagStub(): void {

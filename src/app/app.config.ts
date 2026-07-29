@@ -58,8 +58,7 @@ export const appConfig: ApplicationConfig = {
     provideAppInitializer(() => {
       inject(ConsentService).init();
       inject(AnalyticsService).init();
-      // Do not await locales.json — it blocked bootstrap and stretched the TBT window.
-      void inject(LocaleService).init();
+      inject(LocaleService).init();
     }),
   ],
 };

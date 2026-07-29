@@ -1,26 +1,24 @@
 import { Injectable, PLATFORM_ID, inject, signal, computed } from '@angular/core';
 import { toObservable } from '@angular/core/rxjs-interop';
 import { isPlatformBrowser, DOCUMENT } from '@angular/common';
-import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { TranslocoService } from '@jsverse/transloco';
-import { distinctUntilChanged, firstValueFrom, startWith } from 'rxjs';
+import { distinctUntilChanged, startWith } from 'rxjs';
 import { APP_CONFIG, type SupportedLocale } from '../config/app.config';
 import type { LocaleDefinition } from '../models';
-
-interface LocalesFile {
-  locales: LocaleDefinition[];
-}
+import localesFile from '../../../assets/language/locales.json';
 
 @Injectable({ providedIn: 'root' })
 export class LocaleService {
-  private readonly http = inject(HttpClient);
   private readonly transloco = inject(TranslocoService);
   private readonly router = inject(Router);
   private readonly document = inject(DOCUMENT);
   private readonly platformId = inject(PLATFORM_ID);
 
-  private readonly localesSignal = signal<LocaleDefinition[]>([]);
+  /** Bundled at build time — avoids /locales.json on the critical request chain. */
+  private readonly localesSignal = signal<LocaleDefinition[]>(
+    (localesFile as { locales: LocaleDefinition[] }).locales,
+  );
   readonly locales = this.localesSignal.asReadonly();
   readonly enabledLocales = computed(() =>
     this.localesSignal().filter((l) => l.enabled),
@@ -36,11 +34,9 @@ export class LocaleService {
     distinctUntilChanged(),
   );
 
-  async init(): Promise<void> {
-    const data = await firstValueFrom(
-      this.http.get<LocalesFile>('/assets/language/locales.json'),
-    );
-    this.localesSignal.set(data.locales);
+  /** No-op kept for app initializer compatibility. */
+  init(): void {
+    /* locales are bundled — nothing to fetch */
   }
 
   isSupported(lang: string): lang is SupportedLocale {
