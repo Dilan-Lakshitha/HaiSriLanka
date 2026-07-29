@@ -109,9 +109,11 @@ export class BookingConfirmationPageComponent implements OnInit {
   private hydrateFromNavigationState(): void {
     if (!isPlatformBrowser(this.platformId)) return;
 
-    const fromRouter = this.router.lastSuccessfulNavigation?.extras?.state?.[
-      'confirmation'
-    ] as BookingConfirmationDetails | undefined;
+    // Angular 19+: lastSuccessfulNavigation is a Signal
+    const nav = this.router.lastSuccessfulNavigation();
+    const fromRouter = nav?.extras?.state?.['confirmation'] as
+      | BookingConfirmationDetails
+      | undefined;
     const fromHistory =
       (history.state?.['confirmation'] as BookingConfirmationDetails | undefined) ||
       undefined;
