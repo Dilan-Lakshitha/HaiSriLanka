@@ -3,8 +3,15 @@
   "buildCommand": "npm run build && node scripts/generate-sitemaps.mjs",
   "outputDirectory": "dist/haisrilanka/browser",
   "framework": null,
+  "functions": {
+    "api/ssr.ts": {
+      "includeFiles": "dist/haisrilanka/**",
+      "maxDuration": 30
+    }
+  },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/", "destination": "/api/ssr" },
     { "source": "/(.*)", "destination": "/api/ssr" }
   ],
   "headers": [
