@@ -80,6 +80,10 @@ function restoreOriginalUrl(req) {
   if (pathName.startsWith('/api/ssr')) {
     pathName = pathName.slice('/api/ssr'.length) || '/';
   }
+  // Rewrites land on /api?__path=… — strip the function path if __path missing.
+  if (!fromQuery && (pathName === '/api' || pathName.startsWith('/api?'))) {
+    pathName = '/';
+  }
 
   const qIndex = pathName.indexOf('?');
   let pathname = qIndex >= 0 ? pathName.slice(0, qIndex) : pathName;

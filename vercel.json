@@ -4,7 +4,7 @@
   "outputDirectory": "dist/haisrilanka/browser",
   "framework": null,
   "functions": {
-    "api/ssr.js": {
+    "api/index.js": {
       "includeFiles": [
         "dist/haisrilanka/server/**",
         "dist/haisrilanka/browser/csr-shell.html"
@@ -22,10 +22,10 @@
   "rewrites": [
     { "source": "/api/contact", "destination": "/api/contact" },
     { "source": "/api/bookings", "destination": "/api/bookings" },
-    { "source": "/", "destination": "/api/ssr?__path=/" },
+    { "source": "/", "destination": "/api?__path=/" },
     {
       "source": "/((?!assets/|api/).*)",
-      "destination": "/api/ssr?__path=/$1"
+      "destination": "/api?__path=/$1"
     }
   ],
   "headers": [
