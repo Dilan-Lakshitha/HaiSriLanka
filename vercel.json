@@ -4,8 +4,11 @@
   "outputDirectory": "dist/haisrilanka/browser",
   "framework": null,
   "functions": {
-    "api/ssr.ts": {
-      "includeFiles": "dist/haisrilanka/server/**,dist/haisrilanka/browser/csr-shell.html",
+    "api/ssr.js": {
+      "includeFiles": [
+        "dist/haisrilanka/server/**",
+        "dist/haisrilanka/browser/csr-shell.html"
+      ],
       "maxDuration": 30,
       "memory": 1024
     },

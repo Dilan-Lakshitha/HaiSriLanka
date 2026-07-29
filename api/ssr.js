@@ -1,13 +1,12 @@
-import { readFileSync, existsSync } from 'node:fs';
-import path from 'node:path';
-import { pathToFileURL } from 'node:url';
-import type { VercelRequest, VercelResponse } from '@vercel/node';
+const { readFileSync, existsSync } = require('node:fs');
+const path = require('node:path');
+const { pathToFileURL } = require('node:url');
 
 /**
- * Angular SSR on Vercel. Page routes rewrite here with `?__path=…`.
- * Keep includeFiles limited to server bundle + CSR fallback shell (not /assets).
+ * Angular SSR on Vercel (CJS entry — package.json is not "type": "module").
+ * Page routes rewrite here with `?__path=…`.
  */
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+module.exports = async function handler(req, res) {
   try {
     restoreOriginalUrl(req);
     ensureAllowedHost(req);
@@ -17,19 +16,15 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       'dist/haisrilanka/server/server.mjs',
     );
     const mod = await import(pathToFileURL(serverPath).href);
-    const reqHandler = mod.reqHandler as (
-      req: VercelRequest,
-      res: VercelResponse,
-      next?: (err?: unknown) => void,
-    ) => unknown;
+    const reqHandler = mod.reqHandler;
 
-    return await new Promise<void>((resolve, reject) => {
+    await new Promise((resolve, reject) => {
       const finish = () => resolve();
       res.once('finish', finish);
       res.once('close', finish);
 
       try {
-        const result = reqHandler(req, res, (err?: unknown) => {
+        const result = reqHandler(req, res, (err) => {
           if (err) {
             reject(err);
             return;
@@ -39,8 +34,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             resolve();
           }
         });
-        if (result && typeof (result as Promise<unknown>).then === 'function') {
-          (result as Promise<unknown>).catch(reject);
+        if (result && typeof result.then === 'function') {
+          result.catch(reject);
         }
       } catch (err) {
         reject(err);
@@ -57,9 +52,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       res.end(`SSR failed:\n${message}`);
     }
   }
-}
+};
 
-function ensureAllowedHost(req: VercelRequest): void {
+function ensureAllowedHost(req) {
   const host = String(req.headers.host || '');
   const allowed =
     host.includes('haisrilanka.com') ||
@@ -73,12 +68,12 @@ function ensureAllowedHost(req: VercelRequest): void {
   req.headers['x-forwarded-proto'] = 'https';
 }
 
-function restoreOriginalUrl(req: VercelRequest): void {
+function restoreOriginalUrl(req) {
   const fromQuery =
-    typeof req.query['__path'] === 'string'
-      ? req.query['__path']
-      : Array.isArray(req.query['__path'])
-        ? req.query['__path'][0]
+    typeof req.query.__path === 'string'
+      ? req.query.__path
+      : Array.isArray(req.query.__path)
+        ? req.query.__path[0]
         : null;
 
   let pathName = fromQuery || req.url || '/';
@@ -108,7 +103,7 @@ function restoreOriginalUrl(req: VercelRequest): void {
   req.url = qs ? `${pathname}?${qs}` : pathname || '/';
 }
 
-function serveCsrFallback(res: VercelResponse): boolean {
+function serveCsrFallback(res) {
   const csrPath = path.join(
     process.cwd(),
     'dist/haisrilanka/browser/csr-shell.html',
