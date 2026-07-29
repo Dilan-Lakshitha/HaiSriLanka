@@ -1,41 +1,41 @@
 {
-  "title": "Galle Dagsutflykt",
-  "seoTitle": "Galle Dagsutflykt | Private Tour from Colombo | Hai Sri Lanka",
-  "metaDescription": "Book a private Galle Dagsutflykt with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert.",
-  "shortDescription": "Explore Galle Fort, beaches, and southern coastal heritage in one private day.",
-  "overview": "A private day along Sri Lanka's south coast to UNESCO-listed Galle Dutch Fort. Walk the ramparts, explore colonial streets, boutiques, and cafés, and take in sweeping ocean views from one of Asia's best-preserved forts.\nOptional coastal stops can include stilt fishermen viewpoints and nearby beaches before your comfortable return transfer — paced for culture, photos, and a relaxed southern atmosphere.",
-  "description": "A private day along Sri Lanka's south coast to UNESCO-listed Galle Dutch Fort. Walk the ramparts, explore colonial streets, boutiques, and cafés, and take in sweeping ocean views from one of Asia's best-preserved forts.\nOptional coastal stops can include stilt fishermen viewpoints and nearby beaches before your comfortable return transfer — paced for culture, photos, and a relaxed southern atmosphere.",
-  "duration": "1 dagar",
-  "travelStyle": "Private Day Journey",
+  "title": "Galle dagstur",
+  "seoTitle": "Galle Day Tour | Privat rundtur från Colombo | Hai Sri Lanka",
+  "metaDescription": "Boka en privat Galle-dagstur med Hai Sri Lanka. Besök Galle Fort, södra stränder och kusthöjdpunkter med en lokal expert.",
+  "shortDescription": "Utforska Galle Fort, stränder och södra kustarvet på en privat dag.",
+  "overview": "En privat dag längs Sri Lankas sydkust till UNESCO-listade Galle Dutch Fort. Gå på vallarna, utforska koloniala gator, butiker och kaféer och njut av vidsträckt havsutsikt från ett av Asiens bäst bevarade fort.\nValfria kuststopp kan inkludera synpunkter från styltfiskare och närliggande stränder innan din bekväma returtransfer - takt för kultur, foton och en avslappnad sydländsk atmosfär.",
+  "description": "En privat dag längs Sri Lankas sydkust till UNESCO-listade Galle Dutch Fort. Gå på vallarna, utforska koloniala gator, butiker och kaféer och njut av vidsträckt havsutsikt från ett av Asiens bäst bevarade fort.\nValfria kuststopp kan inkludera synpunkter från styltfiskare och närliggande stränder innan din bekväma returtransfer - takt för kultur, foton och en avslappnad sydländsk atmosfär.",
+  "duration": "1 dag",
+  "travelStyle": "Privat dagsresa",
   "highlights": [
-    "Galle Fort rampart walk",
-    "Southern coastal viewpoints",
-    "Private luxury vehicle"
+    "Galle Fort vall promenad",
+    "Södra kustnära utsiktsplatser",
+    "Privat lyxbil"
   ],
   "included": [
-    "Private air-conditioned vehicle",
-    "English-speaking chauffeur guide",
-    "Bottled water"
+    "Privat luftkonditionerat fordon",
+    "Engelsktalande chaufförsguide",
+    "Vatten på flaska"
   ],
   "excluded": [
-    "Entrance tickets",
+    "Inträdesbiljetter",
     "Lunch",
-    "Personal expenses"
+    "Personliga utgifter"
   ],
   "seo": {
-    "metaTitle": "Galle Dagsutflykt | Private Tour from Colombo | Hai Sri Lanka",
-    "metaDescription": "Book a private Galle Dagsutflykt with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert."
+    "metaTitle": "Galle Day Tour | Privat rundtur från Colombo | Hai Sri Lanka",
+    "metaDescription": "Boka en privat Galle-dagstur med Hai Sri Lanka. Besök Galle Fort, södra stränder och kusthöjdpunkter med en lokal expert."
   },
   "itinerary": [
     {
-      "title": "Galle Fort & Southern Coast",
-      "description": "Morning departure toward the south, exploring UNESCO Galle Fort, boutique streets, and scenic ocean margins before a comfortable return."
+      "title": "Galle Fort och södra kusten",
+      "description": "Morgonavgång mot söder, utforska UNESCO Galle Fort, boutiquegator och natursköna havsmarginaler innan en bekväm återkomst."
     }
   ],
   "faqs": [
     {
-      "question": "Is this a private tour?",
-      "answer": "Yes. All Hai Sri Lanka Dagsutflykts are private for your group."
+      "question": "Är detta en privat rundtur?",
+      "answer": "Ja. Alla Hai Sri Lanka dagsturer är privata för din grupp."
     }
   ]
 }

@@ -1,33 +1,33 @@
 {
-  "title": "Kandy Dagsutflykt",
-  "seoTitle": "Kandy Dagsutflykt | Hai Sri Lanka",
-  "metaDescription": "Private Kandy Dagsutflykt with Temple of the Tooth and highland scenery.",
-  "shortDescription": "Temple of the Tooth, scenic hills, and the cultural heart of the highlands.",
-  "overview": "A private day into Sri Lanka's hill capital, centred on the Temple of the Sacred Tooth Relic — one of the island's most important Buddhist sites. Explore the temple complex, observe local devotion, and soak in the lakeside setting of Kandy.\nEnjoy panoramic viewpoints over the city and surrounding hills, with optional time at the Royal Botanical Gardens or other highland highlights. Your chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right.",
-  "description": "A private day into Sri Lanka's hill capital, centred on the Temple of the Sacred Tooth Relic — one of the island's most important Buddhist sites. Explore the temple complex, observe local devotion, and soak in the lakeside setting of Kandy.\nEnjoy panoramic viewpoints over the city and surrounding hills, with optional time at the Royal Botanical Gardens or other highland highlights. Your chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right.",
-  "duration": "1 dagar",
-  "travelStyle": "Culture",
+  "title": "Kandy dagstur",
+  "seoTitle": "Kandy dagstur | Hai Sri Lanka",
+  "metaDescription": "Privat Kandy-dagstur med tandens tempel och höglandslandskap.",
+  "shortDescription": "Tandens tempel, natursköna kullar och höglandets kulturella hjärta.",
+  "overview": "En privat dag till Sri Lankas kullehuvudstad, centrerad kring Temple of the Sacred Tooth Relic - en av öns viktigaste buddhistiska platser. Utforska tempelkomplexet, observera lokal hängivenhet och njut av Kandy vid sjön.\nNjut av panoramautsikt över staden och de omgivande kullarna, med valfri tid vid Royal Botanical Gardens eller andra höglandshöjdpunkter. Din chaufförsguide håller dagen flexibel så att du kan dröja kvar där atmosfären känns rätt.",
+  "description": "En privat dag till Sri Lankas kullehuvudstad, centrerad kring Temple of the Sacred Tooth Relic - en av öns viktigaste buddhistiska platser. Utforska tempelkomplexet, observera lokal hängivenhet och njut av Kandy vid sjön.\nNjut av panoramautsikt över staden och de omgivande kullarna, med valfri tid vid Royal Botanical Gardens eller andra höglandshöjdpunkter. Din chaufförsguide håller dagen flexibel så att du kan dröja kvar där atmosfären känns rätt.",
+  "duration": "1 dag",
+  "travelStyle": "Kultur",
   "highlights": [
-    "Temple of the Tooth",
-    "Lakeside city views",
-    "Highland gateway scenery"
+    "Tandens tempel",
+    "Utsikt över staden vid sjön",
+    "Highland gateway landskap"
   ],
   "included": [
-    "Private vehicle",
-    "Chauffeur guide"
+    "Privat fordon",
+    "Chaufför guide"
   ],
   "excluded": [
-    "Entrance tickets",
+    "Inträdesbiljetter",
     "Lunch"
   ],
   "seo": {
-    "metaTitle": "Kandy Dagsutflykt | Hai Sri Lanka",
-    "metaDescription": "Private Kandy Dagsutflykt with Temple of the Tooth and highland scenery."
+    "metaTitle": "Kandy dagstur | Hai Sri Lanka",
+    "metaDescription": "Privat Kandy-dagstur med tandens tempel och höglandslandskap."
   },
   "itinerary": [
     {
-      "title": "Sacred Kandy",
-      "description": "A private cultural day focused on the Temple of the Tooth Relic and the calm lakeside atmosphere of Kandy."
+      "title": "Heliga Kandy",
+      "description": "En privat kulturdag fokuserade på Temple of the Tooth Relic och den lugna sjöatmosfären i Kandy."
     }
   ],
   "faqs": []
