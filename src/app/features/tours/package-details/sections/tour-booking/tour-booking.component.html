@@ -75,34 +75,52 @@
       />
     </label>
 
-    <div class="booking-card__row">
-      <label class="booking-card__field">
-        <span>Phone *</span>
-        <input
-          type="tel"
-          name="phone"
-          autocomplete="tel"
-          placeholder="+94 …"
-          [ngModel]="phone()"
-          (ngModelChange)="phone.set($event)"
-          required
-        />
-      </label>
-      <label class="booking-card__field">
-        <span>Country *</span>
+    <div class="booking-card__phone">
+      <label class="booking-card__field booking-card__field--dial">
+        <span>Code *</span>
         <select
-          name="country"
-          [ngModel]="country()"
-          (ngModelChange)="country.set($event)"
+          name="dialCode"
+          [ngModel]="dialCode()"
+          (ngModelChange)="onDialCodeChange($event)"
           required
         >
-          <option value="" disabled>Select</option>
-          @for (item of countries; track item) {
-            <option [value]="item">{{ item }}</option>
+          @for (item of phoneCountries; track item.iso + item.dial) {
+            <option [value]="item.dial">{{ dialOptionLabel(item) }}</option>
           }
         </select>
       </label>
+      <label class="booking-card__field booking-card__field--number">
+        <span>Mobile number *</span>
+        <input
+          type="tel"
+          name="phoneNumber"
+          autocomplete="tel-national"
+          inputmode="numeric"
+          placeholder="714293585"
+          [ngModel]="phoneNumber()"
+          (ngModelChange)="onPhoneNumberChange($event)"
+          required
+        />
+      </label>
     </div>
+    @if (fullPhone()) {
+      <p class="booking-card__phone-preview">Phone: {{ fullPhone() }}</p>
+    }
+
+    <label class="booking-card__field">
+      <span>Country *</span>
+      <select
+        name="country"
+        [ngModel]="country()"
+        (ngModelChange)="onCountryChange($event)"
+        required
+      >
+        <option value="" disabled>Select</option>
+        @for (item of countries; track item) {
+          <option [value]="item">{{ item }}</option>
+        }
+      </select>
+    </label>
 
     @if (needsCustomQuote()) {
       <div class="booking-card__custom-quote" role="status">

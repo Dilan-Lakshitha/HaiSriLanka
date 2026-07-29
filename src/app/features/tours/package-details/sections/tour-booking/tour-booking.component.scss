@@ -64,6 +64,23 @@
     }
   }
 
+  &__phone {
+    display: grid;
+    grid-template-columns: minmax(7.8rem, 0.95fr) minmax(0, 1.35fr);
+    gap: 0.4rem;
+    align-items: end;
+
+    @media (max-width: 380px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__phone-preview {
+    margin: -0.15rem 0 0;
+    font-size: 0.72rem;
+    color: var(--color-ink-muted);
+  }
+
   &__field {
     display: grid;
     gap: 0.18rem;
@@ -92,6 +109,12 @@
     select:focus-visible {
       outline: 2px solid var(--color-gold);
       outline-offset: 1px;
+    }
+
+    &--dial select {
+      font-size: 0.76rem;
+      padding-left: 0.35rem;
+      padding-right: 0.25rem;
     }
   }
 

@@ -7,6 +7,12 @@
     "api/ssr.ts": {
       "includeFiles": "dist/haisrilanka/server/**",
       "maxDuration": 30
+    },
+    "api/bookings.js": {
+      "maxDuration": 30
+    },
+    "api/contact.js": {
+      "maxDuration": 30
     }
   },
   "rewrites": [
