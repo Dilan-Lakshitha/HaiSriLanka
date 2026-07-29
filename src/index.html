@@ -19,8 +19,16 @@
       rel="preload"
       as="image"
       type="image/avif"
-      imagesrcset="/assets/images/hero/carousel-guest-moments-800.avif 800w, /assets/images/hero/carousel-guest-moments-960.avif 960w, /assets/images/hero/carousel-guest-moments.avif 1280w"
-      imagesizes="(max-width: 900px) 100vw, (min-width: 1280px) 1280px, 100vw"
+      href="/assets/images/hero/carousel-guest-moments-800.avif"
+      media="(max-width: 900px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      type="image/avif"
+      href="/assets/images/hero/carousel-guest-moments.avif"
+      media="(min-width: 901px)"
       fetchpriority="high"
     />
     <link
@@ -212,19 +220,27 @@
     -->
     <div id="hsl-lcp-hero" aria-hidden="true">
       <picture id="hsl-lcp-picture">
+        <!-- Mobile: fixed 800w (~27KiB) — high-DPR phones were picking 1280 and failing PSI. -->
+        <source
+          media="(max-width: 900px)"
+          type="image/avif"
+          srcset="/assets/images/hero/carousel-guest-moments-800.avif"
+        />
+        <source
+          media="(max-width: 900px)"
+          type="image/webp"
+          srcset="/assets/images/hero/carousel-guest-moments-800.webp"
+        />
         <source
           type="image/avif"
-          srcset="/assets/images/hero/carousel-guest-moments-800.avif 800w, /assets/images/hero/carousel-guest-moments-960.avif 960w, /assets/images/hero/carousel-guest-moments.avif 1280w"
-          sizes="(max-width: 900px) 100vw, (min-width: 1280px) 1280px, 100vw"
+          srcset="/assets/images/hero/carousel-guest-moments.avif"
         />
         <img
           id="hsl-lcp-hero-img"
           src="/assets/images/hero/carousel-guest-moments.webp"
-          srcset="/assets/images/hero/carousel-guest-moments-800.webp 800w, /assets/images/hero/carousel-guest-moments-960.webp 960w, /assets/images/hero/carousel-guest-moments.webp 1280w"
-          sizes="(max-width: 900px) 100vw, (min-width: 1280px) 1280px, 100vw"
           alt=""
-          width="1280"
-          height="720"
+          width="960"
+          height="540"
           decoding="async"
           fetchpriority="high"
         />
