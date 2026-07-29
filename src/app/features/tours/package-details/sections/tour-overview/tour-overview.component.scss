@@ -1,8 +1,16 @@
+:host {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
 .overview {
   padding: 1.5rem 0 1rem;
   width: 100%;
   max-width: 100%;
   min-width: 0;
+  box-sizing: border-box;
 
   &__eyebrow {
     margin: 0 0 0.35rem;
@@ -16,16 +24,19 @@
     margin: 0 0 0.85rem;
     color: var(--color-navy);
     overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   &__body {
     margin: 0 0 0.9rem;
     width: 100%;
-    max-width: none;
+    max-width: 100%;
     color: var(--color-ink-muted);
     line-height: 1.7;
     font-size: clamp(0.95rem, 2.8vw, 1.05rem);
     overflow-wrap: anywhere;
+    word-break: break-word;
+    white-space: normal;
   }
 
   &__body:last-of-type {
@@ -64,6 +75,8 @@
       font-family: var(--font-display);
       font-weight: 600;
       font-size: 1.15rem;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
   }
 

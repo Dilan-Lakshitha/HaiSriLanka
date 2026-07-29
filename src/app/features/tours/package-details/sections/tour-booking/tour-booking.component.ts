@@ -11,8 +11,8 @@ import { AsyncPipe, CurrencyPipe } from '@angular/common';
 import { HttpErrorResponse } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
-import type { Tour } from '../../../../../core/models';
-import { tourPriceMap } from '../../../../../core/models/tour.model';
+import type { BookingConfirmationDetails, Tour } from '../../../../../core/models';
+import { tourHero, tourPriceMap } from '../../../../../core/models/tour.model';
 import { BookingApiService } from '../../../../../core/services/booking-api.service';
 import { BookingStateService } from '../../../../../core/services/booking-state.service';
 import { CompanyService } from '../../../../../core/services/content.services';
@@ -179,6 +179,7 @@ export class TourBookingComponent implements OnInit {
       phone,
       nationality: this.country().trim(),
     };
+    const bookingRef = this.createBookingRef();
 
     this.bookingState.setTravelDate(this.travelDate());
     this.bookingState.setPrimaryTraveler(primaryTraveler);
@@ -196,38 +197,40 @@ export class TourBookingComponent implements OnInit {
         currency: this.tour().currency,
         primaryTraveler,
         locale: this.locale.activeLang(),
+        bookingRef,
       })
       .subscribe({
         next: (res) => {
           this.submitting.set(false);
           this.submittedAttempt.set(false);
-          this.bookingState.setConfirmation({
-            bookingRef: res.bookingRef,
-            status: res.status,
+          this.goToConfirmation({
+            bookingRef: res.bookingRef || bookingRef,
+            status: res.status || 'confirmed',
             message:
               res.message ||
               'Booking request received. Confirmation emails have been sent to you and our team.',
-            tourSlug: this.tour().slug,
-            tourTitle: this.tour().title,
-            tourDuration: this.tour().duration,
             travelersCount,
-            travelDate: this.travelDate(),
-            pricePerPerson: this.pricePerPerson(),
-            totalPrice: this.totalPrice(),
-            currency: this.tour().currency,
             primaryTraveler,
           });
-          void this.router.navigate([
-            '/',
-            this.locale.activeLang(),
-            'booking',
-            this.tour().slug,
-            'confirmation',
-            res.bookingRef,
-          ]);
         },
         error: (err: HttpErrorResponse) => {
           this.submitting.set(false);
+          const apiRef =
+            typeof err.error?.bookingRef === 'string' ? err.error.bookingRef : null;
+          // Emails may already have been sent (timeout / 5xx) — still open the invoice page.
+          if (apiRef || err.status === 0 || err.status >= 500) {
+            this.submittedAttempt.set(false);
+            this.goToConfirmation({
+              bookingRef: apiRef || bookingRef,
+              status: 'pending',
+              message:
+                (typeof err.error?.message === 'string' && err.error.message) ||
+                'Booking accepted. Our team will confirm by email or WhatsApp.',
+              travelersCount,
+              primaryTraveler,
+            });
+            return;
+          }
           const apiMessage =
             typeof err.error?.message === 'string' ? err.error.message : null;
           this.errorMessage.set(
@@ -236,6 +239,53 @@ export class TourBookingComponent implements OnInit {
           );
         },
       });
+  }
+
+  private createBookingRef(): string {
+    const stamp = Date.now().toString(36).toUpperCase();
+    const rand = Math.random().toString(36).slice(2, 6).toUpperCase();
+    return `HSL-${stamp}-${rand}`;
+  }
+
+  private goToConfirmation(partial: {
+    bookingRef: string;
+    status: 'confirmed' | 'pending';
+    message: string;
+    travelersCount: 1 | 2 | 3 | 4 | 5;
+    primaryTraveler: BookingConfirmationDetails['primaryTraveler'];
+  }): void {
+    const hero = tourHero(this.tour());
+    const details: BookingConfirmationDetails = {
+      bookingRef: partial.bookingRef,
+      status: partial.status,
+      message: partial.message,
+      tourSlug: this.tour().slug,
+      tourTitle: this.tour().title,
+      tourDuration: this.tour().duration,
+      tourCategory: this.tour().category,
+      tourHeroSrc: hero.src,
+      tourHeroAlt: hero.alt || this.tour().title,
+      travelersCount: partial.travelersCount,
+      travelDate: this.travelDate(),
+      pricePerPerson: this.pricePerPerson(),
+      totalPrice: this.totalPrice(),
+      currency: this.tour().currency,
+      primaryTraveler: partial.primaryTraveler,
+      issuedAt: new Date().toISOString(),
+    };
+
+    this.bookingState.setConfirmation(details);
+    void this.router.navigate(
+      [
+        '/',
+        this.locale.activeLang(),
+        'booking',
+        this.tour().slug,
+        'confirmation',
+        partial.bookingRef,
+      ],
+      { state: { confirmation: details } },
+    );
   }
 
   private buildInquiryMessage(): string {

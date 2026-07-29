@@ -20,6 +20,8 @@ export interface BookingRequest {
   currency: 'USD' | 'EUR';
   primaryTraveler: TravelerInfo;
   locale: string;
+  /** Optional client-generated ref so confirmation can open even if the API times out after emailing. */
+  bookingRef?: string;
 }
 
 export interface BookingResponse {
@@ -46,12 +48,16 @@ export interface BookingConfirmationDetails {
   tourSlug: string;
   tourTitle: string;
   tourDuration?: string;
+  tourCategory?: string;
+  tourHeroSrc?: string;
+  tourHeroAlt?: string;
   travelersCount: number;
   travelDate: string;
   pricePerPerson: number;
   totalPrice: number;
   currency: 'USD' | 'EUR';
   primaryTraveler: TravelerInfo;
+  issuedAt?: string;
 }
 
 export type { PersonPricing };

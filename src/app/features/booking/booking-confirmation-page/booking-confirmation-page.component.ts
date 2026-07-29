@@ -1,14 +1,17 @@
-import { CurrencyPipe, DatePipe } from '@angular/common';
+import { AsyncPipe, CurrencyPipe, DatePipe, isPlatformBrowser } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
   OnInit,
+  PLATFORM_ID,
   computed,
   inject,
 } from '@angular/core';
-import { ActivatedRoute, RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
+import { TranslocoPipe, TranslocoService } from '@jsverse/transloco';
 import { map } from 'rxjs';
+import type { BookingConfirmationDetails } from '../../../core/models';
 import { BookingStateService } from '../../../core/services/booking-state.service';
 import { BreadcrumbService } from '../../../core/services/breadcrumb.service';
 import { CompanyService } from '../../../core/services/content.services';
@@ -17,7 +20,6 @@ import { SeoService } from '../../../core/seo/seo.service';
 import { BreadcrumbComponent } from '../../../shared/components/breadcrumb/breadcrumb.component';
 import { UiButtonComponent } from '../../../shared/ui/button/ui-button.component';
 import { UiContainerComponent } from '../../../shared/ui/container/ui-container.component';
-import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-booking-confirmation-page',
@@ -27,6 +29,7 @@ import { AsyncPipe } from '@angular/common';
     CurrencyPipe,
     DatePipe,
     RouterLink,
+    TranslocoPipe,
     BreadcrumbComponent,
     UiButtonComponent,
     UiContainerComponent,
@@ -37,13 +40,17 @@ import { AsyncPipe } from '@angular/common';
 })
 export class BookingConfirmationPageComponent implements OnInit {
   private readonly route = inject(ActivatedRoute);
+  private readonly router = inject(Router);
   private readonly bookingState = inject(BookingStateService);
   private readonly breadcrumbs = inject(BreadcrumbService);
   private readonly company = inject(CompanyService);
   private readonly seo = inject(SeoService);
+  private readonly transloco = inject(TranslocoService);
+  private readonly platformId = inject(PLATFORM_ID);
   readonly locale = inject(LocaleService);
 
   readonly company$ = this.company.getCompany();
+  readonly issuedNow = new Date();
 
   private readonly routeRef = toSignal(
     this.route.paramMap.pipe(map((p) => p.get('ref') || '')),
@@ -65,16 +72,17 @@ export class BookingConfirmationPageComponent implements OnInit {
   });
 
   ngOnInit(): void {
+    this.hydrateFromNavigationState();
+
     const lang = this.locale.activeLang();
     this.breadcrumbs.set([
-      { label: 'Home', url: `/${lang}` },
-      { label: 'Booking confirmation' },
+      { label: this.transloco.translate('nav.home'), url: `/${lang}` },
+      { label: this.transloco.translate('bookingConfirm.breadcrumb') },
     ]);
 
     void this.seo.update({
-      title: 'Booking confirmation | Hai Sri Lanka Tours',
-      description:
-        'Your Hai Sri Lanka Tours booking request has been received. Review your booking details and reference number.',
+      title: this.transloco.translate('bookingConfirm.seoTitle'),
+      description: this.transloco.translate('bookingConfirm.seoDescription'),
       path: `booking/${this.routeSlug()}/confirmation/${this.routeRef()}`,
       noIndex: true,
     });
@@ -85,8 +93,31 @@ export class BookingConfirmationPageComponent implements OnInit {
     if (!digits) return null;
     const conf = this.confirmation();
     const text = conf
-      ? `Hello Hai Sri Lanka — regarding booking ${conf.bookingRef} (${conf.tourTitle}).`
-      : 'Hello Hai Sri Lanka — I have a question about my booking.';
+      ? this.transloco.translate('bookingConfirm.whatsappPrefill', {
+          ref: conf.bookingRef,
+          tour: conf.tourTitle,
+        })
+      : this.transloco.translate('bookingConfirm.whatsappPrefillGeneric');
     return `https://wa.me/${digits}?text=${encodeURIComponent(text)}`;
+  }
+
+  printInvoice(): void {
+    if (!isPlatformBrowser(this.platformId)) return;
+    window.print();
+  }
+
+  private hydrateFromNavigationState(): void {
+    if (!isPlatformBrowser(this.platformId)) return;
+
+    const fromRouter = this.router.lastSuccessfulNavigation?.extras?.state?.[
+      'confirmation'
+    ] as BookingConfirmationDetails | undefined;
+    const fromHistory =
+      (history.state?.['confirmation'] as BookingConfirmationDetails | undefined) ||
+      undefined;
+    const details = fromRouter || fromHistory;
+    if (details?.bookingRef) {
+      this.bookingState.setConfirmation(details);
+    }
   }
 }

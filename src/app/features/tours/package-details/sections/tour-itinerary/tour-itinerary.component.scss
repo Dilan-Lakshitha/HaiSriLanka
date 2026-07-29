@@ -1,5 +1,15 @@
+:host {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
 .itinerary {
   padding: 1.25rem 0 1.5rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 
   &__intro {
     max-width: 40rem;
@@ -8,6 +18,8 @@
     h2 {
       margin: 0;
       color: var(--color-navy);
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
   }
 
@@ -108,6 +120,8 @@
   &__copy {
     grid-area: copy;
     min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   &__day-label {
@@ -122,18 +136,27 @@
     margin: 0 0 0.65rem;
     color: var(--color-navy);
     font-size: 1.15rem;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   &__meta {
     margin: 0;
     display: grid;
     gap: 0.35rem;
+    min-width: 0;
 
     div {
       display: grid;
       grid-template-columns: 7.5rem minmax(0, 1fr);
       gap: 0.5rem;
       font-size: 0.86rem;
+      min-width: 0;
+
+      @media (max-width: 480px) {
+        grid-template-columns: 1fr;
+        gap: 0.15rem;
+      }
     }
 
     dt {
@@ -143,6 +166,9 @@
     dd {
       margin: 0;
       color: var(--color-ink);
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      min-width: 0;
     }
   }
 
@@ -178,8 +204,10 @@
     }
 
     @media (max-width: 640px) {
-      width: 120px;
-      height: 90px;
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 3;
     }
   }
 

@@ -182,12 +182,31 @@ async function sendMail({ to, subject, html }) {
   });
 }
 
+function setCors(req, res) {
+  const requestOrigin = String(req.headers.origin || '');
+  const allowed = new Set([
+    'https://www.haisrilanka.com',
+    'https://haisrilanka.com',
+    'http://localhost:4200',
+    'http://127.0.0.1:4200',
+  ]);
+  if (process.env.PUBLIC_SITE_URL) {
+    allowed.add(String(process.env.PUBLIC_SITE_URL).replace(/\/$/, ''));
+  }
+
+  const allowOrigin = allowed.has(requestOrigin)
+    ? requestOrigin
+    : 'https://www.haisrilanka.com';
+
+  res.setHeader('Access-Control-Allow-Origin', allowOrigin);
+  res.setHeader('Vary', 'Origin');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+}
+
 module.exports = async function handler(req, res) {
   try {
-    const origin = process.env.PUBLIC_SITE_URL || 'https://www.haisrilanka.com';
-    res.setHeader('Access-Control-Allow-Origin', origin);
-    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    setCors(req, res);
 
     if (req.method === 'OPTIONS') return res.status(204).end();
     if (req.method !== 'POST') return res.status(405).json({ message: 'Method not allowed' });
@@ -195,7 +214,10 @@ module.exports = async function handler(req, res) {
     const parsed = validateBooking(req.body);
     if (!parsed.ok) return res.status(400).json({ message: parsed.error });
 
-    const bookingRef = createBookingRef();
+    const clientRef = String(req.body?.bookingRef || '').trim().toUpperCase();
+    const bookingRef = /^HSL-[A-Z0-9]+-[A-Z0-9]+$/.test(clientRef)
+      ? clientRef
+      : createBookingRef();
     const admins = resolveAdmins();
 
     try {

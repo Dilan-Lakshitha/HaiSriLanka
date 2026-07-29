@@ -1,9 +1,17 @@
+:host {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
 .gallery-preview {
   padding: 1rem 0 1.35rem;
   width: 100%;
   max-width: 100%;
   min-width: 0;
   overflow: hidden;
+  box-sizing: border-box;
 
   &__head {
     display: flex;
@@ -81,8 +89,11 @@
       outline-offset: 3px;
     }
 
+    /* Mobile: larger 4:3 frame so photos read clearly */
     @media (max-width: 720px) {
-      height: clamp(220px, 58vw, 360px);
+      height: auto;
+      aspect-ratio: 4 / 3;
+      min-height: 240px;
       border-radius: var(--radius-sm, 8px);
     }
   }
@@ -154,6 +165,8 @@
     gap: 0.4rem;
     margin-top: 0.65rem;
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   &__rail-arrow {

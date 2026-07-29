@@ -3,19 +3,13 @@
     <app-ui-container>
       <div class="booking-confirm__hero-copy">
         <app-breadcrumb />
-        <p class="booking-confirm__eyebrow">Booking</p>
+        <p class="booking-confirm__eyebrow">{{ 'bookingConfirm.eyebrow' | transloco }}</p>
         @if (confirmation(); as booking) {
-          <h1>Booking request received</h1>
-          <p>
-            Thank you. We have emailed your confirmation and our team will contact you
-            shortly to finalize arrangements.
-          </p>
+          <h1>{{ 'bookingConfirm.title' | transloco }}</h1>
+          <p>{{ 'bookingConfirm.subtitle' | transloco }}</p>
         } @else {
-          <h1>No booking details found</h1>
-          <p>
-            This confirmation page only shows details right after you complete a booking.
-            Start again from a tour page if needed.
-          </p>
+          <h1>{{ 'bookingConfirm.emptyTitle' | transloco }}</h1>
+          <p>{{ 'bookingConfirm.emptyBody' | transloco }}</p>
         }
       </div>
     </app-ui-container>
@@ -25,109 +19,189 @@
     <app-ui-container>
       @if (confirmation(); as booking) {
         <div class="booking-confirm__layout">
-          <div class="booking-confirm__card">
-            <div class="booking-confirm__status" role="status">
-              <span class="booking-confirm__badge">
-                {{ booking.status === 'confirmed' ? 'Request received' : 'Pending review' }}
-              </span>
-              <p class="booking-confirm__ref">
-                Reference <strong>{{ booking.bookingRef }}</strong>
-              </p>
-              <p class="booking-confirm__message">{{ booking.message }}</p>
+          <div class="booking-confirm__invoice" id="booking-invoice">
+            <header class="booking-confirm__invoice-head">
+              <div>
+                <p class="booking-confirm__brand">{{ 'brand.name' | transloco }}</p>
+                <p class="booking-confirm__invoice-label">
+                  {{ 'bookingConfirm.invoiceLabel' | transloco }}
+                </p>
+              </div>
+              <div class="booking-confirm__invoice-meta">
+                <p>
+                  <span>{{ 'bookingConfirm.reference' | transloco }}</span>
+                  <strong>{{ booking.bookingRef }}</strong>
+                </p>
+                <p>
+                  <span>{{ 'bookingConfirm.issued' | transloco }}</span>
+                  <strong>
+                    {{
+                      (booking.issuedAt || issuedNow) | date: 'd MMM y, HH:mm'
+                    }}
+                  </strong>
+                </p>
+                <p>
+                  <span>{{ 'bookingConfirm.status' | transloco }}</span>
+                  <strong class="booking-confirm__status-pill">
+                    {{
+                      (booking.status === 'confirmed'
+                        ? 'bookingConfirm.statusReceived'
+                        : 'bookingConfirm.statusPending'
+                      ) | transloco
+                    }}
+                  </strong>
+                </p>
+              </div>
+            </header>
+
+            <div class="booking-confirm__tour-row">
+              @if (booking.tourHeroSrc) {
+                <img
+                  class="booking-confirm__tour-image"
+                  [src]="booking.tourHeroSrc"
+                  [alt]="booking.tourHeroAlt || booking.tourTitle"
+                  width="160"
+                  height="120"
+                  loading="lazy"
+                />
+              }
+              <div class="booking-confirm__tour-copy">
+                <p class="booking-confirm__tour-kicker">
+                  {{ 'bookingConfirm.tourDetails' | transloco }}
+                </p>
+                <h2>{{ booking.tourTitle }}</h2>
+                <ul class="booking-confirm__tour-meta">
+                  @if (booking.tourDuration) {
+                    <li>
+                      <span>{{ 'bookingConfirm.duration' | transloco }}</span>
+                      {{ booking.tourDuration }}
+                    </li>
+                  }
+                  @if (booking.tourCategory) {
+                    <li>
+                      <span>{{ 'bookingConfirm.category' | transloco }}</span>
+                      {{
+                        (booking.tourCategory === 'multi-day'
+                          ? 'tours.style.privateMulti'
+                          : 'tours.style.privateDay'
+                        ) | transloco
+                      }}
+                    </li>
+                  }
+                  <li>
+                    <span>{{ 'bookingConfirm.travelDate' | transloco }}</span>
+                    {{ booking.travelDate | date: 'd MMMM y' }}
+                  </li>
+                  <li>
+                    <span>{{ 'bookingConfirm.travelers' | transloco }}</span>
+                    {{ booking.travelersCount }}
+                  </li>
+                </ul>
+              </div>
             </div>
 
-            <h2>Booking details</h2>
-            <dl class="booking-confirm__details">
-              <div>
-                <dt>Tour</dt>
-                <dd>{{ booking.tourTitle }}</dd>
-              </div>
-              @if (booking.tourDuration) {
-                <div>
-                  <dt>Duration</dt>
-                  <dd>{{ booking.tourDuration }}</dd>
-                </div>
-              }
-              <div>
-                <dt>Travel date</dt>
-                <dd>{{ booking.travelDate | date: 'd MMMM y' }}</dd>
-              </div>
-              <div>
-                <dt>Travelers</dt>
-                <dd>{{ booking.travelersCount }}</dd>
-              </div>
-              <div>
-                <dt>Price / person</dt>
-                <dd>
-                  {{
-                    booking.pricePerPerson
-                      | currency: booking.currency : 'symbol' : '1.0-0'
-                  }}
-                </dd>
-              </div>
-              <div class="booking-confirm__details-total">
-                <dt>Estimated total</dt>
-                <dd>
-                  {{
-                    booking.totalPrice | currency: booking.currency : 'symbol' : '1.0-0'
-                  }}
-                </dd>
-              </div>
-            </dl>
+            <table class="booking-confirm__table">
+              <thead>
+                <tr>
+                  <th>{{ 'bookingConfirm.item' | transloco }}</th>
+                  <th>{{ 'bookingConfirm.qty' | transloco }}</th>
+                  <th>{{ 'bookingConfirm.unitPrice' | transloco }}</th>
+                  <th>{{ 'bookingConfirm.amount' | transloco }}</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>{{ booking.tourTitle }}</strong>
+                    <small>
+                      {{ 'bookingConfirm.privateTourLine' | transloco }}
+                    </small>
+                  </td>
+                  <td>{{ booking.travelersCount }}</td>
+                  <td>
+                    {{
+                      booking.pricePerPerson
+                        | currency: booking.currency : 'symbol' : '1.0-0'
+                    }}
+                  </td>
+                  <td>
+                    {{
+                      booking.totalPrice
+                        | currency: booking.currency : 'symbol' : '1.0-0'
+                    }}
+                  </td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">{{ 'bookingConfirm.estimatedTotal' | transloco }}</td>
+                  <td>
+                    {{
+                      booking.totalPrice
+                        | currency: booking.currency : 'symbol' : '1.0-0'
+                    }}
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
 
-            <h2>Guest details</h2>
-            <dl class="booking-confirm__details">
-              <div>
-                <dt>Name</dt>
-                <dd>
-                  {{ booking.primaryTraveler.firstName }}
-                  {{ booking.primaryTraveler.lastName }}
-                </dd>
-              </div>
-              <div>
-                <dt>Email</dt>
-                <dd>{{ booking.primaryTraveler.email }}</dd>
-              </div>
-              <div>
-                <dt>Phone</dt>
-                <dd>{{ booking.primaryTraveler.phone }}</dd>
-              </div>
-              @if (booking.primaryTraveler.nationality) {
+            <div class="booking-confirm__guest">
+              <h3>{{ 'bookingConfirm.guestDetails' | transloco }}</h3>
+              <dl class="booking-confirm__details">
                 <div>
-                  <dt>Country</dt>
-                  <dd>{{ booking.primaryTraveler.nationality }}</dd>
+                  <dt>{{ 'bookingConfirm.name' | transloco }}</dt>
+                  <dd>
+                    {{ booking.primaryTraveler.firstName }}
+                    {{ booking.primaryTraveler.lastName }}
+                  </dd>
                 </div>
-              }
-            </dl>
+                <div>
+                  <dt>{{ 'bookingConfirm.email' | transloco }}</dt>
+                  <dd>{{ booking.primaryTraveler.email }}</dd>
+                </div>
+                <div>
+                  <dt>{{ 'bookingConfirm.phone' | transloco }}</dt>
+                  <dd>{{ booking.primaryTraveler.phone }}</dd>
+                </div>
+                @if (booking.primaryTraveler.nationality) {
+                  <div>
+                    <dt>{{ 'bookingConfirm.country' | transloco }}</dt>
+                    <dd>{{ booking.primaryTraveler.nationality }}</dd>
+                  </div>
+                }
+              </dl>
+            </div>
 
             <p class="booking-confirm__note">
-              No payment was taken online. You can pay at destination once your tour is
-              confirmed. A copy of these details was also sent to your email.
+              {{ 'bookingConfirm.paymentNote' | transloco }}
             </p>
           </div>
 
           <aside class="booking-confirm__aside">
-            <h2>What happens next</h2>
+            <h2>{{ 'bookingConfirm.nextTitle' | transloco }}</h2>
             <ol>
-              <li>Our team reviews your dates and tour request.</li>
-              <li>We contact you by email or WhatsApp to confirm.</li>
-              <li>You travel with your private host — pay at destination.</li>
+              <li>{{ 'bookingConfirm.next1' | transloco }}</li>
+              <li>{{ 'bookingConfirm.next2' | transloco }}</li>
+              <li>{{ 'bookingConfirm.next3' | transloco }}</li>
             </ol>
 
             <div class="booking-confirm__actions">
+              <button type="button" appUiButton variant="ghost" (click)="printInvoice()">
+                {{ 'bookingConfirm.print' | transloco }}
+              </button>
               <a
                 appUiButton
                 variant="primary"
                 [routerLink]="['/', locale.activeLang(), 'sri-lanka-tours']"
               >
-                Browse more tours
+                {{ 'bookingConfirm.browseTours' | transloco }}
               </a>
               <a
                 appUiButton
                 variant="ghost"
                 [routerLink]="['/', locale.activeLang(), 'contact']"
               >
-                Contact us
+                {{ 'bookingConfirm.contactUs' | transloco }}
               </a>
             </div>
 
@@ -139,7 +213,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  WhatsApp about this booking
+                  {{ 'bookingConfirm.whatsappCta' | transloco }}
                 </a>
               }
             }
@@ -152,7 +226,7 @@
             variant="primary"
             [routerLink]="['/', locale.activeLang(), 'sri-lanka-tours']"
           >
-            View Sri Lanka tours
+            {{ 'bookingConfirm.viewTours' | transloco }}
           </a>
         </div>
       }
