@@ -14,13 +14,23 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Custom-element hosts default to inline — force block so % widths / grids don't overflow. */
-app-root,
-app-shell {
+/* Custom-element hosts default to inline — force block so % widths / grids don't overflow.
+   app-shell must stay a column flex container (footer CLS ~0.34 if display:block wins). */
+app-root {
   display: block;
   width: 100%;
   max-width: 100%;
   min-width: 0;
+}
+
+app-shell {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 img,

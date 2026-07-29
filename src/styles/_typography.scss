@@ -5,6 +5,8 @@ html {
   -webkit-font-smoothing: antialiased;
   /* clip (not hidden) — hidden on html+body forces overflow-y:auto on both = double scrollbars */
   overflow-x: clip;
+  /* Reserve scrollbar space so content does not shift ~7px when overflow appears (CLS). */
+  scrollbar-gutter: stable;
   width: 100%;
   max-width: 100%;
 }

@@ -3,6 +3,8 @@
   width: 100%;
   max-width: 100%;
   min-width: 0;
+  /* Match shell-main floor so footer never sits under the fold on first paint. */
+  min-height: 100dvh;
 
   /* Matches .hero locked height so footer never sits under the fold then jumps. */
   &__hero-slot {
