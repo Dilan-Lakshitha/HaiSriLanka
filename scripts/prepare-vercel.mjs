@@ -1,30 +1,24 @@
-import { existsSync, renameSync, unlinkSync } from 'node:fs';
+import { copyFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 
 /**
- * Angular SSR emits `index.csr.html` (+ sometimes `index.html`).
- * Vercel filesystem routing can serve those for `/` and bypass `/api/ssr`.
- * Rename the CSR shell out of the way; keep it only as an SSR failure fallback.
+ * Angular SSR builds emit `index.csr.html` (no `index.html`).
+ * Vercel static hosting + SPA rewrites need `index.html`.
  */
 const browserDir = join(process.cwd(), 'dist/haisrilanka/browser');
 const csr = join(browserDir, 'index.csr.html');
 const index = join(browserDir, 'index.html');
-const shell = join(browserDir, 'csr-shell.html');
+const renamed = join(browserDir, 'csr-shell.html');
 
-if (!existsSync(csr) && !existsSync(shell)) {
-  console.error('prepare-vercel: missing CSR shell (index.csr.html)');
-  process.exit(1);
-}
-
-if (existsSync(index)) {
-  unlinkSync(index);
-  console.log('prepare-vercel: removed index.html');
-}
-
-if (existsSync(csr)) {
-  if (existsSync(shell)) unlinkSync(shell);
-  renameSync(csr, shell);
-  console.log('prepare-vercel: renamed index.csr.html → csr-shell.html');
+if (existsSync(renamed) && !existsSync(csr)) {
+  copyFileSync(renamed, index);
+  console.log('prepare-vercel: copied csr-shell.html → index.html');
+} else if (existsSync(csr)) {
+  copyFileSync(csr, index);
+  console.log('prepare-vercel: copied index.csr.html → index.html');
+} else if (existsSync(index)) {
+  console.log('prepare-vercel: index.html already present');
 } else {
-  console.log('prepare-vercel: csr-shell.html already present');
+  console.error('prepare-vercel: missing CSR shell HTML');
+  process.exit(1);
 }
