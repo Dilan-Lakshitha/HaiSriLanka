@@ -58,14 +58,14 @@ const jobs = [
   },
   {
     file: path.join(IMG, 'hero/carousel-king-coconut.webp'),
-    width: 900,
-    quality: 48,
+    width: 860,
+    quality: 44,
     format: 'webp',
   },
   {
     file: path.join(IMG, 'hero/carousel-safari-guests.webp'),
-    width: 900,
-    quality: 48,
+    width: 860,
+    quality: 44,
     format: 'webp',
   },
 ];

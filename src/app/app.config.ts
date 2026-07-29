@@ -20,6 +20,7 @@ import { routes } from './app.routes';
 import { TranslocoHttpLoader } from './core/i18n/transloco-loader';
 import { APP_CONFIG } from './core/config/app.config';
 import { LocaleService } from './core/services/locale.service';
+import { AnalyticsService } from './core/services/analytics.service';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -52,6 +53,9 @@ export const appConfig: ApplicationConfig = {
       },
       loader: TranslocoHttpLoader,
     }),
-    provideAppInitializer(() => inject(LocaleService).init()),
+    provideAppInitializer(() => {
+      inject(AnalyticsService).init();
+      return inject(LocaleService).init();
+    }),
   ],
 };
