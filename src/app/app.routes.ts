@@ -1,7 +1,5 @@
 import { Routes } from '@angular/router';
 import { localeGuard, rootRedirectGuard } from './core/guards/locale.guard';
-import { ShellComponent } from './core/layout/shell/shell.component';
-import { FEATURE_CHILD_ROUTES } from './core/config/feature-routes';
 
 export const routes: Routes = [
   {
@@ -13,8 +11,9 @@ export const routes: Routes = [
   {
     path: ':lang',
     canActivate: [localeGuard],
-    component: ShellComponent,
-    children: FEATURE_CHILD_ROUTES,
+    // Shell + chrome lazy: keeps Angular framework parse smaller before first interaction.
+    loadChildren: () =>
+      import('./core/layout/lang.routes').then((m) => m.LANG_ROUTES),
   },
   {
     path: '**',

@@ -14,7 +14,6 @@ import {
   withPreloading,
   NoPreloading,
 } from '@angular/router';
-import { provideClientHydration } from '@angular/platform-browser';
 import { IMAGE_CONFIG } from '@angular/common';
 import { provideTransloco } from '@jsverse/transloco';
 import { routes } from './app.routes';
@@ -38,8 +37,7 @@ export const appConfig: ApplicationConfig = {
       }),
       withPreloading(NoPreloading),
     ),
-    // Event replay adds main-thread work; not needed for CSR-first paint / TBT.
-    provideClientHydration(),
+    // CSR deploy: skip client hydration runtime (was ~EventReplay/hydration CPU on TBT).
     {
       provide: IMAGE_CONFIG,
       useValue: {
@@ -60,7 +58,8 @@ export const appConfig: ApplicationConfig = {
     provideAppInitializer(() => {
       inject(ConsentService).init();
       inject(AnalyticsService).init();
-      return inject(LocaleService).init();
+      // Do not await locales.json — it blocked bootstrap and stretched the TBT window.
+      void inject(LocaleService).init();
     }),
   ],
 };

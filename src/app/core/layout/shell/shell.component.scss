@@ -19,6 +19,24 @@
   min-height: 100dvh;
 }
 
+/* Matches footer min-height so @defer swap does not cause CLS. */
+.shell-footer-slot {
+  min-height: 28rem;
+  background: #09182c;
+}
+
+@media (min-width: 721px) {
+  .shell-footer-slot {
+    min-height: 22rem;
+  }
+}
+
+@media (min-width: 1101px) {
+  .shell-footer-slot {
+    min-height: 20rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .shell-main {
     animation: none;

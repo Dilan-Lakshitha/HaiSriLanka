@@ -3,4 +3,8 @@
 <main id="main-content" class="shell-main" tabindex="-1">
   <router-outlet />
 </main>
-<app-footer />
+@defer (on idle) {
+  <app-footer />
+} @placeholder {
+  <div class="shell-footer-slot" aria-hidden="true"></div>
+}
