@@ -122,20 +122,26 @@ export function buildFaqSchema(items: FaqItem[]): Record<string, unknown> {
   };
 }
 
-export function buildTourProductSchema(tour: Tour, lang: string): Record<string, unknown> {
+export function buildTourProductSchema(
+  tour: Tour,
+  lang: string,
+  reviews: Review[] = [],
+): Record<string, unknown> {
   const path =
     tour.category === 'day'
       ? `/${lang}/day-tour/${tour.slug}`
       : `/${lang}/multi-day-tour/${tour.slug}`;
+  const url = `${APP_CONFIG.siteUrl}${path}`;
+  const productId = `${url}#product`;
   const prices = tour.pricing?.length
     ? tour.pricing.map((p) => p.pricePerPerson)
     : Object.values(tour.price);
   const images = (tour.gallery?.length ? tour.gallery : tour.images).map(
     (img: ImageAsset) => `${APP_CONFIG.siteUrl}${img.src}`,
   );
-  return {
+  const schema: Record<string, unknown> = {
     '@type': 'Product',
-    '@id': `${APP_CONFIG.siteUrl}${path}#product`,
+    '@id': productId,
     name: tour.title,
     description: tour.shortDescription || tour.overview || tour.description,
     image: images,
@@ -145,6 +151,8 @@ export function buildTourProductSchema(tour: Tour, lang: string): Record<string,
       '@type': 'AggregateRating',
       ratingValue: tour.rating.average,
       reviewCount: tour.rating.count,
+      bestRating: 5,
+      worstRating: 1,
     },
     offers: {
       '@type': 'AggregateOffer',
@@ -152,9 +160,20 @@ export function buildTourProductSchema(tour: Tour, lang: string): Record<string,
       lowPrice: Math.min(...prices),
       highPrice: Math.max(...prices),
       availability: 'https://schema.org/InStock',
-      url: `${APP_CONFIG.siteUrl}${path}`,
+      url,
     },
   };
+  if (reviews.length) {
+    schema['review'] = reviews.slice(0, 5).map((review) =>
+      buildReviewSchema(review, {
+        '@type': 'Product',
+        '@id': productId,
+        name: tour.title,
+        url,
+      }),
+    );
+  }
+  return schema;
 }
 
 export function buildTourOfferSchema(tour: Tour, lang: string): Record<string, unknown> {
@@ -191,7 +210,18 @@ export function buildArticleSchema(post: BlogPost, lang: string): Record<string,
   };
 }
 
-export function buildReviewSchema(review: Review): Record<string, unknown> {
+export type ReviewItemReviewed = {
+  '@type': 'Product' | 'LocalBusiness' | 'TravelAgency' | 'Organization';
+  '@id'?: string;
+  name: string;
+  url?: string;
+};
+
+/** Review snippet schema — Google requires `itemReviewed` for rich results. */
+export function buildReviewSchema(
+  review: Review,
+  itemReviewed: ReviewItemReviewed,
+): Record<string, unknown> {
   return {
     '@type': 'Review',
     author: { '@type': 'Person', name: review.author },
@@ -199,9 +229,11 @@ export function buildReviewSchema(review: Review): Record<string, unknown> {
       '@type': 'Rating',
       ratingValue: review.rating,
       bestRating: 5,
+      worstRating: 1,
     },
     reviewBody: review.content,
     datePublished: review.date,
+    itemReviewed,
   };
 }
 

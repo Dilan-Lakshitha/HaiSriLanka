@@ -12,7 +12,6 @@ import {
   buildFaqSchema,
   buildGraph,
   buildOrganizationSchema,
-  buildReviewSchema,
   buildTourOfferSchema,
   buildTourProductSchema,
 } from '../../../core/seo/schema/schema.builders';
@@ -167,7 +166,7 @@ export class TourDetailPageComponent {
       noIndex: tour.seo.noIndex,
       jsonLd: buildGraph(
         buildOrganizationSchema(company),
-        buildTourProductSchema(tour, lang),
+        buildTourProductSchema(tour, lang, reviews),
         buildTourOfferSchema(tour, lang),
         buildBreadcrumbSchema([
           { name: 'Home', url: `${APP_CONFIG.siteUrl}/${lang}` },
@@ -175,7 +174,6 @@ export class TourDetailPageComponent {
           { name: tour.title, url: `${APP_CONFIG.siteUrl}/${lang}/${path}` },
         ]),
         faqs.length ? buildFaqSchema(faqs) : null,
-        ...reviews.slice(0, 5).map((review) => buildReviewSchema(review)),
       ),
     });
   }
