@@ -14,6 +14,8 @@ import {
   buildOrganizationSchema,
   buildTourOfferSchema,
   buildTourProductSchema,
+  buildReviewSchema,
+  tourProductRef,
 } from '../../../core/seo/schema/schema.builders';
 import { UiContainerComponent } from '../../../shared/ui/container/ui-container.component';
 import { LightboxComponent } from '../../../shared/lightbox/lightbox.component';
@@ -155,6 +157,13 @@ export class TourDetailPageComponent {
     const { tour, lang, detailPath, listPath, reviews, company, faqs } = vm;
     const path = `${detailPath}/${tour.slug}`;
     const listLabel = tour.category === 'day' ? 'Day Tours' : 'Multi-Day Tours';
+    const { url: productUrl, productId } = tourProductRef(tour, lang);
+    const itemReviewed = {
+      '@type': 'Product' as const,
+      '@id': productId,
+      name: tour.title,
+      url: productUrl,
+    };
 
     this.seo.update({
       title: tour.seoTitle || tour.seo.metaTitle,
@@ -174,6 +183,10 @@ export class TourDetailPageComponent {
           { name: tour.title, url: `${APP_CONFIG.siteUrl}/${lang}/${path}` },
         ]),
         faqs.length ? buildFaqSchema(faqs) : null,
+        // Standalone Review nodes with itemReviewed.name — required by GSC review snippets.
+        ...reviews
+          .slice(0, 5)
+          .map((review) => buildReviewSchema(review, itemReviewed)),
       ),
     });
   }

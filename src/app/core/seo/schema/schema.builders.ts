@@ -150,7 +150,7 @@ export function buildTourProductSchema(
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: tour.rating.average,
-      reviewCount: tour.rating.count,
+      reviewCount: Math.max(tour.rating.count, reviews.length || 0),
       bestRating: 5,
       worstRating: 1,
     },
@@ -163,17 +163,20 @@ export function buildTourProductSchema(
       url,
     },
   };
-  if (reviews.length) {
-    schema['review'] = reviews.slice(0, 5).map((review) =>
-      buildReviewSchema(review, {
-        '@type': 'Product',
-        '@id': productId,
-        name: tour.title,
-        url,
-      }),
-    );
-  }
   return schema;
+}
+
+/** Absolute product URL + @id for review itemReviewed links. */
+export function tourProductRef(
+  tour: Tour,
+  lang: string,
+): { path: string; url: string; productId: string } {
+  const path =
+    tour.category === 'day'
+      ? `/${lang}/day-tour/${tour.slug}`
+      : `/${lang}/multi-day-tour/${tour.slug}`;
+  const url = `${APP_CONFIG.siteUrl}${path}`;
+  return { path, url, productId: `${url}#product` };
 }
 
 export function buildTourOfferSchema(tour: Tour, lang: string): Record<string, unknown> {
@@ -217,13 +220,14 @@ export type ReviewItemReviewed = {
   url?: string;
 };
 
-/** Review snippet schema — Google requires `itemReviewed` for rich results. */
+/** Review snippet schema — Google requires `itemReviewed` (+ name) for rich results. */
 export function buildReviewSchema(
   review: Review,
   itemReviewed: ReviewItemReviewed,
 ): Record<string, unknown> {
   return {
     '@type': 'Review',
+    name: review.title || `Review of ${itemReviewed.name}`,
     author: { '@type': 'Person', name: review.author },
     reviewRating: {
       '@type': 'Rating',
@@ -233,7 +237,12 @@ export function buildReviewSchema(
     },
     reviewBody: review.content,
     datePublished: review.date,
-    itemReviewed,
+    itemReviewed: {
+      '@type': itemReviewed['@type'],
+      ...(itemReviewed['@id'] ? { '@id': itemReviewed['@id'] } : {}),
+      name: itemReviewed.name,
+      ...(itemReviewed.url ? { url: itemReviewed.url } : {}),
+    },
   };
 }
 
