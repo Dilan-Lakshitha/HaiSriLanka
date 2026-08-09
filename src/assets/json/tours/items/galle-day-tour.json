@@ -3,41 +3,62 @@
   "slug": "galle-day-tour",
   "category": "day",
   "title": "Galle Day Tour",
-  "seoTitle": "Galle Day Tour | Private Tour from Colombo | Hai Sri Lanka",
-  "metaDescription": "Book a private Galle day tour with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert.",
-  "shortDescription": "Explore Galle Fort, beaches, and southern coastal heritage in one private day.",
-  "overview": "A private day along Sri Lanka's south coast to UNESCO-listed Galle Dutch Fort. Walk the ramparts, explore colonial streets, boutiques, and cafés, and take in sweeping ocean views from one of Asia's best-preserved forts.\nOptional coastal stops can include stilt fishermen viewpoints and nearby beaches before your comfortable return transfer — paced for culture, photos, and a relaxed southern atmosphere.",
+  "seoTitle": "Galle Day Tour | Fort, Turtles, Bentota & Tsunami Memorial | Hai Sri Lanka",
+  "metaDescription": "Private Galle day tour: sea turtle hatchery, Galle Dutch Fort, Bentota River boat ride, and the Tsunami Memorial. Hotel pickup included.",
+  "shortDescription": "A private south-coast day: turtle hatchery, Galle Dutch Fort, Bentota River boat ride, and the Tsunami Memorial.",
+  "overview": "A private full-day journey down Sri Lanka’s south coast, built around four memorable stops. Visit a sea turtle hatchery to learn about conservation and see different turtle species, then explore UNESCO Galle Dutch Fort — colonial streets, ramparts, and ocean views.\nOn the same circuit, take a Bentota River boat ride through mangroves and wildlife, and pause at the Tsunami Memorial to understand the 2004 disaster and its impact on coastal communities. Your chauffeur guide keeps the day flexible for photos and a comfortable return.",
   "duration": "1 Day",
   "destinations": [
     "Galle",
     "Galle Fort",
+    "Bentota",
     "Southern Province"
   ],
   "travelStyle": "Private Day Journey",
   "highlights": [
-    "Galle Fort rampart walk",
-    "Southern coastal viewpoints",
-    "Private luxury vehicle"
+    {
+      "title": "Sea turtle hatchery",
+      "description": "Visit a south-coast turtle hatchery and learn about conservation work while observing different turtle species — eggs, hatchlings, and adults cared for before release to the sea."
+    },
+    {
+      "title": "Galle Dutch Fort",
+      "description": "Explore the UNESCO World Heritage fort: colonial ramparts, lighthouse lanes, boutiques, and cafés, with stunning ocean views from one of Asia’s best-preserved forts."
+    },
+    {
+      "title": "Bentota River boat ride",
+      "description": "A relaxing boat ride along the Bentota River through mangrove channels, with a chance to spot water birds and other river wildlife at an easy pace."
+    },
+    {
+      "title": "Tsunami Memorial",
+      "description": "Stop at the Tsunami Memorial to learn about the 2004 Indian Ocean tsunami and its impact on Sri Lanka’s south coast — a quiet, respectful pause on the day’s route."
+    },
+    {
+      "title": "Private hotel pickup and drop-off",
+      "description": "Your chauffeur guide collects you from your hotel — typically Colombo, the west coast, or an agreed point — and returns you in the evening. Tell us your hotel when you book so we confirm pickup."
+    }
   ],
   "included": [
-    "Private air-conditioned vehicle",
-    "English-speaking chauffeur guide",
-    "Bottled water"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water"
   ],
   "excluded": [
-    "Entrance tickets",
-    "Lunch",
-    "Personal expenses"
+    "Entrance fees",
+    "Lunch"
   ],
   "itinerary": [
     {
       "day": 1,
-      "title": "Galle Fort & Southern Coast",
-      "description": "Morning departure toward the south, exploring UNESCO Galle Fort, boutique streets, and scenic ocean margins before a comfortable return.",
+      "title": "South coast: turtles, Bentota, memorial & Galle Fort",
+      "description": "Morning hotel pickup and a scenic drive south. Visit a sea turtle hatchery to learn about conservation and observe different species, enjoy a Bentota River boat ride through mangroves, pause at the Tsunami Memorial, then explore UNESCO Galle Dutch Fort before the evening return.",
       "highlights": [
-        "Dutch Fort lanes",
-        "Ocean ramparts",
-        "Coastal photo stops"
+        "Sea turtle hatchery — conservation visit and turtle species",
+        "Bentota River boat ride — mangroves and wildlife",
+        "Tsunami Memorial — 2004 tsunami history",
+        "Galle Dutch Fort — UNESCO ramparts and ocean views"
       ],
       "location": {
         "name": "Galle Fort",
@@ -49,23 +70,21 @@
       },
       "images": [
         {
-          "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
-          "alt": "Mangrove boat safari on the south coast",
-          "title": "South coast",
-          "width": 1200,
-          "height": 900
+          "src": "/assets/images/tours/galle-day-tour/galle-fort-clock-tower.jpg",
+          "alt": "Galle Fort clock tower and ramparts",
+          "title": "Galle Fort Clock Tower",
+          "width": 768,
+          "height": 1024
         }
       ],
-      "meals": [
-        "Lunch opportunity"
-      ],
       "locations": [
-        "Galle Fort",
-        "Southern Province"
+        "Sea turtle hatchery",
+        "Bentota River",
+        "Tsunami Memorial",
+        "Galle Dutch Fort"
       ],
-      "travelTime": "Private road transfer · flexible pacing",
       "optionalActivities": [
-        "Optional: deepen the day with dutch fort lanes"
+        "Optional: café stop inside Galle Fort or extra time on the ramparts"
       ]
     }
   ],
@@ -79,29 +98,34 @@
   "pricing": [
     {
       "travelers": 1,
-      "pricePerPerson": 550
+      "pricePerPerson": 150
     },
     {
       "travelers": 2,
-      "pricePerPerson": 420
+      "pricePerPerson": 105
     },
     {
       "travelers": 3,
-      "pricePerPerson": 390
+      "pricePerPerson": 83.3333333333
     },
     {
       "travelers": 4,
-      "pricePerPerson": 360
+      "pricePerPerson": 70
     },
     {
       "travelers": 5,
-      "pricePerPerson": 340
+      "pricePerPerson": 60
+    },
+    {
+      "travelers": 6,
+      "pricePerPerson": 55
     }
   ],
   "currency": "USD",
   "relatedTours": [
     "sigiriya-dambulla-day-tour",
-    "kandy-day-tour"
+    "kandy-day-tour",
+    "ella-day-tour"
   ],
   "badges": [
     "best-seller",
@@ -116,63 +140,66 @@
   ],
   "route": [
     {
-      "name": "Galle Fort"
+      "name": "Sea turtle hatchery"
     },
     {
-      "name": "Southern Province"
+      "name": "Bentota River"
     },
     {
-      "name": "Galle"
+      "name": "Tsunami Memorial"
+    },
+    {
+      "name": "Galle Dutch Fort"
     }
   ],
   "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=6.0329,80.217",
   "heroImage": {
-    "src": "/assets/images/tours/galle-day-tour/hero.webp",
-    "alt": "Galle Fort and southern coast on a private day tour",
+    "src": "/assets/images/tours/galle-day-tour/galle-fort-clock-tower.jpg",
+    "alt": "Galle Fort clock tower and ramparts on a private day tour",
     "title": "Galle Day Tour",
-    "width": 1400,
-    "height": 1050
+    "width": 768,
+    "height": 1024
   },
   "gallery": [
     {
+      "src": "/assets/images/tours/galle-day-tour/galle-fort-clock-tower.jpg",
+      "alt": "Historic stone clock tower at Galle Fort with visitors on the ramparts",
+      "title": "Galle Fort Clock Tower",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "src": "/assets/images/tours/galle-day-tour/galle-lighthouse-guests.jpg",
+      "alt": "Guests at Galle Lighthouse on the Dutch Fort ramparts at sunset",
+      "title": "Galle Lighthouse",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "src": "/assets/images/tours/galle-day-tour/dutch-reformed-church-interior.jpg",
+      "alt": "Interior of the Dutch Reformed Church in Galle Fort",
+      "title": "Dutch Reformed Church",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "src": "/assets/images/tours/galle-day-tour/dutch-church-gravestones.jpg",
+      "alt": "Historic Dutch gravestones inside the Groote Kerk in Galle Fort",
+      "title": "Dutch Church gravestones",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "src": "/assets/images/destinations/turtles.jpg",
+      "alt": "Sea turtles at a south-coast hatchery",
+      "title": "Sea turtle hatchery",
+      "width": 870,
+      "height": 450
+    },
+    {
       "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
-      "alt": "Guests on a mangrove boat safari in Sri Lanka",
-      "title": "Mangrove boat safari",
-      "width": 1600,
-      "height": 1200
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
-      "alt": "Family visiting Nine Arch Bridge in Ella",
-      "title": "Nine Arch Bridge",
-      "width": 1600,
-      "height": 1200
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
-      "alt": "Family on a village tractor ride in Sri Lanka",
-      "title": "Village tractor ride",
-      "width": 1200,
-      "height": 1600
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/cycling-pair.png",
-      "alt": "Guests on a cycling tour through greenery",
-      "title": "Cycling tour",
-      "width": 1200,
-      "height": 1600
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
-      "alt": "Guests and guide smiling in a tuk-tuk",
-      "title": "Tuk-tuk moments",
-      "width": 1200,
-      "height": 1200
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
-      "alt": "Elephants bathing in a Sri Lankan river",
-      "title": "River elephants",
+      "alt": "Boat ride through south-coast mangroves",
+      "title": "Bentota River boat ride",
       "width": 1600,
       "height": 1200
     }
@@ -182,20 +209,47 @@
     "count": 128
   },
   "seo": {
-    "metaTitle": "Galle Day Tour | Private Tour from Colombo | Hai Sri Lanka",
-    "metaDescription": "Book a private Galle day tour with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert.",
+    "metaTitle": "Galle Day Tour | Fort, Turtles, Bentota & Tsunami Memorial | Hai Sri Lanka",
+    "metaDescription": "Private Galle day tour: sea turtle hatchery, UNESCO Galle Dutch Fort, Bentota River boat ride, and the Tsunami Memorial. Hotel pickup included.",
     "keywords": [
       "Galle day tour",
-      "Galle Fort tour",
-      "Colombo to Galle"
+      "Galle Dutch Fort",
+      "turtle hatchery Sri Lanka",
+      "Bentota River boat ride",
+      "Tsunami Memorial"
     ],
-    "ogImage": "/assets/images/tours/galle-day-tour/hero.webp"
+    "ogImage": "/assets/images/tours/galle-day-tour/galle-fort-clock-tower.jpg"
+  },
+  "mapOverview": {
+    "center": {
+      "lat": 6.25,
+      "lng": 80.08
+    },
+    "zoom": 9,
+    "path": [
+      {
+        "lat": 6.421,
+        "lng": 80.006
+      },
+      {
+        "lat": 6.333,
+        "lng": 80.028
+      },
+      {
+        "lat": 6.167,
+        "lng": 80.092
+      },
+      {
+        "lat": 6.0329,
+        "lng": 80.217
+      }
+    ]
   },
   "localizedSlugs": {
     "de": "galle-tagesausflug"
   },
   "status": "published",
-  "description": "A private day along Sri Lanka's south coast to UNESCO-listed Galle Dutch Fort. Walk the ramparts, explore colonial streets, boutiques, and cafés, and take in sweeping ocean views from one of Asia's best-preserved forts.\nOptional coastal stops can include stilt fishermen viewpoints and nearby beaches before your comfortable return transfer — paced for culture, photos, and a relaxed southern atmosphere.",
+  "description": "A private full-day journey down Sri Lanka’s south coast, built around four memorable stops. Visit a sea turtle hatchery to learn about conservation and see different turtle species, then explore UNESCO Galle Dutch Fort — colonial streets, ramparts, and ocean views.\nOn the same circuit, take a Bentota River boat ride through mangroves and wildlife, and pause at the Tsunami Memorial to understand the 2004 disaster and its impact on coastal communities. Your chauffeur guide keeps the day flexible for photos and a comfortable return.",
   "location": {
     "name": "Galle",
     "region": "Southern Province",
@@ -205,30 +259,33 @@
     }
   },
   "price": {
-    "1": 550,
-    "2": 420,
-    "3": 390,
-    "4": 360,
-    "5": 340
+    "1": 150,
+    "2": 105,
+    "3": 83.3333333333,
+    "4": 70,
+    "5": 60,
+    "6": 55
   },
   "images": [
     {
-      "src": "/assets/images/tours/galle-day-tour/hero.webp",
-      "alt": "Galle Day Tour",
+      "src": "/assets/images/tours/galle-day-tour/galle-fort-clock-tower.jpg",
+      "alt": "Galle Fort clock tower and ramparts",
       "title": "Galle Day Tour",
-      "width": 1600,
-      "height": 1067
+      "width": 768,
+      "height": 1024
     }
   ],
   "includes": [
-    "Private air-conditioned vehicle",
-    "English-speaking chauffeur guide",
-    "Bottled water"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water"
   ],
   "excludes": [
-    "Entrance tickets",
-    "Lunch",
-    "Personal expenses"
+    "Entrance fees",
+    "Lunch"
   ],
   "faq": [
     {
@@ -238,7 +295,8 @@
   ],
   "relatedTourSlugs": [
     "sigiriya-dambulla-day-tour",
-    "kandy-day-tour"
+    "kandy-day-tour",
+    "ella-day-tour"
   ],
   "featured": true,
   "bestSeller": true

@@ -21,23 +21,36 @@
   ],
   "travelStyle": "Wildlife",
   "highlights": [
-    "Sigiriya & Pidurangala climbs",
-    "Elephant safari at Minneriya / Kaudulla / Hurulu",
-    "Tea country, Horton Plains & Ella train",
-    "Yala safari, Mirissa whales & Galle Fort"
+    {
+      "title": "Sigiriya and Pidurangala climbs",
+      "description": "Two classic Cultural Triangle ascents with time for village life and optional Ayurveda."
+    },
+    {
+      "title": "Elephant safari in the dry zone",
+      "description": "Minneriya, Kaudulla, or Hurulu — seasonal herds on a private jeep outing."
+    },
+    {
+      "title": "Tea country, Horton Plains and Ella train",
+      "description": "Cool climate trekking, estate landscapes, and one of Sri Lanka’s most loved rail windows."
+    },
+    {
+      "title": "Yala, Mirissa whales and Galle Fort",
+      "description": "Safari, whale watching, and Dutch ramparts before Kalutara and your final drop."
+    }
   ],
   "included": [
-    "Private transport / private driver",
-    "4 STAR hotels (half board)",
-    "Daily breakfast & dinner",
-    "Guide service"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Driver's accommodation & meals",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water",
+    "4 STAR hotel with half-board accommodation"
   ],
   "excluded": [
-    "International flights",
-    "Lunch",
     "Entrance fees",
-    "Safari jeep & whale-watching boat",
-    "Ayurveda massage"
+    "Lunch"
   ],
   "itinerary": [
     {
@@ -65,15 +78,11 @@
           "height": 1600
         }
       ],
-      "meals": [
-        "Dinner"
-      ],
       "accommodation": "Kassapa Lions Rock or similar (HB)",
       "locations": [
         "Airport / Hotel",
         "Sigiriya"
-      ],
-      "travelTime": "Airport / hotel to Sigiriya · 3–5 hrs"
+      ]
     },
     {
       "day": 2,
@@ -101,17 +110,12 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast",
-        "Dinner"
-      ],
       "accommodation": "Kassapa Lions Rock or similar (HB)",
       "locations": [
         "Sigiriya",
         "Pidurangala",
         "Minneriya / Kaudulla / Hurulu"
-      ],
-      "travelTime": "Regional exploration · short hops"
+      ]
     },
     {
       "day": 3,
@@ -140,17 +144,12 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast",
-        "Dinner"
-      ],
       "accommodation": "Hotel Topaz or similar (HB)",
       "locations": [
         "Sigiriya",
         "Dambulla",
         "Kandy"
-      ],
-      "travelTime": "Transfer to Kandy · 2–3 hrs"
+      ]
     },
     {
       "day": 4,
@@ -179,17 +178,12 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast",
-        "Dinner"
-      ],
       "accommodation": "Oakray Summer Hill Breeze or similar (HB)",
       "locations": [
         "Kandy",
         "Ambuluwawa",
         "Nuwara Eliya"
-      ],
-      "travelTime": "Highland transfer · 3–4 hrs"
+      ]
     },
     {
       "day": 5,
@@ -216,17 +210,12 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast",
-        "Dinner"
-      ],
       "accommodation": "La Ella Breeze or similar (HB)",
       "locations": [
         "Nuwara Eliya",
         "Horton Plains",
         "Ella"
-      ],
-      "travelTime": "Horton Plains trek + scenic train"
+      ]
     },
     {
       "day": 6,
@@ -253,15 +242,10 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast",
-        "Dinner"
-      ],
       "accommodation": "La Ella Breeze or similar (HB)",
       "locations": [
         "Ella"
-      ],
-      "travelTime": "Leisure day in Ella"
+      ]
     },
     {
       "day": 7,
@@ -269,7 +253,7 @@
       "description": "Descend toward the plains with a stop at Ravana Falls, then an afternoon or evening safari in Yala National Park.",
       "highlights": [
         "Ravana Waterfall",
-        "Safari @ Yala National Park"
+        "Safari at Yala National Park"
       ],
       "location": {
         "name": "Yala",
@@ -288,17 +272,12 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast",
-        "Dinner"
-      ],
       "accommodation": "Chaarya Resort and Spa or similar (HB)",
       "locations": [
         "Ella",
         "Ravana Falls",
         "Yala"
-      ],
-      "travelTime": "Ella to Yala · 3–4 hrs + safari"
+      ]
     },
     {
       "day": 8,
@@ -308,7 +287,7 @@
         "Mirissa Whale Watching",
         "Snorkeling with Whales or Sea Turtles",
         "Kayaking",
-        "Relax @ the beach"
+        "Relax at the beach"
       ],
       "location": {
         "name": "Mirissa",
@@ -327,16 +306,11 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast",
-        "Dinner"
-      ],
       "accommodation": "Mandara Resort or similar (HB)",
       "locations": [
         "Yala",
         "Mirissa"
-      ],
-      "travelTime": "Yala to Mirissa · 2–3 hrs"
+      ]
     },
     {
       "day": 9,
@@ -364,18 +338,13 @@
           "height": 900
         }
       ],
-      "meals": [
-        "Breakfast",
-        "Dinner"
-      ],
       "accommodation": "Kamili Beach Hotel or similar (HB)",
       "locations": [
         "Mirissa",
         "Galle",
         "Bentota",
         "Kalutara"
-      ],
-      "travelTime": "Coastal transfer · half to full day"
+      ]
     },
     {
       "day": 10,
@@ -402,15 +371,11 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "locations": [
         "Kalutara",
         "Colombo",
         "Airport / Hotel"
-      ],
-      "travelTime": "City tour + airport / hotel transfer"
+      ]
     }
   ],
   "faqs": [
@@ -447,6 +412,10 @@
     },
     {
       "travelers": 5,
+      "pricePerPerson": 780
+    },
+    {
+      "travelers": 6,
       "pricePerPerson": 780
     }
   ],
@@ -608,7 +577,8 @@
     "2": 990,
     "3": 896,
     "4": 837,
-    "5": 780
+    "5": 780,
+    "6": 780
   },
   "images": [
     {
@@ -620,17 +590,18 @@
     }
   ],
   "includes": [
-    "Private transport / private driver",
-    "4 STAR hotels (half board)",
-    "Daily breakfast & dinner",
-    "Guide service"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Driver's accommodation & meals",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water",
+    "4 STAR hotel with half-board accommodation"
   ],
   "excludes": [
-    "International flights",
-    "Lunch",
     "Entrance fees",
-    "Safari jeep & whale-watching boat",
-    "Ayurveda massage"
+    "Lunch"
   ],
   "faq": [
     {

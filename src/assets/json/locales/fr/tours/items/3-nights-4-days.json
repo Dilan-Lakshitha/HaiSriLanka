@@ -8,22 +8,36 @@
   "duration": "4 jours / 3 nuits",
   "travelStyle": "Culture",
   "highlights": [
-    "Soirée culturelle Pinnawala et Kandy",
-    "Temple de la Dent et usine de thé",
-    "Promenade en train panoramique et safari à Yala",
-    "Observation des baleines, Galle Fort et Bentota"
+    {
+      "title": "Pinnawala and Kandy evening",
+      "description": "A cultural first day toward the hills, with time for Pinnawala and a Kandy evening of lake views and a traditional dance show."
+    },
+    {
+      "title": "Temple of the Tooth and tea country",
+      "description": "Visit the sacred temple in Kandy, then climb into tea estates and highland scenery on the way toward Ella."
+    },
+    {
+      "title": "Scenic train and Yala safari",
+      "description": "A hill-country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
+    },
+    {
+      "title": "South-coast finale",
+      "description": "Mirissa whale watching, Galle Fort, a turtle hatchery, and Bentota before your hotel or airport drop."
+    }
   ],
   "included": [
-    "Transport privé / chauffeur privé",
-    "Hôtels 4 ÉTOILES",
-    "Petit-déjeuner quotidien",
-    "Service de guides"
+    "Véhicule privé climatisé",
+    "Chauffeur professionnel anglophone",
+    "Hébergement et repas du chauffeur",
+    "Prise en charge et retour",
+    "Carburant et frais de stationnement",
+    "Service 24 heures",
+    "Eau en bouteille offerte",
+    "Hôtel 4 étoiles en demi-pension"
   ],
   "excluded": [
-    "Vols internationaux",
-    "Déjeuner et dîner",
     "Frais d'entrée",
-    "Jeep safari et bateau d'observation des baleines"
+    "Déjeuner"
   ],
   "seo": {
     "metaTitle": "Évasion de 4 jours à Ceylan avec hôtels 4 étoiles et transport privé | Hai Sri Lanka",

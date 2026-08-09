@@ -8,24 +8,36 @@
   "duration": "8 dagar / 7 nätter",
   "travelStyle": "Vilda djur och växter",
   "highlights": [
-    "Wilpattu & Kaudulla jeepsafari",
-    "Sigiriya Rock, Pidurangala och Dambulla",
-    "Kandy-kultur, tekullar och utsikt över Ella",
-    "Mirissa valar/sköldpaddor och Galle Fort finalen"
+    {
+      "title": "Wilpattu and Kaudulla safaris",
+      "description": "Quieter lake-forest jeep days for leopards and elephants, then Cultural Triangle wildlife at Kaudulla."
+    },
+    {
+      "title": "Sigiriya, Pidurangala and Dambulla",
+      "description": "Rock climbs and golden cave temples with village time around Habarana and Sigiriya."
+    },
+    {
+      "title": "Kandy, tea hills and Ella",
+      "description": "Sacred temple culture, highland tea, Nine Arches, Little Adam’s Peak, and Ravana Falls."
+    },
+    {
+      "title": "Mirissa, turtles and Galle Fort",
+      "description": "Whales or turtles, kayaking, then a south-coast close at Galle Fort and Madu River."
+    }
   ],
   "included": [
-    "Privat transport / privat chaufför",
-    "4-STjärniga hotell",
-    "Daglig frukost",
-    "Middag (dag 1–7)",
-    "Guideservice"
+    "Privat luftkonditionerat fordon",
+    "Engelsktalande professionell chaufför",
+    "Chaufförens boende och måltider",
+    "Hämtning och avlämning",
+    "Bränsle och parkeringsavgifter",
+    "Service dygnet runt",
+    "Gratis flaskvatten",
+    "4-stjärnigt hotell med halvpension"
   ],
   "excluded": [
-    "Internationella flyg",
-    "Lunch",
-    "Inträdesavgifter",
-    "Safarijeep och valskådningsbåt",
-    "Ayurveda spabehandlingar"
+    "Entréavgifter",
+    "Lunch"
   ],
   "seo": {
     "metaTitle": "8-dagars Wilpattu till kust med 4-STJÄRNIG hotell och privat transport | Hai Sri Lanka",

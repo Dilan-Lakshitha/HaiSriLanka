@@ -18,22 +18,36 @@
   ],
   "travelStyle": "Culture",
   "highlights": [
-    "Pinnawala & Kandy cultural evening",
-    "Temple of the Tooth & tea factory",
-    "Scenic train ride & Yala safari",
-    "Whale watching, Galle Fort & Bentota"
+    {
+      "title": "Pinnawala and Kandy evening",
+      "description": "A cultural first day toward the hills, with time for Pinnawala and a Kandy evening of lake views and a traditional dance show."
+    },
+    {
+      "title": "Temple of the Tooth and tea country",
+      "description": "Visit the sacred temple in Kandy, then climb into tea estates and highland scenery on the way toward Ella."
+    },
+    {
+      "title": "Scenic train and Yala safari",
+      "description": "A hill-country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
+    },
+    {
+      "title": "South-coast finale",
+      "description": "Mirissa whale watching, Galle Fort, a turtle hatchery, and Bentota before your hotel or airport drop."
+    }
   ],
   "included": [
-    "Private transport / private driver",
-    "4 STAR hotels",
-    "Daily breakfast",
-    "Guide service"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Driver's accommodation & meals",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water",
+    "4 STAR hotel with half-board accommodation"
   ],
   "excluded": [
-    "International flights",
-    "Lunch & dinner",
     "Entrance fees",
-    "Safari jeep & whale-watching boat"
+    "Lunch"
   ],
   "itinerary": [
     {
@@ -64,15 +78,11 @@
           "height": 1600
         }
       ],
-      "meals": [
-        "Dinner opportunity"
-      ],
       "accommodation": "Kandy hotel",
       "locations": [
         "Pinnawala",
         "Kandy"
-      ],
-      "travelTime": "Airport / hotel to Kandy · 3–5 hrs"
+      ]
     },
     {
       "day": 2,
@@ -100,16 +110,12 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Ella hotel",
       "locations": [
         "Kandy",
         "Tea Country",
         "Ella"
-      ],
-      "travelTime": "Highland transfer · 3–5 hrs"
+      ]
     },
     {
       "day": 3,
@@ -118,7 +124,7 @@
       "highlights": [
         "Train Ride",
         "Ravana Falls",
-        "Safari @ Yala NP"
+        "Safari at Yala National Park"
       ],
       "location": {
         "name": "Yala",
@@ -137,16 +143,12 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Yala / Tissamaharama hotel",
       "locations": [
         "Ella",
         "Ravana Falls",
         "Yala"
-      ],
-      "travelTime": "Train & road · half day + safari"
+      ]
     },
     {
       "day": 4,
@@ -175,16 +177,12 @@
           "height": 900
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "locations": [
         "Mirissa",
         "Galle",
         "Bentota",
         "Hotel / Airport"
-      ],
-      "travelTime": "South-coast circuit · full day"
+      ]
     }
   ],
   "faqs": [
@@ -217,6 +215,10 @@
     },
     {
       "travelers": 5,
+      "pricePerPerson": 399
+    },
+    {
+      "travelers": 6,
       "pricePerPerson": 399
     }
   ],
@@ -265,11 +267,11 @@
   ],
   "mapsUrl": "https://www.google.com/maps/dir/Bandaranaike+International+Airport/Kandy/Ella/Yala/Mirissa/Galle/Bentota",
   "heroImage": {
-    "src": "/assets/images/tours/3-nights-4-days/hero.webp",
+    "src": "/assets/images/tours/3-nights-4-days/gallery-02.webp",
     "alt": "Ella highlands on a four-day Sri Lanka private itinerary",
     "title": "3 Nights 4 Days",
     "width": 1400,
-    "height": 1050
+    "height": 1120
   },
   "gallery": [
     {
@@ -349,7 +351,7 @@
       "Kandy Ella Yala tour",
       "private multi day tour"
     ],
-    "ogImage": "/assets/images/tours/3-nights-4-days/hero.webp"
+    "ogImage": "/assets/images/tours/3-nights-4-days/gallery-02.webp"
   },
   "status": "published",
   "description": "A compact four-day private journey from the highlands to the south coast. Begin with Kandy's culture and tea country, continue by scenic train into Ella, then wildlife at Yala National Park.\nYour finale follows the southern shoreline — Mirissa for the ocean, Galle Fort for heritage, and Bentota for a boat safari — before drop-off at your hotel or the airport. Ideal when you want Sri Lanka's classic highlights without a long itinerary.",
@@ -366,28 +368,31 @@
     "2": 500,
     "3": 487,
     "4": 420,
-    "5": 399
+    "5": 399,
+    "6": 399
   },
   "images": [
     {
-      "src": "/assets/images/tours/3-nights-4-days/hero.webp",
+      "src": "/assets/images/tours/3-nights-4-days/gallery-02.webp",
       "alt": "3 Nights 4 Days",
       "title": "3 Nights 4 Days",
-      "width": 1600,
-      "height": 1067
+      "width": 1400,
+      "height": 1120
     }
   ],
   "includes": [
-    "Private transport / private driver",
-    "4 STAR hotels",
-    "Daily breakfast",
-    "Guide service"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Driver's accommodation & meals",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water",
+    "4 STAR hotel with half-board accommodation"
   ],
   "excludes": [
-    "International flights",
-    "Lunch & dinner",
     "Entrance fees",
-    "Safari jeep & whale-watching boat"
+    "Lunch"
   ],
   "faq": [
     {

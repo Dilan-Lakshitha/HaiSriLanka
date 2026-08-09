@@ -1,34 +1,54 @@
 {
-  "title": "Sigiriya & Dambulla Однодневный тур",
-  "seoTitle": "Sigiriya & Dambulla Однодневный тур | Hai Sri Lanka",
-  "metaDescription": "Private Sigiriya and Dambulla Однодневный тур from Colombo with Hai Sri Lanka Tours.",
-  "shortDescription": "Climb Lion Rock and visit the golden cave temples on a private Cultural Triangle day.",
-  "overview": "A private Cultural Triangle day built around two of Sri Lanka's greatest landmarks: the climb of Sigiriya Rock Fortress and a visit to the golden cave temples of Dambulla.\nTravel scenic countryside roads with generous pacing, time for photos, and space to appreciate ancient water gardens, frescoes, and panoramic summit views before your return journey.",
-  "description": "A private Cultural Triangle day built around two of Sri Lanka's greatest landmarks: the climb of Sigiriya Rock Fortress and a visit to the golden cave temples of Dambulla.\nTravel scenic countryside roads with generous pacing, time for photos, and space to appreciate ancient water gardens, frescoes, and panoramic summit views before your return journey.",
-  "duration": "1 дней",
-  "travelStyle": "Culture",
+  "title": "Однодневный тур в Сигирию и Дамбуллу",
+  "seoTitle": "Сигирия и Дамбулла | Львиная скала, пещеры и Хабарана | Hai Sri Lanka",
+  "metaDescription": "Частный день в Культурном треугольнике: подъём на Львиную скалу Сигирии, пещерный храм Дамбуллы и Золотой Будда, деревенское сафари в Хабаране и сафари слонов в экопарке.",
+  "shortDescription": "Львиная скала Сигирии, пещерный храм Дамбуллы и Золотой Будда, деревенское сафари в Хабаране и сафари слонов в экопарке.",
+  "overview": "Частный день в Культурном треугольнике Шри-Ланки. Поднимитесь на Львиную скалу Сигирии, посетите пещерный храм Дамбуллы и статую Золотого Будды, пройдите деревенское сафари в Хабаране и сафари слонов в экопарке.\nВодитель-гид держит день гибким. Входные билеты и обед не включены.",
+  "description": "Частный день в Культурном треугольнике Шри-Ланки. Поднимитесь на Львиную скалу Сигирии, посетите пещерный храм Дамбуллы и статую Золотого Будды, пройдите деревенское сафари в Хабаране и сафари слонов в экопарке.\nВодитель-гид держит день гибким. Входные билеты и обед не включены.",
+  "duration": "1 день",
+  "travelStyle": "Частная однодневная поездка",
   "highlights": [
-    "Sigiriya Lion Rock",
-    "Dambulla Cave Temple",
-    "Cultural Triangle landscapes"
+    {
+      "title": "Львиная скала Сигирии",
+      "description": "Подъём на Львиную скалу Сигирии: водные сады, фрески и панорама с вершины. Частный темп, время на фото и отдых. Вход оплачивается на месте и не включён."
+    },
+    {
+      "title": "Пещерный храм Дамбуллы и Золотой Будда",
+      "description": "Посещение пещерного храма Дамбуллы и статуи Золотого Будды: древние росписи, святилища и большой сидящий Будда над входом."
+    },
+    {
+      "title": "Деревенское сафари в Хабаране",
+      "description": "Деревенское сафари в Хабаране: сельские дороги, рисовые поля и местная жизнь — спокойный взгляд на сельскую Шри-Ланку."
+    },
+    {
+      "title": "Сафари слонов в Хабаране (экопарк)",
+      "description": "Сафари слонов в экопарке у Хабараны: Миннерия, Каудулла или Хурулу в зависимости от сезона. Билеты в парк отдельно, не включены."
+    },
+    {
+      "title": "Трансфер из отеля и обратно",
+      "description": "Водитель-гид забирает вас из отеля — обычно Коломбо, западное побережье или согласованная точка — и возвращает вечером."
+    }
   ],
   "included": [
-    "Private vehicle",
-    "Chauffeur guide",
-    "Bottled water"
+    "Частный автомобиль с кондиционером",
+    "Англоговорящий профессиональный водитель",
+    "Трансфер туда и обратно",
+    "Топливо и парковка",
+    "Сервис 24 часа",
+    "Бесплатная бутилированная вода"
   ],
   "excluded": [
-    "Entrance fees",
-    "Meals"
+    "Входные билеты",
+    "Обед"
   ],
   "seo": {
-    "metaTitle": "Sigiriya & Dambulla Однодневный тур | Hai Sri Lanka",
-    "metaDescription": "Private Sigiriya and Dambulla Однодневный тур from Colombo with Hai Sri Lanka Tours."
+    "metaTitle": "Сигирия и Дамбулла | Львиная скала, пещеры и Хабарана | Hai Sri Lanka",
+    "metaDescription": "Частный день в Культурном треугольнике: подъём на Львиную скалу Сигирии, пещерный храм Дамбуллы и Золотой Будда, деревенское сафари в Хабаране и сафари слонов в экопарке."
   },
   "itinerary": [
     {
-      "title": "Sigiriya & Dambulla",
-      "description": "Travel into the Cultural Triangle for Sigiriya Rock Fortress and the golden cave temples of Dambulla with expert pacing."
+      "title": "Сигирия, Дамбулла и Хабарана",
+      "description": "Утренний трансфер и частный день: Львиная скала Сигирии, пещерный храм Дамбуллы и Золотой Будда, деревенское сафари в Хабаране и сафари слонов в экопарке. Вечером возвращение в отель."
     }
   ],
   "faqs": []

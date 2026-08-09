@@ -23,19 +23,7 @@
 
     <section class="tour-hub__tabs" appReveal aria-label="Tour categories">
       <app-ui-container>
-        <div class="tour-hub__tablist" role="tablist" aria-label="Day or multi-day tours">
-          <button
-            type="button"
-            role="tab"
-            id="tab-day"
-            [attr.aria-selected]="vm.tab === 'day'"
-            [attr.aria-controls]="'panel-day'"
-            [class.is-active]="vm.tab === 'day'"
-            (click)="setTab('day')"
-          >
-            <span class="tour-hub__tab-label">{{ 'nav.dayTours' | transloco }}</span>
-            <span class="tour-hub__tab-count">{{ vm.dayTours.length }}</span>
-          </button>
+        <div class="tour-hub__tablist" role="tablist" aria-label="Multi-day or day tours">
           <button
             type="button"
             role="tab"
@@ -47,6 +35,18 @@
           >
             <span class="tour-hub__tab-label">{{ 'nav.multiDayTours' | transloco }}</span>
             <span class="tour-hub__tab-count">{{ vm.multiDayTours.length }}</span>
+          </button>
+          <button
+            type="button"
+            role="tab"
+            id="tab-day"
+            [attr.aria-selected]="vm.tab === 'day'"
+            [attr.aria-controls]="'panel-day'"
+            [class.is-active]="vm.tab === 'day'"
+            (click)="setTab('day')"
+          >
+            <span class="tour-hub__tab-label">{{ 'nav.dayTours' | transloco }}</span>
+            <span class="tour-hub__tab-count">{{ vm.dayTours.length }}</span>
           </button>
         </div>
 

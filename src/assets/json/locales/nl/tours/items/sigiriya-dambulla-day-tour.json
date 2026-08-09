@@ -1,34 +1,54 @@
 {
-  "title": "Sigiriya en Dambulla-dagtour",
-  "seoTitle": "Sigiriya en Dambulla-dagtour | Hoi Sri Lanka",
-  "metaDescription": "Privé Sigiriya en Dambulla-dagtour vanuit Colombo met Hai Sri Lanka Tours.",
-  "shortDescription": "Beklim Lion Rock en bezoek de gouden grottempels op een privé Culturele Driehoek-dag.",
-  "overview": "Een privé Culturele Driehoek-dag opgebouwd rond twee van de grootste bezienswaardigheden van Sri Lanka: de beklimming van het Sigiriya-rotsfort en een bezoek aan de gouden grottempels van Dambulla.\nReis over schilderachtige plattelandswegen met royaal tempo, tijd voor foto's en ruimte om oude watertuinen, fresco's en panoramische uitzichten op de top te bewonderen voordat u terugkeert.",
-  "description": "Een privé Culturele Driehoek-dag opgebouwd rond twee van de grootste bezienswaardigheden van Sri Lanka: de beklimming van het Sigiriya-rotsfort en een bezoek aan de gouden grottempels van Dambulla.\nReis over schilderachtige plattelandswegen met royaal tempo, tijd voor foto's en ruimte om oude watertuinen, fresco's en panoramische uitzichten op de top te bewonderen voordat u terugkeert.",
+  "title": "Sigiriya- en Dambulla-dagtocht",
+  "seoTitle": "Sigiriya & Dambulla | Leeuwenrots, grotten & Habarana | Hai Sri Lanka",
+  "metaDescription": "Privé Cultuurdriehoek-dag: Sigiriya Leeuwenrots beklimmen, grottempel Dambulla en Gouden Boeddha, dorpssafari Habarana en olifantensafari in het ecopark.",
+  "shortDescription": "Sigiriya Leeuwenrots, grottempel Dambulla en Gouden Boeddha, dorpssafari Habarana en olifantensafari in het ecopark.",
+  "overview": "Een privé volle dag in Sri Lanka’s Cultuurdriehoek. Beklim de Sigiriya Leeuwenrots, bezoek de grottempel van Dambulla en het Gouden Boeddhabeeld, maak een dorpssafari in Habarana en een olifantensafari in het ecopark.\nUw chauffeur-gids houdt de dag flexibel. Entree en lunch niet inbegrepen.",
+  "description": "Een privé volle dag in Sri Lanka’s Cultuurdriehoek. Beklim de Sigiriya Leeuwenrots, bezoek de grottempel van Dambulla en het Gouden Boeddhabeeld, maak een dorpssafari in Habarana en een olifantensafari in het ecopark.\nUw chauffeur-gids houdt de dag flexibel. Entree en lunch niet inbegrepen.",
   "duration": "1 dag",
-  "travelStyle": "Cultuur",
+  "travelStyle": "Privé dagreis",
   "highlights": [
-    "Sigiriya Leeuwenrots",
-    "De grottempel van Dambulla",
-    "Culturele driehoekslandschappen"
+    {
+      "title": "Sigiriya Leeuwenrots",
+      "description": "Beklim de Sigiriya Leeuwenrots: water tuinen, fresco’s en uitzicht vanaf de top. Privé tempo met tijd voor foto’s en rust. Toegang betaalt u ter plaatse en is niet inbegrepen."
+    },
+    {
+      "title": "Grottempel Dambulla & Gouden Boeddha",
+      "description": "Bezoek de grottempel van Dambulla en het Gouden Boeddhabeeld: oude muurschilderingen, grottenheiligdommen en de grote zittende Boeddha boven de ingang."
+    },
+    {
+      "title": "Habarana dorpssafari",
+      "description": "Een dorpssafari in Habarana langs landwegen, rijstvelden en het dorpsleven — een rustiger blik op landelijk Sri Lanka."
+    },
+    {
+      "title": "Habarana olifantensafari (ecopark)",
+      "description": "Olifantensafari in het ecopark bij Habarana: Minneriya, Kaudulla of Hurulu afhankelijk van het seizoen. Parktickets extra en niet inbegrepen."
+    },
+    {
+      "title": "Privé hotelophaling en terugrit",
+      "description": "Uw chauffeur-gids haalt u op bij het hotel — meestal Colombo, de westkust of een afgesproken punt — en brengt u ’s avonds terug."
+    }
   ],
   "included": [
-    "Privé voertuig",
-    "Chauffeur gids",
-    "Flessenwater"
+    "Privéwagen met airconditioning",
+    "Engelstalige professionele chauffeur",
+    "Ophalen en terugbrengen",
+    "Brandstof en parkeerkosten",
+    "24-uurs service",
+    "Gratis flessenwater"
   ],
   "excluded": [
     "Toegangsprijzen",
-    "Maaltijden"
+    "Lunch"
   ],
   "seo": {
-    "metaTitle": "Sigiriya en Dambulla-dagtour | Hoi Sri Lanka",
-    "metaDescription": "Privé Sigiriya en Dambulla-dagtour vanuit Colombo met Hai Sri Lanka Tours."
+    "metaTitle": "Sigiriya & Dambulla | Leeuwenrots, grotten & Habarana | Hai Sri Lanka",
+    "metaDescription": "Privé Cultuurdriehoek-dag: Sigiriya Leeuwenrots beklimmen, grottempel Dambulla en Gouden Boeddha, dorpssafari Habarana en olifantensafari in het ecopark."
   },
   "itinerary": [
     {
-      "title": "Sigiriya en Dambulla",
-      "description": "Reis met deskundig tempo naar de Culturele Driehoek voor het Sigiriya-rotsfort en de gouden grottempels van Dambulla."
+      "title": "Sigiriya, Dambulla & Habarana",
+      "description": "Ochtendophaling en privé Cultuurdriehoek-dag: Sigiriya Leeuwenrots, grottempel Dambulla en Gouden Boeddha, dorpssafari Habarana en olifantensafari in het ecopark. ’s Avonds terug naar het hotel."
     }
   ],
   "faqs": []

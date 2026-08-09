@@ -1,10 +1,15 @@
 @if (highlights().length) {
   <section class="highlights" aria-labelledby="highlights-title" appReveal>
     <p class="highlights__eyebrow">Highlights</p>
-    <h2 id="highlights-title">Why travelers love this tour</h2>
+    <h2 id="highlights-title">Places and moments on this tour</h2>
     <ul>
-      @for (item of highlights(); track item) {
-        <li>{{ item }}</li>
+      @for (item of highlights(); track titleOf(item)) {
+        <li>
+          <h3>{{ titleOf(item) }}</h3>
+          @if (detailOf(item); as detail) {
+            <p>{{ detail }}</p>
+          }
+        </li>
       }
     </ul>
   </section>

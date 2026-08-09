@@ -8,22 +8,36 @@
   "duration": "4 дней / 3 ночей",
   "travelStyle": "Culture",
   "highlights": [
-    "Pinnawala & Kandy cultural evening",
-    "Temple of the Tooth & tea factory",
-    "Scenic train ride & Yala safari",
-    "Whale watching, Galle Fort & Bentota"
+    {
+      "title": "Pinnawala and Kandy evening",
+      "description": "A cultural first day toward the hills, with time for Pinnawala and a Kandy evening of lake views and a traditional dance show."
+    },
+    {
+      "title": "Temple of the Tooth and tea country",
+      "description": "Visit the sacred temple in Kandy, then climb into tea estates and highland scenery on the way toward Ella."
+    },
+    {
+      "title": "Scenic train and Yala safari",
+      "description": "A hill-country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
+    },
+    {
+      "title": "South-coast finale",
+      "description": "Mirissa whale watching, Galle Fort, a turtle hatchery, and Bentota before your hotel or airport drop."
+    }
   ],
   "included": [
-    "Private transport / private driver",
-    "4 STAR hotels",
-    "Daily breakfast",
-    "Guide service"
+    "Частный автомобиль с кондиционером",
+    "Профессиональный англоязычный водитель",
+    "Проживание и питание водителя",
+    "Трансфер туда и обратно",
+    "Топливо и парковка",
+    "Сервис 24 часа",
+    "Бутилированная вода бесплатно",
+    "Отель 4 звезды с полупансионом"
   ],
   "excluded": [
-    "International flights",
-    "Lunch & dinner",
-    "Entrance fees",
-    "Safari jeep & whale-watching boat"
+    "Входные билеты",
+    "Обед"
   ],
   "seo": {
     "metaTitle": "4 дней Ceylon Escape с отелями 4 ЗВЕЗДЫ и частным трансфером | Hai Sri Lanka",

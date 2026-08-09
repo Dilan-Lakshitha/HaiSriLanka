@@ -8,22 +8,36 @@
   "duration": "5 jours / 4 nuits",
   "travelStyle": "Culture",
   "highlights": [
-    "Sigiriya / Pidurangala & village ou safari à dos d'éléphant",
-    "Dambulla, jardin d'épices et danse culturelle de Kandy",
-    "Temple de la Dent, pays du thé et Ella",
-    "Trajet en train, safari à Yala et finale sur la côte sud"
+    {
+      "title": "Sigiriya or Pidurangala",
+      "description": "Climb Lion Rock or the quieter Pidurangala ridge, with village life or an elephant safari option in the Cultural Triangle."
+    },
+    {
+      "title": "Dambulla, spice and Kandy culture",
+      "description": "Cave temples, a spice garden stop, and a Kandyan cultural evening as you travel into the hill capital."
+    },
+    {
+      "title": "Temple of the Tooth, tea and Ella",
+      "description": "Sacred Kandy, tea-country roads, and arrival in Ella’s cool highlands."
+    },
+    {
+      "title": "Train, Yala and the south coast",
+      "description": "A scenic rail segment, Yala safari, then Mirissa, Galle Fort, and Bentota to close the circuit."
+    }
   ],
   "included": [
-    "Transport privé / chauffeur privé",
-    "Hôtels 4 ÉTOILES",
-    "Petit-déjeuner quotidien",
-    "Service de guides"
+    "Véhicule privé climatisé",
+    "Chauffeur professionnel anglophone",
+    "Hébergement et repas du chauffeur",
+    "Prise en charge et retour",
+    "Carburant et frais de stationnement",
+    "Service 24 heures",
+    "Eau en bouteille offerte",
+    "Hôtel 4 étoiles en demi-pension"
   ],
   "excluded": [
-    "Vols internationaux",
-    "Déjeuner et dîner",
     "Frais d'entrée",
-    "Jeep safari et bateau d'observation des baleines"
+    "Déjeuner"
   ],
   "seo": {
     "metaTitle": "Triangle vers la côte de 5 jours avec hôtels 4 étoiles et transport privé | Hai Sri Lanka",

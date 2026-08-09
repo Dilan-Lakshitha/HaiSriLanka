@@ -1,35 +1,54 @@
 {
   "title": "Galle Однодневный тур",
-  "seoTitle": "Galle Однодневный тур | Private Tour from Colombo | Hai Sri Lanka",
-  "metaDescription": "Book a private Galle Однодневный тур with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert.",
-  "shortDescription": "Explore Galle Fort, beaches, and southern coastal heritage in one private day.",
-  "overview": "A private day along Sri Lanka's south coast to UNESCO-listed Galle Dutch Fort. Walk the ramparts, explore colonial streets, boutiques, and cafés, and take in sweeping ocean views from one of Asia's best-preserved forts.\nOptional coastal stops can include stilt fishermen viewpoints and nearby beaches before your comfortable return transfer — paced for culture, photos, and a relaxed southern atmosphere.",
-  "description": "A private day along Sri Lanka's south coast to UNESCO-listed Galle Dutch Fort. Walk the ramparts, explore colonial streets, boutiques, and cafés, and take in sweeping ocean views from one of Asia's best-preserved forts.\nOptional coastal stops can include stilt fishermen viewpoints and nearby beaches before your comfortable return transfer — paced for culture, photos, and a relaxed southern atmosphere.",
+  "seoTitle": "Тур в Галле | Форт, черепахи, Бентота и мемориал | Hai Sri Lanka",
+  "metaDescription": "Частный тур в Галле: питомник черепах, форт ЮНЕСКО, лодка по Бентоте и мемориал цунами. Трансфер из отеля включён.",
+  "shortDescription": "Частный день на южном побережье: черепаший питомник, голландский форт Галле, лодка по Бентоте и мемориал цунами.",
+  "overview": "Частный полный день на южном побережье Шри-Ланки с четырьмя остановками. Питомник морских черепах — охрана видов и разные виды черепах — и голландский форт Галле ЮНЕСКО с колониальной историей и видом на океан.\nВ том же маршруте: лодочная прогулка по реке Бентота среди мангров и остановка у мемориала цунами 2004 года. Водитель-гид держит день гибким.",
+  "description": "Частный полный день на южном побережье Шри-Ланки с четырьмя остановками. Питомник морских черепах — охрана видов и разные виды черепах — и голландский форт Галле ЮНЕСКО с колониальной историей и видом на океан.\nВ том же маршруте: лодочная прогулка по реке Бентота среди мангров и остановка у мемориала цунами 2004 года. Водитель-гид держит день гибким.",
   "duration": "1 дней",
   "travelStyle": "Private Day Journey",
   "highlights": [
-    "Galle Fort rampart walk",
-    "Southern coastal viewpoints",
-    "Private luxury vehicle"
+    {
+      "title": "Питомник морских черепах",
+      "description": "Визит в питомник на южном побережье: узнать об охране и увидеть разные виды черепах."
+    },
+    {
+      "title": "Голландский форт Галле",
+      "description": "Объект ЮНЕСКО: колониальные валы, улочки у маяка и потрясающие виды на океан."
+    },
+    {
+      "title": "Лодка по реке Бентота",
+      "description": "Спокойная прогулка среди мангровых каналов, с шансом увидеть водоплавающих птиц и другую речную фауну."
+    },
+    {
+      "title": "Мемориал цунами",
+      "description": "Остановка у мемориала, чтобы узнать о цунами 2004 года и его влиянии на Шри-Ланку."
+    },
+    {
+      "title": "Трансфер из отеля и обратно",
+      "description": "Водитель-гид забирает вас из отеля — обычно Коломбо, западное побережье или согласованная точка — и возвращает вечером."
+    }
   ],
   "included": [
-    "Private air-conditioned vehicle",
-    "English-speaking chauffeur guide",
-    "Bottled water"
+    "Частный автомобиль с кондиционером",
+    "Профессиональный англоязычный водитель",
+    "Трансфер туда и обратно",
+    "Топливо и парковка",
+    "Сервис 24 часа",
+    "Бутилированная вода бесплатно"
   ],
   "excluded": [
-    "Entrance tickets",
-    "Lunch",
-    "Personal expenses"
+    "Входные билеты",
+    "Обед"
   ],
   "seo": {
-    "metaTitle": "Galle Однодневный тур | Private Tour from Colombo | Hai Sri Lanka",
-    "metaDescription": "Book a private Galle Однодневный тур with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert."
+    "metaTitle": "Тур в Галле | Форт, черепахи, Бентота и мемориал | Hai Sri Lanka",
+    "metaDescription": "Частный тур в Галле: питомник черепах, форт ЮНЕСКО, лодка по Бентоте и мемориал цунами. Трансфер из отеля включён."
   },
   "itinerary": [
     {
-      "title": "Galle Fort & Southern Coast",
-      "description": "Morning departure toward the south, exploring UNESCO Galle Fort, boutique streets, and scenic ocean margins before a comfortable return."
+      "title": "Южное побережье: черепахи, Бентота, мемориал и форт Галле",
+      "description": "Утренний трансфер и дорога на юг. Питомник черепах, лодка по Бентоте, мемориал цунами и голландский форт Галле ЮНЕСКО перед вечерним возвращением."
     }
   ],
   "faqs": [

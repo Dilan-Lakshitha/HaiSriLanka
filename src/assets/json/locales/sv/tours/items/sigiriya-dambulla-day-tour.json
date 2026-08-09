@@ -1,34 +1,54 @@
 {
-  "title": "Sigiriya & Dambulla dagstur",
-  "seoTitle": "Sigiriya & Dambulla dagstur | Hai Sri Lanka",
-  "metaDescription": "Privat Sigiriya och Dambulla dagstur från Colombo med Hai Sri Lanka Tours.",
-  "shortDescription": "Klättra upp Lion Rock och besök de gyllene grotttemplen på en privat Cultural Triangle-dag.",
-  "overview": "En privat kulturtriangeldag byggd kring två av Sri Lankas största landmärken: klättringen av Sigiriya Rock Fortress och ett besök i Dambullas gyllene grottempel.\nRes på natursköna landsbygdsvägar med generöst tempo, tid för foton och utrymme för att uppskatta uråldriga vattenträdgårdar, fresker och panoramautsikt över toppen innan din återresa.",
-  "description": "En privat kulturtriangeldag byggd kring två av Sri Lankas största landmärken: klättringen av Sigiriya Rock Fortress och ett besök i Dambullas gyllene grottempel.\nRes på natursköna landsbygdsvägar med generöst tempo, tid för foton och utrymme för att uppskatta uråldriga vattenträdgårdar, fresker och panoramautsikt över toppen innan din återresa.",
+  "title": "Sigiriya- och Dambulla-dagsutflykt",
+  "seoTitle": "Sigiriya & Dambulla | Lejonklippan, grottor & Habarana | Hai Sri Lanka",
+  "metaDescription": "Privat dag i Kulturtriangeln: klättra Sigiriya Lejonklippa, Dambullas grottempel och Gyllene Buddha, bysafari i Habarana och elefantsafari i ekoparken.",
+  "shortDescription": "Sigiriya Lejonklippa, Dambullas grottempel och Gyllene Buddha, bysafari i Habarana och elefantsafari i ekoparken.",
+  "overview": "En privat heldag i Sri Lankas Kulturtriangel. Klättra Sigiriya Lejonklippa, besök Dambullas grottempel och den Gyllene Buddhastatyn, gör en bysafari i Habarana och en elefantsafari i ekoparken.\nEr chaufförsguide håller dagen flexibel. Entré och lunch ingår inte.",
+  "description": "En privat heldag i Sri Lankas Kulturtriangel. Klättra Sigiriya Lejonklippa, besök Dambullas grottempel och den Gyllene Buddhastatyn, gör en bysafari i Habarana och en elefantsafari i ekoparken.\nEr chaufförsguide håller dagen flexibel. Entré och lunch ingår inte.",
   "duration": "1 dag",
-  "travelStyle": "Kultur",
+  "travelStyle": "Privat dagsresa",
   "highlights": [
-    "Sigiriya Lion Rock",
-    "Dambulla grotttemplet",
-    "Kulturella triangellandskap"
+    {
+      "title": "Sigiriya Lejonklippa",
+      "description": "Klättra Sigiriya Lejonklippa: vattenträdgårdar, fresker och panorama från toppen. Privat tempo med tid för foto och vila. Entré betalas på plats och ingår inte."
+    },
+    {
+      "title": "Dambullas grottempel & Gyllene Buddha",
+      "description": "Besök Dambullas grottempel och den Gyllene Buddhastatyn: forntida muraler, grotthelgedomar och den stora sittande Buddhan ovanför entrén."
+    },
+    {
+      "title": "Bysafari i Habarana",
+      "description": "En bysafari i Habarana längs landsvägar, risfält och vardagsliv — en lugnare blick på lantliga Sri Lanka."
+    },
+    {
+      "title": "Elefantsafari i Habarana (ekopark)",
+      "description": "Elefantsafari i ekoparken vid Habarana: Minneriya, Kaudulla eller Hurulu beroende på säsong. Parkbiljetter extra och ingår inte."
+    },
+    {
+      "title": "Privat hämtning och återresa till hotellet",
+      "description": "Er chaufförsguide hämtar er på hotellet — oftast Colombo, västkusten eller en överenskommen punkt — och lämnar tillbaka er på kvällen."
+    }
   ],
   "included": [
-    "Privat fordon",
-    "Chaufför guide",
-    "Vatten på flaska"
+    "Privat luftkonditionerad bil",
+    "Engelsktalande professionell förare",
+    "Hämtning och återresa",
+    "Bränsle och parkering",
+    "Service dygnet runt",
+    "Gratis flaskvatten"
   ],
   "excluded": [
-    "Inträdesavgifter",
-    "Måltider"
+    "Entréavgifter",
+    "Lunch"
   ],
   "seo": {
-    "metaTitle": "Sigiriya & Dambulla dagstur | Hai Sri Lanka",
-    "metaDescription": "Privat Sigiriya och Dambulla dagstur från Colombo med Hai Sri Lanka Tours."
+    "metaTitle": "Sigiriya & Dambulla | Lejonklippan, grottor & Habarana | Hai Sri Lanka",
+    "metaDescription": "Privat dag i Kulturtriangeln: klättra Sigiriya Lejonklippa, Dambullas grottempel och Gyllene Buddha, bysafari i Habarana och elefantsafari i ekoparken."
   },
   "itinerary": [
     {
-      "title": "Sigiriya och Dambulla",
-      "description": "Res in i kulturtriangeln för Sigiriyas klippfästning och Dambullas gyllene grotttemplen med sakkunnig fart."
+      "title": "Sigiriya, Dambulla & Habarana",
+      "description": "Morgonhämtning och privat dag: Sigiriya Lejonklippa, Dambullas grottempel och Gyllene Buddha, bysafari i Habarana och elefantsafari i ekoparken. Kvällsåterresa till hotellet."
     }
   ],
   "faqs": []

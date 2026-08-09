@@ -26,18 +26,6 @@
                     <dd>{{ locationsLabel(day) }}</dd>
                   </div>
                 }
-                @if (day.travelTime) {
-                  <div>
-                    <dt>Travel time</dt>
-                    <dd>{{ day.travelTime }}</dd>
-                  </div>
-                }
-                @if (day.meals?.length) {
-                  <div>
-                    <dt>Meals</dt>
-                    <dd>{{ day.meals!.join(', ') }}</dd>
-                  </div>
-                }
                 @if (day.accommodation) {
                   <div>
                     <dt>Accommodation</dt>

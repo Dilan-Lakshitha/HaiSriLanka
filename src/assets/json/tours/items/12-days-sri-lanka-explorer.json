@@ -22,23 +22,36 @@
   ],
   "travelStyle": "Wildlife",
   "highlights": [
-    "Wilpattu & Minneriya / Kaudulla safaris",
-    "Sigiriya, Pidurangala & Trincomalee whales",
-    "Kandy culture & highland tea country",
-    "Ella, Galle Fort & Bentota finale"
+    {
+      "title": "Wilpattu and dry-zone safaris",
+      "description": "Wild lakes at Wilpattu, then Minneriya or Kaudulla for elephants in the Cultural Triangle."
+    },
+    {
+      "title": "Sigiriya, Pidurangala and Trincomalee",
+      "description": "Rock fortresses then the east coast for dolphins, whales, and marine days."
+    },
+    {
+      "title": "Kandy culture and highland tea",
+      "description": "The Temple of the Tooth, lake city, and a slow climb into Nuwara Eliya and Ella."
+    },
+    {
+      "title": "Ella, Galle Fort and Bentota",
+      "description": "Hill viewpoints, then the south coast — fort walls, turtles, and a beach close before Colombo."
+    }
   ],
   "included": [
-    "Private transport / private driver",
-    "4 STAR hotels",
-    "Daily breakfast",
-    "Guide service"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Driver's accommodation & meals",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water",
+    "4 STAR hotel with half-board accommodation"
   ],
   "excluded": [
-    "International flights",
-    "Lunch & dinner",
     "Entrance fees",
-    "Safari jeep, whale-watching boat & scuba",
-    "Ayurveda massage"
+    "Lunch"
   ],
   "itinerary": [
     {
@@ -46,7 +59,7 @@
       "title": "Airport / Hotel – Wilpattu",
       "description": "Travel north to Wilpattu for a safari in one of Sri Lanka’s oldest and wildest national parks, then overnight near Wilpattu or Anuradhapura.",
       "highlights": [
-        "Safari @ Wilpattu National Park"
+        "Safari at Wilpattu National Park"
       ],
       "location": {
         "name": "Wilpattu",
@@ -65,15 +78,11 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Dinner opportunity"
-      ],
       "accommodation": "Wilpattu / Anuradhapura hotel",
       "locations": [
         "Airport / Hotel",
         "Wilpattu"
-      ],
-      "travelTime": "Airport to Wilpattu · 3–5 hrs + safari"
+      ]
     },
     {
       "day": 2,
@@ -101,15 +110,11 @@
           "height": 1600
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Sigiriya hotel",
       "locations": [
         "Wilpattu",
         "Sigiriya"
-      ],
-      "travelTime": "Wilpattu to Sigiriya · 2–3 hrs"
+      ]
     },
     {
       "day": 3,
@@ -136,16 +141,12 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Sigiriya hotel",
       "locations": [
         "Sigiriya",
         "Pidurangala",
         "Minneriya / Kaudulla"
-      ],
-      "travelTime": "Regional exploration · short hops"
+      ]
     },
     {
       "day": 4,
@@ -172,15 +173,11 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Trincomalee hotel",
       "locations": [
         "Sigiriya",
         "Trincomalee"
-      ],
-      "travelTime": "Sigiriya to Trincomalee · 3–4 hrs"
+      ]
     },
     {
       "day": 5,
@@ -208,14 +205,10 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Trincomalee hotel",
       "locations": [
         "Trincomalee"
-      ],
-      "travelTime": "Leisure marine day"
+      ]
     },
     {
       "day": 6,
@@ -245,17 +238,13 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Kandy hotel",
       "locations": [
         "Trincomalee",
         "Dambulla",
         "Matale",
         "Kandy"
-      ],
-      "travelTime": "East coast to Kandy · 5–7 hrs"
+      ]
     },
     {
       "day": 7,
@@ -284,16 +273,12 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Nuwara Eliya hotel",
       "locations": [
         "Kandy",
         "Ambuluwawa",
         "Nuwara Eliya"
-      ],
-      "travelTime": "Highland transfer · 3–4 hrs"
+      ]
     },
     {
       "day": 8,
@@ -320,16 +305,12 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Ella hotel",
       "locations": [
         "Nuwara Eliya",
         "Horton Plains",
         "Ella"
-      ],
-      "travelTime": "Horton Plains trek + scenic train"
+      ]
     },
     {
       "day": 9,
@@ -356,14 +337,10 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Ella hotel",
       "locations": [
         "Ella"
-      ],
-      "travelTime": "Leisure day in Ella"
+      ]
     },
     {
       "day": 10,
@@ -390,16 +367,12 @@
           "height": 700
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Galle hotel",
       "locations": [
         "Ella",
         "Ravana Falls",
         "Galle"
-      ],
-      "travelTime": "Ella to Galle · 4–5 hrs"
+      ]
     },
     {
       "day": 11,
@@ -426,16 +399,12 @@
           "height": 900
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "accommodation": "Kalutara hotel",
       "locations": [
         "Galle",
         "Bentota",
         "Kalutara"
-      ],
-      "travelTime": "Coastal transfer · half day"
+      ]
     },
     {
       "day": 12,
@@ -462,15 +431,11 @@
           "height": 1200
         }
       ],
-      "meals": [
-        "Breakfast"
-      ],
       "locations": [
         "Kalutara",
         "Colombo",
         "Airport"
-      ],
-      "travelTime": "City tour + airport transfer"
+      ]
     }
   ],
   "faqs": [
@@ -503,6 +468,10 @@
     },
     {
       "travelers": 5,
+      "pricePerPerson": 900
+    },
+    {
+      "travelers": 6,
       "pricePerPerson": 900
     }
   ],
@@ -657,7 +626,8 @@
     "2": 1184,
     "3": 1197,
     "4": 997,
-    "5": 900
+    "5": 900,
+    "6": 900
   },
   "images": [
     {
@@ -669,17 +639,18 @@
     }
   ],
   "includes": [
-    "Private transport / private driver",
-    "4 STAR hotels",
-    "Daily breakfast",
-    "Guide service"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Driver's accommodation & meals",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water",
+    "4 STAR hotel with half-board accommodation"
   ],
   "excludes": [
-    "International flights",
-    "Lunch & dinner",
     "Entrance fees",
-    "Safari jeep, whale-watching boat & scuba",
-    "Ayurveda massage"
+    "Lunch"
   ],
   "faq": [
     {

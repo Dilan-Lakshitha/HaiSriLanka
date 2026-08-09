@@ -12,7 +12,11 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import type { BookingConfirmationDetails, Tour } from '../../../../../core/models';
-import { tourHero, tourPriceMap } from '../../../../../core/models/tour.model';
+import {
+  tourHero,
+  tourPriceMap,
+  type PricedTravelerCount,
+} from '../../../../../core/models/tour.model';
 import { BookingApiService } from '../../../../../core/services/booking-api.service';
 import { BookingStateService } from '../../../../../core/services/booking-state.service';
 import { CompanyService } from '../../../../../core/services/content.services';
@@ -26,8 +30,8 @@ import {
   type PhoneCountry,
 } from '../../../../../core/constants/phone-countries';
 
-/** 1–5 = priced group; 6 = 6+ travelers (custom quote) */
-type TravelerOption = 1 | 2 | 3 | 4 | 5 | 6;
+/** 1–6 = priced group; 7 = 7+ travelers (contact us) */
+type TravelerOption = PricedTravelerCount | 7;
 
 @Component({
   selector: 'app-tour-booking',
@@ -47,7 +51,7 @@ export class TourBookingComponent implements OnInit {
   private readonly locale = inject(LocaleService);
   private readonly router = inject(Router);
 
-  readonly travelerOptions: TravelerOption[] = [1, 2, 3, 4, 5, 6];
+  readonly travelerOptions: TravelerOption[] = [1, 2, 3, 4, 5, 6, 7];
   readonly phoneCountries = PHONE_COUNTRIES;
   readonly countries = PHONE_COUNTRIES.map((c) => c.name);
 
@@ -69,7 +73,7 @@ export class TourBookingComponent implements OnInit {
   );
 
   readonly priceTable = computed(() => tourPriceMap(this.tour()));
-  readonly needsCustomQuote = computed(() => this.travelers() >= 6);
+  readonly needsCustomQuote = computed(() => this.travelers() >= 7);
   readonly pricePerPerson = computed(() =>
     this.needsCustomQuote()
       ? 0
@@ -129,14 +133,14 @@ export class TourBookingComponent implements OnInit {
   }
 
   travelerLabel(option: TravelerOption): string {
-    return option >= 6 ? '6+' : String(option);
+    return option >= 7 ? '7+' : String(option);
   }
 
   onTravelersChange(count: number): void {
-    const next = Math.min(Math.max(count, 1), 6) as TravelerOption;
+    const next = Math.min(Math.max(count, 1), 7) as TravelerOption;
     this.travelers.set(next);
-    if (next === 1 || next === 2 || next === 3 || next === 4 || next === 5) {
-      this.bookingState.setTravelersCount(next);
+    if (next <= 6) {
+      this.bookingState.setTravelersCount(next as PricedTravelerCount);
     }
   }
 
@@ -170,7 +174,7 @@ export class TourBookingComponent implements OnInit {
       return;
     }
 
-    const travelersCount = this.travelers() as 1 | 2 | 3 | 4 | 5;
+    const travelersCount = this.travelers() as PricedTravelerCount;
     const phone = this.fullPhone();
     const primaryTraveler = {
       firstName: this.firstName().trim(),
@@ -251,7 +255,7 @@ export class TourBookingComponent implements OnInit {
     bookingRef: string;
     status: 'confirmed' | 'pending';
     message: string;
-    travelersCount: 1 | 2 | 3 | 4 | 5;
+    travelersCount: PricedTravelerCount;
     primaryTraveler: BookingConfirmationDetails['primaryTraveler'];
   }): void {
     const hero = tourHero(this.tour());
@@ -292,7 +296,7 @@ export class TourBookingComponent implements OnInit {
     const parts = [
       `Hello Hai Sri Lanka — I'd like help planning "${this.tour().title}".`,
       this.needsCustomQuote()
-        ? `Travelers: 6+ (please contact me to plan a custom group tour)`
+        ? `Travelers: 7+ (please contact me to plan a custom group tour)`
         : `Travelers: ${this.travelers()}`,
       this.travelDate() ? `Date: ${this.travelDate()}` : null,
       this.firstName() || this.lastName()

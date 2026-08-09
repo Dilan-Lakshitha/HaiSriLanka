@@ -1,33 +1,62 @@
 {
   "title": "Tour di un giorno a Kandy",
-  "seoTitle": "Tour di un giorno a Kandy | Hai Sri Lanka",
-  "metaDescription": "Tour privato di un giorno a Kandy con il Tempio del Dente e lo scenario dell'altopiano.",
-  "shortDescription": "Tempio del Dente, colline panoramiche e cuore culturale degli altopiani.",
-  "overview": "Una giornata privata nella capitale collinare dello Sri Lanka, incentrata sul Tempio della Sacra Reliquia del Dente, uno dei siti buddisti più importanti dell'isola. Esplora il complesso del tempio, osserva la devozione locale e immergiti nell'ambiente lacustre di Kandy.\nGoditi i punti panoramici sulla città e sulle colline circostanti, con tempo facoltativo ai Giardini Botanici Reali o ad altre attrazioni dell'altopiano. La tua guida con autista mantiene la giornata flessibile in modo che tu possa soffermarti dove l'atmosfera sembra giusta.",
-  "description": "Una giornata privata nella capitale collinare dello Sri Lanka, incentrata sul Tempio della Sacra Reliquia del Dente, uno dei siti buddisti più importanti dell'isola. Esplora il complesso del tempio, osserva la devozione locale e immergiti nell'ambiente lacustre di Kandy.\nGoditi i punti panoramici sulla città e sulle colline circostanti, con tempo facoltativo ai Giardini Botanici Reali o ad altre attrazioni dell'altopiano. La tua guida con autista mantiene la giornata flessibile in modo che tu possa soffermarti dove l'atmosfera sembra giusta.",
+  "seoTitle": "Tour di Kandy | Tempio, giardini, tè e Pinnawala | Hai Sri Lanka",
+  "metaDescription": "Tour privato a Kandy: Tempio del Dente o Nelligala, Giardino Botanico di Peradeniya, fabbrica del tè, elefanti di Pinnawala, giardino delle spezie e laboratorio di batik.",
+  "shortDescription": "Tempio del Dente o Nelligala, giardini di Peradeniya, fabbrica del tè, elefanti di Pinnawala, giardino delle spezie e batik.",
+  "overview": "Una giornata privata nella capitale collinare dello Sri Lanka: cultura, giardini, tè ed elefanti. Scegliete il Tempio della Reliquia del Sacro Dente o il tempio di Nelligala, poi il Giardino Botanico Nazionale di Peradeniya, una piantagione e fabbrica di tè, l’orfanotrofio degli elefanti di Pinnawala o un’attività in un parco elefanti, un giardino di erbe e spezie ayurvedico di Ceylon e una fabbrica di batik e sari.\nLa guida autista tiene la giornata flessibile. Ingressi e pranzo non inclusi.",
+  "description": "Una giornata privata nella capitale collinare dello Sri Lanka: cultura, giardini, tè ed elefanti. Scegliete il Tempio della Reliquia del Sacro Dente o il tempio di Nelligala, poi il Giardino Botanico Nazionale di Peradeniya, una piantagione e fabbrica di tè, l’orfanotrofio degli elefanti di Pinnawala o un’attività in un parco elefanti, un giardino di erbe e spezie ayurvedico di Ceylon e una fabbrica di batik e sari.\nLa guida autista tiene la giornata flessibile. Ingressi e pranzo non inclusi.",
   "duration": "1 giorno",
-  "travelStyle": "Cultura",
+  "travelStyle": "Escursione privata di un giorno",
   "highlights": [
-    "Tempio del dente",
-    "Vista sulla città sul lago",
-    "Scenario del gateway dell'altopiano"
+    {
+      "title": "Tempio del Dente o tempio di Nelligala",
+      "description": "Visitate il Tempio della Reliquia del Sacro Dente a Kandy — uno dei più importanti siti buddisti dello Sri Lanka — oppure Nelligala per un santuario più tranquillo sulla collina e vista sulla valle. Indicate la preferenza in prenotazione."
+    },
+    {
+      "title": "Giardino Botanico di Peradeniya",
+      "description": "Passeggiata nel Giardino Botanico Nazionale di Peradeniya: palme reali, serre di orchidee, fichi giganti e prati sul fiume. L’ingresso si paga in loco e non è incluso."
+    },
+    {
+      "title": "Piantagione e fabbrica di tè",
+      "description": "Visita a una tenuta di tè degli altopiani e a una fabbrica in attività: raccolta, lavorazione e degustazione del tè di Ceylon."
+    },
+    {
+      "title": "Orfanotrofio degli elefanti di Pinnawala",
+      "description": "Visitate Pinnawala all’ora del pasto o del fiume, oppure un parco vicino per un’attività guidata. Biglietti e attività opzionali extra."
+    },
+    {
+      "title": "Giardino di erbe e spezie ayurvedico di Ceylon",
+      "description": "Tour di un giardino di erbe e spezie: cannella, pepe, cacao e rimedi vegetali tradizionali, con una breve degustazione o dimostrazione."
+    },
+    {
+      "title": "Fabbrica di batik e sari di Ceylon",
+      "description": "Artigiani in un laboratorio di batik e sari: tintura a cera, telaio a mano e tessuti finiti. Acquisti facoltativi."
+    },
+    {
+      "title": "Ritiro e rientro in hotel",
+      "description": "La guida autista vi ritira in hotel — di solito Colombo, la costa ovest o un punto concordato — e vi riporta la sera."
+    }
   ],
   "included": [
-    "Veicolo privato",
-    "Guida con autista"
+    "Veicolo privato climatizzato",
+    "Autista professionista di lingua inglese",
+    "Ritiro e rientro",
+    "Carburante e parcheggio",
+    "Servizio 24 ore",
+    "Acqua in bottiglia offerta"
   ],
   "excluded": [
     "Biglietti d'ingresso",
     "Pranzo"
   ],
   "seo": {
-    "metaTitle": "Tour di un giorno a Kandy | Hai Sri Lanka",
-    "metaDescription": "Tour privato di un giorno a Kandy con il Tempio del Dente e lo scenario dell'altopiano."
+    "metaTitle": "Tour di Kandy | Tempio, giardini, tè e Pinnawala | Hai Sri Lanka",
+    "metaDescription": "Tour privato a Kandy: Tempio del Dente o Nelligala, Giardino Botanico di Peradeniya, fabbrica del tè, elefanti di Pinnawala, giardino delle spezie e laboratorio di batik."
   },
   "itinerary": [
     {
-      "title": "Il sacro Kandy",
-      "description": "Una giornata culturale privata incentrata sul Tempio della Reliquia del Dente e sulla tranquilla atmosfera lacustre di Kandy."
+      "title": "Kandy: cultura, giardini, tè ed elefanti",
+      "description": "Ritiro al mattino e circuito privato: Pinnawala o parco elefanti, giardino delle spezie, piantagione e fabbrica di tè, Giardino Botanico di Peradeniya, Tempio del Dente o Nelligala, e laboratorio di batik e sari. Rientro in hotel la sera."
     }
   ],
   "faqs": []

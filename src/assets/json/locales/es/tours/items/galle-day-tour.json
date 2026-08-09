@@ -1,35 +1,54 @@
 {
   "title": "Excursión de un día a Galle",
-  "seoTitle": "Tour de un día en Galle | Tour privado desde Colombo | hai sri lanka",
-  "metaDescription": "Reserve una excursión privada de un día a Galle con Hai Sri Lanka. Visite el fuerte de Galle, las playas del sur y los lugares destacados de la costa con un experto local.",
-  "shortDescription": "Explore el fuerte de Galle, las playas y el patrimonio costero del sur en un día privado.",
-  "overview": "Un día privado a lo largo de la costa sur de Sri Lanka hasta el fuerte holandés Galle, declarado Patrimonio de la Humanidad por la UNESCO. Camine por las murallas, explore calles coloniales, boutiques y cafés, y disfrute de las impresionantes vistas del océano desde uno de los fuertes mejor conservados de Asia.\nLas paradas costeras opcionales pueden incluir miradores de pescadores sobre zancos y playas cercanas antes de su cómodo traslado de regreso, lleno de cultura, fotografías y una atmósfera sureña relajada.",
-  "description": "Un día privado a lo largo de la costa sur de Sri Lanka hasta el fuerte holandés Galle, declarado Patrimonio de la Humanidad por la UNESCO. Camine por las murallas, explore calles coloniales, boutiques y cafés, y disfrute de las impresionantes vistas del océano desde uno de los fuertes mejor conservados de Asia.\nLas paradas costeras opcionales pueden incluir miradores de pescadores sobre zancos y playas cercanas antes de su cómodo traslado de regreso, lleno de cultura, fotografías y una atmósfera sureña relajada.",
+  "seoTitle": "Excursión a Galle | Fuerte, tortugas, Bentota y memorial | Hai Sri Lanka",
+  "metaDescription": "Excursión privada a Galle: criadero de tortugas, Fuerte holandés UNESCO, barco en Bentota y Memorial del tsunami. Recogida en hotel incluida.",
+  "shortDescription": "Día privado en la costa sur: criadero de tortugas, Fuerte holandés de Galle, paseo en barco por Bentota y Memorial del tsunami.",
+  "overview": "Una jornada privada por la costa sur de Sri Lanka, con cuatro paradas. Visite un criadero de tortugas marinas para conocer la conservación y distintas especies, y explore el Fuerte holandés de Galle, Patrimonio de la UNESCO — historia colonial y vistas al océano.\nEn el mismo circuito: paseo en barco por el río Bentota entre manglares, y una pausa en el Memorial del tsunami de 2004. Su chófer guía mantiene el día flexible.",
+  "description": "Una jornada privada por la costa sur de Sri Lanka, con cuatro paradas. Visite un criadero de tortugas marinas para conocer la conservación y distintas especies, y explore el Fuerte holandés de Galle, Patrimonio de la UNESCO — historia colonial y vistas al océano.\nEn el mismo circuito: paseo en barco por el río Bentota entre manglares, y una pausa en el Memorial del tsunami de 2004. Su chófer guía mantiene el día flexible.",
   "duration": "1 día",
   "travelStyle": "Viaje privado de un día",
   "highlights": [
-    "Paseo por la muralla del fuerte de Galle",
-    "Miradores de la costa sur",
-    "Vehículo privado de lujo."
+    {
+      "title": "Criadero de tortugas marinas",
+      "description": "Visite un criadero del sur: conozca el trabajo de conservación y observe distintas especies de tortugas."
+    },
+    {
+      "title": "Fuerte holandés de Galle",
+      "description": "Sitio UNESCO: murallas coloniales, calles del faro y vistas impresionantes al océano."
+    },
+    {
+      "title": "Paseo en barco por el Bentota",
+      "description": "Un paseo relajado por el río entre manglares, aves acuáticas y fauna fluvial."
+    },
+    {
+      "title": "Memorial del tsunami",
+      "description": "Parada en el memorial para conocer el tsunami de 2004 y su impacto en Sri Lanka."
+    },
+    {
+      "title": "Recogida y regreso al hotel",
+      "description": "Su chófer guía le recoge en el hotel — normalmente Colombo, la costa oeste o un punto acordado — y le devuelve por la noche."
+    }
   ],
   "included": [
-    "Vehículo privado con aire acondicionado.",
-    "Guía con chofer de habla inglesa.",
-    "Agua embotellada"
+    "Vehículo privado con aire acondicionado",
+    "Conductor profesional de habla inglesa",
+    "Recogida y regreso",
+    "Combustible y aparcamiento",
+    "Servicio 24 horas",
+    "Agua embotellada de cortesía"
   ],
   "excluded": [
-    "Boletos de entrada",
-    "Almuerzo",
-    "Gastos personales"
+    "Entradas",
+    "Almuerzo"
   ],
   "seo": {
-    "metaTitle": "Tour de un día en Galle | Tour privado desde Colombo | hai sri lanka",
-    "metaDescription": "Reserve una excursión privada de un día a Galle con Hai Sri Lanka. Visite el fuerte de Galle, las playas del sur y los lugares destacados de la costa con un experto local."
+    "metaTitle": "Excursión a Galle | Fuerte, tortugas, Bentota y memorial | Hai Sri Lanka",
+    "metaDescription": "Excursión privada a Galle: criadero de tortugas, Fuerte holandés UNESCO, barco en Bentota y Memorial del tsunami. Recogida en hotel incluida."
   },
   "itinerary": [
     {
-      "title": "Fuerte de Galle y costa sur",
-      "description": "Salida por la mañana hacia el sur, explorando el fuerte Galle, declarado Patrimonio de la Humanidad por la UNESCO, las calles boutique y las pintorescas márgenes del océano antes de un cómodo regreso."
+      "title": "Costa sur: tortugas, Bentota, memorial y Fuerte de Galle",
+      "description": "Recogida por la mañana y viaje al sur. Criadero de tortugas, barco en el Bentota, Memorial del tsunami y Fuerte holandés UNESCO de Galle antes del regreso por la noche."
     }
   ],
   "faqs": [

@@ -8,23 +8,36 @@
   "duration": "10日間 / 9泊",
   "travelStyle": "Wildlife",
   "highlights": [
-    "Sigiriya & Pidurangala climbs",
-    "Elephant safari at Minneriya / Kaudulla / Hurulu",
-    "Tea country, Horton Plains & Ella train",
-    "Yala safari, Mirissa whales & Galle Fort"
+    {
+      "title": "Sigiriya and Pidurangala climbs",
+      "description": "Two classic Cultural Triangle ascents with time for village life and optional Ayurveda."
+    },
+    {
+      "title": "Elephant safari in the dry zone",
+      "description": "Minneriya, Kaudulla, or Hurulu — seasonal herds on a private jeep outing."
+    },
+    {
+      "title": "Tea country, Horton Plains and Ella train",
+      "description": "Cool climate trekking, estate landscapes, and one of Sri Lanka’s most loved rail windows."
+    },
+    {
+      "title": "Yala, Mirissa whales and Galle Fort",
+      "description": "Safari, whale watching, and Dutch ramparts before Kalutara and your final drop."
+    }
   ],
   "included": [
-    "Private transport / private driver",
-    "4 STAR hotels (half board)",
-    "Daily breakfast & dinner",
-    "Guide service"
+    "エアコン付きプライベート車両",
+    "英語対応のプロドライバー",
+    "ドライバーの宿泊と食事",
+    "送迎",
+    "燃料・駐車料金",
+    "24時間対応",
+    "ペットボトル水無料",
+    "4つ星ホテル（ハーフボード）"
   ],
   "excluded": [
-    "International flights",
-    "Lunch",
-    "Entrance fees",
-    "Safari jeep & whale-watching boat",
-    "Ayurveda massage"
+    "入場料",
+    "昼食"
   ],
   "seo": {
     "metaTitle": "10日間 Classic Ceylon （4つ星ホテル＆専用車） | Hai Sri Lanka",

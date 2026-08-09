@@ -8,22 +8,36 @@
   "duration": "5 dni / 4 noce",
   "travelStyle": "Kultura",
   "highlights": [
-    "Sigiriya / Pidurangala i safari na wsi lub na słoniach",
-    "Dambulla, ogród przypraw i taniec kulturalny w Kandy",
-    "Świątynia Zęba, kraina herbaty i Ella",
-    "Przejażdżka pociągiem, safari w Yala i finał na południowym wybrzeżu"
+    {
+      "title": "Sigiriya or Pidurangala",
+      "description": "Climb Lion Rock or the quieter Pidurangala ridge, with village life or an elephant safari option in the Cultural Triangle."
+    },
+    {
+      "title": "Dambulla, spice and Kandy culture",
+      "description": "Cave temples, a spice garden stop, and a Kandyan cultural evening as you travel into the hill capital."
+    },
+    {
+      "title": "Temple of the Tooth, tea and Ella",
+      "description": "Sacred Kandy, tea-country roads, and arrival in Ella’s cool highlands."
+    },
+    {
+      "title": "Train, Yala and the south coast",
+      "description": "A scenic rail segment, Yala safari, then Mirissa, Galle Fort, and Bentota to close the circuit."
+    }
   ],
   "included": [
-    "Transport prywatny/prywatny kierowca",
-    "Hotele 4-gwiazdkowe",
-    "Codzienne śniadanie",
-    "Usługa przewodnika"
+    "Prywatny klimatyzowany pojazd",
+    "Anglojęzyczny profesjonalny kierowca",
+    "Zakwaterowanie i posiłki kierowcy",
+    "Odbiór i dowóz",
+    "Paliwo i opłaty parkingowe",
+    "Obsługa 24 godziny",
+    "Darmowa woda butelkowana",
+    "Hotel 4-gwiazdkowy ze śniadaniem i kolacją"
   ],
   "excluded": [
-    "Loty międzynarodowe",
-    "Lunch i kolacja",
-    "Opłaty za wstęp",
-    "Jeep safari i łódź do obserwowania wielorybów"
+    "Bilety wstępu",
+    "Obiad"
   ],
   "seo": {
     "metaTitle": "5-dniowy trójkąt na wybrzeże z 4-gwiazdkowymi hotelami i prywatnym transportem | Hai Sri Lanka",

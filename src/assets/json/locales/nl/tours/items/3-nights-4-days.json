@@ -8,22 +8,36 @@
   "duration": "4 dagen / 3 nachten",
   "travelStyle": "Cultuur",
   "highlights": [
-    "Culturele avond Pinnawala en Kandy",
-    "Tempel van de Tand en theefabriek",
-    "Schilderachtige treinrit en Yala-safari",
-    "Walvissen spotten, Galle Fort en Bentota"
+    {
+      "title": "Pinnawala and Kandy evening",
+      "description": "A cultural first day toward the hills, with time for Pinnawala and a Kandy evening of lake views and a traditional dance show."
+    },
+    {
+      "title": "Temple of the Tooth and tea country",
+      "description": "Visit the sacred temple in Kandy, then climb into tea estates and highland scenery on the way toward Ella."
+    },
+    {
+      "title": "Scenic train and Yala safari",
+      "description": "A hill-country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
+    },
+    {
+      "title": "South-coast finale",
+      "description": "Mirissa whale watching, Galle Fort, a turtle hatchery, and Bentota before your hotel or airport drop."
+    }
   ],
   "included": [
-    "Privévervoer/privéchauffeur",
-    "4-sterrenhotels",
-    "Dagelijks ontbijt",
-    "Gids dienst"
+    "Privé airconditioned voertuig",
+    "Engelstalige professionele chauffeur",
+    "Verblijf en maaltijden van de chauffeur",
+    "Ophalen en terugbrengen",
+    "Brandstof en parkeerkosten",
+    "24-uurs service",
+    "Gratis flessenwater",
+    "4-sterrenhotel met halfpension"
   ],
   "excluded": [
-    "Internationale vluchten",
-    "Lunch en diner",
-    "Toegangsprijzen",
-    "Safari-jeep en boot om walvissen te spotten"
+    "Entreekosten",
+    "Lunch"
   ],
   "seo": {
     "metaTitle": "4-daagse Ceylon-ontsnapping met 4-sterrenhotels en privévervoer | Hoi Sri Lanka",

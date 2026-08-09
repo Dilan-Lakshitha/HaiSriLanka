@@ -1,33 +1,62 @@
 {
   "title": "Excursion d'une journée à Kandy",
-  "seoTitle": "Excursion d'une journée à Kandy | Hai Sri Lanka",
-  "metaDescription": "Excursion privée d'une journée à Kandy avec le Temple de la Dent et les paysages des hautes terres.",
-  "shortDescription": "Temple de la Dent, collines pittoresques et cœur culturel des hauts plateaux.",
-  "overview": "Une journée privée dans la capitale montagnarde du Sri Lanka, centrée sur le temple de la relique de la dent sacrée, l'un des sites bouddhistes les plus importants de l'île. Explorez le complexe du temple, observez la dévotion locale et imprégnez-vous du cadre au bord du lac de Kandy.\nProfitez de points de vue panoramiques sur la ville et les collines environnantes, avec un temps optionnel aux jardins botaniques royaux ou à d'autres points forts des hautes terres. Votre chauffeur-guide garde la journée flexible afin que vous puissiez vous attarder là où l'atmosphère vous convient.",
-  "description": "Une journée privée dans la capitale montagnarde du Sri Lanka, centrée sur le temple de la relique de la dent sacrée, l'un des sites bouddhistes les plus importants de l'île. Explorez le complexe du temple, observez la dévotion locale et imprégnez-vous du cadre au bord du lac de Kandy.\nProfitez de points de vue panoramiques sur la ville et les collines environnantes, avec un temps optionnel aux jardins botaniques royaux ou à d'autres points forts des hautes terres. Votre chauffeur-guide garde la journée flexible afin que vous puissiez vous attarder là où l'atmosphère vous convient.",
+  "seoTitle": "Excursion à Kandy | Temple, jardins, thé et Pinnawala | Hai Sri Lanka",
+  "metaDescription": "Excursion privée à Kandy : Temple de la Dent ou Nelligala, jardin botanique de Peradeniya, usine de thé, éléphants de Pinnawala, jardin d’épices et atelier de batik.",
+  "shortDescription": "Temple de la Dent ou Nelligala, jardins de Peradeniya, usine de thé, éléphants de Pinnawala, jardin d’épices et batik.",
+  "overview": "Une journée privée dans la capitale des collines du Sri Lanka : culture, jardins, thé et éléphants. Choisissez le Temple de la Relique de la Dent Sacrée ou le temple de Nelligala, puis le Jardin botanique national de Peradeniya, une plantation et une usine de thé, l’orphelinat d’éléphants de Pinnawala ou une activité dans un parc à éléphants, un jardin d’herbes et d’épices ayurvédique de Ceylan, et une fabrique de batik et de saris.\nVotre chauffeur-guide garde la journée flexible. Entrées et déjeuner non inclus.",
+  "description": "Une journée privée dans la capitale des collines du Sri Lanka : culture, jardins, thé et éléphants. Choisissez le Temple de la Relique de la Dent Sacrée ou le temple de Nelligala, puis le Jardin botanique national de Peradeniya, une plantation et une usine de thé, l’orphelinat d’éléphants de Pinnawala ou une activité dans un parc à éléphants, un jardin d’herbes et d’épices ayurvédique de Ceylan, et une fabrique de batik et de saris.\nVotre chauffeur-guide garde la journée flexible. Entrées et déjeuner non inclus.",
   "duration": "1 jour",
-  "travelStyle": "Culture",
+  "travelStyle": "Excursion privée d'une journée",
   "highlights": [
-    "Temple de la Dent",
-    "Vue sur la ville au bord du lac",
-    "Paysage de passerelle des Highlands"
+    {
+      "title": "Temple de la Dent ou temple de Nelligala",
+      "description": "Visitez le Temple de la Relique de la Dent Sacrée à Kandy — l’un des plus importants sites bouddhistes du Sri Lanka — ou choisissez Nelligala pour un sanctuaire plus calme sur la colline et une vue sur la vallée. Indiquez votre préférence à la réservation."
+    },
+    {
+      "title": "Jardin botanique de Peradeniya",
+      "description": "Promenade dans le Jardin botanique national de Peradeniya : palmiers royaux, serres d’orchidées, figuiers géants et pelouses au bord de la rivière. L’entrée se paie sur place et n’est pas incluse."
+    },
+    {
+      "title": "Plantation et usine de thé",
+      "description": "Balade dans une plantation de thé des hautes terres et visite d’une usine en activité : cueillette, transformation et dégustation du thé de Ceylan."
+    },
+    {
+      "title": "Orphelinat d’éléphants de Pinnawala",
+      "description": "Visitez Pinnawala à l’heure du repas ou de la rivière, ou choisissez un parc proche pour une activité guidée. Billets et activités optionnelles en supplément."
+    },
+    {
+      "title": "Jardin d’herbes et d’épices ayurvédique de Ceylan",
+      "description": "Visite d’un jardin d’herbes et d’épices : cannelle, poivre, cacao et plantes médicinales, avec une courte dégustation ou démonstration."
+    },
+    {
+      "title": "Fabrique de batik et de saris de Ceylan",
+      "description": "Artisans dans un atelier de batik et de saris : teinture à la cire, métier à tisser et textiles finis. Achats facultatifs."
+    },
+    {
+      "title": "Prise en charge et retour à l’hôtel",
+      "description": "Votre chauffeur-guide vous récupère à l’hôtel — généralement Colombo, la côte ouest ou un point convenu — et vous ramène le soir."
+    }
   ],
   "included": [
-    "Véhicule privé",
-    "Guide chauffeur"
+    "Véhicule privé climatisé",
+    "Chauffeur professionnel anglophone",
+    "Prise en charge et retour",
+    "Carburant et frais de stationnement",
+    "Service 24 heures",
+    "Eau en bouteille offerte"
   ],
   "excluded": [
-    "Billets d'entrée",
+    "Frais d'entrée",
     "Déjeuner"
   ],
   "seo": {
-    "metaTitle": "Excursion d'une journée à Kandy | Hai Sri Lanka",
-    "metaDescription": "Excursion privée d'une journée à Kandy avec le Temple de la Dent et les paysages des hautes terres."
+    "metaTitle": "Excursion à Kandy | Temple, jardins, thé et Pinnawala | Hai Sri Lanka",
+    "metaDescription": "Excursion privée à Kandy : Temple de la Dent ou Nelligala, jardin botanique de Peradeniya, usine de thé, éléphants de Pinnawala, jardin d’épices et atelier de batik."
   },
   "itinerary": [
     {
-      "title": "Kandy sacré",
-      "description": "Une journée culturelle privée axée sur le Temple de la Dent et l'atmosphère calme au bord du lac de Kandy."
+      "title": "Kandy : culture, jardins, thé et éléphants",
+      "description": "Prise en charge le matin, puis circuit privé : Pinnawala ou parc à éléphants, jardin d’épices, plantation et usine de thé, jardin botanique de Peradeniya, Temple de la Dent ou Nelligala, et atelier de batik et de saris. Retour à l’hôtel le soir."
     }
   ],
   "faqs": []

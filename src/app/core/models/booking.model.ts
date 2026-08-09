@@ -1,4 +1,4 @@
-import type { PersonPricing } from './tour.model';
+import type { PersonPricing, PricedTravelerCount } from './tour.model';
 
 export interface TravelerInfo {
   firstName: string;
@@ -13,7 +13,7 @@ export interface BookingRequest {
   tourSlug: string;
   tourTitle: string;
   tourDuration?: string;
-  travelersCount: 1 | 2 | 3 | 4 | 5;
+  travelersCount: PricedTravelerCount;
   travelDate: string;
   pricePerPerson: number;
   totalPrice: number;
@@ -32,7 +32,7 @@ export interface BookingResponse {
 
 export interface BookingState {
   tourSlug: string | null;
-  travelersCount: 1 | 2 | 3 | 4 | 5;
+  travelersCount: PricedTravelerCount;
   travelDate: string | null;
   primaryTraveler: TravelerInfo | null;
   pricePerPerson: number;

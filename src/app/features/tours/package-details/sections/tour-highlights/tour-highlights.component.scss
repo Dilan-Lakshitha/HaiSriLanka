@@ -33,4 +33,18 @@
     background: var(--color-sand);
     color: var(--color-ink);
   }
+
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--color-navy);
+    line-height: 1.35;
+  }
+
+  p {
+    margin: 0.45rem 0 0;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--color-ink);
+  }
 }

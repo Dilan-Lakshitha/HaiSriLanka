@@ -8,23 +8,36 @@
   "duration": "10 dni / 9 nocy",
   "travelStyle": "Dzika przyroda",
   "highlights": [
-    "Wspinaczki Sigiriya i Pidurangala",
-    "Safari na słoniach w Minneriya / Kaudulla / Hurulu",
-    "Kraj herbaty, równiny Horton i pociąg Ella",
-    "Safari w Yala, wieloryby Mirissy i fort w Galle"
+    {
+      "title": "Sigiriya and Pidurangala climbs",
+      "description": "Two classic Cultural Triangle ascents with time for village life and optional Ayurveda."
+    },
+    {
+      "title": "Elephant safari in the dry zone",
+      "description": "Minneriya, Kaudulla, or Hurulu — seasonal herds on a private jeep outing."
+    },
+    {
+      "title": "Tea country, Horton Plains and Ella train",
+      "description": "Cool climate trekking, estate landscapes, and one of Sri Lanka’s most loved rail windows."
+    },
+    {
+      "title": "Yala, Mirissa whales and Galle Fort",
+      "description": "Safari, whale watching, and Dutch ramparts before Kalutara and your final drop."
+    }
   ],
   "included": [
-    "Transport prywatny/prywatny kierowca",
-    "Hotele 4-gwiazdkowe (niepełne wyżywienie)",
-    "Codzienne śniadanie i kolacja",
-    "Usługa przewodnika"
+    "Prywatny klimatyzowany pojazd",
+    "Anglojęzyczny profesjonalny kierowca",
+    "Zakwaterowanie i posiłki kierowcy",
+    "Odbiór i dowóz",
+    "Paliwo i opłaty parkingowe",
+    "Obsługa 24 godziny",
+    "Darmowa woda butelkowana",
+    "Hotel 4-gwiazdkowy ze śniadaniem i kolacją"
   ],
   "excluded": [
-    "Loty międzynarodowe",
-    "Obiad",
-    "Opłaty za wstęp",
-    "Jeep safari i łódź do obserwowania wielorybów",
-    "Masaż ajurwedyjski"
+    "Bilety wstępu",
+    "Obiad"
   ],
   "seo": {
     "metaTitle": "10-dniowy klasyczny Cejlon z 4-gwiazdkowymi hotelami i prywatnym transportem | Hai Sri Lanka",

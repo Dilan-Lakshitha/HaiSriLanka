@@ -8,23 +8,36 @@
   "duration": "10 Días / 9 Noches",
   "travelStyle": "Fauna",
   "highlights": [
-    "Ascensiones a Sigiriya y Pidurangala",
-    "Safari de elefantes en Minneriya / Kaudulla / Hurulu",
-    "País del té, Horton Plains y tren Ella",
-    "Safari en Yala, ballenas de Mirissa y fuerte de Galle"
+    {
+      "title": "Sigiriya and Pidurangala climbs",
+      "description": "Two classic Cultural Triangle ascents with time for village life and optional Ayurveda."
+    },
+    {
+      "title": "Elephant safari in the dry zone",
+      "description": "Minneriya, Kaudulla, or Hurulu — seasonal herds on a private jeep outing."
+    },
+    {
+      "title": "Tea country, Horton Plains and Ella train",
+      "description": "Cool climate trekking, estate landscapes, and one of Sri Lanka’s most loved rail windows."
+    },
+    {
+      "title": "Yala, Mirissa whales and Galle Fort",
+      "description": "Safari, whale watching, and Dutch ramparts before Kalutara and your final drop."
+    }
   ],
   "included": [
-    "Transporte privado / conductor privado",
-    "Hoteles 4 ESTRELLAS (media pensión)",
-    "Desayuno y cena diarios",
-    "Servicio de guía"
+    "Vehículo privado con aire acondicionado",
+    "Conductor profesional de habla inglesa",
+    "Alojamiento y comidas del conductor",
+    "Recogida y regreso",
+    "Combustible y aparcamiento",
+    "Servicio 24 horas",
+    "Agua embotellada de cortesía",
+    "Hotel 4 estrellas en media pensión"
   ],
   "excluded": [
-    "Vuelos internacionales",
-    "Almuerzo",
-    "Tarifas de entrada",
-    "Jeep safari y barco para avistar ballenas",
-    "masaje ayurvédico"
+    "Entradas",
+    "Almuerzo"
   ],
   "seo": {
     "metaTitle": "Ceilán clásico de 10 días con hoteles de 4 ESTRELLAS y transporte privado | hai sri lanka",

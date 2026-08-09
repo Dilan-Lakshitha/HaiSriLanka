@@ -8,23 +8,36 @@
   "duration": "10 Tage / 9 Nächte",
   "travelStyle": "Tierwelt",
   "highlights": [
-    "Sigiriya- und Pidurangala-Aufstiege",
-    "Elefantensafari in Minneriya / Kaudulla / Hurulu",
-    "Teeland, Horton Plains und Ella-Zug",
-    "Yala-Safari, Mirissa-Wale und Galle Fort"
+    {
+      "title": "Sigiriya and Pidurangala climbs",
+      "description": "Two classic Cultural Triangle ascents with time for village life and optional Ayurveda."
+    },
+    {
+      "title": "Elephant safari in the dry zone",
+      "description": "Minneriya, Kaudulla, or Hurulu — seasonal herds on a private jeep outing."
+    },
+    {
+      "title": "Tea country, Horton Plains and Ella train",
+      "description": "Cool climate trekking, estate landscapes, and one of Sri Lanka’s most loved rail windows."
+    },
+    {
+      "title": "Yala, Mirissa whales and Galle Fort",
+      "description": "Safari, whale watching, and Dutch ramparts before Kalutara and your final drop."
+    }
   ],
   "included": [
-    "Privater Transport / Privatfahrer",
-    "4 STERNE Hotels (Halbpension)",
-    "Tägliches Frühstück und Abendessen",
-    "Reiseleitung"
+    "Klimatisierter Privatwagen",
+    "Englischsprachiger professioneller Fahrer",
+    "Unterkunft und Mahlzeiten des Fahrers",
+    "Abholung und Rückfahrt",
+    "Kraftstoff und Parkgebühren",
+    "24-Stunden-Service",
+    "Kostenloses Flaschenwasser",
+    "4-Sterne-Hotel mit Halbpension"
   ],
   "excluded": [
-    "Internationale Flüge",
-    "Mittagessen",
     "Eintrittsgelder",
-    "Safari-Jeep und Walbeobachtungsboot",
-    "Ayurveda-Massage"
+    "Mittagessen"
   ],
   "seo": {
     "metaTitle": "10-tägiges klassisches Ceylon mit 4-STERNE-Hotels und privatem Transport | Hallo Sri Lanka",

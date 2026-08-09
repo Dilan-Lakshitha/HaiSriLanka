@@ -8,23 +8,36 @@
   "duration": "12 dagar / 11 nätter",
   "travelStyle": "Vilda djur och växter",
   "highlights": [
-    "Wilpattu & Minneriya / Kaudulla safaris",
-    "Sigiriya-, Pidurangala- och Trincomalee-valar",
-    "Kandy-kultur och teland i höglandet",
-    "Ella, Galle Fort & Bentota final"
+    {
+      "title": "Wilpattu and dry-zone safaris",
+      "description": "Wild lakes at Wilpattu, then Minneriya or Kaudulla for elephants in the Cultural Triangle."
+    },
+    {
+      "title": "Sigiriya, Pidurangala and Trincomalee",
+      "description": "Rock fortresses then the east coast for dolphins, whales, and marine days."
+    },
+    {
+      "title": "Kandy culture and highland tea",
+      "description": "The Temple of the Tooth, lake city, and a slow climb into Nuwara Eliya and Ella."
+    },
+    {
+      "title": "Ella, Galle Fort and Bentota",
+      "description": "Hill viewpoints, then the south coast — fort walls, turtles, and a beach close before Colombo."
+    }
   ],
   "included": [
-    "Privat transport / privat chaufför",
-    "4-STjärniga hotell",
-    "Daglig frukost",
-    "Guideservice"
+    "Privat luftkonditionerat fordon",
+    "Engelsktalande professionell chaufför",
+    "Chaufförens boende och måltider",
+    "Hämtning och avlämning",
+    "Bränsle och parkeringsavgifter",
+    "Service dygnet runt",
+    "Gratis flaskvatten",
+    "4-stjärnigt hotell med halvpension"
   ],
   "excluded": [
-    "Internationella flyg",
-    "Lunch & middag",
-    "Inträdesavgifter",
-    "Safarijeep, valskådningsbåt och scuba",
-    "Ayurveda massage"
+    "Entréavgifter",
+    "Lunch"
   ],
   "seo": {
     "metaTitle": "12-dagars Island Explorer med 4-STJÄRNIG hotell och privat transport | Hai Sri Lanka",

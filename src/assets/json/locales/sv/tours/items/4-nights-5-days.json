@@ -8,22 +8,36 @@
   "duration": "5 dagar / 4 nätter",
   "travelStyle": "Kultur",
   "highlights": [
-    "Sigiriya / Pidurangala & by- eller elefantsafari",
-    "Dambulla, kryddträdgård och Kandy kulturdans",
-    "Tandens tempel, teland & Ella",
-    "Tågresa, Yala-safari och sydkustfinal"
+    {
+      "title": "Sigiriya or Pidurangala",
+      "description": "Climb Lion Rock or the quieter Pidurangala ridge, with village life or an elephant safari option in the Cultural Triangle."
+    },
+    {
+      "title": "Dambulla, spice and Kandy culture",
+      "description": "Cave temples, a spice garden stop, and a Kandyan cultural evening as you travel into the hill capital."
+    },
+    {
+      "title": "Temple of the Tooth, tea and Ella",
+      "description": "Sacred Kandy, tea-country roads, and arrival in Ella’s cool highlands."
+    },
+    {
+      "title": "Train, Yala and the south coast",
+      "description": "A scenic rail segment, Yala safari, then Mirissa, Galle Fort, and Bentota to close the circuit."
+    }
   ],
   "included": [
-    "Privat transport / privat chaufför",
-    "4-STjärniga hotell",
-    "Daglig frukost",
-    "Guideservice"
+    "Privat luftkonditionerat fordon",
+    "Engelsktalande professionell chaufför",
+    "Chaufförens boende och måltider",
+    "Hämtning och avlämning",
+    "Bränsle och parkeringsavgifter",
+    "Service dygnet runt",
+    "Gratis flaskvatten",
+    "4-stjärnigt hotell med halvpension"
   ],
   "excluded": [
-    "Internationella flyg",
-    "Lunch & middag",
-    "Inträdesavgifter",
-    "Safarijeep och valskådningsbåt"
+    "Entréavgifter",
+    "Lunch"
   ],
   "seo": {
     "metaTitle": "5-dagars triangel till kust med 4-STJÄRNIG hotell och privat transport | Hai Sri Lanka",

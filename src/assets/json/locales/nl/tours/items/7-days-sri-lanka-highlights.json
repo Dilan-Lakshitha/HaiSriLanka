@@ -1,67 +1,86 @@
 {
   "title": "7-daagse hoogtepunten van Sri Lanka met 4-sterrenhotels en privévervoer",
   "seoTitle": "7-daagse hoogtepunten van Sri Lanka met 4-sterrenhotels en privévervoer | Hoi Sri Lanka",
-  "metaDescription": "Ervaar de hoogtepunten van Sri Lanka in 7 dagen cultuur, theeland, natuur en kust met een privé Hai Sri Lanka-route.",
-  "shortDescription": "Het essentiële Sri Lanka-circuit - cultuur, natuur, theeland en kust met 4-sterrenhotels en een privéchauffeur.",
-  "overview": "Een samengesteld zevendaags privécircuit ontworpen als de essentiële Sri Lanka-ervaring. Ga van culturele driehoek-iconen naar theeplantages in de hooglanden, vervolgens naar dieren in het wild en een zachte finale aan de kust.\nDagen worden afgewisseld voor comfort en ontdekking: overal een privévoertuig, zorgvuldig gekozen verblijven en genoeg tijd bij elke stop om het eiland te voelen in plaats van er langs te rennen.",
-  "description": "Een samengesteld zevendaags privécircuit ontworpen als de essentiële Sri Lanka-ervaring. Ga van culturele driehoek-iconen naar theeplantages in de hooglanden, vervolgens naar dieren in het wild en een zachte finale aan de kust.\nDagen worden afgewisseld voor comfort en ontdekking: overal een privévoertuig, zorgvuldig gekozen verblijven en genoeg tijd bij elke stop om het eiland te voelen in plaats van er langs te rennen.",
+  "metaDescription": "Privé 7-daagse Sri Lanka-tour: Sigiriya, Pidurangala, Kandy, Nuwara Eliya, Ellatrein, Yala-safari, walvissen in Mirissa, Galle Fort en Bentota.",
+  "shortDescription": "Van Sigiriya naar Yala in zeven dagen - cultuur, theeheuvels, safari en zuidkust met 4-sterrenhotels en privéchauffeur.",
+  "overview": "Een zevendaagse privéreis van de Culturele Driehoek naar de zuidkust. Klim Pidurangala, doe een dorpstour en ontspan met Ayurveda, daarna Sigiriya Leeuwenrots en een olifantensafari in Minneriya, Kaudulla of Hurulu Eco Park.\nGa verder via Dambulla en Kandy naar het theeland, Horton Plains en de Ellatrein, daarna een jeepsafari in Yala National Park. Eindig met walvissen spotten of snorkelen in Mirissa, Galle Fort, een schildpaddenkwekerij en een boottocht in Bentota voor transfer naar hotel of luchthaven.",
+  "description": "Een zevendaagse privéreis van de Culturele Driehoek naar de zuidkust. Klim Pidurangala, doe een dorpstour en ontspan met Ayurveda, daarna Sigiriya Leeuwenrots en een olifantensafari in Minneriya, Kaudulla of Hurulu Eco Park.\nGa verder via Dambulla en Kandy naar het theeland, Horton Plains en de Ellatrein, daarna een jeepsafari in Yala National Park. Eindig met walvissen spotten of snorkelen in Mirissa, Galle Fort, een schildpaddenkwekerij en een boottocht in Bentota voor transfer naar hotel of luchthaven.",
   "duration": "7 dagen / 6 nachten",
   "travelStyle": "Dieren in het wild",
   "highlights": [
-    "Culturele driehoek iconen",
-    "Onderdompeling in het theeland",
-    "Finale aan de zuidkust",
-    "Privévoertuig overal"
+    {
+      "title": "Pidurangala, dorpstour en Ayurveda",
+      "description": "Klim Pidurangala, doe een dorpstour en ontspan met een Ayurveda-massage op uw eerste nacht in Sigiriya."
+    },
+    {
+      "title": "Sigiriya-rots en olifantensafari",
+      "description": "Klim de Sigiriya Leeuwenrots, daarna een jeepsafari in Minneriya, Kaudulla of Hurulu Eco Park."
+    },
+    {
+      "title": "Kandy, theeland en Ellatrein",
+      "description": "Dambulla-grottempel, Tandtempel, Ambuluwawa, theeplantage en fabriek, Horton Plains en de panoramische trein naar Ella."
+    },
+    {
+      "title": "Yala-safari en finale aan de zuidkust",
+      "description": "Safari in Yala National Park, daarna walvissen of snorkelen in Mirissa, Galle Fort, schildpaddenkwekerij en boottocht in Bentota."
+    }
   ],
   "included": [
-    "Privévervoer/privéchauffeur",
-    "4-sterrenhotels",
-    "Dagelijks ontbijt",
-    "Gids dienst"
+    "Privé airconditioned voertuig",
+    "Engelstalige professionele chauffeur",
+    "Verblijf en maaltijden van de chauffeur",
+    "Ophalen en terugbrengen",
+    "Brandstof en parkeerkosten",
+    "24-uurs service",
+    "Gratis flessenwater",
+    "4-sterrenhotel met halfpension"
   ],
   "excluded": [
-    "Internationale vluchten",
-    "Lunch en diner",
-    "Toegangsprijzen"
+    "Entreekosten",
+    "Lunch"
   ],
   "seo": {
     "metaTitle": "7-daagse hoogtepunten van Sri Lanka met 4-sterrenhotels en privévervoer | Hoi Sri Lanka",
-    "metaDescription": "Ervaar de hoogtepunten van Sri Lanka in 7 dagen cultuur, theeland, natuur en kust met een privé Hai Sri Lanka-route."
+    "metaDescription": "Privé 7-daagse Sri Lanka-tour: Sigiriya, Pidurangala, Kandy, Nuwara Eliya, Ellatrein, Yala-safari, walvissen in Mirissa, Galle Fort en Bentota."
   },
   "itinerary": [
     {
-      "title": "Aankomst & Westkust",
-      "description": "Welkom op de luchthaven en een rustige aankomst in de buurt van Negombo of Colombo, met tijd om te herstellen van de reis."
+      "title": "Luchthaven / hotel – Sigiriya",
+      "description": "Reis landinwaarts naar Sigiriya. Klim Pidurangala, doe een dorpstour en ontspan met een Ayurveda-massage voor de overnachting in Sigiriya."
     },
     {
-      "title": "Op weg naar de Culturele Driehoek",
-      "description": "Reis landinwaarts door landelijke landschappen naar het oude stadsland."
+      "title": "Sigiriya",
+      "description": "Klim de Sigiriya Leeuwenrots, daarna een jeepsafari in Minneriya, Kaudulla of Hurulu Eco Park. Overnachting in hetzelfde hotel."
     },
     {
-      "title": "Sigiriya en Dambulla",
-      "description": "Beklim Lion Rock en bezoek de Dambulla-grottempel met een weloverwogen tempo en hersteltijd."
+      "title": "Sigiriya – Kandy",
+      "description": "Verlaat de Driehoek via de Dambulla-grottempel en de kruidtuin van Matale, daarna Upper Lake Drive, edelsteenmuseum, Kandyaanse cultuurdans en de Tandtempel."
     },
     {
-      "title": "Kandy",
-      "description": "Ga verder naar de hoofdstad van het hoogland voor de Tempel van de Tand en de sfeer aan het meer."
+      "title": "Kandy – Nuwara Eliya",
+      "description": "Omhoog naar de theeheuvels met Ambuluwawa-toren, een theeplantage en fabriek, en een stadsrondleiding in Nuwara Eliya."
     },
     {
-      "title": "Thee land",
-      "description": "Ga naar de mistige theeplantages rond Nuwara Eliya voor proeverijen en hooglandlucht."
+      "title": "Nuwara Eliya – Ella",
+      "description": "Vroege trektocht in Horton Plains National Park, daarna met de panoramische trein naar Ella."
     },
     {
-      "title": "Zuidkust",
-      "description": "Daal af naar de zuidelijke kustlijn met Galle Fort en strandlicht."
+      "title": "Ella – Yala",
+      "description": "Naar de vlakte met een stop bij de Ravana-waterval, daarna een safari in Yala National Park."
     },
     {
-      "title": "Vertrek",
-      "description": "Vrije ochtend en privétransfer naar de luchthaven op het tijdstip van uw vlucht."
+      "title": "Yala – Luchthaven / hotel",
+      "description": "Kustfinale: walvissen spotten of snorkelen met walvissen of zeeschildpadden in Mirissa, Galle Fort, boottocht in Bentota en schildpaddenkwekerij voor transfer naar luchthaven of hotel."
     }
   ],
   "faqs": [
     {
-      "question": "Kan het reisschema worden aangepast?",
-      "answer": "Ja. We stemmen het tempo, de hotels en de ervaringen af ​​op uw voorkeuren."
+      "question": "Kan de route op maat worden gemaakt?",
+      "answer": "Ja. We passen tempo, hotels en ervaringen — bijvoorbeeld Ayurveda-tijd of safari-timing — aan uw wensen aan."
+    },
+    {
+      "question": "Is walvissen spotten seizoensgebonden?",
+      "answer": "In Mirissa is het meestal het beste van november tot april. Buiten het hoogseizoen stellen we snorkelen met zeeschildpadden of andere kustalternatieven voor."
     }
   ]
 }

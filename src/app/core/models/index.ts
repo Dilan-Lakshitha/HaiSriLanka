@@ -4,11 +4,14 @@ export type {
   ImageAsset,
   FaqItem,
   PersonPricing,
+  PricedTravelerCount,
   TourPricingTier,
   TourBadge,
   TourManifest,
   TourListsContent,
   ItineraryDay,
+  TourHighlight,
+  TourHighlightItem,
 } from './tour.model';
 export {
   TOUR_BADGE_LABELS,
@@ -21,6 +24,8 @@ export {
   tourExcluded,
   tourRelatedSlugs,
   tourHasBadge,
+  highlightTitle,
+  highlightDescription,
 } from './tour.model';
 export type { Destination } from './destination.model';
 export type { Experience } from './experience.model';

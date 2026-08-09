@@ -1,7 +1,7 @@
 import { isPlatformBrowser } from '@angular/common';
 import { Injectable, PLATFORM_ID, computed, inject, signal } from '@angular/core';
 import type { BookingConfirmationDetails, BookingState, TravelerInfo } from '../models';
-import type { PersonPricing } from '../models/tour.model';
+import type { PersonPricing, PricedTravelerCount } from '../models/tour.model';
 import { PricingService } from './pricing.service';
 
 const CONFIRMATION_STORAGE_KEY = 'hsl.booking.confirmation';
@@ -45,7 +45,7 @@ export class BookingStateService {
     }));
   }
 
-  setTravelersCount(count: 1 | 2 | 3 | 4 | 5): void {
+  setTravelersCount(count: PricedTravelerCount): void {
     if (!this.pricingTable) {
       this.state.update((s) => ({ ...s, travelersCount: count }));
       return;

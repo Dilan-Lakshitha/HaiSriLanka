@@ -1,35 +1,54 @@
 {
   "title": "Galle-dagtour",
-  "seoTitle": "Galle-dagtour | Privétour vanuit Colombo | Hoi Sri Lanka",
-  "metaDescription": "Boek een privé Galle-dagtour met Hai Sri Lanka. Bezoek Galle Fort, zuidelijke stranden en kusthoogtepunten met een lokale expert.",
-  "shortDescription": "Verken Galle Fort, stranden en zuidelijk kusterfgoed op één privédag.",
-  "overview": "Een privédag langs de zuidkust van Sri Lanka naar het door UNESCO beschermde Galle Dutch Fort. Loop over de wallen, verken koloniale straten, boetieks en cafés en geniet van een prachtig uitzicht op de oceaan vanaf een van de best bewaarde forten van Azië.\nOptionele kuststops kunnen onder meer uitkijkpunten voor steltvissers en nabijgelegen stranden omvatten voordat u op een comfortabele manier terugkeert - op tempo voor cultuur, foto's en een ontspannen zuidelijke sfeer.",
-  "description": "Een privédag langs de zuidkust van Sri Lanka naar het door UNESCO beschermde Galle Dutch Fort. Loop over de wallen, verken koloniale straten, boetieks en cafés en geniet van een prachtig uitzicht op de oceaan vanaf een van de best bewaarde forten van Azië.\nOptionele kuststops kunnen onder meer uitkijkpunten voor steltvissers en nabijgelegen stranden omvatten voordat u op een comfortabele manier terugkeert - op tempo voor cultuur, foto's en een ontspannen zuidelijke sfeer.",
+  "seoTitle": "Galle-dagtocht | Fort, schildpadden, Bentota en memorial | Hai Sri Lanka",
+  "metaDescription": "Privé Galle-dagtocht: schildpaddenstation, UNESCO Galle Dutch Fort, boottocht Bentota en Tsunami Memorial. Hoteltransfer inbegrepen.",
+  "shortDescription": "Privé dag aan de zuidkust: schildpaddenstation, Galle Dutch Fort, boottocht op de Bentota en Tsunami Memorial.",
+  "overview": "Een privé volle dag langs Sri Lanka’s zuidkust met vier stops. Bezoek een zeeschildpaddenstation om te leren over bescherming en verschillende soorten, en verken UNESCO Galle Dutch Fort — koloniale geschiedenis en zeezicht.\nOp dezelfde route: een boottocht op de Bentota door mangrove en wildlife, plus een stop bij het Tsunami Memorial over 2004. Uw chauffeur-gids houdt de dag flexibel.",
+  "description": "Een privé volle dag langs Sri Lanka’s zuidkust met vier stops. Bezoek een zeeschildpaddenstation om te leren over bescherming en verschillende soorten, en verken UNESCO Galle Dutch Fort — koloniale geschiedenis en zeezicht.\nOp dezelfde route: een boottocht op de Bentota door mangrove en wildlife, plus een stop bij het Tsunami Memorial over 2004. Uw chauffeur-gids houdt de dag flexibel.",
   "duration": "1 dag",
   "travelStyle": "Privé dagtocht",
   "highlights": [
-    "Galle Fort-walwandeling",
-    "Zuidelijke kustgezichten",
-    "Privé luxe voertuig"
+    {
+      "title": "Zeeschildpaddenstation",
+      "description": "Bezoek een station aan de zuidkust: leer over bescherming en zie verschillende schildpaddensoorten."
+    },
+    {
+      "title": "Galle Dutch Fort",
+      "description": "UNESCO-werelderfgoed: koloniale wallen, vuurtorenlanen en indrukwekkend zeezicht."
+    },
+    {
+      "title": "Boottocht op de Bentota",
+      "description": "Een rustige vaartocht door mangrovekanalen, met watervogels en andere rivierfauna."
+    },
+    {
+      "title": "Tsunami Memorial",
+      "description": "Stop bij het memorial om te leren over de tsunami van 2004 en de impact op Sri Lanka."
+    },
+    {
+      "title": "Ophalen en terugbrengen naar het hotel",
+      "description": "Uw chauffeur-gids haalt u op bij het hotel — meestal Colombo, de westkust of een afgesproken punt — en brengt u ’s avonds terug."
+    }
   ],
   "included": [
-    "Privévoertuig met airconditioning",
-    "Engelssprekende chauffeursgids",
-    "Flessenwater"
+    "Privé airconditioned voertuig",
+    "Engelstalige professionele chauffeur",
+    "Ophalen en terugbrengen",
+    "Brandstof en parkeerkosten",
+    "24-uurs service",
+    "Gratis flessenwater"
   ],
   "excluded": [
-    "Toegangskaarten",
-    "Lunch",
-    "Persoonlijke uitgaven"
+    "Entreekosten",
+    "Lunch"
   ],
   "seo": {
-    "metaTitle": "Galle-dagtour | Privétour vanuit Colombo | Hoi Sri Lanka",
-    "metaDescription": "Boek een privé Galle-dagtour met Hai Sri Lanka. Bezoek Galle Fort, zuidelijke stranden en kusthoogtepunten met een lokale expert."
+    "metaTitle": "Galle-dagtocht | Fort, schildpadden, Bentota en memorial | Hai Sri Lanka",
+    "metaDescription": "Privé Galle-dagtocht: schildpaddenstation, UNESCO Galle Dutch Fort, boottocht Bentota en Tsunami Memorial. Hoteltransfer inbegrepen."
   },
   "itinerary": [
     {
-      "title": "Galle Fort en zuidkust",
-      "description": "Vertrek in de ochtend richting het zuiden, verken het UNESCO Galle Fort, boetiekstraten en schilderachtige oceaanranden voordat u comfortabel terugkeert."
+      "title": "Zuidkust: schildpadden, Bentota, memorial en Galle Fort",
+      "description": "Ochtendophalen en rit naar het zuiden. Schildpaddenstation, boot op de Bentota, Tsunami Memorial en UNESCO Galle Dutch Fort voor terugkeer in de avond."
     }
   ],
   "faqs": [

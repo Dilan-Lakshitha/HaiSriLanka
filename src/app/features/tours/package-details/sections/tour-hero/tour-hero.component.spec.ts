@@ -12,7 +12,7 @@ const tour = {
   description: 'Desc',
   duration: '1 Day',
   location: { name: 'Galle' },
-  price: { '1': 1, '2': 2, '3': 3, '4': 4, '5': 5 },
+  price: { '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6 },
   currency: 'USD',
   images: [{ src: '/assets/images/tours/galle-day-tour.webp', alt: 'Galle', width: 1400, height: 1050 }],
   itinerary: [],
@@ -22,7 +22,7 @@ const tour = {
   faq: [],
   seo: { metaTitle: 't', metaDescription: 'd', keywords: [] },
   status: 'published',
-} as Tour;
+} as unknown as Tour;
 
 describe('TourHeroComponent', () => {
   it('should create', async () => {

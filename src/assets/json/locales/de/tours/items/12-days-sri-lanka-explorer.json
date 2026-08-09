@@ -8,23 +8,36 @@
   "duration": "12 Tage / 11 Nächte",
   "travelStyle": "Tierwelt",
   "highlights": [
-    "Wilpattu & Minneriya / Kaudulla-Safaris",
-    "Sigiriya-, Pidurangala- und Trincomalee-Wale",
-    "Kandy-Kultur und Hochland-Tee-Land",
-    "Ella, Galle Fort und Bentota-Finale"
+    {
+      "title": "Wilpattu and dry-zone safaris",
+      "description": "Wild lakes at Wilpattu, then Minneriya or Kaudulla for elephants in the Cultural Triangle."
+    },
+    {
+      "title": "Sigiriya, Pidurangala and Trincomalee",
+      "description": "Rock fortresses then the east coast for dolphins, whales, and marine days."
+    },
+    {
+      "title": "Kandy culture and highland tea",
+      "description": "The Temple of the Tooth, lake city, and a slow climb into Nuwara Eliya and Ella."
+    },
+    {
+      "title": "Ella, Galle Fort and Bentota",
+      "description": "Hill viewpoints, then the south coast — fort walls, turtles, and a beach close before Colombo."
+    }
   ],
   "included": [
-    "Privater Transport / Privatfahrer",
-    "4-STERNE-Hotels",
-    "Tägliches Frühstück",
-    "Reiseleitung"
+    "Klimatisierter Privatwagen",
+    "Englischsprachiger professioneller Fahrer",
+    "Unterkunft und Mahlzeiten des Fahrers",
+    "Abholung und Rückfahrt",
+    "Kraftstoff und Parkgebühren",
+    "24-Stunden-Service",
+    "Kostenloses Flaschenwasser",
+    "4-Sterne-Hotel mit Halbpension"
   ],
   "excluded": [
-    "Internationale Flüge",
-    "Mittag- und Abendessen",
     "Eintrittsgelder",
-    "Safari-Jeep, Walbeobachtungsboot und Tauchen",
-    "Ayurveda-Massage"
+    "Mittagessen"
   ],
   "seo": {
     "metaTitle": "12-tägige Inselerkundung mit 4-STERNE-Hotels und privatem Transport | Hallo Sri Lanka",

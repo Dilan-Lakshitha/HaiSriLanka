@@ -19,6 +19,12 @@
       "featured": true
     },
     {
+      "slug": "ella-day-tour",
+      "category": "day",
+      "status": "published",
+      "featured": true
+    },
+    {
       "slug": "3-nights-4-days",
       "category": "multi-day",
       "status": "published",

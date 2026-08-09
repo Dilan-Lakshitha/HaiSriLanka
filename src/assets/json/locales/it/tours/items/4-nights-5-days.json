@@ -8,22 +8,36 @@
   "duration": "5 giorni / 4 notti",
   "travelStyle": "Cultura",
   "highlights": [
-    "Sigiriya/Pidurangala e villaggio o safari con gli elefanti",
-    "Dambulla, giardino delle spezie e danza culturale Kandy",
-    "Tempio del dente, paese del tè ed Ella",
-    "Viaggio in treno, safari a Yala e finale sulla costa meridionale"
+    {
+      "title": "Sigiriya or Pidurangala",
+      "description": "Climb Lion Rock or the quieter Pidurangala ridge, with village life or an elephant safari option in the Cultural Triangle."
+    },
+    {
+      "title": "Dambulla, spice and Kandy culture",
+      "description": "Cave temples, a spice garden stop, and a Kandyan cultural evening as you travel into the hill capital."
+    },
+    {
+      "title": "Temple of the Tooth, tea and Ella",
+      "description": "Sacred Kandy, tea-country roads, and arrival in Ella’s cool highlands."
+    },
+    {
+      "title": "Train, Yala and the south coast",
+      "description": "A scenic rail segment, Yala safari, then Mirissa, Galle Fort, and Bentota to close the circuit."
+    }
   ],
   "included": [
-    "Trasporto privato/autista privato",
-    "Alberghi 4 STELLE",
-    "Colazione quotidiana",
-    "Servizio guida"
+    "Veicolo privato climatizzato",
+    "Autista professionista di lingua inglese",
+    "Alloggio e pasti dell'autista",
+    "Ritiro e ritorno",
+    "Carburante e parcheggio",
+    "Servizio 24 ore",
+    "Acqua in bottiglia in omaggio",
+    "Hotel 4 stelle in mezza pensione"
   ],
   "excluded": [
-    "Voli internazionali",
-    "Pranzo e cena",
     "Biglietti d'ingresso",
-    "Jeep safari e barca per l'osservazione delle balene"
+    "Pranzo"
   ],
   "seo": {
     "metaTitle": "Triangolo di 5 giorni verso la costa con hotel a 4 stelle e trasporti privati ​​| Hai Sri Lanka",

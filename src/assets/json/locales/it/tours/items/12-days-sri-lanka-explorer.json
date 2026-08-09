@@ -8,23 +8,36 @@
   "duration": "12 giorni / 11 notti",
   "travelStyle": "Animali selvatici",
   "highlights": [
-    "Safari a Wilpattu e Minneriya/Kaudulla",
-    "Balene di Sigiriya, Pidurangala e Trincomalee",
-    "Cultura Kandy e paese del tè degli altipiani",
-    "Finale di Ella, Galle Fort e Bentota"
+    {
+      "title": "Wilpattu and dry-zone safaris",
+      "description": "Wild lakes at Wilpattu, then Minneriya or Kaudulla for elephants in the Cultural Triangle."
+    },
+    {
+      "title": "Sigiriya, Pidurangala and Trincomalee",
+      "description": "Rock fortresses then the east coast for dolphins, whales, and marine days."
+    },
+    {
+      "title": "Kandy culture and highland tea",
+      "description": "The Temple of the Tooth, lake city, and a slow climb into Nuwara Eliya and Ella."
+    },
+    {
+      "title": "Ella, Galle Fort and Bentota",
+      "description": "Hill viewpoints, then the south coast — fort walls, turtles, and a beach close before Colombo."
+    }
   ],
   "included": [
-    "Trasporto privato/autista privato",
-    "Alberghi 4 STELLE",
-    "Colazione quotidiana",
-    "Servizio guida"
+    "Veicolo privato climatizzato",
+    "Autista professionista di lingua inglese",
+    "Alloggio e pasti dell'autista",
+    "Ritiro e ritorno",
+    "Carburante e parcheggio",
+    "Servizio 24 ore",
+    "Acqua in bottiglia in omaggio",
+    "Hotel 4 stelle in mezza pensione"
   ],
   "excluded": [
-    "Voli internazionali",
-    "Pranzo e cena",
     "Biglietti d'ingresso",
-    "Jeep safari, barca per l'osservazione delle balene e immersioni",
-    "Massaggio ayurvedico"
+    "Pranzo"
   ],
   "seo": {
     "metaTitle": "Esploratore dell'isola di 12 giorni con hotel a 4 stelle e trasporto privato | Hai Sri Lanka",

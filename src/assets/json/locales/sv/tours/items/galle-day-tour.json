@@ -1,35 +1,54 @@
 {
   "title": "Galle dagstur",
-  "seoTitle": "Galle Day Tour | Privat rundtur från Colombo | Hai Sri Lanka",
-  "metaDescription": "Boka en privat Galle-dagstur med Hai Sri Lanka. Besök Galle Fort, södra stränder och kusthöjdpunkter med en lokal expert.",
-  "shortDescription": "Utforska Galle Fort, stränder och södra kustarvet på en privat dag.",
-  "overview": "En privat dag längs Sri Lankas sydkust till UNESCO-listade Galle Dutch Fort. Gå på vallarna, utforska koloniala gator, butiker och kaféer och njut av vidsträckt havsutsikt från ett av Asiens bäst bevarade fort.\nValfria kuststopp kan inkludera synpunkter från styltfiskare och närliggande stränder innan din bekväma returtransfer - takt för kultur, foton och en avslappnad sydländsk atmosfär.",
-  "description": "En privat dag längs Sri Lankas sydkust till UNESCO-listade Galle Dutch Fort. Gå på vallarna, utforska koloniala gator, butiker och kaféer och njut av vidsträckt havsutsikt från ett av Asiens bäst bevarade fort.\nValfria kuststopp kan inkludera synpunkter från styltfiskare och närliggande stränder innan din bekväma returtransfer - takt för kultur, foton och en avslappnad sydländsk atmosfär.",
+  "seoTitle": "Galle-dagsutflykt | Fort, sköldpaddor, Bentota och memorial | Hai Sri Lanka",
+  "metaDescription": "Privat Galle-dagsutflykt: sköldpaddsstation, UNESCO Galle Dutch Fort, båttur på Bentota och Tsunami Memorial. Hotelhämtning ingår.",
+  "shortDescription": "Privat dag på sydkusten: sköldpaddsstation, Galle Dutch Fort, båttur på Bentota och Tsunami Memorial.",
+  "overview": "En privat heldag längs Sri Lankas sydkust med fyra stopp. Besök en havssköldpaddsstation och lär er om bevarande och olika arter, sedan UNESCO Galle Dutch Fort — kolonial historia och havsutsikt.\nPå samma rutt: båttur på Bentotafloden genom mangroveträsk och en paus vid Tsunami Memorial om 2004. Er chaufförguide håller dagen flexibel.",
+  "description": "En privat heldag längs Sri Lankas sydkust med fyra stopp. Besök en havssköldpaddsstation och lär er om bevarande och olika arter, sedan UNESCO Galle Dutch Fort — kolonial historia och havsutsikt.\nPå samma rutt: båttur på Bentotafloden genom mangroveträsk och en paus vid Tsunami Memorial om 2004. Er chaufförguide håller dagen flexibel.",
   "duration": "1 dag",
   "travelStyle": "Privat dagsresa",
   "highlights": [
-    "Galle Fort vall promenad",
-    "Södra kustnära utsiktsplatser",
-    "Privat lyxbil"
+    {
+      "title": "Havssköldpaddsstation",
+      "description": "Besök en station på sydkusten: lär er om bevarande och se olika sköldpaddsarter."
+    },
+    {
+      "title": "Galle Dutch Fort",
+      "description": "UNESCO-världsarv: koloniala vallar, fyrgator och magnifik havsutsikt."
+    },
+    {
+      "title": "Båttur på Bentotafloden",
+      "description": "En lugn tur genom mangrovekanaler, med chans till vattenfåglar och annan flodfauna."
+    },
+    {
+      "title": "Tsunami Memorial",
+      "description": "Stopp vid memorialet för att lära er om tsunamin 2004 och dess påverkan på Sri Lanka."
+    },
+    {
+      "title": "Hämtning och återresa till hotellet",
+      "description": "Er chaufförguide hämtar er på hotellet — oftast Colombo, västkusten eller en överenskommen plats — och kör tillbaka på kvällen."
+    }
   ],
   "included": [
     "Privat luftkonditionerat fordon",
-    "Engelsktalande chaufförsguide",
-    "Vatten på flaska"
+    "Engelsktalande professionell chaufför",
+    "Hämtning och avlämning",
+    "Bränsle och parkeringsavgifter",
+    "Service dygnet runt",
+    "Gratis flaskvatten"
   ],
   "excluded": [
-    "Inträdesbiljetter",
-    "Lunch",
-    "Personliga utgifter"
+    "Entréavgifter",
+    "Lunch"
   ],
   "seo": {
-    "metaTitle": "Galle Day Tour | Privat rundtur från Colombo | Hai Sri Lanka",
-    "metaDescription": "Boka en privat Galle-dagstur med Hai Sri Lanka. Besök Galle Fort, södra stränder och kusthöjdpunkter med en lokal expert."
+    "metaTitle": "Galle-dagsutflykt | Fort, sköldpaddor, Bentota och memorial | Hai Sri Lanka",
+    "metaDescription": "Privat Galle-dagsutflykt: sköldpaddsstation, UNESCO Galle Dutch Fort, båttur på Bentota och Tsunami Memorial. Hotelhämtning ingår."
   },
   "itinerary": [
     {
-      "title": "Galle Fort och södra kusten",
-      "description": "Morgonavgång mot söder, utforska UNESCO Galle Fort, boutiquegator och natursköna havsmarginaler innan en bekväm återkomst."
+      "title": "Sydkusten: sköldpaddor, Bentota, memorial och Galle Fort",
+      "description": "Morgonhämtning och resa söderut. Sköldpaddsstation, båt på Bentota, Tsunami Memorial och UNESCO Galle Dutch Fort före återresa på kvällen."
     }
   ],
   "faqs": [

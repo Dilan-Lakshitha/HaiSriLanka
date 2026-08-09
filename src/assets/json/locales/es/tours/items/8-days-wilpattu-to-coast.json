@@ -8,24 +8,36 @@
   "duration": "8 Días / 7 Noches",
   "travelStyle": "Fauna",
   "highlights": [
-    "Safaris en jeep por Wilpattu y Kaudulla",
-    "Roca de Sigiriya, Pidurangala y Dambulla",
-    "Cultura de Kandy, colinas de té y vistas de Ella",
-    "Ballenas/tortugas de Mirissa y final del Fuerte Galle"
+    {
+      "title": "Wilpattu and Kaudulla safaris",
+      "description": "Quieter lake-forest jeep days for leopards and elephants, then Cultural Triangle wildlife at Kaudulla."
+    },
+    {
+      "title": "Sigiriya, Pidurangala and Dambulla",
+      "description": "Rock climbs and golden cave temples with village time around Habarana and Sigiriya."
+    },
+    {
+      "title": "Kandy, tea hills and Ella",
+      "description": "Sacred temple culture, highland tea, Nine Arches, Little Adam’s Peak, and Ravana Falls."
+    },
+    {
+      "title": "Mirissa, turtles and Galle Fort",
+      "description": "Whales or turtles, kayaking, then a south-coast close at Galle Fort and Madu River."
+    }
   ],
   "included": [
-    "Transporte privado / conductor privado",
-    "Hoteles de 4 ESTRELLAS",
-    "Desayuno diario",
-    "Cena (días 1 a 7)",
-    "Servicio de guía"
+    "Vehículo privado con aire acondicionado",
+    "Conductor profesional de habla inglesa",
+    "Alojamiento y comidas del conductor",
+    "Recogida y regreso",
+    "Combustible y aparcamiento",
+    "Servicio 24 horas",
+    "Agua embotellada de cortesía",
+    "Hotel 4 estrellas en media pensión"
   ],
   "excluded": [
-    "Vuelos internacionales",
-    "Almuerzo",
-    "Tarifas de entrada",
-    "Jeep safari y barco para avistar ballenas",
-    "Tratamientos de spa ayurvédicos"
+    "Entradas",
+    "Almuerzo"
   ],
   "seo": {
     "metaTitle": "8 días de Wilpattu a la costa con hoteles de 4 ESTRELLAS y transporte privado | hai sri lanka",

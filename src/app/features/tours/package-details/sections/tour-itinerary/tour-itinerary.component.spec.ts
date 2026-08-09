@@ -12,7 +12,6 @@ describe('TourItineraryComponent', () => {
         description: 'Coast day',
         locations: ['Galle Fort'],
         travelTime: '3 hrs',
-        meals: ['Lunch'],
         highlights: ['Ramparts'],
         images: [{ src: '/assets/images/destinations/galle.webp', alt: 'Galle' }],
       },

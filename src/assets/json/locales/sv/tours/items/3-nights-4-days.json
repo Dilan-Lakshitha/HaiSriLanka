@@ -8,22 +8,36 @@
   "duration": "4 dagar / 3 nätter",
   "travelStyle": "Kultur",
   "highlights": [
-    "Pinnawala & Kandy kulturkväll",
-    "Temple of the Tooth & te Factory",
-    "Vacker tågresa och Yala-safari",
-    "Valskådning, Galle Fort & Bentota"
+    {
+      "title": "Pinnawala and Kandy evening",
+      "description": "A cultural first day toward the hills, with time for Pinnawala and a Kandy evening of lake views and a traditional dance show."
+    },
+    {
+      "title": "Temple of the Tooth and tea country",
+      "description": "Visit the sacred temple in Kandy, then climb into tea estates and highland scenery on the way toward Ella."
+    },
+    {
+      "title": "Scenic train and Yala safari",
+      "description": "A hill-country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
+    },
+    {
+      "title": "South-coast finale",
+      "description": "Mirissa whale watching, Galle Fort, a turtle hatchery, and Bentota before your hotel or airport drop."
+    }
   ],
   "included": [
-    "Privat transport / privat chaufför",
-    "4-STjärniga hotell",
-    "Daglig frukost",
-    "Guideservice"
+    "Privat luftkonditionerat fordon",
+    "Engelsktalande professionell chaufför",
+    "Chaufförens boende och måltider",
+    "Hämtning och avlämning",
+    "Bränsle och parkeringsavgifter",
+    "Service dygnet runt",
+    "Gratis flaskvatten",
+    "4-stjärnigt hotell med halvpension"
   ],
   "excluded": [
-    "Internationella flyg",
-    "Lunch & middag",
-    "Inträdesavgifter",
-    "Safarijeep och valskådningsbåt"
+    "Entréavgifter",
+    "Lunch"
   ],
   "seo": {
     "metaTitle": "4-dagars Ceylon Escape med 4-STJÄRNISKA hotell och privat transport | Hai Sri Lanka",

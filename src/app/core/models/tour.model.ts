@@ -24,6 +24,22 @@ export interface FaqItem {
   answer: string;
 }
 
+/** Highlight card: short title plus optional explanation */
+export interface TourHighlight {
+  title: string;
+  description?: string;
+}
+
+export type TourHighlightItem = string | TourHighlight;
+
+export function highlightTitle(item: TourHighlightItem): string {
+  return typeof item === 'string' ? item : item.title;
+}
+
+export function highlightDescription(item: TourHighlightItem): string {
+  return typeof item === 'string' ? '' : item.description?.trim() || '';
+}
+
 export interface GeoPoint {
   lat: number;
   lng: number;
@@ -55,12 +71,13 @@ export interface RatingSummary {
   count: number;
 }
 
-export type PersonCountKey = '1' | '2' | '3' | '4' | '5';
+export type PricedTravelerCount = 1 | 2 | 3 | 4 | 5 | 6;
+export type PersonCountKey = `${PricedTravelerCount}`;
 export type PersonPricing = Record<PersonCountKey, number>;
 
 /** Primary pricing contract — editable in tour JSON */
 export interface TourPricingTier {
-  travelers: 1 | 2 | 3 | 4 | 5;
+  travelers: PricedTravelerCount;
   pricePerPerson: number;
 }
 
@@ -108,7 +125,7 @@ export interface Tour {
   duration: string;
   destinations: string[];
   travelStyle: string;
-  highlights: string[];
+  highlights: TourHighlightItem[];
   included: string[];
   excluded: string[];
   itinerary: ItineraryDay[];
@@ -184,7 +201,7 @@ export const TOUR_BADGE_LABELS: Record<TourBadge, string> = {
 
 /** Build PersonPricing map from pricing[] for PricingService */
 export function pricingToMap(pricing: TourPricingTier[]): PersonPricing {
-  const map = { '1': 0, '2': 0, '3': 0, '4': 0, '5': 0 } as PersonPricing;
+  const map = { '1': 0, '2': 0, '3': 0, '4': 0, '5': 0, '6': 0 } as PersonPricing;
   for (const tier of pricing) {
     map[String(tier.travelers) as PersonCountKey] = tier.pricePerPerson;
   }
@@ -209,7 +226,14 @@ export function tourHero(tour: Tour): ImageAsset {
 }
 
 export function tourGallery(tour: Tour): ImageAsset[] {
-  return tour.gallery?.length ? tour.gallery : tour.images ?? [];
+  const list = tour.gallery?.length ? tour.gallery : tour.images ?? [];
+  const seen = new Set<string>();
+  return list.filter((img) => {
+    const key = (img.src || '').split('?')[0];
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 export function tourFaqs(tour: Tour): FaqItem[] {

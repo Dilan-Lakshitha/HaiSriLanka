@@ -1,33 +1,62 @@
 {
-  "title": "Kandy Однодневный тур",
-  "seoTitle": "Kandy Однодневный тур | Hai Sri Lanka",
-  "metaDescription": "Private Kandy Однодневный тур with Temple of the Tooth and highland scenery.",
-  "shortDescription": "Temple of the Tooth, scenic hills, and the cultural heart of the highlands.",
-  "overview": "A private day into Sri Lanka's hill capital, centred on the Temple of the Sacred Tooth Relic — one of the island's most important Buddhist sites. Explore the temple complex, observe local devotion, and soak in the lakeside setting of Kandy.\nEnjoy panoramic viewpoints over the city and surrounding hills, with optional time at the Royal Botanical Gardens or other highland highlights. Your chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right.",
-  "description": "A private day into Sri Lanka's hill capital, centred on the Temple of the Sacred Tooth Relic — one of the island's most important Buddhist sites. Explore the temple complex, observe local devotion, and soak in the lakeside setting of Kandy.\nEnjoy panoramic viewpoints over the city and surrounding hills, with optional time at the Royal Botanical Gardens or other highland highlights. Your chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right.",
-  "duration": "1 дней",
-  "travelStyle": "Culture",
+  "title": "Однодневный тур в Канди",
+  "seoTitle": "Тур в Канди | Храм, сады, чай и Пиннавала | Hai Sri Lanka",
+  "metaDescription": "Частный тур в Канди: Храм Зуба или Неллигала, ботанический сад Перадения, чайная фабрика, слоны Пиннавалы, сад специй и мастерская батика.",
+  "shortDescription": "Храм Зуба или Неллигала, сад Перадения, чайная фабрика, слоны Пиннавалы, сад специй и батик.",
+  "overview": "Частный день в горной столице Шри-Ланки: культура, сады, чай и слоны. Выберите Храм священной реликвии Зуба или храм Неллигала, затем Национальный ботанический сад в Перадении, чайную плантацию и фабрику, приют слонов в Пиннавале или активность в слоновьем парке, цейлонский аюрведический сад трав и специй и фабрику батика и сари.\nВодитель-гид держит день гибким. Входные билеты и обед не включены.",
+  "description": "Частный день в горной столице Шри-Ланки: культура, сады, чай и слоны. Выберите Храм священной реликвии Зуба или храм Неллигала, затем Национальный ботанический сад в Перадении, чайную плантацию и фабрику, приют слонов в Пиннавале или активность в слоновьем парке, цейлонский аюрведический сад трав и специй и фабрику батика и сари.\nВодитель-гид держит день гибким. Входные билеты и обед не включены.",
+  "duration": "1 день",
+  "travelStyle": "Частная однодневная поездка",
   "highlights": [
-    "Temple of the Tooth",
-    "Lakeside city views",
-    "Highland gateway scenery"
+    {
+      "title": "Храм Зуба или храм Неллигала",
+      "description": "Посетите Храм священной реликвии Зуба в Канди — одно из важнейших буддийских мест Шри-Ланки — или храм Неллигала: более тихое святилище на холме и вид на долину. Сообщите предпочтение при бронировании."
+    },
+    {
+      "title": "Ботанический сад Перадения",
+      "description": "Прогулка по Национальному ботаническому саду в Перадении: королевские пальмы, орхидеи, гигантские фикусы и лужайки у реки. Вход оплачивается на месте и не включён."
+    },
+    {
+      "title": "Чайная плантация и фабрика",
+      "description": "Прогулка по высокогорной чайной усадьбе и визит на действующую фабрику: сбор, обработка и дегустация цейлонского чая."
+    },
+    {
+      "title": "Приют слонов в Пиннавале",
+      "description": "Посетите Пиннавалу во время кормления или купания в реке либо выберите активность в ближайшем слоновьем парке. Билеты и дополнительные занятия оплачиваются отдельно."
+    },
+    {
+      "title": "Цейлонский аюрведический сад трав и специй",
+      "description": "Экскурсия по саду трав и специй: корица, перец, какао и традиционные лекарственные растения, с короткой дегустацией или демонстрацией."
+    },
+    {
+      "title": "Цейлонская фабрика батика и сари",
+      "description": "Мастера в мастерской батика и сари: восковая роспись, ручной ткацкий станок и готовые ткани. Покупки по желанию."
+    },
+    {
+      "title": "Трансфер из отеля и обратно",
+      "description": "Водитель-гид забирает вас из отеля — обычно Коломбо, западное побережье или согласованная точка — и возвращает вечером."
+    }
   ],
   "included": [
-    "Private vehicle",
-    "Chauffeur guide"
+    "Частный автомобиль с кондиционером",
+    "Англоговорящий профессиональный водитель",
+    "Трансфер туда и обратно",
+    "Топливо и парковка",
+    "Сервис 24 часа",
+    "Бесплатная бутилированная вода"
   ],
   "excluded": [
-    "Entrance tickets",
-    "Lunch"
+    "Входные билеты",
+    "Обед"
   ],
   "seo": {
-    "metaTitle": "Kandy Однодневный тур | Hai Sri Lanka",
-    "metaDescription": "Private Kandy Однодневный тур with Temple of the Tooth and highland scenery."
+    "metaTitle": "Тур в Канди | Храм, сады, чай и Пиннавала | Hai Sri Lanka",
+    "metaDescription": "Частный тур в Канди: Храм Зуба или Неллигала, ботанический сад Перадения, чайная фабрика, слоны Пиннавалы, сад специй и мастерская батика."
   },
   "itinerary": [
     {
-      "title": "Sacred Kandy",
-      "description": "A private cultural day focused on the Temple of the Tooth Relic and the calm lakeside atmosphere of Kandy."
+      "title": "Канди: культура, сады, чай и слоны",
+      "description": "Утренний трансфер из отеля и частный маршрут: Пиннавала или слоновий парк, сад специй, чайная плантация и фабрика, ботанический сад Перадения, Храм Зуба или Неллигала и мастерская батика и сари. Вечером возвращение в отель."
     }
   ],
   "faqs": []

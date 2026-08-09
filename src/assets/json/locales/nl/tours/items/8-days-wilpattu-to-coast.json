@@ -8,24 +8,36 @@
   "duration": "8 dagen / 7 nachten",
   "travelStyle": "Dieren in het wild",
   "highlights": [
-    "Wilpattu & Kaudulla jeepsafari's",
-    "Sigiriya-rots, Pidurangala en Dambulla",
-    "Kandy-cultuur, theeheuvels en uitzicht op Ella",
-    "Mirissa walvissen/schildpadden en finale van Galle Fort"
+    {
+      "title": "Wilpattu and Kaudulla safaris",
+      "description": "Quieter lake-forest jeep days for leopards and elephants, then Cultural Triangle wildlife at Kaudulla."
+    },
+    {
+      "title": "Sigiriya, Pidurangala and Dambulla",
+      "description": "Rock climbs and golden cave temples with village time around Habarana and Sigiriya."
+    },
+    {
+      "title": "Kandy, tea hills and Ella",
+      "description": "Sacred temple culture, highland tea, Nine Arches, Little Adam’s Peak, and Ravana Falls."
+    },
+    {
+      "title": "Mirissa, turtles and Galle Fort",
+      "description": "Whales or turtles, kayaking, then a south-coast close at Galle Fort and Madu River."
+    }
   ],
   "included": [
-    "Privévervoer/privéchauffeur",
-    "4-sterrenhotels",
-    "Dagelijks ontbijt",
-    "Diner (dagen 1–7)",
-    "Gids dienst"
+    "Privé airconditioned voertuig",
+    "Engelstalige professionele chauffeur",
+    "Verblijf en maaltijden van de chauffeur",
+    "Ophalen en terugbrengen",
+    "Brandstof en parkeerkosten",
+    "24-uurs service",
+    "Gratis flessenwater",
+    "4-sterrenhotel met halfpension"
   ],
   "excluded": [
-    "Internationale vluchten",
-    "Lunch",
-    "Toegangsprijzen",
-    "Safari-jeep en boot om walvissen te spotten",
-    "Ayurveda-spabehandelingen"
+    "Entreekosten",
+    "Lunch"
   ],
   "seo": {
     "metaTitle": "8-daagse Wilpattu naar de kust met 4-sterrenhotels en privévervoer | Hoi Sri Lanka",

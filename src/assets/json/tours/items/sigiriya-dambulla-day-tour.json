@@ -3,40 +3,62 @@
   "slug": "sigiriya-dambulla-day-tour",
   "category": "day",
   "title": "Sigiriya & Dambulla Day Tour",
-  "seoTitle": "Sigiriya & Dambulla Day Tour | Hai Sri Lanka",
-  "metaDescription": "Private Sigiriya and Dambulla day tour from Colombo with Hai Sri Lanka Tours.",
-  "shortDescription": "Climb Lion Rock and visit the golden cave temples on a private Cultural Triangle day.",
-  "overview": "A private Cultural Triangle day built around two of Sri Lanka's greatest landmarks: the climb of Sigiriya Rock Fortress and a visit to the golden cave temples of Dambulla.\nTravel scenic countryside roads with generous pacing, time for photos, and space to appreciate ancient water gardens, frescoes, and panoramic summit views before your return journey.",
+  "seoTitle": "Sigiriya & Dambulla Day Tour | Lion Rock, Caves & Habarana | Hai Sri Lanka",
+  "metaDescription": "Private Cultural Triangle day: climb Sigiriya Lion Rock, Dambulla Cave Temple and Golden Buddha, Habarana village safari, and elephant safari at the eco park.",
+  "shortDescription": "Sigiriya Lion Rock, Dambulla Cave Temple and Golden Buddha, Habarana village safari, and Habarana elephant safari at the eco park.",
+  "overview": "A private full-day journey into Sri Lanka’s Cultural Triangle. Climb Sigiriya Lion Rock, visit Dambulla Cave Temple and the Golden Buddha statue, join a Habarana village safari, and take a Habarana elephant safari at the eco park.\nYour chauffeur guide keeps the day flexible for photos and rest. Entrance fees and lunch are not included.",
   "duration": "1 Day",
   "destinations": [
     "Sigiriya",
-    "Sigiriya",
+    "Dambulla",
+    "Habarana",
     "Central Province"
   ],
-  "travelStyle": "Culture",
+  "travelStyle": "Private Day Journey",
   "highlights": [
-    "Sigiriya Lion Rock",
-    "Dambulla Cave Temple",
-    "Cultural Triangle landscapes"
+    {
+      "title": "Sigiriya Lion Rock",
+      "description": "Climb Sigiriya Lion Rock — water gardens, frescoes, and a summit panorama over the Cultural Triangle. Private pace with time for photos and rest. Entrance is paid on site and is not included."
+    },
+    {
+      "title": "Dambulla Cave Temple & Golden Buddha",
+      "description": "Visit Dambulla Cave Temple and the Golden Buddha statue: ancient murals, cave shrines, and the giant seated Buddha above the hillside entrance."
+    },
+    {
+      "title": "Habarana Village Safari",
+      "description": "A Habarana village safari through countryside lanes, rice fields, and local life — a slower look at rural Sri Lanka between the main sites."
+    },
+    {
+      "title": "Habarana Elephant Safari (Eco Park)",
+      "description": "Habarana elephant safari at the eco park — typically Minneriya, Kaudulla, or Hurulu Eco Park depending on the season. Park tickets are extra and not included."
+    },
+    {
+      "title": "Private hotel pickup and drop-off",
+      "description": "Your chauffeur guide collects you from your hotel — typically Colombo, the west coast, or an agreed point — and returns you in the evening. Tell us your hotel when you book so we confirm pickup."
+    }
   ],
   "included": [
-    "Private vehicle",
-    "Chauffeur guide",
-    "Bottled water"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water"
   ],
   "excluded": [
     "Entrance fees",
-    "Meals"
+    "Lunch"
   ],
   "itinerary": [
     {
       "day": 1,
-      "title": "Sigiriya & Dambulla",
-      "description": "Travel into the Cultural Triangle for Sigiriya Rock Fortress and the golden cave temples of Dambulla with expert pacing.",
+      "title": "Sigiriya, Dambulla & Habarana",
+      "description": "Morning hotel pickup, then a private Cultural Triangle day: climb Sigiriya Lion Rock, visit Dambulla Cave Temple and the Golden Buddha, enjoy a Habarana village safari, and join a Habarana elephant safari at the eco park. Evening return to your hotel.",
       "highlights": [
-        "Sunrise-friendly timing",
-        "Guided fortress ascent",
-        "Cave temple visit"
+        "Sigiriya Lion Rock — climb the fortress",
+        "Dambulla Cave Temple & Golden Buddha",
+        "Habarana village safari",
+        "Habarana elephant safari at the eco park"
       ],
       "location": {
         "name": "Sigiriya",
@@ -51,20 +73,17 @@
           "src": "/assets/images/tours/guest-experiences/dambulla-golden-temple.png",
           "alt": "Travelers at the Golden Temple in Dambulla",
           "title": "Dambulla",
-          "width": 1200,
-          "height": 900
+          "width": 1024,
+          "height": 768
         }
-      ],
-      "meals": [
-        "Lunch opportunity"
       ],
       "locations": [
         "Sigiriya",
-        "Central Province"
+        "Dambulla",
+        "Habarana"
       ],
-      "travelTime": "Private road transfer · flexible pacing",
       "optionalActivities": [
-        "Optional: deepen the day with sunrise-friendly timing"
+        "Optional: extra time at Sigiriya water gardens or a café stop in Habarana"
       ]
     }
   ],
@@ -73,29 +92,34 @@
   "pricing": [
     {
       "travelers": 1,
-      "pricePerPerson": 620
+      "pricePerPerson": 280
     },
     {
       "travelers": 2,
-      "pricePerPerson": 460
+      "pricePerPerson": 170
     },
     {
       "travelers": 3,
-      "pricePerPerson": 420
+      "pricePerPerson": 126.6666666667
     },
     {
       "travelers": 4,
-      "pricePerPerson": 390
+      "pricePerPerson": 100
     },
     {
       "travelers": 5,
-      "pricePerPerson": 360
+      "pricePerPerson": 83
+    },
+    {
+      "travelers": 6,
+      "pricePerPerson": 70.8333333333
     }
   ],
   "currency": "USD",
   "relatedTours": [
     "galle-day-tour",
-    "kandy-day-tour"
+    "kandy-day-tour",
+    "ella-day-tour"
   ],
   "badges": [
     "best-seller",
@@ -107,31 +131,42 @@
     "day",
     "sigiriya",
     "dambulla",
-    "cultural"
+    "habarana",
+    "wildlife"
   ],
   "route": [
+    {
+      "name": "Dambulla"
+    },
     {
       "name": "Sigiriya"
     },
     {
-      "name": "Central Province"
+      "name": "Habarana"
     }
   ],
   "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.957,80.7603",
   "heroImage": {
-    "src": "/assets/images/tours/sigiriya-dambulla-day-tour/hero.webp",
-    "alt": "Sigiriya Rock Fortress on a Cultural Triangle day tour",
+    "src": "/assets/images/tours/sigiriya-day-tour.jpg",
+    "alt": "Sigiriya Lion Rock Fortress on a Cultural Triangle day tour",
     "title": "Sigiriya Day Tour",
-    "width": 1400,
-    "height": 1050
+    "width": 669,
+    "height": 446
   },
   "gallery": [
     {
-      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
-      "alt": "Guests on a mangrove boat safari in Sri Lanka",
-      "title": "Mangrove boat safari",
-      "width": 1600,
-      "height": 1200
+      "src": "/assets/images/tours/sigiriya-day-tour.jpg",
+      "alt": "Sigiriya Lion Rock Fortress rising above the jungle",
+      "title": "Sigiriya Lion Rock",
+      "width": 669,
+      "height": 446
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/dambulla-golden-temple.png",
+      "alt": "Guests at Dambulla Golden Temple and the giant Buddha statue",
+      "title": "Dambulla Cave Temple & Golden Buddha",
+      "width": 1024,
+      "height": 768
     },
     {
       "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
@@ -141,39 +176,18 @@
       "height": 1200
     },
     {
-      "src": "/assets/images/tours/guest-experiences/dambulla-golden-temple.png",
-      "alt": "Travelers at the Golden Temple in Dambulla",
-      "title": "Golden Temple Dambulla",
-      "width": 1600,
-      "height": 1200
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
-      "alt": "Guests and guide smiling in a tuk-tuk",
-      "title": "Tuk-tuk moments",
-      "width": 1200,
-      "height": 1200
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/elephant-bathing-guests.png",
-      "alt": "Guests bathing an elephant in a river",
-      "title": "Elephant bathing",
+      "src": "/assets/images/tours/sigiriya-dambulla-day-tour/gallery-02.webp",
+      "alt": "Habarana village safari by traditional bullock cart",
+      "title": "Habarana Village Safari",
       "width": 1200,
       "height": 1600
     },
     {
-      "src": "/assets/images/tours/guest-experiences/elephant-at-sigiriya.webp",
-      "alt": "Guests riding an elephant near Sigiriya Rock",
-      "title": "Sigiriya elephant experience",
-      "width": 1200,
-      "height": 1600
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/elephant-ride-forest.png",
-      "alt": "Couple on an elephant ride near Sigiriya",
-      "title": "Forest elephant ride",
-      "width": 1200,
-      "height": 1600
+      "src": "/assets/images/tours/guest-experiences/safari-elephant-herd.png",
+      "alt": "Wild elephants on a Habarana eco park safari",
+      "title": "Habarana Elephant Safari",
+      "width": 960,
+      "height": 960
     }
   ],
   "rating": {
@@ -181,17 +195,20 @@
     "count": 96
   },
   "seo": {
-    "metaTitle": "Sigiriya & Dambulla Day Tour | Hai Sri Lanka",
-    "metaDescription": "Private Sigiriya and Dambulla day tour from Colombo with Hai Sri Lanka Tours.",
+    "metaTitle": "Sigiriya & Dambulla Day Tour | Lion Rock, Caves & Habarana | Hai Sri Lanka",
+    "metaDescription": "Private Cultural Triangle day: climb Sigiriya Lion Rock, Dambulla Cave Temple and Golden Buddha, Habarana village safari, and elephant safari at the eco park.",
     "keywords": [
       "Sigiriya day tour",
-      "Dambulla tour",
+      "Dambulla Cave Temple",
+      "Golden Buddha",
+      "Habarana village safari",
+      "Habarana elephant safari",
       "Cultural Triangle"
     ],
-    "ogImage": "/assets/images/tours/sigiriya-dambulla-day-tour/hero.webp"
+    "ogImage": "/assets/images/tours/sigiriya-day-tour.jpg"
   },
   "status": "published",
-  "description": "A private Cultural Triangle day built around two of Sri Lanka's greatest landmarks: the climb of Sigiriya Rock Fortress and a visit to the golden cave temples of Dambulla.\nTravel scenic countryside roads with generous pacing, time for photos, and space to appreciate ancient water gardens, frescoes, and panoramic summit views before your return journey.",
+  "description": "A private full-day journey into Sri Lanka’s Cultural Triangle. Climb Sigiriya Lion Rock, visit Dambulla Cave Temple and the Golden Buddha statue, join a Habarana village safari, and take a Habarana elephant safari at the eco park.\nYour chauffeur guide keeps the day flexible for photos and rest. Entrance fees and lunch are not included.",
   "location": {
     "name": "Sigiriya",
     "region": "Central Province",
@@ -201,34 +218,39 @@
     }
   },
   "price": {
-    "1": 620,
-    "2": 460,
-    "3": 420,
-    "4": 390,
-    "5": 360
+    "1": 280,
+    "2": 170,
+    "3": 126.6666666667,
+    "4": 100,
+    "5": 83,
+    "6": 70.8333333333
   },
   "images": [
     {
-      "src": "/assets/images/tours/sigiriya-dambulla-day-tour/hero.webp",
-      "alt": "Sigiriya & Dambulla Day Tour",
+      "src": "/assets/images/tours/sigiriya-day-tour.jpg",
+      "alt": "Sigiriya Lion Rock Fortress",
       "title": "Sigiriya & Dambulla Day Tour",
-      "width": 1600,
-      "height": 1067
+      "width": 669,
+      "height": 446
     }
   ],
   "includes": [
-    "Private vehicle",
-    "Chauffeur guide",
-    "Bottled water"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water"
   ],
   "excludes": [
     "Entrance fees",
-    "Meals"
+    "Lunch"
   ],
   "faq": [],
   "relatedTourSlugs": [
     "galle-day-tour",
-    "kandy-day-tour"
+    "kandy-day-tour",
+    "ella-day-tour"
   ],
   "featured": true,
   "bestSeller": true

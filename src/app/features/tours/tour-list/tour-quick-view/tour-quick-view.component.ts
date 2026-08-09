@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, input, output } from '@angular/core';
 import { CurrencyPipe, NgOptimizedImage } from '@angular/common';
 import { RouterLink } from '@angular/router';
-import type { Tour } from '../../../../core/models/tour.model';
-import { tourHero, tourPriceMap } from '../../../../core/models/tour.model';
+import type { Tour, TourHighlightItem } from '../../../../core/models/tour.model';
+import { highlightTitle, tourHero, tourPriceMap } from '../../../../core/models/tour.model';
 import { UiButtonComponent } from '../../../../shared/ui/button/ui-button.component';
 
 @Component({
@@ -25,5 +25,9 @@ export class TourQuickViewComponent {
 
   fromPrice(): number {
     return tourPriceMap(this.tour())['2'];
+  }
+
+  titleOf(item: TourHighlightItem): string {
+    return highlightTitle(item);
   }
 }

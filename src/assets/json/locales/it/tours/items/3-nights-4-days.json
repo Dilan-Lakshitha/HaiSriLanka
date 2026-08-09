@@ -8,22 +8,36 @@
   "duration": "4 giorni/3 notti",
   "travelStyle": "Cultura",
   "highlights": [
-    "Serata culturale Pinnawala e Kandy",
-    "Tempio del dente e fabbrica del tè",
-    "Viaggio panoramico in treno e safari a Yala",
-    "Osservazione delle balene, Forte di Galle e Bentota"
+    {
+      "title": "Pinnawala and Kandy evening",
+      "description": "A cultural first day toward the hills, with time for Pinnawala and a Kandy evening of lake views and a traditional dance show."
+    },
+    {
+      "title": "Temple of the Tooth and tea country",
+      "description": "Visit the sacred temple in Kandy, then climb into tea estates and highland scenery on the way toward Ella."
+    },
+    {
+      "title": "Scenic train and Yala safari",
+      "description": "A hill-country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
+    },
+    {
+      "title": "South-coast finale",
+      "description": "Mirissa whale watching, Galle Fort, a turtle hatchery, and Bentota before your hotel or airport drop."
+    }
   ],
   "included": [
-    "Trasporto privato/autista privato",
-    "Alberghi 4 STELLE",
-    "Colazione quotidiana",
-    "Servizio guida"
+    "Veicolo privato climatizzato",
+    "Autista professionista di lingua inglese",
+    "Alloggio e pasti dell'autista",
+    "Ritiro e ritorno",
+    "Carburante e parcheggio",
+    "Servizio 24 ore",
+    "Acqua in bottiglia in omaggio",
+    "Hotel 4 stelle in mezza pensione"
   ],
   "excluded": [
-    "Voli internazionali",
-    "Pranzo e cena",
     "Biglietti d'ingresso",
-    "Jeep safari e barca per l'osservazione delle balene"
+    "Pranzo"
   ],
   "seo": {
     "metaTitle": "Fuga di 4 giorni a Ceylon con hotel a 4 stelle e trasporto privato | Hai Sri Lanka",

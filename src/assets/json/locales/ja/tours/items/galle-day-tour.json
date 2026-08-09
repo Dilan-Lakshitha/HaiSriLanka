@@ -1,35 +1,54 @@
 {
   "title": "Galle 日帰りツアー",
-  "seoTitle": "Galle 日帰りツアー | Private Tour from Colombo | Hai Sri Lanka",
-  "metaDescription": "Book a private Galle 日帰りツアー with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert.",
-  "shortDescription": "Explore Galle Fort, beaches, and southern coastal heritage in one private day.",
-  "overview": "A private day along Sri Lanka's south coast to UNESCO-listed Galle Dutch Fort. Walk the ramparts, explore colonial streets, boutiques, and cafés, and take in sweeping ocean views from one of Asia's best-preserved forts.\nOptional coastal stops can include stilt fishermen viewpoints and nearby beaches before your comfortable return transfer — paced for culture, photos, and a relaxed southern atmosphere.",
-  "description": "A private day along Sri Lanka's south coast to UNESCO-listed Galle Dutch Fort. Walk the ramparts, explore colonial streets, boutiques, and cafés, and take in sweeping ocean views from one of Asia's best-preserved forts.\nOptional coastal stops can include stilt fishermen viewpoints and nearby beaches before your comfortable return transfer — paced for culture, photos, and a relaxed southern atmosphere.",
+  "seoTitle": "ゴール日帰りツアー | 要塞・ウミガメ・ベントタ・メモリアル | Hai Sri Lanka",
+  "metaDescription": "プライベートゴール日帰り。ウミガメ保護施設、UNESCOダッチフォート、ベントタ川ボート、津波メモリアル。ホテル送迎付き。",
+  "shortDescription": "南海岸のプライベート日帰り：ウミガメ保護施設、ゴール・ダッチフォート、ベントタ川ボート、津波メモリアル。",
+  "overview": "スリランカ南海岸を巡るプライベート終日ツアー。ウミガメの孵化・保護施設で保全と複数種を学び、UNESCOのゴール・ダッチフォートで植民地時代の街並みと海の眺望を楽しみます。\n同じルートでベントタ川のマングローブボートと、2004年津波のメモリアルにも立ち寄り。運転手ガイドが柔軟に進めます。",
+  "description": "スリランカ南海岸を巡るプライベート終日ツアー。ウミガメの孵化・保護施設で保全と複数種を学び、UNESCOのゴール・ダッチフォートで植民地時代の街並みと海の眺望を楽しみます。\n同じルートでベントタ川のマングローブボートと、2004年津波のメモリアルにも立ち寄り。運転手ガイドが柔軟に進めます。",
   "duration": "1日間",
   "travelStyle": "Private Day Journey",
   "highlights": [
-    "Galle Fort rampart walk",
-    "Southern coastal viewpoints",
-    "Private luxury vehicle"
+    {
+      "title": "ウミガメ保護施設",
+      "description": "南海岸の孵化施設を訪れ、保全の取り組みを学び、さまざまなウミガメを観察します。"
+    },
+    {
+      "title": "ゴール・ダッチフォート",
+      "description": "UNESCO世界遺産。植民地時代の城壁、灯台通り、美しい海の眺め。"
+    },
+    {
+      "title": "ベントタ川ボート",
+      "description": "マングローブ水路をゆったり航行。水鳥や川の生きものに出会えることもあります。"
+    },
+    {
+      "title": "津波メモリアル",
+      "description": "2004年インド洋津波とスリランカへの影響を学ぶための静かな立ち寄りです。"
+    },
+    {
+      "title": "ホテル送迎",
+      "description": "運転手ガイドがホテルへお迎えします。コロンボ、西海岸、または指定の場所が一般的で、夕方にお戻しします。"
+    }
   ],
   "included": [
-    "Private air-conditioned vehicle",
-    "English-speaking chauffeur guide",
-    "Bottled water"
+    "エアコン付きプライベート車両",
+    "英語対応のプロドライバー",
+    "送迎",
+    "燃料・駐車料金",
+    "24時間対応",
+    "ペットボトル水無料"
   ],
   "excluded": [
-    "Entrance tickets",
-    "Lunch",
-    "Personal expenses"
+    "入場料",
+    "昼食"
   ],
   "seo": {
-    "metaTitle": "Galle 日帰りツアー | Private Tour from Colombo | Hai Sri Lanka",
-    "metaDescription": "Book a private Galle 日帰りツアー with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert."
+    "metaTitle": "ゴール日帰りツアー | 要塞・ウミガメ・ベントタ・メモリアル | Hai Sri Lanka",
+    "metaDescription": "プライベートゴール日帰り。ウミガメ保護施設、UNESCOダッチフォート、ベントタ川ボート、津波メモリアル。ホテル送迎付き。"
   },
   "itinerary": [
     {
-      "title": "Galle Fort & Southern Coast",
-      "description": "Morning departure toward the south, exploring UNESCO Galle Fort, boutique streets, and scenic ocean margins before a comfortable return."
+      "title": "南海岸：ウミガメ、ベントタ、メモリアル、ゴール要塞",
+      "description": "朝のホテル送迎後、南へ。ウミガメ施設、ベントタ川ボート、津波メモリアル、UNESCOゴール・ダッチフォートを巡り、夕方戻ります。"
     }
   ],
   "faqs": [

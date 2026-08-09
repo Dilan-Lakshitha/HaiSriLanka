@@ -1,67 +1,86 @@
 {
   "title": "7-tägige Sri Lanka-Highlights mit 4-STERNE-Hotels und privatem Transport",
   "seoTitle": "7-tägige Sri Lanka-Highlights mit 4-STERNE-Hotels und privatem Transport | Hallo Sri Lanka",
-  "metaDescription": "Erleben Sie Sri Lankas Höhepunkte in 7 Tagen mit Kultur, Teeland, Tierwelt und Küste auf einer privaten Hai Sri Lanka-Reiseroute.",
-  "shortDescription": "Die unverzichtbare Rundreise durch Sri Lanka – Kultur, Tierwelt, Teeland und Küste mit 4-STERNE-Hotels und einem privaten Fahrer.",
-  "overview": "Eine kuratierte siebentägige private Rundreise, die als unverzichtbares Sri Lanka-Erlebnis konzipiert ist. Bewegen Sie sich von den Symbolen des Kulturdreiecks zu Teeplantagen im Hochland, dann zu Wildtieren und einem sanften Küstenfinale.\nDie Tage stehen ganz im Zeichen von Komfort und Entdeckungen – durchgehend privates Fahrzeug, sorgfältig ausgewählte Aufenthalte und bei jedem Stopp genügend Zeit, um die Insel kennenzulernen, anstatt an ihr vorbeizustürmen.",
-  "description": "Eine kuratierte siebentägige private Rundreise, die als unverzichtbares Sri Lanka-Erlebnis konzipiert ist. Bewegen Sie sich von den Symbolen des Kulturdreiecks zu Teeplantagen im Hochland, dann zu Wildtieren und einem sanften Küstenfinale.\nDie Tage stehen ganz im Zeichen von Komfort und Entdeckungen – durchgehend privates Fahrzeug, sorgfältig ausgewählte Aufenthalte und bei jedem Stopp genügend Zeit, um die Insel kennenzulernen, anstatt an ihr vorbeizustürmen.",
+  "metaDescription": "Private 7-tägige Sri Lanka-Tour: Sigiriya, Pidurangala, Kandy, Nuwara Eliya, Ella-Zug, Yala-Safari, Walbeobachtung in Mirissa, Galle Fort und Bentota.",
+  "shortDescription": "Von Sigiriya nach Yala in sieben Tagen – Kultur, Teehügel, Safari und Südküste mit 4-Sterne-Hotels und privatem Fahrer.",
+  "overview": "Eine siebentägige Privatreise vom Kulturdreieck an die Südküste. Besteigen Sie Pidurangala, machen Sie eine Dorfrundfahrt und entspannen Sie mit Ayurveda, dann Sigiriya Löwenfelsen und eine Elefantensafari in Minneriya, Kaudulla oder Hurulu Eco Park.\nWeiter über Dambulla und Kandy ins Teeland, Horton Plains und den Ella-Zug, dann eine Jeepsafari im Yala-Nationalpark. Zum Abschluss Walbeobachtung oder Schnorcheln in Mirissa, Galle Fort, eine Schildkrötenstation und eine Bootstour in Bentota vor dem Transfer zum Hotel oder Flughafen.",
+  "description": "Eine siebentägige Privatreise vom Kulturdreieck an die Südküste. Besteigen Sie Pidurangala, machen Sie eine Dorfrundfahrt und entspannen Sie mit Ayurveda, dann Sigiriya Löwenfelsen und eine Elefantensafari in Minneriya, Kaudulla oder Hurulu Eco Park.\nWeiter über Dambulla und Kandy ins Teeland, Horton Plains und den Ella-Zug, dann eine Jeepsafari im Yala-Nationalpark. Zum Abschluss Walbeobachtung oder Schnorcheln in Mirissa, Galle Fort, eine Schildkrötenstation und eine Bootstour in Bentota vor dem Transfer zum Hotel oder Flughafen.",
   "duration": "7 Tage / 6 Nächte",
   "travelStyle": "Tierwelt",
   "highlights": [
-    "Symbole des Kulturdreiecks",
-    "Eintauchen in das Teeland",
-    "Finale an der Südküste",
-    "Privatfahrzeug im gesamten Gebäude"
+    {
+      "title": "Pidurangala, Dorfrundfahrt und Ayurveda",
+      "description": "Besteigen Sie Pidurangala, machen Sie eine Dorfrundfahrt und entspannen Sie mit einer Ayurveda-Massage in der ersten Nacht in Sigiriya."
+    },
+    {
+      "title": "Sigiriya-Felsen und Elefantensafari",
+      "description": "Besteigen Sie den Sigiriya-Löwenfelsen, danach eine Jeepsafari in Minneriya, Kaudulla oder Hurulu Eco Park."
+    },
+    {
+      "title": "Kandy, Teeland und Ella-Zug",
+      "description": "Dambulla-Höhlentempel, Zahntempel, Ambuluwawa, Teeplantage und Fabrik, Horton Plains und die malerische Zugfahrt nach Ella."
+    },
+    {
+      "title": "Yala-Safari und Südküstenfinale",
+      "description": "Safari im Yala-Nationalpark, dann Walbeobachtung oder Schnorcheln in Mirissa, Galle Fort, Schildkrötenstation und Bootstour in Bentota."
+    }
   ],
   "included": [
-    "Privater Transport / Privatfahrer",
-    "4-STERNE-Hotels",
-    "Tägliches Frühstück",
-    "Reiseleitung"
+    "Klimatisierter Privatwagen",
+    "Englischsprachiger professioneller Fahrer",
+    "Unterkunft und Mahlzeiten des Fahrers",
+    "Abholung und Rückfahrt",
+    "Kraftstoff und Parkgebühren",
+    "24-Stunden-Service",
+    "Kostenloses Flaschenwasser",
+    "4-Sterne-Hotel mit Halbpension"
   ],
   "excluded": [
-    "Internationale Flüge",
-    "Mittag- und Abendessen",
-    "Eintrittsgelder"
+    "Eintrittsgelder",
+    "Mittagessen"
   ],
   "seo": {
     "metaTitle": "7-tägige Sri Lanka-Highlights mit 4-STERNE-Hotels und privatem Transport | Hallo Sri Lanka",
-    "metaDescription": "Erleben Sie Sri Lankas Höhepunkte in 7 Tagen mit Kultur, Teeland, Tierwelt und Küste auf einer privaten Hai Sri Lanka-Reiseroute."
+    "metaDescription": "Private 7-tägige Sri Lanka-Tour: Sigiriya, Pidurangala, Kandy, Nuwara Eliya, Ella-Zug, Yala-Safari, Walbeobachtung in Mirissa, Galle Fort und Bentota."
   },
   "itinerary": [
     {
-      "title": "Ankunft & Westküste",
-      "description": "Begrüßung am Flughafen und sanfte Eingewöhnung in der Nähe von Negombo oder Colombo mit Zeit zur Erholung von der Reise."
+      "title": "Flughafen / Hotel – Sigiriya",
+      "description": "Reisen Sie landeinwärts nach Sigiriya. Besteigen Sie Pidurangala, machen Sie eine Dorfrundfahrt und entspannen Sie mit einer Ayurveda-Massage vor der Übernachtung in Sigiriya."
     },
     {
-      "title": "Auf dem Weg zum Kulturdreieck",
-      "description": "Reisen Sie landeinwärts durch ländliche Landschaften in Richtung eines antiken Stadtlandes."
+      "title": "Sigiriya",
+      "description": "Besteigen Sie den Sigiriya-Löwenfelsen, danach eine Jeepsafari in Minneriya, Kaudulla oder Hurulu Eco Park. Übernachtung im selben Hotel."
     },
     {
-      "title": "Sigiriya und Dambulla",
-      "description": "Erklimmen Sie den Löwenfelsen und besuchen Sie den Dambulla-Höhlentempel mit angemessener Geschwindigkeit und Erholungszeit."
+      "title": "Sigiriya – Kandy",
+      "description": "Verlassen Sie das Dreieck über den Dambulla-Höhlentempel und den Gewürzgarten von Matale, dann Upper Lake Drive, Edelsteinmuseum, kandyanischer Kulturtanz und der Tempel der Zahnreliquie."
     },
     {
-      "title": "Kandy",
-      "description": "Fahren Sie weiter in die Hochlandhauptstadt, um den Zahntempel und die Atmosphäre am Seeufer zu genießen."
+      "title": "Kandy – Nuwara Eliya",
+      "description": "Aufstieg in die Teehügel mit Ambuluwawa-Turm, Besuch einer Teeplantage und Fabrik sowie einer Stadtrundfahrt in Nuwara Eliya."
     },
     {
-      "title": "Teeland",
-      "description": "Steigen Sie in die nebligen Teeplantagen rund um Nuwara Eliya auf, um die Hochlandluft zu genießen und zu probieren."
+      "title": "Nuwara Eliya – Ella",
+      "description": "Frühe Wanderung im Horton-Plains-Nationalpark, dann Weiterfahrt nach Ella mit dem malerischen Zug durch die Hügel."
     },
     {
-      "title": "Südküste",
-      "description": "Steigen Sie hinab zur Südküste mit Galle Fort und Strandlicht."
+      "title": "Ella – Yala",
+      "description": "Abstieg in die Ebene mit Stopp an den Ravana-Wasserfällen, danach eine Safari im Yala-Nationalpark."
     },
     {
-      "title": "Abfahrt",
-      "description": "Freizeitvormittag und privater Transfer zum Flughafen, abgestimmt auf Ihren Flug."
+      "title": "Yala – Flughafen / Hotel",
+      "description": "Küstenfinale im Süden: Walbeobachtung oder Schnorcheln mit Walen oder Meeresschildkröten in Mirissa, Galle Fort, Bootstour in Bentota und Schildkrötenstation vor dem Transfer zum Flughafen oder Hotel."
     }
   ],
   "faqs": [
     {
       "question": "Kann die Reiseroute individuell angepasst werden?",
-      "answer": "Ja. Wir passen Tempo, Hotels und Erlebnisse an Ihre Vorlieben an."
+      "answer": "Ja. Wir passen Tempo, Hotels und Erlebnisse – zum Beispiel Ayurveda-Zeit oder Safari-Zeiten – an Ihre Vorlieben an."
+    },
+    {
+      "question": "Ist Walbeobachtung saisonabhängig?",
+      "answer": "Die Walbeobachtung in Mirissa ist in der Regel von November bis April am besten. Außerhalb der Hauptsaison empfehlen wir Schnorcheln mit Meeresschildkröten oder andere Alternativen an der Küste."
     }
   ]
 }

@@ -9,7 +9,7 @@ describe('TourMobileBookBarComponent', () => {
     }).compileComponents();
     const fixture = TestBed.createComponent(TourMobileBookBarComponent);
     fixture.componentRef.setInput('tour', {
-      price: { '1': 1, '2': 95, '3': 3, '4': 4, '5': 5 },
+      price: { '1': 1, '2': 95, '3': 3, '4': 4, '5': 5, '6': 5 },
       currency: 'USD',
     } as Tour);
     expect(fixture.componentInstance).toBeTruthy();

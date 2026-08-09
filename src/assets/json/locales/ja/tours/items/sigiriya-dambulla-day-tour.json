@@ -1,34 +1,54 @@
 {
-  "title": "Sigiriya & Dambulla 日帰りツアー",
-  "seoTitle": "Sigiriya & Dambulla 日帰りツアー | Hai Sri Lanka",
-  "metaDescription": "Private Sigiriya and Dambulla 日帰りツアー from Colombo with Hai Sri Lanka Tours.",
-  "shortDescription": "Climb Lion Rock and visit the golden cave temples on a private Cultural Triangle day.",
-  "overview": "A private Cultural Triangle day built around two of Sri Lanka's greatest landmarks: the climb of Sigiriya Rock Fortress and a visit to the golden cave temples of Dambulla.\nTravel scenic countryside roads with generous pacing, time for photos, and space to appreciate ancient water gardens, frescoes, and panoramic summit views before your return journey.",
-  "description": "A private Cultural Triangle day built around two of Sri Lanka's greatest landmarks: the climb of Sigiriya Rock Fortress and a visit to the golden cave temples of Dambulla.\nTravel scenic countryside roads with generous pacing, time for photos, and space to appreciate ancient water gardens, frescoes, and panoramic summit views before your return journey.",
-  "duration": "1日間",
-  "travelStyle": "Culture",
+  "title": "シギリヤ＆ダンブッラ日帰りツアー",
+  "seoTitle": "シギリヤ＆ダンブッラ | ライオンロック・石窟・ハバラナ | Hai Sri Lanka",
+  "metaDescription": "プライベート文化トライアングル日帰り：シギリヤ・ライオンロック登頂、ダンブッラ石窟寺院と黄金の仏像、ハバラナ村サファリ、エコパークのゾウサファリ。",
+  "shortDescription": "シギリヤ・ライオンロック、ダンブッラ石窟寺院と黄金の仏像、ハバラナ村サファリ、エコパークのゾウサファリ。",
+  "overview": "スリランカの文化トライアングルを巡るプライベート日帰り。シギリヤ・ライオンロックに登り、ダンブッラ石窟寺院と黄金の仏像を訪れ、ハバラナ村サファリとエコパークのゾウサファリを楽しみます。\n運転手ガイドが日程を柔軟に調整します。入場料と昼食は含まれません。",
+  "description": "スリランカの文化トライアングルを巡るプライベート日帰り。シギリヤ・ライオンロックに登り、ダンブッラ石窟寺院と黄金の仏像を訪れ、ハバラナ村サファリとエコパークのゾウサファリを楽しみます。\n運転手ガイドが日程を柔軟に調整します。入場料と昼食は含まれません。",
+  "duration": "1日",
+  "travelStyle": "プライベート日帰り旅",
   "highlights": [
-    "Sigiriya Lion Rock",
-    "Dambulla Cave Temple",
-    "Cultural Triangle landscapes"
+    {
+      "title": "シギリヤ・ライオンロック",
+      "description": "シギリヤ・ライオンロックに登る：水の庭園、フレスコ、頂上からのパノラマ。プライベートなペースで写真と休憩の時間あり。入場料は現地払い、ツアー料金に含まれません。"
+    },
+    {
+      "title": "ダンブッラ石窟寺院と黄金の仏像",
+      "description": "ダンブッラ石窟寺院と黄金の仏像を見学：古代壁画、洞窟の聖地、入口上の巨大な坐仏。"
+    },
+    {
+      "title": "ハバラナ村サファリ",
+      "description": "ハバラナの村サファリ：田園の道、水田、暮らしの風景。農村スリランカをゆったり見る時間です。"
+    },
+    {
+      "title": "ハバラナ・ゾウサファリ（エコパーク）",
+      "description": "ハバラナのエコパークでゾウサファリ。季節によりミンネリヤ、カウドゥッラ、フルルのいずれか。パークチケットは別途、含まれません。"
+    },
+    {
+      "title": "ホテル送迎",
+      "description": "運転手ガイドがホテルへお迎えします。通常はコロンボ、西海岸、または指定地点から夕方にお戻しします。"
+    }
   ],
   "included": [
-    "Private vehicle",
-    "Chauffeur guide",
-    "Bottled water"
+    "エアコン付きプライベート車両",
+    "英語対応のプロドライバー",
+    "送迎",
+    "燃料・駐車料金",
+    "24時間対応",
+    "無料ボトルウォーター"
   ],
   "excluded": [
-    "Entrance fees",
-    "Meals"
+    "入場料",
+    "昼食"
   ],
   "seo": {
-    "metaTitle": "Sigiriya & Dambulla 日帰りツアー | Hai Sri Lanka",
-    "metaDescription": "Private Sigiriya and Dambulla 日帰りツアー from Colombo with Hai Sri Lanka Tours."
+    "metaTitle": "シギリヤ＆ダンブッラ | ライオンロック・石窟・ハバラナ | Hai Sri Lanka",
+    "metaDescription": "プライベート文化トライアングル日帰り：シギリヤ・ライオンロック登頂、ダンブッラ石窟寺院と黄金の仏像、ハバラナ村サファリ、エコパークのゾウサファリ。"
   },
   "itinerary": [
     {
-      "title": "Sigiriya & Dambulla",
-      "description": "Travel into the Cultural Triangle for Sigiriya Rock Fortress and the golden cave temples of Dambulla with expert pacing."
+      "title": "シギリヤ、ダンブッラ、ハバラナ",
+      "description": "朝ホテル出発。シギリヤ・ライオンロック、ダンブッラ石窟寺院と黄金の仏像、ハバラナ村サファリ、エコパークのゾウサファリ。夕方ホテルへ戻ります。"
     }
   ],
   "faqs": []

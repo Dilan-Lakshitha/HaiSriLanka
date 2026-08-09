@@ -1,34 +1,54 @@
 {
   "title": "Tour di un giorno a Sigiriya e Dambulla",
-  "seoTitle": "Tour di un giorno a Sigiriya e Dambulla | Hai Sri Lanka",
-  "metaDescription": "Tour privato di un giorno a Sigiriya e Dambulla da Colombo con Hai Sri Lanka Tours.",
-  "shortDescription": "Sali sulla Lion Rock e visita i templi delle caverne dorate in una giornata privata del Triangolo Culturale.",
-  "overview": "Una giornata privata nel Triangolo Culturale costruita attorno a due dei più grandi monumenti dello Sri Lanka: la scalata della fortezza rocciosa di Sigiriya e una visita ai templi delle caverne dorate di Dambulla.\nPercorri strade panoramiche di campagna con ritmo generoso, tempo per le foto e spazio per apprezzare antichi giardini acquatici, affreschi e viste panoramiche sulla vetta prima del viaggio di ritorno.",
-  "description": "Una giornata privata nel Triangolo Culturale costruita attorno a due dei più grandi monumenti dello Sri Lanka: la scalata della fortezza rocciosa di Sigiriya e una visita ai templi delle caverne dorate di Dambulla.\nPercorri strade panoramiche di campagna con ritmo generoso, tempo per le foto e spazio per apprezzare antichi giardini acquatici, affreschi e viste panoramiche sulla vetta prima del viaggio di ritorno.",
+  "seoTitle": "Sigiriya e Dambulla | Roccia del Leone, grotte e Habarana | Hai Sri Lanka",
+  "metaDescription": "Giornata privata nel Triangolo Culturale: salita alla Roccia del Leone di Sigiriya, Tempio delle Grotte di Dambulla e Buddha Dorato, safari di villaggio a Habarana e safari elefanti all’eco park.",
+  "shortDescription": "Roccia del Leone di Sigiriya, Tempio delle Grotte di Dambulla e Buddha Dorato, safari di villaggio a Habarana e safari elefanti all’eco park.",
+  "overview": "Una giornata privata nel Triangolo Culturale dello Sri Lanka. Salite la Roccia del Leone di Sigiriya, visitate il Tempio delle Grotte di Dambulla e la statua del Buddha Dorato, fate un safari di villaggio a Habarana e un safari elefanti all’eco park.\nLa guida autista tiene la giornata flessibile. Ingressi e pranzo non inclusi.",
+  "description": "Una giornata privata nel Triangolo Culturale dello Sri Lanka. Salite la Roccia del Leone di Sigiriya, visitate il Tempio delle Grotte di Dambulla e la statua del Buddha Dorato, fate un safari di villaggio a Habarana e un safari elefanti all’eco park.\nLa guida autista tiene la giornata flessibile. Ingressi e pranzo non inclusi.",
   "duration": "1 giorno",
-  "travelStyle": "Cultura",
+  "travelStyle": "Escursione privata di un giorno",
   "highlights": [
-    "Roccia del Leone di Sigiriya",
-    "Tempio rupestre di Dambulla",
-    "Paesaggi del triangolo culturale"
+    {
+      "title": "Roccia del Leone di Sigiriya",
+      "description": "Salite la Roccia del Leone di Sigiriya: giardini d’acqua, affreschi e panorama dalla cima. Ritmo privato con tempo per foto e pause. L’ingresso si paga in loco e non è incluso."
+    },
+    {
+      "title": "Tempio delle Grotte di Dambulla e Buddha Dorato",
+      "description": "Visitate il Tempio delle Grotte di Dambulla e la statua del Buddha Dorato: murales antichi, santuari e il grande Buddha seduto sopra l’ingresso."
+    },
+    {
+      "title": "Safari di villaggio a Habarana",
+      "description": "Un safari di villaggio a Habarana tra strade di campagna, risaie e vita locale: uno sguardo più lento allo Sri Lanka rurale."
+    },
+    {
+      "title": "Safari elefanti a Habarana (eco park)",
+      "description": "Safari elefanti all’eco park di Habarana: Minneriya, Kaudulla o Hurulu a seconda della stagione. Biglietti del parco extra, non inclusi."
+    },
+    {
+      "title": "Ritiro e rientro in hotel",
+      "description": "La guida autista vi ritira in hotel — di solito Colombo, la costa ovest o un punto concordato — e vi riporta la sera."
+    }
   ],
   "included": [
-    "Veicolo privato",
-    "Guida con autista",
-    "Acqua in bottiglia"
+    "Veicolo privato climatizzato",
+    "Autista professionista di lingua inglese",
+    "Ritiro e rientro",
+    "Carburante e parcheggio",
+    "Servizio 24 ore",
+    "Acqua in bottiglia offerta"
   ],
   "excluded": [
     "Biglietti d'ingresso",
-    "Pasti"
+    "Pranzo"
   ],
   "seo": {
-    "metaTitle": "Tour di un giorno a Sigiriya e Dambulla | Hai Sri Lanka",
-    "metaDescription": "Tour privato di un giorno a Sigiriya e Dambulla da Colombo con Hai Sri Lanka Tours."
+    "metaTitle": "Sigiriya e Dambulla | Roccia del Leone, grotte e Habarana | Hai Sri Lanka",
+    "metaDescription": "Giornata privata nel Triangolo Culturale: salita alla Roccia del Leone di Sigiriya, Tempio delle Grotte di Dambulla e Buddha Dorato, safari di villaggio a Habarana e safari elefanti all’eco park."
   },
   "itinerary": [
     {
-      "title": "Sigiriya e Dambulla",
-      "description": "Viaggia nel triangolo culturale per la fortezza rocciosa di Sigiriya e i templi rupestri d'oro di Dambulla con un ritmo esperto."
+      "title": "Sigiriya, Dambulla e Habarana",
+      "description": "Ritiro al mattino e giornata privata: Roccia del Leone di Sigiriya, Tempio delle Grotte di Dambulla e Buddha Dorato, safari di villaggio a Habarana e safari elefanti all’eco park. Rientro in hotel la sera."
     }
   ],
   "faqs": []

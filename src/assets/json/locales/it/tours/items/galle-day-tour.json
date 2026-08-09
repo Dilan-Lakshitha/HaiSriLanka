@@ -1,35 +1,54 @@
 {
   "title": "Tour di un giorno a Galle",
-  "seoTitle": "Tour di un giorno a Galle | Tour privato da Colombo | Hai Sri Lanka",
-  "metaDescription": "Prenota un tour privato di un giorno a Galle con Hai Sri Lanka. Visita il Forte di Galle, le spiagge del sud e le attrazioni costiere con un esperto locale.",
-  "shortDescription": "Esplora il forte di Galle, le spiagge e il patrimonio costiero meridionale in una giornata privata.",
-  "overview": "Una giornata privata lungo la costa meridionale dello Sri Lanka fino al forte olandese di Galle, dichiarato patrimonio dell'umanità dall'UNESCO. Cammina lungo i bastioni, esplora strade coloniali, boutique e caffè e ammira ampie viste sull'oceano da uno dei forti meglio conservati dell'Asia.\nLe soste costiere facoltative possono includere punti panoramici di pescatori su palafitte e spiagge vicine prima del tuo comodo trasferimento di ritorno, a ritmo di cultura, foto e un'atmosfera rilassata del sud.",
-  "description": "Una giornata privata lungo la costa meridionale dello Sri Lanka fino al forte olandese di Galle, dichiarato patrimonio dell'umanità dall'UNESCO. Cammina lungo i bastioni, esplora strade coloniali, boutique e caffè e ammira ampie viste sull'oceano da uno dei forti meglio conservati dell'Asia.\nLe soste costiere facoltative possono includere punti panoramici di pescatori su palafitte e spiagge vicine prima del tuo comodo trasferimento di ritorno, a ritmo di cultura, foto e un'atmosfera rilassata del sud.",
+  "seoTitle": "Tour di Galle | Forte, tartarughe, Bentota e memoriale | Hai Sri Lanka",
+  "metaDescription": "Tour privato di Galle: nursery di tartarughe, Forte olandese UNESCO, battello sul Bentota e Memoriale dello tsunami. Ritiro in hotel incluso.",
+  "shortDescription": "Giornata privata sulla costa sud: nursery di tartarughe, Forte olandese di Galle, battello sul Bentota e Memoriale dello tsunami.",
+  "overview": "Una giornata privata sulla costa sud dello Sri Lanka, con quattro tappe. Visitate una nursery di tartarughe marine per conoscere la conservazione e diverse specie, poi il Forte olandese di Galle UNESCO — storia coloniale e viste sull’oceano.\nNello stesso circuito: battello sul fiume Bentota tra le mangrovie e una sosta al Memoriale dello tsunami del 2004. L’autista guida tiene la giornata flessibile.",
+  "description": "Una giornata privata sulla costa sud dello Sri Lanka, con quattro tappe. Visitate una nursery di tartarughe marine per conoscere la conservazione e diverse specie, poi il Forte olandese di Galle UNESCO — storia coloniale e viste sull’oceano.\nNello stesso circuito: battello sul fiume Bentota tra le mangrovie e una sosta al Memoriale dello tsunami del 2004. L’autista guida tiene la giornata flessibile.",
   "duration": "1 giorno",
   "travelStyle": "Viaggio di un giorno privato",
   "highlights": [
-    "Passeggiata sui bastioni del Forte di Galle",
-    "Punti di vista costieri meridionali",
-    "Veicolo privato di lusso"
+    {
+      "title": "Nursery di tartarughe marine",
+      "description": "Visita a una nursery della costa sud: conservazione e diverse specie di tartarughe."
+    },
+    {
+      "title": "Forte olandese di Galle",
+      "description": "Patrimonio UNESCO: bastioni coloniali, vicoli del faro e viste spettacolari sull’oceano."
+    },
+    {
+      "title": "Battello sul fiume Bentota",
+      "description": "Una navigazione rilassata tra le mangrovie, con uccelli acquatici e fauna del fiume."
+    },
+    {
+      "title": "Memoriale dello tsunami",
+      "description": "Sosta al memoriale per conoscere lo tsunami del 2004 e il suo impatto sullo Sri Lanka."
+    },
+    {
+      "title": "Ritiro e ritorno in hotel",
+      "description": "L’autista guida vi ritira in hotel — di solito Colombo, la costa ovest o un punto concordato — e vi riporta la sera."
+    }
   ],
   "included": [
-    "Veicolo privato con aria condizionata",
-    "Guida con autista di lingua inglese",
-    "Acqua in bottiglia"
+    "Veicolo privato climatizzato",
+    "Autista professionista di lingua inglese",
+    "Ritiro e ritorno",
+    "Carburante e parcheggio",
+    "Servizio 24 ore",
+    "Acqua in bottiglia in omaggio"
   ],
   "excluded": [
     "Biglietti d'ingresso",
-    "Pranzo",
-    "Spese personali"
+    "Pranzo"
   ],
   "seo": {
-    "metaTitle": "Tour di un giorno a Galle | Tour privato da Colombo | Hai Sri Lanka",
-    "metaDescription": "Prenota un tour privato di un giorno a Galle con Hai Sri Lanka. Visita il Forte di Galle, le spiagge del sud e le attrazioni costiere con un esperto locale."
+    "metaTitle": "Tour di Galle | Forte, tartarughe, Bentota e memoriale | Hai Sri Lanka",
+    "metaDescription": "Tour privato di Galle: nursery di tartarughe, Forte olandese UNESCO, battello sul Bentota e Memoriale dello tsunami. Ritiro in hotel incluso."
   },
   "itinerary": [
     {
-      "title": "Forte di Galle e costa meridionale",
-      "description": "Partenza mattutina verso sud, esplorando il Forte di Galle, patrimonio dell'UNESCO, le strade delle boutique e i pittoreschi margini dell'oceano prima di un comodo ritorno."
+      "title": "Costa sud: tartarughe, Bentota, memoriale e Forte di Galle",
+      "description": "Ritiro al mattino e trasferimento a sud. Nursery di tartarughe, battello sul Bentota, Memoriale dello tsunami e Forte olandese UNESCO di Galle prima del ritorno serale."
     }
   ],
   "faqs": [

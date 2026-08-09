@@ -1,35 +1,54 @@
 {
   "title": "Galle 一日游",
-  "seoTitle": "Galle 一日游 | Private Tour from Colombo | Hai Sri Lanka",
-  "metaDescription": "Book a private Galle 一日游 with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert.",
-  "shortDescription": "Explore Galle Fort, beaches, and southern coastal heritage in one private day.",
-  "overview": "A private day along Sri Lanka's south coast to UNESCO-listed Galle Dutch Fort. Walk the ramparts, explore colonial streets, boutiques, and cafés, and take in sweeping ocean views from one of Asia's best-preserved forts.\nOptional coastal stops can include stilt fishermen viewpoints and nearby beaches before your comfortable return transfer — paced for culture, photos, and a relaxed southern atmosphere.",
-  "description": "A private day along Sri Lanka's south coast to UNESCO-listed Galle Dutch Fort. Walk the ramparts, explore colonial streets, boutiques, and cafés, and take in sweeping ocean views from one of Asia's best-preserved forts.\nOptional coastal stops can include stilt fishermen viewpoints and nearby beaches before your comfortable return transfer — paced for culture, photos, and a relaxed southern atmosphere.",
+  "seoTitle": "加勒一日游 | 堡垒、海龟、本托塔与纪念碑 | Hai Sri Lanka",
+  "metaDescription": "私人加勒一日游：海龟孵化场、世界遗产荷兰堡、本托塔河游船与海啸纪念碑。含酒店接送。",
+  "shortDescription": "私人南海岸一日：海龟孵化场、加勒荷兰堡、本托塔河游船与海啸纪念碑。",
+  "overview": "私人全天沿斯里兰卡南海岸，四个主要停留。参观海龟孵化场，了解保护工作并观察不同龟种，再探访联合国教科文组织加勒荷兰堡——殖民历史与海景。\n同一线路还有本托塔河红树林游船，以及2004年海啸纪念碑。司机导游灵活安排节奏。",
+  "description": "私人全天沿斯里兰卡南海岸，四个主要停留。参观海龟孵化场，了解保护工作并观察不同龟种，再探访联合国教科文组织加勒荷兰堡——殖民历史与海景。\n同一线路还有本托塔河红树林游船，以及2004年海啸纪念碑。司机导游灵活安排节奏。",
   "duration": "1天",
   "travelStyle": "Private Day Journey",
   "highlights": [
-    "Galle Fort rampart walk",
-    "Southern coastal viewpoints",
-    "Private luxury vehicle"
+    {
+      "title": "海龟孵化场",
+      "description": "参观南海岸孵化场，了解保育工作，观察不同种类的海龟。"
+    },
+    {
+      "title": "加勒荷兰堡",
+      "description": "世界遗产：殖民城墙、灯塔街巷与壮丽海景。"
+    },
+    {
+      "title": "本托塔河游船",
+      "description": "在红树林水道中轻松乘船，可能见到水鸟与其他河岸野生动物。"
+    },
+    {
+      "title": "海啸纪念碑",
+      "description": "在纪念碑稍作停留，了解2004年海啸及其对斯里兰卡的影响。"
+    },
+    {
+      "title": "酒店接送",
+      "description": "司机导游到酒店接您——通常为科伦坡、西海岸或约定地点——傍晚送回。"
+    }
   ],
   "included": [
-    "Private air-conditioned vehicle",
-    "English-speaking chauffeur guide",
-    "Bottled water"
+    "私人空调车辆",
+    "英语专业司机",
+    "接送",
+    "燃油与停车费",
+    "24小时服务",
+    "免费瓶装水"
   ],
   "excluded": [
-    "Entrance tickets",
-    "Lunch",
-    "Personal expenses"
+    "门票",
+    "午餐"
   ],
   "seo": {
-    "metaTitle": "Galle 一日游 | Private Tour from Colombo | Hai Sri Lanka",
-    "metaDescription": "Book a private Galle 一日游 with Hai Sri Lanka. Visit Galle Fort, southern beaches, and coastal highlights with a local expert."
+    "metaTitle": "加勒一日游 | 堡垒、海龟、本托塔与纪念碑 | Hai Sri Lanka",
+    "metaDescription": "私人加勒一日游：海龟孵化场、世界遗产荷兰堡、本托塔河游船与海啸纪念碑。含酒店接送。"
   },
   "itinerary": [
     {
-      "title": "Galle Fort & Southern Coast",
-      "description": "Morning departure toward the south, exploring UNESCO Galle Fort, boutique streets, and scenic ocean margins before a comfortable return."
+      "title": "南海岸：海龟、本托塔、纪念碑与加勒堡",
+      "description": "上午酒店接送后南行。海龟孵化场、本托塔河游船、海啸纪念碑，以及联合国教科文组织加勒荷兰堡，傍晚返回。"
     }
   ],
   "faqs": [

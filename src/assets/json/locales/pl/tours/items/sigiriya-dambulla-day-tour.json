@@ -1,34 +1,54 @@
 {
-  "title": "Wycieczka jednodniowa do Sigiriya i Dambulla",
-  "seoTitle": "Wycieczka jednodniowa do Sigiriya i Dambulla | Hai Sri Lanka",
-  "metaDescription": "Prywatna wycieczka do Sigiriya i Dambulla z Kolombo z Hai Sri Lanka Tours.",
-  "shortDescription": "Wejdź na Lwią Skałę i odwiedź świątynie w złotych jaskiniach podczas prywatnego dnia Trójkąta Kulturowego.",
-  "overview": "Prywatny dzień Trójkąta Kulturowego zbudowany wokół dwóch największych atrakcji Sri Lanki: wspinaczki na Twierdzę Sigiriya Rock i wizyty w złotych świątyniach jaskiniowych w Dambulla.\nPodróżuj malowniczymi wiejskimi drogami z dużą szybkością, czasem na zdjęcia i przestrzenią, aby przed podróżą powrotną docenić starożytne ogrody wodne, freski i panoramiczne widoki na szczyty.",
-  "description": "Prywatny dzień Trójkąta Kulturowego zbudowany wokół dwóch największych atrakcji Sri Lanki: wspinaczki na Twierdzę Sigiriya Rock i wizyty w złotych świątyniach jaskiniowych w Dambulla.\nPodróżuj malowniczymi wiejskimi drogami z dużą szybkością, czasem na zdjęcia i przestrzenią, aby przed podróżą powrotną docenić starożytne ogrody wodne, freski i panoramiczne widoki na szczyty.",
+  "title": "Wycieczka jednodniowa do Sigiriya i Dambulli",
+  "seoTitle": "Sigiriya i Dambulla | Lwia Skała, jaskinie i Habarana | Hai Sri Lanka",
+  "metaDescription": "Prywatny dzień w Trójkącie Kulturowym: wejście na Lwią Skałę Sigiriya, Świątynia Jaskiń w Dambulli i Złoty Budda, safari wioski w Habaranie i safari słoni w eko parku.",
+  "shortDescription": "Lwia Skała Sigiriya, Świątynia Jaskiń w Dambulli i Złoty Budda, safari wioski w Habaranie i safari słoni w eko parku.",
+  "overview": "Prywatny dzień w Trójkącie Kulturowym Sri Lanki. Wejdźcie na Lwią Skałę Sigiriya, odwiedźcie Świątynię Jaskiń w Dambulli i posąg Złotego Buddy, zróbcie safari wioski w Habaranie i safari słoni w eko parku.\nKierowca-przewodnik trzyma dzień elastycznie. Bilety i lunch nie są wliczone.",
+  "description": "Prywatny dzień w Trójkącie Kulturowym Sri Lanki. Wejdźcie na Lwią Skałę Sigiriya, odwiedźcie Świątynię Jaskiń w Dambulli i posąg Złotego Buddy, zróbcie safari wioski w Habaranie i safari słoni w eko parku.\nKierowca-przewodnik trzyma dzień elastycznie. Bilety i lunch nie są wliczone.",
   "duration": "1 dzień",
-  "travelStyle": "Kultura",
+  "travelStyle": "Prywatna wycieczka jednodniowa",
   "highlights": [
-    "Lwia Skała Sigiriya",
-    "Świątynia w jaskini Dambulla",
-    "Krajobrazy Trójkąta Kulturowego"
+    {
+      "title": "Lwia Skała Sigiriya",
+      "description": "Wejście na Lwią Skałę Sigiriya: ogrody wodne, freski i panorama ze szczytu. Prywatne tempo, czas na zdjęcia i odpoczynek. Bilet kupuje się na miejscu i nie jest wliczony."
+    },
+    {
+      "title": "Świątynia Jaskiń w Dambulli i Złoty Budda",
+      "description": "Wizyta w Świątyni Jaskiń w Dambulli i przy posągu Złotego Buddy: starożytne malowidła, sanktuaria i wielki siedzący Budda nad wejściem."
+    },
+    {
+      "title": "Safari wioski w Habaranie",
+      "description": "Safari wioski w Habaranie: wiejskie drogi, pola ryżowe i życie lokalne — spokojniejsze spojrzenie na wiejską Sri Lankę."
+    },
+    {
+      "title": "Safari słoni w Habaranie (eko park)",
+      "description": "Safari słoni w eko parku koło Habarany: Minneriya, Kaudulla lub Hurulu w zależności od sezonu. Bilety do parku extra, nie wliczone."
+    },
+    {
+      "title": "Odbiór i powrót do hotelu",
+      "description": "Kierowca-przewodnik odbiera Was z hotelu — zwykle Kolombo, zachodnie wybrzeże lub ustalony punkt — i wraca wieczorem."
+    }
   ],
   "included": [
-    "Prywatny pojazd",
-    "Przewodnik szofera",
-    "Woda butelkowana"
+    "Prywatny klimatyzowany pojazd",
+    "Anglojęzyczny profesjonalny kierowca",
+    "Odbiór i powrót",
+    "Paliwo i parking",
+    "Obsługa 24 godziny",
+    "Darmowa woda butelkowana"
   ],
   "excluded": [
-    "Opłaty za wstęp",
-    "Posiłki"
+    "Bilety wstępu",
+    "Lunch"
   ],
   "seo": {
-    "metaTitle": "Wycieczka jednodniowa do Sigiriya i Dambulla | Hai Sri Lanka",
-    "metaDescription": "Prywatna wycieczka do Sigiriya i Dambulla z Kolombo z Hai Sri Lanka Tours."
+    "metaTitle": "Sigiriya i Dambulla | Lwia Skała, jaskinie i Habarana | Hai Sri Lanka",
+    "metaDescription": "Prywatny dzień w Trójkącie Kulturowym: wejście na Lwią Skałę Sigiriya, Świątynia Jaskiń w Dambulli i Złoty Budda, safari wioski w Habaranie i safari słoni w eko parku."
   },
   "itinerary": [
     {
-      "title": "Sigiriya i Dambulla",
-      "description": "Udaj się do Trójkąta Kulturowego, aby zobaczyć Twierdzę Skalną Sigiriya i złote świątynie jaskiniowe w Dambulla w profesjonalnym tempie."
+      "title": "Sigiriya, Dambulla i Habarana",
+      "description": "Poranny odbiór i prywatny dzień: Lwia Skała Sigiriya, Świątynia Jaskiń w Dambulli i Złoty Budda, safari wioski w Habaranie i safari słoni w eko parku. Wieczorem powrót do hotelu."
     }
   ],
   "faqs": []

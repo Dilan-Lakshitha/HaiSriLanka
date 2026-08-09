@@ -1,33 +1,62 @@
 {
-  "title": "Kandy 一日游",
-  "seoTitle": "Kandy 一日游 | Hai Sri Lanka",
-  "metaDescription": "Private Kandy 一日游 with Temple of the Tooth and highland scenery.",
-  "shortDescription": "Temple of the Tooth, scenic hills, and the cultural heart of the highlands.",
-  "overview": "A private day into Sri Lanka's hill capital, centred on the Temple of the Sacred Tooth Relic — one of the island's most important Buddhist sites. Explore the temple complex, observe local devotion, and soak in the lakeside setting of Kandy.\nEnjoy panoramic viewpoints over the city and surrounding hills, with optional time at the Royal Botanical Gardens or other highland highlights. Your chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right.",
-  "description": "A private day into Sri Lanka's hill capital, centred on the Temple of the Sacred Tooth Relic — one of the island's most important Buddhist sites. Explore the temple complex, observe local devotion, and soak in the lakeside setting of Kandy.\nEnjoy panoramic viewpoints over the city and surrounding hills, with optional time at the Royal Botanical Gardens or other highland highlights. Your chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right.",
-  "duration": "1天",
-  "travelStyle": "Culture",
+  "title": "康提一日游",
+  "seoTitle": "康提一日游 | 佛牙寺、植物园、茶厂与平纳瓦拉 | Hai Sri Lanka",
+  "metaDescription": "私人康提一日游：佛牙寺或内利加拉寺、佩拉德尼亚植物园、茶厂、平纳瓦拉大象、香料园与蜡染工坊。",
+  "shortDescription": "佛牙寺或内利加拉寺、佩拉德尼亚植物园、茶厂、平纳瓦拉大象、香料园与蜡染工坊。",
+  "overview": "私人全日深入斯里兰卡山地之都：文化、花园、茶乡与大象。可选康提佛牙寺或内利加拉寺，再访佩拉德尼亚国家植物园、茶园与茶厂、平纳瓦拉大象孤儿院或大象园活动、锡兰阿育吠陀香草香料园，以及蜡染与纱丽工坊。\n司机导游会灵活安排当天节奏。门票与午餐不含。",
+  "description": "私人全日深入斯里兰卡山地之都：文化、花园、茶乡与大象。可选康提佛牙寺或内利加拉寺，再访佩拉德尼亚国家植物园、茶园与茶厂、平纳瓦拉大象孤儿院或大象园活动、锡兰阿育吠陀香草香料园，以及蜡染与纱丽工坊。\n司机导游会灵活安排当天节奏。门票与午餐不含。",
+  "duration": "1 天",
+  "travelStyle": "私人一日行程",
   "highlights": [
-    "Temple of the Tooth",
-    "Lakeside city views",
-    "Highland gateway scenery"
+    {
+      "title": "佛牙寺或内利加拉寺",
+      "description": "参观康提佛牙寺——斯里兰卡最重要的佛教圣地之一——或选择内利加拉寺，山丘上更安静的圣地与山谷景色。预订时告知您的偏好。"
+    },
+    {
+      "title": "佩拉德尼亚植物园",
+      "description": "漫步佩拉德尼亚国家植物园：皇家棕榈、兰花温室、巨型榕树与河边草坪。门票现场支付，不含在团费内。"
+    },
+    {
+      "title": "茶园与茶厂",
+      "description": "走过高地茶园并参观运作中的茶厂，了解锡兰茶的采摘、加工与品鉴。"
+    },
+    {
+      "title": "平纳瓦拉大象孤儿院",
+      "description": "参观平纳瓦拉大象孤儿院的喂食或河浴时段，或选择附近大象园的导览活动。门票与可选活动另计。"
+    },
+    {
+      "title": "锡兰阿育吠陀香草香料园",
+      "description": "参观锡兰阿育吠陀香草香料园：肉桂、胡椒、可可与传统药用植物，并有简短品尝或演示。"
+    },
+    {
+      "title": "锡兰蜡染与纱丽工坊",
+      "description": "参观蜡染与纱丽工坊的工匠：蜡防染色、手织机与成品织物。购物自愿。"
+    },
+    {
+      "title": "酒店接送",
+      "description": "司机导游从酒店接您——通常为科伦坡、西海岸或约定地点——并于傍晚送回。"
+    }
   ],
   "included": [
-    "Private vehicle",
-    "Chauffeur guide"
+    "空调私人车辆",
+    "英语专业司机",
+    "接送服务",
+    "燃油与停车费",
+    "24小时服务",
+    "免费瓶装水"
   ],
   "excluded": [
-    "Entrance tickets",
-    "Lunch"
+    "门票",
+    "午餐"
   ],
   "seo": {
-    "metaTitle": "Kandy 一日游 | Hai Sri Lanka",
-    "metaDescription": "Private Kandy 一日游 with Temple of the Tooth and highland scenery."
+    "metaTitle": "康提一日游 | 佛牙寺、植物园、茶厂与平纳瓦拉 | Hai Sri Lanka",
+    "metaDescription": "私人康提一日游：佛牙寺或内利加拉寺、佩拉德尼亚植物园、茶厂、平纳瓦拉大象、香料园与蜡染工坊。"
   },
   "itinerary": [
     {
-      "title": "Sacred Kandy",
-      "description": "A private cultural day focused on the Temple of the Tooth Relic and the calm lakeside atmosphere of Kandy."
+      "title": "康提：文化、花园、茶乡与大象",
+      "description": "早晨酒店出发，私人环线：平纳瓦拉或大象园、香料园、茶园与茶厂、佩拉德尼亚植物园、佛牙寺或内利加拉寺，以及蜡染与纱丽工坊。傍晚返回酒店。"
     }
   ],
   "faqs": []

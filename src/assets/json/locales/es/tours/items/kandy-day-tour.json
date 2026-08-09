@@ -1,33 +1,62 @@
 {
   "title": "Excursión de un día a Kandy",
-  "seoTitle": "Excursión de un día a Kandy | hai sri lanka",
-  "metaDescription": "Excursión privada de un día a Kandy con el Templo del Diente y paisajes de las tierras altas.",
-  "shortDescription": "Templo del Diente, colinas pintorescas y el corazón cultural de las tierras altas.",
-  "overview": "Un día privado en la capital montañosa de Sri Lanka, centrado en el Templo de la Reliquia del Diente Sagrado, uno de los sitios budistas más importantes de la isla. Explore el complejo del templo, observe la devoción local y sumérjase en el entorno junto al lago de Kandy.\nDisfrute de miradores panorámicos de la ciudad y las colinas circundantes, con tiempo opcional en el Real Jardín Botánico u otros lugares destacados de las tierras altas. Su guía con chofer mantiene el día flexible para que pueda quedarse donde el ambiente le parezca adecuado.",
-  "description": "Un día privado en la capital montañosa de Sri Lanka, centrado en el Templo de la Reliquia del Diente Sagrado, uno de los sitios budistas más importantes de la isla. Explore el complejo del templo, observe la devoción local y sumérjase en el entorno junto al lago de Kandy.\nDisfrute de miradores panorámicos de la ciudad y las colinas circundantes, con tiempo opcional en el Real Jardín Botánico u otros lugares destacados de las tierras altas. Su guía con chofer mantiene el día flexible para que pueda quedarse donde el ambiente le parezca adecuado.",
+  "seoTitle": "Excursión a Kandy | Templo, jardines, té y Pinnawala | Hai Sri Lanka",
+  "metaDescription": "Excursión privada a Kandy: Templo del Diente o Nelligala, Jardín Botánico de Peradeniya, fábrica de té, elefantes de Pinnawala, jardín de especias y taller de batik.",
+  "shortDescription": "Templo del Diente o Nelligala, jardines de Peradeniya, fábrica de té, elefantes de Pinnawala, jardín de especias y batik.",
+  "overview": "Un día privado en la capital de las colinas de Sri Lanka: cultura, jardines, té y elefantes. Elija el Templo de la Reliquia del Diente Sagrado o el Templo de Nelligala, luego el Jardín Botánico Nacional de Peradeniya, una plantación y fábrica de té, el orfanato de elefantes de Pinnawala o una actividad en un parque de elefantes, un jardín de hierbas y especias ayurvédico de Ceilán, y una fábrica de batik y saris.\nSu guía chófer mantiene el día flexible. Entradas y almuerzo no incluidos.",
+  "description": "Un día privado en la capital de las colinas de Sri Lanka: cultura, jardines, té y elefantes. Elija el Templo de la Reliquia del Diente Sagrado o el Templo de Nelligala, luego el Jardín Botánico Nacional de Peradeniya, una plantación y fábrica de té, el orfanato de elefantes de Pinnawala o una actividad en un parque de elefantes, un jardín de hierbas y especias ayurvédico de Ceilán, y una fábrica de batik y saris.\nSu guía chófer mantiene el día flexible. Entradas y almuerzo no incluidos.",
   "duration": "1 día",
-  "travelStyle": "Cultura",
+  "travelStyle": "Excursión privada de un día",
   "highlights": [
-    "Templo del Diente",
-    "Vistas de la ciudad junto al lago",
-    "Paisaje de entrada de las tierras altas"
+    {
+      "title": "Templo del Diente o Templo de Nelligala",
+      "description": "Visite el Templo de la Reliquia del Diente Sagrado en Kandy — uno de los lugares budistas más importantes de Sri Lanka — o elija Nelligala para un santuario más tranquilo en la colina y vistas del valle. Indíquenos su preferencia al reservar."
+    },
+    {
+      "title": "Jardín Botánico de Peradeniya",
+      "description": "Paseo por el Jardín Botánico Nacional de Peradeniya: palmeras reales, orquídeas, higueras gigantes y césped junto al río. La entrada se paga in situ y no está incluida."
+    },
+    {
+      "title": "Plantación y fábrica de té",
+      "description": "Recorra una finca de té de las tierras altas y visite una fábrica en funcionamiento: recolección, proceso y cata del té de Ceilán."
+    },
+    {
+      "title": "Orfanato de elefantes de Pinnawala",
+      "description": "Visite el orfanato de elefantes de Pinnawala en la hora de comida o del río, o elija un parque cercano para una actividad guiada. Entradas y actividades opcionales extra."
+    },
+    {
+      "title": "Jardín de hierbas y especias ayurvédico de Ceilán",
+      "description": "Recorrido por un jardín de hierbas y especias: canela, pimienta, cacao y remedios vegetales tradicionales, con una breve cata o demostración."
+    },
+    {
+      "title": "Fábrica de batik y saris de Ceilán",
+      "description": "Artesanos en un taller de batik y saris: teñido con cera, telar a mano y textiles terminados. Compras opcionales."
+    },
+    {
+      "title": "Recogida y regreso al hotel",
+      "description": "Su chófer guía le recoge en el hotel — normalmente Colombo, la costa oeste o un punto acordado — y le devuelve por la noche."
+    }
   ],
   "included": [
-    "Vehículo privado",
-    "Guía con chofer"
+    "Vehículo privado con aire acondicionado",
+    "Conductor profesional de habla inglesa",
+    "Recogida y regreso",
+    "Combustible y aparcamiento",
+    "Servicio 24 horas",
+    "Agua embotellada de cortesía"
   ],
   "excluded": [
-    "Boletos de entrada",
+    "Entradas",
     "Almuerzo"
   ],
   "seo": {
-    "metaTitle": "Excursión de un día a Kandy | hai sri lanka",
-    "metaDescription": "Excursión privada de un día a Kandy con el Templo del Diente y paisajes de las tierras altas."
+    "metaTitle": "Excursión a Kandy | Templo, jardines, té y Pinnawala | Hai Sri Lanka",
+    "metaDescription": "Excursión privada a Kandy: Templo del Diente o Nelligala, Jardín Botánico de Peradeniya, fábrica de té, elefantes de Pinnawala, jardín de especias y taller de batik."
   },
   "itinerary": [
     {
-      "title": "Kandy sagrado",
-      "description": "Un día cultural privado centrado en el Templo de la Reliquia del Diente y la tranquila atmósfera junto al lago de Kandy."
+      "title": "Kandy: cultura, jardines, té y elefantes",
+      "description": "Recogida por la mañana y circuito privado: Pinnawala o parque de elefantes, jardín de especias, plantación y fábrica de té, Jardín Botánico de Peradeniya, Templo del Diente o Nelligala, y taller de batik y saris. Regreso al hotel por la noche."
     }
   ],
   "faqs": []

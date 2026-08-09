@@ -1,33 +1,62 @@
 {
-  "title": "Wycieczka po Kandy",
-  "seoTitle": "Wycieczka po Kandy | Hai Sri Lanka",
-  "metaDescription": "Prywatna wycieczka po Kandy ze Świątynią Zęba i góralską scenerią.",
-  "shortDescription": "Świątynia Zęba, malownicze wzgórza i kulturalne serce wyżyn.",
-  "overview": "Prywatny dzień w położonej na wzgórzu stolicy Sri Lanki, skupionej wokół Świątyni Relikwii Najświętszego Zęba — jednego z najważniejszych miejsc buddyjskich na wyspie. Poznaj kompleks świątynny, obserwuj lokalne nabożeństwo i zanurz się w otoczeniu jeziora Kandy.\nCiesz się panoramicznymi punktami widokowymi na miasto i okoliczne wzgórza, z opcjonalnym czasem spędzonym w Królewskim Ogrodzie Botanicznym lub innych atrakcjach góralskich. Twój przewodnik z szoferem zapewnia elastyczność dnia, dzięki czemu możesz pozostać tam, gdzie panuje odpowiednia atmosfera.",
-  "description": "Prywatny dzień w położonej na wzgórzu stolicy Sri Lanki, skupionej wokół Świątyni Relikwii Najświętszego Zęba — jednego z najważniejszych miejsc buddyjskich na wyspie. Poznaj kompleks świątynny, obserwuj lokalne nabożeństwo i zanurz się w otoczeniu jeziora Kandy.\nCiesz się panoramicznymi punktami widokowymi na miasto i okoliczne wzgórza, z opcjonalnym czasem spędzonym w Królewskim Ogrodzie Botanicznym lub innych atrakcjach góralskich. Twój przewodnik z szoferem zapewnia elastyczność dnia, dzięki czemu możesz pozostać tam, gdzie panuje odpowiednia atmosfera.",
+  "title": "Wycieczka jednodniowa do Kandy",
+  "seoTitle": "Wycieczka do Kandy | Świątynia, ogrody, herbata i Pinnawala | Hai Sri Lanka",
+  "metaDescription": "Prywatna wycieczka do Kandy: Świątynia Zęba lub Nelligala, Ogród Botaniczny w Peradeniya, fabryka herbaty, słonie w Pinnawala, ogród przypraw i warsztat batiku.",
+  "shortDescription": "Świątynia Zęba lub Nelligala, ogrody Peradeniya, fabryka herbaty, słonie Pinnawala, ogród przypraw i batik.",
+  "overview": "Prywatny dzień w górskiej stolicy Sri Lanki: kultura, ogrody, herbata i słonie. Wybierzcie Świątynię Relikwii Świętego Zęba albo świątynię Nelligala, potem Narodowy Ogród Botaniczny w Peradeniya, plantację i fabrykę herbaty, sierociniec słoni w Pinnawala lub aktywność w parku słoni, cejloński ajurwedyjski ogród ziół i przypraw oraz fabrykę batiku i sari.\nKierowca-przewodnik trzyma dzień elastycznie. Bilety i lunch nie są wliczone.",
+  "description": "Prywatny dzień w górskiej stolicy Sri Lanki: kultura, ogrody, herbata i słonie. Wybierzcie Świątynię Relikwii Świętego Zęba albo świątynię Nelligala, potem Narodowy Ogród Botaniczny w Peradeniya, plantację i fabrykę herbaty, sierociniec słoni w Pinnawala lub aktywność w parku słoni, cejloński ajurwedyjski ogród ziół i przypraw oraz fabrykę batiku i sari.\nKierowca-przewodnik trzyma dzień elastycznie. Bilety i lunch nie są wliczone.",
   "duration": "1 dzień",
-  "travelStyle": "Kultura",
+  "travelStyle": "Prywatna wycieczka jednodniowa",
   "highlights": [
-    "Świątynia Zęba",
-    "Widoki na miasto nad jeziorem",
-    "Górska sceneria bramy"
+    {
+      "title": "Świątynia Zęba lub świątynia Nelligala",
+      "description": "Wizyta w Świątyni Relikwii Świętego Zęba w Kandy — jednym z najważniejszych miejsc buddyjskich Sri Lanki — albo w Nelligala: spokojniejsze sanktuarium na wzgórzu i widok na dolinę. Podajcie preferencję przy rezerwacji."
+    },
+    {
+      "title": "Ogród Botaniczny w Peradeniya",
+      "description": "Spacer po Narodowym Ogrodzie Botanicznym w Peradeniya: palmy królewskie, storczyki, ogromne figowce i trawniki nad rzeką. Bilet kupuje się na miejscu i nie jest wliczony."
+    },
+    {
+      "title": "Plantacja i fabryka herbaty",
+      "description": "Spacer po plantacji herbaty na wyżynach i wizyta w działającej fabryce: zbiór, obróbka i degustacja herbaty cejlońskiej."
+    },
+    {
+      "title": "Sierociniec słoni w Pinnawala",
+      "description": "Wizyta w Pinnawala podczas karmienia lub kąpieli w rzece albo aktywność w pobliskim parku słoni. Bilety i opcjonalne atrakcje płatne dodatkowo."
+    },
+    {
+      "title": "Cejloński ajurwedyjski ogród ziół i przypraw",
+      "description": "Zwiedzanie ogrodu ziół i przypraw: cynamon, pieprz, kakao i tradycyjne rośliny lecznicze, z krótką degustacją lub pokazem."
+    },
+    {
+      "title": "Cejlońska fabryka batiku i sari",
+      "description": "Rzemieślnicy w warsztacie batiku i sari: barwienie woskiem, krosno ręczne i gotowe tkaniny. Zakupy opcjonalne."
+    },
+    {
+      "title": "Odbiór i powrót do hotelu",
+      "description": "Kierowca-przewodnik odbiera Was z hotelu — zwykle Kolombo, zachodnie wybrzeże lub ustalony punkt — i wraca wieczorem."
+    }
   ],
   "included": [
-    "Prywatny pojazd",
-    "Przewodnik szofera"
+    "Prywatny klimatyzowany pojazd",
+    "Anglojęzyczny profesjonalny kierowca",
+    "Odbiór i powrót",
+    "Paliwo i parking",
+    "Obsługa 24 godziny",
+    "Darmowa woda butelkowana"
   ],
   "excluded": [
     "Bilety wstępu",
-    "Obiad"
+    "Lunch"
   ],
   "seo": {
-    "metaTitle": "Wycieczka po Kandy | Hai Sri Lanka",
-    "metaDescription": "Prywatna wycieczka po Kandy ze Świątynią Zęba i góralską scenerią."
+    "metaTitle": "Wycieczka do Kandy | Świątynia, ogrody, herbata i Pinnawala | Hai Sri Lanka",
+    "metaDescription": "Prywatna wycieczka do Kandy: Świątynia Zęba lub Nelligala, Ogród Botaniczny w Peradeniya, fabryka herbaty, słonie w Pinnawala, ogród przypraw i warsztat batiku."
   },
   "itinerary": [
     {
-      "title": "Święte Kandy",
-      "description": "Prywatny dzień kulturalny skupiający się na Świątyni Relikwii Zęba i spokojnej atmosferze Kandy nad jeziorem."
+      "title": "Kandy: kultura, ogrody, herbata i słonie",
+      "description": "Poranny odbiór z hotelu i prywatna pętla: Pinnawala lub park słoni, ogród przypraw, plantacja i fabryka herbaty, Ogród Botaniczny w Peradeniya, Świątynia Zęba lub Nelligala oraz warsztat batiku i sari. Wieczorem powrót do hotelu."
     }
   ],
   "faqs": []

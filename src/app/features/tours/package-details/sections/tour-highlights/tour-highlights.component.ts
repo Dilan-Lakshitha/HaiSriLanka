@@ -1,5 +1,10 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { RevealDirective } from '../../../../../core/directives/reveal.directive';
+import {
+  highlightDescription,
+  highlightTitle,
+  type TourHighlightItem,
+} from '../../../../../core/models/tour.model';
 
 @Component({
   selector: 'app-tour-highlights',
@@ -10,5 +15,13 @@ import { RevealDirective } from '../../../../../core/directives/reveal.directive
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TourHighlightsComponent {
-  readonly highlights = input.required<string[]>();
+  readonly highlights = input.required<TourHighlightItem[]>();
+
+  titleOf(item: TourHighlightItem): string {
+    return highlightTitle(item);
+  }
+
+  detailOf(item: TourHighlightItem): string {
+    return highlightDescription(item);
+  }
 }

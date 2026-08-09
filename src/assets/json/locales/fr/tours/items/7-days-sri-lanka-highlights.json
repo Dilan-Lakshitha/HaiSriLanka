@@ -1,67 +1,86 @@
 {
   "title": "Points forts du Sri Lanka de 7 jours avec hôtels 4 étoiles et transport privé",
   "seoTitle": "Points forts du Sri Lanka de 7 jours avec hôtels 4 étoiles et transport privé | Hai Sri Lanka",
-  "metaDescription": "Découvrez les points forts du Sri Lanka en 7 jours sur la culture, le pays du thé, la faune et la côte avec un itinéraire privé Hai Sri Lanka.",
-  "shortDescription": "Le circuit incontournable du Sri Lanka - culture, faune, pays du thé et côte avec hôtels 4 ÉTOILES et chauffeur privé.",
-  "overview": "Un circuit privé organisé de sept jours conçu comme l'expérience essentielle du Sri Lanka. Passez des icônes du Triangle culturel aux plantations de thé des hautes terres, puis à la faune et à une douce finale côtière.\nLes journées sont rythmées par le confort et la découverte : véhicule privé tout au long, séjours soigneusement choisis et suffisamment de temps à chaque arrêt pour découvrir l'île plutôt que de la dépasser en toute hâte.",
-  "description": "Un circuit privé organisé de sept jours conçu comme l'expérience essentielle du Sri Lanka. Passez des icônes du Triangle culturel aux plantations de thé des hautes terres, puis à la faune et à une douce finale côtière.\nLes journées sont rythmées par le confort et la découverte : véhicule privé tout au long, séjours soigneusement choisis et suffisamment de temps à chaque arrêt pour découvrir l'île plutôt que de la dépasser en toute hâte.",
+  "metaDescription": "Circuit privé de 7 jours au Sri Lanka : Sigiriya, Pidurangala, Kandy, Nuwara Eliya, train vers Ella, safari à Yala, baleines à Mirissa, Galle Fort et Bentota.",
+  "shortDescription": "De Sigiriya à Yala en sept jours - culture, collines de thé, safari et côte sud avec hôtels 4 étoiles et chauffeur privé.",
+  "overview": "Un voyage privé de sept jours du Triangle culturel à la côte sud. Grimpez Pidurangala, faites une visite de village et détendez-vous avec l’Ayurveda, puis le Rocher du Lion de Sigiriya et un safari éléphants à Minneriya, Kaudulla ou Hurulu Eco Park.\nContinuez via Dambulla et Kandy vers le pays du thé, Horton Plains et le train d’Ella, puis un safari jeep au parc national de Yala. Terminez avec l’observation des baleines ou le snorkeling à Mirissa, Galle Fort, une écloserie de tortues et une balade en bateau à Bentota avant le transfert hôtel ou aéroport.",
+  "description": "Un voyage privé de sept jours du Triangle culturel à la côte sud. Grimpez Pidurangala, faites une visite de village et détendez-vous avec l’Ayurveda, puis le Rocher du Lion de Sigiriya et un safari éléphants à Minneriya, Kaudulla ou Hurulu Eco Park.\nContinuez via Dambulla et Kandy vers le pays du thé, Horton Plains et le train d’Ella, puis un safari jeep au parc national de Yala. Terminez avec l’observation des baleines ou le snorkeling à Mirissa, Galle Fort, une écloserie de tortues et une balade en bateau à Bentota avant le transfert hôtel ou aéroport.",
   "duration": "7 jours / 6 nuits",
   "travelStyle": "Faune",
   "highlights": [
-    "Icônes du Triangle culturel",
-    "Immersion au pays du thé",
-    "Finale sur la côte sud",
-    "Véhicule privé partout"
+    {
+      "title": "Pidurangala, visite de village et Ayurveda",
+      "description": "Grimpez Pidurangala, rejoignez une visite de village et détendez-vous avec un massage ayurvédique dès la première nuit à Sigiriya."
+    },
+    {
+      "title": "Rocher de Sigiriya et safari éléphants",
+      "description": "Grimpez le Rocher du Lion de Sigiriya, puis un safari jeep à Minneriya, Kaudulla ou Hurulu Eco Park."
+    },
+    {
+      "title": "Kandy, pays du thé et train d’Ella",
+      "description": "Temple des grottes de Dambulla, Temple de la Dent, Ambuluwawa, plantation et usine de thé, Horton Plains et le train panoramique vers Ella."
+    },
+    {
+      "title": "Safari à Yala et finale sur la côte sud",
+      "description": "Safari au parc national de Yala, puis baleines ou snorkeling à Mirissa, Galle Fort, écloserie de tortues et balade en bateau à Bentota."
+    }
   ],
   "included": [
-    "Transport privé / chauffeur privé",
-    "Hôtels 4 ÉTOILES",
-    "Petit-déjeuner quotidien",
-    "Service de guides"
+    "Véhicule privé climatisé",
+    "Chauffeur professionnel anglophone",
+    "Hébergement et repas du chauffeur",
+    "Prise en charge et retour",
+    "Carburant et frais de stationnement",
+    "Service 24 heures",
+    "Eau en bouteille offerte",
+    "Hôtel 4 étoiles en demi-pension"
   ],
   "excluded": [
-    "Vols internationaux",
-    "Déjeuner et dîner",
-    "Frais d'entrée"
+    "Frais d'entrée",
+    "Déjeuner"
   ],
   "seo": {
     "metaTitle": "Points forts du Sri Lanka de 7 jours avec hôtels 4 étoiles et transport privé | Hai Sri Lanka",
-    "metaDescription": "Découvrez les points forts du Sri Lanka en 7 jours sur la culture, le pays du thé, la faune et la côte avec un itinéraire privé Hai Sri Lanka."
+    "metaDescription": "Circuit privé de 7 jours au Sri Lanka : Sigiriya, Pidurangala, Kandy, Nuwara Eliya, train vers Ella, safari à Yala, baleines à Mirissa, Galle Fort et Bentota."
   },
   "itinerary": [
     {
-      "title": "Arrivée et côte ouest",
-      "description": "Accueil à l'aéroport et installation en douceur près de Negombo ou de Colombo avec le temps de récupérer du voyage."
+      "title": "Aéroport / Hôtel – Sigiriya",
+      "description": "Route vers Sigiriya. Grimpez Pidurangala, faites une visite de village et détendez-vous avec un massage ayurvédique avant la nuit à Sigiriya."
     },
     {
-      "title": "Vers le Triangle Culturel",
-      "description": "Voyagez à l’intérieur des terres à travers des paysages ruraux en direction d’une ville ancienne."
+      "title": "Sigiriya",
+      "description": "Grimpez le Rocher du Lion de Sigiriya, puis un safari jeep à Minneriya, Kaudulla ou Hurulu Eco Park. Nuit au même hôtel."
     },
     {
-      "title": "Sigiriya et Dambulla",
-      "description": "Grimpez le Rocher du Lion et visitez le temple de la grotte de Dambulla avec un temps de rythme et de récupération réfléchi."
+      "title": "Sigiriya – Kandy",
+      "description": "Quittez le Triangle via le temple des grottes de Dambulla et le jardin d’épices de Matale, puis Upper Lake Drive, musée des gemmes, danse culturelle kandyan et Temple de la Dent."
     },
     {
-      "title": "Kandy",
-      "description": "Continuez vers la capitale des Highlands pour le Temple de la Dent et l'atmosphère au bord du lac."
+      "title": "Kandy – Nuwara Eliya",
+      "description": "Montée vers les collines de thé avec la tour Ambuluwawa, une plantation et usine de thé, et une visite de Nuwara Eliya."
     },
     {
-      "title": "Pays du thé",
-      "description": "Montez dans les plantations de thé brumeuses autour de Nuwara Eliya pour une dégustation et l'air des montagnes."
+      "title": "Nuwara Eliya – Ella",
+      "description": "Randonnée matinale à Horton Plains, puis train panoramique jusqu’à Ella."
     },
     {
-      "title": "Côte Sud",
-      "description": "Descendez vers la rive sud avec le fort de Galle et la lumière de la plage."
+      "title": "Ella – Yala",
+      "description": "Descente vers les plaines avec arrêt aux chutes de Ravana, puis safari au parc national de Yala."
     },
     {
-      "title": "Départ",
-      "description": "Matinée libre et transfert privé à l'aéroport programmé pour votre vol."
+      "title": "Yala – Aéroport / Hôtel",
+      "description": "Finale côtière : observation des baleines ou snorkeling avec baleines ou tortues à Mirissa, Galle Fort, balade en bateau à Bentota et écloserie de tortues avant le transfert aéroport ou hôtel."
     }
   ],
   "faqs": [
     {
-      "question": "L'itinéraire peut-il être personnalisé ?",
-      "answer": "Oui. Nous adaptons le rythme, les hôtels et les expériences à vos préférences."
+      "question": "L’itinéraire peut-il être personnalisé ?",
+      "answer": "Oui. Nous adaptons le rythme, les hôtels et les expériences — par exemple le temps Ayurveda ou l’horaire du safari — à vos préférences."
+    },
+    {
+      "question": "L’observation des baleines est-elle saisonnière ?",
+      "answer": "À Mirissa, elle est généralement meilleure de novembre à avril. Hors saison, nous proposons le snorkeling avec les tortues ou d’autres alternatives côtières."
     }
   ]
 }

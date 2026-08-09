@@ -1,35 +1,54 @@
 {
   "title": "Excursion d'une journée à Galle",
-  "seoTitle": "Excursion d'une journée à Galle | Visite privée de Colombo | Hai Sri Lanka",
-  "metaDescription": "Réservez une excursion privée d'une journée à Galle avec Hai Sri Lanka. Visitez le fort de Galle, les plages du sud et les points forts de la côte avec un expert local.",
-  "shortDescription": "Explorez le fort de Galle, les plages et le patrimoine côtier du sud en une journée privée.",
-  "overview": "Une journée privée le long de la côte sud du Sri Lanka jusqu'au fort hollandais de Galle, classé au patrimoine mondial de l'UNESCO. Parcourez les remparts, explorez les rues coloniales, les boutiques et les cafés et admirez la vue imprenable sur l'océan depuis l'un des forts les mieux préservés d'Asie.\nLes arrêts côtiers facultatifs peuvent inclure des points de vue de pêcheurs sur échasses et des plages à proximité avant votre transfert de retour confortable, au rythme de la culture, des photos et d'une atmosphère détendue du sud.",
-  "description": "Une journée privée le long de la côte sud du Sri Lanka jusqu'au fort hollandais de Galle, classé au patrimoine mondial de l'UNESCO. Parcourez les remparts, explorez les rues coloniales, les boutiques et les cafés et admirez la vue imprenable sur l'océan depuis l'un des forts les mieux préservés d'Asie.\nLes arrêts côtiers facultatifs peuvent inclure des points de vue de pêcheurs sur échasses et des plages à proximité avant votre transfert de retour confortable, au rythme de la culture, des photos et d'une atmosphère détendue du sud.",
+  "seoTitle": "Excursion à Galle | Fort, tortues, Bentota et mémorial | Hai Sri Lanka",
+  "metaDescription": "Excursion privée à Galle : écloserie de tortues, fort hollandais UNESCO, bateau sur la Bentota et mémorial du tsunami. Transfert hôtel inclus.",
+  "shortDescription": "Journée privée sur la côte sud : hatchery de tortues, fort hollandais de Galle, balade en bateau à Bentota et mémorial du tsunami.",
+  "overview": "Une journée privée sur la côte sud du Sri Lanka, autour de quatre arrêts. Visitez une écloserie de tortues marines pour découvrir la conservation et différentes espèces, puis explorez le fort hollandais de Galle, classé UNESCO — histoire coloniale et vues sur l’océan.\nAu même circuit : balade en bateau sur la rivière Bentota parmi les mangroves, et pause au mémorial du tsunami de 2004. Votre chauffeur-guide garde la journée flexible.",
+  "description": "Une journée privée sur la côte sud du Sri Lanka, autour de quatre arrêts. Visitez une écloserie de tortues marines pour découvrir la conservation et différentes espèces, puis explorez le fort hollandais de Galle, classé UNESCO — histoire coloniale et vues sur l’océan.\nAu même circuit : balade en bateau sur la rivière Bentota parmi les mangroves, et pause au mémorial du tsunami de 2004. Votre chauffeur-guide garde la journée flexible.",
   "duration": "1 jour",
   "travelStyle": "Excursion privée d'une journée",
   "highlights": [
-    "Promenade sur les remparts du fort de Galle",
-    "Points de vue sur la côte sud",
-    "Véhicule de luxe privé"
+    {
+      "title": "Écloserie de tortues marines",
+      "description": "Visite d’une écloserie du sud : apprendre la conservation et observer différentes espèces de tortues."
+    },
+    {
+      "title": "Fort hollandais de Galle",
+      "description": "Site UNESCO : remparts coloniaux, ruelles du phare et vues splendides sur l’océan."
+    },
+    {
+      "title": "Balade en bateau sur la Bentota",
+      "description": "Une navigation calme dans les mangroves, avec oiseaux d’eau et faune de la rivière."
+    },
+    {
+      "title": "Mémorial du tsunami",
+      "description": "Arrêt au mémorial pour comprendre le tsunami de 2004 et son impact sur le Sri Lanka."
+    },
+    {
+      "title": "Prise en charge et retour à l’hôtel",
+      "description": "Votre chauffeur-guide vous récupère à l’hôtel — généralement Colombo, la côte ouest ou un point convenu — et vous ramène le soir."
+    }
   ],
   "included": [
     "Véhicule privé climatisé",
-    "Chauffeur guide anglophone",
-    "Eau en bouteille"
+    "Chauffeur professionnel anglophone",
+    "Prise en charge et retour",
+    "Carburant et frais de stationnement",
+    "Service 24 heures",
+    "Eau en bouteille offerte"
   ],
   "excluded": [
-    "Billets d'entrée",
-    "Déjeuner",
-    "Dépenses personnelles"
+    "Frais d'entrée",
+    "Déjeuner"
   ],
   "seo": {
-    "metaTitle": "Excursion d'une journée à Galle | Visite privée de Colombo | Hai Sri Lanka",
-    "metaDescription": "Réservez une excursion privée d'une journée à Galle avec Hai Sri Lanka. Visitez le fort de Galle, les plages du sud et les points forts de la côte avec un expert local."
+    "metaTitle": "Excursion à Galle | Fort, tortues, Bentota et mémorial | Hai Sri Lanka",
+    "metaDescription": "Excursion privée à Galle : écloserie de tortues, fort hollandais UNESCO, bateau sur la Bentota et mémorial du tsunami. Transfert hôtel inclus."
   },
   "itinerary": [
     {
-      "title": "Fort de Galle et côte sud",
-      "description": "Départ le matin vers le sud, exploration du Fort de Galle, classé au patrimoine mondial de l'UNESCO, des rues commerçantes et des bords pittoresques de l'océan avant un retour confortable."
+      "title": "Côte sud : tortues, Bentota, mémorial et fort de Galle",
+      "description": "Prise en charge le matin et route vers le sud. Écloserie de tortues, bateau sur la Bentota, mémorial du tsunami, puis fort hollandais de Galle UNESCO avant le retour le soir."
     }
   ],
   "faqs": [

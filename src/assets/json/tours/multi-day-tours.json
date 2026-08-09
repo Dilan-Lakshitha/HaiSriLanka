@@ -3,9 +3,9 @@
     "id": "tour-7-days-highlights",
     "slug": "7-days-sri-lanka-highlights",
     "category": "multi-day",
-    "title": "7 Days Sri Lanka Highlights",
-    "shortDescription": "Culture, wildlife, tea country, and coast the essential Sri Lanka circuit.",
-    "description": "A curated seven-day private itinerary covering cultural Triangle highlights, highland tea estates, wildlife, and a coastal finale paced for comfort and discovery.",
+    "title": "7-Day Sri Lanka Highlights with 4 STAR Hotels & Private Transport",
+    "shortDescription": "Sigiriya to Yala in seven days - culture, tea hills, safari, and south coast with 4 STAR hotels and a private driver.",
+    "description": "A seven-day private journey from the Cultural Triangle to the south coast. Climb Pidurangala Rock, join a village tour, and unwind with Ayurveda, then climb Sigiriya Lion Rock and enjoy an elephant safari at Minneriya, Kaudulla, or Hurulu Eco Park.\nContinue through Dambulla and Kandy into tea country, Horton Plains, and the Ella train, then a jeep safari at Yala National Park. Finish with Mirissa whale watching or snorkeling, Galle Fort, a turtle hatchery, and a Bentota boat ride before hotel or airport drop-off.",
     "duration": "7 Days / 6 Nights",
     "location": {
       "name": "Sri Lanka",
@@ -16,11 +16,12 @@
       }
     },
     "price": {
-      "1": 1450,
-      "2": 980,
-      "3": 890,
-      "4": 820,
-      "5": 780
+      "1": 1030,
+      "2": 740,
+      "3": 726.6666666667,
+      "4": 642.5,
+      "5": 616,
+      "6": 596.6666666667
     },
     "currency": "USD",
     "images": [
@@ -35,87 +36,12 @@
     "itinerary": [
       {
         "day": 1,
-        "title": "Arrival & West Coast",
-        "description": "Airport welcome and gentle settle-in near Negombo or Colombo with time to recover from travel.",
+        "title": "Airport / Hotel – Sigiriya",
+        "description": "Travel inland to Sigiriya. Climb Pidurangala Rock, join a village tour, and unwind with an Ayurveda massage before overnight in Sigiriya.",
         "highlights": [
-          "Private airport meet",
-          "Coastal overnight"
-        ],
-        "location": {
-          "name": "Negombo",
-          "region": "Western Province",
-          "geo": {
-            "lat": 7.2083,
-            "lng": 79.8358
-          }
-        },
-        "images": [
-          {
-            "src": "/assets/images/destinations/colombo.webp",
-            "alt": "West coast arrival near Colombo",
-            "title": "West coast arrival near Colombo",
-            "width": 640,
-            "height": 480
-          }
-        ],
-        "meals": [
-          "Dinner opportunity"
-        ],
-        "accommodation": "Boutique west-coast hotel",
-        "locations": [
-          "Negombo",
-          "Western Province"
-        ],
-        "travelTime": "Airport transfer · 45–90 min",
-        "optionalActivities": [
-          "Optional: deepen the day with private airport meet"
-        ]
-      },
-      {
-        "day": 2,
-        "title": "Toward the Cultural Triangle",
-        "description": "Journey inland through countryside landscapes toward ancient-city country.",
-        "highlights": [
-          "Scenic transfer",
-          "Village vistas"
-        ],
-        "location": {
-          "name": "Dambulla",
-          "region": "Central Province",
-          "geo": {
-            "lat": 7.8567,
-            "lng": 80.6492
-          }
-        },
-        "images": [
-          {
-            "src": "/assets/images/destinations/anuradhapura.webp",
-            "alt": "Cultural Triangle countryside",
-            "title": "Cultural Triangle countryside",
-            "width": 640,
-            "height": 480
-          }
-        ],
-        "meals": [
-          "Breakfast"
-        ],
-        "accommodation": "Cultural Triangle hotel",
-        "locations": [
-          "Dambulla",
-          "Central Province"
-        ],
-        "travelTime": "Scenic inland transfer · 3–5 hrs",
-        "optionalActivities": [
-          "Optional: deepen the day with scenic transfer"
-        ]
-      },
-      {
-        "day": 3,
-        "title": "Sigiriya & Dambulla",
-        "description": "Climb Lion Rock and visit Dambulla Cave Temple with considered pacing and recovery time.",
-        "highlights": [
-          "Sigiriya ascent",
-          "Cave temples"
+          "Climb Pidurangala Rock",
+          "Village Tour",
+          "Ayurveda Massage"
         ],
         "location": {
           "name": "Sigiriya",
@@ -127,33 +53,61 @@
         },
         "images": [
           {
-            "src": "/assets/images/destinations/sigiriya.webp",
-            "alt": "Sigiriya Rock Fortress",
-            "title": "Sigiriya Rock Fortress",
-            "width": 640,
-            "height": 480
+            "src": "/assets/images/tours/guest-experiences/elephant-at-sigiriya.webp",
+            "alt": "Guests near Sigiriya Rock",
+            "title": "Sigiriya",
+            "width": 1200,
+            "height": 1600
           }
         ],
-        "meals": [
-          "Breakfast"
-        ],
-        "accommodation": "Cultural Triangle hotel",
+        "accommodation": "Sigiriya hotel",
         "locations": [
-          "Sigiriya",
-          "Central Province"
-        ],
-        "travelTime": "Regional exploration · short hops",
-        "optionalActivities": [
-          "Optional: deepen the day with sigiriya ascent"
+          "Airport / Hotel",
+          "Sigiriya"
         ]
       },
       {
-        "day": 4,
-        "title": "Kandy",
-        "description": "Continue to the highland capital for the Temple of the Tooth and lakeside atmosphere.",
+        "day": 2,
+        "title": "Sigiriya",
+        "description": "Climb Sigiriya Lion Rock, then a jeep safari at Minneriya, Kaudulla, or Hurulu Eco Park. Overnight at the same hotel.",
         "highlights": [
-          "Temple of the Tooth",
-          "Lake views"
+          "Climb Sigiriya Rock",
+          "Minneriya / Kaudulla / Hurulu Eco Park Safari"
+        ],
+        "location": {
+          "name": "Sigiriya",
+          "region": "Central Province",
+          "geo": {
+            "lat": 7.957,
+            "lng": 80.7603
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
+            "alt": "Elephants at a Cultural Triangle eco park",
+            "title": "Elephant safari",
+            "width": 1600,
+            "height": 1200
+          }
+        ],
+        "accommodation": "Sigiriya hotel",
+        "locations": [
+          "Sigiriya",
+          "Minneriya / Kaudulla / Hurulu"
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Sigiriya – Kandy",
+        "description": "Leave the Triangle via Dambulla Cave Temple and Matale Spice Garden, then Upper Lake Drive, a gem museum, Kandyan cultural dance, and the Temple of the Tooth Relic.",
+        "highlights": [
+          "Dambulla Cave Temple",
+          "Matale Spice Garden",
+          "Upper Lake Drive",
+          "Gem Museum",
+          "Kandyan Cultural Dance",
+          "Temple of the Tooth Relic"
         ],
         "location": {
           "name": "Kandy",
@@ -165,33 +119,29 @@
         },
         "images": [
           {
-            "src": "/assets/images/destinations/kandy.webp",
-            "alt": "Kandy Temple of the Tooth",
-            "title": "Kandy Temple of the Tooth",
-            "width": 640,
-            "height": 480
+            "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
+            "alt": "Travelers at Dambulla Cave Temple",
+            "title": "Dambulla",
+            "width": 1600,
+            "height": 1200
           }
-        ],
-        "meals": [
-          "Breakfast"
         ],
         "accommodation": "Kandy hotel",
         "locations": [
-          "Kandy",
-          "Central Province"
-        ],
-        "travelTime": "Mountain / tea-country transfer · 2–4 hrs",
-        "optionalActivities": [
-          "Optional: deepen the day with temple of the tooth"
+          "Sigiriya",
+          "Dambulla",
+          "Matale",
+          "Kandy"
         ]
       },
       {
-        "day": 5,
-        "title": "Tea Country",
-        "description": "Rise into misty tea estates around Nuwara Eliya for tasting and highland air.",
+        "day": 4,
+        "title": "Kandy – Nuwara Eliya",
+        "description": "Climb toward the tea hills with Ambuluwawa Tower, a tea plantation and factory visit, and a Nuwara Eliya city tour.",
         "highlights": [
-          "Tea factory visit",
-          "Cool climate"
+          "Ambuluwawa Tower",
+          "Tea Plantation & Factory",
+          "City Tour"
         ],
         "location": {
           "name": "Nuwara Eliya",
@@ -203,112 +153,132 @@
         },
         "images": [
           {
-            "src": "/assets/images/hero/hero-tea-country.webp",
-            "alt": "Tea plantations in the highlands",
-            "title": "Tea plantations in the highlands",
-            "width": 640,
-            "height": 480
+            "src": "/assets/images/tours/kandy-day-tour/tea-plantation-visit.jpg",
+            "alt": "Tea plantation and factory visit",
+            "title": "Tea plantation",
+            "width": 480,
+            "height": 402
           }
         ],
-        "meals": [
-          "Breakfast"
+        "accommodation": "Nuwara Eliya hotel",
+        "locations": [
+          "Kandy",
+          "Ambuluwawa",
+          "Nuwara Eliya"
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Nuwara Eliya – Ella",
+        "description": "Early-morning trek in Horton Plains National Park, then continue to Ella by scenic train through the hills.",
+        "highlights": [
+          "Trek in Horton Plains National Park (Early morning)",
+          "Train Ride"
         ],
-        "accommodation": "Highland hotel",
+        "location": {
+          "name": "Ella",
+          "region": "Uva Province",
+          "geo": {
+            "lat": 6.8667,
+            "lng": 81.0466
+          }
+        },
+        "images": [
+          {
+            "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
+            "alt": "Family enjoying the Ella highlands",
+            "title": "Ella",
+            "width": 1600,
+            "height": 1200
+          }
+        ],
+        "accommodation": "Ella hotel",
         "locations": [
           "Nuwara Eliya",
-          "Central Province"
-        ],
-        "travelTime": "Scenic rail or road · 2–4 hrs",
-        "optionalActivities": [
-          "Optional: deepen the day with tea factory visit"
+          "Horton Plains",
+          "Ella"
         ]
       },
       {
         "day": 6,
-        "title": "South Coast",
-        "description": "Descend toward the southern shoreline with Galle Fort and beach light.",
+        "title": "Ella – Yala",
+        "description": "Descend toward the plains with a stop at Ravana Falls, then a safari at Yala National Park.",
         "highlights": [
-          "Galle Fort",
-          "Coastal evening"
+          "Ravana Waterfall",
+          "Safari at Yala National Park"
         ],
         "location": {
-          "name": "Galle",
+          "name": "Yala",
           "region": "Southern Province",
           "geo": {
-            "lat": 6.0329,
-            "lng": 80.217
+            "lat": 6.3725,
+            "lng": 81.5185
           }
         },
         "images": [
           {
-            "src": "/assets/images/destinations/galle.webp",
-            "alt": "Galle Fort on the south coast",
-            "title": "Galle Fort on the south coast",
-            "width": 640,
-            "height": 480
+            "src": "/assets/images/destinations/yala-jeep-safari.jpg",
+            "alt": "Jeep safari at Yala National Park",
+            "title": "Yala safari",
+            "width": 1600,
+            "height": 1200
           }
         ],
-        "meals": [
-          "Breakfast"
-        ],
-        "accommodation": "South-coast hotel",
+        "accommodation": "Yala hotel",
         "locations": [
-          "Galle",
-          "Southern Province"
-        ],
-        "travelTime": "Coastal transfer · 3–5 hrs",
-        "optionalActivities": [
-          "Optional: deepen the day with galle fort"
+          "Ella",
+          "Ravana Falls",
+          "Yala"
         ]
       },
       {
         "day": 7,
-        "title": "Departure",
-        "description": "Leisure morning and private transfer to the airport timed to your flight.",
+        "title": "Yala – Airport / Hotel",
+        "description": "Coastal finale along the south: Mirissa whale watching or snorkeling with whales or sea turtles, Galle Fort, a Bentota boat ride, and a turtle hatchery before drop-off to the airport or your hotel.",
         "highlights": [
-          "Flexible morning",
-          "Airport transfer"
+          "Mirissa Whale Watching or Snorkeling with Whales or Sea Turtles",
+          "Galle Fort",
+          "Bentota Boat Ride",
+          "Turtle Hatchery"
         ],
         "location": {
-          "name": "Colombo Airport corridor",
-          "region": "Western Province",
+          "name": "Bentota",
+          "region": "Southern Province",
           "geo": {
-            "lat": 6.9271,
-            "lng": 79.8612
+            "lat": 6.4259,
+            "lng": 79.9951
           }
         },
         "images": [
           {
-            "src": "/assets/images/destinations/colombo.webp",
-            "alt": "Departure transfer toward Colombo",
-            "title": "Departure transfer toward Colombo",
-            "width": 640,
-            "height": 480
+            "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
+            "alt": "Boat safari along the south coast mangroves",
+            "title": "Bentota boat ride",
+            "width": 1200,
+            "height": 900
           }
         ],
-        "meals": [
-          "Breakfast"
-        ],
         "locations": [
-          "Colombo Airport corridor",
-          "Western Province"
-        ],
-        "travelTime": "Leisure day · optional short transfers",
-        "optionalActivities": [
-          "Optional: deepen the day with flexible morning"
+          "Yala",
+          "Mirissa",
+          "Galle",
+          "Bentota"
         ]
       }
     ],
     "includes": [
-      "Private vehicle",
-      "Hotels (B&B)",
-      "Daily breakfast",
-      "Guide service"
+      "Air-conditioned private vehicle",
+      "English-speaking professional driver",
+      "Driver's accommodation & meals",
+      "Pickup & drop-off",
+      "Fuel & parking fees",
+      "24-hour service",
+      "Free bottled water",
+      "4 STAR hotel with half-board accommodation"
     ],
     "excludes": [
-      "International flights",
-      "Lunch & dinner",
-      "Entrance fees"
+      "Entrance fees",
+      "Lunch"
     ],
     "rating": {
       "average": 4.95,
@@ -321,8 +291,8 @@
       }
     ],
     "seo": {
-      "metaTitle": "7 Days Sri Lanka Highlights Tour | Hai Sri Lanka",
-      "metaDescription": "Experience Sri Lanka’s highlights in 7 days culture, tea country, wildlife, and coast with a private Hai Sri Lanka itinerary.",
+      "metaTitle": "7-Day Sri Lanka Highlights with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
+      "metaDescription": "Private 7-day Sri Lanka tour: Sigiriya, Pidurangala, Kandy, Nuwara Eliya, Ella train, Yala safari, Mirissa whale watching, Galle Fort, and Bentota.",
       "keywords": [
         "7 days Sri Lanka tour",
         "Sri Lanka highlights",
@@ -366,10 +336,22 @@
       "10-days-classic-ceylon"
     ],
     "highlights": [
-      "Cultural Triangle icons",
-      "Tea country immersion",
-      "South coast finale",
-      "Private vehicle throughout"
+      {
+        "title": "Pidurangala, village tour and Ayurveda",
+        "description": "Climb Pidurangala Rock, join a village tour, and unwind with an Ayurveda massage on your first night in Sigiriya."
+      },
+      {
+        "title": "Sigiriya Rock and elephant safari",
+        "description": "Climb Sigiriya Lion Rock, then a jeep safari at Minneriya, Kaudulla, or Hurulu Eco Park."
+      },
+      {
+        "title": "Kandy, tea country and Ella train",
+        "description": "Dambulla Cave Temple, Temple of the Tooth, Ambuluwawa, tea plantation and factory, Horton Plains, and the scenic train to Ella."
+      },
+      {
+        "title": "Yala safari and south-coast finale",
+        "description": "Safari at Yala National Park, then Mirissa whale watching or snorkeling, Galle Fort, a turtle hatchery, and a Bentota boat ride."
+      }
     ],
     "mapOverview": {
       "center": {
@@ -395,12 +377,20 @@
           "lng": 80.7891
         },
         {
+          "lat": 6.8667,
+          "lng": 81.0466
+        },
+        {
+          "lat": 6.3725,
+          "lng": 81.5185
+        },
+        {
           "lat": 6.0329,
           "lng": 80.217
         },
         {
-          "lat": 6.9271,
-          "lng": 79.8612
+          "lat": 6.4259,
+          "lng": 79.9951
         }
       ]
     }
@@ -426,7 +416,8 @@
       "2": 1320,
       "3": 1180,
       "4": 1090,
-      "5": 1020
+      "5": 1020,
+      "6": 1020
     },
     "currency": "USD",
     "images": [
@@ -468,7 +459,6 @@
           "Arrival",
           "Sri Lanka"
         ],
-        "travelTime": "Airport transfer · 45–90 min",
         "optionalActivities": [
           "Optional: deepen the day with private pacing"
         ]
@@ -502,21 +492,24 @@
           "Ancient cities",
           "Sri Lanka"
         ],
-        "travelTime": "Scenic inland transfer · 3–5 hrs",
         "optionalActivities": [
           "Optional: deepen the day with private pacing"
         ]
       }
     ],
     "includes": [
-      "Private vehicle",
-      "Hand-picked hotels",
-      "Breakfast daily"
+      "Air-conditioned private vehicle",
+      "English-speaking professional driver",
+      "Driver's accommodation & meals",
+      "Pickup & drop-off",
+      "Fuel & parking fees",
+      "24-hour service",
+      "Free bottled water",
+      "4 STAR hotel with half-board accommodation"
     ],
     "excludes": [
-      "Flights",
       "Entrance fees",
-      "Safari jeeps"
+      "Lunch"
     ],
     "rating": {
       "average": 4.97,
@@ -568,9 +561,22 @@
       "7-days-sri-lanka-highlights"
     ],
     "highlights": [
-      "Deeper wildlife window",
-      "Tea highlands",
-      "South coast nights"
+      {
+        "title": "Sigiriya and Pidurangala climbs",
+        "description": "Two classic Cultural Triangle ascents with time for village life and optional Ayurveda."
+      },
+      {
+        "title": "Elephant safari in the dry zone",
+        "description": "Minneriya, Kaudulla, or Hurulu — seasonal herds on a private jeep outing."
+      },
+      {
+        "title": "Tea country, Horton Plains and Ella train",
+        "description": "Cool climate trekking, estate landscapes, and one of Sri Lanka’s most loved rail windows."
+      },
+      {
+        "title": "Yala, Mirissa whales and Galle Fort",
+        "description": "Safari, whale watching, and Dutch ramparts before Kalutara and your final drop."
+      }
     ],
     "mapOverview": {
       "center": {

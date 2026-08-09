@@ -8,22 +8,36 @@
   "duration": "4 Días / 3 Noches",
   "travelStyle": "Cultura",
   "highlights": [
-    "Velada cultural de Pinnawala y Kandy",
-    "Templo del Diente y fábrica de té",
-    "Paseo panorámico en tren y safari en Yala",
-    "Avistamiento de ballenas, Fuerte Galle y Bentota"
+    {
+      "title": "Pinnawala and Kandy evening",
+      "description": "A cultural first day toward the hills, with time for Pinnawala and a Kandy evening of lake views and a traditional dance show."
+    },
+    {
+      "title": "Temple of the Tooth and tea country",
+      "description": "Visit the sacred temple in Kandy, then climb into tea estates and highland scenery on the way toward Ella."
+    },
+    {
+      "title": "Scenic train and Yala safari",
+      "description": "A hill-country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
+    },
+    {
+      "title": "South-coast finale",
+      "description": "Mirissa whale watching, Galle Fort, a turtle hatchery, and Bentota before your hotel or airport drop."
+    }
   ],
   "included": [
-    "Transporte privado / conductor privado",
-    "Hoteles de 4 ESTRELLAS",
-    "Desayuno diario",
-    "Servicio de guía"
+    "Vehículo privado con aire acondicionado",
+    "Conductor profesional de habla inglesa",
+    "Alojamiento y comidas del conductor",
+    "Recogida y regreso",
+    "Combustible y aparcamiento",
+    "Servicio 24 horas",
+    "Agua embotellada de cortesía",
+    "Hotel 4 estrellas en media pensión"
   ],
   "excluded": [
-    "Vuelos internacionales",
-    "Almuerzo y cena",
-    "Tarifas de entrada",
-    "Jeep safari y barco para avistar ballenas"
+    "Entradas",
+    "Almuerzo"
   ],
   "seo": {
     "metaTitle": "Escapada de 4 días a Ceilán con hoteles de 4 ESTRELLAS y transporte privado | hai sri lanka",

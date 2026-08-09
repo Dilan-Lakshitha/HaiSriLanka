@@ -46,10 +46,18 @@ function loadContentUrls() {
   const destinations = readJson('src/assets/json/destinations.json') || [];
   const experiences = readJson('src/assets/json/experiences.json') || [];
   const blogs = readJson('src/assets/json/blogs.json') || [];
+  const manifest = readJson('src/assets/json/tours/manifest.json');
+  const manifestTours = Array.isArray(manifest?.tours) ? manifest.tours : [];
+  const manifestDay = publishedSlugs(
+    manifestTours.filter((t) => t.category === 'day'),
+  );
+  const manifestMulti = publishedSlugs(
+    manifestTours.filter((t) => t.category === 'multi-day'),
+  );
 
   return {
-    dayTours: publishedSlugs(day),
-    multiDayTours: publishedSlugs(multi),
+    dayTours: [...new Set([...publishedSlugs(day), ...manifestDay])],
+    multiDayTours: [...new Set([...publishedSlugs(multi), ...manifestMulti])],
     destinations: publishedSlugs(destinations),
     experiences: publishedSlugs(experiences),
     blogs: publishedSlugs(blogs),

@@ -1,34 +1,54 @@
 {
-  "title": "Sigiriya & Dambulla 一日游",
-  "seoTitle": "Sigiriya & Dambulla 一日游 | Hai Sri Lanka",
-  "metaDescription": "Private Sigiriya and Dambulla 一日游 from Colombo with Hai Sri Lanka Tours.",
-  "shortDescription": "Climb Lion Rock and visit the golden cave temples on a private Cultural Triangle day.",
-  "overview": "A private Cultural Triangle day built around two of Sri Lanka's greatest landmarks: the climb of Sigiriya Rock Fortress and a visit to the golden cave temples of Dambulla.\nTravel scenic countryside roads with generous pacing, time for photos, and space to appreciate ancient water gardens, frescoes, and panoramic summit views before your return journey.",
-  "description": "A private Cultural Triangle day built around two of Sri Lanka's greatest landmarks: the climb of Sigiriya Rock Fortress and a visit to the golden cave temples of Dambulla.\nTravel scenic countryside roads with generous pacing, time for photos, and space to appreciate ancient water gardens, frescoes, and panoramic summit views before your return journey.",
-  "duration": "1天",
-  "travelStyle": "Culture",
+  "title": "锡吉里耶与丹布勒一日游",
+  "seoTitle": "锡吉里耶与丹布勒 | 狮子岩、石窟与哈巴拉纳 | Hai Sri Lanka",
+  "metaDescription": "私人文化三角一日：攀登锡吉里耶狮子岩、丹布勒石窟寺与金佛、哈巴拉纳乡村safari，以及生态园大象safari。",
+  "shortDescription": "锡吉里耶狮子岩、丹布勒石窟寺与金佛、哈巴拉纳乡村safari，以及生态园大象safari。",
+  "overview": "私人全日深入斯里兰卡文化三角。攀登锡吉里耶狮子岩，参观丹布勒石窟寺与金佛像，参加哈巴拉纳乡村safari，并在生态园进行大象safari。\n司机导游灵活安排当天节奏。门票与午餐不含。",
+  "description": "私人全日深入斯里兰卡文化三角。攀登锡吉里耶狮子岩，参观丹布勒石窟寺与金佛像，参加哈巴拉纳乡村safari，并在生态园进行大象safari。\n司机导游灵活安排当天节奏。门票与午餐不含。",
+  "duration": "1 天",
+  "travelStyle": "私人一日行程",
   "highlights": [
-    "Sigiriya Lion Rock",
-    "Dambulla Cave Temple",
-    "Cultural Triangle landscapes"
+    {
+      "title": "锡吉里耶狮子岩",
+      "description": "攀登锡吉里耶狮子岩：水上花园、壁画与山顶全景。私人节奏，留出拍照与休息时间。门票现场支付，不含在团费内。"
+    },
+    {
+      "title": "丹布勒石窟寺与金佛",
+      "description": "参观丹布勒石窟寺与金佛像：古代壁画、洞窟圣殿，以及入口上方的巨大坐佛。"
+    },
+    {
+      "title": "哈巴拉纳乡村safari",
+      "description": "哈巴拉纳乡村safari：乡间小路、稻田与当地生活——更从容地感受乡村斯里兰卡。"
+    },
+    {
+      "title": "哈巴拉纳大象safari（生态园）",
+      "description": "在哈巴拉纳生态园进行大象safari——依季节前往明内里亚、考杜拉或胡鲁卢。公园门票另计，不含。"
+    },
+    {
+      "title": "酒店接送",
+      "description": "司机导游从酒店接您——通常为科伦坡、西海岸或约定地点——并于傍晚送回。"
+    }
   ],
   "included": [
-    "Private vehicle",
-    "Chauffeur guide",
-    "Bottled water"
+    "空调私人车辆",
+    "英语专业司机",
+    "接送服务",
+    "燃油与停车费",
+    "24小时服务",
+    "免费瓶装水"
   ],
   "excluded": [
-    "Entrance fees",
-    "Meals"
+    "门票",
+    "午餐"
   ],
   "seo": {
-    "metaTitle": "Sigiriya & Dambulla 一日游 | Hai Sri Lanka",
-    "metaDescription": "Private Sigiriya and Dambulla 一日游 from Colombo with Hai Sri Lanka Tours."
+    "metaTitle": "锡吉里耶与丹布勒 | 狮子岩、石窟与哈巴拉纳 | Hai Sri Lanka",
+    "metaDescription": "私人文化三角一日：攀登锡吉里耶狮子岩、丹布勒石窟寺与金佛、哈巴拉纳乡村safari，以及生态园大象safari。"
   },
   "itinerary": [
     {
-      "title": "Sigiriya & Dambulla",
-      "description": "Travel into the Cultural Triangle for Sigiriya Rock Fortress and the golden cave temples of Dambulla with expert pacing."
+      "title": "锡吉里耶、丹布勒与哈巴拉纳",
+      "description": "早晨酒店出发，私人文化三角一日：锡吉里耶狮子岩、丹布勒石窟寺与金佛、哈巴拉纳乡村safari，以及生态园大象safari。傍晚返回酒店。"
     }
   ],
   "faqs": []

@@ -1,35 +1,54 @@
 {
   "title": "Galle-Tagestour",
-  "seoTitle": "Galle-Tagestour | Private Tour ab Colombo | Hallo Sri Lanka",
-  "metaDescription": "Buchen Sie eine private Galle-Tagestour mit Hai Sri Lanka. Besuchen Sie Galle Fort, südliche Strände und Küstenhighlights mit einem lokalen Experten.",
-  "shortDescription": "Erkunden Sie das Galle Fort, die Strände und das Erbe der Südküste an einem privaten Tag.",
-  "overview": "Ein privater Tag entlang der Südküste Sri Lankas zum UNESCO-geschützten Galle Dutch Fort. Spazieren Sie über die Stadtmauer, erkunden Sie Kolonialstraßen, Boutiquen und Cafés und genießen Sie die atemberaubende Aussicht auf das Meer von einer der am besten erhaltenen Festungen Asiens.\nZu den optionalen Stopps an der Küste gehören Aussichtspunkte für Stelzenfischer und nahegelegene Strände, bevor es zu Ihrem bequemen Rücktransfer geht – mit Kultur, Fotos und einer entspannten südlichen Atmosphäre.",
-  "description": "Ein privater Tag entlang der Südküste Sri Lankas zum UNESCO-geschützten Galle Dutch Fort. Spazieren Sie über die Stadtmauer, erkunden Sie Kolonialstraßen, Boutiquen und Cafés und genießen Sie die atemberaubende Aussicht auf das Meer von einer der am besten erhaltenen Festungen Asiens.\nZu den optionalen Stopps an der Küste gehören Aussichtspunkte für Stelzenfischer und nahegelegene Strände, bevor es zu Ihrem bequemen Rücktransfer geht – mit Kultur, Fotos und einer entspannten südlichen Atmosphäre.",
+  "seoTitle": "Galle-Tagestour | Fort, Schildkröten, Bentota & Mahnmal | Hai Sri Lanka",
+  "metaDescription": "Private Galle-Tagestour: Schildkrötenstation, UNESCO Galle Dutch Fort, Bentota-Bootsfahrt und Tsunami-Mahnmal. Hotelabholung inklusive.",
+  "shortDescription": "Privater Südcoast-Tag: Schildkrötenstation, Galle Dutch Fort, Bootsfahrt auf dem Bentota und Tsunami-Mahnmal.",
+  "overview": "Ein privater Ganztagesausflug an Sri Lankas Südküste mit vier Stationen. Besuchen Sie eine Meeresschildkrötenstation und erfahren Sie mehr über Schutzarbeit, erkunden Sie das UNESCO-geschützte Galle Dutch Fort mit Kolonialgeschichte und Meerblick.\nDazu eine Bootsfahrt auf dem Bentota durch Mangroven und Wildlife sowie ein Halt am Tsunami-Mahnmal zur Erinnerung an 2004. Ihr Chauffeurführer hält den Tag flexibel.",
+  "description": "Ein privater Ganztagesausflug an Sri Lankas Südküste mit vier Stationen. Besuchen Sie eine Meeresschildkrötenstation und erfahren Sie mehr über Schutzarbeit, erkunden Sie das UNESCO-geschützte Galle Dutch Fort mit Kolonialgeschichte und Meerblick.\nDazu eine Bootsfahrt auf dem Bentota durch Mangroven und Wildlife sowie ein Halt am Tsunami-Mahnmal zur Erinnerung an 2004. Ihr Chauffeurführer hält den Tag flexibel.",
   "duration": "1 Tag",
   "travelStyle": "Private Tagesreise",
   "highlights": [
-    "Rundgang durch die Festungsmauer von Galle",
-    "Aussichtspunkte an der Südküste",
-    "Privates Luxusfahrzeug"
+    {
+      "title": "Meeresschildkrötenstation",
+      "description": "Besuch einer Station an der Südküste: Schutzarbeit kennenlernen und verschiedene Schildkrötenarten beobachten."
+    },
+    {
+      "title": "Galle Dutch Fort",
+      "description": "UNESCO-Weltkulturerbe mit Kolonialgeschichte, Stadtmauer und eindrucksvollen Meeresblicken."
+    },
+    {
+      "title": "Bootsfahrt auf dem Bentota",
+      "description": "Eine ruhige Fahrt durch Mangrovenkanäle mit Chance auf Wasservögel und andere Flussfauna."
+    },
+    {
+      "title": "Tsunami-Mahnmal",
+      "description": "Halt am Mahnmal, um über den Tsunami 2004 und seine Folgen für Sri Lankas Südküste zu erfahren."
+    },
+    {
+      "title": "Private Hotelabholung und Rückfahrt",
+      "description": "Ihr Chauffeurführer holt Sie am Hotel ab — typischerweise Colombo, Westküste oder ein vereinbarter Punkt — und bringt Sie am Abend zurück."
+    }
   ],
   "included": [
-    "Privates, klimatisiertes Fahrzeug",
-    "Englischsprachiger Chauffeurführer",
-    "Wasser in Flaschen"
+    "Klimatisierter Privatwagen",
+    "Englischsprachiger professioneller Fahrer",
+    "Abholung und Rückfahrt",
+    "Kraftstoff und Parkgebühren",
+    "24-Stunden-Service",
+    "Kostenloses Flaschenwasser"
   ],
   "excluded": [
-    "Eintrittskarten",
-    "Mittagessen",
-    "Persönliche Ausgaben"
+    "Eintrittsgelder",
+    "Mittagessen"
   ],
   "seo": {
-    "metaTitle": "Galle-Tagestour | Private Tour ab Colombo | Hallo Sri Lanka",
-    "metaDescription": "Buchen Sie eine private Galle-Tagestour mit Hai Sri Lanka. Besuchen Sie Galle Fort, südliche Strände und Küstenhighlights mit einem lokalen Experten."
+    "metaTitle": "Galle-Tagestour | Fort, Schildkröten, Bentota & Mahnmal | Hai Sri Lanka",
+    "metaDescription": "Private Galle-Tagestour: Schildkrötenstation, UNESCO Galle Dutch Fort, Bentota-Bootsfahrt und Tsunami-Mahnmal. Hotelabholung inklusive."
   },
   "itinerary": [
     {
-      "title": "Galle Fort und Südküste",
-      "description": "Morgens Abfahrt in Richtung Süden, Erkundung des zum UNESCO-Weltkulturerbe gehörenden Galle Fort, Boutiquenstraßen und malerischer Meeresränder, bevor es bequem zurückgeht."
+      "title": "Südküste: Schildkröten, Bentota, Mahnmal & Galle Fort",
+      "description": "Morgendliche Hotelabholung und Fahrt nach Süden. Schildkrötenstation, Bootsfahrt auf dem Bentota, Tsunami-Mahnmal und UNESCO Galle Dutch Fort vor der Rückkehr am Abend."
     }
   ],
   "faqs": [

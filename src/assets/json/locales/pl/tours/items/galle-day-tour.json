@@ -1,35 +1,54 @@
 {
   "title": "Wycieczka jednodniowa do Galle",
-  "seoTitle": "Wycieczka jednodniowa do Galle | Prywatna wycieczka z Kolombo | Hai Sri Lanka",
-  "metaDescription": "Zarezerwuj prywatną wycieczkę do Galle z Hai Sri Lanka. Odwiedź Fort Galle, południowe plaże i atrakcje wybrzeża w towarzystwie lokalnego eksperta.",
-  "shortDescription": "Przeglądaj Fort Galle, plaże i dziedzictwo południowego wybrzeża w ciągu jednego prywatnego dnia.",
-  "overview": "Prywatny dzień na południowym wybrzeżu Sri Lanki do holenderskiego fortu Galle, wpisanego na listę UNESCO. Spaceruj po murach obronnych, zwiedzaj kolonialne ulice, butiki i kawiarnie oraz podziwiaj przepiękne widoki na ocean z jednego z najlepiej zachowanych fortów w Azji.\nOpcjonalne przystanki na wybrzeżu mogą obejmować punkty widokowe dla wędkarzy łowiących na szczudłach i pobliskie plaże przed wygodnym transferem powrotnym — w atmosferze kultury, zdjęć i relaksującej południowej atmosfery.",
-  "description": "Prywatny dzień na południowym wybrzeżu Sri Lanki do holenderskiego fortu Galle, wpisanego na listę UNESCO. Spaceruj po murach obronnych, zwiedzaj kolonialne ulice, butiki i kawiarnie oraz podziwiaj przepiękne widoki na ocean z jednego z najlepiej zachowanych fortów w Azji.\nOpcjonalne przystanki na wybrzeżu mogą obejmować punkty widokowe dla wędkarzy łowiących na szczudłach i pobliskie plaże przed wygodnym transferem powrotnym — w atmosferze kultury, zdjęć i relaksującej południowej atmosfery.",
+  "seoTitle": "Wycieczka do Galle | Fort, żółwie, Bentota i memoriał | Hai Sri Lanka",
+  "metaDescription": "Prywatna wycieczka do Galle: wylęgarnia żółwi, Fort Galle UNESCO, rejs po Bentocie i Memoriał tsunami. Odbiór z hotelu w cenie.",
+  "shortDescription": "Prywatny dzień na południowym wybrzeżu: wylęgarnia żółwi, holenderski Fort Galle, rejs po Bentocie i Memoriał tsunami.",
+  "overview": "Prywatny cały dzień na południowym wybrzeżu Sri Lanki, z czterema przystankami. Wylęgarnia żółwi morskich — ochrona gatunków i różne gatunki żółwi — oraz holenderski Fort Galle UNESCO z kolonialną historią i widokiem na ocean.\nW tym samym obiegu: rejs po rzece Bentota wśród namorzyn oraz przystanek przy Memorialu tsunami z 2004 roku. Kierowca-przewodnik trzyma dzień elastycznie.",
+  "description": "Prywatny cały dzień na południowym wybrzeżu Sri Lanki, z czterema przystankami. Wylęgarnia żółwi morskich — ochrona gatunków i różne gatunki żółwi — oraz holenderski Fort Galle UNESCO z kolonialną historią i widokiem na ocean.\nW tym samym obiegu: rejs po rzece Bentota wśród namorzyn oraz przystanek przy Memorialu tsunami z 2004 roku. Kierowca-przewodnik trzyma dzień elastycznie.",
   "duration": "1 dzień",
   "travelStyle": "Prywatna podróż",
   "highlights": [
-    "Spacer po wałach fortu Galle",
-    "Południowe punkty widokowe na wybrzeżu",
-    "Prywatny luksusowy pojazd"
+    {
+      "title": "Wylęgarnia żółwi morskich",
+      "description": "Wizyta w ośrodku na południowym wybrzeżu: ochrona przyrody i różne gatunki żółwi."
+    },
+    {
+      "title": "Holenderski Fort Galle",
+      "description": "UNESCO: kolonialne mury, uliczki przy latarni i zapierające dech widoki na ocean."
+    },
+    {
+      "title": "Rejs po rzece Bentota",
+      "description": "Spokojny rejs wśród namorzyn, z szansą na ptaki wodne i inną faunę rzeki."
+    },
+    {
+      "title": "Memoriał tsunami",
+      "description": "Przystanek przy memorialu, by poznać tsunami z 2004 roku i jego wpływ na Sri Lankę."
+    },
+    {
+      "title": "Odbiór i powrót do hotelu",
+      "description": "Kierowca-przewodnik odbiera Was z hotelu — zwykle Kolombo, zachodnie wybrzeże lub uzgodniony punkt — i odwozi wieczorem."
+    }
   ],
   "included": [
-    "Prywatny, klimatyzowany pojazd",
-    "Anglojęzyczny przewodnik z kierowcą",
-    "Woda butelkowana"
+    "Prywatny klimatyzowany pojazd",
+    "Anglojęzyczny profesjonalny kierowca",
+    "Odbiór i dowóz",
+    "Paliwo i opłaty parkingowe",
+    "Obsługa 24 godziny",
+    "Darmowa woda butelkowana"
   ],
   "excluded": [
     "Bilety wstępu",
-    "Obiad",
-    "Wydatki osobiste"
+    "Obiad"
   ],
   "seo": {
-    "metaTitle": "Wycieczka jednodniowa do Galle | Prywatna wycieczka z Kolombo | Hai Sri Lanka",
-    "metaDescription": "Zarezerwuj prywatną wycieczkę do Galle z Hai Sri Lanka. Odwiedź Fort Galle, południowe plaże i atrakcje wybrzeża w towarzystwie lokalnego eksperta."
+    "metaTitle": "Wycieczka do Galle | Fort, żółwie, Bentota i memoriał | Hai Sri Lanka",
+    "metaDescription": "Prywatna wycieczka do Galle: wylęgarnia żółwi, Fort Galle UNESCO, rejs po Bentocie i Memoriał tsunami. Odbiór z hotelu w cenie."
   },
   "itinerary": [
     {
-      "title": "Fort Galle i południowe wybrzeże",
-      "description": "Poranny wyjazd na południe, zwiedzanie fortu Galle, butikowych uliczek i malowniczych brzegów oceanu, przed komfortowym powrotem."
+      "title": "Południowe wybrzeże: żółwie, Bentota, memoriał i Fort Galle",
+      "description": "Poranny odbiór i jazda na południe. Wylęgarnia żółwi, rejs po Bentocie, Memoriał tsunami i holenderski Fort Galle UNESCO przed wieczornym powrotem."
     }
   ],
   "faqs": [

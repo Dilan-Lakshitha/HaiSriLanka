@@ -14,11 +14,11 @@
     ],
     "images": [
       {
-        "src": "/assets/images/destinations/galle.webp",
-        "alt": "Galle Fort lighthouse and southern coastline",
+        "src": "/assets/images/tours/galle-day-tour/galle-fort-clock-tower.jpg",
+        "alt": "Galle Fort clock tower and southern coastline",
         "title": "Galle Fort",
-        "width": 1400,
-        "height": 1050
+        "width": 768,
+        "height": 1024
       },
       {
         "src": "/assets/images/destinations/south-coast.webp",
@@ -246,7 +246,7 @@
         "height": 1080
       }
     ],
-    "relatedTourSlugs": ["7-days-sri-lanka-highlights", "10-days-classic-ceylon"],
+    "relatedTourSlugs": ["ella-day-tour", "7-days-sri-lanka-highlights", "10-days-classic-ceylon"],
     "seo": {
       "metaTitle": "Ella Travel Guide | Destinations | Hai Sri Lanka",
       "metaDescription": "Visit Ella with Hai Sri Lanka Nine Arch Bridge, tea country, and highland private tours.",

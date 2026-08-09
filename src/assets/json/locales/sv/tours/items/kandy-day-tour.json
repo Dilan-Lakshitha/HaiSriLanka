@@ -1,33 +1,62 @@
 {
-  "title": "Kandy dagstur",
-  "seoTitle": "Kandy dagstur | Hai Sri Lanka",
-  "metaDescription": "Privat Kandy-dagstur med tandens tempel och höglandslandskap.",
-  "shortDescription": "Tandens tempel, natursköna kullar och höglandets kulturella hjärta.",
-  "overview": "En privat dag till Sri Lankas kullehuvudstad, centrerad kring Temple of the Sacred Tooth Relic - en av öns viktigaste buddhistiska platser. Utforska tempelkomplexet, observera lokal hängivenhet och njut av Kandy vid sjön.\nNjut av panoramautsikt över staden och de omgivande kullarna, med valfri tid vid Royal Botanical Gardens eller andra höglandshöjdpunkter. Din chaufförsguide håller dagen flexibel så att du kan dröja kvar där atmosfären känns rätt.",
-  "description": "En privat dag till Sri Lankas kullehuvudstad, centrerad kring Temple of the Sacred Tooth Relic - en av öns viktigaste buddhistiska platser. Utforska tempelkomplexet, observera lokal hängivenhet och njut av Kandy vid sjön.\nNjut av panoramautsikt över staden och de omgivande kullarna, med valfri tid vid Royal Botanical Gardens eller andra höglandshöjdpunkter. Din chaufförsguide håller dagen flexibel så att du kan dröja kvar där atmosfären känns rätt.",
+  "title": "Kandy-dagsutflykt",
+  "seoTitle": "Kandy-utflykt | Tempel, trädgårdar, te & Pinnawala | Hai Sri Lanka",
+  "metaDescription": "Privat Kandy-dagsutflykt: Tandtemplet eller Nelligala, botaniska trädgården Peradeniya, tefabrik, Pinnawala-elefanter, kryddträdgård och batikverkstad.",
+  "shortDescription": "Tandtemplet eller Nelligala, Peradeniya-trädgårdar, tefabrik, Pinnawala-elefanter, kryddträdgård och batik.",
+  "overview": "En privat heldag i Sri Lankas kuperade huvudstad: kultur, trädgårdar, te och elefanter. Välj Templet för den heliga tandreliken eller Nelligala-templet, sedan Nationella botaniska trädgården i Peradeniya, en teplantage och fabrik, elefanthemmet i Pinnawala eller en aktivitet i en elefantpark, en ceylonesisk ayurvedisk ört- och kryddträdgård samt en batik- och sarifabrik.\nEr chaufförsguide håller dagen flexibel. Entré och lunch ingår inte.",
+  "description": "En privat heldag i Sri Lankas kuperade huvudstad: kultur, trädgårdar, te och elefanter. Välj Templet för den heliga tandreliken eller Nelligala-templet, sedan Nationella botaniska trädgården i Peradeniya, en teplantage och fabrik, elefanthemmet i Pinnawala eller en aktivitet i en elefantpark, en ceylonesisk ayurvedisk ört- och kryddträdgård samt en batik- och sarifabrik.\nEr chaufförsguide håller dagen flexibel. Entré och lunch ingår inte.",
   "duration": "1 dag",
-  "travelStyle": "Kultur",
+  "travelStyle": "Privat dagsresa",
   "highlights": [
-    "Tandens tempel",
-    "Utsikt över staden vid sjön",
-    "Highland gateway landskap"
+    {
+      "title": "Tandtemplet eller Nelligala-templet",
+      "description": "Besök Templet för den heliga tandreliken i Kandy — en av Sri Lankas viktigaste buddhistiska platser — eller Nelligala för en lugnare helgedom på kullen och dalutsikt. Ange önskemål när ni bokar."
+    },
+    {
+      "title": "Botaniska trädgården Peradeniya",
+      "description": "Promenad i Nationella botaniska trädgården i Peradeniya: kungspalmer, orkidéhus, jättefikon och gräsmattor vid floden. Entré betalas på plats och ingår inte."
+    },
+    {
+      "title": "Teplantage & fabrik",
+      "description": "Gå genom en höglandsteplantage och besök en fungerande fabrik: plockning, bearbetning och provsmakning av ceylonesiskt te."
+    },
+    {
+      "title": "Elefanthemmet i Pinnawala",
+      "description": "Besök Pinnawala vid utfodring eller flodtid, eller välj en närliggande elefantpark för en guidat aktivitet. Biljetter och valfria aktiviteter extra."
+    },
+    {
+      "title": "Ceylonesisk ayurvedisk ört- & kryddträdgård",
+      "description": "Rundtur i en ört- och kryddträdgård: kanel, peppar, kakao och traditionella växter, med en kort provsmakning eller demonstration."
+    },
+    {
+      "title": "Ceylonesisk batik- & sarifabrik",
+      "description": "Hantverkare i en batik- och sariverkstad: vaxbatik, handvävstol och färdiga tyger. Shopping valfritt."
+    },
+    {
+      "title": "Privat hämtning och återresa till hotellet",
+      "description": "Er chaufförsguide hämtar er på hotellet — oftast Colombo, västkusten eller en överenskommen punkt — och lämnar tillbaka er på kvällen."
+    }
   ],
   "included": [
-    "Privat fordon",
-    "Chaufför guide"
+    "Privat luftkonditionerad bil",
+    "Engelsktalande professionell förare",
+    "Hämtning och återresa",
+    "Bränsle och parkering",
+    "Service dygnet runt",
+    "Gratis flaskvatten"
   ],
   "excluded": [
-    "Inträdesbiljetter",
+    "Entréavgifter",
     "Lunch"
   ],
   "seo": {
-    "metaTitle": "Kandy dagstur | Hai Sri Lanka",
-    "metaDescription": "Privat Kandy-dagstur med tandens tempel och höglandslandskap."
+    "metaTitle": "Kandy-utflykt | Tempel, trädgårdar, te & Pinnawala | Hai Sri Lanka",
+    "metaDescription": "Privat Kandy-dagsutflykt: Tandtemplet eller Nelligala, botaniska trädgården Peradeniya, tefabrik, Pinnawala-elefanter, kryddträdgård och batikverkstad."
   },
   "itinerary": [
     {
-      "title": "Heliga Kandy",
-      "description": "En privat kulturdag fokuserade på Temple of the Tooth Relic och den lugna sjöatmosfären i Kandy."
+      "title": "Kandy: kultur, trädgårdar, te & elefanter",
+      "description": "Morgonhämtning och privat slinga: Pinnawala eller elefantpark, kryddträdgård, teplantage och fabrik, botaniska trädgården Peradeniya, Tandtemplet eller Nelligala samt batik- och sariverkstad. Kvällsåterresa till hotellet."
     }
   ],
   "faqs": []

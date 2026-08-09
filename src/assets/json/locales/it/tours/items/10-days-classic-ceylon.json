@@ -8,23 +8,36 @@
   "duration": "10 giorni/9 notti",
   "travelStyle": "Animali selvatici",
   "highlights": [
-    "Salite a Sigiriya e Pidurangala",
-    "Safari con gli elefanti a Minneriya / Kaudulla / Hurulu",
-    "Il paese del tè, Horton Plains e il treno di Ella",
-    "Safari a Yala, balene di Mirissa e forte di Galle"
+    {
+      "title": "Sigiriya and Pidurangala climbs",
+      "description": "Two classic Cultural Triangle ascents with time for village life and optional Ayurveda."
+    },
+    {
+      "title": "Elephant safari in the dry zone",
+      "description": "Minneriya, Kaudulla, or Hurulu — seasonal herds on a private jeep outing."
+    },
+    {
+      "title": "Tea country, Horton Plains and Ella train",
+      "description": "Cool climate trekking, estate landscapes, and one of Sri Lanka’s most loved rail windows."
+    },
+    {
+      "title": "Yala, Mirissa whales and Galle Fort",
+      "description": "Safari, whale watching, and Dutch ramparts before Kalutara and your final drop."
+    }
   ],
   "included": [
-    "Trasporto privato/autista privato",
-    "Hotel 4 STELLE (mezza pensione)",
-    "Colazione e cena giornaliere",
-    "Servizio guida"
+    "Veicolo privato climatizzato",
+    "Autista professionista di lingua inglese",
+    "Alloggio e pasti dell'autista",
+    "Ritiro e ritorno",
+    "Carburante e parcheggio",
+    "Servizio 24 ore",
+    "Acqua in bottiglia in omaggio",
+    "Hotel 4 stelle in mezza pensione"
   ],
   "excluded": [
-    "Voli internazionali",
-    "Pranzo",
     "Biglietti d'ingresso",
-    "Jeep safari e barca per l'osservazione delle balene",
-    "Massaggio ayurvedico"
+    "Pranzo"
   ],
   "seo": {
     "metaTitle": "Ceylon classica di 10 giorni con hotel a 4 stelle e trasporto privato | Hai Sri Lanka",

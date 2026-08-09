@@ -18,7 +18,7 @@ const tour = {
   travelStyle: 'Culture',
   location: { name: 'Galle' },
   pricing: [{ travelers: 2, pricePerPerson: 1 }],
-  price: { '1': 1, '2': 1, '3': 1, '4': 1, '5': 1 },
+  price: { '1': 1, '2': 1, '3': 1, '4': 1, '5': 1, '6': 1 },
   currency: 'USD',
   heroImage: { src: '/assets/images/placeholders/tour-galle.svg', alt: 'Galle' },
   images: [{ src: '/assets/images/placeholders/tour-galle.svg', alt: 'Galle' }],

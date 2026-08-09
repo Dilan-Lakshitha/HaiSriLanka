@@ -8,23 +8,36 @@
   "duration": "12 dni / 11 nocy",
   "travelStyle": "Dzika przyroda",
   "highlights": [
-    "Safari Wilpattu i Minneriya / Kaudulla",
-    "Wieloryby Sigiriya, Pidurangala i Trincomalee",
-    "Kultura Kandy i góralski kraj herbaty",
-    "Finał Elli, Galle Fort i Bentoty"
+    {
+      "title": "Wilpattu and dry-zone safaris",
+      "description": "Wild lakes at Wilpattu, then Minneriya or Kaudulla for elephants in the Cultural Triangle."
+    },
+    {
+      "title": "Sigiriya, Pidurangala and Trincomalee",
+      "description": "Rock fortresses then the east coast for dolphins, whales, and marine days."
+    },
+    {
+      "title": "Kandy culture and highland tea",
+      "description": "The Temple of the Tooth, lake city, and a slow climb into Nuwara Eliya and Ella."
+    },
+    {
+      "title": "Ella, Galle Fort and Bentota",
+      "description": "Hill viewpoints, then the south coast — fort walls, turtles, and a beach close before Colombo."
+    }
   ],
   "included": [
-    "Transport prywatny/prywatny kierowca",
-    "Hotele 4-gwiazdkowe",
-    "Codzienne śniadanie",
-    "Usługa przewodnika"
+    "Prywatny klimatyzowany pojazd",
+    "Anglojęzyczny profesjonalny kierowca",
+    "Zakwaterowanie i posiłki kierowcy",
+    "Odbiór i dowóz",
+    "Paliwo i opłaty parkingowe",
+    "Obsługa 24 godziny",
+    "Darmowa woda butelkowana",
+    "Hotel 4-gwiazdkowy ze śniadaniem i kolacją"
   ],
   "excluded": [
-    "Loty międzynarodowe",
-    "Lunch i kolacja",
-    "Opłaty za wstęp",
-    "Jeep safari, łódź do obserwowania wielorybów i nurkowanie",
-    "Masaż ajurwedyjski"
+    "Bilety wstępu",
+    "Obiad"
   ],
   "seo": {
     "metaTitle": "12-dniowa wycieczka po wyspie z 4-gwiazdkowymi hotelami i prywatnym transportem | Hai Sri Lanka",

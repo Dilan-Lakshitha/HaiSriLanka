@@ -8,23 +8,36 @@
   "duration": "10 dagen / 9 nachten",
   "travelStyle": "Dieren in het wild",
   "highlights": [
-    "Sigiriya en Pidurangala klimmen",
-    "Olifantensafari bij Minneriya / Kaudulla / Hurulu",
-    "Theeland, Horton Plains en Ella-trein",
-    "Yala-safari, Mirissa-walvissen en Galle Fort"
+    {
+      "title": "Sigiriya and Pidurangala climbs",
+      "description": "Two classic Cultural Triangle ascents with time for village life and optional Ayurveda."
+    },
+    {
+      "title": "Elephant safari in the dry zone",
+      "description": "Minneriya, Kaudulla, or Hurulu — seasonal herds on a private jeep outing."
+    },
+    {
+      "title": "Tea country, Horton Plains and Ella train",
+      "description": "Cool climate trekking, estate landscapes, and one of Sri Lanka’s most loved rail windows."
+    },
+    {
+      "title": "Yala, Mirissa whales and Galle Fort",
+      "description": "Safari, whale watching, and Dutch ramparts before Kalutara and your final drop."
+    }
   ],
   "included": [
-    "Privévervoer/privéchauffeur",
-    "4 STERREN hotels (halfpension)",
-    "Dagelijks ontbijt en diner",
-    "Gids dienst"
+    "Privé airconditioned voertuig",
+    "Engelstalige professionele chauffeur",
+    "Verblijf en maaltijden van de chauffeur",
+    "Ophalen en terugbrengen",
+    "Brandstof en parkeerkosten",
+    "24-uurs service",
+    "Gratis flessenwater",
+    "4-sterrenhotel met halfpension"
   ],
   "excluded": [
-    "Internationale vluchten",
-    "Lunch",
-    "Toegangsprijzen",
-    "Safari-jeep en boot om walvissen te spotten",
-    "Ayurvedische massage"
+    "Entreekosten",
+    "Lunch"
   ],
   "seo": {
     "metaTitle": "10-daagse klassieke Ceylon met 4-sterrenhotels en privévervoer | Hoi Sri Lanka",

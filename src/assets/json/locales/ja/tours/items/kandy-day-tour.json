@@ -1,33 +1,62 @@
 {
-  "title": "Kandy 日帰りツアー",
-  "seoTitle": "Kandy 日帰りツアー | Hai Sri Lanka",
-  "metaDescription": "Private Kandy 日帰りツアー with Temple of the Tooth and highland scenery.",
-  "shortDescription": "Temple of the Tooth, scenic hills, and the cultural heart of the highlands.",
-  "overview": "A private day into Sri Lanka's hill capital, centred on the Temple of the Sacred Tooth Relic — one of the island's most important Buddhist sites. Explore the temple complex, observe local devotion, and soak in the lakeside setting of Kandy.\nEnjoy panoramic viewpoints over the city and surrounding hills, with optional time at the Royal Botanical Gardens or other highland highlights. Your chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right.",
-  "description": "A private day into Sri Lanka's hill capital, centred on the Temple of the Sacred Tooth Relic — one of the island's most important Buddhist sites. Explore the temple complex, observe local devotion, and soak in the lakeside setting of Kandy.\nEnjoy panoramic viewpoints over the city and surrounding hills, with optional time at the Royal Botanical Gardens or other highland highlights. Your chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right.",
-  "duration": "1日間",
-  "travelStyle": "Culture",
+  "title": "キャンディ日帰りツアー",
+  "seoTitle": "キャンディ日帰り | 寺院・植物園・茶工場・ピンナワラ | Hai Sri Lanka",
+  "metaDescription": "プライベートキャンディ日帰り：仏歯寺またはネリガラ寺院、ペラデニヤ植物園、茶工場、ピンナワラのゾウ、スパイス園、バティック工房。",
+  "shortDescription": "仏歯寺またはネリガラ寺院、ペラデニヤ植物園、茶工場、ピンナワラのゾウ、スパイス園、バティック工房。",
+  "overview": "スリランカの丘陵の都を巡るプライベート日帰り。文化、庭園、茶園、ゾウがテーマです。仏歯寺かネリガラ寺院を選び、ペラデニヤ国立植物園、茶園と工場、ピンナワラ象の孤児院または象パークでのアクティビティ、セイロン・アーユルヴェーダのハーブ＆スパイス園、バティックとサリー工房を訪れます。\n運転手ガイドが日程を柔軟に調整します。入場料と昼食は含まれません。",
+  "description": "スリランカの丘陵の都を巡るプライベート日帰り。文化、庭園、茶園、ゾウがテーマです。仏歯寺かネリガラ寺院を選び、ペラデニヤ国立植物園、茶園と工場、ピンナワラ象の孤児院または象パークでのアクティビティ、セイロン・アーユルヴェーダのハーブ＆スパイス園、バティックとサリー工房を訪れます。\n運転手ガイドが日程を柔軟に調整します。入場料と昼食は含まれません。",
+  "duration": "1日",
+  "travelStyle": "プライベート日帰り旅",
   "highlights": [
-    "Temple of the Tooth",
-    "Lakeside city views",
-    "Highland gateway scenery"
+    {
+      "title": "仏歯寺またはネリガラ寺院",
+      "description": "キャンディの仏歯寺（スリランカ屈指の仏教聖地）を訪れるか、丘の上で静かなネリガラ寺院と谷の眺望を選びます。ご予約時にご希望をお知らせください。"
+    },
+    {
+      "title": "ペラデニヤ植物園",
+      "description": "ペラデニヤ国立植物園を散策：ロイヤルパーム、ラン温室、巨大イチジク、川沿いの芝生。入場料は現地払い、ツアー料金に含まれません。"
+    },
+    {
+      "title": "茶園と茶工場",
+      "description": "高地の茶園を歩き、稼働中の工場でセイロンティーの摘み取り、加工、試飲を見学します。"
+    },
+    {
+      "title": "ピンナワラ象の孤児院",
+      "description": "ピンナワラで給餌や川辺の時間を見るか、近くの象パークでガイド付きアクティビティを選びます。入場料とオプション活動は別途です。"
+    },
+    {
+      "title": "セイロン・アーユルヴェーダのハーブ＆スパイス園",
+      "description": "シナモン、胡椒、カカオ、伝統的な薬用植物の園を見学。短い試食または実演付きです。"
+    },
+    {
+      "title": "セイロン・バティック＆サリー工房",
+      "description": "ワックス防染、手織り機、完成テキスタイルを職人の工房で見学。買い物は任意です。"
+    },
+    {
+      "title": "ホテル送迎",
+      "description": "運転手ガイドがホテルへお迎えします。通常はコロンボ、西海岸、または指定地点から夕方にお戻しします。"
+    }
   ],
   "included": [
-    "Private vehicle",
-    "Chauffeur guide"
+    "エアコン付きプライベート車両",
+    "英語対応のプロドライバー",
+    "送迎",
+    "燃料・駐車料金",
+    "24時間対応",
+    "無料ボトルウォーター"
   ],
   "excluded": [
-    "Entrance tickets",
-    "Lunch"
+    "入場料",
+    "昼食"
   ],
   "seo": {
-    "metaTitle": "Kandy 日帰りツアー | Hai Sri Lanka",
-    "metaDescription": "Private Kandy 日帰りツアー with Temple of the Tooth and highland scenery."
+    "metaTitle": "キャンディ日帰り | 寺院・植物園・茶工場・ピンナワラ | Hai Sri Lanka",
+    "metaDescription": "プライベートキャンディ日帰り：仏歯寺またはネリガラ寺院、ペラデニヤ植物園、茶工場、ピンナワラのゾウ、スパイス園、バティック工房。"
   },
   "itinerary": [
     {
-      "title": "Sacred Kandy",
-      "description": "A private cultural day focused on the Temple of the Tooth Relic and the calm lakeside atmosphere of Kandy."
+      "title": "キャンディ：文化・庭園・茶園・ゾウ",
+      "description": "朝ホテル出発。ピンナワラまたは象パーク、スパイス園、茶園と工場、ペラデニヤ植物園、仏歯寺またはネリガラ寺院、バティックとサリー工房を巡るプライベート周遊。夕方ホテルへ戻ります。"
     }
   ],
   "faqs": []

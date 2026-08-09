@@ -1,67 +1,86 @@
 {
   "title": "7-dniowe atrakcje Sri Lanki z 4-gwiazdkowymi hotelami i prywatnym transportem",
   "seoTitle": "7-dniowe atrakcje Sri Lanki z 4-gwiazdkowymi hotelami i prywatnym transportem | Hai Sri Lanka",
-  "metaDescription": "Poznaj najważniejsze atrakcje Sri Lanki w ciągu 7 dni z kulturą, krajem herbaty, dziką przyrodą i wybrzeżem podczas prywatnego planu podróży do Hai Sri Lanka.",
-  "shortDescription": "Niezbędny tor Sri Lanki - kultura, dzika przyroda, kraj herbaty i wybrzeże z hotelami 4-gwiazdkowymi i prywatnym kierowcą.",
-  "overview": "Wyselekcjonowany siedmiodniowy prywatny tor zaprojektowany jako niezbędne doświadczenie Sri Lanki. Przejdź od ikon Trójkąta Kulturowego do górskich plantacji herbaty, następnie dzikiej przyrody i łagodnego nadmorskiego finału.\nDni sprzyjają wygodzie i odkryciom — prywatny pojazd przez cały czas, przemyślanie wybrane pobyty i wystarczająco dużo czasu na każdym przystanku, aby poczuć wyspę, zamiast pędzić obok niej.",
-  "description": "Wyselekcjonowany siedmiodniowy prywatny tor zaprojektowany jako niezbędne doświadczenie Sri Lanki. Przejdź od ikon Trójkąta Kulturowego do górskich plantacji herbaty, następnie dzikiej przyrody i łagodnego nadmorskiego finału.\nDni sprzyjają wygodzie i odkryciom — prywatny pojazd przez cały czas, przemyślanie wybrane pobyty i wystarczająco dużo czasu na każdym przystanku, aby poczuć wyspę, zamiast pędzić obok niej.",
+  "metaDescription": "Prywatna 7-dniowa wycieczka po Sri Lance: Sigiriya, Pidurangala, Kandy, Nuwara Eliya, pociąg do Elli, safari w Yala, wieloryby w Mirissie, Galle Fort i Bentota.",
+  "shortDescription": "Z Sigiriyi do Yala w siedem dni - kultura, herbaciane wzgórza, safari i południowe wybrzeże z hotelami 4-gwiazdkowymi i prywatnym kierowcą.",
+  "overview": "Siedmiodniowa prywatna podróż z Trójkąta Kulturowego na południowe wybrzeże. Wejdźcie na Pidurangalę, zróbcie wycieczkę po wiosce i zrelaksujcie się ajurwedą, potem Lwia Skała Sigiriya i safari słoni w Minneriya, Kaudulla lub Hurulu Eco Park.\nDalej przez Dambullę i Kandy do kraju herbaty, Horton Plains i pociągu do Elli, potem safari jeepem w Parku Narodowym Yala. Na koniec wieloryby lub snorkeling w Mirissie, Galle Fort, wylęgarnia żółwi i rejs łodzią w Bentocie przed transferem do hotelu lub na lotnisko.",
+  "description": "Siedmiodniowa prywatna podróż z Trójkąta Kulturowego na południowe wybrzeże. Wejdźcie na Pidurangalę, zróbcie wycieczkę po wiosce i zrelaksujcie się ajurwedą, potem Lwia Skała Sigiriya i safari słoni w Minneriya, Kaudulla lub Hurulu Eco Park.\nDalej przez Dambullę i Kandy do kraju herbaty, Horton Plains i pociągu do Elli, potem safari jeepem w Parku Narodowym Yala. Na koniec wieloryby lub snorkeling w Mirissie, Galle Fort, wylęgarnia żółwi i rejs łodzią w Bentocie przed transferem do hotelu lub na lotnisko.",
   "duration": "7 dni / 6 nocy",
   "travelStyle": "Dzika przyroda",
   "highlights": [
-    "Ikony Trójkąta Kulturowego",
-    "Zanurzenie w krainie herbaty",
-    "Finał na południowym wybrzeżu",
-    "Prywatny pojazd na terenie całego obiektu"
+    {
+      "title": "Pidurangala, wycieczka po wiosce i ajurweda",
+      "description": "Wejdźcie na Pidurangalę, dołączcie do wycieczki po wiosce i zrelaksujcie się masażem ajurwedyjskim w pierwszą noc w Sigiriyi."
+    },
+    {
+      "title": "Skała Sigiriya i safari słoni",
+      "description": "Wejdźcie na Lwią Skałę Sigiriya, potem safari jeepem w Minneriya, Kaudulla lub Hurulu Eco Park."
+    },
+    {
+      "title": "Kandy, kraj herbaty i pociąg do Elli",
+      "description": "Świątynia Jaskiń w Dambulli, Świątynia Zęba, Ambuluwawa, plantacja i fabryka herbaty, Horton Plains i malowniczy pociąg do Elli."
+    },
+    {
+      "title": "Safari w Yala i finał na południowym wybrzeżu",
+      "description": "Safari w Parku Narodowym Yala, potem wieloryby lub snorkeling w Mirissie, Galle Fort, wylęgarnia żółwi i rejs w Bentocie."
+    }
   ],
   "included": [
-    "Transport prywatny/prywatny kierowca",
-    "Hotele 4-gwiazdkowe",
-    "Codzienne śniadanie",
-    "Usługa przewodnika"
+    "Prywatny klimatyzowany pojazd",
+    "Anglojęzyczny profesjonalny kierowca",
+    "Zakwaterowanie i posiłki kierowcy",
+    "Odbiór i dowóz",
+    "Paliwo i opłaty parkingowe",
+    "Obsługa 24 godziny",
+    "Darmowa woda butelkowana",
+    "Hotel 4-gwiazdkowy ze śniadaniem i kolacją"
   ],
   "excluded": [
-    "Loty międzynarodowe",
-    "Lunch i kolacja",
-    "Opłaty za wstęp"
+    "Bilety wstępu",
+    "Obiad"
   ],
   "seo": {
     "metaTitle": "7-dniowe atrakcje Sri Lanki z 4-gwiazdkowymi hotelami i prywatnym transportem | Hai Sri Lanka",
-    "metaDescription": "Poznaj najważniejsze atrakcje Sri Lanki w ciągu 7 dni z kulturą, krajem herbaty, dziką przyrodą i wybrzeżem podczas prywatnego planu podróży do Hai Sri Lanka."
+    "metaDescription": "Prywatna 7-dniowa wycieczka po Sri Lance: Sigiriya, Pidurangala, Kandy, Nuwara Eliya, pociąg do Elli, safari w Yala, wieloryby w Mirissie, Galle Fort i Bentota."
   },
   "itinerary": [
     {
-      "title": "Przyjazd i zachodnie wybrzeże",
-      "description": "Powitanie na lotnisku i spokojna aklimatyzacja w pobliżu Negombo lub Kolombo z czasem na regenerację po podróży."
+      "title": "Lotnisko / hotel – Sigiriya",
+      "description": "Podróż w głąb lądu do Sigiriyi. Wejdźcie na Pidurangalę, zróbcie wycieczkę po wiosce i zrelaksujcie się masażem ajurwedyjskim przed noclegiem w Sigiriyi."
     },
     {
-      "title": "W stronę Trójkąta Kulturowego",
-      "description": "Podróżuj w głąb lądu przez wiejskie krajobrazy w kierunku krainy starożytnego miasta."
+      "title": "Sigiriya",
+      "description": "Wejdźcie na Lwią Skałę Sigiriya, potem safari jeepem w Minneriya, Kaudulla lub Hurulu Eco Park. Nocleg w tym samym hotelu."
     },
     {
-      "title": "Sigiriya i Dambulla",
-      "description": "Wspinaj się na Lwią Skałę i odwiedź świątynię w jaskini Dambulla, uwzględniając tempo i czas odpoczynku."
+      "title": "Sigiriya – Kandy",
+      "description": "Opuszczacie Trójkąt przez Świątynię Jaskiń w Dambulli i ogród przypraw w Matale, potem Upper Lake Drive, muzeum klejnotów, taniec kandyjski i Świątynia Zęba."
     },
     {
-      "title": "Kandy",
-      "description": "Jedź dalej do stolicy gór, aby zobaczyć Świątynię Zęba i atmosferę nad jeziorem."
+      "title": "Kandy – Nuwara Eliya",
+      "description": "Wjazd w herbaciane wzgórza z wieżą Ambuluwawa, plantacją i fabryką herbaty oraz zwiedzaniem Nuwara Eliya."
     },
     {
-      "title": "Kraj herbaty",
-      "description": "Wejdź do mglistych plantacji herbaty wokół Nuwara Eliya, aby skosztować góralskiego powietrza."
+      "title": "Nuwara Eliya – Ella",
+      "description": "Poranny trekking w Parku Narodowym Horton Plains, potem malowniczy pociąg do Elli."
     },
     {
-      "title": "Południowe Wybrzeże",
-      "description": "Zejdź w stronę południowego brzegu z fortem Galle i latarniami na plaży."
+      "title": "Ella – Yala",
+      "description": "Zjazd na równiny z postojem przy wodospadzie Ravana, potem safari w Parku Narodowym Yala."
     },
     {
-      "title": "Wyjazd",
-      "description": "Poranek wolny i prywatny transfer na lotnisko w godzinach odpowiadających Twojemu lotowi."
+      "title": "Yala – lotnisko / hotel",
+      "description": "Nadmorski finał: wieloryby lub snorkeling z wielorybami albo żółwiami w Mirissie, Galle Fort, rejs w Bentocie i wylęgarnia żółwi przed transferem na lotnisko lub do hotelu."
     }
   ],
   "faqs": [
     {
       "question": "Czy plan podróży można dostosować?",
-      "answer": "Tak. Dostosowujemy tempo, hotele i doświadczenia do Twoich preferencji."
+      "answer": "Tak. Dopasowujemy tempo, hotele i atrakcje — na przykład czas na ajurwedę lub godzinę safari — do Waszych preferencji."
+    },
+    {
+      "question": "Czy obserwacja wielorybów jest sezonowa?",
+      "answer": "W Mirissie zwykle najlepiej wypada od listopada do kwietnia. Poza sezonem proponujemy snorkeling z żółwiami morskimi lub inne atrakcje na wybrzeżu."
     }
   ]
 }

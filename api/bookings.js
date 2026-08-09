@@ -53,8 +53,8 @@ function resolveAdmins() {
 function validateBooking(body) {
   if (!body || typeof body !== 'object') return { ok: false, error: 'Invalid JSON body' };
   if (!body.tourSlug || !body.tourTitle) return { ok: false, error: 'Tour is required' };
-  if (![1, 2, 3, 4, 5].includes(Number(body.travelersCount))) {
-    return { ok: false, error: 'Travelers must be 1–5' };
+  if (![1, 2, 3, 4, 5, 6].includes(Number(body.travelersCount))) {
+    return { ok: false, error: 'Travelers must be 1–6' };
   }
   if (!body.travelDate) return { ok: false, error: 'Travel date is required' };
   const traveler = body.primaryTraveler;

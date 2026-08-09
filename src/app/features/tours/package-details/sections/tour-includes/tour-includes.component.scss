@@ -12,9 +12,15 @@
   }
 
   h3 {
-    margin: 0 0 0.85rem;
+    margin: 0 0 0.35rem;
     color: var(--color-navy);
     font-size: 1.25rem;
+  }
+
+  &__hint {
+    margin: 0 0 0.85rem;
+    color: var(--color-ink-muted);
+    font-size: 0.9rem;
   }
 
   ul {

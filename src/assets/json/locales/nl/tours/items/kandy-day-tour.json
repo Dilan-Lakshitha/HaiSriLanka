@@ -1,33 +1,62 @@
 {
-  "title": "Kandy-dagtour",
-  "seoTitle": "Kandy-dagtour | Hoi Sri Lanka",
-  "metaDescription": "Privé Kandy-dagtour met Tempel van de Tand en hooglandlandschap.",
-  "shortDescription": "Tempel van de Tand, schilderachtige heuvels en het culturele hart van de hooglanden.",
-  "overview": "Een privédag in de heuvelhoofdstad van Sri Lanka, met als middelpunt de Tempel van de Heilige Tand, een van de belangrijkste boeddhistische plekken van het eiland. Verken het tempelcomplex, observeer de lokale toewijding en geniet van de omgeving van Kandy aan het meer.\nGeniet van panoramische uitzichten over de stad en de omliggende heuvels, met optionele tijd in de Royal Botanical Gardens of andere hoogtepunten van het hoogland. Uw chauffeur-gids houdt de dag flexibel, zodat u kunt blijven hangen waar de sfeer goed voelt.",
-  "description": "Een privédag in de heuvelhoofdstad van Sri Lanka, met als middelpunt de Tempel van de Heilige Tand, een van de belangrijkste boeddhistische plekken van het eiland. Verken het tempelcomplex, observeer de lokale toewijding en geniet van de omgeving van Kandy aan het meer.\nGeniet van panoramische uitzichten over de stad en de omliggende heuvels, met optionele tijd in de Royal Botanical Gardens of andere hoogtepunten van het hoogland. Uw chauffeur-gids houdt de dag flexibel, zodat u kunt blijven hangen waar de sfeer goed voelt.",
+  "title": "Kandy-dagtocht",
+  "seoTitle": "Kandy-dagtocht | Tempel, tuinen, thee & Pinnawala | Hai Sri Lanka",
+  "metaDescription": "Privé Kandy-dagtocht: Tandtempel of Nelligala, botanische tuin Peradeniya, theefabriek, Pinnawala-olifanten, kruidentuin en batikwerkplaats.",
+  "shortDescription": "Tandtempel of Nelligala, tuinen van Peradeniya, theefabriek, Pinnawala-olifanten, kruidentuin en batik.",
+  "overview": "Een privé volle dag in Sri Lanka’s heuvelhoofdstad: cultuur, tuinen, thee en olifanten. Kies de Tempel van de Heilige Tandrelikwie of de Nelligala-tempel, daarna de Nationale Botanische Tuin van Peradeniya, een theeplantage en fabriek, het olifantenweeshuis van Pinnawala of een olifantenparkactiviteit, een Ceylon Ayurveda kruiden- en specerijentuin, en een batik- en sarifabriek.\nUw chauffeur-gids houdt de dag flexibel. Entree en lunch niet inbegrepen.",
+  "description": "Een privé volle dag in Sri Lanka’s heuvelhoofdstad: cultuur, tuinen, thee en olifanten. Kies de Tempel van de Heilige Tandrelikwie of de Nelligala-tempel, daarna de Nationale Botanische Tuin van Peradeniya, een theeplantage en fabriek, het olifantenweeshuis van Pinnawala of een olifantenparkactiviteit, een Ceylon Ayurveda kruiden- en specerijentuin, en een batik- en sarifabriek.\nUw chauffeur-gids houdt de dag flexibel. Entree en lunch niet inbegrepen.",
   "duration": "1 dag",
-  "travelStyle": "Cultuur",
+  "travelStyle": "Privé dagreis",
   "highlights": [
-    "Tempel van de Tand",
-    "Uitzicht op de stad aan het meer",
-    "Hooglandpoortlandschap"
+    {
+      "title": "Tandtempel of Nelligala-tempel",
+      "description": "Bezoek de Tempel van de Heilige Tandrelikwie in Kandy — een van Sri Lanka’s belangrijkste boeddhistische plaatsen — of kies Nelligala voor een rustiger heuvelheiligdom en dalzicht. Geef uw voorkeur door bij de boeking."
+    },
+    {
+      "title": "Botanische tuin Peradeniya",
+      "description": "Wandeling door de Nationale Botanische Tuin van Peradeniya: koningspalmen, orchideeënkassen, reuzenvijgen en gazons aan de rivier. Toegang betaalt u ter plaatse en is niet inbegrepen."
+    },
+    {
+      "title": "Theeplantage & fabriek",
+      "description": "Wandel door een hoogland-thee-estate en bezoek een werkende fabriek: plukken, verwerken en proeven van Ceylon-thee."
+    },
+    {
+      "title": "Olifantenweeshuis Pinnawala",
+      "description": "Bezoek Pinnawala tijdens voeding of rivier tijd, of kies een nabijgelegen olifantenpark voor een begeleide activiteit. Tickets en optionele activiteiten extra."
+    },
+    {
+      "title": "Ceylon Ayurveda kruiden- & specerijentuin",
+      "description": "Rondleiding door een kruiden- en specerijentuin: kaneel, peper, cacao en traditionele plantenremedies, met een korte proeverij of demonstratie."
+    },
+    {
+      "title": "Ceylon batik- & sarifabriek",
+      "description": "Ambachtlieden in een batik- en sariwerkplaats: wasbatik, handweefgetouw en afgewerkte stoffen. Winkelen optioneel."
+    },
+    {
+      "title": "Privé hotelophaling en terugrit",
+      "description": "Uw chauffeur-gids haalt u op bij het hotel — meestal Colombo, de westkust of een afgesproken punt — en brengt u ’s avonds terug."
+    }
   ],
   "included": [
-    "Privé voertuig",
-    "Chauffeur gids"
+    "Privéwagen met airconditioning",
+    "Engelstalige professionele chauffeur",
+    "Ophalen en terugbrengen",
+    "Brandstof en parkeerkosten",
+    "24-uurs service",
+    "Gratis flessenwater"
   ],
   "excluded": [
-    "Toegangskaarten",
+    "Toegangsprijzen",
     "Lunch"
   ],
   "seo": {
-    "metaTitle": "Kandy-dagtour | Hoi Sri Lanka",
-    "metaDescription": "Privé Kandy-dagtour met Tempel van de Tand en hooglandlandschap."
+    "metaTitle": "Kandy-dagtocht | Tempel, tuinen, thee & Pinnawala | Hai Sri Lanka",
+    "metaDescription": "Privé Kandy-dagtocht: Tandtempel of Nelligala, botanische tuin Peradeniya, theefabriek, Pinnawala-olifanten, kruidentuin en batikwerkplaats."
   },
   "itinerary": [
     {
-      "title": "Heilige Kandy",
-      "description": "Een culturele privédag gericht op de Tempel van de Tand en de rustige sfeer aan het meer van Kandy."
+      "title": "Kandy: cultuur, tuinen, thee & olifanten",
+      "description": "Ochtendophaling, daarna een privéroute: Pinnawala of olifantenpark, specerijentuin, theeplantage en fabriek, botanische tuin Peradeniya, Tandtempel of Nelligala, en batik- en sariwerkplaats. ’s Avonds terug naar het hotel."
     }
   ],
   "faqs": []

@@ -9,8 +9,8 @@ export function validateBooking(body: unknown): { ok: true; data: BookingPayload
   if (!data.tourSlug || !data.tourTitle) {
     return { ok: false, error: 'Tour is required' };
   }
-  if (![1, 2, 3, 4, 5].includes(Number(data.travelersCount))) {
-    return { ok: false, error: 'Travelers must be 1–5' };
+  if (![1, 2, 3, 4, 5, 6].includes(Number(data.travelersCount))) {
+    return { ok: false, error: 'Travelers must be 1–6' };
   }
   if (!data.travelDate) {
     return { ok: false, error: 'Travel date is required' };
@@ -29,7 +29,7 @@ export function validateBooking(body: unknown): { ok: true; data: BookingPayload
       tourSlug: String(data.tourSlug),
       tourTitle: String(data.tourTitle),
       tourDuration: data.tourDuration ? String(data.tourDuration) : undefined,
-      travelersCount: Number(data.travelersCount) as 1 | 2 | 3 | 4 | 5,
+      travelersCount: Number(data.travelersCount) as 1 | 2 | 3 | 4 | 5 | 6,
       travelDate: String(data.travelDate),
       pricePerPerson: Number(data.pricePerPerson) || 0,
       totalPrice: Number(data.totalPrice) || 0,

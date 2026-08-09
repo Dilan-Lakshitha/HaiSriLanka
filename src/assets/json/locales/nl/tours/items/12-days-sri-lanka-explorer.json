@@ -8,23 +8,36 @@
   "duration": "12 dagen / 11 nachten",
   "travelStyle": "Dieren in het wild",
   "highlights": [
-    "Wilpattu & Minneriya / Kaudulla-safari's",
-    "Sigiriya-, Pidurangala- en Trincomalee-walvissen",
-    "Kandy-cultuur en theeland in de hooglanden",
-    "Ella, Galle Fort en Bentota finale"
+    {
+      "title": "Wilpattu and dry-zone safaris",
+      "description": "Wild lakes at Wilpattu, then Minneriya or Kaudulla for elephants in the Cultural Triangle."
+    },
+    {
+      "title": "Sigiriya, Pidurangala and Trincomalee",
+      "description": "Rock fortresses then the east coast for dolphins, whales, and marine days."
+    },
+    {
+      "title": "Kandy culture and highland tea",
+      "description": "The Temple of the Tooth, lake city, and a slow climb into Nuwara Eliya and Ella."
+    },
+    {
+      "title": "Ella, Galle Fort and Bentota",
+      "description": "Hill viewpoints, then the south coast — fort walls, turtles, and a beach close before Colombo."
+    }
   ],
   "included": [
-    "Privévervoer/privéchauffeur",
-    "4-sterrenhotels",
-    "Dagelijks ontbijt",
-    "Gids dienst"
+    "Privé airconditioned voertuig",
+    "Engelstalige professionele chauffeur",
+    "Verblijf en maaltijden van de chauffeur",
+    "Ophalen en terugbrengen",
+    "Brandstof en parkeerkosten",
+    "24-uurs service",
+    "Gratis flessenwater",
+    "4-sterrenhotel met halfpension"
   ],
   "excluded": [
-    "Internationale vluchten",
-    "Lunch en diner",
-    "Toegangsprijzen",
-    "Safari-jeep, boot om walvissen te spotten en duiken",
-    "Ayurvedische massage"
+    "Entreekosten",
+    "Lunch"
   ],
   "seo": {
     "metaTitle": "12-daagse eilandverkenner met 4-sterrenhotels en privévervoer | Hoi Sri Lanka",

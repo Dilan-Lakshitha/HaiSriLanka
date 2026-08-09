@@ -61,7 +61,7 @@ export class TourHubPageComponent implements OnInit {
   readonly locale = inject(LocaleService);
   readonly trackBySlug = trackBySlug;
 
-  readonly activeTab = signal<TourHubTab>('day');
+  readonly activeTab = signal<TourHubTab>('multi-day');
   readonly quickViewTour = signal<Tour | null>(null);
 
   readonly vm$ = combineLatest([

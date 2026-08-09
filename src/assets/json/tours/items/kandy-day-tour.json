@@ -3,39 +3,72 @@
   "slug": "kandy-day-tour",
   "category": "day",
   "title": "Kandy Day Tour",
-  "seoTitle": "Kandy Day Tour | Hai Sri Lanka",
-  "metaDescription": "Private Kandy day tour with Temple of the Tooth and highland scenery.",
-  "shortDescription": "Temple of the Tooth, scenic hills, and the cultural heart of the highlands.",
-  "overview": "A private day into Sri Lanka's hill capital, centred on the Temple of the Sacred Tooth Relic — one of the island's most important Buddhist sites. Explore the temple complex, observe local devotion, and soak in the lakeside setting of Kandy.\nEnjoy panoramic viewpoints over the city and surrounding hills, with optional time at the Royal Botanical Gardens or other highland highlights. Your chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right.",
+  "seoTitle": "Kandy Day Tour | Temple, Gardens, Tea & Pinnawala | Hai Sri Lanka",
+  "metaDescription": "Private Kandy day tour: Temple of the Tooth or Nelligala, Peradeniya Botanical Garden, tea factory, Pinnawala elephants, spice garden, and batik workshop.",
+  "shortDescription": "Temple of the Tooth or Nelligala, Peradeniya Gardens, tea factory, Pinnawala elephants, spice garden, and batik workshop.",
+  "overview": "A private full-day journey into Sri Lanka’s hill capital, built around culture, gardens, tea country, and elephants. Choose the Temple of the Sacred Tooth Relic or Nelligala Temple, then visit the National Botanical Garden at Peradeniya, a tea plantation and factory, Pinnawala Elephant Orphanage or an elephant park activity, a Ceylon Ayurveda herbal and spice garden, and a batik and saree factory.\nYour chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right. Entrance fees and lunch are not included.",
   "duration": "1 Day",
   "destinations": [
     "Kandy",
-    "Kandy",
+    "Peradeniya",
+    "Pinnawala",
     "Central Province"
   ],
-  "travelStyle": "Culture",
+  "travelStyle": "Private Day Journey",
   "highlights": [
-    "Temple of the Tooth",
-    "Lakeside city views",
-    "Highland gateway scenery"
+    {
+      "title": "Temple of the Tooth or Nelligala Temple",
+      "description": "Visit Kandy’s Temple of the Sacred Tooth Relic — one of Sri Lanka’s most important Buddhist sites — or choose Nelligala Temple for a quieter hilltop shrine and wide valley views. Tell us your preference when you book."
+    },
+    {
+      "title": "Peradeniya Botanical Garden",
+      "description": "Stroll the National Botanical Garden at Peradeniya: royal palms, orchid houses, giant fig trees, and riverside lawns. Garden admission is paid on site and is not included."
+    },
+    {
+      "title": "Tea Plantation & Factory",
+      "description": "Walk through a highland tea estate and visit a working factory to see how Ceylon tea is plucked, processed, and tasted."
+    },
+    {
+      "title": "Pinnawala Elephant Orphanage",
+      "description": "Visit Pinnawala Elephant Orphanage to see rescued elephants at feeding or river time, or choose a nearby elephant park for a guided activity. Park tickets and optional activities are extra."
+    },
+    {
+      "title": "Ceylon Ayurveda Herbal & Spice Garden",
+      "description": "Tour a Ceylon Ayurveda herbal and spice garden: cinnamon, pepper, cocoa, and traditional plant remedies, with a short tasting or demonstration."
+    },
+    {
+      "title": "Ceylon Batik & Saree Factory",
+      "description": "See artisans at a Ceylon batik and saree workshop — wax-resist dyeing, handloom, and finished textiles. Shopping is optional."
+    },
+    {
+      "title": "Private hotel pickup and drop-off",
+      "description": "Your chauffeur guide collects you from your hotel — typically Colombo, the west coast, or an agreed point — and returns you in the evening. Tell us your hotel when you book so we confirm pickup."
+    }
   ],
   "included": [
-    "Private vehicle",
-    "Chauffeur guide"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water"
   ],
   "excluded": [
-    "Entrance tickets",
+    "Entrance fees",
     "Lunch"
   ],
   "itinerary": [
     {
       "day": 1,
-      "title": "Sacred Kandy",
-      "description": "A private cultural day focused on the Temple of the Tooth Relic and the calm lakeside atmosphere of Kandy.",
+      "title": "Kandy culture, gardens, tea & elephants",
+      "description": "Morning hotel pickup, then a private circuit covering Pinnawala or an elephant park, a spice garden, tea plantation and factory, Peradeniya Botanical Garden, Temple of the Tooth or Nelligala Temple, and a batik and saree workshop. Evening return to your hotel.",
       "highlights": [
-        "Temple visit",
-        "City viewpoints",
-        "Boutique pause"
+        "Temple of the Tooth or Nelligala Temple",
+        "National Botanical Garden at Peradeniya",
+        "Tea plantation and factory visit",
+        "Pinnawala Elephant Orphanage or elephant park activity",
+        "Ceylon Ayurveda herbal and spice garden",
+        "Ceylon batik and saree factory"
       ],
       "location": {
         "name": "Kandy",
@@ -47,23 +80,22 @@
       },
       "images": [
         {
-          "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
-          "alt": "Guests exploring with a local guide",
-          "title": "Kandy",
+          "src": "/assets/images/destinations/kandy.jpg",
+          "alt": "Temple of the Tooth Relic in Kandy",
+          "title": "Temple of the Tooth",
           "width": 1200,
-          "height": 900
+          "height": 795
         }
       ],
-      "meals": [
-        "Lunch opportunity"
-      ],
       "locations": [
+        "Pinnawala",
+        "Peradeniya",
         "Kandy",
-        "Central Province"
+        "Nelligala"
       ],
-      "travelTime": "Private road transfer · flexible pacing",
       "optionalActivities": [
-        "Optional: deepen the day with temple visit"
+        "Optional: Nelligala Temple instead of the Temple of the Tooth",
+        "Optional: elephant park activity instead of Pinnawala"
       ]
     }
   ],
@@ -72,29 +104,34 @@
   "pricing": [
     {
       "travelers": 1,
-      "pricePerPerson": 580
+      "pricePerPerson": 245
     },
     {
       "travelers": 2,
-      "pricePerPerson": 440
+      "pricePerPerson": 150
     },
     {
       "travelers": 3,
-      "pricePerPerson": 400
+      "pricePerPerson": 115
     },
     {
       "travelers": 4,
-      "pricePerPerson": 370
+      "pricePerPerson": 97.5
     },
     {
       "travelers": 5,
-      "pricePerPerson": 350
+      "pricePerPerson": 87
+    },
+    {
+      "travelers": 6,
+      "pricePerPerson": 80
     }
   ],
   "currency": "USD",
   "relatedTours": [
     "galle-day-tour",
-    "sigiriya-dambulla-day-tour"
+    "sigiriya-dambulla-day-tour",
+    "ella-day-tour"
   ],
   "badges": [
     "featured",
@@ -104,74 +141,64 @@
     "culture",
     "day",
     "temple",
-    "lakeside",
+    "tea",
+    "elephants",
     "highland"
   ],
   "route": [
     {
-      "name": "Kandy"
+      "name": "Pinnawala"
     },
     {
-      "name": "Central Province"
+      "name": "Peradeniya"
+    },
+    {
+      "name": "Kandy"
     }
   ],
   "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=7.2906,80.6337",
   "heroImage": {
-    "src": "/assets/images/tours/kandy-day-tour/hero.webp",
-    "alt": "Temple of the Tooth area in Kandy on a private day tour",
+    "src": "/assets/images/destinations/kandy.jpg",
+    "alt": "Temple of the Tooth Relic in Kandy on a private day tour",
     "title": "Kandy Day Tour",
-    "width": 1400,
-    "height": 1050
+    "width": 1200,
+    "height": 795
   },
   "gallery": [
     {
-      "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
-      "alt": "Guests on a mangrove boat safari in Sri Lanka",
-      "title": "Mangrove boat safari",
-      "width": 1600,
-      "height": 1200
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/dambulla-cave-group.png",
-      "alt": "Travelers with guide at Dambulla Cave Temple",
-      "title": "Dambulla Cave Temple",
-      "width": 1600,
-      "height": 1200
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/nine-arch-family.png",
-      "alt": "Family visiting Nine Arch Bridge in Ella",
-      "title": "Nine Arch Bridge",
-      "width": 1600,
-      "height": 1200
-    },
-    {
-      "src": "/assets/images/tours/guest-experiences/village-tractor-ride.png",
-      "alt": "Family on a village tractor ride in Sri Lanka",
-      "title": "Village tractor ride",
+      "src": "/assets/images/destinations/kandy.jpg",
+      "alt": "Ceremonial procession at the Temple of the Tooth Relic in Kandy",
+      "title": "Temple of the Tooth",
       "width": 1200,
-      "height": 1600
+      "height": 795
     },
     {
-      "src": "/assets/images/tours/guest-experiences/cycling-pair.png",
-      "alt": "Guests on a cycling tour through greenery",
-      "title": "Cycling tour",
-      "width": 1200,
-      "height": 1600
+      "src": "/assets/images/tours/kandy-day-tour/temple-of-the-tooth-night.jpg",
+      "alt": "Temple of the Sacred Tooth Relic in Kandy illuminated at night",
+      "title": "Temple of the Tooth at night",
+      "width": 480,
+      "height": 320
     },
     {
-      "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
-      "alt": "Guests and guide smiling in a tuk-tuk",
-      "title": "Tuk-tuk moments",
-      "width": 1200,
-      "height": 1200
+      "src": "/assets/images/tours/kandy-day-tour/tea-plantation-visit.jpg",
+      "alt": "Guests on a tea plantation visit near Kandy",
+      "title": "Tea plantation & factory",
+      "width": 480,
+      "height": 402
     },
     {
       "src": "/assets/images/tours/guest-experiences/elephant-river-herd.png",
-      "alt": "Elephants bathing in a Sri Lankan river",
-      "title": "River elephants",
+      "alt": "Elephants by the river near Pinnawala",
+      "title": "Pinnawala elephants",
       "width": 1600,
       "height": 1200
+    },
+    {
+      "src": "/assets/images/tours/guest-experiences/elephant-bathing-guests.png",
+      "alt": "Guests with elephants at a riverside park",
+      "title": "Elephant park activity",
+      "width": 1200,
+      "height": 1600
     }
   ],
   "rating": {
@@ -179,16 +206,20 @@
     "count": 74
   },
   "seo": {
-    "metaTitle": "Kandy Day Tour | Hai Sri Lanka",
-    "metaDescription": "Private Kandy day tour with Temple of the Tooth and highland scenery.",
+    "metaTitle": "Kandy Day Tour | Temple, Gardens, Tea & Pinnawala | Hai Sri Lanka",
+    "metaDescription": "Private Kandy day tour: Temple of the Tooth or Nelligala, Peradeniya Botanical Garden, tea factory, Pinnawala elephants, spice garden, and batik workshop.",
     "keywords": [
       "Kandy day tour",
-      "Temple of the Tooth"
+      "Temple of the Tooth",
+      "Nelligala Temple",
+      "Peradeniya Botanical Garden",
+      "Pinnawala Elephant Orphanage",
+      "tea factory Kandy"
     ],
-    "ogImage": "/assets/images/tours/kandy-day-tour/hero.webp"
+    "ogImage": "/assets/images/destinations/kandy.jpg"
   },
   "status": "published",
-  "description": "A private day into Sri Lanka's hill capital, centred on the Temple of the Sacred Tooth Relic — one of the island's most important Buddhist sites. Explore the temple complex, observe local devotion, and soak in the lakeside setting of Kandy.\nEnjoy panoramic viewpoints over the city and surrounding hills, with optional time at the Royal Botanical Gardens or other highland highlights. Your chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right.",
+  "description": "A private full-day journey into Sri Lanka’s hill capital, built around culture, gardens, tea country, and elephants. Choose the Temple of the Sacred Tooth Relic or Nelligala Temple, then visit the National Botanical Garden at Peradeniya, a tea plantation and factory, Pinnawala Elephant Orphanage or an elephant park activity, a Ceylon Ayurveda herbal and spice garden, and a batik and saree factory.\nYour chauffeur guide keeps the day flexible so you can linger where the atmosphere feels right. Entrance fees and lunch are not included.",
   "location": {
     "name": "Kandy",
     "region": "Central Province",
@@ -198,33 +229,39 @@
     }
   },
   "price": {
-    "1": 580,
-    "2": 440,
-    "3": 400,
-    "4": 370,
-    "5": 350
+    "1": 245,
+    "2": 150,
+    "3": 115,
+    "4": 97.5,
+    "5": 87,
+    "6": 80
   },
   "images": [
     {
-      "src": "/assets/images/tours/kandy-day-tour/hero.webp",
-      "alt": "Kandy Day Tour",
+      "src": "/assets/images/destinations/kandy.jpg",
+      "alt": "Temple of the Tooth Relic in Kandy",
       "title": "Kandy Day Tour",
-      "width": 1600,
-      "height": 1067
+      "width": 1200,
+      "height": 795
     }
   ],
   "includes": [
-    "Private vehicle",
-    "Chauffeur guide"
+    "Air-conditioned private vehicle",
+    "English-speaking professional driver",
+    "Pickup & drop-off",
+    "Fuel & parking fees",
+    "24-hour service",
+    "Free bottled water"
   ],
   "excludes": [
-    "Entrance tickets",
+    "Entrance fees",
     "Lunch"
   ],
   "faq": [],
   "relatedTourSlugs": [
     "galle-day-tour",
-    "sigiriya-dambulla-day-tour"
+    "sigiriya-dambulla-day-tour",
+    "ella-day-tour"
   ],
   "featured": true,
   "bestSeller": false
