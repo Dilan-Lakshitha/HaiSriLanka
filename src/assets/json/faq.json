@@ -2,7 +2,7 @@
   "global": [
     {
       "question": "Are tours private?",
-      "answer": "Yes. Hai Sri Lanka specializes in private inbound experiences for couples, families, and small groups."
+      "answer": "Yes. Hai Sri Lanka specializes in private inbound experiences for couples, families, and small groups. You travel with your own driver-guide, not on a mixed coach."
     },
     {
       "question": "Do you arrange airport transfers?",
@@ -15,6 +15,30 @@
     {
       "question": "Can itineraries be customized?",
       "answer": "Absolutely. We adjust pace, hotels, and experiences to your preferences before confirming your journey."
+    },
+    {
+      "question": "When do I pay?",
+      "answer": "You pay at destination after your tour is confirmed. We do not take card payments online to request a booking."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "Free cancellation is available on most tours if you notify us in reasonable time before travel. Exact terms are confirmed with your booking email."
+    },
+    {
+      "question": "What is usually included?",
+      "answer": "Private vehicle, driver-guide, fuel, and parking are typically included. Tickets, meals, and hotels depend on the tour and are listed on each tour page."
+    },
+    {
+      "question": "How far in advance should I book?",
+      "answer": "Two to four weeks is comfortable for day tours. Multi-day journeys and peak months (December–March and July–August) are better booked earlier."
+    },
+    {
+      "question": "Do you take children or solo travelers?",
+      "answer": "Yes. Families and solo travelers are welcome. Tell us ages and pace so we can shape a comfortable private day."
+    },
+    {
+      "question": "Which languages do guides speak?",
+      "answer": "English is standard. German, French, and other European languages can often be arranged on request."
     }
   ],
   "pages": [
@@ -28,6 +52,19 @@
         {
           "question": "What languages do your guides speak?",
           "answer": "English is standard. German, French, and other European languages can be arranged on request."
+        }
+      ]
+    },
+    {
+      "pageKey": "faq",
+      "items": [
+        {
+          "question": "Where are you based?",
+          "answer": "Hai Sri Lanka Tours is based in Colombo and operates private journeys across the island."
+        },
+        {
+          "question": "How do I contact you quickly?",
+          "answer": "Use the contact form, email, phone, or WhatsApp. We reply personally and help shape dates around your trip."
         }
       ]
     }

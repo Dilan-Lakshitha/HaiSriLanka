@@ -8,18 +8,15 @@ import {
 } from '@angular/core';
 import { toObservable } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
-import { combineLatest, map, tap } from 'rxjs';
+import { TranslocoPipe, TranslocoService } from '@jsverse/transloco';
+import { combineLatest, firstValueFrom, map, tap } from 'rxjs';
 import { RevealDirective } from '../../../core/directives/reveal.directive';
 import type { Destination } from '../../../core/models';
 import { BreadcrumbService } from '../../../core/services/breadcrumb.service';
 import { DestinationService } from '../../../core/services/content.services';
 import { LocaleService } from '../../../core/services/locale.service';
-import {
-  absUrl,
-  buildBreadcrumbSchema,
-  buildGraph,
-} from '../../../core/seo/schema/schema.builders';
-import { SeoService } from '../../../core/seo/seo.service';
+import { absUrl } from '../../../core/seo/schema/schema.builders';
+import { PageSeoFacade } from '../../../core/seo/page-seo.facade';
 import { DestinationCardComponent } from '../../../shared/cards/destination-card/destination-card.component';
 import { BreadcrumbComponent } from '../../../shared/components/breadcrumb/breadcrumb.component';
 import { UiButtonComponent } from '../../../shared/ui/button/ui-button.component';
@@ -35,6 +32,7 @@ import { UiContainerComponent } from '../../../shared/ui/container/ui-container.
     RevealDirective,
     BreadcrumbComponent,
     DestinationCardComponent,
+    TranslocoPipe,
     UiButtonComponent,
     UiContainerComponent,
   ],
@@ -44,8 +42,9 @@ import { UiContainerComponent } from '../../../shared/ui/container/ui-container.
 })
 export class DestinationListPageComponent implements OnInit {
   private readonly destinations = inject(DestinationService);
-  private readonly seo = inject(SeoService);
+  private readonly seo = inject(PageSeoFacade);
   private readonly breadcrumbs = inject(BreadcrumbService);
+  private readonly transloco = inject(TranslocoService);
   readonly locale = inject(LocaleService);
 
   readonly regionFilter = signal('all');
@@ -78,10 +77,15 @@ export class DestinationListPageComponent implements OnInit {
   );
 
   ngOnInit(): void {
+    void this.setBreadcrumbs();
+  }
+
+  private async setBreadcrumbs(): Promise<void> {
     const lang = this.locale.activeLang();
+    await firstValueFrom(this.transloco.load(lang));
     this.breadcrumbs.set([
-      { label: 'Home', url: `/${lang}` },
-      { label: 'Destinations' },
+      { label: this.transloco.translate('nav.home'), url: `/${lang}` },
+      { label: this.transloco.translate('nav.destinations') },
     ]);
   }
 
@@ -90,30 +94,23 @@ export class DestinationListPageComponent implements OnInit {
   }
 
   private applySeo(lang: string, items: Destination[]): void {
+    void this.applySeoAsync(lang, items);
+  }
+
+  private async applySeoAsync(lang: string, items: Destination[]): Promise<void> {
+    await firstValueFrom(this.transloco.load(lang));
     const path = 'destinations';
-    this.seo.update({
-      title: 'Sri Lanka Destinations | Hai Sri Lanka Tours',
-      description:
-        'Explore Sri Lanka’s defining destinations Galle, Sigiriya, Kandy, Yala, Ella, and more with private tours by Hai Sri Lanka.',
-      keywords: [
-        'Sri Lanka destinations',
-        'Galle',
-        'Sigiriya',
-        'Kandy',
-        'Yala',
-        'Ella',
+    void this.seo.applyTranslatedPage('destinations', path, {
+      breadcrumbs: [
+        { name: 'nav.home' },
+        { name: 'nav.destinations', path },
       ],
-      path,
       image: items[0]?.images[0]?.src,
-      type: 'website',
-      jsonLd: buildGraph(
-        buildBreadcrumbSchema([
-          { name: 'Home', url: `/${lang}` },
-          { name: 'Destinations', url: `/${lang}/${path}` },
-        ]),
+      extraNodes: [
         {
           '@type': 'ItemList',
-          name: 'Sri Lanka Destinations',
+          name: this.transloco.translate('destinationsPage.schemaName'),
+          inLanguage: lang,
           numberOfItems: items.length,
           itemListElement: items.map((d, i) => ({
             '@type': 'ListItem',
@@ -122,7 +119,7 @@ export class DestinationListPageComponent implements OnInit {
             url: absUrl(`/${lang}/destinations/${d.slug}`),
           })),
         },
-      ),
+      ],
     });
   }
 }

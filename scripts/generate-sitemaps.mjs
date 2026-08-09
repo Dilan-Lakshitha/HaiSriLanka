@@ -8,11 +8,11 @@ const LOCALES_PATH = join(ROOT, 'src/assets/language/locales.json');
 const TODAY = new Date().toISOString().slice(0, 10);
 
 /**
- * Indexable hub pages only.
- * Coming-soon foundation stubs (about, faq, etc.) are noindex and omitted.
+ * Indexable hub + legal pages. Travel-guide remains a noindex stub.
  */
 const STATIC_PATHS = [
   '',
+  'about',
   'sri-lanka-tours',
   'day-tours',
   'multi-day-tours',
@@ -21,6 +21,9 @@ const STATIC_PATHS = [
   'blog',
   'contact',
   'reviews',
+  'faq',
+  'privacy',
+  'terms',
 ];
 
 function readJson(relPath) {
@@ -55,70 +58,58 @@ function loadContentUrls() {
 
 function loadLocales() {
   if (!existsSync(LOCALES_PATH)) {
-    return [{ code: 'en', enabled: true }];
+    return [{ code: 'en', enabled: true, hreflang: 'en' }];
   }
   const data = JSON.parse(readFileSync(LOCALES_PATH, 'utf8'));
   return data.locales.filter((l) => l.enabled);
 }
 
-function urlEntry(loc, lastmod = TODAY) {
-  return `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`;
+function allPaths(content) {
+  const paths = [...STATIC_PATHS];
+  for (const slug of content.dayTours) paths.push(`day-tour/${slug}`);
+  for (const slug of content.multiDayTours) paths.push(`multi-day-tour/${slug}`);
+  for (const slug of content.destinations) paths.push(`destinations/${slug}`);
+  for (const slug of content.experiences) paths.push(`things-to-do/${slug}`);
+  for (const slug of content.blogs) paths.push(`blog/${slug}`);
+  return paths;
 }
 
-function buildLocaleSitemap(lang, content) {
-  const urls = [];
+function hrefFor(lang, path) {
+  return path ? `${SITE_URL}/${lang}/${path}` : `${SITE_URL}/${lang}`;
+}
 
-  for (const path of STATIC_PATHS) {
-    const href = path ? `${SITE_URL}/${lang}/${path}` : `${SITE_URL}/${lang}`;
-    urls.push(urlEntry(href));
-  }
+function urlEntry(lang, path, locales) {
+  const loc = hrefFor(lang, path);
+  const links = locales.map(
+    (l) =>
+      `    <xhtml:link rel="alternate" hreflang="${l.hreflang || l.code}" href="${hrefFor(l.code, path)}"/>`,
+  );
+  links.push(
+    `    <xhtml:link rel="alternate" hreflang="x-default" href="${hrefFor('en', path)}"/>`,
+  );
+  return `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${TODAY}</lastmod>\n${links.join('\n')}\n  </url>`;
+}
 
-  for (const slug of content.dayTours) {
-    urls.push(urlEntry(`${SITE_URL}/${lang}/day-tour/${slug}`));
-  }
-  for (const slug of content.multiDayTours) {
-    urls.push(urlEntry(`${SITE_URL}/${lang}/multi-day-tour/${slug}`));
-  }
-  for (const slug of content.destinations) {
-    urls.push(urlEntry(`${SITE_URL}/${lang}/destinations/${slug}`));
-  }
-  for (const slug of content.experiences) {
-    urls.push(urlEntry(`${SITE_URL}/${lang}/things-to-do/${slug}`));
-  }
-  for (const slug of content.blogs) {
-    urls.push(urlEntry(`${SITE_URL}/${lang}/blog/${slug}`));
-  }
-
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`;
+function buildLocaleSitemap(lang, paths, locales) {
+  const urls = paths.map((path) => urlEntry(lang, path, locales));
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`;
 }
 
 const locales = loadLocales();
 const content = loadContentUrls();
+const paths = allPaths(content);
 mkdirSync(PUBLIC, { recursive: true });
 
 const indexEntries = [];
 for (const locale of locales) {
   const fileName = `sitemap-${locale.code}.xml`;
-  writeFileSync(join(PUBLIC, fileName), buildLocaleSitemap(locale.code, content));
-  indexEntries.push(
-    `  <sitemap>\n    <loc>${SITE_URL}/${fileName}</loc>\n  </sitemap>`,
-  );
+  writeFileSync(join(PUBLIC, fileName), buildLocaleSitemap(locale.code, paths, locales));
+  indexEntries.push(`  <sitemap>\n    <loc>${SITE_URL}/${fileName}</loc>\n  </sitemap>`);
 }
 
 const index = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${indexEntries.join('\n')}\n</sitemapindex>\n`;
 writeFileSync(join(PUBLIC, 'sitemap-index.xml'), index);
 
-const count =
-  STATIC_PATHS.length +
-  content.dayTours.length +
-  content.multiDayTours.length +
-  content.destinations.length +
-  content.experiences.length +
-  content.blogs.length;
-
 console.log(
-  `Generated sitemaps for ${locales.length} locales (${count} URLs each).`,
-);
-console.log(
-  `  tours: ${content.dayTours.length + content.multiDayTours.length}, destinations: ${content.destinations.length}, experiences: ${content.experiences.length}, blogs: ${content.blogs.length}`,
+  `Generated sitemaps for ${locales.length} locales (${paths.length} URLs each) with hreflang annotations.`,
 );

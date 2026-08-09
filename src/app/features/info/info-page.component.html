@@ -1,0 +1,69 @@
+<article class="info-page" [class.info-page--legal]="!isAbout()">
+  <section class="info-page__hero">
+    <div class="info-page__hero-media" aria-hidden="true">
+      <img
+        [ngSrc]="hero().src"
+        [alt]="hero().alt"
+        [width]="hero().width || 1600"
+        [height]="hero().height || 900"
+        priority
+      />
+      <div class="info-page__hero-veil"></div>
+    </div>
+    <app-ui-container>
+      <div class="info-page__hero-copy">
+        <app-breadcrumb />
+        <p class="info-page__eyebrow">{{ prefix() + '.eyebrow' | transloco }}</p>
+        <h1>{{ prefix() + '.title' | transloco }}</h1>
+        <p>{{ prefix() + '.intro' | transloco }}</p>
+      </div>
+    </app-ui-container>
+  </section>
+
+  <section class="info-page__body" appReveal>
+    <app-ui-container>
+      @if (isAbout()) {
+        <div class="info-page__prose">
+          <h2>{{ 'aboutPage.storyTitle' | transloco }}</h2>
+          <p>{{ 'aboutPage.story1' | transloco }}</p>
+          <p>{{ 'aboutPage.story2' | transloco }}</p>
+        </div>
+
+        @if (values().length) {
+          <h2 class="info-page__values-title">{{ 'aboutPage.valuesTitle' | transloco }}</h2>
+          <ul class="info-page__values">
+            @for (value of values(); track value.title) {
+              <li>
+                <h3>{{ value.title }}</h3>
+                <p>{{ value.body }}</p>
+              </li>
+            }
+          </ul>
+        }
+      } @else {
+        <p class="info-page__updated">{{ prefix() + '.updated' | transloco }}</p>
+        <div class="info-page__prose">
+          @for (section of sections(); track section.title) {
+            <h2>{{ section.title }}</h2>
+            <p>{{ section.body }}</p>
+          }
+        </div>
+      }
+
+      <div class="info-page__cta">
+        <div>
+          <p class="info-page__cta-eyebrow">{{ prefix() + '.ctaEyebrow' | transloco }}</p>
+          <p>{{ prefix() + '.ctaBody' | transloco }}</p>
+        </div>
+        <div class="info-page__cta-actions">
+          <a appUiButton variant="primary" [routerLink]="['/', locale.activeLang(), 'sri-lanka-tours']">
+            {{ prefix() + '.exploreTours' | transloco }}
+          </a>
+          <a appUiButton variant="ghost" [routerLink]="['/', locale.activeLang(), 'contact']">
+            {{ 'nav.contact' | transloco }}
+          </a>
+        </div>
+      </div>
+    </app-ui-container>
+  </section>
+</article>

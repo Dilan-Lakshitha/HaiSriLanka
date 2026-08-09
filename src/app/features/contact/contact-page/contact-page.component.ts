@@ -10,7 +10,8 @@ import {
 import { FormsModule } from '@angular/forms';
 import { HttpErrorResponse } from '@angular/common/http';
 import { RouterLink } from '@angular/router';
-import { map, tap } from 'rxjs';
+import { TranslocoPipe, TranslocoService } from '@jsverse/transloco';
+import { firstValueFrom, map, tap } from 'rxjs';
 import { APP_CONFIG } from '../../../core/config/app.config';
 import { RevealDirective } from '../../../core/directives/reveal.directive';
 import type { CompanyInfo, ImageAsset } from '../../../core/models';
@@ -42,6 +43,7 @@ const HERO_IMAGE: ImageAsset = {
     RouterLink,
     RevealDirective,
     BreadcrumbComponent,
+    TranslocoPipe,
     UiButtonComponent,
     UiContainerComponent,
   ],
@@ -54,6 +56,7 @@ export class ContactPageComponent implements OnInit {
   private readonly contactApi = inject(ContactApiService);
   private readonly seo = inject(PageSeoFacade);
   private readonly breadcrumbs = inject(BreadcrumbService);
+  private readonly transloco = inject(TranslocoService);
   readonly locale = inject(LocaleService);
 
   readonly heroImage = HERO_IMAGE;
@@ -93,10 +96,15 @@ export class ContactPageComponent implements OnInit {
   );
 
   ngOnInit(): void {
+    void this.setBreadcrumbs();
+  }
+
+  private async setBreadcrumbs(): Promise<void> {
     const lang = this.locale.activeLang();
+    await firstValueFrom(this.transloco.load(lang));
     this.breadcrumbs.set([
-      { label: 'Home', url: `/${lang}` },
-      { label: 'Contact' },
+      { label: this.transloco.translate('nav.home'), url: `/${lang}` },
+      { label: this.transloco.translate('nav.contact') },
     ]);
   }
 
@@ -122,7 +130,7 @@ export class ContactPageComponent implements OnInit {
         next: (res) => {
           this.submitting.set(false);
           this.successMessage.set(
-            res.message || 'Thank you your message has been sent.',
+            res.message || this.transloco.translate('contactPage.success'),
           );
           this.name.set('');
           this.email.set('');
@@ -143,18 +151,23 @@ export class ContactPageComponent implements OnInit {
   }
 
   private applySeo(company: CompanyInfo, lang: string): void {
+    void this.applySeoAsync(company, lang);
+  }
+
+  private async applySeoAsync(company: CompanyInfo, lang: string): Promise<void> {
+    await firstValueFrom(this.transloco.load(lang));
     void this.seo.applyTranslatedPage('contact', 'contact', {
       breadcrumbs: [
-        { name: 'Home' },
+        { name: 'nav.home' },
         { name: 'nav.contact', path: 'contact' },
       ],
       extraNodes: [
         {
           '@type': 'ContactPage',
-          name: 'Contact Hai Sri Lanka Tours',
+          name: this.transloco.translate('contactPage.schemaName'),
           url: absUrl(`/${lang}/contact`),
-          description:
-            'Contact Hai Sri Lanka Tours by form, phone, WhatsApp, or email to plan a private Sri Lanka journey.',
+          description: this.transloco.translate('contactPage.schemaDescription'),
+          inLanguage: lang,
           mainEntity: {
             '@type': 'TravelAgency',
             name: company.brandName,

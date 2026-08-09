@@ -1,155 +1,675 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.haisrilanka.com/pl</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en"/>
+  </url>
+  <url>
+    <loc>https://www.haisrilanka.com/pl/about</loc>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/about"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/about"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/about"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/about"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/about"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/about"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/about"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/about"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/sri-lanka-tours</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/sri-lanka-tours"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/sri-lanka-tours"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/sri-lanka-tours"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/sri-lanka-tours"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/sri-lanka-tours"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/sri-lanka-tours"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/sri-lanka-tours"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/sri-lanka-tours"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/sri-lanka-tours"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/sri-lanka-tours"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/sri-lanka-tours"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/sri-lanka-tours"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/day-tours</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/day-tours"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/day-tours"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/day-tours"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/day-tours"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/day-tours"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/day-tours"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/day-tours"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/day-tours"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/day-tours"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/day-tours"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/day-tours"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/day-tours"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/multi-day-tours</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/multi-day-tours"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/multi-day-tours"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/multi-day-tours"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/multi-day-tours"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/multi-day-tours"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/multi-day-tours"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/multi-day-tours"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/multi-day-tours"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/multi-day-tours"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/multi-day-tours"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/multi-day-tours"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/multi-day-tours"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/destinations</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/destinations"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/destinations"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/destinations"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/destinations"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/destinations"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/destinations"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/destinations"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/destinations"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/destinations"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/destinations"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/destinations"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/destinations"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/things-to-do</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/things-to-do"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/things-to-do"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/things-to-do"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/things-to-do"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/things-to-do"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/things-to-do"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/things-to-do"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/things-to-do"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/things-to-do"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/things-to-do"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/things-to-do"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/things-to-do"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/blog</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/blog"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/blog"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/blog"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/blog"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/blog"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/blog"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/blog"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/blog"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/blog"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/blog"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/contact</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/contact"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/contact"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/contact"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/contact"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/contact"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/contact"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/contact"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/reviews</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/reviews"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/reviews"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/reviews"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/reviews"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/reviews"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/reviews"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/reviews"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/reviews"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/reviews"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/reviews"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/reviews"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/reviews"/>
+  </url>
+  <url>
+    <loc>https://www.haisrilanka.com/pl/faq</loc>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/faq"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/faq"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/faq"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/faq"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/faq"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/faq"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/faq"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/faq"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/faq"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/faq"/>
+  </url>
+  <url>
+    <loc>https://www.haisrilanka.com/pl/privacy</loc>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/privacy"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/privacy"/>
+  </url>
+  <url>
+    <loc>https://www.haisrilanka.com/pl/terms</loc>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/terms"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/terms"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/terms"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/day-tour/galle-day-tour</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/day-tour/galle-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/day-tour/galle-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/day-tour/galle-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/day-tour/galle-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/day-tour/galle-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/day-tour/galle-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/day-tour/galle-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/day-tour/galle-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/day-tour/galle-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/day-tour/galle-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/day-tour/galle-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/day-tour/galle-day-tour"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/day-tour/sigiriya-dambulla-day-tour</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/day-tour/sigiriya-dambulla-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/day-tour/sigiriya-dambulla-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/day-tour/sigiriya-dambulla-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/day-tour/sigiriya-dambulla-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/day-tour/sigiriya-dambulla-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/day-tour/sigiriya-dambulla-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/day-tour/sigiriya-dambulla-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/day-tour/sigiriya-dambulla-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/day-tour/sigiriya-dambulla-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/day-tour/sigiriya-dambulla-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/day-tour/sigiriya-dambulla-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/day-tour/sigiriya-dambulla-day-tour"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/day-tour/kandy-day-tour</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/day-tour/kandy-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/day-tour/kandy-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/day-tour/kandy-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/day-tour/kandy-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/day-tour/kandy-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/day-tour/kandy-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/day-tour/kandy-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/day-tour/kandy-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/day-tour/kandy-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/day-tour/kandy-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/day-tour/kandy-day-tour"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/day-tour/kandy-day-tour"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/multi-day-tour/7-days-sri-lanka-highlights</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/multi-day-tour/7-days-sri-lanka-highlights"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/multi-day-tour/7-days-sri-lanka-highlights"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/multi-day-tour/7-days-sri-lanka-highlights"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/multi-day-tour/7-days-sri-lanka-highlights"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/multi-day-tour/7-days-sri-lanka-highlights"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/multi-day-tour/7-days-sri-lanka-highlights"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/multi-day-tour/7-days-sri-lanka-highlights"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/multi-day-tour/7-days-sri-lanka-highlights"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/multi-day-tour/7-days-sri-lanka-highlights"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/multi-day-tour/7-days-sri-lanka-highlights"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/multi-day-tour/7-days-sri-lanka-highlights"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/multi-day-tour/7-days-sri-lanka-highlights"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/multi-day-tour/10-days-classic-ceylon</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/multi-day-tour/10-days-classic-ceylon"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/multi-day-tour/10-days-classic-ceylon"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/multi-day-tour/10-days-classic-ceylon"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/multi-day-tour/10-days-classic-ceylon"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/multi-day-tour/10-days-classic-ceylon"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/multi-day-tour/10-days-classic-ceylon"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/multi-day-tour/10-days-classic-ceylon"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/multi-day-tour/10-days-classic-ceylon"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/multi-day-tour/10-days-classic-ceylon"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/multi-day-tour/10-days-classic-ceylon"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/multi-day-tour/10-days-classic-ceylon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/multi-day-tour/10-days-classic-ceylon"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/destinations/galle</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/destinations/galle"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/destinations/galle"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/destinations/galle"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/destinations/galle"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/destinations/galle"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/destinations/galle"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/destinations/galle"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/destinations/galle"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/destinations/galle"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/destinations/galle"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/destinations/galle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/destinations/galle"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/destinations/sigiriya</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/destinations/sigiriya"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/destinations/sigiriya"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/destinations/sigiriya"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/destinations/sigiriya"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/destinations/sigiriya"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/destinations/sigiriya"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/destinations/sigiriya"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/destinations/sigiriya"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/destinations/sigiriya"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/destinations/sigiriya"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/destinations/sigiriya"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/destinations/sigiriya"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/destinations/kandy</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/destinations/kandy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/destinations/kandy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/destinations/kandy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/destinations/kandy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/destinations/kandy"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/destinations/kandy"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/destinations/kandy"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/destinations/kandy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/destinations/kandy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/destinations/kandy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/destinations/kandy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/destinations/kandy"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/destinations/yala</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/destinations/yala"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/destinations/yala"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/destinations/yala"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/destinations/yala"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/destinations/yala"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/destinations/yala"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/destinations/yala"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/destinations/yala"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/destinations/yala"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/destinations/yala"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/destinations/yala"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/destinations/yala"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/destinations/ella</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/destinations/ella"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/destinations/ella"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/destinations/ella"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/destinations/ella"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/destinations/ella"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/destinations/ella"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/destinations/ella"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/destinations/ella"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/destinations/ella"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/destinations/ella"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/destinations/ella"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/destinations/ella"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/destinations/colombo</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/destinations/colombo"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/destinations/colombo"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/destinations/colombo"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/destinations/colombo"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/destinations/colombo"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/destinations/colombo"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/destinations/colombo"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/destinations/colombo"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/destinations/colombo"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/destinations/colombo"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/destinations/colombo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/destinations/colombo"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/destinations/anuradhapura</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/destinations/anuradhapura"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/destinations/anuradhapura"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/destinations/anuradhapura"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/destinations/anuradhapura"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/destinations/anuradhapura"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/destinations/anuradhapura"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/destinations/anuradhapura"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/destinations/anuradhapura"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/destinations/anuradhapura"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/destinations/anuradhapura"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/destinations/anuradhapura"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/destinations/anuradhapura"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/destinations/polonnaruwa</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/destinations/polonnaruwa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/destinations/polonnaruwa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/destinations/polonnaruwa"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/destinations/polonnaruwa"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/destinations/polonnaruwa"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/destinations/polonnaruwa"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/destinations/polonnaruwa"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/destinations/polonnaruwa"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/destinations/polonnaruwa"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/destinations/polonnaruwa"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/destinations/polonnaruwa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/destinations/polonnaruwa"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/destinations/arugam-bay</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/destinations/arugam-bay"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/destinations/arugam-bay"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/destinations/arugam-bay"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/destinations/arugam-bay"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/destinations/arugam-bay"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/destinations/arugam-bay"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/destinations/arugam-bay"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/destinations/arugam-bay"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/destinations/arugam-bay"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/destinations/arugam-bay"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/destinations/arugam-bay"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/destinations/arugam-bay"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/destinations/tea-country</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/destinations/tea-country"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/destinations/tea-country"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/destinations/tea-country"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/destinations/tea-country"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/destinations/tea-country"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/destinations/tea-country"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/destinations/tea-country"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/destinations/tea-country"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/destinations/tea-country"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/destinations/tea-country"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/destinations/tea-country"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/destinations/tea-country"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/things-to-do/wildlife-safaris</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/things-to-do/wildlife-safaris"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/things-to-do/wildlife-safaris"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/things-to-do/wildlife-safaris"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/things-to-do/wildlife-safaris"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/things-to-do/wildlife-safaris"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/things-to-do/wildlife-safaris"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/things-to-do/wildlife-safaris"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/things-to-do/wildlife-safaris"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/things-to-do/wildlife-safaris"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/things-to-do/wildlife-safaris"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/things-to-do/wildlife-safaris"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/things-to-do/wildlife-safaris"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/things-to-do/elephant-encounters</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/things-to-do/elephant-encounters"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/things-to-do/elephant-encounters"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/things-to-do/elephant-encounters"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/things-to-do/elephant-encounters"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/things-to-do/elephant-encounters"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/things-to-do/elephant-encounters"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/things-to-do/elephant-encounters"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/things-to-do/elephant-encounters"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/things-to-do/elephant-encounters"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/things-to-do/elephant-encounters"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/things-to-do/elephant-encounters"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/things-to-do/elephant-encounters"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/things-to-do/temple-heritage</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/things-to-do/temple-heritage"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/things-to-do/temple-heritage"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/things-to-do/temple-heritage"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/things-to-do/temple-heritage"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/things-to-do/temple-heritage"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/things-to-do/temple-heritage"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/things-to-do/temple-heritage"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/things-to-do/temple-heritage"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/things-to-do/temple-heritage"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/things-to-do/temple-heritage"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/things-to-do/temple-heritage"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/things-to-do/temple-heritage"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/things-to-do/mangrove-boat-safaris</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/things-to-do/mangrove-boat-safaris"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/things-to-do/mangrove-boat-safaris"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/things-to-do/mangrove-boat-safaris"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/things-to-do/mangrove-boat-safaris"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/things-to-do/mangrove-boat-safaris"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/things-to-do/mangrove-boat-safaris"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/things-to-do/mangrove-boat-safaris"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/things-to-do/mangrove-boat-safaris"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/things-to-do/mangrove-boat-safaris"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/things-to-do/mangrove-boat-safaris"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/things-to-do/mangrove-boat-safaris"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/things-to-do/mangrove-boat-safaris"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/things-to-do/tuk-tuk-adventures</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/things-to-do/tuk-tuk-adventures"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/things-to-do/tuk-tuk-adventures"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/things-to-do/tuk-tuk-adventures"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/things-to-do/tuk-tuk-adventures"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/things-to-do/tuk-tuk-adventures"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/things-to-do/tuk-tuk-adventures"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/things-to-do/tuk-tuk-adventures"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/things-to-do/tuk-tuk-adventures"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/things-to-do/tuk-tuk-adventures"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/things-to-do/tuk-tuk-adventures"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/things-to-do/tuk-tuk-adventures"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/things-to-do/tuk-tuk-adventures"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/things-to-do/highland-scenic</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/things-to-do/highland-scenic"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/things-to-do/highland-scenic"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/things-to-do/highland-scenic"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/things-to-do/highland-scenic"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/things-to-do/highland-scenic"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/things-to-do/highland-scenic"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/things-to-do/highland-scenic"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/things-to-do/highland-scenic"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/things-to-do/highland-scenic"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/things-to-do/highland-scenic"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/things-to-do/highland-scenic"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/things-to-do/highland-scenic"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/things-to-do/village-life</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/things-to-do/village-life"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/things-to-do/village-life"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/things-to-do/village-life"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/things-to-do/village-life"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/things-to-do/village-life"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/things-to-do/village-life"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/things-to-do/village-life"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/things-to-do/village-life"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/things-to-do/village-life"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/things-to-do/village-life"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/things-to-do/village-life"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/things-to-do/village-life"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/things-to-do/cycling-trails</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/things-to-do/cycling-trails"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/things-to-do/cycling-trails"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/things-to-do/cycling-trails"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/things-to-do/cycling-trails"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/things-to-do/cycling-trails"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/things-to-do/cycling-trails"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/things-to-do/cycling-trails"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/things-to-do/cycling-trails"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/things-to-do/cycling-trails"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/things-to-do/cycling-trails"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/things-to-do/cycling-trails"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/things-to-do/cycling-trails"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/blog/best-time-to-visit-sri-lanka</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/blog/best-time-to-visit-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/blog/best-time-to-visit-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/blog/best-time-to-visit-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/blog/best-time-to-visit-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/blog/best-time-to-visit-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/blog/best-time-to-visit-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/blog/best-time-to-visit-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/blog/best-time-to-visit-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/blog/best-time-to-visit-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/blog/best-time-to-visit-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/blog/best-time-to-visit-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/blog/best-time-to-visit-sri-lanka"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/blog/what-to-pack-for-sri-lanka</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/blog/what-to-pack-for-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/blog/what-to-pack-for-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/blog/what-to-pack-for-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/blog/what-to-pack-for-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/blog/what-to-pack-for-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/blog/what-to-pack-for-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/blog/what-to-pack-for-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/blog/what-to-pack-for-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/blog/what-to-pack-for-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/blog/what-to-pack-for-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/blog/what-to-pack-for-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/blog/what-to-pack-for-sri-lanka"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/blog/why-private-tours-matter</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/blog/why-private-tours-matter"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/blog/why-private-tours-matter"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/blog/why-private-tours-matter"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/blog/why-private-tours-matter"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/blog/why-private-tours-matter"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/blog/why-private-tours-matter"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/blog/why-private-tours-matter"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/blog/why-private-tours-matter"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/blog/why-private-tours-matter"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/blog/why-private-tours-matter"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/blog/why-private-tours-matter"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/blog/why-private-tours-matter"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/blog/ella-nine-arch-bridge-guide</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/blog/ella-nine-arch-bridge-guide"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/blog/ella-nine-arch-bridge-guide"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/blog/ella-nine-arch-bridge-guide"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/blog/ella-nine-arch-bridge-guide"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/blog/ella-nine-arch-bridge-guide"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/blog/ella-nine-arch-bridge-guide"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/blog/ella-nine-arch-bridge-guide"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/blog/ella-nine-arch-bridge-guide"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/blog/ella-nine-arch-bridge-guide"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/blog/ella-nine-arch-bridge-guide"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/blog/ella-nine-arch-bridge-guide"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/blog/ella-nine-arch-bridge-guide"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/blog/yala-safari-tips-private-jeep</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/blog/yala-safari-tips-private-jeep"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/blog/yala-safari-tips-private-jeep"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/blog/yala-safari-tips-private-jeep"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/blog/yala-safari-tips-private-jeep"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/blog/yala-safari-tips-private-jeep"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/blog/yala-safari-tips-private-jeep"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/blog/yala-safari-tips-private-jeep"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/blog/yala-safari-tips-private-jeep"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/blog/yala-safari-tips-private-jeep"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/blog/yala-safari-tips-private-jeep"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/blog/yala-safari-tips-private-jeep"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/blog/yala-safari-tips-private-jeep"/>
   </url>
   <url>
     <loc>https://www.haisrilanka.com/pl/blog/temple-etiquette-sri-lanka</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.haisrilanka.com/en/blog/temple-etiquette-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.haisrilanka.com/de/blog/temple-etiquette-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.haisrilanka.com/fr/blog/temple-etiquette-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.haisrilanka.com/es/blog/temple-etiquette-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.haisrilanka.com/it/blog/temple-etiquette-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.haisrilanka.com/nl/blog/temple-etiquette-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.haisrilanka.com/pl/blog/temple-etiquette-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.haisrilanka.com/sv/blog/temple-etiquette-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.haisrilanka.com/ru/blog/temple-etiquette-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.haisrilanka.com/ja/blog/temple-etiquette-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.haisrilanka.com/zh/blog/temple-etiquette-sri-lanka"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.haisrilanka.com/en/blog/temple-etiquette-sri-lanka"/>
   </url>
 </urlset>

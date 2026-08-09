@@ -47,8 +47,15 @@ export class SeoService {
       content: input.noIndex ? 'noindex,nofollow' : 'index,follow',
     });
 
-    this.setLink('canonical', canonicalUrl);
-    this.setHreflang(path);
+    if (input.noIndex) {
+      this.removeLink('canonical');
+      this.document.head
+        .querySelectorAll('link[rel="alternate"][hreflang]')
+        .forEach((n: Element) => n.remove());
+    } else {
+      this.setLink('canonical', canonicalUrl);
+      this.setHreflang(path);
+    }
 
     this.meta.updateTag({ property: 'og:title', content: input.title });
     this.meta.updateTag({ property: 'og:description', content: input.description });
@@ -110,6 +117,12 @@ export class SeoService {
       this.document.head.appendChild(el);
     }
     el.setAttribute('href', href);
+  }
+
+  private removeLink(rel: string): void {
+    this.document.head
+      .querySelectorAll(`link[rel="${rel}"]:not([hreflang])`)
+      .forEach((n: Element) => n.remove());
   }
 
   private setHreflang(path: string): void {

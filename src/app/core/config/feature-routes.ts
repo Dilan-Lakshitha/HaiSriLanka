@@ -22,7 +22,12 @@ export const FEATURE_CHILD_ROUTES: Routes = [
     path: '',
     loadChildren: () => import('../../features/home/home.routes').then((m) => m.HOME_ROUTES),
   },
-  foundation('about', 'nav.about', 'about'),
+  {
+    path: 'about',
+    loadComponent: () =>
+      import('../../features/info/info-page.component').then((m) => m.InfoPageComponent),
+    data: { kind: 'about', seoKey: 'about', path: 'about' },
+  },
   {
     path: 'sri-lanka-tours',
     loadComponent: () =>
@@ -70,7 +75,11 @@ export const FEATURE_CHILD_ROUTES: Routes = [
     loadChildren: () =>
       import('../../features/reviews/reviews.routes').then((m) => m.REVIEW_ROUTES),
   },
-  foundation('faq', 'nav.faq', 'faq'),
+  {
+    path: 'faq',
+    loadComponent: () =>
+      import('../../features/info/faq-page.component').then((m) => m.FaqPageComponent),
+  },
   {
     path: 'contact',
     loadChildren: () =>
@@ -93,8 +102,18 @@ export const FEATURE_CHILD_ROUTES: Routes = [
     redirectTo: 'sri-lanka-tours',
     pathMatch: 'full',
   },
-  foundation('privacy', 'nav.privacy', 'privacy'),
-  foundation('terms', 'nav.terms', 'terms'),
+  {
+    path: 'privacy',
+    loadComponent: () =>
+      import('../../features/info/info-page.component').then((m) => m.InfoPageComponent),
+    data: { kind: 'privacy', seoKey: 'privacy', path: 'privacy' },
+  },
+  {
+    path: 'terms',
+    loadComponent: () =>
+      import('../../features/info/info-page.component').then((m) => m.InfoPageComponent),
+    data: { kind: 'terms', seoKey: 'terms', path: 'terms' },
+  },
   {
     path: '**',
     loadComponent: () =>

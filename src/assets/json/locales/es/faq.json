@@ -2,19 +2,43 @@
   "global": [
     {
       "question": "¿Los tours son privados?",
-      "answer": "Sí. Hai Sri Lanka se especializa en experiencias entrantes privadas para parejas, familias y grupos pequeños."
+      "answer": "Sí. Hai Sri Lanka ofrece viajes privados para parejas, familias y grupos pequeños. Viaja con tu propio conductor-guía, no en un bus compartido."
     },
     {
       "question": "¿Organizan traslados al aeropuerto?",
-      "answer": "Sí. Las bienvenidas y salidas en el aeropuerto pueden incluirse en cualquier itinerario de varios días o reservarse por separado."
+      "answer": "Sí. Se pueden incluir en un itinerario de varios días o reservar por separado."
     },
     {
       "question": "¿Cómo reservo?",
-      "answer": "Seleccione un recorrido, elija los viajeros y la fecha, envíe los detalles del viajero y recibirá una confirmación por correo electrónico. No es necesario realizar ningún pago online para solicitar una reserva."
+      "answer": "Elige un tour, viajeros y fecha, envía tus datos y recibirás confirmación por email. No hace falta pagar online para solicitar."
     },
     {
       "question": "¿Se pueden personalizar los itinerarios?",
-      "answer": "Absolutamente. Ajustamos ritmo, hoteles y experiencias a tus preferencias antes de confirmar tu viaje."
+      "answer": "Sí. Ajustamos ritmo, hoteles y experiencias antes de confirmar."
+    },
+    {
+      "question": "¿Cuándo pago?",
+      "answer": "Pagas en destino cuando el tour está confirmado. No cobramos online para una solicitud."
+    },
+    {
+      "question": "¿Cuál es la política de cancelación?",
+      "answer": "La mayoría de tours se pueden cancelar gratis con aviso razonable. Los detalles van en el email de reserva."
+    },
+    {
+      "question": "¿Qué suele incluirse?",
+      "answer": "Vehículo privado, conductor-guía, combustible y parking suelen incluirse. Entradas, comidas y hoteles están en cada ficha."
+    },
+    {
+      "question": "¿Con cuánta antelación reservar?",
+      "answer": "Dos a cuatro semanas para day tours. Los viajes de varios días y temporada alta, antes."
+    },
+    {
+      "question": "¿Aceptan niños o viajeros solos?",
+      "answer": "Sí. Indica edades y ritmo para adaptar el día."
+    },
+    {
+      "question": "¿Qué idiomas hablan los guías?",
+      "answer": "El inglés es estándar. Alemán, francés y otros idiomas europeos suelen poderse organizar."
     }
   ],
   "pages": [
@@ -28,6 +52,19 @@
         {
           "question": "¿Qué idiomas hablan sus guías?",
           "answer": "El inglés es estándar. Se pueden organizar alemán, francés y otros idiomas europeos bajo petición."
+        }
+      ]
+    },
+    {
+      "pageKey": "faq",
+      "items": [
+        {
+          "question": "¿Dónde están basados?",
+          "answer": "Hai Sri Lanka Tours está en Colombo y opera viajes privados por toda la isla."
+        },
+        {
+          "question": "¿Cómo contactarles rápido?",
+          "answer": "Formulario, email, teléfono o WhatsApp. Respondemos en persona."
         }
       ]
     }

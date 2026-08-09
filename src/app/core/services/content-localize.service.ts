@@ -45,7 +45,7 @@ export class ContentLocalizeService {
     let cached = this.overlayCache.get(key) as Observable<T | null> | undefined;
     if (!cached) {
       // Cache-bust so updated locale JSON is picked up during local development.
-      const url = `/assets/json/locales/${lang}/${relativePath}?v=5`;
+      const url = `/assets/json/locales/${lang}/${relativePath}?v=7`;
       cached = this.http.get<T>(url).pipe(
         catchError(() => of(null)),
         shareReplay({ bufferSize: 1, refCount: true }),

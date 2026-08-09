@@ -1,20 +1,44 @@
 {
   "global": [
     {
-      "question": "Zijn rondleidingen privé?",
-      "answer": "Ja. Hai Sri Lanka is gespecialiseerd in privé-inkomende ervaringen voor koppels, gezinnen en kleine groepen."
+      "question": "Zijn de tours privé?",
+      "answer": "Ja. Hai Sri Lanka biedt privéreizen voor stellen, gezinnen en kleine groepen met een eigen chauffeur-gids."
     },
     {
-      "question": "Regelt u vervoer naar de luchthaven?",
-      "answer": "Ja. Ontvangst en vertrek op de luchthaven kunnen bij elk meerdaags reisschema worden inbegrepen of afzonderlijk worden geboekt."
+      "question": "Regelen jullie airport transfers?",
+      "answer": "Ja. Aankomst en vertrek kunnen bij een meerdaagse reis of apart geboekt worden."
     },
     {
       "question": "Hoe boek ik?",
-      "answer": "Selecteer een tour, kies reizigers en datum, dien reizigersgegevens in en u ontvangt een e-mailbevestiging. Er is geen online betaling vereist om een ​​boeking aan te vragen."
+      "answer": "Kies een tour, reizigers en datum, stuur je gegevens en je ontvangt e-mailbevestiging. Geen online betaling nodig voor de aanvraag."
     },
     {
-      "question": "Kunnen reisroutes worden aangepast?",
-      "answer": "Absoluut. We passen het tempo, de hotels en de ervaringen aan uw voorkeuren aan voordat we uw reis bevestigen."
+      "question": "Kunnen routes op maat?",
+      "answer": "Ja. Tempo, hotels en ervaringen stemmen we af vóór bevestiging."
+    },
+    {
+      "question": "Wanneer betaal ik?",
+      "answer": "Je betaalt ter plaatse na bevestiging. We nemen geen online kaartbetaling voor een aanvraag."
+    },
+    {
+      "question": "Wat is het annuleringsbeleid?",
+      "answer": "De meeste tours zijn gratis te annuleren bij tijdige melding. Details staan in je boekingsmail."
+    },
+    {
+      "question": "Wat is meestal inbegrepen?",
+      "answer": "Privévoertuig, chauffeur-gids, brandstof en parkeren. Tickets, maaltijden en hotels staan op de tourpagina."
+    },
+    {
+      "question": "Hoe ver van tevoren boeken?",
+      "answer": "Twee tot vier weken voor dagtours. Meerdaagse reizen en hoogseizoen eerder."
+    },
+    {
+      "question": "Mogen kinderen of solo reizigers mee?",
+      "answer": "Ja. Geef leeftijden en tempo door zodat we de dag aanpassen."
+    },
+    {
+      "question": "Welke talen spreken de gidsen?",
+      "answer": "Engels is standaard. Duits, Frans en andere Europese talen vaak op verzoek."
     }
   ],
   "pages": [
@@ -28,6 +52,19 @@
         {
           "question": "Welke talen spreken uw gidsen?",
           "answer": "Engels is standaard. Duits, Frans en andere Europese talen kunnen op verzoek worden geregeld."
+        }
+      ]
+    },
+    {
+      "pageKey": "faq",
+      "items": [
+        {
+          "question": "Waar zitten jullie?",
+          "answer": "Hai Sri Lanka Tours is gevestigd in Colombo en verzorgt privéreizen over het eiland."
+        },
+        {
+          "question": "Hoe bereik ik jullie snel?",
+          "answer": "Formulier, e-mail, telefoon of WhatsApp. We antwoorden persoonlijk."
         }
       ]
     }

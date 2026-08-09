@@ -2,19 +2,43 @@
   "global": [
     {
       "question": "Les visites sont-elles privées ?",
-      "answer": "Oui. Hai Sri Lanka se spécialise dans les expériences entrantes privées pour les couples, les familles et les petits groupes."
+      "answer": "Oui. Hai Sri Lanka propose des voyages privés pour couples, familles et petits groupes. Vous voyagez avec votre chauffeur-guide, pas en car collectif."
     },
     {
       "question": "Organisez-vous les transferts aéroport ?",
-      "answer": "Oui. Les accueils et les départs à l'aéroport peuvent être inclus dans tout itinéraire de plusieurs jours ou réservés séparément."
+      "answer": "Oui. Accueil et départ peuvent être inclus dans un itinéraire de plusieurs jours ou réservés séparément."
     },
     {
       "question": "Comment réserver ?",
-      "answer": "Sélectionnez une visite, choisissez les voyageurs et la date, soumettez les détails du voyageur et vous recevrez une confirmation par e-mail. Aucun paiement en ligne n'est requis pour demander une réservation."
+      "answer": "Choisissez un circuit, les voyageurs et la date, envoyez vos coordonnées et vous recevez une confirmation par e-mail. Aucun paiement en ligne n’est requis pour la demande."
     },
     {
       "question": "Les itinéraires peuvent-ils être personnalisés ?",
-      "answer": "Absolument. Nous ajustons le rythme, les hôtels et les expériences selon vos préférences avant de confirmer votre voyage."
+      "answer": "Oui. Nous ajustons le rythme, les hôtels et les expériences avant de confirmer."
+    },
+    {
+      "question": "Quand dois-je payer ?",
+      "answer": "Vous payez sur place une fois le circuit confirmé. Nous ne prenons pas de paiement en ligne pour une demande."
+    },
+    {
+      "question": "Quelle est la politique d’annulation ?",
+      "answer": "La plupart des circuits peuvent être annulés gratuitement si vous prévenez assez tôt. Les détails figurent dans l’e-mail de réservation."
+    },
+    {
+      "question": "Qu’est-ce qui est généralement inclus ?",
+      "answer": "Véhicule privé, chauffeur-guide, carburant et parking sont en général inclus. Billets, repas et hôtels sont indiqués sur chaque page."
+    },
+    {
+      "question": "Combien de temps à l’avance réserver ?",
+      "answer": "Deux à quatre semaines suffisent souvent pour une journée. Les voyages plurijournaliers et la haute saison se réservent plus tôt."
+    },
+    {
+      "question": "Acceptez-vous les enfants et les voyageurs seuls ?",
+      "answer": "Oui. Indiquez âges et rythme pour adapter la journée."
+    },
+    {
+      "question": "Quelles langues parlent les guides ?",
+      "answer": "L’anglais est standard. L’allemand, le français et d’autres langues européennes sont souvent possibles sur demande."
     }
   ],
   "pages": [
@@ -28,6 +52,19 @@
         {
           "question": "Quelles langues parlent vos guides ?",
           "answer": "L'anglais est standard. L'allemand, le français et d'autres langues européennes peuvent être organisés sur demande."
+        }
+      ]
+    },
+    {
+      "pageKey": "faq",
+      "items": [
+        {
+          "question": "Où êtes-vous basés ?",
+          "answer": "Hai Sri Lanka Tours est basé à Colombo et organise des voyages privés dans toute l’île."
+        },
+        {
+          "question": "Comment vous joindre rapidement ?",
+          "answer": "Formulaire, e-mail, téléphone ou WhatsApp. Nous répondons personnellement."
         }
       ]
     }

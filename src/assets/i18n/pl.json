@@ -92,8 +92,8 @@
       "description": "Private Wycieczka jednodniowas and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
     },
     "about": {
-      "title": "O nas Us | Hai Sri Lanka Wycieczki",
-      "description": "Meet Hai Sri Lanka Tours a premium inbound tourism company crafting private Sri Lankan journeys."
+      "title": "O Hai Sri Lanka Tours | Prywatne podróże inbound",
+      "description": "Hai Sri Lanka Tours w Kolombo — prywatne jednodniowe i wielodniowe podróże po Sri Lance od 2020."
     },
     "toursHub": {
       "title": "Sri Lanka Wycieczki | Hai Sri Lanka",
@@ -108,8 +108,8 @@
       "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
     },
     "destinations": {
-      "title": "Sri Lanka Destynacje | Hai Sri Lanka",
-      "description": "Explore top Sri Lanka destinations with local expertise from Hai Sri Lanka Tours."
+      "title": "Destynacje Sri Lanki | Galle, Sigiriya, Kandy, Yala | Hai Sri Lanka",
+      "description": "Odkryj Galle, Sigiriyę, Kandy, Yalę, Ellę i herbaciane wzgórza na prywatnych wycieczkach Hai Sri Lanka."
     },
     "travelGuide": {
       "title": "Sri Lanka Podróże Przewodnik | Hai Sri Lanka",
@@ -128,12 +128,12 @@
       "description": "A visual journey through Sri Lanka with Hai Sri Lanka Tours."
     },
     "faq": {
-      "title": "FAQ | Hai Sri Lanka Wycieczki",
-      "description": "Frequently asked questions about booking and traveling with Hai Sri Lanka."
+      "title": "FAQ | Prywatne wycieczki Sri Lanka | Hai Sri Lanka",
+      "description": "Odpowiedzi o prywatnych wycieczkach, płatności na miejscu, transferach, anulowaniu i językach."
     },
     "contact": {
-      "title": "Kontakt | Hai Sri Lanka Wycieczki",
-      "description": "Contact Hai Sri Lanka Tours to plan your private Sri Lanka journey."
+      "title": "Kontakt Hai Sri Lanka Tours | Zaplanuj prywatną podróż",
+      "description": "Napisz do Hai Sri Lanka Tours, aby zaplanować prywatną podróż po Sri Lance. Odpowiadamy e-mailem lub WhatsAppem i dopasowujemy trasę do Twoich dat."
     },
     "blog": {
       "title": "Podróże Blog | Hai Sri Lanka",
@@ -144,12 +144,12 @@
       "description": "Request a private tour booking with Hai Sri Lanka Tours. No online payment required."
     },
     "privacy": {
-      "title": "Prywatność Policy | Hai Sri Lanka",
-      "description": "Privacy policy for HaiSriLanka.com."
+      "title": "Polityka prywatności | Hai Sri Lanka Tours",
+      "description": "Dane zapytań, rezerwacji i cookies. Kontakt: haisrilankatour@gmail.com."
     },
     "terms": {
-      "title": "Regulamin of Service | Hai Sri Lanka",
-      "description": "Terms of service for Hai Sri Lanka Tours."
+      "title": "Warunki usług | Hai Sri Lanka Tours",
+      "description": "Zgłoszenia rezerwacji, płatność na miejscu, anulowanie i obowiązki podróżnych."
     },
     "notFound": {
       "title": "Nie znaleziono | Hai Sri Lanka",
@@ -226,5 +226,150 @@
     "body": "Używamy plików cookie do analityki i poprawy jakości. Możesz zaakceptować wszystkie lub kontynuować tylko z niezbędnymi.",
     "essential": "Tylko niezbędne",
     "acceptAll": "Zaakceptuj wszystkie"
+  },
+  "contactPage": {
+    "eyebrow": "Kontakt",
+    "title": "Zaplanuj z nami podróż po Sri Lance",
+    "intro": "Napisz krótko — odpowiadamy osobiście e-mailem lub WhatsAppem i układamy prywatną trasę wokół Twoich dat.",
+    "formTitle": "Wyślij wiadomość",
+    "formLead": "Powiedz, czego szukasz. Wiadomość trafia prosto do naszej skrzynki.",
+    "name": "Imię *",
+    "email": "E-mail *",
+    "whatsapp": "Numer WhatsApp *",
+    "message": "Wiadomość *",
+    "validation": "Podaj imię, poprawny e-mail, numer WhatsApp i krótką wiadomość.",
+    "sending": "Wysyłanie…",
+    "send": "Wyślij wiadomość",
+    "success": "Dziękujemy, wiadomość została wysłana.",
+    "otherTitle": "Inne sposoby kontaktu",
+    "otherLead": "Wolisz szybką rozmowę? Telefon lub WhatsApp o każdej porze.",
+    "phone": "Telefon",
+    "whatsappLabel": "WhatsApp",
+    "whatsappValue": "Napisz na WhatsApp",
+    "emailLabel": "E-mail",
+    "findUs": "Znajdź nas online",
+    "ctaEyebrow": "Kiedy będziesz gotowy",
+    "ctaBody": "Przeglądaj jednodniowe i wielodniowe wyprawy, a potem podaj nam daty.",
+    "exploreTours": "Zobacz wycieczki",
+    "schemaName": "Kontakt Hai Sri Lanka Tours",
+    "schemaDescription": "Skontaktuj się z Hai Sri Lanka Tours przez formularz, telefon, WhatsApp lub e-mail, aby zaplanować prywatną podróż po Sri Lance."
+  },
+  "destinationsPage": {
+    "eyebrow": "Destynacje",
+    "title": "Miejsca, które definiują Sri Lankę",
+    "intro": "Od warownych miast i świętych stolic po herbaciane wzgórza i parki safari — odkryj krajobrazy każdej podróży Hai Sri Lanka.",
+    "allTitle": "Wszystkie destynacje",
+    "count": "{{count}} miejsc do odkrycia",
+    "filterAria": "Filtruj według regionu",
+    "allRegions": "Wszystkie regiony",
+    "empty": "Brak destynacji w tym regionie.",
+    "cta": "Gotowi zamienić te miejsca w prywatny itinerariusz?",
+    "exploreTours": "Zobacz wycieczki",
+    "schemaName": "Destynacje Sri Lanki"
+  },
+  "aboutPage": {
+    "eyebrow": "O nas",
+    "title": "Prywatne inbound studio dla Sri Lanki",
+    "intro": "Hai Sri Lanka Tours tworzy prywatne jednodniowe i wielodniowe podróże z płatnością na miejscu.",
+    "storyTitle": "Kim jesteśmy",
+    "story1": "Od 2020 w Kolombo: mały zespół inbound dla par, rodzin i przyjaciół, którzy chcą wyspę bez grupowych busów.",
+    "story2": "Trasy: Galle, Trójkąt Kulturowy, Kandy, herbata, Yala i południowe wybrzeże — zawsze e-mail i WhatsApp.",
+    "valuesTitle": "Jak podróżujemy",
+    "values": [
+      {
+        "title": "Prywatnie domyślnie",
+        "body": "Pojazd i kierowca-przewodnik tylko dla Waszej grupy. Dzień zostaje elastyczny."
+      },
+      {
+        "title": "Jasna logistyka",
+        "body": "Bez przedpłaty online przy zgłoszeniu. Potwierdzenie e-mailem, płatność na miejscu."
+      },
+      {
+        "title": "Gospodarze na całej wyspie",
+        "body": "Od lotniska po wielodniowe pętle — ta sama troska."
+      }
+    ],
+    "ctaEyebrow": "Zaplanuj z nami",
+    "ctaBody": "Przejrzyj prywatne wycieczki albo wyślij daty — odpowiadamy osobiście.",
+    "exploreTours": "Zobacz wycieczki",
+    "schemaName": "O Hai Sri Lanka Tours"
+  },
+  "faqPage": {
+    "eyebrow": "FAQ",
+    "title": "Pytania przed podróżą",
+    "intro": "Prywatne wycieczki, płatność na miejscu, transfery i rezerwacja z Hai Sri Lanka Tours.",
+    "ctaEyebrow": "Wciąż wątpliwości?",
+    "ctaBody": "Napisz daty — wskażemy kolejny krok.",
+    "exploreTours": "Zobacz wycieczki"
+  },
+  "privacyPage": {
+    "eyebrow": "Prywatność",
+    "title": "Polityka prywatności",
+    "intro": "Jak Hai Sri Lanka Tours zbiera, używa i chroni dane osobowe.",
+    "updated": "Ostatnia aktualizacja: sierpień 2026",
+    "sections": [
+      {
+        "title": "Kim jesteśmy",
+        "body": "Hai Sri Lanka Tours to firma inbound w Kolombo. Kontakt: haisrilankatour@gmail.com lub +94 74 313 7241."
+      },
+      {
+        "title": "Jakie dane",
+        "body": "Formularze: imię, e-mail, telefon/WhatsApp, daty, wielkość grupy i wiadomość. Logi serwera: IP i dane techniczne."
+      },
+      {
+        "title": "Wykorzystanie",
+        "body": "Odpowiedzi, potwierdzenia wycieczek, logistyka i maile rezerwacyjne. Nie sprzedajemy danych. Analityka tylko po zgodzie na cookies."
+      },
+      {
+        "title": "Cookies",
+        "body": "Niezbędne cookies do działania strony. Analityka i reklama (w tym Google) tylko po „Akceptuj wszystkie”."
+      },
+      {
+        "title": "Udostępnianie i przechowywanie",
+        "body": "Tylko partnerom do realizacji podróży. Przechowujemy przez czas wyjazdu i obowiązków księgowych."
+      },
+      {
+        "title": "Twoje prawa",
+        "body": "Dostęp, korekta lub usunięcie: haisrilankatour@gmail.com. Możesz też zgłosić się do organu ochrony danych."
+      }
+    ],
+    "ctaEyebrow": "Pytania o dane",
+    "ctaBody": "Napisz, wyjaśnimy obsługę zgłoszenia.",
+    "exploreTours": "Zobacz wycieczki"
+  },
+  "termsPage": {
+    "eyebrow": "Regulamin",
+    "title": "Warunki świadczenia usług",
+    "intro": "Warunki dotyczą zapytań i rezerwacji prywatnych wycieczek Hai Sri Lanka Tours.",
+    "updated": "Ostatnia aktualizacja: sierpień 2026",
+    "sections": [
+      {
+        "title": "Zgłoszenia rezerwacji",
+        "body": "Formularz to zapytanie, nie gwarancja. Sprawdzamy terminy i potwierdzamy e-mailem lub WhatsAppem."
+      },
+      {
+        "title": "Płatność",
+        "body": "O ile nie uzgodniono inaczej na piśmie, płatność na miejscu w potwierdzonej walucie. Ceny na stronie są orientacyjne."
+      },
+      {
+        "title": "Zmiany i anulowanie",
+        "body": "Daj znać wcześnie. Większość prywatnych wycieczek można bezpłatnie odwołać przy rozsądnym wyprzedzeniu."
+      },
+      {
+        "title": "Twoje obowiązki",
+        "body": "Poprawne dane, kontakt, potrzeby mobilności. Zasady świątyń i parków. Paszport, wiza i ubezpieczenie po Twojej stronie."
+      },
+      {
+        "title": "Odpowiedzialność",
+        "body": "Planujemy starannie. Nie odpowiadamy za pogodę, zamknięcia parków, ruch i siłę wyższą."
+      },
+      {
+        "title": "Prawo właściwe",
+        "body": "Prawo Sri Lanki. Kontakt: No. 12 Galle Road, Colombo, lub haisrilankatour@gmail.com."
+      }
+    ],
+    "ctaEyebrow": "Gotowi do rezerwacji",
+    "ctaBody": "Zgłoś prywatną wycieczkę — potwierdzimy przed wyjazdem.",
+    "exploreTours": "Zobacz wycieczki"
   }
 }

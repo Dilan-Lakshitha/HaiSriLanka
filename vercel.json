@@ -11,6 +11,47 @@
       "maxDuration": 30
     }
   },
+  "redirects": [
+    { "source": "/", "destination": "/en", "permanent": true },
+    {
+      "source": "/:lang/multi day tours",
+      "destination": "/:lang/multi-day-tours",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/multi%20day%20tours",
+      "destination": "/:lang/multi-day-tours",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/multi_day_tours",
+      "destination": "/:lang/multi-day-tours",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/day tours",
+      "destination": "/:lang/day-tours",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/things to do",
+      "destination": "/:lang/things-to-do",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/sri lanka tours",
+      "destination": "/:lang/sri-lanka-tours",
+      "permanent": true
+    },
+    { "source": "/tour.html", "destination": "/en/sri-lanka-tours", "permanent": true },
+    { "source": "/packages.html", "destination": "/en/multi-day-tours", "permanent": true },
+    { "source": "/services.html", "destination": "/en", "permanent": true },
+    {
+      "source": "/eightDaysTours.html",
+      "destination": "/en/multi-day-tours",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/api/contact", "destination": "/api/contact" },
     { "source": "/api/bookings", "destination": "/api/bookings" },

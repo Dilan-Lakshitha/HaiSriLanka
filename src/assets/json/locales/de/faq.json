@@ -1,20 +1,44 @@
 {
   "global": [
     {
-      "question": "Sind Touren privat?",
-      "answer": "Ja. Hai Sri Lanka ist auf private Inbound-Erlebnisse für Paare, Familien und kleine Gruppen spezialisiert."
+      "question": "Sind die Touren privat?",
+      "answer": "Ja. Hai Sri Lanka bietet private Reisen für Paare, Familien und kleine Gruppen. Sie reisen mit eigenem Fahrer-Guide, nicht im Sammelbus."
     },
     {
       "question": "Organisieren Sie Flughafentransfers?",
-      "answer": "Ja. Die Begrüßung und Abreise am Flughafen kann in jeder mehrtägigen Reiseroute enthalten oder separat gebucht werden."
+      "answer": "Ja. Abholung und Transfer zum Flughafen können in mehrtägige Reisen eingeschlossen oder separat gebucht werden."
     },
     {
       "question": "Wie buche ich?",
-      "answer": "Wählen Sie eine Tour aus, wählen Sie Reisende und Datum aus, übermitteln Sie die Reisedaten und Sie erhalten eine E-Mail-Bestätigung. Für die Buchungsanfrage ist keine Online-Zahlung erforderlich."
+      "answer": "Wählen Sie eine Tour, Reisende und Datum, senden Sie Ihre Daten und Sie erhalten eine E-Mail-Bestätigung. Für die Anfrage ist keine Online-Zahlung nötig."
     },
     {
-      "question": "Können Reiserouten individuell angepasst werden?",
-      "answer": "Absolut. Wir passen Tempo, Hotels und Erlebnisse an Ihre Vorlieben an, bevor wir Ihre Reise bestätigen."
+      "question": "Können Routen angepasst werden?",
+      "answer": "Ja. Tempo, Hotels und Erlebnisse stimmen wir vor der Bestätigung auf Ihre Wünsche ab."
+    },
+    {
+      "question": "Wann zahle ich?",
+      "answer": "Sie zahlen am Ziel, nachdem die Tour bestätigt ist. Online nehmen wir keine Kartenzahlung für Buchungsanfragen."
+    },
+    {
+      "question": "Wie sind die Stornobedingungen?",
+      "answer": "Die meisten Touren können bei rechtzeitiger Absage kostenfrei storniert werden. Details stehen in Ihrer Buchungsmail."
+    },
+    {
+      "question": "Was ist in der Regel inklusive?",
+      "answer": "Privates Fahrzeug, Fahrer-Guide, Kraftstoff und Parken sind typischerweise inklusive. Tickets, Mahlzeiten und Hotels stehen auf der Tourseite."
+    },
+    {
+      "question": "Wie früh sollte ich buchen?",
+      "answer": "Für Tagestouren reichen oft zwei bis vier Wochen. Mehrtagesreisen und Hochsaison besser früher buchen."
+    },
+    {
+      "question": "Nehmen Sie Kinder oder Alleinreisende mit?",
+      "answer": "Ja. Familien und Alleinreisende sind willkommen. Nennen Sie Alter und Tempo, damit wir den Tag anpassen."
+    },
+    {
+      "question": "Welche Sprachen sprechen die Guides?",
+      "answer": "Englisch ist Standard. Deutsch, Französisch und weitere europäische Sprachen sind oft auf Anfrage möglich."
     }
   ],
   "pages": [
@@ -28,6 +52,19 @@
         {
           "question": "Welche Sprachen sprechen Ihre Guides?",
           "answer": "Englisch ist Standard. Deutsch, Französisch und andere europäische Sprachen können auf Anfrage arrangiert werden."
+        }
+      ]
+    },
+    {
+      "pageKey": "faq",
+      "items": [
+        {
+          "question": "Wo sind Sie ansässig?",
+          "answer": "Hai Sri Lanka Tours hat seinen Sitz in Colombo und führt private Reisen auf der ganzen Insel durch."
+        },
+        {
+          "question": "Wie erreiche ich Sie schnell?",
+          "answer": "Nutzen Sie das Kontaktformular, E-Mail, Telefon oder WhatsApp. Wir antworten persönlich."
         }
       ]
     }

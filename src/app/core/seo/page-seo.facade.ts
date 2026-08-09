@@ -28,11 +28,13 @@ export class PageSeoFacade {
       includeWebsite?: boolean;
       extraNodes?: Array<Record<string, unknown>>;
       noIndex?: boolean;
+      image?: string;
     },
   ): Promise<void> {
+    const lang = this.locale.activeLang();
+    await firstValueFrom(this.transloco.load(lang));
     const title = this.transloco.translate(`seo.${seoKey}.title`);
     const description = this.transloco.translate(`seo.${seoKey}.description`);
-    const lang = this.locale.activeLang();
     const company = await firstValueFrom(this.company.getCompany());
 
     const crumbs = (extras?.breadcrumbs ?? []).map((b) => {
@@ -59,6 +61,7 @@ export class PageSeoFacade {
       title,
       description,
       path,
+      image: extras?.image,
       noIndex: extras?.noIndex ?? false,
       jsonLd: graph,
     });

@@ -1,20 +1,44 @@
 {
   "global": [
     {
-      "question": "Är turer privata?",
-      "answer": "Ja. Hai Sri Lanka specialiserar sig på privata inkommande upplevelser för par, familjer och små grupper."
+      "question": "Är turerna privata?",
+      "answer": "Ja. Hai Sri Lanka erbjuder privata resor för par, familjer och små grupper med egen chaufför-guide."
     },
     {
       "question": "Ordnar ni flygplatstransfer?",
-      "answer": "Ja. Välkommen till flygplatser och avgångar kan inkluderas i valfri flerdagarsresplan eller bokas separat."
+      "answer": "Ja. De kan ingå i en flerdagsresa eller bokas separat."
     },
     {
       "question": "Hur bokar jag?",
-      "answer": "Välj en turné, välj resenärer och datum, skicka in resenärsinformation så får du e-postbekräftelse. Ingen onlinebetalning krävs för att begära en bokning."
+      "answer": "Välj tur, resenärer och datum, skicka uppgifter och du får e-postbekräftelse. Ingen onlinebetalning krävs för förfrågan."
     },
     {
-      "question": "Kan resvägar anpassas?",
-      "answer": "Absolut. Vi anpassar tempo, hotell och upplevelser efter dina önskemål innan vi bekräftar din resa."
+      "question": "Kan resplanen anpassas?",
+      "answer": "Ja. Tempo, hotell och upplevelser justeras innan bekräftelse."
+    },
+    {
+      "question": "När betalar jag?",
+      "answer": "Du betalar på plats efter bekräftelse. Vi tar ingen kortbetalning online för förfrågan."
+    },
+    {
+      "question": "Vad gäller vid avbokning?",
+      "answer": "De flesta turer kan avbokas gratis vid rimlig framförhållning. Detaljer står i bokningsmejl."
+    },
+    {
+      "question": "Vad ingår vanligtvis?",
+      "answer": "Privat fordon, chaufför-guide, bränsle och parkering. Biljetter, måltider och hotell framgår på toursidan."
+    },
+    {
+      "question": "Hur långt i förväg ska jag boka?",
+      "answer": "Två till fyra veckor för dagsturer. Flerdagarsresor och högsäsong tidigare."
+    },
+    {
+      "question": "Tar ni emot barn eller ensamresenärer?",
+      "answer": "Ja. Ange ålder och tempo så anpassar vi dagen."
+    },
+    {
+      "question": "Vilka språk talar guiderna?",
+      "answer": "Engelska är standard. Tyska, franska och andra europeiska språk ofta på förfrågan."
     }
   ],
   "pages": [
@@ -28,6 +52,19 @@
         {
           "question": "Vilka språk talar dina guider?",
           "answer": "Engelska är standard. Tyska, franska och andra europeiska språk kan ordnas på begäran."
+        }
+      ]
+    },
+    {
+      "pageKey": "faq",
+      "items": [
+        {
+          "question": "Var finns ni?",
+          "answer": "Hai Sri Lanka Tours utgår från Colombo och kör privata resor över hela ön."
+        },
+        {
+          "question": "Hur når jag er snabbt?",
+          "answer": "Formulär, e-post, telefon eller WhatsApp. Vi svarar personligen."
         }
       ]
     }

@@ -32,9 +32,10 @@ export class NotFoundComponent implements OnInit {
 
   ngOnInit(): void {
     this.breadcrumbs.set([{ label: '404' }]);
-    const url = this.router.url.replace(/^\//, '');
-    // Keep a unique path (not homepage) and block indexing.
-    void this.seo.applyTranslatedPage('notFound', url || '404', {
+    const lang = this.locale.activeLang();
+    const raw = this.router.url.split('?')[0].replace(/^\//, '');
+    const path = raw.startsWith(`${lang}/`) ? raw.slice(lang.length + 1) : raw;
+    void this.seo.applyTranslatedPage('notFound', path || '404', {
       includeWebsite: false,
       noIndex: true,
     });

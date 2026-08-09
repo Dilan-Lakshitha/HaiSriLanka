@@ -92,8 +92,8 @@
       "description": "Private 一日游s and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
     },
     "about": {
-      "title": "关于我们 Us | Hai Sri Lanka 行程",
-      "description": "Meet Hai Sri Lanka Tours a premium inbound tourism company crafting private Sri Lankan journeys."
+      "title": "关于 Hai Sri Lanka Tours | 私人 inbound 旅行",
+      "description": "科伦坡 Hai Sri Lanka Tours — 自 2020 年起提供斯里兰卡私人一日游与多日行程。"
     },
     "toursHub": {
       "title": "Sri Lanka 行程 | Hai Sri Lanka",
@@ -108,8 +108,8 @@
       "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
     },
     "destinations": {
-      "title": "Sri Lanka 目的地 | Hai Sri Lanka",
-      "description": "Explore top Sri Lanka destinations with local expertise from Hai Sri Lanka Tours."
+      "title": "斯里兰卡目的地 | 加勒、锡吉里耶、康提、雅拉 | Hai Sri Lanka",
+      "description": "与 Hai Sri Lanka 私人行程一起探索加勒、锡吉里耶、康提、雅拉、埃拉和茶乡。"
     },
     "travelGuide": {
       "title": "Sri Lanka 旅行 指南 | Hai Sri Lanka",
@@ -128,12 +128,12 @@
       "description": "A visual journey through Sri Lanka with Hai Sri Lanka Tours."
     },
     "faq": {
-      "title": "常见问题 | Hai Sri Lanka 行程",
-      "description": "Frequently asked questions about booking and traveling with Hai Sri Lanka."
+      "title": "常见问题 | 斯里兰卡私人行程 | Hai Sri Lanka",
+      "description": "关于私人行程、目的地付款、接送、取消与语言的解答。"
     },
     "contact": {
-      "title": "联系 | Hai Sri Lanka 行程",
-      "description": "Contact Hai Sri Lanka Tours to plan your private Sri Lanka journey."
+      "title": "联系 Hai Sri Lanka Tours | 规划私人斯里兰卡行程",
+      "description": "写信给 Hai Sri Lanka Tours，规划私人斯里兰卡旅程。我们将通过电子邮件或 WhatsApp 回复，并按您的日期定制行程。"
     },
     "blog": {
       "title": "旅行 博客 | Hai Sri Lanka",
@@ -144,12 +144,12 @@
       "description": "Request a private tour booking with Hai Sri Lanka Tours. No online payment required."
     },
     "privacy": {
-      "title": "隐私 Policy | Hai Sri Lanka",
-      "description": "Privacy policy for HaiSriLanka.com."
+      "title": "隐私政策 | Hai Sri Lanka Tours",
+      "description": "咨询、预订与 Cookie 数据的使用。联系 haisrilankatour@gmail.com。"
     },
     "terms": {
-      "title": "条款 of Service | Hai Sri Lanka",
-      "description": "Terms of service for Hai Sri Lanka Tours."
+      "title": "服务条款 | Hai Sri Lanka Tours",
+      "description": "预订申请、目的地付款、取消与旅客责任。"
     },
     "notFound": {
       "title": "页面未找到 | Hai Sri Lanka",
@@ -226,5 +226,150 @@
     "body": "我们使用 Cookie 进行分析并改进体验。您可以接受全部，或仅继续使用必要 Cookie。",
     "essential": "仅必要",
     "acceptAll": "全部接受"
+  },
+  "contactPage": {
+    "eyebrow": "联系",
+    "title": "与我们一起规划您的斯里兰卡旅程",
+    "intro": "发一条简短留言——我们会通过电子邮件或 WhatsApp 亲自回复，并按您的日期定制私人行程。",
+    "formTitle": "给我们留言",
+    "formLead": "告诉我们您的需求。留言会直接进入我们的收件箱。",
+    "name": "姓名 *",
+    "email": "电子邮件 *",
+    "whatsapp": "WhatsApp 号码 *",
+    "message": "留言 *",
+    "validation": "请填写姓名、有效电子邮件、WhatsApp 号码和简短留言。",
+    "sending": "发送中…",
+    "send": "发送留言",
+    "success": "谢谢，您的留言已发送。",
+    "otherTitle": "其他联系方式",
+    "otherLead": "想更快沟通？随时电话或 WhatsApp。",
+    "phone": "电话",
+    "whatsappLabel": "WhatsApp",
+    "whatsappValue": "通过 WhatsApp 联系我们",
+    "emailLabel": "电子邮件",
+    "findUs": "在网上找到我们",
+    "ctaEyebrow": "准备好即可出发",
+    "ctaBody": "浏览私人一日游和多日行程，然后告诉我们您的日期。",
+    "exploreTours": "浏览行程",
+    "schemaName": "联系 Hai Sri Lanka Tours",
+    "schemaDescription": "通过表单、电话、WhatsApp 或电子邮件联系 Hai Sri Lanka Tours，规划私人斯里兰卡旅程。"
+  },
+  "destinationsPage": {
+    "eyebrow": "目的地",
+    "title": "定义斯里兰卡的地方",
+    "intro": "从城堡古城与圣地，到茶乡与野生动物园——探索每一段 Hai Sri Lanka 旅程中的风景。",
+    "allTitle": "全部目的地",
+    "count": "{{count}} 个可探索的地方",
+    "filterAria": "按地区筛选",
+    "allRegions": "全部地区",
+    "empty": "该地区暂无目的地。",
+    "cta": "准备好把这些地方变成私人行程了吗？",
+    "exploreTours": "浏览行程",
+    "schemaName": "斯里兰卡目的地"
+  },
+  "aboutPage": {
+    "eyebrow": "关于我们",
+    "title": "面向斯里兰卡的私人 inbound 工作室",
+    "intro": "Hai Sri Lanka Tours 打造私人一日游与多日行程，并在目的地付款。",
+    "storyTitle": "我们是谁",
+    "story1": "2020 年创立于科伦坡：服务情侣、家庭和朋友的小型 inbound 团队，不想拼团大巴。",
+    "story2": "路线覆盖加勒、文化三角、康提、茶乡、雅拉与南海岸——从第一次咨询到出发，都可通过电子邮件和 WhatsApp 联系。",
+    "valuesTitle": "我们如何旅行",
+    "values": [
+      {
+        "title": "默认私人",
+        "body": "车辆与司机导游只服务您的同行者。当天节奏保持弹性。"
+      },
+      {
+        "title": "清晰后勤",
+        "body": "提交预订无需在线预付。电子邮件确认后，在当地付款。"
+      },
+      {
+        "title": "全岛接待",
+        "body": "从机场迎接到多日环线，同样细致。"
+      }
+    ],
+    "ctaEyebrow": "一起规划",
+    "ctaBody": "浏览私人行程或发送日期——我们亲自回复。",
+    "exploreTours": "浏览行程",
+    "schemaName": "关于 Hai Sri Lanka Tours"
+  },
+  "faqPage": {
+    "eyebrow": "常见问题",
+    "title": "出发前的问题",
+    "intro": "私人行程、目的地付款、机场接送，以及如何向 Hai Sri Lanka Tours 预订。",
+    "ctaEyebrow": "还有疑问？",
+    "ctaBody": "告诉我们日期，我们会给出下一步。",
+    "exploreTours": "浏览行程"
+  },
+  "privacyPage": {
+    "eyebrow": "隐私",
+    "title": "隐私政策",
+    "intro": "Hai Sri Lanka Tours 如何收集、使用和保护个人信息。",
+    "updated": "最近更新：2026 年 8 月",
+    "sections": [
+      {
+        "title": "我们是谁",
+        "body": "Hai Sri Lanka Tours 是位于科伦坡的 inbound 旅行公司。联系：haisrilankatour@gmail.com 或 +94 74 313 7241。"
+      },
+      {
+        "title": "收集的信息",
+        "body": "表单：姓名、电子邮件、电话/WhatsApp、日期、人数和留言。服务器日志：IP 与技术数据。"
+      },
+      {
+        "title": "使用方式",
+        "body": "回复咨询、确认行程、后勤与预订邮件。我们不出售个人数据。分析仅在同意 Cookie 后运行。"
+      },
+      {
+        "title": "Cookie",
+        "body": "必要 Cookie 用于网站运行。分析与广告（含 Google）仅在选择“全部接受”时加载。"
+      },
+      {
+        "title": "共享与保留",
+        "body": "仅与完成行程所需的合作方共享。按行程与会计需要保留。"
+      },
+      {
+        "title": "您的权利",
+        "body": "可通过 haisrilankatour@gmail.com 申请查阅、更正或删除。也可联系当地数据保护机构。"
+      }
+    ],
+    "ctaEyebrow": "关于数据的问题",
+    "ctaBody": "来信说明，我们会解释咨询如何处理。",
+    "exploreTours": "浏览行程"
+  },
+  "termsPage": {
+    "eyebrow": "条款",
+    "title": "服务条款",
+    "intro": "咨询或预订 Hai Sri Lanka Tours 私人行程时适用本条款。",
+    "updated": "最近更新：2026 年 8 月",
+    "sections": [
+      {
+        "title": "预订申请",
+        "body": "提交表单仅为申请，不保证确认。我们核对档期后通过电子邮件或 WhatsApp 确认。"
+      },
+      {
+        "title": "付款",
+        "body": "除非另有书面约定，行程在目的地按确认货币支付。网站价格为参考。"
+      },
+      {
+        "title": "变更与取消",
+        "body": "请尽早告知。多数私人行程在合理提前通知下可免费取消。"
+      },
+      {
+        "title": "您的责任",
+        "body": "提供准确资料、有效联系方式与行动需求。遵守寺庙与公园规定。护照、签证和保险由您负责。"
+      },
+      {
+        "title": "责任范围",
+        "body": "我们认真规划。对天气、公园关闭、交通或合理控制之外的事件不承担责任。"
+      },
+      {
+        "title": "适用法律",
+        "body": "适用斯里兰卡法律。联系：No. 12 Galle Road, Colombo，或 haisrilankatour@gmail.com。"
+      }
+    ],
+    "ctaEyebrow": "准备预订",
+    "ctaBody": "申请私人行程，出发前我们会确认细节。",
+    "exploreTours": "浏览行程"
   }
 }

@@ -92,8 +92,8 @@
       "description": "Private 日帰りツアーs and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
     },
     "about": {
-      "title": "会社概要 Us | Hai Sri Lanka ツアー",
-      "description": "Meet Hai Sri Lanka Tours a premium inbound tourism company crafting private Sri Lankan journeys."
+      "title": "Hai Sri Lanka Tours について | プライベート inbound",
+      "description": "コロンボの Hai Sri Lanka Tours。2020年よりスリランカのプライベート日帰り・連泊ツアー。"
     },
     "toursHub": {
       "title": "Sri Lanka ツアー | Hai Sri Lanka",
@@ -108,8 +108,8 @@
       "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
     },
     "destinations": {
-      "title": "Sri Lanka 行き先 | Hai Sri Lanka",
-      "description": "Explore top Sri Lanka destinations with local expertise from Hai Sri Lanka Tours."
+      "title": "スリランカの行き先 | ゴール・シギリヤ・キャンディ・ヤラ | Hai Sri Lanka",
+      "description": "ゴール、シギリヤ、キャンディ、ヤラ、エラ、ティーカントリーを Hai Sri Lanka のプライベートツアーで巡ります。"
     },
     "travelGuide": {
       "title": "Sri Lanka 旅行 ガイド | Hai Sri Lanka",
@@ -128,12 +128,12 @@
       "description": "A visual journey through Sri Lanka with Hai Sri Lanka Tours."
     },
     "faq": {
-      "title": "FAQ | Hai Sri Lanka ツアー",
-      "description": "Frequently asked questions about booking and traveling with Hai Sri Lanka."
+      "title": "FAQ | スリランカ プライベートツアー | Hai Sri Lanka",
+      "description": "プライベートツアー、現地払い、送迎、キャンセル、言語についての回答。"
     },
     "contact": {
-      "title": "お問い合わせ | Hai Sri Lanka ツアー",
-      "description": "Contact Hai Sri Lanka Tours to plan your private Sri Lanka journey."
+      "title": "Hai Sri Lanka Tours お問い合わせ | プライベート旅の相談",
+      "description": "スリランカのプライベート旅をご相談ください。メールまたはWhatsAppで返信し、ご日程に合わせて旅程を組み立てます。"
     },
     "blog": {
       "title": "旅行 ブログ | Hai Sri Lanka",
@@ -144,12 +144,12 @@
       "description": "Request a private tour booking with Hai Sri Lanka Tours. No online payment required."
     },
     "privacy": {
-      "title": "プライバシー Policy | Hai Sri Lanka",
-      "description": "Privacy policy for HaiSriLanka.com."
+      "title": "プライバシーポリシー | Hai Sri Lanka Tours",
+      "description": "問い合わせ・予約・Cookie データの取扱い。連絡先 haisrilankatour@gmail.com。"
     },
     "terms": {
-      "title": "利用規約 of Service | Hai Sri Lanka",
-      "description": "Terms of service for Hai Sri Lanka Tours."
+      "title": "利用規約 | Hai Sri Lanka Tours",
+      "description": "予約リクエスト、現地払い、キャンセル、旅行者の責任について。"
     },
     "notFound": {
       "title": "ページが見つかりません | Hai Sri Lanka",
@@ -226,5 +226,150 @@
     "body": "分析とサービス改善のためにCookieを使用します。すべて同意するか、必須のみで続行できます。",
     "essential": "必須のみ",
     "acceptAll": "すべて同意"
+  },
+  "contactPage": {
+    "eyebrow": "お問い合わせ",
+    "title": "スリランカの旅を一緒に計画しましょう",
+    "intro": "短いメッセージをお送りください。メールまたはWhatsAppで直接返信し、ご日程に合わせたプライベート旅程を組み立てます。",
+    "formTitle": "メッセージを送る",
+    "formLead": "ご希望をお聞かせください。メッセージは直接受信箱に届きます。",
+    "name": "お名前 *",
+    "email": "メール *",
+    "whatsapp": "WhatsApp番号 *",
+    "message": "メッセージ *",
+    "validation": "お名前、有効なメール、WhatsApp番号、短いメッセージをご入力ください。",
+    "sending": "送信中…",
+    "send": "メッセージを送信",
+    "success": "ありがとうございます。メッセージを送信しました。",
+    "otherTitle": "その他の連絡方法",
+    "otherLead": "すぐ話したい場合は、電話またはWhatsAppをいつでもどうぞ。",
+    "phone": "電話",
+    "whatsappLabel": "WhatsApp",
+    "whatsappValue": "WhatsAppで連絡する",
+    "emailLabel": "メール",
+    "findUs": "オンラインで探す",
+    "ctaEyebrow": "ご準備ができたら",
+    "ctaBody": "プライベート日帰り・連泊ツアーをご覧のうえ、ご日程をお知らせください。",
+    "exploreTours": "ツアーを見る",
+    "schemaName": "Hai Sri Lanka Tours お問い合わせ",
+    "schemaDescription": "フォーム、電話、WhatsApp、メールで Hai Sri Lanka Tours に連絡し、プライベートなスリランカの旅を計画できます。"
+  },
+  "destinationsPage": {
+    "eyebrow": "行き先",
+    "title": "スリランカを象徴する場所",
+    "intro": "要塞都市や聖地からティーカントリー、サファリパークまで。Hai Sri Lanka の旅を形づくる風景を巡ります。",
+    "allTitle": "すべての行き先",
+    "count": "{{count}} の行き先",
+    "filterAria": "地域で絞り込む",
+    "allRegions": "すべての地域",
+    "empty": "この地域の行き先はまだありません。",
+    "cta": "これらの場所をプライベート旅程にしませんか？",
+    "exploreTours": "ツアーを見る",
+    "schemaName": "スリランカの行き先"
+  },
+  "aboutPage": {
+    "eyebrow": "私たちについて",
+    "title": "スリランカのプライベート inbound スタジオ",
+    "intro": "Hai Sri Lanka Tours は、現地払いのプライベート日帰り・連泊の旅をつくります。",
+    "storyTitle": "私たちのこと",
+    "story1": "2020年コロンボ設立。カップル・家族・友人向けの少人数 inbound チームで、相乗りバスのない島旅を届けます。",
+    "story2": "ゴール、文化三角地帯、キャンディ、ティーカントリー、ヤラ、南海岸。メールと WhatsApp で初回相談から出発まで伴走します。",
+    "valuesTitle": "旅の考え方",
+    "values": [
+      {
+        "title": "原則プライベート",
+        "body": "車両とドライバーガイドはお客様専用。その日の流れは柔軟です。"
+      },
+      {
+        "title": "わかりやすい手配",
+        "body": "申込時のオンライン前払いは不要。メール確認のあと現地払い。"
+      },
+      {
+        "title": "島全体のホスト",
+        "body": "空港出迎えから連泊周遊まで、同じ丁寧さで支えます。"
+      }
+    ],
+    "ctaEyebrow": "一緒に計画",
+    "ctaBody": "ツアーを見るか日程を送ってください。担当が直接返信します。",
+    "exploreTours": "ツアーを見る",
+    "schemaName": "Hai Sri Lanka Tours について"
+  },
+  "faqPage": {
+    "eyebrow": "FAQ",
+    "title": "出発前によくある質問",
+    "intro": "プライベートツアー、現地払い、空港送迎、Hai Sri Lanka Tours の予約方法。",
+    "ctaEyebrow": "まだ不安ですか？",
+    "ctaBody": "日程をお知らせください。次の一歩をご案内します。",
+    "exploreTours": "ツアーを見る"
+  },
+  "privacyPage": {
+    "eyebrow": "プライバシー",
+    "title": "プライバシーポリシー",
+    "intro": "Hai Sri Lanka Tours が個人情報をどのように取得・利用・保護するか。",
+    "updated": "最終更新: 2026年8月",
+    "sections": [
+      {
+        "title": "事業者",
+        "body": "Hai Sri Lanka Tours はコロンボの inbound 旅行会社です。連絡先: haisrilankatour@gmail.com / +94 74 313 7241。"
+      },
+      {
+        "title": "取得する情報",
+        "body": "フォーム: 氏名、メール、電話/WhatsApp、日程、人数、メッセージ。サーバーログ: IP と技術情報。"
+      },
+      {
+        "title": "利用目的",
+        "body": "問い合わせ返信、ツアー確定、手配、予約メール。個人情報は販売しません。分析は Cookie 同意後のみ。"
+      },
+      {
+        "title": "Cookie",
+        "body": "必須 Cookie はサイト運営用。分析・広告（Google 含む）は「すべて同意」時のみ。"
+      },
+      {
+        "title": "共有と保管",
+        "body": "旅程実施に必要な提携先に限り共有。旅行と会計に必要な期間保管します。"
+      },
+      {
+        "title": "権利",
+        "body": "開示・訂正・削除は haisrilankatour@gmail.com。現地の監督機関にも相談できます。"
+      }
+    ],
+    "ctaEyebrow": "データについて",
+    "ctaBody": "メールでお問い合わせください。取扱いをご説明します。",
+    "exploreTours": "ツアーを見る"
+  },
+  "termsPage": {
+    "eyebrow": "利用規約",
+    "title": "利用規約",
+    "intro": "Hai Sri Lanka Tours のプライベートツアー申込・予約に適用されます。",
+    "updated": "最終更新: 2026年8月",
+    "sections": [
+      {
+        "title": "予約リクエスト",
+        "body": "フォーム送信は確定ではありません。空きを確認し、メールまたは WhatsApp で確定します。"
+      },
+      {
+        "title": "支払い",
+        "body": "書面で別途ない限り、確定通貨での現地払い。サイト表示価格は目安です。"
+      },
+      {
+        "title": "変更・キャンセル",
+        "body": "早めにご連絡ください。妥当な予告があれば多くのプライベートツアーは無料キャンセルできます。"
+      },
+      {
+        "title": "お客様の責任",
+        "body": "正確な情報、連絡先、移動の希望。寺院・公園ルールの遵守。パスポート・ビザ・保険はお客様負担。"
+      },
+      {
+        "title": "責任範囲",
+        "body": "丁寧に計画しますが、天候、公園閉鎖、渋滞、不可抗力については責任を負いかねます。"
+      },
+      {
+        "title": "準拠法",
+        "body": "スリランカ法。連絡先: No. 12 Galle Road, Colombo / haisrilankatour@gmail.com。"
+      }
+    ],
+    "ctaEyebrow": "予約の準備",
+    "ctaBody": "プライベートツアーをご依頼ください。出発前に内容を確定します。",
+    "exploreTours": "ツアーを見る"
   }
 }

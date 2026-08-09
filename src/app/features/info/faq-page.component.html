@@ -1,0 +1,52 @@
+@if (vm$ | async; as vm) {
+  <article class="faq-page">
+    <section class="faq-page__hero">
+      <div class="faq-page__hero-media" aria-hidden="true">
+        <img
+          [ngSrc]="heroImage.src"
+          [alt]="heroImage.alt"
+          [width]="heroImage.width || 1600"
+          [height]="heroImage.height || 900"
+          priority
+        />
+        <div class="faq-page__hero-veil"></div>
+      </div>
+      <app-ui-container>
+        <div class="faq-page__hero-copy">
+          <app-breadcrumb />
+          <p class="faq-page__eyebrow">{{ 'faqPage.eyebrow' | transloco }}</p>
+          <h1>{{ 'faqPage.title' | transloco }}</h1>
+          <p>{{ 'faqPage.intro' | transloco }}</p>
+        </div>
+      </app-ui-container>
+    </section>
+
+    <section class="faq-page__body" appReveal>
+      <app-ui-container>
+        <div class="faq-page__list">
+          @for (item of vm.items; track item.question) {
+            <details class="faq-page__item">
+              <summary>{{ item.question }}</summary>
+              <p>{{ item.answer }}</p>
+            </details>
+          }
+        </div>
+
+        <div class="faq-page__cta">
+          <div>
+            <p class="faq-page__cta-eyebrow">{{ 'faqPage.ctaEyebrow' | transloco }}</p>
+            <p>{{ 'faqPage.ctaBody' | transloco }}</p>
+          </div>
+          <div class="faq-page__cta-actions">
+            <a appUiButton variant="primary" [routerLink]="['/', vm.lang, 'sri-lanka-tours']">
+              {{ 'faqPage.exploreTours' | transloco }}
+            </a>
+            <a appUiButton variant="ghost" [routerLink]="['/', vm.lang, 'contact']">
+              {{ 'nav.contact' | transloco }}
+            </a>
+          </div>
+        </div>
+      </app-ui-container>
+    </section>
+  </article>
+}
