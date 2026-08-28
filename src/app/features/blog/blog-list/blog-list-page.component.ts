@@ -8,18 +8,15 @@ import {
 } from '@angular/core';
 import { toObservable } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
-import { combineLatest, map, tap } from 'rxjs';
+import { TranslocoService } from '@jsverse/transloco';
+import { combineLatest, firstValueFrom, map, tap } from 'rxjs';
 import { RevealDirective } from '../../../core/directives/reveal.directive';
 import type { BlogPost } from '../../../core/models';
 import { BreadcrumbService } from '../../../core/services/breadcrumb.service';
 import { BlogService } from '../../../core/services/content.services';
 import { LocaleService } from '../../../core/services/locale.service';
-import {
-  absUrl,
-  buildBreadcrumbSchema,
-  buildGraph,
-} from '../../../core/seo/schema/schema.builders';
-import { SeoService } from '../../../core/seo/seo.service';
+import { absUrl } from '../../../core/seo/schema/schema.builders';
+import { PageSeoFacade } from '../../../core/seo/page-seo.facade';
 import { BlogCardComponent } from '../../../shared/cards/blog-card/blog-card.component';
 import { BreadcrumbComponent } from '../../../shared/components/breadcrumb/breadcrumb.component';
 import { UiButtonComponent } from '../../../shared/ui/button/ui-button.component';
@@ -44,8 +41,9 @@ import { UiContainerComponent } from '../../../shared/ui/container/ui-container.
 })
 export class BlogListPageComponent implements OnInit {
   private readonly blogs = inject(BlogService);
-  private readonly seo = inject(SeoService);
+  private readonly seo = inject(PageSeoFacade);
   private readonly breadcrumbs = inject(BreadcrumbService);
+  private readonly transloco = inject(TranslocoService);
   readonly locale = inject(LocaleService);
 
   readonly tagFilter = signal('all');
@@ -78,39 +76,40 @@ export class BlogListPageComponent implements OnInit {
   );
 
   ngOnInit(): void {
-    const lang = this.locale.activeLang();
-    this.breadcrumbs.set([
-      { label: 'Home', url: `/${lang}` },
-      { label: 'Journal' },
-    ]);
+    void this.setBreadcrumbs();
   }
 
   setTag(tag: string): void {
     this.tagFilter.set(tag);
   }
 
+  private async setBreadcrumbs(): Promise<void> {
+    const lang = this.locale.activeLang();
+    await firstValueFrom(this.transloco.load(lang));
+    this.breadcrumbs.set([
+      { label: this.transloco.translate('nav.home'), url: `/${lang}` },
+      { label: this.transloco.translate('nav.blog') },
+    ]);
+  }
+
   private applySeo(lang: string, posts: BlogPost[]): void {
+    void this.applySeoAsync(lang, posts);
+  }
+
+  private async applySeoAsync(lang: string, posts: BlogPost[]): Promise<void> {
+    await firstValueFrom(this.transloco.load(lang));
     const path = 'blog';
-    this.seo.update({
-      title: 'Travel Journal | Sri Lanka Tips & Guides | Hai Sri Lanka',
-      description:
-        'Ideas for your Sri Lanka trip seasons, packing, private travel, Ella, safari tips, and temple etiquette from Hai Sri Lanka.',
-      keywords: [
-        'Sri Lanka travel blog',
-        'Sri Lanka travel tips',
-        'Hai Sri Lanka journal',
+    void this.seo.applyTranslatedPage('blog', path, {
+      breadcrumbs: [
+        { name: 'nav.home' },
+        { name: 'nav.blog', path },
       ],
-      path,
       image: posts[0]?.images[0]?.src,
-      type: 'website',
-      jsonLd: buildGraph(
-        buildBreadcrumbSchema([
-          { name: 'Home', url: `/${lang}` },
-          { name: 'Journal', url: `/${lang}/${path}` },
-        ]),
+      extraNodes: [
         {
           '@type': 'ItemList',
-          name: 'Hai Sri Lanka Travel Journal',
+          name: this.transloco.translate('seo.blog.title'),
+          inLanguage: lang,
           numberOfItems: posts.length,
           itemListElement: posts.map((p, i) => ({
             '@type': 'ListItem',
@@ -119,7 +118,7 @@ export class BlogListPageComponent implements OnInit {
             url: absUrl(`/${lang}/blog/${p.slug}`),
           })),
         },
-      ),
+      ],
     });
   }
 }

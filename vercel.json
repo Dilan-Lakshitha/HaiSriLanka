@@ -12,7 +12,17 @@
     }
   },
   "redirects": [
-    { "source": "/", "destination": "/en", "permanent": true },
+    {
+      "source": "/",
+      "destination": "https://www.haisrilanka.com/en",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "haisrilanka.com" }],
+      "destination": "https://www.haisrilanka.com/:path*",
+      "permanent": true
+    },
     {
       "source": "/:lang/multi day tours",
       "destination": "/:lang/multi-day-tours",
@@ -43,6 +53,7 @@
       "destination": "/:lang/sri-lanka-tours",
       "permanent": true
     },
+    { "source": "/yalpanam.html", "destination": "/en", "permanent": true },
     { "source": "/tour.html", "destination": "/en/sri-lanka-tours", "permanent": true },
     { "source": "/packages.html", "destination": "/en/multi-day-tours", "permanent": true },
     { "source": "/services.html", "destination": "/en", "permanent": true },

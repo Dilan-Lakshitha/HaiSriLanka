@@ -2,7 +2,21 @@
  * Unique first-byte HTML per URL for Googlebot (canonical / hreflang / lang).
  * Also 301 spaced/legacy aliases so junk paths are not indexed as duplicates.
  */
+import de from './src/assets/i18n/de.json';
+import en from './src/assets/i18n/en.json';
+import es from './src/assets/i18n/es.json';
+import fr from './src/assets/i18n/fr.json';
+import it from './src/assets/i18n/it.json';
+import ja from './src/assets/i18n/ja.json';
+import nl from './src/assets/i18n/nl.json';
+import pl from './src/assets/i18n/pl.json';
+import ru from './src/assets/i18n/ru.json';
+import sv from './src/assets/i18n/sv.json';
+import zh from './src/assets/i18n/zh.json';
+
 const SITE_URL = 'https://www.haisrilanka.com';
+
+const I18N = { de, en, es, fr, it, ja, nl, pl, ru, sv, zh };
 
 const LOCALES = [
   { code: 'en', hreflang: 'en' },
@@ -45,21 +59,37 @@ const DETAIL_HUBS = new Set([
   'blog',
 ]);
 
-const HUB_TITLES = {
-  '': 'Hai Sri Lanka Tours | Private Sri Lanka Travel',
-  about: 'About Hai Sri Lanka Tours | Private Inbound Travel',
-  contact: 'Contact Hai Sri Lanka Tours | Plan a Private Journey',
-  destinations: 'Sri Lanka Destinations | Hai Sri Lanka Tours',
-  'sri-lanka-tours': 'Sri Lanka Tours | Hai Sri Lanka',
-  'day-tours': 'Day Tours in Sri Lanka | Hai Sri Lanka',
-  'multi-day-tours': 'Multi-Day Sri Lanka Tours | Hai Sri Lanka',
-  'things-to-do': 'Things To Do in Sri Lanka | Hai Sri Lanka',
-  blog: 'Sri Lanka Travel Journal | Hai Sri Lanka',
-  reviews: 'Guest Reviews | Hai Sri Lanka Tours',
-  faq: 'FAQ | Hai Sri Lanka Tours',
-  privacy: 'Privacy Policy | Hai Sri Lanka',
-  terms: 'Terms of Service | Hai Sri Lanka',
-  'travel-guide': 'Sri Lanka Travel Guide | Hai Sri Lanka',
+const SEO_KEY_BY_HUB = {
+  '': 'home',
+  about: 'about',
+  contact: 'contact',
+  destinations: 'destinations',
+  'sri-lanka-tours': 'toursHub',
+  'day-tours': 'dayTours',
+  'day-tour': 'dayTours',
+  'multi-day-tours': 'multiDayTours',
+  'multi-day-tour': 'multiDayTours',
+  'things-to-do': 'thingsToDo',
+  blog: 'blog',
+  reviews: 'reviews',
+  faq: 'faq',
+  privacy: 'privacy',
+  terms: 'terms',
+  'travel-guide': 'travelGuide',
+};
+
+const OG_LOCALE = {
+  en: 'en_US',
+  de: 'de_DE',
+  fr: 'fr_FR',
+  es: 'es_ES',
+  it: 'it_IT',
+  nl: 'nl_NL',
+  pl: 'pl_PL',
+  sv: 'sv_SE',
+  ru: 'ru_RU',
+  ja: 'ja_JP',
+  zh: 'zh_CN',
 };
 
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -73,37 +103,52 @@ const SPACE_ALIASES = {
   'travel guide': 'travel-guide',
 };
 
-export const config = {
-  matcher: ['/((?!api/|assets/|.*\\..*).*)'],
+const LEGACY_HTML = {
+  '/yalpanam.html': '/en',
+  '/tour.html': '/en/sri-lanka-tours',
+  '/packages.html': '/en/multi-day-tours',
+  '/services.html': '/en',
+  '/eightdaystours.html': '/en/multi-day-tours',
 };
+
+export const config = {
+  matcher: [
+    '/((?!api/|assets/)(?!.*\\.(?:js|css|mjs|map|png|jpe?g|webp|avif|gif|svg|ico|woff2?|ttf|xml|txt|json|webmanifest)$).*)',
+  ],
+};
+
+const CANONICAL_HOST = 'www.haisrilanka.com';
 
 export default async function middleware(request) {
   const url = new URL(request.url);
   let pathname = decodeURIComponent(url.pathname || '/');
+  const search = url.search || '';
+  const host = requestHost(request, url);
+  const isApexOrWww =
+    host === CANONICAL_HOST || host === 'haisrilanka.com';
 
-  if (pathname.includes('.') || pathname.startsWith('/api/')) {
+  if (pathname.startsWith('/api/') || pathname.startsWith('/assets/')) {
     return;
   }
 
-  if (pathname !== '/' && pathname.endsWith('/')) {
-    return redirect(`${pathname.replace(/\/+$/, '') || '/'}${url.search}`);
+  // Internal shell fetch from this middleware — do not 308 /index.html or the SPA shell 404s.
+  if (
+    (pathname === '/index.html' || pathname === '/index.csr.html') &&
+    request.headers.get('x-hsl-shell') === '1'
+  ) {
+    return;
   }
 
-  if (pathname === '/') {
-    return redirect(`/en${url.search}`);
+  const nextPath = resolveCanonicalPath(pathname);
+  if (nextPath === null) {
+    return;
+  }
+
+  if (nextPath !== pathname || (isApexOrWww && host !== CANONICAL_HOST)) {
+    return redirectTo(nextPath, search);
   }
 
   const parsed = parsePath(pathname);
-  if (!parsed.hasLang) {
-    return redirect(`/en${pathname === '/' ? '' : pathname}${url.search}`);
-  }
-
-  const cleanedRest = normalizeRest(parsed.rest);
-  if (cleanedRest !== parsed.rest) {
-    const dest = cleanedRest ? `/${parsed.lang}/${cleanedRest}` : `/${parsed.lang}`;
-    return redirect(`${dest}${url.search}`);
-  }
-
   const indexable = isIndexablePath(parsed.rest);
   const noIndex =
     !indexable ||
@@ -111,16 +156,20 @@ export default async function middleware(request) {
       (p) => parsed.rest === p || parsed.rest.startsWith(`${p}/`),
     );
 
-  const indexRes = await fetch(new URL('/index.html', request.url));
+  const indexRes = await fetch(new URL('/index.html', request.url), {
+    headers: { 'x-hsl-shell': '1' },
+  });
   if (!indexRes.ok) {
     return;
   }
 
+  const { title, description } = titleFor(parsed.lang, parsed.rest);
   let html = await indexRes.text();
   html = injectHead(html, {
     lang: parsed.lang,
     rest: parsed.rest,
-    title: titleFor(parsed.rest),
+    title,
+    description,
     noIndex,
     indexable,
   });
@@ -130,26 +179,84 @@ export default async function middleware(request) {
     headers: {
       'content-type': 'text/html; charset=utf-8',
       'cache-control': 'public, max-age=0, must-revalidate',
+      'content-language': parsed.lang === 'zh' ? 'zh-CN' : parsed.lang,
+      'x-robots-tag': noIndex ? 'noindex, nofollow' : 'index, follow',
       'x-content-type-options': 'nosniff',
       'referrer-policy': 'strict-origin-when-cross-origin',
     },
   });
 }
 
-function redirect(location) {
+function requestHost(request, url) {
+  const raw =
+    request.headers.get('x-forwarded-host') ||
+    request.headers.get('host') ||
+    url.hostname ||
+    '';
+  return raw.split(',')[0].trim().split(':')[0].toLowerCase();
+}
+
+/** Always land on https://www.haisrilanka.com in a single hop. */
+function redirectTo(pathname, search) {
+  const path = pathname.startsWith('/') ? pathname : `/${pathname}`;
   return new Response(null, {
     status: 308,
-    headers: { location },
+    headers: { location: `${SITE_URL}${path}${search || ''}` },
   });
+}
+
+/**
+ * Returns the canonical pathname, or null to pass the request through (static files).
+ */
+function resolveCanonicalPath(pathname) {
+  if (pathname === '/index.html' || pathname === '/index.csr.html') {
+    return '/en';
+  }
+
+  if (/\.html$/i.test(pathname)) {
+    return LEGACY_HTML[pathname.toLowerCase()] || '/en';
+  }
+
+  if (pathname.includes('.')) {
+    return null;
+  }
+
+  if (pathname !== '/' && pathname.endsWith('/')) {
+    return pathname.replace(/\/+$/, '') || '/';
+  }
+
+  if (pathname === '/') {
+    return '/en';
+  }
+
+  const parsed = parsePath(pathname);
+
+  if (parsed.unknownLocale) {
+    return parsed.rest ? `/en/${parsed.rest}` : '/en';
+  }
+
+  if (!parsed.hasLang) {
+    return `/en${pathname}`;
+  }
+
+  const cleanedRest = normalizeRest(parsed.rest);
+  if (cleanedRest !== parsed.rest) {
+    return cleanedRest ? `/${parsed.lang}/${cleanedRest}` : `/${parsed.lang}`;
+  }
+
+  return pathname;
 }
 
 function parsePath(pathname) {
   const parts = pathname === '/' ? [] : pathname.slice(1).split('/').filter(Boolean);
   const maybeLang = parts[0]?.toLowerCase();
   const hasLang = Boolean(maybeLang && LOCALE_CODES.has(maybeLang));
+  const unknownLocale = Boolean(
+    maybeLang && /^[a-z]{2}$/.test(maybeLang) && !LOCALE_CODES.has(maybeLang),
+  );
   const lang = hasLang ? maybeLang : 'en';
-  const restParts = hasLang ? parts.slice(1) : parts;
-  return { hasLang, lang, rest: restParts.join('/'), restParts };
+  const restParts = hasLang || unknownLocale ? parts.slice(1) : parts;
+  return { hasLang, unknownLocale, lang, rest: restParts.join('/'), restParts };
 }
 
 function normalizeRest(rest) {
@@ -175,23 +282,31 @@ function isIndexablePath(rest) {
   return SLUG_RE.test(slug);
 }
 
-function titleFor(rest) {
-  if (HUB_TITLES[rest]) {
-    return HUB_TITLES[rest];
-  }
-  const [hub, slug] = rest.split('/');
-  if (slug && (HUB_TITLES[hub] || DETAIL_HUBS.has(hub))) {
+function seoPack(lang, key) {
+  const fromLang = I18N[lang]?.seo?.[key];
+  const fromEn = I18N.en?.seo?.[key];
+  return {
+    title: fromLang?.title || fromEn?.title || 'Hai Sri Lanka Tours | Private Sri Lanka Travel',
+    description:
+      fromLang?.description ||
+      fromEn?.description ||
+      'Private Sri Lanka tours with Hai Sri Lanka.',
+  };
+}
+
+function titleFor(lang, rest) {
+  const hub = rest ? rest.split('/')[0] : '';
+  const slug = rest.includes('/') ? rest.split('/')[1] : '';
+  const key = SEO_KEY_BY_HUB[hub] || SEO_KEY_BY_HUB[''] || 'home';
+  const pack = seoPack(lang, key);
+  if (slug && (DETAIL_HUBS.has(hub) || SEO_KEY_BY_HUB[hub])) {
     const label = slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
-    const hubTitle =
-      HUB_TITLES[hub] ||
-      (hub === 'day-tour'
-        ? HUB_TITLES['day-tours']
-        : hub === 'multi-day-tour'
-          ? HUB_TITLES['multi-day-tours']
-          : 'Hai Sri Lanka Tours');
-    return `${label} | ${hubTitle}`;
+    return {
+      title: `${label} | ${pack.title}`,
+      description: pack.description,
+    };
   }
-  return 'Hai Sri Lanka Tours | Private Sri Lanka Travel';
+  return pack;
 }
 
 function injectHead(html, seo) {
@@ -209,7 +324,7 @@ function injectHead(html, seo) {
     const xDefault = seo.rest ? `${SITE_URL}/en/${seo.rest}` : `${SITE_URL}/en`;
     tags.unshift(`<link rel="canonical" href="${canonical}">`);
     tags.push(`<meta property="og:url" content="${canonical}">`);
-    tags.push(`<meta property="og:locale" content="${seo.lang}">`);
+    tags.push(`<meta property="og:locale" content="${OG_LOCALE[seo.lang] || seo.lang}">`);
     tags.push(alternates);
     tags.push(`<link rel="alternate" hreflang="x-default" href="${xDefault}">`);
   }
@@ -218,8 +333,9 @@ function injectHead(html, seo) {
   html = html.replace(/<title>[^<]*<\/title>/i, `<title>${escapeHtml(seo.title)}</title>`);
   html = html.replace(
     /<meta\s+name="description"[^>]*>/i,
-    `<meta name="description" content="${escapeHtml(seo.title)}">`,
+    `<meta name="description" content="${escapeHtml(seo.description)}">`,
   );
+  html = html.replace(/href="\/en\/privacy"/g, `href="/${seo.lang}/privacy"`);
 
   html = html.replace(/<link[^>]+rel=["']canonical["'][^>]*>/gi, '');
   html = html.replace(/<meta[^>]+name=["']robots["'][^>]*>/gi, '');
