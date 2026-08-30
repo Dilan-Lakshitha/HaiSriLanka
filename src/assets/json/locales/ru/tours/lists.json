@@ -2,8 +2,8 @@
   "hub": {
     "hero": {
       "eyebrow": "Sri Lanka Tours",
-      "title": "Private tours across the island",
-      "subtitle": "Choose a day escape or a multi-day journey curated pacing, trusted stays, and transparent pricing.",
+      "title": "Частные туры и пакеты по Шри-Ланке",
+      "subtitle": "Выберите частный однодневный тур или многодневный пакет — спокойный темп, проверенные отели, англоязычный гид и прозрачные цены.",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
         "alt": "Private Sri Lanka tours with Hai Sri Lanka",
@@ -12,8 +12,8 @@
       }
     },
     "seo": {
-      "metaTitle": "Sri Lanka Tours | Day & Multi-Day Packages | Hai Sri Lanka",
-      "metaDescription": "Browse private Sri Lanka Однодневный турs and multi-day itineraries culture, tea country, wildlife, and coast with Hai Sri Lanka Tours.",
+      "metaTitle": "Туры по Шри-Ланке | Дневные и многодневные пакеты",
+      "metaDescription": "Пакеты туров по Шри-Ланке: частные однодневные и многодневные поездки с отелями, водителем-гидом и прозрачными ценами. Для пар, семей и небольших групп.",
       "keywords": [
         "Sri Lanka tours",
         "private Sri Lanka packages",
@@ -25,8 +25,8 @@
   "day": {
     "hero": {
       "eyebrow": "Однодневный турs",
-      "title": "Private day journeys across Sri Lanka",
-      "subtitle": "Curated single-day experiences from coast to Cultural Triangle fully private, paced for comfort.",
+      "title": "Частные однодневные туры по Шри-Ланке",
+      "subtitle": "Частные однодневные туры от побережья до Культурного треугольника — Галле, Сигирия, Канди, Элла и другие. Свой транспорт и гид, комфортный темп.",
       "image": {
         "src": "/assets/images/tours/category-day.webp",
         "alt": "Sri Lanka Однодневный турs",
@@ -35,8 +35,8 @@
       }
     },
     "seo": {
-      "metaTitle": "Однодневный турs in Sri Lanka | Hai Sri Lanka Tours",
-      "metaDescription": "Browse premium private Однодневный турs Galle, Sigiriya, Kandy, and more with live pricing and flexible pacing.",
+      "metaTitle": "Однодневные туры по Шри-Ланке | Частные поездки",
+      "metaDescription": "Частные однодневные туры по Шри-Ланке из Коломбо и с западного побережья — Галле, Сигирия, Канди, Элла и другие. Свой транспорт, англоязычный гид, гибкий темп.",
       "keywords": [
         "Sri Lanka day tours",
         "private day trip Sri Lanka",
@@ -47,8 +47,8 @@
   "multi-day": {
     "hero": {
       "eyebrow": "Multi-Однодневный турs",
-      "title": "Multi-day journeys with quiet luxury",
-      "subtitle": "Private itineraries across culture, tea country, wildlife, and coast flexible nights, trusted stays.",
+      "title": "Пакеты и многодневные туры по Шри-Ланке",
+      "subtitle": "Частные маршруты отдыха: культура, чай, природа и побережье — гибкие ночи и проверенные отели.",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
         "alt": "Sri Lanka multi-Однодневный турs",
@@ -57,8 +57,8 @@
       }
     },
     "seo": {
-      "metaTitle": "Multi-Однодневный турs in Sri Lanka | Hai Sri Lanka Tours",
-      "metaDescription": "Explore private multi-day Sri Lanka tours with boutique stays, expert guiding, and transparent pricing.",
+      "metaTitle": "Пакеты по Шри-Ланке | Частные многодневные туры",
+      "metaDescription": "Частные пакеты отдыха по Шри-Ланке: культура, чайные холмы, природа и пляжи, отели 4 звезды и частный транспорт.",
       "keywords": [
         "Sri Lanka tour packages",
         "multi-day Sri Lanka tour",

@@ -2,8 +2,8 @@
   "hub": {
     "hero": {
       "eyebrow": "Sri Lanka Tours",
-      "title": "Private tours across the island",
-      "subtitle": "Choose a day escape or a multi-day journey curated pacing, trusted stays, and transparent pricing.",
+      "title": "スリランカのプライベートツアーとパッケージ",
+      "subtitle": "プライベート日帰りまたは複数日の休暇パッケージ。ゆったりしたペース、信頼できるホテル、英語ガイド、明瞭な料金。",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
         "alt": "Private Sri Lanka tours with Hai Sri Lanka",
@@ -12,8 +12,8 @@
       }
     },
     "seo": {
-      "metaTitle": "Sri Lanka Tours | Day & Multi-Day Packages | Hai Sri Lanka",
-      "metaDescription": "Browse private Sri Lanka 日帰りツアーs and multi-day itineraries culture, tea country, wildlife, and coast with Hai Sri Lanka Tours.",
+      "metaTitle": "スリランカツアー | 日帰り＆周遊パッケージ",
+      "metaDescription": "スリランカのツアープラン：プライベート日帰りと複数日の休暇行程。ホテル、ドライバーガイド、明瞭な料金。カップル・家族・少人数向け。",
       "keywords": [
         "Sri Lanka tours",
         "private Sri Lanka packages",
@@ -25,8 +25,8 @@
   "day": {
     "hero": {
       "eyebrow": "日帰りツアーs",
-      "title": "Private day journeys across Sri Lanka",
-      "subtitle": "Curated single-day experiences from coast to Cultural Triangle fully private, paced for comfort.",
+      "title": "スリランカのプライベート日帰りツアー",
+      "subtitle": "海岸から文化トライアングルまでのプライベート日帰り。ゴール、シギリヤ、キャンディ、エラなど。専用車とガイド、快適なペース。",
       "image": {
         "src": "/assets/images/tours/category-day.webp",
         "alt": "Sri Lanka 日帰りツアーs",
@@ -35,8 +35,8 @@
       }
     },
     "seo": {
-      "metaTitle": "日帰りツアーs in Sri Lanka | Hai Sri Lanka Tours",
-      "metaDescription": "Browse premium private 日帰りツアーs Galle, Sigiriya, Kandy, and more with live pricing and flexible pacing.",
+      "metaTitle": "スリランカ日帰りツアー | プライベート日帰り",
+      "metaDescription": "コロンボと西海岸発のプライベート日帰りツアー。ゴール、シギリヤ、キャンディ、エラなど。専用車、英語ガイド、柔軟なペース。",
       "keywords": [
         "Sri Lanka day tours",
         "private day trip Sri Lanka",
@@ -47,8 +47,8 @@
   "multi-day": {
     "hero": {
       "eyebrow": "Multi-日帰りツアーs",
-      "title": "Multi-day journeys with quiet luxury",
-      "subtitle": "Private itineraries across culture, tea country, wildlife, and coast flexible nights, trusted stays.",
+      "title": "スリランカ周遊パッケージと複数日ツアー",
+      "subtitle": "文化、茶畑、野生動物、海岸を巡るプライベート休暇行程。柔軟な宿泊と信頼できるホテル。",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
         "alt": "Sri Lanka multi-日帰りツアーs",
@@ -57,8 +57,8 @@
       }
     },
     "seo": {
-      "metaTitle": "Multi-日帰りツアーs in Sri Lanka | Hai Sri Lanka Tours",
-      "metaDescription": "Explore private multi-day Sri Lanka tours with boutique stays, expert guiding, and transparent pricing.",
+      "metaTitle": "スリランカ周遊パッケージ | プライベート複数日",
+      "metaDescription": "スリランカのプライベート休暇パッケージ。文化、茶畑、野生動物、ビーチ。4つ星ホテルと専用車。",
       "keywords": [
         "Sri Lanka tour packages",
         "multi-day Sri Lanka tour",

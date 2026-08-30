@@ -1,12 +1,12 @@
 {
   "seo": {
-    "metaTitle": "Hai Sri Lanka Touren | Private Luxustouren in Sri Lanka",
-    "metaDescription": "Planen Sie eine private Sri Lanka-Reise mit Hai Sri Lanka Tours. Luxuriöse mehrtägige Reiserouten, kuratierte Tagestouren und erfahrene lokale Gastgeber auf der ganzen Insel."
+    "metaTitle": "Sri Lanka Touren | Privatreisen & Urlaubspakete",
+    "metaDescription": "Private Sri-Lanka-Touren und maßgeschneiderte Urlaubspakete. Tagesausflüge und Rundreisen nach Sigiriya, Kandy, Ella, Yala, Galle und an die Küste — Guide, Hotels, Zahlung vor Ort."
   },
   "hero": {
-    "eyebrow": "Private Inbound-Reisen · Sri Lanka",
-    "title": "Entdecken Sie Ceylon in ruhigem Luxus",
-    "subtitle": "Maßgeschneiderte Reisen zu Tempeln, Teeanbaugebieten, Wildtieren und an der Küste für anspruchsvolle Reisende.",
+    "eyebrow": "Private Sri-Lanka-Touren · maßgeschneiderte Pakete",
+    "title": "Sri-Lanka-Touren, privat und maßgeschneidert",
+    "subtitle": "Urlaubspakete und Tagestouren zu den schönsten Orten Sri Lankas — Tempel, Teeland, Wildlife und Strände — mit Ihrem eigenen englischsprachigen Guide.",
     "image": {
       "alt": "Neun-Bogen-Brücke und Teeland in der Nähe von Ella, Sri Lanka",
       "title": "Ella Nine Arch Bridge"
@@ -32,7 +32,10 @@
         "alt": "Neun-Bogen-Brücke erhebt sich über Teeplantagen in Ella",
         "title": "Ella-Hochland"
       }
-    ]
+    ],
+    "primaryCta": {
+      "label": "Sri-Lanka-Touren ansehen"
+    }
   },
   "search": {
     "title": "Finden Sie Ihre Reise",
@@ -97,8 +100,8 @@
   },
   "whyChoose": {
     "eyebrow": "Warum Hai Sri Lanka",
-    "title": "Gastfreundschaft für Privatreisende",
-    "subtitle": "Wir entwerfen ruhige, reibungslose Fahrten ohne überfüllte Gruppenbusse mit Gastgebern, die jede kurvenreiche Straße kennen.",
+    "title": "Private Sri-Lanka-Touren, keine Gruppenbusse",
+    "subtitle": "Wir gestalten private Tourpakete und Urlaube auf der ganzen Insel — Ihr Fahrzeug, Ihr Tempo und lokale Gastgeber, die jede Straße kennen.",
     "items": [
       {
         "title": "Völlig private Erlebnisse",
@@ -123,9 +126,9 @@
     ]
   },
   "tourCategories": {
-    "eyebrow": "Tourkategorien",
-    "title": "Wählen Sie, wie Sie Sri Lanka kennenlernen",
-    "subtitle": "Beginnen Sie mit dem Stil, der zu Ihnen passt – von einem einzigen Tag an der Küste bis zu zwei Wochen voller Hochland- und Wildtiererlebnisse.",
+    "eyebrow": "Sri-Lanka-Tourpakete",
+    "title": "Wählen Sie Ihre Sri-Lanka-Tour",
+    "subtitle": "Von einer privaten Tagestour bis zum Urlaubspaket durch Hochland, Wildlife und Küste — starten Sie mit dem Stil, der zu Ihnen passt.",
     "items": [
       {
         "title": "Tagestouren",
@@ -163,20 +166,20 @@
   },
   "featuredMultiDay": {
     "eyebrow": "Ausgewählte Reisen",
-    "title": "Mehrtägige Touren lieben Reisende",
-    "subtitle": "Einzigartige private Reiserouten mit Raum für Kultur, Hochland und Küste im Einklang.",
+    "title": "Beliebte Sri-Lanka-Rundreisen",
+    "subtitle": "Private mehrtägige Urlaubsreisen mit Kultur, Teeland, Wildlife und Küste im Gleichgewicht.",
     "viewAllLabel": "Alle Mehrtagestouren ansehen"
   },
   "featuredDay": {
     "eyebrow": "Ein perfekter Tag",
-    "title": "Ausgewählte Tagestouren",
-    "subtitle": "Private Tageserlebnisse aus Colombo und der Westküste, raffiniertes Tempo, unvergessliche Stopps.",
+    "title": "Private Tagestouren in Sri Lanka",
+    "subtitle": "Private Tagestouren ab Colombo und der Westküste — Galle, Sigiriya, Kandy, Ella und mehr.",
     "viewAllLabel": "Alle Tagestouren ansehen"
   },
   "destinations": {
-    "eyebrow": "Reiseziele",
-    "title": "Orte, die Sri Lanka definieren",
-    "subtitle": "Vom Löwenfelsen bis zu den niederländischen Festungsmauern erkunden Sie die Regionen, die jede großartige Reiseroute prägen.",
+    "eyebrow": "Reiseorte",
+    "title": "Die schönsten Orte in Sri Lanka",
+    "subtitle": "Vom Löwenfelsen Sigiriya bis Galle Fort, Ella, Yala und Teeland — die Orte, die jede große Tour prägen.",
     "viewAllLabel": "Entdecken Sie Reiseziele"
   },
   "map": {
@@ -252,8 +255,8 @@
   },
   "cta": {
     "eyebrow": "Beginnen Sie hier",
-    "title": "Sagen Sie uns, wie Sie reisen möchten",
-    "subtitle": "Teilen Sie uns Ihre Daten, Ihr Tempo und Ihre Interessen mit, wir gestalten für Sie eine private Reise nach Sri Lanka, die eine Reise wert ist.",
+    "title": "Planen Sie Ihren Sri-Lanka-Urlaub",
+    "subtitle": "Nennen Sie uns Ihre Daten und Interessen — wir gestalten ein privates Tourpaket um die Orte, die Sie sehen möchten.",
     "image": {
       "alt": "Neun-Bogen-Brücke über Teeplantagen in Ella, Sri Lanka",
       "title": "Ella Nine Arch Bridge"

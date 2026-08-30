@@ -46,12 +46,16 @@
       "pageKey": "home",
       "items": [
         {
-          "question": "Varför välja Hai Sri Lanka?",
-          "answer": "Premium gästfrihet, expert lokala guider och resplaner designade för komfort och autentisk upptäckt."
+          "question": "Erbjuder ni privata Sri Lanka-turer?",
+          "answer": "Ja. Varje tur hos Hai Sri Lanka är privat — ert fordon och en engelsktalande chaufför-guide, ingen blandad buss. Dagsutflykter och flerdagars paket anpassas efter era datum."
         },
         {
-          "question": "Vilka språk talar dina guider?",
-          "answer": "Engelska är standard. Tyska, franska och andra europeiska språk kan ordnas på begäran."
+          "question": "Vad ingår i ett Sri Lanka-turpaket?",
+          "answer": "Privat transport, bränsle, parkering och chaufför-guide ingår vanligtvis. Flerdagars paket inkluderar ofta 4-stjärniga hotell. Entréer och måltider står på varje tursida."
+        },
+        {
+          "question": "Vilka platser på Sri Lanka besöker era turer?",
+          "answer": "Populära resmål: Sigiriya, Dambulla, Kandy, Ella, Yala, Mirissa, Galle Fort, Bentota och Colombo. Vi anpassar också rutter efter platserna ni mest vill se."
         }
       ]
     },

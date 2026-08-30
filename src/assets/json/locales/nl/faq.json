@@ -46,12 +46,16 @@
       "pageKey": "home",
       "items": [
         {
-          "question": "Waarom kiezen voor Hai Sri Lanka?",
-          "answer": "Eersteklas gastvrijheid, deskundige lokale gidsen en routes ontworpen voor comfort en authentieke ontdekkingen."
+          "question": "Bieden jullie privétours in Sri Lanka aan?",
+          "answer": "Ja. Elke tour van Hai Sri Lanka is privé — uw voertuig en een Engelstalige chauffeur-gids, geen gemengde touringcar. Dagtrips en meerdaagse pakketten passen we aan uw data aan."
         },
         {
-          "question": "Welke talen spreken uw gidsen?",
-          "answer": "Engels is standaard. Duits, Frans en andere Europese talen kunnen op verzoek worden geregeld."
+          "question": "Wat is inbegrepen in een Sri Lanka-tourpakket?",
+          "answer": "Privévervoer, brandstof, parkeren en chauffeur-gids zijn meestal inbegrepen. Meerdaagse pakketten omvatten vaak 4-sterrenhotels. Entree en maaltijden staan op elke tourpagina."
+        },
+        {
+          "question": "Welke plekken in Sri Lanka bezoeken jullie tours?",
+          "answer": "Populaire plekken: Sigiriya, Dambulla, Kandy, Ella, Yala, Mirissa, Galle Fort, Bentota en Colombo. We passen routes ook aan op de plekken die u het meest wilt zien."
         }
       ]
     },

@@ -2,8 +2,8 @@
   "hub": {
     "hero": {
       "eyebrow": "Sri Lanka Tours",
-      "title": "Private tours across the island",
-      "subtitle": "Choose a day escape or a multi-day journey curated pacing, trusted stays, and transparent pricing.",
+      "title": "斯里兰卡私人行程与套餐",
+      "subtitle": "选择私人一日游或多日度假套餐——从容节奏、可靠酒店、英语导游与透明价格。",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
         "alt": "Private Sri Lanka tours with Hai Sri Lanka",
@@ -12,8 +12,8 @@
       }
     },
     "seo": {
-      "metaTitle": "Sri Lanka Tours | Day & Multi-Day Packages | Hai Sri Lanka",
-      "metaDescription": "Browse private Sri Lanka 一日游s and multi-day itineraries culture, tea country, wildlife, and coast with Hai Sri Lanka Tours.",
+      "metaTitle": "斯里兰卡旅游 | 私人一日与多日套餐",
+      "metaDescription": "斯里兰卡旅游套餐：私人一日游与多日度假行程，含酒店、司机导游与透明价格。适合情侣、家庭与小团。",
       "keywords": [
         "Sri Lanka tours",
         "private Sri Lanka packages",
@@ -25,8 +25,8 @@
   "day": {
     "hero": {
       "eyebrow": "一日游s",
-      "title": "Private day journeys across Sri Lanka",
-      "subtitle": "Curated single-day experiences from coast to Cultural Triangle fully private, paced for comfort.",
+      "title": "斯里兰卡私人一日游",
+      "subtitle": "从海岸到文化三角的私人一日游——加勒、狮子岩、康提、埃拉等。专车与导游，舒适节奏。",
       "image": {
         "src": "/assets/images/tours/category-day.webp",
         "alt": "Sri Lanka 一日游s",
@@ -35,8 +35,8 @@
       }
     },
     "seo": {
-      "metaTitle": "一日游s in Sri Lanka | Hai Sri Lanka Tours",
-      "metaDescription": "Browse premium private 一日游s Galle, Sigiriya, Kandy, and more with live pricing and flexible pacing.",
+      "metaTitle": "斯里兰卡一日游 | 私人日间行程",
+      "metaDescription": "从科伦坡与西海岸出发的斯里兰卡私人一日游——加勒、狮子岩、康提、埃拉等。专车、英语导游、节奏灵活。",
       "keywords": [
         "Sri Lanka day tours",
         "private day trip Sri Lanka",
@@ -47,8 +47,8 @@
   "multi-day": {
     "hero": {
       "eyebrow": "Multi-一日游s",
-      "title": "Multi-day journeys with quiet luxury",
-      "subtitle": "Private itineraries across culture, tea country, wildlife, and coast flexible nights, trusted stays.",
+      "title": "斯里兰卡旅游套餐与多日游",
+      "subtitle": "私人度假行程覆盖文化、茶园、野生动物与海岸——灵活住宿与可靠酒店。",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
         "alt": "Sri Lanka multi-一日游s",
@@ -57,8 +57,8 @@
       }
     },
     "seo": {
-      "metaTitle": "Multi-一日游s in Sri Lanka | Hai Sri Lanka Tours",
-      "metaDescription": "Explore private multi-day Sri Lanka tours with boutique stays, expert guiding, and transparent pricing.",
+      "metaTitle": "斯里兰卡旅游套餐 | 私人多日游",
+      "metaDescription": "斯里兰卡私人度假套餐：文化、茶园、野生动物与海滩，四星酒店与私人交通。",
       "keywords": [
         "Sri Lanka tour packages",
         "multi-day Sri Lanka tour",

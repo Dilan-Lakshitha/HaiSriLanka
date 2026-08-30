@@ -2,8 +2,8 @@
   "hub": {
     "hero": {
       "eyebrow": "Sri Lanka Tours",
-      "title": "Private tours across the island",
-      "subtitle": "Choose a day escape or a multi-day journey curated pacing, trusted stays, and transparent pricing.",
+      "title": "Private Sri Lanka tours & packages",
+      "subtitle": "Choose a private day tour or a multi-day vacation package — curated pacing, trusted hotels, English-speaking guide, and transparent pricing.",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
         "alt": "Private Sri Lanka tours with Hai Sri Lanka",
@@ -12,11 +12,12 @@
       }
     },
     "seo": {
-      "metaTitle": "Sri Lanka Tours | Day & Multi-Day Packages | Hai Sri Lanka",
-      "metaDescription": "Browse private Sri Lanka day tours and multi-day itineraries culture, tea country, wildlife, and coast with Hai Sri Lanka Tours.",
+      "metaTitle": "Sri Lanka Tours | Private Day & Multi-Day Packages",
+      "metaDescription": "Browse Sri Lanka tour packages: private day tours and multi-day vacation itineraries with hotels, driver-guide, and transparent pricing. Tailor-made for couples, families, and small groups.",
       "keywords": [
         "Sri Lanka tours",
-        "private Sri Lanka packages",
+        "Sri Lanka private tour",
+        "Sri Lanka tour package",
         "day tours Sri Lanka",
         "multi-day Sri Lanka tour"
       ]
@@ -25,8 +26,8 @@
   "day": {
     "hero": {
       "eyebrow": "Day Tours",
-      "title": "Private day journeys across Sri Lanka",
-      "subtitle": "Curated single-day experiences from coast to Cultural Triangle fully private, paced for comfort.",
+      "title": "Private Sri Lanka day tours",
+      "subtitle": "Private day tours from the coast to the Cultural Triangle — Galle, Sigiriya, Kandy, Ella, and more. Your vehicle and guide, paced for comfort.",
       "image": {
         "src": "/assets/images/tours/category-day.webp",
         "alt": "Sri Lanka day tours",
@@ -35,8 +36,8 @@
       }
     },
     "seo": {
-      "metaTitle": "Day Tours in Sri Lanka | Hai Sri Lanka Tours",
-      "metaDescription": "Browse premium private day tours Galle, Sigiriya, Kandy, and more with live pricing and flexible pacing.",
+      "metaTitle": "Sri Lanka Day Tours | Private Day Trips",
+      "metaDescription": "Private Sri Lanka day tours from Colombo and the west coast — Galle, Sigiriya, Kandy, Ella, and more. Your vehicle, English-speaking guide, and flexible pacing.",
       "keywords": [
         "Sri Lanka day tours",
         "private day trip Sri Lanka",
@@ -47,8 +48,8 @@
   "multi-day": {
     "hero": {
       "eyebrow": "Multi-Day Tours",
-      "title": "Multi-day journeys with quiet luxury",
-      "subtitle": "Private itineraries across culture, tea country, wildlife, and coast flexible nights, trusted stays.",
+      "title": "Sri Lanka tour packages & multi-day tours",
+      "subtitle": "Private vacation itineraries across culture, tea country, wildlife, and coast — flexible nights and trusted hotels.",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
         "alt": "Sri Lanka multi-day tours",
@@ -57,10 +58,11 @@
       }
     },
     "seo": {
-      "metaTitle": "Multi-Day Tours in Sri Lanka | Hai Sri Lanka Tours",
-      "metaDescription": "Explore private multi-day Sri Lanka tours with boutique stays, expert guiding, and transparent pricing.",
+      "metaTitle": "Sri Lanka Tour Packages | Private Multi-Day Tours",
+      "metaDescription": "Private Sri Lanka tour packages and vacation itineraries: culture, tea country, wildlife, and beaches with 4-star hotels and private transport.",
       "keywords": [
         "Sri Lanka tour packages",
+        "vacation in Sri Lanka",
         "multi-day Sri Lanka tour",
         "private itinerary"
       ]

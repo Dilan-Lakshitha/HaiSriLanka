@@ -2,43 +2,43 @@
   "hub": {
     "hero": {
       "eyebrow": "Tour dello Sri Lanka",
-      "title": "Tour privati ​​in tutta l'isola",
-      "subtitle": "Scegli una fuga di un giorno o un viaggio di più giorni, ritmo curato, soggiorni affidabili e prezzi trasparenti.",
+      "title": "Tour e pacchetti privati in Sri Lanka",
+      "subtitle": "Scegliete un tour privato di un giorno o un pacchetto di più giorni — ritmo curato, hotel affidabili, guida in inglese e prezzi trasparenti.",
       "image": {
         "alt": "Tour privati ​​dello Sri Lanka con Hai Sri Lanka"
       }
     },
     "seo": {
-      "metaTitle": "Tour dello Sri Lanka | Pacchetti giornalieri e plurigiornalieri | Hai Sri Lanka",
-      "metaDescription": "Sfoglia tour privati ​​giornalieri dello Sri Lanka e itinerari di più giorni sulla cultura, la regione del tè, la fauna selvatica e la costa con Hai Sri Lanka Tours."
+      "metaTitle": "Tour Sri Lanka | Pacchetti di uno e più giorni",
+      "metaDescription": "Pacchetti tour Sri Lanka: gite private e itinerari di più giorni con hotel, autista-guida e prezzi trasparenti. Per coppie, famiglie e piccoli gruppi."
     }
   },
   "day": {
     "hero": {
       "eyebrow": "Tour giornalieri",
-      "title": "Viaggi privati ​​di un giorno attraverso lo Sri Lanka",
-      "subtitle": "Esperienze curate di un giorno dalla costa al Triangolo Culturale completamente private, ritmate per il massimo comfort.",
+      "title": "Tour privati di un giorno in Sri Lanka",
+      "subtitle": "Tour privati di un giorno dalla costa al Triangolo Culturale — Galle, Sigiriya, Kandy, Ella e altro. Veicolo e guida dedicati, ritmo confortevole.",
       "image": {
         "alt": "Tour giornalieri dello Sri Lanka"
       }
     },
     "seo": {
-      "metaTitle": "Tour di un giorno in Sri Lanka | Tour di Hai Sri Lanka",
-      "metaDescription": "Sfoglia tour giornalieri privati ​​premium Galle, Sigiriya, Kandy e altro con prezzi in tempo reale e ritmo flessibile."
+      "metaTitle": "Tour di un giorno in Sri Lanka | Gite private",
+      "metaDescription": "Tour privati di un giorno in Sri Lanka da Colombo e la costa ovest — Galle, Sigiriya, Kandy, Ella e altro. Veicolo dedicato, guida in inglese, ritmo flessibile."
     }
   },
   "multi-day": {
     "hero": {
       "eyebrow": "Tour di più giorni",
-      "title": "Viaggi di più giorni con un lusso tranquillo",
-      "subtitle": "Itinerari privati ​​attraverso la cultura, la regione del tè, la fauna selvatica e la costa, notti flessibili, soggiorni affidabili.",
+      "title": "Pacchetti e tour di più giorni in Sri Lanka",
+      "subtitle": "Itinerari vacanza privati tra cultura, tè, fauna e costa — notti flessibili e hotel affidabili.",
       "image": {
         "alt": "Tour di più giorni in Sri Lanka"
       }
     },
     "seo": {
-      "metaTitle": "Tour di più giorni in Sri Lanka | Tour di Hai Sri Lanka",
-      "metaDescription": "Esplora tour privati ​​di più giorni nello Sri Lanka con soggiorni boutique, guida esperta e prezzi trasparenti."
+      "metaTitle": "Pacchetti Sri Lanka | Tour privati di più giorni",
+      "metaDescription": "Pacchetti vacanza privati in Sri Lanka: cultura, tè, fauna e spiagge con hotel 4 stelle e trasporto privato."
     }
   }
 }

@@ -26,7 +26,7 @@
     "skipToContent": "Przejdź do treści",
     "whatsapp": "WhatsApp",
     "viewAllTours": "Zobacz wszystkie wycieczki",
-    "toursMegaCopy": "Prywatne wycieczki jednodniowe i wielodniowe po Sri Lance.",
+    "toursMegaCopy": "Prywatne wycieczki po Sri Lance, wyprawy jednodniowe i wielodniowe pakiety wakacyjne.",
     "primary": "Nawigacja główna",
     "contactLabel": "Kontakt",
     "social": "Media społecznościowe"
@@ -88,28 +88,28 @@
   },
   "seo": {
     "home": {
-      "title": "Hai Sri Lanka Wycieczki | Premium Sri Lanka Podróże",
-      "description": "Private Wycieczka jednodniowas and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
+      "title": "Wycieczki Sri Lanka | Prywatne trasy i pakiety",
+      "description": "Prywatne wycieczki po Sri Lance i pakiety wakacyjne na miarę. Wyprawy jednodniowe i wielodniowe do Sigiriji, Kandy, Elli, Yali, Galle i na wybrzeże — przewodnik, hotele, płatność na miejscu."
     },
     "about": {
       "title": "O Hai Sri Lanka Tours | Prywatne podróże inbound",
       "description": "Hai Sri Lanka Tours w Kolombo — prywatne jednodniowe i wielodniowe podróże po Sri Lance od 2020."
     },
     "toursHub": {
-      "title": "Sri Lanka Wycieczki | Hai Sri Lanka",
-      "description": "Browse private Wycieczka jednodniowas and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
+      "title": "Wycieczki Sri Lanka | Pakiety 1- i wielodniowe",
+      "description": "Pakiety wycieczek po Sri Lance: prywatne wyprawy jednodniowe i wielodniowe z hotelami, kierowcą-przewodnikiem i jasnymi cenami. Dla par, rodzin i małych grup."
     },
     "dayTours": {
-      "title": "Day Wycieczki in Sri Lanka | Hai Sri Lanka",
-      "description": "Private Wycieczka jednodniowas across Sri Lanka Galle, culture, wildlife, and more."
+      "title": "Wycieczki jednodniowe Sri Lanka | Prywatne wyprawy",
+      "description": "Prywatne wycieczki jednodniowe na Sri Lance z Kolombo i zachodniego wybrzeża — Galle, Sigirija, Kandy, Ella i więcej. Własny pojazd, anglojęzyczny przewodnik, elastyczne tempo."
     },
     "multiDayTours": {
-      "title": "Wielodniowe Sri Lanka Wycieczki | Hai Sri Lanka",
-      "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
+      "title": "Pakiety Sri Lanka | Prywatne wycieczki wielodniowe",
+      "description": "Prywatne pakiety wakacyjne na Sri Lance: kultura, herbata, przyroda i plaże z hotelami 4-gwiazdkowymi i prywatnym transportem."
     },
     "destinations": {
-      "title": "Destynacje Sri Lanki | Galle, Sigiriya, Kandy, Yala | Hai Sri Lanka",
-      "description": "Odkryj Galle, Sigiriyę, Kandy, Yalę, Ellę i herbaciane wzgórza na prywatnych wycieczkach Hai Sri Lanka."
+      "title": "Miejsca do zwiedzania na Sri Lance | Destynacje",
+      "description": "Najpiękniejsze miejsca na Sri Lance: Galle, Sigirija, Kandy, Yala, Ella, Kolombo i kraina herbaty. Zaplanuj prywatną wycieczkę po najważniejszych destynacjach."
     },
     "travelGuide": {
       "title": "Sri Lanka Podróże Przewodnik | Hai Sri Lanka",
@@ -256,8 +256,8 @@
   },
   "destinationsPage": {
     "eyebrow": "Destynacje",
-    "title": "Miejsca, które definiują Sri Lankę",
-    "intro": "Od warownych miast i świętych stolic po herbaciane wzgórza i parki safari — odkryj krajobrazy każdej podróży Hai Sri Lanka.",
+    "title": "Miejsca do zwiedzania na Sri Lance",
+    "intro": "Odkryj najlepsze miejsca na Sri Lance — Fort Galle, Sigirija, Kandy, Ella, Yala, kraina herbaty i południowe wybrzeże — i zamień je w prywatną wycieczkę lub pakiet wakacyjny.",
     "allTitle": "Wszystkie destynacje",
     "count": "{{count}} miejsc do odkrycia",
     "filterAria": "Filtruj według regionu",
@@ -265,7 +265,7 @@
     "empty": "Brak destynacji w tym regionie.",
     "cta": "Gotowi zamienić te miejsca w prywatny itinerariusz?",
     "exploreTours": "Zobacz wycieczki",
-    "schemaName": "Destynacje Sri Lanki"
+    "schemaName": "Miejsca do zwiedzania na Sri Lance"
   },
   "aboutPage": {
     "eyebrow": "O nas",

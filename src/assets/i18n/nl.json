@@ -26,7 +26,7 @@
     "skipToContent": "Naar inhoud",
     "whatsapp": "WhatsApp",
     "viewAllTours": "Alle tours bekijken",
-    "toursMegaCopy": "Privé dagtrips en meerdaagse reizen door Sri Lanka.",
+    "toursMegaCopy": "Privétours door Sri Lanka, dagtrips en meerdaagse vakantiepakketten.",
     "primary": "Hoofdnavigatie",
     "contactLabel": "Contact",
     "social": "Sociale media"
@@ -88,28 +88,28 @@
   },
   "seo": {
     "home": {
-      "title": "Hai Sri Lanka Tours | Premium Sri Lanka Reizen",
-      "description": "Private Dagtrips and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
+      "title": "Sri Lanka tours | Privéreizen & vakantiepakketten",
+      "description": "Privétours door Sri Lanka en vakantiepakketten op maat. Dagtrips en meerdaagse reizen naar Sigiriya, Kandy, Ella, Yala, Galle en de kust — Engelstalige gids, hotels, betalen ter plaatse."
     },
     "about": {
       "title": "Over Hai Sri Lanka Tours | Private inbound reizen",
       "description": "Hai Sri Lanka Tours in Colombo — privé dagtours en meerdaagse reizen op Sri Lanka sinds 2020."
     },
     "toursHub": {
-      "title": "Sri Lanka Tours | Hai Sri Lanka",
-      "description": "Browse private Dagtrips and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
+      "title": "Sri Lanka tours | Privé dag- en meerdaagse pakketten",
+      "description": "Sri Lanka-tourpakketten: privédagtrips en meerdaagse vakantie-itineraries met hotels, chauffeur-gids en transparante prijzen. Voor stellen, gezinnen en kleine groepen."
     },
     "dayTours": {
-      "title": "Dagtrips in Sri Lanka | Hai Sri Lanka",
-      "description": "Private Dagtrips across Sri Lanka Galle, culture, wildlife, and more."
+      "title": "Sri Lanka dagtrips | Privé dagtochten",
+      "description": "Privédagtrips in Sri Lanka vanaf Colombo en de westkust — Galle, Sigiriya, Kandy, Ella en meer. Eigen voertuig, Engelstalige gids, flexibel tempo."
     },
     "multiDayTours": {
-      "title": "Meerdaags Sri Lanka Tours | Hai Sri Lanka",
-      "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
+      "title": "Sri Lanka vakantiepakketten | Privé meerdaagse tours",
+      "description": "Privé vakantiepakketten in Sri Lanka: cultuur, theegebied, wildlife en stranden met 4-sterrenhotels en privévervoer."
     },
     "destinations": {
-      "title": "Bestemmingen in Sri Lanka | Galle, Sigiriya, Kandy, Yala | Hai Sri Lanka",
-      "description": "Ontdek Galle, Sigiriya, Kandy, Yala, Ella en theeheuvels met privé tours van Hai Sri Lanka."
+      "title": "Bezienswaardigheden Sri Lanka | Plekken om te bezoeken",
+      "description": "De mooiste plekken in Sri Lanka: Galle, Sigiriya, Kandy, Yala, Ella, Colombo en theegebied. Plan een privétour langs de topbestemmingen van het eiland."
     },
     "travelGuide": {
       "title": "Sri Lanka Reizen Gids | Hai Sri Lanka",
@@ -256,8 +256,8 @@
   },
   "destinationsPage": {
     "eyebrow": "Bestemmingen",
-    "title": "Plekken die Sri Lanka typeren",
-    "intro": "Van vestingsteden en heilige steden tot theeheuvels en safariparken — ontdek de landschappen van elke Hai Sri Lanka-reis.",
+    "title": "Plekken om te bezoeken in Sri Lanka",
+    "intro": "Ontdek de mooiste plekken in Sri Lanka — Galle Fort, Sigiriya, Kandy, Ella, Yala, theegebied en de zuidkust — en maak er een privétour of vakantiepakket van.",
     "allTitle": "Alle bestemmingen",
     "count": "{{count}} plekken om te ontdekken",
     "filterAria": "Filter op regio",
@@ -265,7 +265,7 @@
     "empty": "Nog geen bestemmingen in deze regio.",
     "cta": "Klaar om deze plekken tot een privétitinerarium te maken?",
     "exploreTours": "Tours bekijken",
-    "schemaName": "Bestemmingen in Sri Lanka"
+    "schemaName": "Bezienswaardigheden in Sri Lanka"
   },
   "aboutPage": {
     "eyebrow": "Over ons",

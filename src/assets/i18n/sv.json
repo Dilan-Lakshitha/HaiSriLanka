@@ -26,7 +26,7 @@
     "skipToContent": "Hoppa till innehåll",
     "whatsapp": "WhatsApp",
     "viewAllTours": "Visa alla turer",
-    "toursMegaCopy": "Privata dagsutflykter och flerdagsresor genom Sri Lanka.",
+    "toursMegaCopy": "Privata Sri Lanka-turer, dagsutflykter och flerdagars semesterpaket.",
     "primary": "Huvudnavigering",
     "contactLabel": "Kontakt",
     "social": "Sociala medier"
@@ -88,28 +88,28 @@
   },
   "seo": {
     "home": {
-      "title": "Hai Sri Lanka Turer | Premium Sri Lanka Resor",
-      "description": "Private Dagsutflykts and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
+      "title": "Sri Lanka-turer | Privata resor & semesterpaket",
+      "description": "Privata Sri Lanka-turer och skräddarsydda semesterpaket. Dagsutflykter och flerdagarsresor till Sigiriya, Kandy, Ella, Yala, Galle och kusten — engelsktalande guide, hotell, betala på plats."
     },
     "about": {
       "title": "Om Hai Sri Lanka Tours | Privata inbound-resor",
       "description": "Hai Sri Lanka Tours i Colombo — privata dags- och flerdagsturer på Sri Lanka sedan 2020."
     },
     "toursHub": {
-      "title": "Sri Lanka Turer | Hai Sri Lanka",
-      "description": "Browse private Dagsutflykts and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
+      "title": "Sri Lanka-turer | Privata dags- och flerdagspaket",
+      "description": "Sri Lanka-turpaket: privata dagsutflykter och flerdagars semesterresor med hotell, chaufför-guide och tydliga priser. För par, familjer och små grupper."
     },
     "dayTours": {
-      "title": "Day Turer in Sri Lanka | Hai Sri Lanka",
-      "description": "Private Dagsutflykts across Sri Lanka Galle, culture, wildlife, and more."
+      "title": "Sri Lanka dagsutflykter | Privata dagsresor",
+      "description": "Privata dagsutflykter på Sri Lanka från Colombo och västkusten — Galle, Sigiriya, Kandy, Ella med mera. Eget fordon, engelsktalande guide, flexibelt tempo."
     },
     "multiDayTours": {
-      "title": "Flerdagars Sri Lanka Turer | Hai Sri Lanka",
-      "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
+      "title": "Sri Lanka-paket | Privata flerdagsturer",
+      "description": "Privata semesterpaket på Sri Lanka: kultur, teland, viltliv och stränder med 4-stjärniga hotell och privat transport."
     },
     "destinations": {
-      "title": "Destinationer på Sri Lanka | Galle, Sigiriya, Kandy, Yala | Hai Sri Lanka",
-      "description": "Upptäck Galle, Sigiriya, Kandy, Yala, Ella och tebergen med privata turer från Hai Sri Lanka."
+      "title": "Platser att besöka på Sri Lanka | Destinationer",
+      "description": "De bästa resmålen på Sri Lanka: Galle, Sigiriya, Kandy, Yala, Ella, Colombo och telandet. Planera en privat tur runt öns viktigaste platser."
     },
     "travelGuide": {
       "title": "Sri Lanka Resor Guide | Hai Sri Lanka",
@@ -256,8 +256,8 @@
   },
   "destinationsPage": {
     "eyebrow": "Destinationer",
-    "title": "Platser som definierar Sri Lanka",
-    "intro": "Från fästningsstäder och heliga städer till teberg och safariparker — upptäck landskapen i varje Hai Sri Lanka-resa.",
+    "title": "Platser att besöka på Sri Lanka",
+    "intro": "Upptäck de bästa resmålen på Sri Lanka — Galle Fort, Sigiriya, Kandy, Ella, Yala, telandet och sydkusten — och gör dem till en privat tur eller ett semesterpaket.",
     "allTitle": "Alla destinationer",
     "count": "{{count}} platser att utforska",
     "filterAria": "Filtrera efter region",
@@ -265,7 +265,7 @@
     "empty": "Inga destinationer i den här regionen ännu.",
     "cta": "Redo att göra dessa platser till en privat rutt?",
     "exploreTours": "Utforska turer",
-    "schemaName": "Destinationer på Sri Lanka"
+    "schemaName": "Resmål på Sri Lanka"
   },
   "aboutPage": {
     "eyebrow": "Om oss",

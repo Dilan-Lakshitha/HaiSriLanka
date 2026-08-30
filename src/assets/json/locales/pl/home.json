@@ -1,12 +1,12 @@
 {
   "seo": {
-    "metaTitle": "Wycieczki po Sri Lance | Prywatne luksusowe wycieczki po Sri Lance",
-    "metaDescription": "Zaplanuj prywatną podróż na Sri Lankę z Hai Sri Lanka Tours. Luksusowe wielodniowe wycieczki, wybrane jednodniowe wycieczki i doświadczeni lokalni gospodarze na całej wyspie."
+    "metaTitle": "Wycieczki Sri Lanka | Prywatne trasy i pakiety",
+    "metaDescription": "Prywatne wycieczki po Sri Lance i pakiety wakacyjne na miarę. Wyprawy jednodniowe i wielodniowe do Sigiriji, Kandy, Elli, Yali, Galle i na wybrzeże — przewodnik, hotele, płatność na miejscu."
   },
   "hero": {
-    "eyebrow": "Prywatne podróże przychodzące · Sri Lanka",
-    "title": "Odkryj Cejlon w cichym i luksusowym miejscu",
-    "subtitle": "Spersonalizowane podróże przez świątynie, krainę herbaty, dziką przyrodę i wybrzeże są dostosowane do potrzeb wymagających podróżników.",
+    "eyebrow": "Prywatne wycieczki Sri Lanka · pakiety na miarę",
+    "title": "Wycieczki po Sri Lance, prywatne i na miarę",
+    "subtitle": "Pakiety wakacyjne i wycieczki jednodniowe po najpiękniejszych miejscach Sri Lanki — świątynie, herbata, przyroda i plaże — z własnym anglojęzycznym przewodnikiem.",
     "image": {
       "alt": "Most Dziewięciu Łuków i kraina herbaty w pobliżu Elli na Sri Lance",
       "title": "Most łukowy Ella Nine"
@@ -32,7 +32,10 @@
         "alt": "Most Nine Arch Bridge wznoszący się nad plantacjami herbaty w Ella",
         "title": "Wyżyny Elli"
       }
-    ]
+    ],
+    "primaryCta": {
+      "label": "Zobacz wycieczki po Sri Lance"
+    }
   },
   "search": {
     "title": "Znajdź swoją podróż",
@@ -97,8 +100,8 @@
   },
   "whyChoose": {
     "eyebrow": "Dlaczego Hai Sri Lanka",
-    "title": "Gościnność stworzona z myślą o prywatnych podróżach",
-    "subtitle": "Projektujemy spokojne, płynne podróże, nigdy zatłoczone autobusy grupowe z gospodarzami, którzy znają każdą krętą drogę.",
+    "title": "Prywatne wycieczki po Sri Lance, bez autobusów grupowych",
+    "subtitle": "Projektujemy prywatne pakiety i wakacje na całej wyspie — Wasz pojazd, Wasze tempo i lokalni gospodarze, którzy znają każdą drogę.",
     "items": [
       {
         "title": "Całkowicie prywatne doświadczenia",
@@ -123,9 +126,9 @@
     ]
   },
   "tourCategories": {
-    "eyebrow": "Kategorie wycieczek",
-    "title": "Wybierz sposób, w jaki poznasz Sri Lankę",
-    "subtitle": "Od jednego dnia na wybrzeżu po dwa tygodnie spędzone na wyżynach i dzikiej przyrodzie, zacznij od stylu, który Ci odpowiada.",
+    "eyebrow": "Pakiety wycieczek Sri Lanka",
+    "title": "Wybierz wycieczkę po Sri Lance",
+    "subtitle": "Od prywatnej wycieczki jednodniowej po pełny pakiet wakacyjny przez wyżyny, przyrodę i wybrzeże — zacznij od stylu, który Wam pasuje.",
     "items": [
       {
         "title": "Wycieczki jednodniowe",
@@ -163,20 +166,20 @@
   },
   "featuredMultiDay": {
     "eyebrow": "Polecane podróże",
-    "title": "Wielodniowe wycieczki, które uwielbiają podróżnicy",
-    "subtitle": "Charakterystyczne prywatne trasy, w których można oddychać kulturą, wyżynami i wybrzeżem w równowadze.",
+    "title": "Pakiety Sri Lanka, które lubią podróżni",
+    "subtitle": "Prywatne wielodniowe trasy wakacyjne z kulturą, herbatą, przyrodą i wybrzeżem w równowadze.",
     "viewAllLabel": "Zobacz wszystkie wycieczki wielodniowe"
   },
   "featuredDay": {
     "eyebrow": "Jeden idealny dzień",
-    "title": "Polecane wycieczki jednodniowe",
-    "subtitle": "Prywatne przeżycia z Kolombo i zachodniego wybrzeża wyrafinowane tempo, niezapomniane przystanki.",
+    "title": "Prywatne wycieczki jednodniowe na Sri Lance",
+    "subtitle": "Prywatne wycieczki jednodniowe z Kolombo i zachodniego wybrzeża — Galle, Sigirija, Kandy, Ella i więcej.",
     "viewAllLabel": "Zobacz wycieczki całodniowe"
   },
   "destinations": {
-    "eyebrow": "Miejsca docelowe",
-    "title": "Miejsca, które definiują Sri Lankę",
-    "subtitle": "Od Lion Rock po holenderskie mury fortów — odkrywaj regiony, które kształtują każdą wspaniałą trasę.",
+    "eyebrow": "Miejsca podróży",
+    "title": "Najpiękniejsze miejsca na Sri Lance",
+    "subtitle": "Od Lwia Skały w Sigiriji po Fort Galle, Ellę, Yalę i herbatę — miejsca, które kształtują każdą wyjątkową wycieczkę.",
     "viewAllLabel": "Przeglądaj miejsca docelowe"
   },
   "map": {
@@ -252,8 +255,8 @@
   },
   "cta": {
     "eyebrow": "Zacznij tutaj",
-    "title": "Opowiedz nam, jak chcesz podróżować",
-    "subtitle": "Podziel się datami, tempem i zainteresowaniami, a my stworzymy prywatną podróż po Sri Lance, która będzie warta podróży.",
+    "title": "Zaplanuj wakacje na Sri Lance",
+    "subtitle": "Podaj daty i zainteresowania — przygotujemy prywatny pakiet wokół miejsc, które chcecie zobaczyć.",
     "image": {
       "alt": "Most Nine Arch Bridge wznoszący się nad plantacjami herbaty w Ella na Sri Lance",
       "title": "Most łukowy Ella Nine"

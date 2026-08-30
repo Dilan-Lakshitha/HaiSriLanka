@@ -46,12 +46,16 @@
       "pageKey": "home",
       "items": [
         {
-          "question": "¿Por qué elegir Hai Sri Lanka?",
-          "answer": "Hospitalidad premium, guías locales expertos e itinerarios diseñados para la comodidad y el descubrimiento auténtico."
+          "question": "¿Ofrecen tours privados por Sri Lanka?",
+          "answer": "Sí. Cada tour de Hai Sri Lanka es privado: su vehículo y un conductor-guía en inglés, no un autobús mixto. Los tours de un día y los paquetes de varios días se adaptan a sus fechas."
         },
         {
-          "question": "¿Qué idiomas hablan sus guías?",
-          "answer": "El inglés es estándar. Se pueden organizar alemán, francés y otros idiomas europeos bajo petición."
+          "question": "¿Qué incluye un paquete de tour por Sri Lanka?",
+          "answer": "Transporte privado, combustible, aparcamiento y conductor-guía suelen estar incluidos. Los paquetes de varios días a menudo incluyen hoteles de 4 estrellas. Entradas y comidas constan en cada página de tour."
+        },
+        {
+          "question": "¿Qué lugares de Sri Lanka visitan sus tours?",
+          "answer": "Lugares populares: Sigiriya, Dambulla, Kandy, Ella, Yala, Mirissa, Fuerte de Galle, Bentota y Colombo. También adaptamos rutas a los lugares que más desea ver."
         }
       ]
     },

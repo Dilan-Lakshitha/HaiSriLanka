@@ -1,12 +1,12 @@
 {
   "seo": {
-    "metaTitle": "Hai Sri Lanka Tours | Privata lyxturer i Sri Lanka",
-    "metaDescription": "Planera en privat Sri Lanka-resa med Hai Sri Lanka Tours. Lyxiga flerdagarsresplaner, kurerade dagsturer och experter på lokala värdar över hela ön."
+    "metaTitle": "Sri Lanka-turer | Privata resor & semesterpaket",
+    "metaDescription": "Privata Sri Lanka-turer och skräddarsydda semesterpaket. Dagsutflykter och flerdagarsresor till Sigiriya, Kandy, Ella, Yala, Galle och kusten — engelsktalande guide, hotell, betala på plats."
   },
   "hero": {
-    "eyebrow": "Privata inkommande resor · Sri Lanka",
-    "title": "Upptäck Ceylon i lugn lyx",
-    "subtitle": "Skräddarsydda resor genom tempel, teland, djurliv och kusttempo för kräsna resenärer.",
+    "eyebrow": "Privata Sri Lanka-turer · skräddarsydda paket",
+    "title": "Sri Lanka-turer, privata och skräddarsydda",
+    "subtitle": "Semesterpaket och dagsutflykter till Sri Lankas bästa resmål — tempel, teland, viltliv och stränder — med er egen engelsktalande guide.",
     "image": {
       "alt": "Nine Arch Bridge och teland nära Ella, Sri Lanka",
       "title": "Ella Nine Arch Bridge"
@@ -32,7 +32,10 @@
         "alt": "Nine Arch Bridge reser sig över teplantager i Ella",
         "title": "Ella höglandet"
       }
-    ]
+    ],
+    "primaryCta": {
+      "label": "Se Sri Lanka-turer"
+    }
   },
   "search": {
     "title": "Hitta din resa",
@@ -97,8 +100,8 @@
   },
   "whyChoose": {
     "eyebrow": "Varför Hai Sri Lanka",
-    "title": "Gästfrihet utformad för privata resor",
-    "subtitle": "Vi designar lugna, sömlösa resor aldrig trånga gruppbussar med värdar som kan varje slingrande väg.",
+    "title": "Privata Sri Lanka-turer, inga gruppbussar",
+    "subtitle": "Vi ritar privata turpaket och semestrar över hela ön — ert fordon, er takt och lokala värdar som känner varje väg.",
     "items": [
       {
         "title": "Helt privata upplevelser",
@@ -123,9 +126,9 @@
     ]
   },
   "tourCategories": {
-    "eyebrow": "Tour kategorier",
-    "title": "Välj hur du möter Sri Lanka",
-    "subtitle": "Från en enskild dag vid kusten till två veckor av högland och vilda djur, börja med den stil som passar dig.",
+    "eyebrow": "Sri Lanka-turpaket",
+    "title": "Välj er Sri Lanka-tur",
+    "subtitle": "Från en privat dagsutflykt till ett helt semesterpaket genom högland, viltliv och kust — börja med stilen som passar er.",
     "items": [
       {
         "title": "Dagsturer",
@@ -163,20 +166,20 @@
   },
   "featuredMultiDay": {
     "eyebrow": "Utvalda resor",
-    "title": "Flerdagarsturer som resenärer älskar",
-    "subtitle": "Signatur privata resplaner med utrymme att andas kultur, högland och kust i balans.",
+    "title": "Sri Lanka-paket som resenärer älskar",
+    "subtitle": "Privata flerdagars semesterresor med kultur, teland, viltliv och kust i balans.",
     "viewAllLabel": "Se alla flerdagarsturer"
   },
   "featuredDay": {
     "eyebrow": "En perfekt dag",
-    "title": "Utvalda dagsturer",
-    "subtitle": "Privata dagsupplevelser från Colombo och västkusten förfinat tempo, minnesvärda stopp.",
+    "title": "Privata dagsutflykter på Sri Lanka",
+    "subtitle": "Privata dagsutflykter från Colombo och västkusten — Galle, Sigiriya, Kandy, Ella med mera.",
     "viewAllLabel": "Se alla dagsturer"
   },
   "destinations": {
-    "eyebrow": "Destinationer",
-    "title": "Platser som definierar Sri Lanka",
-    "subtitle": "Från Lion Rock till holländska fortmurar utforska de regioner som formar alla fantastiska resplaner.",
+    "eyebrow": "Resmål",
+    "title": "De bästa platserna att besöka på Sri Lanka",
+    "subtitle": "Från Lion Rock i Sigiriya till Galle Fort, Ella, Yala och telandet — platserna som formar varje stark tur.",
     "viewAllLabel": "Utforska destinationer"
   },
   "map": {
@@ -252,8 +255,8 @@
   },
   "cta": {
     "eyebrow": "Börja här",
-    "title": "Berätta hur du vill resa",
-    "subtitle": "Dela dina datum, tempo och intressen vi kommer att skapa en privat Sri Lanka-resa värd resan.",
+    "title": "Planera er semester på Sri Lanka",
+    "subtitle": "Berätta datum och intressen — vi tar fram ett privat turpaket kring platserna ni vill se.",
     "image": {
       "alt": "Nine Arch Bridge reser sig över teplantager i Ella, Sri Lanka",
       "title": "Ella Nine Arch Bridge"

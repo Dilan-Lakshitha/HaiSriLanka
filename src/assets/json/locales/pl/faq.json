@@ -46,12 +46,16 @@
       "pageKey": "home",
       "items": [
         {
-          "question": "Dlaczego wybrać Hai Sri Lankę?",
-          "answer": "Gościnność na najwyższym poziomie, doświadczeni lokalni przewodnicy i plany podróży zaprojektowane z myślą o komforcie i autentycznych odkryciach."
+          "question": "Czy oferujecie prywatne wycieczki po Sri Lance?",
+          "answer": "Tak. Każda wycieczka Hai Sri Lanka jest prywatna — Wasz pojazd i anglojęzyczny kierowca-przewodnik, bez mieszanego autokaru. Wyprawy jednodniowe i pakiety wielodniowe dopasowujemy do Waszych dat."
         },
         {
-          "question": "W jakich językach mówią Twoi przewodnicy?",
-          "answer": "Angielski jest standardem. Na życzenie istnieje możliwość zamówienia języka niemieckiego, francuskiego i innych języków europejskich."
+          "question": "Co zawiera pakiet wycieczki po Sri Lance?",
+          "answer": "Prywatny transport, paliwo, parking i kierowca-przewodnik są zwykle w cenie. Pakiety wielodniowe często obejmują hotele 4-gwiazdkowe. Bilety i posiłki są na stronie każdej wycieczki."
+        },
+        {
+          "question": "Jakie miejsca na Sri Lance odwiedzają Wasze wycieczki?",
+          "answer": "Popularne miejsca: Sigirija, Dambulla, Kandy, Ella, Yala, Mirissa, Fort Galle, Bentota i Kolombo. Dopasowujemy też trasy do miejsc, które najbardziej chcecie zobaczyć."
         }
       ]
     },

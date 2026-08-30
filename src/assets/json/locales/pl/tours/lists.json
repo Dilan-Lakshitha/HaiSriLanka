@@ -2,43 +2,43 @@
   "hub": {
     "hero": {
       "eyebrow": "Wycieczki po Sri Lance",
-      "title": "Prywatne wycieczki po wyspie",
-      "subtitle": "Wybierz jednodniową lub wielodniową podróż według własnego wyboru, zaufanych pobytów i przejrzystych cen.",
+      "title": "Prywatne wycieczki i pakiety Sri Lanka",
+      "subtitle": "Wybierz prywatną wycieczkę jednodniową lub wielodniowy pakiet wakacyjny — spokojne tempo, zaufane hotele, anglojęzyczny przewodnik i jasne ceny.",
       "image": {
         "alt": "Prywatne wycieczki po Sri Lance z Hai Sri Lanka"
       }
     },
     "seo": {
-      "metaTitle": "Wycieczki po Sri Lance | Pakiety dzienne i wielodniowe | Hai Sri Lanka",
-      "metaDescription": "Przeglądaj prywatne jednodniowe wycieczki po Sri Lance i wielodniowe plany podróży związane z kulturą, krajem herbaty, dziką przyrodą i wybrzeżem dzięki Hai Sri Lanka Tours."
+      "metaTitle": "Wycieczki Sri Lanka | Pakiety 1- i wielodniowe",
+      "metaDescription": "Pakiety wycieczek po Sri Lance: prywatne wyprawy jednodniowe i wielodniowe z hotelami, kierowcą-przewodnikiem i jasnymi cenami. Dla par, rodzin i małych grup."
     }
   },
   "day": {
     "hero": {
       "eyebrow": "Wycieczki jednodniowe",
-      "title": "Prywatne jednodniowe wycieczki po Sri Lance",
-      "subtitle": "Wyselekcjonowane jednodniowe atrakcje od wybrzeża po Trójkąt Kulturowy, w pełni prywatne i zapewniające wygodę.",
+      "title": "Prywatne wycieczki jednodniowe na Sri Lance",
+      "subtitle": "Prywatne wycieczki jednodniowe z wybrzeża do Trójkąta Kulturowego — Galle, Sigirija, Kandy, Ella i więcej. Własny pojazd i przewodnik, tempo dla komfortu.",
       "image": {
         "alt": "Jednodniowe wycieczki po Sri Lance"
       }
     },
     "seo": {
-      "metaTitle": "Wycieczki jednodniowe na Sri Lance | Wycieczki po Sri Lance",
-      "metaDescription": "Przeglądaj prywatne wycieczki premium do Galle, Sigiriya, Kandy i nie tylko, korzystając z cen na żywo i elastycznego tempa."
+      "metaTitle": "Wycieczki jednodniowe Sri Lanka | Prywatne wyprawy",
+      "metaDescription": "Prywatne wycieczki jednodniowe na Sri Lance z Kolombo i zachodniego wybrzeża — Galle, Sigirija, Kandy, Ella i więcej. Własny pojazd, anglojęzyczny przewodnik, elastyczne tempo."
     }
   },
   "multi-day": {
     "hero": {
       "eyebrow": "Wycieczki wielodniowe",
-      "title": "Wielodniowe podróże w cichym luksusie",
-      "subtitle": "Prywatne wycieczki obejmujące kulturę, kraj herbaty, dziką przyrodę i wybrzeże, elastyczne noclegi, zaufane pobyty.",
+      "title": "Pakiety i wycieczki wielodniowe na Sri Lance",
+      "subtitle": "Prywatne trasy wakacyjne przez kulturę, herbatę, przyrodę i wybrzeże — elastyczne noce i zaufane hotele.",
       "image": {
         "alt": "Wielodniowe wycieczki na Sri Lankę"
       }
     },
     "seo": {
-      "metaTitle": "Wycieczki wielodniowe na Sri Lance | Wycieczki po Sri Lance",
-      "metaDescription": "Odkryj prywatne wielodniowe wycieczki po Sri Lance z pobytami w butikach, profesjonalnym przewodnikiem i przejrzystymi cenami."
+      "metaTitle": "Pakiety Sri Lanka | Prywatne wycieczki wielodniowe",
+      "metaDescription": "Prywatne pakiety wakacyjne na Sri Lance: kultura, herbata, przyroda i plaże z hotelami 4-gwiazdkowymi i prywatnym transportem."
     }
   }
 }

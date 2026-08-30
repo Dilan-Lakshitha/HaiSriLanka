@@ -26,7 +26,7 @@
     "skipToContent": "Skip to main content",
     "whatsapp": "WhatsApp",
     "viewAllTours": "View all tours",
-    "toursMegaCopy": "Private day tours and multi-day journeys across Sri Lanka.",
+    "toursMegaCopy": "Private Sri Lanka tours, day trips, and multi-day vacation packages.",
     "primary": "Primary",
     "contactLabel": "Contact",
     "social": "Social media"
@@ -66,28 +66,28 @@
   },
   "seo": {
     "home": {
-      "title": "Hai Sri Lanka Tours | Premium Sri Lanka Travel",
-      "description": "Private day tours and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
+      "title": "Sri Lanka Tours | Private Tours & Vacation Packages",
+      "description": "Private Sri Lanka tours and tailor-made vacation packages. Day trips and multi-day tour packages to Sigiriya, Kandy, Ella, Yala, Galle, and the coast — English-speaking guide, hotels, and pay at destination."
     },
     "about": {
       "title": "About Hai Sri Lanka Tours | Private Inbound Travel",
       "description": "Meet Hai Sri Lanka Tours — a Colombo inbound studio crafting private Sri Lanka day tours and multi-day journeys since 2020."
     },
     "toursHub": {
-      "title": "Sri Lanka Tours | Hai Sri Lanka",
-      "description": "Browse private day tours and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
+      "title": "Sri Lanka Tours | Private Day & Multi-Day Packages",
+      "description": "Browse Sri Lanka tour packages: private day tours and multi-day vacation itineraries with hotels, driver-guide, and transparent pricing. Tailor-made for couples, families, and small groups."
     },
     "dayTours": {
-      "title": "Day Tours in Sri Lanka | Hai Sri Lanka",
-      "description": "Private day tours across Sri Lanka Galle, culture, wildlife, and more."
+      "title": "Sri Lanka Day Tours | Private Day Trips",
+      "description": "Private Sri Lanka day tours from Colombo and the west coast — Galle, Sigiriya, Kandy, Ella, and more. Your vehicle, English-speaking guide, and flexible pacing."
     },
     "multiDayTours": {
-      "title": "Multi-Day Sri Lanka Tours | Hai Sri Lanka",
-      "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
+      "title": "Sri Lanka Tour Packages | Private Multi-Day Tours",
+      "description": "Private Sri Lanka tour packages and vacation itineraries: culture, tea country, wildlife, and beaches with 4-star hotels and private transport."
     },
     "destinations": {
-      "title": "Sri Lanka Destinations | Galle, Sigiriya, Kandy, Yala | Hai Sri Lanka",
-      "description": "Explore Galle, Sigiriya, Kandy, Yala, Ella, and tea country with private tours by Hai Sri Lanka."
+      "title": "Sri Lanka Travel Places | Destinations to Visit",
+      "description": "Best places to visit in Sri Lanka: Galle, Sigiriya, Kandy, Yala, Ella, Colombo, and tea country. Plan a private tour around the island’s top travel places."
     },
     "travelGuide": {
       "title": "Sri Lanka Travel Guide | Hai Sri Lanka",
@@ -256,8 +256,8 @@
   },
   "destinationsPage": {
     "eyebrow": "Destinations",
-    "title": "Places that define Sri Lanka",
-    "intro": "From fort towns and sacred cities to tea country and safari parks — explore the landscapes that shape every Hai Sri Lanka journey.",
+    "title": "Sri Lanka travel places to visit",
+    "intro": "Discover the best places to visit in Sri Lanka — Galle Fort, Sigiriya, Kandy, Ella, Yala, tea country, and the south coast — then turn them into a private tour or vacation package.",
     "allTitle": "All destinations",
     "count": "{{count}} places to explore",
     "filterAria": "Filter by region",
@@ -265,7 +265,7 @@
     "empty": "No destinations in this region yet.",
     "cta": "Ready to turn these places into a private itinerary?",
     "exploreTours": "Explore tours",
-    "schemaName": "Sri Lanka Destinations"
+    "schemaName": "Sri Lanka Travel Places"
   },
   "aboutPage": {
     "eyebrow": "About",

@@ -1,12 +1,12 @@
 {
   "seo": {
-    "metaTitle": "Hai Sri Lanka-rondleidingen | Privé luxe tours in Sri Lanka",
-    "metaDescription": "Plan een privéreis door Sri Lanka met Hai Sri Lanka Tours. Luxe meerdaagse routes, samengestelde dagtochten en deskundige lokale gastheren over het hele eiland."
+    "metaTitle": "Sri Lanka tours | Privéreizen & vakantiepakketten",
+    "metaDescription": "Privétours door Sri Lanka en vakantiepakketten op maat. Dagtrips en meerdaagse reizen naar Sigiriya, Kandy, Ella, Yala, Galle en de kust — Engelstalige gids, hotels, betalen ter plaatse."
   },
   "hero": {
-    "eyebrow": "Privé inkomende reizen · Sri Lanka",
-    "title": "Ontdek Ceylon in rustige luxe",
-    "subtitle": "Op maat gemaakte reizen door tempels, theelanden, dieren in het wild en de kust, geschikt voor veeleisende reizigers.",
+    "eyebrow": "Privétours Sri Lanka · pakketten op maat",
+    "title": "Sri Lanka-tours, privé en op maat",
+    "subtitle": "Vakantiepakketten en dagtrips langs de mooiste plekken van Sri Lanka — tempels, theegebied, wildlife en stranden — met uw eigen Engelstalige gids.",
     "image": {
       "alt": "Negenboogbrug en theeland nabij Ella, Sri Lanka",
       "title": "Ella Negenbogenbrug"
@@ -32,7 +32,10 @@
         "alt": "Nine Arch Bridge die boven de theeplantages in Ella uitsteekt",
         "title": "Ella hooglanden"
       }
-    ]
+    ],
+    "primaryCta": {
+      "label": "Sri Lanka-tours bekijken"
+    }
   },
   "search": {
     "title": "Vind jouw reis",
@@ -97,8 +100,8 @@
   },
   "whyChoose": {
     "eyebrow": "Waarom Hai Sri Lanka",
-    "title": "Gastvrijheid gevormd voor privéreizen",
-    "subtitle": "We ontwerpen rustige, naadloze reizen, nooit overvolle groepsbussen met gastheren die elke bochtige weg kennen.",
+    "title": "Privétours in Sri Lanka, geen groepsbussen",
+    "subtitle": "Wij ontwerpen privépakketten en vakanties over het eiland — uw voertuig, uw tempo en lokale hosts die elke weg kennen.",
     "items": [
       {
         "title": "Volledig privé-ervaringen",
@@ -123,9 +126,9 @@
     ]
   },
   "tourCategories": {
-    "eyebrow": "Tourcategorieën",
-    "title": "Kies hoe je Sri Lanka ontmoet",
-    "subtitle": "Van een enkele kustdag tot veertien dagen vol hooglanden en wilde dieren, begin met de stijl die bij je past.",
+    "eyebrow": "Sri Lanka-tourpakketten",
+    "title": "Kies uw Sri Lanka-tour",
+    "subtitle": "Van een privédagtrip tot een volledig vakantiepakket door hooglanden, wildlife en kust — begin met de stijl die bij u past.",
     "items": [
       {
         "title": "Dagtochten",
@@ -163,20 +166,20 @@
   },
   "featuredMultiDay": {
     "eyebrow": "Uitgelichte reizen",
-    "title": "Meerdaagse tochten waar reizigers dol op zijn",
-    "subtitle": "Kenmerkende privéroutes met ruimte om cultuur, hooglanden en kust in balans te ademen.",
+    "title": "Sri Lanka-pakketten die reizigers kiezen",
+    "subtitle": "Privé meerdaagse vakantie-itineraries met cultuur, theegebied, wildlife en kust in balans.",
     "viewAllLabel": "Bekijk alle meerdaagse reizen"
   },
   "featuredDay": {
     "eyebrow": "Eén perfecte dag",
-    "title": "Uitgelichte dagtochten",
-    "subtitle": "Privédagervaringen vanuit Colombo en de westkust verfijnd tempo, gedenkwaardige stops.",
+    "title": "Privédagtrips in Sri Lanka",
+    "subtitle": "Privédagtrips vanaf Colombo en de westkust — Galle, Sigiriya, Kandy, Ella en meer.",
     "viewAllLabel": "Bekijk alle dagtochten"
   },
   "destinations": {
-    "eyebrow": "Bestemmingen",
-    "title": "Plaatsen die Sri Lanka definiëren",
-    "subtitle": "Van Lion Rock tot Nederlandse fortmuren, verken de regio's die vorm geven aan elke geweldige route.",
+    "eyebrow": "Reisbestemmingen",
+    "title": "De mooiste plekken in Sri Lanka",
+    "subtitle": "Van Lion Rock in Sigiriya tot Galle Fort, Ella, Yala en theegebied — de plekken die elke sterke tour vormen.",
     "viewAllLabel": "Bestemmingen verkennen"
   },
   "map": {
@@ -252,8 +255,8 @@
   },
   "cta": {
     "eyebrow": "Begin hier",
-    "title": "Vertel ons hoe u wilt reizen",
-    "subtitle": "Deel uw data, tempo en interesses, we zullen een privéreis door Sri Lanka maken die de reis waard is.",
+    "title": "Plan uw vakantie in Sri Lanka",
+    "subtitle": "Deel uw data en interesses — wij maken een privé tourpakket rond de plekken die u wilt zien.",
     "image": {
       "alt": "Nine Arch Bridge stijgt boven theeplantages in Ella, Sri Lanka",
       "title": "Ella Negenbogenbrug"

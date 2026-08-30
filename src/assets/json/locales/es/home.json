@@ -1,12 +1,12 @@
 {
   "seo": {
-    "metaTitle": "Viajes a Hai Sri Lanka | Tours privados de lujo en Sri Lanka",
-    "metaDescription": "Planifique un viaje privado a Sri Lanka con Hai Sri Lanka Tours. Itinerarios de lujo de varios días, excursiones seleccionadas de un día y anfitriones locales expertos en toda la isla."
+    "metaTitle": "Tours Sri Lanka | Viajes privados y paquetes",
+    "metaDescription": "Tours privados por Sri Lanka y paquetes vacacionales a medida. Excursiones y circuitos a Sigiriya, Kandy, Ella, Yala, Galle y la costa — guía en inglés, hoteles y pago en destino."
   },
   "hero": {
-    "eyebrow": "Viaje entrante privado · Sri Lanka",
-    "title": "Descubra Ceilán en un lujo tranquilo",
-    "subtitle": "Viajes personalizados a través de templos, la región del té, la vida silvestre y la costa, diseñados para viajeros exigentes.",
+    "eyebrow": "Tours privados por Sri Lanka · paquetes a medida",
+    "title": "Tours por Sri Lanka, privados y a medida",
+    "subtitle": "Paquetes vacacionales y tours de un día por los mejores lugares de Sri Lanka — templos, té, fauna y playas — con su propio guía en inglés.",
     "image": {
       "alt": "Puente de nueve arcos y país del té cerca de Ella, Sri Lanka",
       "title": "Puente de nueve arcos de Ella"
@@ -32,7 +32,10 @@
         "alt": "Puente de nueve arcos que se eleva sobre las plantaciones de té en Ella",
         "title": "tierras altas de ella"
       }
-    ]
+    ],
+    "primaryCta": {
+      "label": "Ver tours de Sri Lanka"
+    }
   },
   "search": {
     "title": "Encuentra tu viaje",
@@ -97,8 +100,8 @@
   },
   "whyChoose": {
     "eyebrow": "Por qué Hai Sri Lanka",
-    "title": "Hospitalidad diseñada para viajes privados",
-    "subtitle": "Diseñamos viajes tranquilos y fluidos, en autobuses grupales nunca abarrotados, con anfitriones que conocen cada camino sinuoso.",
+    "title": "Tours privados por Sri Lanka, no autobuses de grupo",
+    "subtitle": "Diseñamos paquetes y vacaciones privadas por toda la isla — su vehículo, su ritmo y anfitriones locales que conocen cada carretera.",
     "items": [
       {
         "title": "Experiencias totalmente privadas",
@@ -123,9 +126,9 @@
     ]
   },
   "tourCategories": {
-    "eyebrow": "Categorías de viajes",
-    "title": "Elige cómo conocer Sri Lanka",
-    "subtitle": "Desde un solo día costero hasta quince días de tierras altas y vida silvestre, comience con el estilo que más le convenga.",
+    "eyebrow": "Paquetes de tour Sri Lanka",
+    "title": "Elija su tour por Sri Lanka",
+    "subtitle": "Desde un tour privado de un día hasta un paquete vacacional por tierras altas, fauna y costa — empiece por el estilo que le encaje.",
     "items": [
       {
         "title": "Excursiones de un día",
@@ -163,20 +166,20 @@
   },
   "featuredMultiDay": {
     "eyebrow": "Viajes destacados",
-    "title": "Tours de varios días que a los viajeros les encantan",
-    "subtitle": "Itinerarios privados exclusivos con espacio para respirar cultura, tierras altas y costa en equilibrio.",
+    "title": "Paquetes Sri Lanka que encantan a los viajeros",
+    "subtitle": "Itinerarios privados de varios días con cultura, té, fauna y costa en equilibrio.",
     "viewAllLabel": "Ver todos los tours de varios días"
   },
   "featuredDay": {
     "eyebrow": "un dia perfecto",
-    "title": "Tours de un día destacados",
-    "subtitle": "Experiencias privadas de un día desde Colombo y la costa oeste, con un ritmo refinado y paradas memorables.",
+    "title": "Tours privados de un día en Sri Lanka",
+    "subtitle": "Tours privados de un día desde Colombo y la costa oeste — Galle, Sigiriya, Kandy, Ella y más.",
     "viewAllLabel": "Ver todos los tours de un día"
   },
   "destinations": {
-    "eyebrow": "Destinos",
-    "title": "Lugares que definen Sri Lanka",
-    "subtitle": "Desde Lion Rock hasta las murallas del fuerte holandés, explore las regiones que dan forma a cada gran itinerario.",
+    "eyebrow": "Lugares de viaje",
+    "title": "Los mejores lugares para visitar en Sri Lanka",
+    "subtitle": "Desde la Roca del León en Sigiriya hasta el Fuerte de Galle, Ella, Yala y el té — los lugares que definen cada gran tour.",
     "viewAllLabel": "Explorar destinos"
   },
   "map": {
@@ -252,8 +255,8 @@
   },
   "cta": {
     "eyebrow": "Comienza aquí",
-    "title": "Cuéntanos cómo quieres viajar",
-    "subtitle": "Comparta sus fechas, ritmo e intereses y crearemos un viaje privado a Sri Lanka que valga la pena.",
+    "title": "Planifique sus vacaciones en Sri Lanka",
+    "subtitle": "Cuéntenos fechas e intereses — crearemos un paquete de tour privado alrededor de los lugares que quiere ver.",
     "image": {
       "alt": "Puente de nueve arcos que se eleva sobre las plantaciones de té en Ella, Sri Lanka",
       "title": "Puente de nueve arcos de Ella"

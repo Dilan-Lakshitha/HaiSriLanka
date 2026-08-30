@@ -46,12 +46,16 @@
       "pageKey": "home",
       "items": [
         {
-          "question": "Pourquoi choisir Hai Sri Lanka ?",
-          "answer": "Une hospitalité haut de gamme, des guides locaux experts et des itinéraires conçus pour le confort et la découverte authentique."
+          "question": "Proposez-vous des circuits privés au Sri Lanka ?",
+          "answer": "Oui. Chaque circuit Hai Sri Lanka est privé — votre véhicule et un chauffeur-guide anglophone, pas un bus mixte. Excursions et séjours de plusieurs jours s’adaptent à vos dates."
         },
         {
-          "question": "Quelles langues parlent vos guides ?",
-          "answer": "L'anglais est standard. L'allemand, le français et d'autres langues européennes peuvent être organisés sur demande."
+          "question": "Que comprend un package Sri Lanka ?",
+          "answer": "Transport privé, carburant, parking et chauffeur-guide sont en général inclus. Les séjours de plusieurs jours incluent souvent des hôtels 4 étoiles. Tickets et repas figurent sur chaque page circuit."
+        },
+        {
+          "question": "Quels lieux vos circuits visitent-ils au Sri Lanka ?",
+          "answer": "Lieux populaires : Sigiriya, Dambulla, Kandy, Ella, Yala, Mirissa, Fort de Galle, Bentota et Colombo. Nous adaptons aussi les routes aux lieux que vous tenez à voir."
         }
       ]
     },

@@ -1,21 +1,23 @@
 {
   "seo": {
-    "metaTitle": "Hai Sri Lanka Tours | Private Luxury Tours in Sri Lanka",
-    "metaDescription": "Plan a private Sri Lanka journey with Hai Sri Lanka Tours. Luxury multi-day itineraries, curated day tours, and expert local hosts across the island.",
+    "metaTitle": "Sri Lanka Tours | Private Tours & Vacation Packages",
+    "metaDescription": "Private Sri Lanka tours and tailor-made vacation packages. Day trips and multi-day tour packages to Sigiriya, Kandy, Ella, Yala, Galle, and the coast — English-speaking guide, hotels, and pay at destination.",
     "keywords": [
-      "Sri Lanka luxury tours",
+      "Sri Lanka tours",
+      "Sri Lanka private tour",
+      "vacation in Sri Lanka",
+      "Sri Lanka tour package",
+      "Sri Lanka travel places",
       "private tours Sri Lanka",
-      "Hai Sri Lanka",
-      "multi day Sri Lanka itinerary",
-      "day tours Colombo"
+      "Hai Sri Lanka"
     ]
   },
   "hero": {
-    "eyebrow": "Private inbound travel · Sri Lanka",
-    "title": "Discover Ceylon in quiet luxury",
-    "subtitle": "Tailor-made journeys through temples, tea country, wildlife, and coast paced for discerning travelers.",
+    "eyebrow": "Private Sri Lanka tours · tailor-made packages",
+    "title": "Sri Lanka tours, private and tailor-made",
+    "subtitle": "Vacation packages and day tours across Sri Lanka’s best travel places — temples, tea country, wildlife, and beaches — with your own English-speaking guide.",
     "primaryCta": {
-      "label": "Explore tours",
+      "label": "View Sri Lanka tours",
       "path": "sri-lanka-tours"
     },
     "secondaryCta": {
@@ -151,8 +153,8 @@
   },
   "whyChoose": {
     "eyebrow": "Why Hai Sri Lanka",
-    "title": "Hospitality shaped for private travel",
-    "subtitle": "We design calm, seamless journeys never crowded group buses with hosts who know every winding road.",
+    "title": "Private Sri Lanka tours, not group buses",
+    "subtitle": "We design private tour packages and vacations across the island — your vehicle, your pace, and local hosts who know every winding road.",
     "items": [
       {
         "id": "private",
@@ -181,9 +183,9 @@
     ]
   },
   "tourCategories": {
-    "eyebrow": "Tour categories",
-    "title": "Choose how you meet Sri Lanka",
-    "subtitle": "From a single coastal day to a fortnight of highlands and wildlife start with the style that fits you.",
+    "eyebrow": "Sri Lanka tour packages",
+    "title": "Choose your Sri Lanka tour",
+    "subtitle": "From a private day tour to a full vacation package through highlands, wildlife, and coast — start with the style that fits you.",
     "items": [
       {
         "id": "day",
@@ -237,22 +239,22 @@
   },
   "featuredMultiDay": {
     "eyebrow": "Featured journeys",
-    "title": "Multi-day tours travelers love",
-    "subtitle": "Signature private itineraries with room to breathe culture, highlands, and coast in balance.",
+    "title": "Sri Lanka tour packages travelers love",
+    "subtitle": "Private multi-day vacation itineraries with culture, tea country, wildlife, and coast in balance.",
     "viewAllPath": "multi-day-tours",
     "viewAllLabel": "View all multi-day tours"
   },
   "featuredDay": {
     "eyebrow": "One perfect day",
-    "title": "Featured day tours",
-    "subtitle": "Private day experiences from Colombo and the west coast refined pacing, memorable stops.",
+    "title": "Private Sri Lanka day tours",
+    "subtitle": "Private day tours from Colombo and the west coast — Galle, Sigiriya, Kandy, Ella, and more.",
     "viewAllPath": "day-tours",
     "viewAllLabel": "View all day tours"
   },
   "destinations": {
-    "eyebrow": "Destinations",
-    "title": "Places that define Sri Lanka",
-    "subtitle": "From Lion Rock to Dutch fort walls explore the regions that shape every great itinerary.",
+    "eyebrow": "Travel places",
+    "title": "Best places to visit in Sri Lanka",
+    "subtitle": "From Sigiriya’s Lion Rock to Galle Fort, Ella, Yala, and tea country — the travel places that shape every great tour.",
     "viewAllPath": "destinations",
     "viewAllLabel": "Explore destinations"
   },
@@ -340,8 +342,8 @@
   },
   "cta": {
     "eyebrow": "Begin here",
-    "title": "Tell us how you want to travel",
-    "subtitle": "Share your dates, pace, and interests we will craft a private Sri Lanka journey worth the voyage.",
+    "title": "Plan your Sri Lanka vacation",
+    "subtitle": "Share your dates and interests — we will craft a private Sri Lanka tour package around the places you want to see.",
     "primaryCta": {
       "label": "Contact our planners",
       "path": "contact"

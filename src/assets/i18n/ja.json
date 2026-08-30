@@ -26,7 +26,7 @@
     "skipToContent": "本文へ",
     "whatsapp": "WhatsApp",
     "viewAllTours": "すべてのツアーを見る",
-    "toursMegaCopy": "スリランカのプライベート日帰り＆周遊ツアー。",
+    "toursMegaCopy": "スリランカのプライベートツアー、日帰りと複数日のバケーションパッケージ。",
     "primary": "メインナビ",
     "contactLabel": "お問い合わせ",
     "social": "ソーシャルメディア"
@@ -88,28 +88,28 @@
   },
   "seo": {
     "home": {
-      "title": "Hai Sri Lanka ツアー | Premium Sri Lanka 旅行",
-      "description": "Private 日帰りツアーs and multi-day itineraries with Hai Sri Lanka luxury inbound tourism across the island."
+      "title": "スリランカツアー | プライベート旅行＆パッケージ",
+      "description": "スリランカのプライベートツアーとオーダーメイドの休暇パッケージ。シギリヤ、キャンディ、エラ、ヤラ、ゴール、海岸への日帰り・周遊。英語ガイド、ホテル、現地払い。"
     },
     "about": {
       "title": "Hai Sri Lanka Tours について | プライベート inbound",
       "description": "コロンボの Hai Sri Lanka Tours。2020年よりスリランカのプライベート日帰り・連泊ツアー。"
     },
     "toursHub": {
-      "title": "Sri Lanka ツアー | Hai Sri Lanka",
-      "description": "Browse private 日帰りツアーs and multi-day Sri Lanka itineraries with Hai Sri Lanka Tours."
+      "title": "スリランカツアー | 日帰り＆周遊パッケージ",
+      "description": "スリランカのツアープラン：プライベート日帰りと複数日の休暇行程。ホテル、ドライバーガイド、明瞭な料金。カップル・家族・少人数向け。"
     },
     "dayTours": {
-      "title": "Day ツアー in Sri Lanka | Hai Sri Lanka",
-      "description": "Private 日帰りツアーs across Sri Lanka Galle, culture, wildlife, and more."
+      "title": "スリランカ日帰りツアー | プライベート日帰り",
+      "description": "コロンボと西海岸発のプライベート日帰りツアー。ゴール、シギリヤ、キャンディ、エラなど。専用車、英語ガイド、柔軟なペース。"
     },
     "multiDayTours": {
-      "title": "周遊 Sri Lanka ツアー | Hai Sri Lanka",
-      "description": "Curated multi-day private itineraries covering Sri Lanka’s highlights."
+      "title": "スリランカ周遊パッケージ | プライベート複数日",
+      "description": "スリランカのプライベート休暇パッケージ。文化、茶畑、野生動物、ビーチ。4つ星ホテルと専用車。"
     },
     "destinations": {
-      "title": "スリランカの行き先 | ゴール・シギリヤ・キャンディ・ヤラ | Hai Sri Lanka",
-      "description": "ゴール、シギリヤ、キャンディ、ヤラ、エラ、ティーカントリーを Hai Sri Lanka のプライベートツアーで巡ります。"
+      "title": "スリランカの観光地 | 訪れるべき場所",
+      "description": "スリランカの見どころ：ゴール、シギリヤ、キャンディ、ヤラ、エラ、コロンボ、茶畑。島の主要スポットを巡るプライベートツアーを計画。"
     },
     "travelGuide": {
       "title": "Sri Lanka 旅行 ガイド | Hai Sri Lanka",
@@ -256,8 +256,8 @@
   },
   "destinationsPage": {
     "eyebrow": "行き先",
-    "title": "スリランカを象徴する場所",
-    "intro": "要塞都市や聖地からティーカントリー、サファリパークまで。Hai Sri Lanka の旅を形づくる風景を巡ります。",
+    "title": "スリランカで訪れるべき場所",
+    "intro": "ゴール要塞、シギリヤ、キャンディ、エラ、ヤラ、茶畑、南海岸など、スリランカの見どころをプライベートツアーや休暇パッケージに。",
     "allTitle": "すべての行き先",
     "count": "{{count}} の行き先",
     "filterAria": "地域で絞り込む",
@@ -265,7 +265,7 @@
     "empty": "この地域の行き先はまだありません。",
     "cta": "これらの場所をプライベート旅程にしませんか？",
     "exploreTours": "ツアーを見る",
-    "schemaName": "スリランカの行き先"
+    "schemaName": "スリランカの観光地"
   },
   "aboutPage": {
     "eyebrow": "私たちについて",
