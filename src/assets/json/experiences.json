@@ -10,7 +10,7 @@
       "Private jeep safaris at first light",
       "Leopard and elephant habitat across southern parks",
       "Calm pacing with expert trackers",
-      "Pairs seamlessly with south-coast stays"
+      "Pairs seamlessly with south coast stays"
     ],
     "images": [
       {
@@ -42,12 +42,21 @@
         "height": 1050
       }
     ],
-    "relatedTourSlugs": ["10-days-classic-ceylon", "7-days-sri-lanka-highlights"],
-    "relatedDestinationSlugs": ["yala"],
+    "relatedTourSlugs": [
+      "10-days-classic-ceylon",
+      "7-days-sri-lanka-highlights"
+    ],
+    "relatedDestinationSlugs": [
+      "yala"
+    ],
     "seo": {
       "metaTitle": "Wildlife Safaris in Sri Lanka | Experiences | Hai Sri Lanka",
       "metaDescription": "Private wildlife safaris with Hai Sri Lanka Yala game drives, elephants, and carefully paced park mornings.",
-      "keywords": ["Sri Lanka safari", "Yala safari", "wildlife experiences"]
+      "keywords": [
+        "Sri Lanka safari",
+        "Yala safari",
+        "wildlife experiences"
+      ]
     },
     "status": "published"
   },
@@ -61,7 +70,7 @@
     "highlights": [
       "River bathing experiences with guides",
       "Forest elephant rides near Sigiriya",
-      "Ethical, welfare-first partners only",
+      "Ethical, welfare first partners only",
       "Memorable for families and couples"
     ],
     "images": [
@@ -94,12 +103,22 @@
         "height": 1200
       }
     ],
-    "relatedTourSlugs": ["sigiriya-dambulla-day-tour", "7-days-sri-lanka-highlights", "10-days-classic-ceylon"],
-    "relatedDestinationSlugs": ["sigiriya"],
+    "relatedTourSlugs": [
+      "sigiriya-dambulla-day-tour",
+      "7-days-sri-lanka-highlights",
+      "10-days-classic-ceylon"
+    ],
+    "relatedDestinationSlugs": [
+      "sigiriya"
+    ],
     "seo": {
       "metaTitle": "Elephant Experiences in Sri Lanka | Hai Sri Lanka",
       "metaDescription": "Plan ethical elephant encounters with Hai Sri Lanka bathing, forest rides, and Cultural Triangle wildlife moments.",
-      "keywords": ["elephant experience Sri Lanka", "elephant bath", "Sigiriya elephants"]
+      "keywords": [
+        "elephant experience Sri Lanka",
+        "elephant bath",
+        "Sigiriya elephants"
+      ]
     },
     "status": "published"
   },
@@ -146,12 +165,25 @@
         "height": 1050
       }
     ],
-    "relatedTourSlugs": ["sigiriya-dambulla-day-tour", "kandy-day-tour", "10-days-classic-ceylon"],
-    "relatedDestinationSlugs": ["sigiriya", "kandy", "anuradhapura", "polonnaruwa"],
+    "relatedTourSlugs": [
+      "sigiriya-dambulla-day-tour",
+      "kandy-day-tour",
+      "10-days-classic-ceylon"
+    ],
+    "relatedDestinationSlugs": [
+      "sigiriya",
+      "kandy",
+      "anuradhapura",
+      "polonnaruwa"
+    ],
     "seo": {
       "metaTitle": "Temple & Heritage Experiences | Hai Sri Lanka",
       "metaDescription": "Explore Sri Lanka’s temples and heritage with Hai Sri Lanka Dambulla, Kandy, and Cultural Triangle private tours.",
-      "keywords": ["Dambulla Cave Temple", "Temple of the Tooth", "Sri Lanka heritage"]
+      "keywords": [
+        "Dambulla Cave Temple",
+        "Temple of the Tooth",
+        "Sri Lanka heritage"
+      ]
     },
     "status": "published"
   },
@@ -159,8 +191,8 @@
     "id": "exp-mangrove-boat",
     "slug": "mangrove-boat-safaris",
     "title": "Mangrove Boat Safaris",
-    "shortDescription": "Quiet waterways, root tunnels, and south-coast wildlife.",
-    "description": "Slip into mangrove tunnels on a private boat birds overhead, still water under the hull, and a slower coastal rhythm. Perfect as a half-day beside Galle Fort walks or a soft adventure on southern routes.",
+    "shortDescription": "Quiet waterways, root tunnels, and south coast wildlife.",
+    "description": "Slip into mangrove tunnels on a private boat birds overhead, still water under the hull, and a slower coastal rhythm. Perfect as a half day beside Galle Fort walks or a soft adventure on southern routes.",
     "category": "Coast",
     "highlights": [
       "Private mangrove boat channels",
@@ -198,39 +230,48 @@
         "height": 1200
       }
     ],
-    "relatedTourSlugs": ["galle-day-tour", "7-days-sri-lanka-highlights"],
-    "relatedDestinationSlugs": ["galle"],
+    "relatedTourSlugs": [
+      "galle-day-tour",
+      "7-days-sri-lanka-highlights"
+    ],
+    "relatedDestinationSlugs": [
+      "galle"
+    ],
     "seo": {
       "metaTitle": "Mangrove Boat Safaris | Experiences | Hai Sri Lanka",
       "metaDescription": "Private mangrove boat safaris with Hai Sri Lanka quiet channels, wildlife, and Galle coast days.",
-      "keywords": ["mangrove boat Sri Lanka", "Madu River", "south coast experiences"]
+      "keywords": [
+        "mangrove boat Sri Lanka",
+        "Madu River",
+        "south coast experiences"
+      ]
     },
     "status": "published"
   },
   {
     "id": "exp-tuk-tuk",
     "slug": "tuk-tuk-adventures",
-    "title": "Tuk-Tuk Adventures",
-    "shortDescription": "Local lanes, open-air rides, and city soul.",
-    "description": "See towns the way locals do open sides, market turns, and a chauffeur guide who knows the shortcuts. Tuk-tuk hops thread between temples, cafés, and viewpoints without the sealed-bus feeling of a group coach.",
+    "title": "Tuk Tuk Adventures",
+    "shortDescription": "Local lanes, open air rides, and city soul.",
+    "description": "See towns the way locals do open sides, market turns, and a chauffeur guide who knows the shortcuts. Tuk tuk hops thread between temples, cafés, and viewpoints without the sealed bus feeling of a group coach.",
     "category": "Adventure",
     "highlights": [
-      "Open-air city and town circuits",
+      "Open air city and town circuits",
       "Photogenic local neighborhoods",
       "Flexible stops with your guide",
-      "Great ice-breaker on any day tour"
+      "Great ice breaker on any day tour"
     ],
     "images": [
       {
         "src": "/assets/images/tours/guest-experiences/tuk-tuk-selfie.png",
-        "alt": "Guests and guide smiling in a tuk-tuk",
-        "title": "Tuk-tuk ride",
+        "alt": "Guests and guide smiling in a tuk tuk",
+        "title": "Tuk tuk ride",
         "width": 1200,
         "height": 1200
       },
       {
         "src": "/assets/images/destinations/colombo.webp",
-        "alt": "Colombo cityscapes for tuk-tuk circuits",
+        "alt": "Colombo cityscapes for tuk tuk circuits",
         "title": "City circuits",
         "width": 1400,
         "height": 1050
@@ -250,12 +291,24 @@
         "height": 1050
       }
     ],
-    "relatedTourSlugs": ["galle-day-tour", "kandy-day-tour", "sigiriya-dambulla-day-tour"],
-    "relatedDestinationSlugs": ["colombo", "kandy", "galle"],
+    "relatedTourSlugs": [
+      "galle-day-tour",
+      "kandy-day-tour",
+      "sigiriya-dambulla-day-tour"
+    ],
+    "relatedDestinationSlugs": [
+      "colombo",
+      "kandy",
+      "galle"
+    ],
     "seo": {
-      "metaTitle": "Tuk-Tuk Adventures in Sri Lanka | Hai Sri Lanka",
-      "metaDescription": "Private tuk-tuk adventures with Hai Sri Lanka local lanes, flexible city stops, and open-air travel.",
-      "keywords": ["tuk tuk Sri Lanka", "Colombo tuk tuk", "local experiences"]
+      "metaTitle": "Tuk Tuk Adventures in Sri Lanka | Hai Sri Lanka",
+      "metaDescription": "Private tuk tuk adventures with Hai Sri Lanka local lanes, flexible city stops, and open air travel.",
+      "keywords": [
+        "tuk tuk Sri Lanka",
+        "Colombo tuk tuk",
+        "local experiences"
+      ]
     },
     "status": "published"
   },
@@ -270,7 +323,7 @@
       "Nine Arch Bridge viewpoints",
       "Tea estate walks and tastings",
       "Scenic highland train segments",
-      "Cool-climate boutique stays"
+      "Cool climate boutique stays"
     ],
     "images": [
       {
@@ -302,12 +355,24 @@
         "height": 1080
       }
     ],
-    "relatedTourSlugs": ["ella-day-tour", "7-days-sri-lanka-highlights", "10-days-classic-ceylon"],
-    "relatedDestinationSlugs": ["ella", "tea-country", "kandy"],
+    "relatedTourSlugs": [
+      "ella-day-tour",
+      "7-days-sri-lanka-highlights",
+      "10-days-classic-ceylon"
+    ],
+    "relatedDestinationSlugs": [
+      "ella",
+      "tea-country",
+      "kandy"
+    ],
     "seo": {
       "metaTitle": "Highland & Scenic Rail Experiences | Hai Sri Lanka",
       "metaDescription": "Discover Ella and tea country with Hai Sri Lanka Nine Arch Bridge, highland trains, and private mountain routes.",
-      "keywords": ["Ella Nine Arch Bridge", "tea country Sri Lanka", "highland train"]
+      "keywords": [
+        "Ella Nine Arch Bridge",
+        "tea country Sri Lanka",
+        "highland train"
+      ]
     },
     "status": "published"
   },
@@ -316,7 +381,7 @@
     "slug": "village-life",
     "title": "Village Life",
     "shortDescription": "Tractor rides, countryside hospitality, and rural Sri Lanka.",
-    "description": "Leave the highway for village lanes tractor carts, rice fields, home hospitality, and the quieter rhythms that travelers remember longest. Soft cultural immersion that slots into multi-day itineraries without feeling staged.",
+    "description": "Leave the highway for village lanes tractor carts, rice fields, home hospitality, and the quieter rhythms that travelers remember longest. Soft cultural immersion that slots into multi day itineraries without feeling staged.",
     "category": "Village",
     "highlights": [
       "Village tractor and countryside rides",
@@ -354,12 +419,23 @@
         "height": 1050
       }
     ],
-    "relatedTourSlugs": ["10-days-classic-ceylon", "7-days-sri-lanka-highlights"],
-    "relatedDestinationSlugs": ["anuradhapura", "polonnaruwa", "sigiriya"],
+    "relatedTourSlugs": [
+      "10-days-classic-ceylon",
+      "7-days-sri-lanka-highlights"
+    ],
+    "relatedDestinationSlugs": [
+      "anuradhapura",
+      "polonnaruwa",
+      "sigiriya"
+    ],
     "seo": {
       "metaTitle": "Village Life Experiences in Sri Lanka | Hai Sri Lanka",
       "metaDescription": "Experience Sri Lankan village life with Hai Sri Lanka tractor rides, local hosts, and countryside hospitality.",
-      "keywords": ["village tour Sri Lanka", "rural experiences", "local hospitality"]
+      "keywords": [
+        "village tour Sri Lanka",
+        "rural experiences",
+        "local hospitality"
+      ]
     },
     "status": "published"
   },
@@ -368,11 +444,11 @@
     "slug": "cycling-trails",
     "title": "Cycling Trails",
     "shortDescription": "Active mornings on shaded paths and country lanes.",
-    "description": "Pedal through tropical greenery on quiet tracks family-friendly routes and guided rides that stretch the legs without turning the day into a race. Pair cycling with tea country, villages, or coast depending on your itinerary.",
+    "description": "Pedal through tropical greenery on quiet tracks family friendly routes and guided rides that stretch the legs without turning the day into a race. Pair cycling with tea country, villages, or coast depending on your itinerary.",
     "category": "Adventure",
     "highlights": [
       "Guided trails through greenery",
-      "Family-friendly pace options",
+      "Family friendly pace options",
       "Scenic countryside and canopy roads",
       "Active balance on luxury itineraries"
     ],
@@ -406,12 +482,21 @@
         "height": 1600
       }
     ],
-    "relatedTourSlugs": ["10-days-classic-ceylon"],
-    "relatedDestinationSlugs": ["tea-country", "ella"],
+    "relatedTourSlugs": [
+      "10-days-classic-ceylon"
+    ],
+    "relatedDestinationSlugs": [
+      "tea-country",
+      "ella"
+    ],
     "seo": {
       "metaTitle": "Cycling Trails in Sri Lanka | Experiences | Hai Sri Lanka",
-      "metaDescription": "Cycle Sri Lanka’s countryside with Hai Sri Lanka guided trails, family-friendly pace, and scenic highland lanes.",
-      "keywords": ["cycling Sri Lanka", "bike tours Sri Lanka", "active travel"]
+      "metaDescription": "Cycle Sri Lanka’s countryside with Hai Sri Lanka guided trails, family friendly pace, and scenic highland lanes.",
+      "keywords": [
+        "cycling Sri Lanka",
+        "bike tours Sri Lanka",
+        "active travel"
+      ]
     },
     "status": "published"
   }

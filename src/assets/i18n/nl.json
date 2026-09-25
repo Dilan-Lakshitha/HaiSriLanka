@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "Hai Sri Lanka",
-    "tagline": "Premium inbound-reizen door Sri Lanka"
+    "tagline": "Premium inbound reizen door Sri Lanka"
   },
   "nav": {
     "home": "Home",
@@ -37,7 +37,7 @@
     "legal": "Juridisch",
     "rights": "Alle rechten voorbehouden.",
     "contactCta": "Plan je reis",
-    "newsletterThanks": "Bedankt — je staat op de lijst."
+    "newsletterThanks": "Bedankt, je staat op de lijst."
   },
   "common": {
     "loading": "Laden…",
@@ -89,19 +89,19 @@
   "seo": {
     "home": {
       "title": "Sri Lanka tours | Privéreizen & vakantiepakketten",
-      "description": "Privétours door Sri Lanka en vakantiepakketten op maat. Dagtrips en meerdaagse reizen naar Sigiriya, Kandy, Ella, Yala, Galle en de kust — Engelstalige gids, hotels, betalen ter plaatse."
+      "description": "Privétours door Sri Lanka en vakantiepakketten op maat. Dagtrips en meerdaagse reizen naar Sigiriya, Kandy, Ella, Yala, Galle en de kust, Engelstalige gids, hotels, betalen ter plaatse."
     },
     "about": {
       "title": "Over Hai Sri Lanka Tours | Private inbound reizen",
-      "description": "Hai Sri Lanka Tours in Colombo — privé dagtours en meerdaagse reizen op Sri Lanka sinds 2020."
+      "description": "Hai Sri Lanka Tours in Colombo, privé dagtours en meerdaagse reizen op Sri Lanka sinds 2020."
     },
     "toursHub": {
       "title": "Sri Lanka tours | Privé dag- en meerdaagse pakketten",
-      "description": "Sri Lanka-tourpakketten: privédagtrips en meerdaagse vakantie-itineraries met hotels, chauffeur-gids en transparante prijzen. Voor stellen, gezinnen en kleine groepen."
+      "description": "Sri Lanka tourpakketten: privédagtrips en meerdaagse vakantie itineraries met hotels, chauffeur gids en transparante prijzen. Voor stellen, gezinnen en kleine groepen."
     },
     "dayTours": {
       "title": "Sri Lanka dagtrips | Privé dagtochten",
-      "description": "Privédagtrips in Sri Lanka vanaf Colombo en de westkust — Galle, Sigiriya, Kandy, Ella en meer. Eigen voertuig, Engelstalige gids, flexibel tempo."
+      "description": "Privédagtrips in Sri Lanka vanaf Colombo en de westkust, Galle, Sigiriya, Kandy, Ella en meer. Eigen voertuig, Engelstalige gids, flexibel tempo."
     },
     "multiDayTours": {
       "title": "Sri Lanka vakantiepakketten | Privé meerdaagse tours",
@@ -212,14 +212,14 @@
     "nextTitle": "Wat gebeurt er nu",
     "next1": "Ons team bekijkt je data en touraanvraag.",
     "next2": "We nemen contact op via e-mail of WhatsApp om te bevestigen.",
-    "next3": "Je reist met je privéhost — betalen op bestemming.",
+    "next3": "Je reist met je privéhost, betalen op bestemming.",
     "print": "Factuur afdrukken",
     "browseTours": "Meer tours bekijken",
     "contactUs": "Contact",
     "whatsappCta": "WhatsApp over deze boeking",
     "viewTours": "Sri Lanka tours bekijken",
-    "whatsappPrefill": "Hallo Hai Sri Lanka — betreffende boeking {{ref}} ({{tour}}).",
-    "whatsappPrefillGeneric": "Hallo Hai Sri Lanka — ik heb een vraag over mijn boeking."
+    "whatsappPrefill": "Hallo Hai Sri Lanka, betreffende boeking {{ref}} ({{tour}}).",
+    "whatsappPrefillGeneric": "Hallo Hai Sri Lanka, ik heb een vraag over mijn boeking."
   },
   "consent": {
     "title": "Cookies & privacy",
@@ -229,15 +229,15 @@
   },
   "contactPage": {
     "eyebrow": "Contact",
-    "title": "Plan je Sri Lanka-reis met ons",
-    "intro": "Stuur een kort bericht — we antwoorden persoonlijk via e-mail of WhatsApp en bouwen een privétitinerarium rond jouw data.",
+    "title": "Plan je Sri Lanka reis met ons",
+    "intro": "Stuur een kort bericht, we antwoorden persoonlijk via e-mail of WhatsApp en bouwen een privétitinerarium rond jouw data.",
     "formTitle": "Stuur ons een bericht",
     "formLead": "Vertel wat je zoekt. Je bericht komt rechtstreeks in onze inbox.",
     "name": "Naam *",
     "email": "E-mail *",
-    "whatsapp": "WhatsApp-nummer *",
+    "whatsapp": "WhatsApp nummer *",
     "message": "Bericht *",
-    "validation": "Vul je naam, een geldig e-mailadres, WhatsApp-nummer en een kort bericht in.",
+    "validation": "Vul je naam, een geldig e-mailadres, WhatsApp nummer en een kort bericht in.",
     "sending": "Verzenden…",
     "send": "Bericht versturen",
     "success": "Dank je, je bericht is verzonden.",
@@ -257,7 +257,7 @@
   "destinationsPage": {
     "eyebrow": "Bestemmingen",
     "title": "Plekken om te bezoeken in Sri Lanka",
-    "intro": "Ontdek de mooiste plekken in Sri Lanka — Galle Fort, Sigiriya, Kandy, Ella, Yala, theegebied en de zuidkust — en maak er een privétour of vakantiepakket van.",
+    "intro": "Ontdek de mooiste plekken in Sri Lanka, Galle Fort, Sigiriya, Kandy, Ella, Yala, theegebied en de zuidkust, en maak er een privétour of vakantiepakket van.",
     "allTitle": "Alle bestemmingen",
     "count": "{{count}} plekken om te ontdekken",
     "filterAria": "Filter op regio",
@@ -273,12 +273,12 @@
     "intro": "Hai Sri Lanka Tours maakt privé dagtours en meerdaagse reizen, met betaling ter plaatse.",
     "storyTitle": "Wie we zijn",
     "story1": "Sinds 2020 in Colombo: een klein inbound team voor stellen, gezinnen en vrienden die het eiland zonder groepsbus willen.",
-    "story2": "Routes langs Galle, de Cultural Triangle, Kandy, theeheuvels, Yala en de zuidkust — bereikbaar via e-mail en WhatsApp.",
+    "story2": "Routes langs Galle, de Cultural Triangle, Kandy, theeheuvels, Yala en de zuidkust, bereikbaar via e-mail en WhatsApp.",
     "valuesTitle": "Zo reizen we",
     "values": [
       {
         "title": "Privé als standaard",
-        "body": "Voertuig en chauffeur-gids alleen voor jullie gezelschap. De dag blijft flexibel."
+        "body": "Voertuig en chauffeur gids alleen voor jullie gezelschap. De dag blijft flexibel."
       },
       {
         "title": "Duidelijke logistiek",
@@ -290,7 +290,7 @@
       }
     ],
     "ctaEyebrow": "Plan met ons",
-    "ctaBody": "Bekijk privétours of stuur data — we antwoorden persoonlijk.",
+    "ctaBody": "Bekijk privétours of stuur data, we antwoorden persoonlijk.",
     "exploreTours": "Tours bekijken",
     "schemaName": "Over Hai Sri Lanka Tours"
   },
@@ -318,7 +318,7 @@
       },
       {
         "title": "Gebruik",
-        "body": "Antwoorden, tours bevestigen, logistiek en boekingsmails. Geen verkoop van data. Analytics alleen na cookie-toestemming."
+        "body": "Antwoorden, tours bevestigen, logistiek en boekingsmails. Geen verkoop van data. Analytics alleen na cookie toestemming."
       },
       {
         "title": "Cookies",

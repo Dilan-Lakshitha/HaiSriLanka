@@ -6,7 +6,7 @@
   "seoTitle": "Sigiriya & Dambulla Day Tour | Lion Rock, Caves & Habarana | Hai Sri Lanka",
   "metaDescription": "Private Cultural Triangle day: climb Sigiriya Lion Rock, Dambulla Cave Temple and Golden Buddha, Habarana village safari, and elephant safari at the eco park.",
   "shortDescription": "Sigiriya Lion Rock, Dambulla Cave Temple and Golden Buddha, Habarana village safari, and Habarana elephant safari at the eco park.",
-  "overview": "A private full-day journey into Sri Lanka’s Cultural Triangle. Climb Sigiriya Lion Rock, visit Dambulla Cave Temple and the Golden Buddha statue, join a Habarana village safari, and take a Habarana elephant safari at the eco park.\nYour chauffeur guide keeps the day flexible for photos and rest. Entrance fees and lunch are not included.",
+  "overview": "A private full day journey into Sri Lanka’s Cultural Triangle. Climb Sigiriya Lion Rock, visit Dambulla Cave Temple and the Golden Buddha statue, join a Habarana village safari, and take a Habarana elephant safari at the eco park.\nYour chauffeur guide keeps the day flexible for photos and rest. Entrance fees and lunch are not included.",
   "duration": "1 Day",
   "destinations": [
     "Sigiriya",
@@ -18,7 +18,7 @@
   "highlights": [
     {
       "title": "Sigiriya Lion Rock",
-      "description": "Climb Sigiriya Lion Rock — water gardens, frescoes, and a summit panorama over the Cultural Triangle. Private pace with time for photos and rest. Entrance is paid on site and is not included."
+      "description": "Climb Sigiriya Lion Rock, water gardens, frescoes, and a summit panorama over the Cultural Triangle. Private pace with time for photos and rest. Entrance is paid on site and is not included."
     },
     {
       "title": "Dambulla Cave Temple & Golden Buddha",
@@ -26,21 +26,21 @@
     },
     {
       "title": "Habarana Village Safari",
-      "description": "A Habarana village safari through countryside lanes, rice fields, and local life — a slower look at rural Sri Lanka between the main sites."
+      "description": "A Habarana village safari through countryside lanes, rice fields, and local life, a slower look at rural Sri Lanka between the main sites."
     },
     {
       "title": "Habarana Elephant Safari (Eco Park)",
-      "description": "Habarana elephant safari at the eco park — typically Minneriya, Kaudulla, or Hurulu Eco Park depending on the season. Park tickets are extra and not included."
+      "description": "Habarana elephant safari at the eco park, typically Minneriya, Kaudulla, or Hurulu Eco Park depending on the season. Park tickets are extra and not included."
     },
     {
-      "title": "Private hotel pickup and drop-off",
-      "description": "Your chauffeur guide collects you from your hotel — typically Colombo, the west coast, or an agreed point — and returns you in the evening. Tell us your hotel when you book so we confirm pickup."
+      "title": "Private hotel pickup and drop off",
+      "description": "Your chauffeur guide collects you from your hotel, typically Colombo, the west coast, or an agreed point, and returns you in the evening. Tell us your hotel when you book so we confirm pickup."
     }
   ],
   "included": [
-    "Air-conditioned private vehicle",
-    "English-speaking professional driver",
-    "Pickup & drop-off",
+    "Air conditioned private vehicle",
+    "English speaking professional driver",
+    "Pickup & drop off",
     "Fuel & parking fees",
     "24-hour service",
     "Free bottled water"
@@ -55,7 +55,7 @@
       "title": "Sigiriya, Dambulla & Habarana",
       "description": "Morning hotel pickup, then a private Cultural Triangle day: climb Sigiriya Lion Rock, visit Dambulla Cave Temple and the Golden Buddha, enjoy a Habarana village safari, and join a Habarana elephant safari at the eco park. Evening return to your hotel.",
       "highlights": [
-        "Sigiriya Lion Rock — climb the fortress",
+        "Sigiriya Lion Rock, climb the fortress",
         "Dambulla Cave Temple & Golden Buddha",
         "Habarana village safari",
         "Habarana elephant safari at the eco park"
@@ -208,7 +208,7 @@
     "ogImage": "/assets/images/tours/sigiriya-day-tour.jpg"
   },
   "status": "published",
-  "description": "A private full-day journey into Sri Lanka’s Cultural Triangle. Climb Sigiriya Lion Rock, visit Dambulla Cave Temple and the Golden Buddha statue, join a Habarana village safari, and take a Habarana elephant safari at the eco park.\nYour chauffeur guide keeps the day flexible for photos and rest. Entrance fees and lunch are not included.",
+  "description": "A private full day journey into Sri Lanka’s Cultural Triangle. Climb Sigiriya Lion Rock, visit Dambulla Cave Temple and the Golden Buddha statue, join a Habarana village safari, and take a Habarana elephant safari at the eco park.\nYour chauffeur guide keeps the day flexible for photos and rest. Entrance fees and lunch are not included.",
   "location": {
     "name": "Sigiriya",
     "region": "Central Province",
@@ -235,9 +235,9 @@
     }
   ],
   "includes": [
-    "Air-conditioned private vehicle",
-    "English-speaking professional driver",
-    "Pickup & drop-off",
+    "Air conditioned private vehicle",
+    "English speaking professional driver",
+    "Pickup & drop off",
     "Fuel & parking fees",
     "24-hour service",
     "Free bottled water"

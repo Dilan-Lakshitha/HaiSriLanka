@@ -2,7 +2,7 @@
   "global": [
     {
       "question": "I tour sono privati?",
-      "answer": "Sì. Hai Sri Lanka organizza viaggi privati per coppie, famiglie e piccoli gruppi, con autista-guida dedicato."
+      "answer": "Sì. Hai Sri Lanka organizza viaggi privati per coppie, famiglie e piccoli gruppi, con autista guida dedicato."
     },
     {
       "question": "Organizzate transfer aeroportuali?",
@@ -26,11 +26,11 @@
     },
     {
       "question": "Cosa è di solito incluso?",
-      "answer": "Veicolo privato, autista-guida, carburante e parcheggio. Biglietti, pasti e hotel sono indicati in ogni pagina."
+      "answer": "Veicolo privato, autista guida, carburante e parcheggio. Biglietti, pasti e hotel sono indicati in ogni pagina."
     },
     {
       "question": "Con quanto anticipo prenotare?",
-      "answer": "Due-quattro settimane per i day tour. I viaggi di più giorni e l’alta stagione meglio prima."
+      "answer": "Due quattro settimane per i day tour. I viaggi di più giorni e l’alta stagione meglio prima."
     },
     {
       "question": "Accettate bambini o viaggiatori singoli?",
@@ -47,11 +47,11 @@
       "items": [
         {
           "question": "Offrite tour privati in Sri Lanka?",
-          "answer": "Sì. Ogni tour Hai Sri Lanka è privato: il vostro veicolo e un autista-guida in inglese, non un bus misto. Gite e pacchetti di più giorni si adattano alle vostre date."
+          "answer": "Sì. Ogni tour Hai Sri Lanka è privato: il vostro veicolo e un autista guida in inglese, non un bus misto. Gite e pacchetti di più giorni si adattano alle vostre date."
         },
         {
           "question": "Cosa include un pacchetto tour in Sri Lanka?",
-          "answer": "Trasporto privato, carburante, parcheggio e autista-guida sono di solito inclusi. I pacchetti di più giorni includono spesso hotel 4 stelle. Biglietti e pasti sono indicati su ogni pagina tour."
+          "answer": "Trasporto privato, carburante, parcheggio e autista guida sono di solito inclusi. I pacchetti di più giorni includono spesso hotel 4 stelle. Biglietti e pasti sono indicati su ogni pagina tour."
         },
         {
           "question": "Quali luoghi in Sri Lanka visitano i vostri tour?",

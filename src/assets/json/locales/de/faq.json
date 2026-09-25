@@ -2,7 +2,7 @@
   "global": [
     {
       "question": "Sind die Touren privat?",
-      "answer": "Ja. Hai Sri Lanka bietet private Reisen für Paare, Familien und kleine Gruppen. Sie reisen mit eigenem Fahrer-Guide, nicht im Sammelbus."
+      "answer": "Ja. Hai Sri Lanka bietet private Reisen für Paare, Familien und kleine Gruppen. Sie reisen mit eigenem Fahrer Guide, nicht im Sammelbus."
     },
     {
       "question": "Organisieren Sie Flughafentransfers?",
@@ -10,7 +10,7 @@
     },
     {
       "question": "Wie buche ich?",
-      "answer": "Wählen Sie eine Tour, Reisende und Datum, senden Sie Ihre Daten und Sie erhalten eine E-Mail-Bestätigung. Für die Anfrage ist keine Online-Zahlung nötig."
+      "answer": "Wählen Sie eine Tour, Reisende und Datum, senden Sie Ihre Daten und Sie erhalten eine E-Mail Bestätigung. Für die Anfrage ist keine Online Zahlung nötig."
     },
     {
       "question": "Können Routen angepasst werden?",
@@ -26,7 +26,7 @@
     },
     {
       "question": "Was ist in der Regel inklusive?",
-      "answer": "Privates Fahrzeug, Fahrer-Guide, Kraftstoff und Parken sind typischerweise inklusive. Tickets, Mahlzeiten und Hotels stehen auf der Tourseite."
+      "answer": "Privates Fahrzeug, Fahrer Guide, Kraftstoff und Parken sind typischerweise inklusive. Tickets, Mahlzeiten und Hotels stehen auf der Tourseite."
     },
     {
       "question": "Wie früh sollte ich buchen?",
@@ -46,12 +46,12 @@
       "pageKey": "home",
       "items": [
         {
-          "question": "Bieten Sie private Sri-Lanka-Touren an?",
-          "answer": "Ja. Jede Tour von Hai Sri Lanka ist privat — Ihr Fahrzeug und ein englischsprachiger Fahrer-Guide, kein gemischter Reisebus. Tagestouren und mehrtägige Urlaubspakete lassen sich an Ihre Daten anpassen."
+          "question": "Bieten Sie private Sri Lanka Touren an?",
+          "answer": "Ja. Jede Tour von Hai Sri Lanka ist privat, Ihr Fahrzeug und ein englischsprachiger Fahrer Guide, kein gemischter Reisebus. Tagestouren und mehrtägige Urlaubspakete lassen sich an Ihre Daten anpassen."
         },
         {
-          "question": "Was ist in einem Sri-Lanka-Tourpaket enthalten?",
-          "answer": "Privater Transport, Kraftstoff, Parken und Fahrer-Guide sind in der Regel inklusive. Mehrtagespakete enthalten oft 4-Sterne-Hotels. Eintritte und Mahlzeiten stehen auf der jeweiligen Tourseite."
+          "question": "Was ist in einem Sri Lanka Tourpaket enthalten?",
+          "answer": "Privater Transport, Kraftstoff, Parken und Fahrer Guide sind in der Regel inklusive. Mehrtagespakete enthalten oft 4 Sterne Hotels. Eintritte und Mahlzeiten stehen auf der jeweiligen Tourseite."
         },
         {
           "question": "Welche Orte in Sri Lanka besuchen Ihre Touren?",

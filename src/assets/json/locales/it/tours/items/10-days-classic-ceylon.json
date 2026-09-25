@@ -14,7 +14,7 @@
     },
     {
       "title": "Elephant safari in the dry zone",
-      "description": "Minneriya, Kaudulla, or Hurulu — seasonal herds on a private jeep outing."
+      "description": "Minneriya, Kaudulla, or Hurulu, seasonal herds on a private jeep outing."
     },
     {
       "title": "Tea country, Horton Plains and Ella train",
@@ -45,7 +45,7 @@
   },
   "itinerary": [
     {
-      "title": "Aeroporto/Hotel – Sigiriya",
+      "title": "Aeroporto/Hotel to Sigiriya",
       "description": "Viaggia nell'entroterra fino a Sigiriya, scala la Roccia del Leone e goditi un tour del villaggio prima di sistemarti per la notte."
     },
     {
@@ -53,15 +53,15 @@
       "description": "Vista dell'alba da Pidurangala, un safari con gli elefanti a Minneriya, Kaudulla o Hurulu Eco Park e un massaggio ayurvedico opzionale."
     },
     {
-      "title": "Sigiriya – Kandy",
+      "title": "Sigiriya to Kandy",
       "description": "Lascia il Triangolo passando per il Tempio rupestre di Dambulla, fai una pausa in un giardino delle spezie e in un museo di gemme, quindi goditi una danza culturale Kandyan la sera."
     },
     {
-      "title": "Kandy – Nuwara Eliya",
+      "title": "Kandy to Nuwara Eliya",
       "description": "Mattinata al Tempio della Reliquia del Dente, poi salita verso le colline del tè con la Torre Ambuluwawa, visita alla piantagione e alla fabbrica e tour della città di Nuwara Eliya."
     },
     {
-      "title": "Nuwara Eliya – Ella",
+      "title": "Nuwara Eliya to Ella",
       "description": "Trekking anticipato nel Parco Nazionale di Horton Plains, quindi proseguimento per Ella con il treno panoramico attraverso le colline."
     },
     {
@@ -69,15 +69,15 @@
       "description": "Una giornata rilassante a Ella: leggero tour della città al mattino, poi tempo libero per rilassarsi sulle colline."
     },
     {
-      "title": "Ella – Yala",
+      "title": "Ella to Yala",
       "description": "Scendi verso le pianure con una sosta alle Ravana Falls, poi un safari pomeridiano o serale nel Parco Nazionale di Yala."
     },
     {
-      "title": "Yala-Mirissa",
+      "title": "Yala Mirissa",
       "description": "Giornata costiera a Mirissa: osservazione delle balene, snorkeling con balene o tartarughe marine, kayak e tempo in spiaggia."
     },
     {
-      "title": "Mirissa – Galle – Kalutara",
+      "title": "Mirissa to Galle to Kalutara",
       "description": "Esplora il forte di Galle, visita un vivaio di tartarughe e goditi un giro in barca a Bentota prima di pernottare a Kalutara."
     },
     {
@@ -88,7 +88,7 @@
   "faqs": [
     {
       "question": "Gli hotel offrono la mezza pensione?",
-      "answer": "SÌ. I pernottamenti sono in HB (mezza pensione) – colazione e cena incluse – presso gli hotel indicati o similari."
+      "answer": "SÌ. I pernottamenti sono in HB (mezza pensione) to colazione e cena incluse to presso gli hotel indicati o similari."
     },
     {
       "question": "L'osservazione delle balene è stagionale?",

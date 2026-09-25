@@ -294,7 +294,7 @@ export class TourBookingComponent implements OnInit {
 
   private buildInquiryMessage(): string {
     const parts = [
-      `Hello Hai Sri Lanka — I'd like help planning "${this.tour().title}".`,
+      `Hello Hai Sri Lanka, I'd like help planning "${this.tour().title}".`,
       this.needsCustomQuote()
         ? `Travelers: 7+ (please contact me to plan a custom group tour)`
         : `Travelers: ${this.travelers()}`,

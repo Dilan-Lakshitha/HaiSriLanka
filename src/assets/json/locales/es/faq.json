@@ -2,7 +2,7 @@
   "global": [
     {
       "question": "¿Los tours son privados?",
-      "answer": "Sí. Hai Sri Lanka ofrece viajes privados para parejas, familias y grupos pequeños. Viaja con tu propio conductor-guía, no en un bus compartido."
+      "answer": "Sí. Hai Sri Lanka ofrece viajes privados para parejas, familias y grupos pequeños. Viaja con tu propio conductor guía, no en un bus compartido."
     },
     {
       "question": "¿Organizan traslados al aeropuerto?",
@@ -26,7 +26,7 @@
     },
     {
       "question": "¿Qué suele incluirse?",
-      "answer": "Vehículo privado, conductor-guía, combustible y parking suelen incluirse. Entradas, comidas y hoteles están en cada ficha."
+      "answer": "Vehículo privado, conductor guía, combustible y parking suelen incluirse. Entradas, comidas y hoteles están en cada ficha."
     },
     {
       "question": "¿Con cuánta antelación reservar?",
@@ -47,11 +47,11 @@
       "items": [
         {
           "question": "¿Ofrecen tours privados por Sri Lanka?",
-          "answer": "Sí. Cada tour de Hai Sri Lanka es privado: su vehículo y un conductor-guía en inglés, no un autobús mixto. Los tours de un día y los paquetes de varios días se adaptan a sus fechas."
+          "answer": "Sí. Cada tour de Hai Sri Lanka es privado: su vehículo y un conductor guía en inglés, no un autobús mixto. Los tours de un día y los paquetes de varios días se adaptan a sus fechas."
         },
         {
           "question": "¿Qué incluye un paquete de tour por Sri Lanka?",
-          "answer": "Transporte privado, combustible, aparcamiento y conductor-guía suelen estar incluidos. Los paquetes de varios días a menudo incluyen hoteles de 4 estrellas. Entradas y comidas constan en cada página de tour."
+          "answer": "Transporte privado, combustible, aparcamiento y conductor guía suelen estar incluidos. Los paquetes de varios días a menudo incluyen hoteles de 4 estrellas. Entradas y comidas constan en cada página de tour."
         },
         {
           "question": "¿Qué lugares de Sri Lanka visitan sus tours?",

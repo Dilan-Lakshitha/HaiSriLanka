@@ -2,7 +2,9 @@
   "legalName": "Hai Sri Lanka Tours",
   "brandName": "Hai Sri Lanka",
   "email": "haisrilankatour@gmail.com",
-  "phone": ["+94 74 313 7241"],
+  "phone": [
+    "+94 74 313 7241"
+  ],
   "whatsapp": "+94743137241",
   "address": {
     "streetAddress": "No. 12 Galle Road",
@@ -11,13 +13,16 @@
     "postalCode": "00300",
     "addressCountry": "LK"
   },
-  "geo": { "lat": 6.9271, "lng": 79.8612 },
+  "geo": {
+    "lat": 6.9271,
+    "lng": 79.8612
+  },
   "social": {
     "facebook": "https://www.facebook.com/haisrilankatours/",
     "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g293962-d28654718-Reviews-Hai_Sri_Lanka_Tours-Colombo_Western_Province.html"
   },
   "tripadvisor": {
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 214,
     "label": "TripAdvisor Travellers' Choice",
     "url": "https://www.tripadvisor.com/Attraction_Review-g293962-d28654718-Reviews-Hai_Sri_Lanka_Tours-Colombo_Western_Province.html"
@@ -85,10 +90,15 @@
     }
   },
   "foundingYear": 2020,
-  "description": "Premium inbound tourism experiences across Sri Lanka private tours, cultural journeys, and tailor-made itineraries.",
+  "description": "Premium inbound tourism experiences across Sri Lanka private tours, cultural journeys, and tailor made itineraries.",
   "seo": {
-    "metaTitle": "Sri Lanka Tours | Private Tours & Vacation Packages",
-    "metaDescription": "Hai Sri Lanka Tours — private Sri Lanka tours, day trips, and tailor-made vacation packages with local hosts across the island.",
-    "keywords": ["Sri Lanka tours", "Hai Sri Lanka", "private tours Sri Lanka", "Sri Lanka tour package"]
+    "metaTitle": "Private Sri Lanka Tours & Packages | Hai Sri Lanka",
+    "metaDescription": "Hai Sri Lanka Tours, private Sri Lanka tours, day trips from Colombo, and tailor made vacation packages with a local driver guide. Pay at destination.",
+    "keywords": [
+      "private Sri Lanka tours",
+      "Sri Lanka tour packages",
+      "Hai Sri Lanka",
+      "private driver Sri Lanka"
+    ]
   }
 }

@@ -18,7 +18,7 @@
     },
     {
       "title": "Temple of the Tooth, tea and Ella",
-      "description": "Sacred Kandy, tea-country roads, and arrival in Ella’s cool highlands."
+      "description": "Sacred Kandy, tea country roads, and arrival in Ella’s cool highlands."
     },
     {
       "title": "Train, Yala and the south coast",
@@ -45,23 +45,23 @@
   },
   "itinerary": [
     {
-      "title": "BIA / Hotel – Sigiriya",
+      "title": "BIA / Hotel to Sigiriya",
       "description": "Viaggia nell'entroterra verso Sigiriya per un tour del villaggio o un safari sugli elefanti a Minneriya, Kaudulla o Hurulu Eco Park, oltre a Pidurangala o Lion Rock."
     },
     {
-      "title": "Sigiriya – Kandy",
+      "title": "Sigiriya to Kandy",
       "description": "Lascia il triangolo passando per il tempio rupestre di Dambulla e il giardino delle spezie di Matale, quindi visita un museo di gemme e goditi una danza culturale Kandyan la sera."
     },
     {
-      "title": "Kandy-Ella",
+      "title": "Kandy Ella",
       "description": "Mattinata al Tempio della Reliquia del Dente, poi salita nella regione del tè per una visita alla piantagione e alla fabbrica prima di un tour della città di Ella."
     },
     {
-      "title": "Ella – Yala",
+      "title": "Ella to Yala",
       "description": "Viaggia sul treno panoramico attraverso le colline, fai una pausa alle Ravana Falls, quindi prosegui per Yala per un safari nel parco nazionale."
     },
     {
-      "title": "Yala – Riconsegna",
+      "title": "Yala to Riconsegna",
       "description": "Finale costiero con osservazione di delfini e balene a Mirissa, forte olandese di Galle, un vivaio di tartarughe e un safari in barca a Bentota prima del rientro in hotel o all'aeroporto."
     }
   ],

@@ -10,7 +10,7 @@
     },
     {
       "question": "Jak zarezerwować?",
-      "answer": "Wybierz wycieczkę, liczbę osób i datę, wyślij dane — dostaniesz e-mail. Do zgłoszenia nie trzeba płacić online."
+      "answer": "Wybierz wycieczkę, liczbę osób i datę, wyślij dane, dostaniesz e-mail. Do zgłoszenia nie trzeba płacić online."
     },
     {
       "question": "Czy trasy można dostosować?",
@@ -26,11 +26,11 @@
     },
     {
       "question": "Co zwykle jest w cenie?",
-      "answer": "Prywatny pojazd, kierowca-przewodnik, paliwo i parking. Bilety, posiłki i hotele są na stronie wycieczki."
+      "answer": "Prywatny pojazd, kierowca przewodnik, paliwo i parking. Bilety, posiłki i hotele są na stronie wycieczki."
     },
     {
       "question": "Jak wcześnie rezerwować?",
-      "answer": "2–4 tygodnie na jednodniówki. Wielodniowe i szczyt sezonu — wcześniej."
+      "answer": "2 to 4 tygodnie na jednodniówki. Wielodniowe i szczyt sezonu, wcześniej."
     },
     {
       "question": "Czy przyjmujecie dzieci i osoby podróżujące solo?",
@@ -47,11 +47,11 @@
       "items": [
         {
           "question": "Czy oferujecie prywatne wycieczki po Sri Lance?",
-          "answer": "Tak. Każda wycieczka Hai Sri Lanka jest prywatna — Wasz pojazd i anglojęzyczny kierowca-przewodnik, bez mieszanego autokaru. Wyprawy jednodniowe i pakiety wielodniowe dopasowujemy do Waszych dat."
+          "answer": "Tak. Każda wycieczka Hai Sri Lanka jest prywatna, Wasz pojazd i anglojęzyczny kierowca przewodnik, bez mieszanego autokaru. Wyprawy jednodniowe i pakiety wielodniowe dopasowujemy do Waszych dat."
         },
         {
           "question": "Co zawiera pakiet wycieczki po Sri Lance?",
-          "answer": "Prywatny transport, paliwo, parking i kierowca-przewodnik są zwykle w cenie. Pakiety wielodniowe często obejmują hotele 4-gwiazdkowe. Bilety i posiłki są na stronie każdej wycieczki."
+          "answer": "Prywatny transport, paliwo, parking i kierowca przewodnik są zwykle w cenie. Pakiety wielodniowe często obejmują hotele 4 gwiazdkowe. Bilety i posiłki są na stronie każdej wycieczki."
         },
         {
           "question": "Jakie miejsca na Sri Lance odwiedzają Wasze wycieczki?",

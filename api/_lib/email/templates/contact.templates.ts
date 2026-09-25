@@ -34,6 +34,6 @@ export function visitorContactHtml(contact: ContactPayload): string {
     <h1>We received your message</h1>
     <p>Dear ${name},</p>
     <p>Thank you for contacting Hai Sri Lanka Tours. Our team will reply shortly.</p>
-    <p>— Hai Sri Lanka Tours</p>
+    <p>Hai Sri Lanka Tours</p>
   `;
 }

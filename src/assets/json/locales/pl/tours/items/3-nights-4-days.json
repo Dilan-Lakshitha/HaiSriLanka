@@ -1,10 +1,10 @@
 {
-  "title": "4-dniowa ucieczka z Cejlonu z 4-gwiazdkowymi hotelami i prywatnym transportem",
-  "seoTitle": "4-dniowa ucieczka z Cejlonu z 4-gwiazdkowymi hotelami i prywatnym transportem | Hai Sri Lanka",
+  "title": "4-dniowa ucieczka z Cejlonu z 4 gwiazdkowymi hotelami i prywatnym transportem",
+  "seoTitle": "4-dniowa ucieczka z Cejlonu z 4 gwiazdkowymi hotelami i prywatnym transportem | Hai Sri Lanka",
   "metaDescription": "Prywatna 4-dniowa wycieczka po Sri Lance: Kandy, Ella, safari Yala, obserwowanie wielorybów w Mirissa, Fort Galle i Bentota.",
-  "shortDescription": "Kandy, Ella, Yala i południowe wybrzeże w cztery dni – 4-gwiazdkowe hotele i prywatny kierowca na terenie całego obiektu.",
-  "overview": "Kompaktowa czterodniowa prywatna podróż z wyżyn na południowe wybrzeże. Zacznij od kultury i kraju herbaty Kandy, kontynuuj malowniczym pociągiem do Elli, a następnie dzikiej przyrody w Parku Narodowym Yala.\nTwój finał będzie przebiegał wzdłuż południowego wybrzeża – Mirissa – ocean, Galle Fort – dziedzictwo kulturowe i Bentota – rejs łodzią – przed wylotem do hotelu lub na lotnisko. Idealny, jeśli chcesz klasycznych atrakcji Sri Lanki bez długiej trasy.",
-  "description": "Kompaktowa czterodniowa prywatna podróż z wyżyn na południowe wybrzeże. Zacznij od kultury i kraju herbaty Kandy, kontynuuj malowniczym pociągiem do Elli, a następnie dzikiej przyrody w Parku Narodowym Yala.\nTwój finał będzie przebiegał wzdłuż południowego wybrzeża – Mirissa – ocean, Galle Fort – dziedzictwo kulturowe i Bentota – rejs łodzią – przed wylotem do hotelu lub na lotnisko. Idealny, jeśli chcesz klasycznych atrakcji Sri Lanki bez długiej trasy.",
+  "shortDescription": "Kandy, Ella, Yala i południowe wybrzeże w cztery dni to 4 gwiazdkowe hotele i prywatny kierowca na terenie całego obiektu.",
+  "overview": "Kompaktowa czterodniowa prywatna podróż z wyżyn na południowe wybrzeże. Zacznij od kultury i kraju herbaty Kandy, kontynuuj malowniczym pociągiem do Elli, a następnie dzikiej przyrody w Parku Narodowym Yala.\nTwój finał będzie przebiegał wzdłuż południowego wybrzeża to Mirissa to ocean, Galle Fort to dziedzictwo kulturowe i Bentota to rejs łodzią to przed wylotem do hotelu lub na lotnisko. Idealny, jeśli chcesz klasycznych atrakcji Sri Lanki bez długiej trasy.",
+  "description": "Kompaktowa czterodniowa prywatna podróż z wyżyn na południowe wybrzeże. Zacznij od kultury i kraju herbaty Kandy, kontynuuj malowniczym pociągiem do Elli, a następnie dzikiej przyrody w Parku Narodowym Yala.\nTwój finał będzie przebiegał wzdłuż południowego wybrzeża to Mirissa to ocean, Galle Fort to dziedzictwo kulturowe i Bentota to rejs łodzią to przed wylotem do hotelu lub na lotnisko. Idealny, jeśli chcesz klasycznych atrakcji Sri Lanki bez długiej trasy.",
   "duration": "4 dni / 3 noce",
   "travelStyle": "Kultura",
   "highlights": [
@@ -18,10 +18,10 @@
     },
     {
       "title": "Scenic train and Yala safari",
-      "description": "A hill-country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
+      "description": "A hill country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
     },
     {
-      "title": "South-coast finale",
+      "title": "South coast finale",
       "description": "Mirissa whale watching, Galle Fort, a turtle hatchery, and Bentota before your hotel or airport drop."
     }
   ],
@@ -33,38 +33,38 @@
     "Paliwo i opłaty parkingowe",
     "Obsługa 24 godziny",
     "Darmowa woda butelkowana",
-    "Hotel 4-gwiazdkowy ze śniadaniem i kolacją"
+    "Hotel 4 gwiazdkowy ze śniadaniem i kolacją"
   ],
   "excluded": [
     "Bilety wstępu",
     "Obiad"
   ],
   "seo": {
-    "metaTitle": "4-dniowa ucieczka z Cejlonu z 4-gwiazdkowymi hotelami i prywatnym transportem | Hai Sri Lanka",
+    "metaTitle": "4-dniowa ucieczka z Cejlonu z 4 gwiazdkowymi hotelami i prywatnym transportem | Hai Sri Lanka",
     "metaDescription": "Prywatna 4-dniowa wycieczka po Sri Lance: Kandy, Ella, safari Yala, obserwowanie wielorybów w Mirissa, Fort Galle i Bentota."
   },
   "itinerary": [
     {
-      "title": "Lotnisko/Hotel – Kandy",
-      "description": "Podróżuj w głąb lądu w kierunku Kandy z klasycznymi przystankami kulturalnymi – słoniami w Pinnawala, zapachami ogrodu przypraw, widokami na jezioro i wieczorem tańca Kandyan."
+      "title": "Lotnisko/Hotel to Kandy",
+      "description": "Podróżuj w głąb lądu w kierunku Kandy z klasycznymi przystankami kulturalnymi to słoniami w Pinnawala, zapachami ogrodu przypraw, widokami na jezioro i wieczorem tańca Kandyan."
     },
     {
-      "title": "Kandy – Ella",
+      "title": "Kandy to Ella",
       "description": "Poranek w Świątyni Reliktu Zęba, następnie udaj się do krainy herbaty z wizytą w fabryce, po czym udaj się do Elli na łagodną wycieczkę po mieście."
     },
     {
-      "title": "Ella – Yala",
+      "title": "Ella to Yala",
       "description": "Przejedź malowniczym pociągiem przez wzgórza, zatrzymaj się przy wodospadzie Ravana, a następnie jedź do Yala na popołudniowe lub wieczorne safari po parku narodowym."
     },
     {
-      "title": "Yala – Bentota – Hotel/Lotnisko",
+      "title": "Yala to Bentota to Hotel/Lotnisko",
       "description": "Finał na wybrzeżu na południu: obserwowanie wielorybów w Mirissa lub nurkowanie z rurką z wielorybami lub żółwiami morskimi, Fort w Galle, wylęgarnia żółwi i safari łodzią Bentota przed wylotem do hotelu lub na lotnisko."
     }
   ],
   "faqs": [
     {
       "question": "Czy plan podróży można dostosować?",
-      "answer": "Tak. Dopasowujemy tempo, hotele i atrakcje — na przykład zamieniamy obserwację wielorybów na więcej czasu na plaży — do Twoich preferencji."
+      "answer": "Tak. Dopasowujemy tempo, hotele i atrakcje, na przykład zamieniamy obserwację wielorybów na więcej czasu na plaży, do Twoich preferencji."
     },
     {
       "question": "Czy obserwowanie wielorybów jest sezonowe?",

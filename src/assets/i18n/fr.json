@@ -37,7 +37,7 @@
     "legal": "Mentions légales",
     "rights": "Tous droits réservés.",
     "contactCta": "Planifier votre voyage",
-    "newsletterThanks": "Merci — vous êtes sur la liste."
+    "newsletterThanks": "Merci, vous êtes sur la liste."
   },
   "common": {
     "loading": "Chargement…",
@@ -89,19 +89,19 @@
   "seo": {
     "home": {
       "title": "Circuits Sri Lanka | Voyages privés & séjours",
-      "description": "Circuits privés au Sri Lanka et séjours sur mesure. Excursions et packages vers Sigiriya, Kandy, Ella, Yala, Galle et la côte — guide anglophone, hôtels, paiement sur place."
+      "description": "Circuits privés au Sri Lanka et séjours sur mesure. Excursions et packages vers Sigiriya, Kandy, Ella, Yala, Galle et la côte, guide anglophone, hôtels, paiement sur place."
     },
     "about": {
       "title": "À propos de Hai Sri Lanka Tours | Voyages inbound privés",
-      "description": "Hai Sri Lanka Tours à Colombo — excursions privées et voyages plurijournaliers au Sri Lanka depuis 2020."
+      "description": "Hai Sri Lanka Tours à Colombo, excursions privées et voyages plurijournaliers au Sri Lanka depuis 2020."
     },
     "toursHub": {
       "title": "Circuits Sri Lanka | Journée & séjours privés",
-      "description": "Packages Sri Lanka : excursions privées et séjours de plusieurs jours avec hôtels, chauffeur-guide et tarifs transparents. Pour couples, familles et petits groupes."
+      "description": "Packages Sri Lanka : excursions privées et séjours de plusieurs jours avec hôtels, chauffeur guide et tarifs transparents. Pour couples, familles et petits groupes."
     },
     "dayTours": {
       "title": "Excursions Sri Lanka | Journées privées",
-      "description": "Excursions privées au Sri Lanka depuis Colombo et la côte ouest — Galle, Sigiriya, Kandy, Ella et plus. Véhicule dédié, guide anglophone, rythme flexible."
+      "description": "Excursions privées au Sri Lanka depuis Colombo et la côte ouest, Galle, Sigiriya, Kandy, Ella et plus. Véhicule dédié, guide anglophone, rythme flexible."
     },
     "multiDayTours": {
       "title": "Séjours Sri Lanka | Circuits privés plurijournaliers",
@@ -133,7 +133,7 @@
     },
     "contact": {
       "title": "Contactez Hai Sri Lanka Tours | Voyage privé au Sri Lanka",
-      "description": "Écrivez-nous pour planifier un voyage privé au Sri Lanka. Réponse par e-mail ou WhatsApp, itinéraire sur mesure autour de vos dates."
+      "description": "Écrivez nous pour planifier un voyage privé au Sri Lanka. Réponse par e-mail ou WhatsApp, itinéraire sur mesure autour de vos dates."
     },
     "blog": {
       "title": "Voyage Blog | Hai Sri Lanka",
@@ -158,7 +158,7 @@
   },
   "tour": {
     "badge": {
-      "best-seller": "Best-seller",
+      "best-seller": "Best seller",
       "featured": "En vedette",
       "luxury": "Luxe",
       "family": "Famille",
@@ -212,14 +212,14 @@
     "nextTitle": "Prochaines étapes",
     "next1": "Notre équipe examine vos dates et votre demande.",
     "next2": "Nous vous contactons par e-mail ou WhatsApp pour confirmer.",
-    "next3": "Vous voyagez avec votre hôte privé — paiement sur place.",
+    "next3": "Vous voyagez avec votre hôte privé, paiement sur place.",
     "print": "Imprimer la facture",
     "browseTours": "Voir plus de circuits",
     "contactUs": "Nous contacter",
     "whatsappCta": "WhatsApp pour cette réservation",
     "viewTours": "Voir les circuits au Sri Lanka",
-    "whatsappPrefill": "Bonjour Hai Sri Lanka — concernant la réservation {{ref}} ({{tour}}).",
-    "whatsappPrefillGeneric": "Bonjour Hai Sri Lanka — j’ai une question sur ma réservation."
+    "whatsappPrefill": "Bonjour Hai Sri Lanka, concernant la réservation {{ref}} ({{tour}}).",
+    "whatsappPrefillGeneric": "Bonjour Hai Sri Lanka, j’ai une question sur ma réservation."
   },
   "consent": {
     "title": "Cookies et confidentialité",
@@ -230,9 +230,9 @@
   "contactPage": {
     "eyebrow": "Contact",
     "title": "Préparez votre voyage au Sri Lanka avec nous",
-    "intro": "Envoyez-nous un mot — nous répondons personnellement par e-mail ou WhatsApp et construisons un itinéraire privé autour de vos dates.",
-    "formTitle": "Envoyez-nous un message",
-    "formLead": "Dites-nous ce que vous recherchez. Votre message arrive directement dans notre boîte mail.",
+    "intro": "Envoyez nous un mot, nous répondons personnellement par e-mail ou WhatsApp et construisons un itinéraire privé autour de vos dates.",
+    "formTitle": "Envoyez nous un message",
+    "formLead": "Dites nous ce que vous recherchez. Votre message arrive directement dans notre boîte mail.",
     "name": "Nom *",
     "email": "E-mail *",
     "whatsapp": "Numéro WhatsApp *",
@@ -245,11 +245,11 @@
     "otherLead": "Vous préférez un échange rapide ? Téléphone ou WhatsApp à tout moment.",
     "phone": "Téléphone",
     "whatsappLabel": "WhatsApp",
-    "whatsappValue": "Écrivez-nous sur WhatsApp",
+    "whatsappValue": "Écrivez nous sur WhatsApp",
     "emailLabel": "E-mail",
-    "findUs": "Retrouvez-nous en ligne",
+    "findUs": "Retrouvez nous en ligne",
     "ctaEyebrow": "Quand vous serez prêts",
-    "ctaBody": "Parcourez les excursions d’une journée et les voyages plurijournaliers, puis indiquez-nous vos dates.",
+    "ctaBody": "Parcourez les excursions d’une journée et les voyages plurijournaliers, puis indiquez nous vos dates.",
     "exploreTours": "Voir les circuits",
     "schemaName": "Contacter Hai Sri Lanka Tours",
     "schemaDescription": "Contactez Hai Sri Lanka Tours par formulaire, téléphone, WhatsApp ou e-mail pour planifier un voyage privé au Sri Lanka."
@@ -257,7 +257,7 @@
   "destinationsPage": {
     "eyebrow": "Destinations",
     "title": "Lieux à visiter au Sri Lanka",
-    "intro": "Découvrez les plus beaux lieux du Sri Lanka — Fort de Galle, Sigiriya, Kandy, Ella, Yala, pays du thé et côte sud — puis transformez-les en circuit privé ou séjour.",
+    "intro": "Découvrez les plus beaux lieux du Sri Lanka, Fort de Galle, Sigiriya, Kandy, Ella, Yala, pays du thé et côte sud, puis transformez les en circuit privé ou séjour.",
     "allTitle": "Toutes les destinations",
     "count": "{{count}} lieux à explorer",
     "filterAria": "Filtrer par région",
@@ -273,12 +273,12 @@
     "intro": "Hai Sri Lanka Tours crée des excursions d’une journée et des voyages plurijournaliers privés, avec paiement sur place.",
     "storyTitle": "Qui nous sommes",
     "story1": "Fondée à Colombo en 2020, une petite équipe inbound pour couples, familles et amis qui veulent l’île sans cars mixtes.",
-    "story2": "Itinéraires autour de Galle, du Triangle culturel, de Kandy, du thé, de Yala et de la côte sud — joignables par e-mail et WhatsApp.",
+    "story2": "Itinéraires autour de Galle, du Triangle culturel, de Kandy, du thé, de Yala et de la côte sud, joignables par e-mail et WhatsApp.",
     "valuesTitle": "Notre façon de voyager",
     "values": [
       {
         "title": "Privé par défaut",
-        "body": "Véhicule et chauffeur-guide réservés à votre groupe. La journée reste souple."
+        "body": "Véhicule et chauffeur guide réservés à votre groupe. La journée reste souple."
       },
       {
         "title": "Logistique claire",
@@ -290,7 +290,7 @@
       }
     ],
     "ctaEyebrow": "Planifier avec nous",
-    "ctaBody": "Parcourez les circuits ou envoyez vos dates — réponse personnelle.",
+    "ctaBody": "Parcourez les circuits ou envoyez vos dates, réponse personnelle.",
     "exploreTours": "Voir les circuits",
     "schemaName": "À propos de Hai Sri Lanka Tours"
   },
@@ -299,7 +299,7 @@
     "title": "Questions avant le départ",
     "intro": "Circuits privés, paiement sur place, transferts aéroport et réservation avec Hai Sri Lanka Tours.",
     "ctaEyebrow": "Encore une hésitation ?",
-    "ctaBody": "Écrivez-nous vos dates, nous proposerons l’étape suivante.",
+    "ctaBody": "Écrivez nous vos dates, nous proposerons l’étape suivante.",
     "exploreTours": "Voir les circuits"
   },
   "privacyPage": {
@@ -334,7 +334,7 @@
       }
     ],
     "ctaEyebrow": "Questions sur vos données",
-    "ctaBody": "Écrivez-nous, nous expliquerons le traitement de votre demande.",
+    "ctaBody": "Écrivez nous, nous expliquerons le traitement de votre demande.",
     "exploreTours": "Voir les circuits"
   },
   "termsPage": {
@@ -353,7 +353,7 @@
       },
       {
         "title": "Modifications et annulation",
-        "body": "Prévenez-nous tôt. La plupart des circuits privés sont annulables gratuitement avec un préavis raisonnable."
+        "body": "Prévenez nous tôt. La plupart des circuits privés sont annulables gratuitement avec un préavis raisonnable."
       },
       {
         "title": "Vos responsabilités",

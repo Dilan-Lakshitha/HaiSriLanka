@@ -9,7 +9,7 @@
   "travelStyle": "Animali selvatici",
   "highlights": [
     {
-      "title": "Wilpattu and dry-zone safaris",
+      "title": "Wilpattu and dry zone safaris",
       "description": "Wild lakes at Wilpattu, then Minneriya or Kaudulla for elephants in the Cultural Triangle."
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "title": "Ella, Galle Fort and Bentota",
-      "description": "Hill viewpoints, then the south coast — fort walls, turtles, and a beach close before Colombo."
+      "description": "Hill viewpoints, then the south coast, fort walls, turtles, and a beach close before Colombo."
     }
   ],
   "included": [
@@ -45,11 +45,11 @@
   },
   "itinerary": [
     {
-      "title": "Aeroporto/Hotel – Wilpattu",
+      "title": "Aeroporto/Hotel to Wilpattu",
       "description": "Viaggia a nord verso Wilpattu per un safari in uno dei parchi nazionali più antichi e selvaggi dello Sri Lanka, quindi pernotta vicino a Wilpattu o Anuradhapura."
     },
     {
-      "title": "Wilpattu-Sigiriya",
+      "title": "Wilpattu Sigiriya",
       "description": "Prosegui per Sigiriya per scalare Lion Rock, goderti un tour del villaggio e rilassarti con un massaggio ayurvedico."
     },
     {
@@ -57,7 +57,7 @@
       "description": "Sali sul Pidurangala per ammirare l'alba o le viste panoramiche, poi un safari sugli elefanti a Minneriya, Kaudulla o Hurulu Eco Park."
     },
     {
-      "title": "Sigiriya – Trincomalee",
+      "title": "Sigiriya to Trincomalee",
       "description": "Attraversa la costa orientale per il tempio indù di Koneswaram e i punti panoramici di Lover's Leap sopra l'Oceano Indiano."
     },
     {
@@ -65,15 +65,15 @@
       "description": "Una giornata intera sulla costa orientale per l'osservazione di delfini e balene, immersioni subacquee e snorkeling in acque limpide."
     },
     {
-      "title": "Trincomalee – Kandy",
+      "title": "Trincomalee to Kandy",
       "description": "Ritorno nell'entroterra passando per il Dambulla Cave Temple e il Matale Spice Garden, poi un museo delle gemme, Upper Lake Drive e la danza culturale Kandyan."
     },
     {
-      "title": "Kandy – Nuwara Eliya",
+      "title": "Kandy to Nuwara Eliya",
       "description": "Mattinata al Tempio della Reliquia del Dente, poi salita sulle colline del tè con la Torre Ambuluwawa, visita alla piantagione e alla fabbrica e tour della città di Nuwara Eliya."
     },
     {
-      "title": "Nuwara Eliya – Ella",
+      "title": "Nuwara Eliya to Ella",
       "description": "Trekking anticipato nel Parco Nazionale di Horton Plains, quindi proseguimento per Ella con il treno panoramico attraverso le colline."
     },
     {
@@ -81,15 +81,15 @@
       "description": "Una giornata rilassante a Ella: tour della città al mattino, poi tempo libero per rilassarsi sulle colline."
     },
     {
-      "title": "Ella – Galle",
+      "title": "Ella to Galle",
       "description": "Scendi verso la costa meridionale con una sosta alle Ravana Falls, quindi esplora lo storico Forte di Galle."
     },
     {
-      "title": "Galle – Kalutara",
+      "title": "Galle to Kalutara",
       "description": "Visita un vivaio di tartarughe e goditi un giro in barca Bentota prima di pernottare a Kalutara."
     },
     {
-      "title": "Kalutara – Aeroporto",
+      "title": "Kalutara to Aeroporto",
       "description": "Un tour della città di Colombo programmato secondo il tuo programma, quindi trasferimento privato all'aeroporto."
     }
   ],

@@ -1,11 +1,11 @@
 {
   "global": [
     {
-      "question": "Les visites sont-elles privées ?",
-      "answer": "Oui. Hai Sri Lanka propose des voyages privés pour couples, familles et petits groupes. Vous voyagez avec votre chauffeur-guide, pas en car collectif."
+      "question": "Les visites sont elles privées ?",
+      "answer": "Oui. Hai Sri Lanka propose des voyages privés pour couples, familles et petits groupes. Vous voyagez avec votre chauffeur guide, pas en car collectif."
     },
     {
-      "question": "Organisez-vous les transferts aéroport ?",
+      "question": "Organisez vous les transferts aéroport ?",
       "answer": "Oui. Accueil et départ peuvent être inclus dans un itinéraire de plusieurs jours ou réservés séparément."
     },
     {
@@ -13,11 +13,11 @@
       "answer": "Choisissez un circuit, les voyageurs et la date, envoyez vos coordonnées et vous recevez une confirmation par e-mail. Aucun paiement en ligne n’est requis pour la demande."
     },
     {
-      "question": "Les itinéraires peuvent-ils être personnalisés ?",
+      "question": "Les itinéraires peuvent ils être personnalisés ?",
       "answer": "Oui. Nous ajustons le rythme, les hôtels et les expériences avant de confirmer."
     },
     {
-      "question": "Quand dois-je payer ?",
+      "question": "Quand dois je payer ?",
       "answer": "Vous payez sur place une fois le circuit confirmé. Nous ne prenons pas de paiement en ligne pour une demande."
     },
     {
@@ -25,15 +25,15 @@
       "answer": "La plupart des circuits peuvent être annulés gratuitement si vous prévenez assez tôt. Les détails figurent dans l’e-mail de réservation."
     },
     {
-      "question": "Qu’est-ce qui est généralement inclus ?",
-      "answer": "Véhicule privé, chauffeur-guide, carburant et parking sont en général inclus. Billets, repas et hôtels sont indiqués sur chaque page."
+      "question": "Qu’est ce qui est généralement inclus ?",
+      "answer": "Véhicule privé, chauffeur guide, carburant et parking sont en général inclus. Billets, repas et hôtels sont indiqués sur chaque page."
     },
     {
       "question": "Combien de temps à l’avance réserver ?",
       "answer": "Deux à quatre semaines suffisent souvent pour une journée. Les voyages plurijournaliers et la haute saison se réservent plus tôt."
     },
     {
-      "question": "Acceptez-vous les enfants et les voyageurs seuls ?",
+      "question": "Acceptez vous les enfants et les voyageurs seuls ?",
       "answer": "Oui. Indiquez âges et rythme pour adapter la journée."
     },
     {
@@ -46,15 +46,15 @@
       "pageKey": "home",
       "items": [
         {
-          "question": "Proposez-vous des circuits privés au Sri Lanka ?",
-          "answer": "Oui. Chaque circuit Hai Sri Lanka est privé — votre véhicule et un chauffeur-guide anglophone, pas un bus mixte. Excursions et séjours de plusieurs jours s’adaptent à vos dates."
+          "question": "Proposez vous des circuits privés au Sri Lanka ?",
+          "answer": "Oui. Chaque circuit Hai Sri Lanka est privé, votre véhicule et un chauffeur guide anglophone, pas un bus mixte. Excursions et séjours de plusieurs jours s’adaptent à vos dates."
         },
         {
           "question": "Que comprend un package Sri Lanka ?",
-          "answer": "Transport privé, carburant, parking et chauffeur-guide sont en général inclus. Les séjours de plusieurs jours incluent souvent des hôtels 4 étoiles. Tickets et repas figurent sur chaque page circuit."
+          "answer": "Transport privé, carburant, parking et chauffeur guide sont en général inclus. Les séjours de plusieurs jours incluent souvent des hôtels 4 étoiles. Tickets et repas figurent sur chaque page circuit."
         },
         {
-          "question": "Quels lieux vos circuits visitent-ils au Sri Lanka ?",
+          "question": "Quels lieux vos circuits visitent ils au Sri Lanka ?",
           "answer": "Lieux populaires : Sigiriya, Dambulla, Kandy, Ella, Yala, Mirissa, Fort de Galle, Bentota et Colombo. Nous adaptons aussi les routes aux lieux que vous tenez à voir."
         }
       ]
@@ -63,7 +63,7 @@
       "pageKey": "faq",
       "items": [
         {
-          "question": "Où êtes-vous basés ?",
+          "question": "Où êtes vous basés ?",
           "answer": "Hai Sri Lanka Tours est basé à Colombo et organise des voyages privés dans toute l’île."
         },
         {

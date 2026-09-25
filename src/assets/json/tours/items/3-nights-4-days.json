@@ -6,7 +6,7 @@
   "seoTitle": "4-Day Ceylon Escape with 4 STAR Hotels & Private Transport | Hai Sri Lanka",
   "metaDescription": "Private 4-day Sri Lanka tour: Kandy, Ella, Yala safari, Mirissa whale watching, Galle Fort, and Bentota.",
   "shortDescription": "Kandy, Ella, Yala, and the south coast in four days - 4 STAR hotels and a private driver throughout.",
-  "overview": "A compact four-day private journey from the highlands to the south coast. Begin with Kandy's culture and tea country, continue by scenic train into Ella, then wildlife at Yala National Park.\nYour finale follows the southern shoreline — Mirissa for the ocean, Galle Fort for heritage, and Bentota for a boat safari — before drop-off at your hotel or the airport. Ideal when you want Sri Lanka's classic highlights without a long itinerary.",
+  "overview": "A compact four day private journey from the highlands to the south coast. Begin with Kandy's culture and tea country, continue by scenic train into Ella, then wildlife at Yala National Park.\nYour finale follows the southern shoreline, Mirissa for the ocean, Galle Fort for heritage, and Bentota for a boat safari, before drop off at your hotel or the airport. Ideal when you want Sri Lanka's classic highlights without a long itinerary.",
   "duration": "4 Days / 3 Nights",
   "destinations": [
     "Kandy",
@@ -28,22 +28,22 @@
     },
     {
       "title": "Scenic train and Yala safari",
-      "description": "A hill-country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
+      "description": "A hill country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
     },
     {
-      "title": "South-coast finale",
+      "title": "South coast finale",
       "description": "Mirissa whale watching, Galle Fort, a turtle hatchery, and Bentota before your hotel or airport drop."
     }
   ],
   "included": [
-    "Air-conditioned private vehicle",
-    "English-speaking professional driver",
+    "Air conditioned private vehicle",
+    "English speaking professional driver",
     "Driver's accommodation & meals",
-    "Pickup & drop-off",
+    "Pickup & drop off",
     "Fuel & parking fees",
     "24-hour service",
     "Free bottled water",
-    "4 STAR hotel with half-board accommodation"
+    "4 STAR hotel with half board accommodation"
   ],
   "excluded": [
     "Entrance fees",
@@ -52,8 +52,8 @@
   "itinerary": [
     {
       "day": 1,
-      "title": "Airport / Hotel – Kandy",
-      "description": "Travel inland toward Kandy with classic cultural stops — elephants at Pinnawala, spice garden scents, lakeside views, and an evening of Kandyan dance.",
+      "title": "Airport / Hotel to Kandy",
+      "description": "Travel inland toward Kandy with classic cultural stops, elephants at Pinnawala, spice garden scents, lakeside views, and an evening of Kandyan dance.",
       "highlights": [
         "Pinnawala Elephant Orphanage",
         "Spice Garden",
@@ -86,7 +86,7 @@
     },
     {
       "day": 2,
-      "title": "Kandy – Ella",
+      "title": "Kandy to Ella",
       "description": "Morning at the Temple of the Tooth Relic, then climb into tea country with a factory visit before settling into Ella for a gentle city tour.",
       "highlights": [
         "Temple of the Tooth Relic",
@@ -119,7 +119,7 @@
     },
     {
       "day": 3,
-      "title": "Ella – Yala",
+      "title": "Ella to Yala",
       "description": "Ride the scenic train through the hills, pause at Ravana Falls, then continue to Yala for an afternoon or evening safari in the national park.",
       "highlights": [
         "Train Ride",
@@ -152,8 +152,8 @@
     },
     {
       "day": 4,
-      "title": "Yala – Bentota – Hotel / Airport",
-      "description": "Coastal finale along the south: Mirissa whale watching or snorkeling with whales or sea turtles, Galle Fort, a turtle hatchery, and a Bentota boat safari before your hotel or airport drop-off.",
+      "title": "Yala to Bentota to Hotel / Airport",
+      "description": "Coastal finale along the south: Mirissa whale watching or snorkeling with whales or sea turtles, Galle Fort, a turtle hatchery, and a Bentota boat safari before your hotel or airport drop off.",
       "highlights": [
         "Mirissa Whale Watching / Snorkeling with Whales or Sea Turtles",
         "Galle Fort",
@@ -188,7 +188,7 @@
   "faqs": [
     {
       "question": "Can the itinerary be customized?",
-      "answer": "Yes. We tailor pace, hotels, and experiences — for example swapping whale watching for more beach time — to your preferences."
+      "answer": "Yes. We tailor pace, hotels, and experiences, for example swapping whale watching for more beach time, to your preferences."
     },
     {
       "question": "Is whale watching seasonal?",
@@ -268,7 +268,7 @@
   "mapsUrl": "https://www.google.com/maps/dir/Bandaranaike+International+Airport/Kandy/Ella/Yala/Mirissa/Galle/Bentota",
   "heroImage": {
     "src": "/assets/images/tours/3-nights-4-days/gallery-02.webp",
-    "alt": "Ella highlands on a four-day Sri Lanka private itinerary",
+    "alt": "Ella highlands on a four day Sri Lanka private itinerary",
     "title": "3 Nights 4 Days",
     "width": 1400,
     "height": 1120
@@ -354,10 +354,10 @@
     "ogImage": "/assets/images/tours/3-nights-4-days/gallery-02.webp"
   },
   "status": "published",
-  "description": "A compact four-day private journey from the highlands to the south coast. Begin with Kandy's culture and tea country, continue by scenic train into Ella, then wildlife at Yala National Park.\nYour finale follows the southern shoreline — Mirissa for the ocean, Galle Fort for heritage, and Bentota for a boat safari — before drop-off at your hotel or the airport. Ideal when you want Sri Lanka's classic highlights without a long itinerary.",
+  "description": "A compact four day private journey from the highlands to the south coast. Begin with Kandy's culture and tea country, continue by scenic train into Ella, then wildlife at Yala National Park.\nYour finale follows the southern shoreline, Mirissa for the ocean, Galle Fort for heritage, and Bentota for a boat safari, before drop off at your hotel or the airport. Ideal when you want Sri Lanka's classic highlights without a long itinerary.",
   "location": {
     "name": "Sri Lanka",
-    "region": "Island-wide",
+    "region": "Island wide",
     "geo": {
       "lat": 7.2906,
       "lng": 80.6337
@@ -381,14 +381,14 @@
     }
   ],
   "includes": [
-    "Air-conditioned private vehicle",
-    "English-speaking professional driver",
+    "Air conditioned private vehicle",
+    "English speaking professional driver",
     "Driver's accommodation & meals",
-    "Pickup & drop-off",
+    "Pickup & drop off",
     "Fuel & parking fees",
     "24-hour service",
     "Free bottled water",
-    "4 STAR hotel with half-board accommodation"
+    "4 STAR hotel with half board accommodation"
   ],
   "excludes": [
     "Entrance fees",
@@ -397,7 +397,7 @@
   "faq": [
     {
       "question": "Can the itinerary be customized?",
-      "answer": "Yes. We tailor pace, hotels, and experiences — for example swapping whale watching for more beach time — to your preferences."
+      "answer": "Yes. We tailor pace, hotels, and experiences, for example swapping whale watching for more beach time, to your preferences."
     },
     {
       "question": "Is whale watching seasonal?",

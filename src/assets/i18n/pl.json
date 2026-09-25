@@ -37,7 +37,7 @@
     "legal": "Prawne",
     "rights": "Wszelkie prawa zastrzeżone.",
     "contactCta": "Zaplanuj podróż",
-    "newsletterThanks": "Dziękujemy — jesteś na liście."
+    "newsletterThanks": "Dziękujemy, jesteś na liście."
   },
   "common": {
     "loading": "Ładowanie…",
@@ -89,11 +89,11 @@
   "seo": {
     "home": {
       "title": "Wycieczki Sri Lanka | Prywatne trasy i pakiety",
-      "description": "Prywatne wycieczki po Sri Lance i pakiety wakacyjne na miarę. Wyprawy jednodniowe i wielodniowe do Sigiriji, Kandy, Elli, Yali, Galle i na wybrzeże — przewodnik, hotele, płatność na miejscu."
+      "description": "Prywatne wycieczki po Sri Lance i pakiety wakacyjne na miarę. Wyprawy jednodniowe i wielodniowe do Sigiriji, Kandy, Elli, Yali, Galle i na wybrzeże, przewodnik, hotele, płatność na miejscu."
     },
     "about": {
       "title": "O Hai Sri Lanka Tours | Prywatne podróże inbound",
-      "description": "Hai Sri Lanka Tours w Kolombo — prywatne jednodniowe i wielodniowe podróże po Sri Lance od 2020."
+      "description": "Hai Sri Lanka Tours w Kolombo, prywatne jednodniowe i wielodniowe podróże po Sri Lance od 2020."
     },
     "toursHub": {
       "title": "Wycieczki Sri Lanka | Pakiety 1- i wielodniowe",
@@ -101,11 +101,11 @@
     },
     "dayTours": {
       "title": "Wycieczki jednodniowe Sri Lanka | Prywatne wyprawy",
-      "description": "Prywatne wycieczki jednodniowe na Sri Lance z Kolombo i zachodniego wybrzeża — Galle, Sigirija, Kandy, Ella i więcej. Własny pojazd, anglojęzyczny przewodnik, elastyczne tempo."
+      "description": "Prywatne wycieczki jednodniowe na Sri Lance z Kolombo i zachodniego wybrzeża, Galle, Sigirija, Kandy, Ella i więcej. Własny pojazd, anglojęzyczny przewodnik, elastyczne tempo."
     },
     "multiDayTours": {
       "title": "Pakiety Sri Lanka | Prywatne wycieczki wielodniowe",
-      "description": "Prywatne pakiety wakacyjne na Sri Lance: kultura, herbata, przyroda i plaże z hotelami 4-gwiazdkowymi i prywatnym transportem."
+      "description": "Prywatne pakiety wakacyjne na Sri Lance: kultura, herbata, przyroda i plaże z hotelami 4 gwiazdkowymi i prywatnym transportem."
     },
     "destinations": {
       "title": "Miejsca do zwiedzania na Sri Lance | Destynacje",
@@ -212,14 +212,14 @@
     "nextTitle": "Co dalej",
     "next1": "Nasz zespół sprawdza daty i prośbę o wycieczkę.",
     "next2": "Kontaktujemy się e-mailem lub WhatsAppem w celu potwierdzenia.",
-    "next3": "Podróżujesz z prywatnym gospodarzem — płatność na miejscu.",
+    "next3": "Podróżujesz z prywatnym gospodarzem, płatność na miejscu.",
     "print": "Drukuj fakturę",
     "browseTours": "Zobacz więcej wycieczek",
     "contactUs": "Kontakt",
     "whatsappCta": "WhatsApp w sprawie tej rezerwacji",
     "viewTours": "Zobacz wycieczki po Sri Lance",
-    "whatsappPrefill": "Witaj Hai Sri Lanka — w sprawie rezerwacji {{ref}} ({{tour}}).",
-    "whatsappPrefillGeneric": "Witaj Hai Sri Lanka — mam pytanie dotyczące mojej rezerwacji."
+    "whatsappPrefill": "Witaj Hai Sri Lanka, w sprawie rezerwacji {{ref}} ({{tour}}).",
+    "whatsappPrefillGeneric": "Witaj Hai Sri Lanka, mam pytanie dotyczące mojej rezerwacji."
   },
   "consent": {
     "title": "Pliki cookie i prywatność",
@@ -230,7 +230,7 @@
   "contactPage": {
     "eyebrow": "Kontakt",
     "title": "Zaplanuj z nami podróż po Sri Lance",
-    "intro": "Napisz krótko — odpowiadamy osobiście e-mailem lub WhatsAppem i układamy prywatną trasę wokół Twoich dat.",
+    "intro": "Napisz krótko, odpowiadamy osobiście e-mailem lub WhatsAppem i układamy prywatną trasę wokół Twoich dat.",
     "formTitle": "Wyślij wiadomość",
     "formLead": "Powiedz, czego szukasz. Wiadomość trafia prosto do naszej skrzynki.",
     "name": "Imię *",
@@ -257,7 +257,7 @@
   "destinationsPage": {
     "eyebrow": "Destynacje",
     "title": "Miejsca do zwiedzania na Sri Lance",
-    "intro": "Odkryj najlepsze miejsca na Sri Lance — Fort Galle, Sigirija, Kandy, Ella, Yala, kraina herbaty i południowe wybrzeże — i zamień je w prywatną wycieczkę lub pakiet wakacyjny.",
+    "intro": "Odkryj najlepsze miejsca na Sri Lance, Fort Galle, Sigirija, Kandy, Ella, Yala, kraina herbaty i południowe wybrzeże, i zamień je w prywatną wycieczkę lub pakiet wakacyjny.",
     "allTitle": "Wszystkie destynacje",
     "count": "{{count}} miejsc do odkrycia",
     "filterAria": "Filtruj według regionu",
@@ -273,12 +273,12 @@
     "intro": "Hai Sri Lanka Tours tworzy prywatne jednodniowe i wielodniowe podróże z płatnością na miejscu.",
     "storyTitle": "Kim jesteśmy",
     "story1": "Od 2020 w Kolombo: mały zespół inbound dla par, rodzin i przyjaciół, którzy chcą wyspę bez grupowych busów.",
-    "story2": "Trasy: Galle, Trójkąt Kulturowy, Kandy, herbata, Yala i południowe wybrzeże — zawsze e-mail i WhatsApp.",
+    "story2": "Trasy: Galle, Trójkąt Kulturowy, Kandy, herbata, Yala i południowe wybrzeże, zawsze e-mail i WhatsApp.",
     "valuesTitle": "Jak podróżujemy",
     "values": [
       {
         "title": "Prywatnie domyślnie",
-        "body": "Pojazd i kierowca-przewodnik tylko dla Waszej grupy. Dzień zostaje elastyczny."
+        "body": "Pojazd i kierowca przewodnik tylko dla Waszej grupy. Dzień zostaje elastyczny."
       },
       {
         "title": "Jasna logistyka",
@@ -286,11 +286,11 @@
       },
       {
         "title": "Gospodarze na całej wyspie",
-        "body": "Od lotniska po wielodniowe pętle — ta sama troska."
+        "body": "Od lotniska po wielodniowe pętle, ta sama troska."
       }
     ],
     "ctaEyebrow": "Zaplanuj z nami",
-    "ctaBody": "Przejrzyj prywatne wycieczki albo wyślij daty — odpowiadamy osobiście.",
+    "ctaBody": "Przejrzyj prywatne wycieczki albo wyślij daty, odpowiadamy osobiście.",
     "exploreTours": "Zobacz wycieczki",
     "schemaName": "O Hai Sri Lanka Tours"
   },
@@ -299,7 +299,7 @@
     "title": "Pytania przed podróżą",
     "intro": "Prywatne wycieczki, płatność na miejscu, transfery i rezerwacja z Hai Sri Lanka Tours.",
     "ctaEyebrow": "Wciąż wątpliwości?",
-    "ctaBody": "Napisz daty — wskażemy kolejny krok.",
+    "ctaBody": "Napisz daty, wskażemy kolejny krok.",
     "exploreTours": "Zobacz wycieczki"
   },
   "privacyPage": {
@@ -369,7 +369,7 @@
       }
     ],
     "ctaEyebrow": "Gotowi do rezerwacji",
-    "ctaBody": "Zgłoś prywatną wycieczkę — potwierdzimy przed wyjazdem.",
+    "ctaBody": "Zgłoś prywatną wycieczkę, potwierdzimy przed wyjazdem.",
     "exploreTours": "Zobacz wycieczki"
   }
 }

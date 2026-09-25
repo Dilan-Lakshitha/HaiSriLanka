@@ -10,7 +10,7 @@
   "highlights": [
     {
       "title": "Wilpattu and Kaudulla safaris",
-      "description": "Quieter lake-forest jeep days for leopards and elephants, then Cultural Triangle wildlife at Kaudulla."
+      "description": "Quieter lake forest jeep days for leopards and elephants, then Cultural Triangle wildlife at Kaudulla."
     },
     {
       "title": "Sigiriya, Pidurangala and Dambulla",
@@ -22,7 +22,7 @@
     },
     {
       "title": "Mirissa, turtles and Galle Fort",
-      "description": "Whales or turtles, kayaking, then a south-coast close at Galle Fort and Madu River."
+      "description": "Whales or turtles, kayaking, then a south coast close at Galle Fort and Madu River."
     }
   ],
   "included": [
@@ -33,7 +33,7 @@
     "Carburant et frais de stationnement",
     "Service 24 heures",
     "Eau en bouteille offerte",
-    "Hôtel 4 étoiles en demi-pension"
+    "Hôtel 4 étoiles en demi pension"
   ],
   "excluded": [
     "Frais d'entrée",
@@ -45,49 +45,49 @@
   },
   "itinerary": [
     {
-      "title": "Aéroport / Hôtel – Wilpattu – Sigiriya",
-      "description": "Bienvenue au Sri Lanka. Après la prise en charge à l'aéroport ou à votre hôtel, rendez-vous au parc national de Wilpattu, la réserve faunique la plus grande et la plus ancienne de l'île, célèbre pour ses lacs naturels (villus). Profitez d'un safari en jeep avec la chance d'apercevoir des léopards, des éléphants, des ours paresseux, des cerfs, des crocodiles et une riche avifaune dans un parc paisible et moins fréquenté. Continuez vers Sigiriya pour la nuit."
+      "title": "Aéroport / Hôtel to Wilpattu to Sigiriya",
+      "description": "Bienvenue au Sri Lanka. Après la prise en charge à l'aéroport ou à votre hôtel, rendez vous au parc national de Wilpattu, la réserve faunique la plus grande et la plus ancienne de l'île, célèbre pour ses lacs naturels (villus). Profitez d'un safari en jeep avec la chance d'apercevoir des léopards, des éléphants, des ours paresseux, des cerfs, des crocodiles et une riche avifaune dans un parc paisible et moins fréquenté. Continuez vers Sigiriya pour la nuit."
     },
     {
       "title": "Sigiriya et Habarana",
-      "description": "Découvrez la vie du village d'Hiriwadunna près de Habarana : une promenade pittoresque le long des maisons en terre battue et des rizières, une promenade en bateau sur le lac et une cuisine traditionnelle en option. Faites une randonnée sur le rocher de Pidurangala pour une vue panoramique sur la forteresse de Sigiriya. Visitez le temple de la grotte de Dambulla, classé au patrimoine mondial de l'UNESCO, avec ses peintures murales anciennes et ses statues de Bouddha, puis détendez-vous avec l'Ayurveda au spa Athreya à Sigiriya."
+      "description": "Découvrez la vie du village d'Hiriwadunna près de Habarana : une promenade pittoresque le long des maisons en terre battue et des rizières, une promenade en bateau sur le lac et une cuisine traditionnelle en option. Faites une randonnée sur le rocher de Pidurangala pour une vue panoramique sur la forteresse de Sigiriya. Visitez le temple de la grotte de Dambulla, classé au patrimoine mondial de l'UNESCO, avec ses peintures murales anciennes et ses statues de Bouddha, puis détendez vous avec l'Ayurveda au spa Athreya à Sigiriya."
     },
     {
       "title": "Sigirîya",
       "description": "Safari matinal en jeep dans le parc national de Kaudulla pour observer les troupeaux d'éléphants sauvages autour du réservoir, ainsi que les cerfs, les singes et les oiseaux. Ensuite, gravissez le Rocher du Lion de Sigiriya, une citadelle de l'UNESCO avec des fresques, le mur des miroirs, la terrasse de la Patte de Lion et une vue sur les anciens jardins aquatiques."
     },
     {
-      "title": "Sigiriya – Kandy",
+      "title": "Sigiriya to Kandy",
       "description": "Voyagez vers la capitale des collines via le jardin d'herbes et d'épices de Matale. À Kandy, visitez le temple de la relique de la dent sacrée, assistez à un spectacle de danse culturelle kandyenne au Kandy Lake Club, faites une pause au lac/point de vue de Kandy et explorez les pierres précieuses naturelles et le musée gemmologique."
     },
     {
-      "title": "Kandy-Ella",
-      "description": "Grimpez dans les hautes terres via la tour Ambuluwawa pour une vue à 360° sur les montagnes, arrêtez-vous aux chutes de Ramboda et visitez un centre/jardin de thé (Damro Labookellie / Blue Field) pour voir la production de thé de Ceylan et déguster une tasse fraîche avant de continuer vers Ella."
+      "title": "Kandy Ella",
+      "description": "Grimpez dans les hautes terres via la tour Ambuluwawa pour une vue à 360° sur les montagnes, arrêtez vous aux chutes de Ramboda et visitez un centre/jardin de thé (Damro Labookellie / Blue Field) pour voir la production de thé de Ceylan et déguster une tasse fraîche avant de continuer vers Ella."
     },
     {
       "title": "Ella",
-      "description": "Une journée complète à Ella : visitez l'emblématique pont aux neuf arches, faites une randonnée au Little Adam's Peak pour admirer la vue sur Ella Gap, arrêtez-vous aux chutes de Ravana et profitez d'un trajet pittoresque en train dans les collines à travers les plantations de thé et les montagnes brumeuses."
+      "description": "Une journée complète à Ella : visitez l'emblématique pont aux neuf arches, faites une randonnée au Little Adam's Peak pour admirer la vue sur Ella Gap, arrêtez vous aux chutes de Ravana et profitez d'un trajet pittoresque en train dans les collines à travers les plantations de thé et les montagnes brumeuses."
     },
     {
-      "title": "Ella-Mirissa-Yala",
+      "title": "Ella Mirissa Yala",
       "description": "Descendez vers la côte sud pour observer les baleines et les dauphins de Mirissa, observez les tortues de mer à Turtle Beach et profitez d'un safari en kayak en soirée en direction de Kamburugamuwa alors que le littoral devient doré. Nuit près de Yala."
     },
     {
-      "title": "Yala – Plage / Aéroport",
+      "title": "Yala to Plage / Aéroport",
       "description": "Finale flexible : explorez le fort hollandais de Galle, profitez d'un safari en bateau dans la mangrove de la rivière Madu à Balapitiya et visitez l'écloserie de tortues à Hikkaduwa. Terminez par un séjour à la plage de votre choix (Hikkaduwa, Bentota ou Kalutara) ou par un transfert à l'aéroport."
     }
   ],
   "faqs": [
     {
-      "question": "Puis-je choisir où se termine le jour 8 ?",
+      "question": "Puis je choisir où se termine le jour 8 ?",
       "answer": "Oui. Après les arrêts sur la côte sud, vous pouvez continuer vers un hôtel de plage à Hikkaduwa, Bentota ou Kalutara, ou vous rendre directement à l'aéroport, selon votre préférence."
     },
     {
-      "question": "L’observation des baleines est-elle saisonnière ?",
+      "question": "L’observation des baleines est elle saisonnière ?",
       "answer": "L'observation des baleines et des dauphins à Mirissa est généralement meilleure de novembre à avril. En dehors de la haute saison, nous vous suggérons d'observer les tortues, de faire du kayak ou d'autres alternatives côtières."
     },
     {
-      "question": "L'itinéraire peut-il être personnalisé ?",
+      "question": "L'itinéraire peut il être personnalisé ?",
       "answer": "Oui. Nous adaptons le rythme, les hôtels et les expériences à vos préférences."
     }
   ]

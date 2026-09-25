@@ -37,7 +37,7 @@
     "legal": "法律",
     "rights": "版权所有。",
     "contactCta": "规划旅程",
-    "newsletterThanks": "谢谢 — 您已加入名单。"
+    "newsletterThanks": "谢谢, 您已加入名单。"
   },
   "common": {
     "loading": "加载中…",
@@ -89,11 +89,11 @@
   "seo": {
     "home": {
       "title": "斯里兰卡旅游 | 私人行程与度假套餐",
-      "description": "斯里兰卡私人行程与定制度假套餐。一日游与多日线路覆盖狮子岩、康提、埃拉、亚拉、加勒与海岸——英语导游、酒店、抵达后付款。"
+      "description": "斯里兰卡私人行程与定制度假套餐。一日游与多日线路覆盖狮子岩、康提、埃拉、亚拉、加勒与海岸, 英语导游、酒店、抵达后付款。"
     },
     "about": {
       "title": "关于 Hai Sri Lanka Tours | 私人 inbound 旅行",
-      "description": "科伦坡 Hai Sri Lanka Tours — 自 2020 年起提供斯里兰卡私人一日游与多日行程。"
+      "description": "科伦坡 Hai Sri Lanka Tours, 自 2020 年起提供斯里兰卡私人一日游与多日行程。"
     },
     "toursHub": {
       "title": "斯里兰卡旅游 | 私人一日与多日套餐",
@@ -101,7 +101,7 @@
     },
     "dayTours": {
       "title": "斯里兰卡一日游 | 私人日间行程",
-      "description": "从科伦坡与西海岸出发的斯里兰卡私人一日游——加勒、狮子岩、康提、埃拉等。专车、英语导游、节奏灵活。"
+      "description": "从科伦坡与西海岸出发的斯里兰卡私人一日游, 加勒、狮子岩、康提、埃拉等。专车、英语导游、节奏灵活。"
     },
     "multiDayTours": {
       "title": "斯里兰卡旅游套餐 | 私人多日游",
@@ -212,14 +212,14 @@
     "nextTitle": "接下来会发生什么",
     "next1": "我们的团队审核您的日期与行程请求。",
     "next2": "我们通过邮件或 WhatsApp 与您确认。",
-    "next3": "您与私人向导出行 — 目的地付款。",
+    "next3": "您与私人向导出行, 目的地付款。",
     "print": "打印发票",
     "browseTours": "浏览更多行程",
     "contactUs": "联系我们",
     "whatsappCta": "就此预订联系 WhatsApp",
     "viewTours": "查看斯里兰卡行程",
-    "whatsappPrefill": "您好 Hai Sri Lanka — 关于预订 {{ref}}（{{tour}}）。",
-    "whatsappPrefillGeneric": "您好 Hai Sri Lanka — 我想咨询我的预订。"
+    "whatsappPrefill": "您好 Hai Sri Lanka, 关于预订 {{ref}}（{{tour}}）。",
+    "whatsappPrefillGeneric": "您好 Hai Sri Lanka, 我想咨询我的预订。"
   },
   "consent": {
     "title": "Cookie 与隐私",
@@ -230,7 +230,7 @@
   "contactPage": {
     "eyebrow": "联系",
     "title": "与我们一起规划您的斯里兰卡旅程",
-    "intro": "发一条简短留言——我们会通过电子邮件或 WhatsApp 亲自回复，并按您的日期定制私人行程。",
+    "intro": "发一条简短留言, 我们会通过电子邮件或 WhatsApp 亲自回复，并按您的日期定制私人行程。",
     "formTitle": "给我们留言",
     "formLead": "告诉我们您的需求。留言会直接进入我们的收件箱。",
     "name": "姓名 *",
@@ -257,7 +257,7 @@
   "destinationsPage": {
     "eyebrow": "目的地",
     "title": "斯里兰卡值得去的旅行地点",
-    "intro": "探索斯里兰卡最佳地点——加勒堡、狮子岩、康提、埃拉、亚拉、茶乡与南海岸——并做成私人行程或度假套餐。",
+    "intro": "探索斯里兰卡最佳地点, 加勒堡、狮子岩、康提、埃拉、亚拉、茶乡与南海岸, 并做成私人行程或度假套餐。",
     "allTitle": "全部目的地",
     "count": "{{count}} 个可探索的地方",
     "filterAria": "按地区筛选",
@@ -273,7 +273,7 @@
     "intro": "Hai Sri Lanka Tours 打造私人一日游与多日行程，并在目的地付款。",
     "storyTitle": "我们是谁",
     "story1": "2020 年创立于科伦坡：服务情侣、家庭和朋友的小型 inbound 团队，不想拼团大巴。",
-    "story2": "路线覆盖加勒、文化三角、康提、茶乡、雅拉与南海岸——从第一次咨询到出发，都可通过电子邮件和 WhatsApp 联系。",
+    "story2": "路线覆盖加勒、文化三角、康提、茶乡、雅拉与南海岸, 从第一次咨询到出发，都可通过电子邮件和 WhatsApp 联系。",
     "valuesTitle": "我们如何旅行",
     "values": [
       {
@@ -290,7 +290,7 @@
       }
     ],
     "ctaEyebrow": "一起规划",
-    "ctaBody": "浏览私人行程或发送日期——我们亲自回复。",
+    "ctaBody": "浏览私人行程或发送日期, 我们亲自回复。",
     "exploreTours": "浏览行程",
     "schemaName": "关于 Hai Sri Lanka Tours"
   },

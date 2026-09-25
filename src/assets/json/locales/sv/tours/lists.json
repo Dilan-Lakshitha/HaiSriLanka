@@ -2,42 +2,42 @@
   "hub": {
     "hero": {
       "eyebrow": "Sri Lanka turer",
-      "title": "Privata Sri Lanka-turer och paket",
-      "subtitle": "Välj en privat dagsutflykt eller ett flerdagars semesterpaket — lugn takt, trygga hotell, engelsktalande guide och tydliga priser.",
+      "title": "Privata Sri Lanka turer och paket",
+      "subtitle": "Välj en privat dagsutflykt eller ett flerdagars semesterpaket, lugn takt, trygga hotell, engelsktalande guide och tydliga priser.",
       "image": {
-        "alt": "Privata Sri Lanka-turer med Hai Sri Lanka"
+        "alt": "Privata Sri Lanka turer med Hai Sri Lanka"
       }
     },
     "seo": {
-      "metaTitle": "Sri Lanka-turer | Privata dags- och flerdagspaket",
-      "metaDescription": "Sri Lanka-turpaket: privata dagsutflykter och flerdagars semesterresor med hotell, chaufför-guide och tydliga priser. För par, familjer och små grupper."
+      "metaTitle": "Sri Lanka turer | Privata dags- och flerdagspaket",
+      "metaDescription": "Sri Lanka turpaket: privata dagsutflykter och flerdagars semesterresor med hotell, chaufför guide och tydliga priser. För par, familjer och små grupper."
     }
   },
   "day": {
     "hero": {
       "eyebrow": "Dagsturer",
       "title": "Privata dagsutflykter på Sri Lanka",
-      "subtitle": "Privata dagsutflykter från kusten till Kulturtriangeln — Galle, Sigiriya, Kandy, Ella med mera. Eget fordon och guide, tempo för komfort.",
+      "subtitle": "Privata dagsutflykter från kusten till Kulturtriangeln, Galle, Sigiriya, Kandy, Ella med mera. Eget fordon och guide, tempo för komfort.",
       "image": {
         "alt": "Sri Lanka dagsturer"
       }
     },
     "seo": {
       "metaTitle": "Sri Lanka dagsutflykter | Privata dagsresor",
-      "metaDescription": "Privata dagsutflykter på Sri Lanka från Colombo och västkusten — Galle, Sigiriya, Kandy, Ella med mera. Eget fordon, engelsktalande guide, flexibelt tempo."
+      "metaDescription": "Privata dagsutflykter på Sri Lanka från Colombo och västkusten, Galle, Sigiriya, Kandy, Ella med mera. Eget fordon, engelsktalande guide, flexibelt tempo."
     }
   },
   "multi-day": {
     "hero": {
       "eyebrow": "Flerdagarsturer",
-      "title": "Sri Lanka-paket och flerdagsturer",
-      "subtitle": "Privata semesterresor genom kultur, teland, viltliv och kust — flexibla nätter och trygga hotell.",
+      "title": "Sri Lanka paket och flerdagsturer",
+      "subtitle": "Privata semesterresor genom kultur, teland, viltliv och kust, flexibla nätter och trygga hotell.",
       "image": {
         "alt": "Sri Lanka flerdagarsturer"
       }
     },
     "seo": {
-      "metaTitle": "Sri Lanka-paket | Privata flerdagsturer",
+      "metaTitle": "Sri Lanka paket | Privata flerdagsturer",
       "metaDescription": "Privata semesterpaket på Sri Lanka: kultur, teland, viltliv och stränder med 4-stjärniga hotell och privat transport."
     }
   }

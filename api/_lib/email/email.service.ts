@@ -41,13 +41,13 @@ export class BookingEmailService {
     await Promise.all([
       this.mailer.send({
         to: adminRecipients.join(', '),
-        subject: `[Hai Sri Lanka Tours] New booking ${bookingRef} — ${booking.tourTitle}`,
+        subject: `[Hai Sri Lanka Tours] New booking ${bookingRef}: ${booking.tourTitle}`,
         html: adminHtml,
         text: adminHtml.replace(/<[^>]+>/g, ' '),
       }),
       this.mailer.send({
         to: booking.primaryTraveler.email,
-        subject: `Booking request received — ${booking.tourTitle} (${bookingRef})`,
+        subject: `Booking request received: ${booking.tourTitle} (${bookingRef})`,
         html: guestHtml,
         text: guestHtml.replace(/<[^>]+>/g, ' '),
       }),

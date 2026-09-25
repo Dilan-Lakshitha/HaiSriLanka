@@ -7,7 +7,7 @@
     "home": "Home",
     "tours": "Tours",
     "dayTours": "Day Tours",
-    "multiDayTours": "Multi-Day Tours",
+    "multiDayTours": "Multi Day Tours",
     "destinations": "Destinations",
     "experiences": "Things To Do",
     "blog": "Journal",
@@ -26,7 +26,7 @@
     "skipToContent": "Skip to main content",
     "whatsapp": "WhatsApp",
     "viewAllTours": "View all tours",
-    "toursMegaCopy": "Private Sri Lanka tours, day trips, and multi-day vacation packages.",
+    "toursMegaCopy": "Private Sri Lanka tours, day trips, and multi day vacation packages.",
     "primary": "Primary",
     "contactLabel": "Contact",
     "social": "Social media"
@@ -56,7 +56,7 @@
     "noTours": "No tours available right now.",
     "noToursCategory": "No tours available in this category right now.",
     "openFullDayList": "Open full day list",
-    "openFullMultiList": "Open full multi-day list",
+    "openFullMultiList": "Open full multi day list",
     "quickView": "Quick View",
     "compare": "Compare",
     "compared": "Compared",
@@ -66,40 +66,40 @@
   },
   "seo": {
     "home": {
-      "title": "Sri Lanka Tours | Private Tours & Vacation Packages",
-      "description": "Private Sri Lanka tours and tailor-made vacation packages. Day trips and multi-day tour packages to Sigiriya, Kandy, Ella, Yala, Galle, and the coast — English-speaking guide, hotels, and pay at destination."
+      "title": "Private Sri Lanka Tours & Packages | Hai Sri Lanka",
+      "description": "Book a private Sri Lanka tour with your own driver guide. Day trips and 4 to 12 day packages to Sigiriya, Kandy, Ella, Yala & Galle. Hotels included. Pay at destination. Get a free itinerary."
     },
     "about": {
       "title": "About Hai Sri Lanka Tours | Private Inbound Travel",
-      "description": "Meet Hai Sri Lanka Tours — a Colombo inbound studio crafting private Sri Lanka day tours and multi-day journeys since 2020."
+      "description": "Meet Hai Sri Lanka Tours, a Colombo inbound studio crafting private Sri Lanka day tours and multi day journeys since 2020."
     },
     "toursHub": {
-      "title": "Sri Lanka Tours | Private Day & Multi-Day Packages",
-      "description": "Browse Sri Lanka tour packages: private day tours and multi-day vacation itineraries with hotels, driver-guide, and transparent pricing. Tailor-made for couples, families, and small groups."
+      "title": "Sri Lanka Tour Packages | Private Day & Multi Day",
+      "description": "Compare private Sri Lanka tour packages: day tours from Colombo and 4 to 12 day vacation itineraries with hotels, driver guide, and clear prices. Tailor made for couples, families, and small groups."
     },
     "dayTours": {
-      "title": "Sri Lanka Day Tours | Private Day Trips",
-      "description": "Private Sri Lanka day tours from Colombo and the west coast — Galle, Sigiriya, Kandy, Ella, and more. Your vehicle, English-speaking guide, and flexible pacing."
+      "title": "Sri Lanka Day Tours from Colombo | Private Driver",
+      "description": "Private Sri Lanka day tours from Colombo and the west coast, Galle, Sigiriya, Kandy, and Ella. Your vehicle, English speaking driver guide, and flexible stops. Request today’s availability."
     },
     "multiDayTours": {
-      "title": "Sri Lanka Tour Packages | Private Multi-Day Tours",
-      "description": "Private Sri Lanka tour packages and vacation itineraries: culture, tea country, wildlife, and beaches with 4-star hotels and private transport."
+      "title": "Sri Lanka Vacation Packages | 4 to 12 Day Private Tours",
+      "description": "Private Sri Lanka vacation packages with 4 star hotels and a dedicated driver guide. Culture, tea country, Yala wildlife, and beaches, paced for you. Get a custom itinerary."
     },
     "destinations": {
-      "title": "Sri Lanka Travel Places | Destinations to Visit",
-      "description": "Best places to visit in Sri Lanka: Galle, Sigiriya, Kandy, Yala, Ella, Colombo, and tea country. Plan a private tour around the island’s top travel places."
+      "title": "Best Places to Visit in Sri Lanka | Private Tours",
+      "description": "Plan a private tour around Sri Lanka’s best places: Sigiriya, Kandy, Ella, Yala, Galle Fort, and tea country. See what to do in each region, then request a tailor made route."
     },
     "travelGuide": {
       "title": "Sri Lanka Travel Guide | Hai Sri Lanka",
       "description": "Practical Sri Lanka travel guidance from Hai Sri Lanka Tours."
     },
     "thingsToDo": {
-      "title": "Things To Do in Sri Lanka | Hai Sri Lanka",
-      "description": "Experiences and things to do across Sri Lanka with Hai Sri Lanka Tours."
+      "title": "Things to Do in Sri Lanka | Private Experiences",
+      "description": "Safari, temples, tea country, and coast, private things to do in Sri Lanka with a local driver guide. Add experiences to your day tour or vacation package."
     },
     "reviews": {
-      "title": "Guest Reviews | Hai Sri Lanka Tours",
-      "description": "Read Google and TripAdvisor reviews from Hai Sri Lanka travelers."
+      "title": "5.0 Guest Reviews | Hai Sri Lanka Private Tours",
+      "description": "Read Google and TripAdvisor reviews from travelers who booked private Sri Lanka tours with Hai Sri Lanka. Real guest photos, ratings, and trip notes."
     },
     "gallery": {
       "title": "Gallery | Hai Sri Lanka Tours",
@@ -107,15 +107,15 @@
     },
     "faq": {
       "title": "FAQ | Private Sri Lanka Tours | Hai Sri Lanka",
-      "description": "Answers on private tours, pay-at-destination booking, airport transfers, cancellation, and languages with Hai Sri Lanka Tours."
+      "description": "Answers on private tours, pay at destination booking, airport transfers, cancellation, and languages with Hai Sri Lanka Tours."
     },
     "contact": {
-      "title": "Contact Hai Sri Lanka Tours | Plan a Private Journey",
-      "description": "Write to Hai Sri Lanka Tours to plan a private Sri Lanka itinerary. We reply by email or WhatsApp and shape the trip around your dates."
+      "title": "Plan a Private Sri Lanka Tour | Contact Hai Sri Lanka",
+      "description": "Tell us your dates and must see places. Hai Sri Lanka replies on WhatsApp or email with a private itinerary, no online payment, pay at destination."
     },
     "blog": {
-      "title": "Travel Blog | Hai Sri Lanka",
-      "description": "Sri Lanka travel tips, guides, and stories from Hai Sri Lanka Tours."
+      "title": "Sri Lanka Travel Tips & Itineraries | Hai Sri Lanka",
+      "description": "Practical Sri Lanka itineraries, packing tips, and when to visit Sigiriya, Ella, Yala, and Galle, written by private tour planners on the island."
     },
     "booking": {
       "title": "Book a Tour | Hai Sri Lanka",
@@ -127,7 +127,7 @@
     },
     "terms": {
       "title": "Terms of Service | Hai Sri Lanka Tours",
-      "description": "Booking requests, pay-at-destination payment, cancellation, and traveler responsibilities for Hai Sri Lanka Tours."
+      "description": "Booking requests, pay at destination payment, cancellation, and traveler responsibilities for Hai Sri Lanka Tours."
     },
     "notFound": {
       "title": "Page Not Found | Hai Sri Lanka",
@@ -173,7 +173,7 @@
       "luxury": "Luxury",
       "family": "Family",
       "privateDay": "Private Day Journey",
-      "privateMulti": "Private Multi-Day Journey",
+      "privateMulti": "Private Multi Day Journey",
       "beach": "Beach & Coast"
     }
   },
@@ -218,19 +218,19 @@
     "nextTitle": "What happens next",
     "next1": "Our team reviews your dates and tour request.",
     "next2": "We contact you by email or WhatsApp to confirm.",
-    "next3": "You travel with your private host — pay at destination.",
+    "next3": "You travel with your private host, pay at destination.",
     "print": "Print invoice",
     "browseTours": "Browse more tours",
     "contactUs": "Contact us",
     "whatsappCta": "WhatsApp about this booking",
     "viewTours": "View Sri Lanka tours",
-    "whatsappPrefill": "Hello Hai Sri Lanka — regarding booking {{ref}} ({{tour}}).",
-    "whatsappPrefillGeneric": "Hello Hai Sri Lanka — I have a question about my booking."
+    "whatsappPrefill": "Hello Hai Sri Lanka, regarding booking {{ref}} ({{tour}}).",
+    "whatsappPrefillGeneric": "Hello Hai Sri Lanka, I have a question about my booking."
   },
   "contactPage": {
     "eyebrow": "Contact",
     "title": "Plan your Sri Lanka journey with us",
-    "intro": "Send a short note — we reply personally by email or WhatsApp and help shape a private itinerary around your dates.",
+    "intro": "Send a short note, we reply personally by email or WhatsApp and help shape a private itinerary around your dates.",
     "formTitle": "Send us a message",
     "formLead": "Tell us what you are looking for. Your note goes straight to our inbox.",
     "name": "Name *",
@@ -249,7 +249,7 @@
     "emailLabel": "Email",
     "findUs": "Find us online",
     "ctaEyebrow": "Ready when you are",
-    "ctaBody": "Browse private day tours and multi-day journeys, then tell us your dates.",
+    "ctaBody": "Browse private day tours and multi day journeys, then tell us your dates.",
     "exploreTours": "Explore tours",
     "schemaName": "Contact Hai Sri Lanka Tours",
     "schemaDescription": "Contact Hai Sri Lanka Tours by form, phone, WhatsApp, or email to plan a private Sri Lanka journey."
@@ -257,7 +257,7 @@
   "destinationsPage": {
     "eyebrow": "Destinations",
     "title": "Sri Lanka travel places to visit",
-    "intro": "Discover the best places to visit in Sri Lanka — Galle Fort, Sigiriya, Kandy, Ella, Yala, tea country, and the south coast — then turn them into a private tour or vacation package.",
+    "intro": "Discover the best places to visit in Sri Lanka, Galle Fort, Sigiriya, Kandy, Ella, Yala, tea country, and the south coast, then turn them into a private tour or vacation package.",
     "allTitle": "All destinations",
     "count": "{{count}} places to explore",
     "filterAria": "Filter by region",
@@ -270,27 +270,27 @@
   "aboutPage": {
     "eyebrow": "About",
     "title": "A private inbound studio for Sri Lanka",
-    "intro": "Hai Sri Lanka Tours crafts private day tours and multi-day journeys with local hosts, unhurried pacing, and pay-at-destination booking.",
+    "intro": "Hai Sri Lanka Tours crafts private day tours and multi day journeys with local hosts, unhurried pacing, and pay at destination booking.",
     "storyTitle": "Who we are",
-    "story1": "Founded in Colombo in 2020, Hai Sri Lanka is a small inbound team focused on private travel for couples, families, and friends who want the island without mixed-group coaches.",
-    "story2": "We design routes around Galle, the Cultural Triangle, Kandy, tea country, Yala, and the south coast — then stay reachable by email and WhatsApp from first enquiry to departure.",
+    "story1": "Founded in Colombo in 2020, Hai Sri Lanka is a small inbound team focused on private travel for couples, families, and friends who want the island without mixed group coaches.",
+    "story2": "We design routes around Galle, the Cultural Triangle, Kandy, tea country, Yala, and the south coast, then stay reachable by email and WhatsApp from first enquiry to departure.",
     "valuesTitle": "How we travel",
     "values": [
       {
         "title": "Private by default",
-        "body": "Your vehicle and driver-guide are reserved for your party. The day flexes when a temple is quiet or a viewpoint deserves longer."
+        "body": "Your vehicle and driver guide are reserved for your party. The day flexes when a temple is quiet or a viewpoint deserves longer."
       },
       {
         "title": "Honest logistics",
         "body": "No online prepayment to request a booking. You receive email confirmation, we confirm details, and you pay at destination."
       },
       {
-        "title": "Island-wide hosts",
-        "body": "From airport welcomes to multi-day circuits, the same care follows you across coast, highlands, and wildlife country."
+        "title": "Island wide hosts",
+        "body": "From airport welcomes to multi day circuits, the same care follows you across coast, highlands, and wildlife country."
       }
     ],
     "ctaEyebrow": "Plan with us",
-    "ctaBody": "Browse private tours or send dates — we reply personally.",
+    "ctaBody": "Browse private tours or send dates, we reply personally.",
     "exploreTours": "Explore tours",
     "schemaName": "About Hai Sri Lanka Tours"
   },
@@ -318,7 +318,7 @@
       },
       {
         "title": "How we use information",
-        "body": "We use your details to reply to enquiries, confirm private tours, arrange logistics, and send booking-related email. We do not sell personal data. Analytics run only after you accept cookies."
+        "body": "We use your details to reply to enquiries, confirm private tours, arrange logistics, and send booking related email. We do not sell personal data. Analytics run only after you accept cookies."
       },
       {
         "title": "Cookies and analytics",
@@ -353,7 +353,7 @@
       },
       {
         "title": "Changes and cancellation",
-        "body": "Tell us as soon as plans change. Most private tours can be cancelled free of charge with reasonable notice. Late changes, no-shows, or supplier fees (tickets, lodges) may still apply and will be explained before you confirm."
+        "body": "Tell us as soon as plans change. Most private tours can be cancelled free of charge with reasonable notice. Late changes, no shows, or supplier fees (tickets, lodges) may still apply and will be explained before you confirm."
       },
       {
         "title": "Your responsibilities",

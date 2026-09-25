@@ -1,14 +1,14 @@
 {
   "seo": {
     "metaTitle": "Sri Lanka Touren | Privatreisen & Urlaubspakete",
-    "metaDescription": "Private Sri-Lanka-Touren und maßgeschneiderte Urlaubspakete. Tagesausflüge und Rundreisen nach Sigiriya, Kandy, Ella, Yala, Galle und an die Küste — Guide, Hotels, Zahlung vor Ort."
+    "metaDescription": "Private Sri Lanka Touren und maßgeschneiderte Urlaubspakete. Tagesausflüge und Rundreisen nach Sigiriya, Kandy, Ella, Yala, Galle und an die Küste, Guide, Hotels, Zahlung vor Ort."
   },
   "hero": {
-    "eyebrow": "Private Sri-Lanka-Touren · maßgeschneiderte Pakete",
-    "title": "Sri-Lanka-Touren, privat und maßgeschneidert",
-    "subtitle": "Urlaubspakete und Tagestouren zu den schönsten Orten Sri Lankas — Tempel, Teeland, Wildlife und Strände — mit Ihrem eigenen englischsprachigen Guide.",
+    "eyebrow": "Private Sri Lanka Touren · maßgeschneiderte Pakete",
+    "title": "Sri Lanka Touren, privat und maßgeschneidert",
+    "subtitle": "Urlaubspakete und Tagestouren zu den schönsten Orten Sri Lankas, Tempel, Teeland, Wildlife und Strände, mit Ihrem eigenen englischsprachigen Guide.",
     "image": {
-      "alt": "Neun-Bogen-Brücke und Teeland in der Nähe von Ella, Sri Lanka",
+      "alt": "Neun Bogen Brücke und Teeland in der Nähe von Ella, Sri Lanka",
       "title": "Ella Nine Arch Bridge"
     },
     "images": [
@@ -17,24 +17,24 @@
         "title": "Lokale Gastfreundschaft"
       },
       {
-        "alt": "Reisende auf einer Jeep-Safari in Sri Lanka mit Elefanten in der Nähe",
-        "title": "Safari-Momente"
+        "alt": "Reisende auf einer Jeep Safari in Sri Lanka mit Elefanten in der Nähe",
+        "title": "Safari Momente"
       },
       {
         "alt": "Reisende mit ihrem Führer im Höhlentempel von Dambulla in Sri Lanka",
         "title": "Tempelbesuche"
       },
       {
-        "alt": "Leopard ruht auf einem Sandweg im Yala-Nationalpark",
-        "title": "Yala-Tierwelt"
+        "alt": "Leopard ruht auf einem Sandweg im Yala Nationalpark",
+        "title": "Yala Tierwelt"
       },
       {
-        "alt": "Neun-Bogen-Brücke erhebt sich über Teeplantagen in Ella",
-        "title": "Ella-Hochland"
+        "alt": "Neun Bogen Brücke erhebt sich über Teeplantagen in Ella",
+        "title": "Ella Hochland"
       }
     ],
     "primaryCta": {
-      "label": "Sri-Lanka-Touren ansehen"
+      "label": "Sri Lanka Touren ansehen"
     }
   },
   "search": {
@@ -68,10 +68,10 @@
         "label": "Tagestouren"
       },
       {
-        "label": "3–7 Tage"
+        "label": "3 to 7 Tage"
       },
       {
-        "label": "8–14 Tage"
+        "label": "8 to 14 Tage"
       },
       {
         "label": "15+ Tage"
@@ -100,8 +100,8 @@
   },
   "whyChoose": {
     "eyebrow": "Warum Hai Sri Lanka",
-    "title": "Private Sri-Lanka-Touren, keine Gruppenbusse",
-    "subtitle": "Wir gestalten private Tourpakete und Urlaube auf der ganzen Insel — Ihr Fahrzeug, Ihr Tempo und lokale Gastgeber, die jede Straße kennen.",
+    "title": "Private Sri Lanka Touren, keine Gruppenbusse",
+    "subtitle": "Wir gestalten private Tourpakete und Urlaube auf der ganzen Insel, Ihr Fahrzeug, Ihr Tempo und lokale Gastgeber, die jede Straße kennen.",
     "items": [
       {
         "title": "Völlig private Erlebnisse",
@@ -110,7 +110,7 @@
       },
       {
         "title": "Erfahrene lokale Gastgeber",
-        "description": "Chauffeur-Guides, die auf der ganzen Insel in Geschichtenerzählen, Sicherheit und ruhiger, luxuriöser Gastfreundschaft geschult sind.",
+        "description": "Chauffeur Guides, die auf der ganzen Insel in Geschichtenerzählen, Sicherheit und ruhiger, luxuriöser Gastfreundschaft geschult sind.",
         "id": "experts"
       },
       {
@@ -119,16 +119,16 @@
         "id": "tailored"
       },
       {
-        "title": "Rundum-Betreuung",
+        "title": "Rundum Betreuung",
         "description": "Von der Begrüßung am Flughafen bis zum Abschiedstransfer unterstützt Sie ein engagiertes Team an jedem Tag Ihrer Reise.",
         "id": "care"
       }
     ]
   },
   "tourCategories": {
-    "eyebrow": "Sri-Lanka-Tourpakete",
-    "title": "Wählen Sie Ihre Sri-Lanka-Tour",
-    "subtitle": "Von einer privaten Tagestour bis zum Urlaubspaket durch Hochland, Wildlife und Küste — starten Sie mit dem Stil, der zu Ihnen passt.",
+    "eyebrow": "Sri Lanka Tourpakete",
+    "title": "Wählen Sie Ihre Sri Lanka Tour",
+    "subtitle": "Von einer privaten Tagestour bis zum Urlaubspaket durch Hochland, Wildlife und Küste, starten Sie mit dem Stil, der zu Ihnen passt.",
     "items": [
       {
         "title": "Tagestouren",
@@ -150,13 +150,13 @@
         "title": "Wildtierreisen",
         "description": "Safaritage und Übernachtungshütten in der Nähe von Yala, Wilpattu und Udawalawe.",
         "image": {
-          "alt": "Jeep-Safari in den Wildparks Sri Lankas"
+          "alt": "Jeep Safari in den Wildparks Sri Lankas"
         },
         "id": "wildlife"
       },
       {
         "title": "Flitterwochen und Flucht",
-        "description": "Abgeschiedene Boutique-Aufenthalte, Spa-Rituale und entspannte Abende an der Küste.",
+        "description": "Abgeschiedene Boutique Aufenthalte, Spa Rituale und entspannte Abende an der Küste.",
         "image": {
           "alt": "Luxuriöser Strandurlaub für Paare in Sri Lanka"
         },
@@ -166,20 +166,20 @@
   },
   "featuredMultiDay": {
     "eyebrow": "Ausgewählte Reisen",
-    "title": "Beliebte Sri-Lanka-Rundreisen",
+    "title": "Beliebte Sri Lanka Rundreisen",
     "subtitle": "Private mehrtägige Urlaubsreisen mit Kultur, Teeland, Wildlife und Küste im Gleichgewicht.",
     "viewAllLabel": "Alle Mehrtagestouren ansehen"
   },
   "featuredDay": {
     "eyebrow": "Ein perfekter Tag",
     "title": "Private Tagestouren in Sri Lanka",
-    "subtitle": "Private Tagestouren ab Colombo und der Westküste — Galle, Sigiriya, Kandy, Ella und mehr.",
+    "subtitle": "Private Tagestouren ab Colombo und der Westküste, Galle, Sigiriya, Kandy, Ella und mehr.",
     "viewAllLabel": "Alle Tagestouren ansehen"
   },
   "destinations": {
     "eyebrow": "Reiseorte",
     "title": "Die schönsten Orte in Sri Lanka",
-    "subtitle": "Vom Löwenfelsen Sigiriya bis Galle Fort, Ella, Yala und Teeland — die Orte, die jede große Tour prägen.",
+    "subtitle": "Vom Löwenfelsen Sigiriya bis Galle Fort, Ella, Yala und Teeland, die Orte, die jede große Tour prägen.",
     "viewAllLabel": "Entdecken Sie Reiseziele"
   },
   "map": {
@@ -187,7 +187,7 @@
     "title": "Eine Insel der Regionen, perfekt verbunden",
     "subtitle": "Wir choreografieren Routen, damit sich das Kulturdreieck, das Hochland, die Tierwelt und die Küste natürlich und nie überstürzt anfühlen.",
     "image": {
-      "alt": "Neun-Bogen-Brücke in Ella, die Reiseregionen Sri Lankas repräsentiert",
+      "alt": "Neun Bogen Brücke in Ella, die Reiseregionen Sri Lankas repräsentiert",
       "title": "Reiseregionen Sri Lanka"
     },
     "regions": [
@@ -203,12 +203,12 @@
       },
       {
         "name": "Südküste",
-        "description": "Galle Fort, Mirissa und ruhige Boutique-Strände.",
+        "description": "Galle Fort, Mirissa und ruhige Boutique Strände.",
         "id": "south"
       },
       {
         "name": "Wildparks",
-        "description": "Yala-, Udawalawe- und Wilpattu-Safarimorgen.",
+        "description": "Yala-, Udawalawe- und Wilpattu Safarimorgen.",
         "id": "wildlife"
       }
     ]
@@ -232,7 +232,7 @@
         "id": "rating"
       },
       {
-        "label": "Jahrelange Inbound-Expertise",
+        "label": "Jahrelange Inbound Expertise",
         "id": "years"
       },
       {
@@ -243,7 +243,7 @@
   },
   "blog": {
     "eyebrow": "Reisetagebuch",
-    "title": "Ideen für Ihre Sri Lanka-Reise",
+    "title": "Ideen für Ihre Sri Lanka Reise",
     "subtitle": "Praktische Leitfäden und saisonale Einblicke von unserem Planungsteam.",
     "viewAllLabel": "Besuchen Sie den Blog"
   },
@@ -255,10 +255,10 @@
   },
   "cta": {
     "eyebrow": "Beginnen Sie hier",
-    "title": "Planen Sie Ihren Sri-Lanka-Urlaub",
-    "subtitle": "Nennen Sie uns Ihre Daten und Interessen — wir gestalten ein privates Tourpaket um die Orte, die Sie sehen möchten.",
+    "title": "Planen Sie Ihren Sri Lanka Urlaub",
+    "subtitle": "Nennen Sie uns Ihre Daten und Interessen, wir gestalten ein privates Tourpaket um die Orte, die Sie sehen möchten.",
     "image": {
-      "alt": "Neun-Bogen-Brücke über Teeplantagen in Ella, Sri Lanka",
+      "alt": "Neun Bogen Brücke über Teeplantagen in Ella, Sri Lanka",
       "title": "Ella Nine Arch Bridge"
     }
   }

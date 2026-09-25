@@ -4,8 +4,8 @@
     "slug": "galle-day-tour",
     "category": "day",
     "title": "Galle Day Tour",
-    "shortDescription": "A private south-coast day: turtle hatchery, Galle Dutch Fort, Bentota River boat ride, and the Tsunami Memorial.",
-    "description": "A private full-day journey down Sri Lanka’s south coast: sea turtle hatchery, UNESCO Galle Dutch Fort, Bentota River mangrove boat ride, and the Tsunami Memorial, with hotel pickup included.",
+    "shortDescription": "A private south coast day: turtle hatchery, Galle Dutch Fort, Bentota River boat ride, and the Tsunami Memorial.",
+    "description": "A private full day journey down Sri Lanka’s south coast: sea turtle hatchery, UNESCO Galle Dutch Fort, Bentota River mangrove boat ride, and the Tsunami Memorial, with hotel pickup included.",
     "duration": "1 Day",
     "location": {
       "name": "Galle",
@@ -39,10 +39,10 @@
         "title": "South coast: turtles, Bentota, memorial & Galle Fort",
         "description": "Morning hotel pickup and a scenic drive south. Visit a sea turtle hatchery, enjoy a Bentota River boat ride, pause at the Tsunami Memorial, then explore UNESCO Galle Dutch Fort before the evening return.",
         "highlights": [
-          "Sea turtle hatchery — conservation visit and turtle species",
-          "Bentota River boat ride — mangroves and wildlife",
-          "Tsunami Memorial — 2004 tsunami history",
-          "Galle Dutch Fort — UNESCO ramparts and ocean views"
+          "Sea turtle hatchery, conservation visit and turtle species",
+          "Bentota River boat ride, mangroves and wildlife",
+          "Tsunami Memorial, 2004 tsunami history",
+          "Galle Dutch Fort, UNESCO ramparts and ocean views"
         ],
         "location": {
           "name": "Galle Fort",
@@ -54,8 +54,8 @@
         },
         "images": [
           {
-        "src": "/assets/images/tours/galle-day-tour/galle-fort-clock-tower.jpg",
-        "alt": "Galle Fort clock tower and ramparts",
+            "src": "/assets/images/tours/galle-day-tour/galle-fort-clock-tower.jpg",
+            "alt": "Galle Fort clock tower and ramparts",
             "title": "Galle Fort lighthouse and ramparts",
             "width": 640,
             "height": 480
@@ -73,9 +73,9 @@
       }
     ],
     "includes": [
-      "Air-conditioned private vehicle",
-      "English-speaking professional driver",
-      "Pickup & drop-off",
+      "Air conditioned private vehicle",
+      "English speaking professional driver",
+      "Pickup & drop off",
       "Fuel & parking fees",
       "24-hour service",
       "Free bottled water"
@@ -112,7 +112,7 @@
     "highlights": [
       {
         "title": "Sea turtle hatchery",
-        "description": "Visit a south-coast turtle hatchery and learn about conservation work while observing different turtle species."
+        "description": "Visit a south coast turtle hatchery and learn about conservation work while observing different turtle species."
       },
       {
         "title": "Galle Dutch Fort",
@@ -127,8 +127,8 @@
         "description": "Visit the Tsunami Memorial and learn about the 2004 tsunami and its impact on Sri Lanka."
       },
       {
-        "title": "Private hotel pickup and drop-off",
-        "description": "Your chauffeur guide collects you from your hotel — typically Colombo, the west coast, or an agreed point — and returns you in the evening."
+        "title": "Private hotel pickup and drop off",
+        "description": "Your chauffeur guide collects you from your hotel, typically Colombo, the west coast, or an agreed point, and returns you in the evening."
       }
     ],
     "gallery": [
@@ -162,7 +162,7 @@
       },
       {
         "src": "/assets/images/destinations/turtles.jpg",
-        "alt": "Sea turtles at a south-coast hatchery",
+        "alt": "Sea turtles at a south coast hatchery",
         "title": "Sea turtle hatchery",
         "width": 1400,
         "height": 1050
@@ -231,7 +231,7 @@
         "title": "Sigiriya, Dambulla & Habarana",
         "description": "Morning hotel pickup, then a private Cultural Triangle day: climb Sigiriya Lion Rock, visit Dambulla Cave Temple and the Golden Buddha, enjoy a Habarana village safari, and join a Habarana elephant safari at the eco park. Evening return to your hotel.",
         "highlights": [
-          "Sigiriya Lion Rock — climb the fortress",
+          "Sigiriya Lion Rock, climb the fortress",
           "Dambulla Cave Temple & Golden Buddha",
           "Habarana village safari",
           "Habarana elephant safari at the eco park"
@@ -264,9 +264,9 @@
       }
     ],
     "includes": [
-      "Air-conditioned private vehicle",
-      "English-speaking professional driver",
-      "Pickup & drop-off",
+      "Air conditioned private vehicle",
+      "English speaking professional driver",
+      "Pickup & drop off",
       "Fuel & parking fees",
       "24-hour service",
       "Free bottled water"
@@ -298,7 +298,7 @@
     "highlights": [
       {
         "title": "Sigiriya Lion Rock",
-        "description": "Climb Sigiriya Lion Rock — water gardens, frescoes, and a summit panorama over the Cultural Triangle. Private pace with time for photos and rest. Entrance is paid on site and is not included."
+        "description": "Climb Sigiriya Lion Rock, water gardens, frescoes, and a summit panorama over the Cultural Triangle. Private pace with time for photos and rest. Entrance is paid on site and is not included."
       },
       {
         "title": "Dambulla Cave Temple & Golden Buddha",
@@ -306,15 +306,15 @@
       },
       {
         "title": "Habarana Village Safari",
-        "description": "A Habarana village safari through countryside lanes, rice fields, and local life — a slower look at rural Sri Lanka between the main sites."
+        "description": "A Habarana village safari through countryside lanes, rice fields, and local life, a slower look at rural Sri Lanka between the main sites."
       },
       {
         "title": "Habarana Elephant Safari (Eco Park)",
-        "description": "Habarana elephant safari at the eco park — typically Minneriya, Kaudulla, or Hurulu Eco Park depending on the season. Park tickets are extra and not included."
+        "description": "Habarana elephant safari at the eco park, typically Minneriya, Kaudulla, or Hurulu Eco Park depending on the season. Park tickets are extra and not included."
       },
       {
-        "title": "Private hotel pickup and drop-off",
-        "description": "Your chauffeur guide collects you from your hotel — typically Colombo, the west coast, or an agreed point — and returns you in the evening. Tell us your hotel when you book so we confirm pickup."
+        "title": "Private hotel pickup and drop off",
+        "description": "Your chauffeur guide collects you from your hotel, typically Colombo, the west coast, or an agreed point, and returns you in the evening. Tell us your hotel when you book so we confirm pickup."
       }
     ],
     "gallery": [
@@ -373,7 +373,7 @@
     "category": "day",
     "title": "Kandy Day Tour",
     "shortDescription": "Temple of the Tooth or Nelligala, Peradeniya Gardens, tea factory, Pinnawala elephants, spice garden, and batik workshop.",
-    "description": "A private full-day journey into Sri Lanka’s hill capital: Temple of the Tooth or Nelligala, Peradeniya Botanical Garden, tea factory, Pinnawala or elephant park, spice garden, and batik workshop.",
+    "description": "A private full day journey into Sri Lanka’s hill capital: Temple of the Tooth or Nelligala, Peradeniya Botanical Garden, tea factory, Pinnawala or elephant park, spice garden, and batik workshop.",
     "duration": "1 Day",
     "location": {
       "name": "Kandy",
@@ -444,9 +444,9 @@
       }
     ],
     "includes": [
-      "Air-conditioned private vehicle",
-      "English-speaking professional driver",
-      "Pickup & drop-off",
+      "Air conditioned private vehicle",
+      "English speaking professional driver",
+      "Pickup & drop off",
       "Fuel & parking fees",
       "24-hour service",
       "Free bottled water"
@@ -477,7 +477,7 @@
     "highlights": [
       {
         "title": "Temple of the Tooth or Nelligala Temple",
-        "description": "Visit Kandy’s Temple of the Sacred Tooth Relic — one of Sri Lanka’s most important Buddhist sites — or choose Nelligala Temple for a quieter hilltop shrine and wide valley views. Tell us your preference when you book."
+        "description": "Visit Kandy’s Temple of the Sacred Tooth Relic, one of Sri Lanka’s most important Buddhist sites, or choose Nelligala Temple for a quieter hilltop shrine and wide valley views. Tell us your preference when you book."
       },
       {
         "title": "Peradeniya Botanical Garden",
@@ -497,11 +497,11 @@
       },
       {
         "title": "Ceylon Batik & Saree Factory",
-        "description": "See artisans at a Ceylon batik and saree workshop — wax-resist dyeing, handloom, and finished textiles. Shopping is optional."
+        "description": "See artisans at a Ceylon batik and saree workshop, wax resist dyeing, handloom, and finished textiles. Shopping is optional."
       },
       {
-        "title": "Private hotel pickup and drop-off",
-        "description": "Your chauffeur guide collects you from your hotel — typically Colombo, the west coast, or an agreed point — and returns you in the evening. Tell us your hotel when you book so we confirm pickup."
+        "title": "Private hotel pickup and drop off",
+        "description": "Your chauffeur guide collects you from your hotel, typically Colombo, the west coast, or an agreed point, and returns you in the evening. Tell us your hotel when you book so we confirm pickup."
       }
     ],
     "gallery": [
@@ -568,9 +568,9 @@
     "id": "tour-ella-day",
     "slug": "ella-day-tour",
     "category": "day",
-    "title": "Ella Day Tour — Nine Arch & Elephant Transit Home",
+    "title": "Ella Day Tour, Nine Arch & Elephant Transit Home",
     "shortDescription": "A private highland day covering Nine Arch Bridge, Little Adam's Peak, Ravana Falls, and the Elephant Transit Home.",
-    "description": "A private full-day journey into Sri Lanka's hill country: Nine Arch Bridge, Little Adam's Peak, Ravana Ella Falls, and the Elephant Transit Home near Udawalawe, with hotel pickup included.",
+    "description": "A private full day journey into Sri Lanka's hill country: Nine Arch Bridge, Little Adam's Peak, Ravana Ella Falls, and the Elephant Transit Home near Udawalawe, with hotel pickup included.",
     "duration": "1 Day",
     "location": {
       "name": "Ella",
@@ -604,10 +604,10 @@
         "title": "Ella highlands & Elephant Transit Home",
         "description": "Morning pickup, then Nine Arch Bridge, Little Adam's Peak, Ravana Ella Falls, and the Elephant Transit Home (admission excluded). Return to your hotel in the evening.",
         "highlights": [
-          "Nine Arch Bridge — walk the viaduct and photo stop",
-          "Little Adam’s Peak — gentle hike and summit views",
-          "Ravana Ella Falls — roadside waterfall pause",
-          "Elephant Transit Home — calf feeding visit near Udawalawe (tickets extra)"
+          "Nine Arch Bridge, walk the viaduct and photo stop",
+          "Little Adam’s Peak, gentle hike and summit views",
+          "Ravana Ella Falls, roadside waterfall pause",
+          "Elephant Transit Home, calf feeding visit near Udawalawe (tickets extra)"
         ],
         "location": {
           "name": "Ella",
@@ -638,9 +638,9 @@
       }
     ],
     "includes": [
-      "Air-conditioned private vehicle",
-      "English-speaking professional driver",
-      "Pickup & drop-off",
+      "Air conditioned private vehicle",
+      "English speaking professional driver",
+      "Pickup & drop off",
       "Fuel & parking fees",
       "24-hour service",
       "Free bottled water"

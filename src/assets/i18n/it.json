@@ -37,7 +37,7 @@
     "legal": "Note legali",
     "rights": "Tutti i diritti riservati.",
     "contactCta": "Pianifica il viaggio",
-    "newsletterThanks": "Grazie — sei in lista."
+    "newsletterThanks": "Grazie, sei in lista."
   },
   "common": {
     "loading": "Caricamento…",
@@ -89,19 +89,19 @@
   "seo": {
     "home": {
       "title": "Tour Sri Lanka | Viaggi privati e pacchetti",
-      "description": "Tour privati in Sri Lanka e pacchetti vacanza su misura. Gite e itinerari a Sigiriya, Kandy, Ella, Yala, Galle e la costa — guida in inglese, hotel, pagamento a destinazione."
+      "description": "Tour privati in Sri Lanka e pacchetti vacanza su misura. Gite e itinerari a Sigiriya, Kandy, Ella, Yala, Galle e la costa, guida in inglese, hotel, pagamento a destinazione."
     },
     "about": {
       "title": "Chi siamo | Hai Sri Lanka Tours | Viaggi inbound privati",
-      "description": "Hai Sri Lanka Tours a Colombo — day tour e viaggi di più giorni privati in Sri Lanka dal 2020."
+      "description": "Hai Sri Lanka Tours a Colombo, day tour e viaggi di più giorni privati in Sri Lanka dal 2020."
     },
     "toursHub": {
       "title": "Tour Sri Lanka | Pacchetti di uno e più giorni",
-      "description": "Pacchetti tour Sri Lanka: gite private e itinerari di più giorni con hotel, autista-guida e prezzi trasparenti. Per coppie, famiglie e piccoli gruppi."
+      "description": "Pacchetti tour Sri Lanka: gite private e itinerari di più giorni con hotel, autista guida e prezzi trasparenti. Per coppie, famiglie e piccoli gruppi."
     },
     "dayTours": {
       "title": "Tour di un giorno in Sri Lanka | Gite private",
-      "description": "Tour privati di un giorno in Sri Lanka da Colombo e la costa ovest — Galle, Sigiriya, Kandy, Ella e altro. Veicolo dedicato, guida in inglese, ritmo flessibile."
+      "description": "Tour privati di un giorno in Sri Lanka da Colombo e la costa ovest, Galle, Sigiriya, Kandy, Ella e altro. Veicolo dedicato, guida in inglese, ritmo flessibile."
     },
     "multiDayTours": {
       "title": "Pacchetti Sri Lanka | Tour privati di più giorni",
@@ -212,14 +212,14 @@
     "nextTitle": "Cosa succede dopo",
     "next1": "Il nostro team verifica date e richiesta del tour.",
     "next2": "Ti contattiamo via e-mail o WhatsApp per confermare.",
-    "next3": "Viaggi con il tuo host privato — paghi a destinazione.",
+    "next3": "Viaggi con il tuo host privato, paghi a destinazione.",
     "print": "Stampa fattura",
     "browseTours": "Scopri altri tour",
     "contactUs": "Contattaci",
     "whatsappCta": "WhatsApp su questa prenotazione",
     "viewTours": "Vedi tour in Sri Lanka",
-    "whatsappPrefill": "Ciao Hai Sri Lanka — riguardo alla prenotazione {{ref}} ({{tour}}).",
-    "whatsappPrefillGeneric": "Ciao Hai Sri Lanka — ho una domanda sulla mia prenotazione."
+    "whatsappPrefill": "Ciao Hai Sri Lanka, riguardo alla prenotazione {{ref}} ({{tour}}).",
+    "whatsappPrefillGeneric": "Ciao Hai Sri Lanka, ho una domanda sulla mia prenotazione."
   },
   "consent": {
     "title": "Cookie e privacy",
@@ -257,7 +257,7 @@
   "destinationsPage": {
     "eyebrow": "Destinazioni",
     "title": "Luoghi da visitare in Sri Lanka",
-    "intro": "Scoprite i luoghi più belli dello Sri Lanka — Forte di Galle, Sigiriya, Kandy, Ella, Yala, paese del tè e costa sud — e trasformarli in un tour privato o pacchetto vacanza.",
+    "intro": "Scoprite i luoghi più belli dello Sri Lanka, Forte di Galle, Sigiriya, Kandy, Ella, Yala, paese del tè e costa sud, e trasformarli in un tour privato o pacchetto vacanza.",
     "allTitle": "Tutte le destinazioni",
     "count": "{{count}} luoghi da esplorare",
     "filterAria": "Filtra per regione",
@@ -273,12 +273,12 @@
     "intro": "Hai Sri Lanka Tours crea day tour e viaggi di più giorni privati, con pagamento a destinazione.",
     "storyTitle": "Chi siamo",
     "story1": "Dal 2020 a Colombo: un piccolo team inbound per coppie, famiglie e amici che vogliono l’isola senza gruppi misti.",
-    "story2": "Itinerari su Galle, Triangolo Culturale, Kandy, tè, Yala e costa sud — sempre via email e WhatsApp.",
+    "story2": "Itinerari su Galle, Triangolo Culturale, Kandy, tè, Yala e costa sud, sempre via email e WhatsApp.",
     "valuesTitle": "Come viaggiamo",
     "values": [
       {
         "title": "Privato di default",
-        "body": "Veicolo e autista-guida solo per il vostro gruppo. La giornata resta flessibile."
+        "body": "Veicolo e autista guida solo per il vostro gruppo. La giornata resta flessibile."
       },
       {
         "title": "Logistica chiara",
@@ -290,7 +290,7 @@
       }
     ],
     "ctaEyebrow": "Pianifica con noi",
-    "ctaBody": "Sfoglia i tour o invia le date — rispondiamo di persona.",
+    "ctaBody": "Sfoglia i tour o invia le date, rispondiamo di persona.",
     "exploreTours": "Esplora i tour",
     "schemaName": "Informazioni su Hai Sri Lanka Tours"
   },

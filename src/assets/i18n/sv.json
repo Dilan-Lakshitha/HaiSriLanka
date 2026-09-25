@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "Hai Sri Lanka",
-    "tagline": "Premium inbound-resor genom Sri Lanka"
+    "tagline": "Premium inbound resor genom Sri Lanka"
   },
   "nav": {
     "home": "Hem",
@@ -26,7 +26,7 @@
     "skipToContent": "Hoppa till innehåll",
     "whatsapp": "WhatsApp",
     "viewAllTours": "Visa alla turer",
-    "toursMegaCopy": "Privata Sri Lanka-turer, dagsutflykter och flerdagars semesterpaket.",
+    "toursMegaCopy": "Privata Sri Lanka turer, dagsutflykter och flerdagars semesterpaket.",
     "primary": "Huvudnavigering",
     "contactLabel": "Kontakt",
     "social": "Sociala medier"
@@ -37,7 +37,7 @@
     "legal": "Juridiskt",
     "rights": "Alla rättigheter förbehållna.",
     "contactCta": "Planera din resa",
-    "newsletterThanks": "Tack — du är på listan."
+    "newsletterThanks": "Tack, du är på listan."
   },
   "common": {
     "loading": "Laddar…",
@@ -88,23 +88,23 @@
   },
   "seo": {
     "home": {
-      "title": "Sri Lanka-turer | Privata resor & semesterpaket",
-      "description": "Privata Sri Lanka-turer och skräddarsydda semesterpaket. Dagsutflykter och flerdagarsresor till Sigiriya, Kandy, Ella, Yala, Galle och kusten — engelsktalande guide, hotell, betala på plats."
+      "title": "Sri Lanka turer | Privata resor & semesterpaket",
+      "description": "Privata Sri Lanka turer och skräddarsydda semesterpaket. Dagsutflykter och flerdagarsresor till Sigiriya, Kandy, Ella, Yala, Galle och kusten, engelsktalande guide, hotell, betala på plats."
     },
     "about": {
-      "title": "Om Hai Sri Lanka Tours | Privata inbound-resor",
-      "description": "Hai Sri Lanka Tours i Colombo — privata dags- och flerdagsturer på Sri Lanka sedan 2020."
+      "title": "Om Hai Sri Lanka Tours | Privata inbound resor",
+      "description": "Hai Sri Lanka Tours i Colombo, privata dags- och flerdagsturer på Sri Lanka sedan 2020."
     },
     "toursHub": {
-      "title": "Sri Lanka-turer | Privata dags- och flerdagspaket",
-      "description": "Sri Lanka-turpaket: privata dagsutflykter och flerdagars semesterresor med hotell, chaufför-guide och tydliga priser. För par, familjer och små grupper."
+      "title": "Sri Lanka turer | Privata dags- och flerdagspaket",
+      "description": "Sri Lanka turpaket: privata dagsutflykter och flerdagars semesterresor med hotell, chaufför guide och tydliga priser. För par, familjer och små grupper."
     },
     "dayTours": {
       "title": "Sri Lanka dagsutflykter | Privata dagsresor",
-      "description": "Privata dagsutflykter på Sri Lanka från Colombo och västkusten — Galle, Sigiriya, Kandy, Ella med mera. Eget fordon, engelsktalande guide, flexibelt tempo."
+      "description": "Privata dagsutflykter på Sri Lanka från Colombo och västkusten, Galle, Sigiriya, Kandy, Ella med mera. Eget fordon, engelsktalande guide, flexibelt tempo."
     },
     "multiDayTours": {
-      "title": "Sri Lanka-paket | Privata flerdagsturer",
+      "title": "Sri Lanka paket | Privata flerdagsturer",
       "description": "Privata semesterpaket på Sri Lanka: kultur, teland, viltliv och stränder med 4-stjärniga hotell och privat transport."
     },
     "destinations": {
@@ -128,12 +128,12 @@
       "description": "A visual journey through Sri Lanka with Hai Sri Lanka Tours."
     },
     "faq": {
-      "title": "FAQ | Privata Sri Lanka-turer | Hai Sri Lanka",
+      "title": "FAQ | Privata Sri Lanka turer | Hai Sri Lanka",
       "description": "Svar om privatturer, betalning på plats, transfer, avbokning och språk."
     },
     "contact": {
       "title": "Kontakt Hai Sri Lanka Tours | Planera en privat resa",
-      "description": "Skriv till Hai Sri Lanka Tours för att planera en privat Sri Lanka-resa. Vi svarar via e-post eller WhatsApp och anpassar resan efter era datum."
+      "description": "Skriv till Hai Sri Lanka Tours för att planera en privat Sri Lanka resa. Vi svarar via e-post eller WhatsApp och anpassar resan efter era datum."
     },
     "blog": {
       "title": "Resor Blogg | Hai Sri Lanka",
@@ -212,14 +212,14 @@
     "nextTitle": "Vad händer härnäst",
     "next1": "Vårt team granskar dina datum och turförfrågan.",
     "next2": "Vi kontaktar dig via e-post eller WhatsApp för att bekräfta.",
-    "next3": "Du reser med din privata värd — betala på plats.",
+    "next3": "Du reser med din privata värd, betala på plats.",
     "print": "Skriv ut faktura",
     "browseTours": "Se fler turer",
     "contactUs": "Kontakta oss",
     "whatsappCta": "WhatsApp om denna bokning",
-    "viewTours": "Se Sri Lanka-turer",
-    "whatsappPrefill": "Hej Hai Sri Lanka — angående bokning {{ref}} ({{tour}}).",
-    "whatsappPrefillGeneric": "Hej Hai Sri Lanka — jag har en fråga om min bokning."
+    "viewTours": "Se Sri Lanka turer",
+    "whatsappPrefill": "Hej Hai Sri Lanka, angående bokning {{ref}} ({{tour}}).",
+    "whatsappPrefillGeneric": "Hej Hai Sri Lanka, jag har en fråga om min bokning."
   },
   "consent": {
     "title": "Cookies och integritet",
@@ -229,15 +229,15 @@
   },
   "contactPage": {
     "eyebrow": "Kontakt",
-    "title": "Planera din Sri Lanka-resa med oss",
-    "intro": "Skicka en kort rad — vi svarar personligen via e-post eller WhatsApp och formar en privat rutt kring era datum.",
+    "title": "Planera din Sri Lanka resa med oss",
+    "intro": "Skicka en kort rad, vi svarar personligen via e-post eller WhatsApp och formar en privat rutt kring era datum.",
     "formTitle": "Skicka ett meddelande",
     "formLead": "Berätta vad ni söker. Meddelandet går rakt till vår inkorg.",
     "name": "Namn *",
     "email": "E-post *",
-    "whatsapp": "WhatsApp-nummer *",
+    "whatsapp": "WhatsApp nummer *",
     "message": "Meddelande *",
-    "validation": "Fyll i namn, giltig e-post, WhatsApp-nummer och ett kort meddelande.",
+    "validation": "Fyll i namn, giltig e-post, WhatsApp nummer och ett kort meddelande.",
     "sending": "Skickar…",
     "send": "Skicka meddelande",
     "success": "Tack, ditt meddelande har skickats.",
@@ -252,12 +252,12 @@
     "ctaBody": "Bläddra bland privata dags- och flerdagsturer och berätta era datum.",
     "exploreTours": "Utforska turer",
     "schemaName": "Kontakta Hai Sri Lanka Tours",
-    "schemaDescription": "Kontakta Hai Sri Lanka Tours via formulär, telefon, WhatsApp eller e-post för att planera en privat Sri Lanka-resa."
+    "schemaDescription": "Kontakta Hai Sri Lanka Tours via formulär, telefon, WhatsApp eller e-post för att planera en privat Sri Lanka resa."
   },
   "destinationsPage": {
     "eyebrow": "Destinationer",
     "title": "Platser att besöka på Sri Lanka",
-    "intro": "Upptäck de bästa resmålen på Sri Lanka — Galle Fort, Sigiriya, Kandy, Ella, Yala, telandet och sydkusten — och gör dem till en privat tur eller ett semesterpaket.",
+    "intro": "Upptäck de bästa resmålen på Sri Lanka, Galle Fort, Sigiriya, Kandy, Ella, Yala, telandet och sydkusten, och gör dem till en privat tur eller ett semesterpaket.",
     "allTitle": "Alla destinationer",
     "count": "{{count}} platser att utforska",
     "filterAria": "Filtrera efter region",
@@ -269,16 +269,16 @@
   },
   "aboutPage": {
     "eyebrow": "Om oss",
-    "title": "En privat inbound-studio för Sri Lanka",
+    "title": "En privat inbound studio för Sri Lanka",
     "intro": "Hai Sri Lanka Tours skapar privata dags- och flerdagsturer med betalning på plats.",
     "storyTitle": "Vilka vi är",
-    "story1": "Sedan 2020 i Colombo: ett litet inbound-team för par, familjer och vänner som vill se ön utan blandade bussgrupper.",
-    "story2": "Rutter kring Galle, Cultural Triangle, Kandy, tebergen, Yala och sydkusten — alltid via e-post och WhatsApp.",
+    "story1": "Sedan 2020 i Colombo: ett litet inbound team för par, familjer och vänner som vill se ön utan blandade bussgrupper.",
+    "story2": "Rutter kring Galle, Cultural Triangle, Kandy, tebergen, Yala och sydkusten, alltid via e-post och WhatsApp.",
     "valuesTitle": "Så reser vi",
     "values": [
       {
         "title": "Privat som standard",
-        "body": "Fordon och chaufför-guide bara för ert sällskap. Dagen förblir flexibel."
+        "body": "Fordon och chaufför guide bara för ert sällskap. Dagen förblir flexibel."
       },
       {
         "title": "Tydlig logistik",
@@ -290,7 +290,7 @@
       }
     ],
     "ctaEyebrow": "Planera med oss",
-    "ctaBody": "Bläddra bland privata turer eller skicka datum — vi svarar personligen.",
+    "ctaBody": "Bläddra bland privata turer eller skicka datum, vi svarar personligen.",
     "exploreTours": "Utforska turer",
     "schemaName": "Om Hai Sri Lanka Tours"
   },
@@ -310,7 +310,7 @@
     "sections": [
       {
         "title": "Vilka vi är",
-        "body": "Hai Sri Lanka Tours är ett inbound-reseföretag i Colombo. Kontakt: haisrilankatour@gmail.com eller +94 74 313 7241."
+        "body": "Hai Sri Lanka Tours är ett inbound reseföretag i Colombo. Kontakt: haisrilankatour@gmail.com eller +94 74 313 7241."
       },
       {
         "title": "Uppgifter vi samlar in",

@@ -2,7 +2,7 @@
   "global": [
     {
       "question": "Är turerna privata?",
-      "answer": "Ja. Hai Sri Lanka erbjuder privata resor för par, familjer och små grupper med egen chaufför-guide."
+      "answer": "Ja. Hai Sri Lanka erbjuder privata resor för par, familjer och små grupper med egen chaufför guide."
     },
     {
       "question": "Ordnar ni flygplatstransfer?",
@@ -26,7 +26,7 @@
     },
     {
       "question": "Vad ingår vanligtvis?",
-      "answer": "Privat fordon, chaufför-guide, bränsle och parkering. Biljetter, måltider och hotell framgår på toursidan."
+      "answer": "Privat fordon, chaufför guide, bränsle och parkering. Biljetter, måltider och hotell framgår på toursidan."
     },
     {
       "question": "Hur långt i förväg ska jag boka?",
@@ -46,12 +46,12 @@
       "pageKey": "home",
       "items": [
         {
-          "question": "Erbjuder ni privata Sri Lanka-turer?",
-          "answer": "Ja. Varje tur hos Hai Sri Lanka är privat — ert fordon och en engelsktalande chaufför-guide, ingen blandad buss. Dagsutflykter och flerdagars paket anpassas efter era datum."
+          "question": "Erbjuder ni privata Sri Lanka turer?",
+          "answer": "Ja. Varje tur hos Hai Sri Lanka är privat, ert fordon och en engelsktalande chaufför guide, ingen blandad buss. Dagsutflykter och flerdagars paket anpassas efter era datum."
         },
         {
-          "question": "Vad ingår i ett Sri Lanka-turpaket?",
-          "answer": "Privat transport, bränsle, parkering och chaufför-guide ingår vanligtvis. Flerdagars paket inkluderar ofta 4-stjärniga hotell. Entréer och måltider står på varje tursida."
+          "question": "Vad ingår i ett Sri Lanka turpaket?",
+          "answer": "Privat transport, bränsle, parkering och chaufför guide ingår vanligtvis. Flerdagars paket inkluderar ofta 4-stjärniga hotell. Entréer och måltider står på varje tursida."
         },
         {
           "question": "Vilka platser på Sri Lanka besöker era turer?",

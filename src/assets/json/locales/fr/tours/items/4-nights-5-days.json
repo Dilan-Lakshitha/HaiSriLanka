@@ -18,7 +18,7 @@
     },
     {
       "title": "Temple of the Tooth, tea and Ella",
-      "description": "Sacred Kandy, tea-country roads, and arrival in Ella’s cool highlands."
+      "description": "Sacred Kandy, tea country roads, and arrival in Ella’s cool highlands."
     },
     {
       "title": "Train, Yala and the south coast",
@@ -33,7 +33,7 @@
     "Carburant et frais de stationnement",
     "Service 24 heures",
     "Eau en bouteille offerte",
-    "Hôtel 4 étoiles en demi-pension"
+    "Hôtel 4 étoiles en demi pension"
   ],
   "excluded": [
     "Frais d'entrée",
@@ -45,33 +45,33 @@
   },
   "itinerary": [
     {
-      "title": "BIA / Hôtel – Sigiriya",
+      "title": "BIA / Hôtel to Sigiriya",
       "description": "Voyagez à l'intérieur des terres jusqu'à Sigiriya pour une visite du village ou un safari à dos d'éléphant à Minneriya, Kaudulla ou Hurulu Eco Park, ainsi qu'à Pidurangala ou Lion Rock."
     },
     {
-      "title": "Sigiriya – Kandy",
+      "title": "Sigiriya to Kandy",
       "description": "Quittez le Triangle via le temple de la grotte de Dambulla et le jardin des épices de Matale, puis visitez un musée de pierres précieuses et assistez à une danse culturelle de Kandyan en soirée."
     },
     {
-      "title": "Kandy-Ella",
+      "title": "Kandy Ella",
       "description": "Matinée au Temple de la Relique de la Dent, puis montée dans la région du thé pour une visite d'une plantation et d'une usine avant une visite de la ville d'Ella."
     },
     {
-      "title": "Ella-Yala",
+      "title": "Ella Yala",
       "description": "Montez à bord du train panoramique à travers les collines, faites une pause aux chutes de Ravana, puis continuez vers Yala pour un safari dans le parc national."
     },
     {
-      "title": "Yala – Dépose",
+      "title": "Yala to Dépose",
       "description": "Finale côtière avec observation des dauphins et des baleines à Mirissa, Galle Dutch Fort, une écloserie de tortues et un safari en bateau Bentota avant le retour à votre hôtel ou à l'aéroport."
     }
   ],
   "faqs": [
     {
-      "question": "L'itinéraire peut-il être personnalisé ?",
+      "question": "L'itinéraire peut il être personnalisé ?",
       "answer": "Oui. Nous adaptons le rythme, les hôtels et les expériences (par exemple en choisissant une visite du village ou un safari à dos d'éléphant le premier jour) selon vos préférences."
     },
     {
-      "question": "L’observation des baleines est-elle saisonnière ?",
+      "question": "L’observation des baleines est elle saisonnière ?",
       "answer": "L'observation des dauphins et des baleines à Mirissa est généralement meilleure de novembre à avril. En dehors de la haute saison, nous vous proposons d'autres alternatives côtières."
     }
   ]

@@ -5,8 +5,8 @@
   "title": "Galle Day Tour",
   "seoTitle": "Galle Day Tour | Fort, Turtles, Bentota & Tsunami Memorial | Hai Sri Lanka",
   "metaDescription": "Private Galle day tour: sea turtle hatchery, Galle Dutch Fort, Bentota River boat ride, and the Tsunami Memorial. Hotel pickup included.",
-  "shortDescription": "A private south-coast day: turtle hatchery, Galle Dutch Fort, Bentota River boat ride, and the Tsunami Memorial.",
-  "overview": "A private full-day journey down Sri Lanka’s south coast, built around four memorable stops. Visit a sea turtle hatchery to learn about conservation and see different turtle species, then explore UNESCO Galle Dutch Fort — colonial streets, ramparts, and ocean views.\nOn the same circuit, take a Bentota River boat ride through mangroves and wildlife, and pause at the Tsunami Memorial to understand the 2004 disaster and its impact on coastal communities. Your chauffeur guide keeps the day flexible for photos and a comfortable return.",
+  "shortDescription": "A private south coast day: turtle hatchery, Galle Dutch Fort, Bentota River boat ride, and the Tsunami Memorial.",
+  "overview": "A private full day journey down Sri Lanka’s south coast, built around four memorable stops. Visit a sea turtle hatchery to learn about conservation and see different turtle species, then explore UNESCO Galle Dutch Fort, colonial streets, ramparts, and ocean views.\nOn the same circuit, take a Bentota River boat ride through mangroves and wildlife, and pause at the Tsunami Memorial to understand the 2004 disaster and its impact on coastal communities. Your chauffeur guide keeps the day flexible for photos and a comfortable return.",
   "duration": "1 Day",
   "destinations": [
     "Galle",
@@ -18,11 +18,11 @@
   "highlights": [
     {
       "title": "Sea turtle hatchery",
-      "description": "Visit a south-coast turtle hatchery and learn about conservation work while observing different turtle species — eggs, hatchlings, and adults cared for before release to the sea."
+      "description": "Visit a south coast turtle hatchery and learn about conservation work while observing different turtle species, eggs, hatchlings, and adults cared for before release to the sea."
     },
     {
       "title": "Galle Dutch Fort",
-      "description": "Explore the UNESCO World Heritage fort: colonial ramparts, lighthouse lanes, boutiques, and cafés, with stunning ocean views from one of Asia’s best-preserved forts."
+      "description": "Explore the UNESCO World Heritage fort: colonial ramparts, lighthouse lanes, boutiques, and cafés, with stunning ocean views from one of Asia’s best preserved forts."
     },
     {
       "title": "Bentota River boat ride",
@@ -30,17 +30,17 @@
     },
     {
       "title": "Tsunami Memorial",
-      "description": "Stop at the Tsunami Memorial to learn about the 2004 Indian Ocean tsunami and its impact on Sri Lanka’s south coast — a quiet, respectful pause on the day’s route."
+      "description": "Stop at the Tsunami Memorial to learn about the 2004 Indian Ocean tsunami and its impact on Sri Lanka’s south coast, a quiet, respectful pause on the day’s route."
     },
     {
-      "title": "Private hotel pickup and drop-off",
-      "description": "Your chauffeur guide collects you from your hotel — typically Colombo, the west coast, or an agreed point — and returns you in the evening. Tell us your hotel when you book so we confirm pickup."
+      "title": "Private hotel pickup and drop off",
+      "description": "Your chauffeur guide collects you from your hotel, typically Colombo, the west coast, or an agreed point, and returns you in the evening. Tell us your hotel when you book so we confirm pickup."
     }
   ],
   "included": [
-    "Air-conditioned private vehicle",
-    "English-speaking professional driver",
-    "Pickup & drop-off",
+    "Air conditioned private vehicle",
+    "English speaking professional driver",
+    "Pickup & drop off",
     "Fuel & parking fees",
     "24-hour service",
     "Free bottled water"
@@ -55,10 +55,10 @@
       "title": "South coast: turtles, Bentota, memorial & Galle Fort",
       "description": "Morning hotel pickup and a scenic drive south. Visit a sea turtle hatchery to learn about conservation and observe different species, enjoy a Bentota River boat ride through mangroves, pause at the Tsunami Memorial, then explore UNESCO Galle Dutch Fort before the evening return.",
       "highlights": [
-        "Sea turtle hatchery — conservation visit and turtle species",
-        "Bentota River boat ride — mangroves and wildlife",
-        "Tsunami Memorial — 2004 tsunami history",
-        "Galle Dutch Fort — UNESCO ramparts and ocean views"
+        "Sea turtle hatchery, conservation visit and turtle species",
+        "Bentota River boat ride, mangroves and wildlife",
+        "Tsunami Memorial, 2004 tsunami history",
+        "Galle Dutch Fort, UNESCO ramparts and ocean views"
       ],
       "location": {
         "name": "Galle Fort",
@@ -191,14 +191,14 @@
     },
     {
       "src": "/assets/images/destinations/turtles.jpg",
-      "alt": "Sea turtles at a south-coast hatchery",
+      "alt": "Sea turtles at a south coast hatchery",
       "title": "Sea turtle hatchery",
       "width": 870,
       "height": 450
     },
     {
       "src": "/assets/images/tours/guest-experiences/mangrove-boat.png",
-      "alt": "Boat ride through south-coast mangroves",
+      "alt": "Boat ride through south coast mangroves",
       "title": "Bentota River boat ride",
       "width": 1600,
       "height": 1200
@@ -249,7 +249,7 @@
     "de": "galle-tagesausflug"
   },
   "status": "published",
-  "description": "A private full-day journey down Sri Lanka’s south coast, built around four memorable stops. Visit a sea turtle hatchery to learn about conservation and see different turtle species, then explore UNESCO Galle Dutch Fort — colonial streets, ramparts, and ocean views.\nOn the same circuit, take a Bentota River boat ride through mangroves and wildlife, and pause at the Tsunami Memorial to understand the 2004 disaster and its impact on coastal communities. Your chauffeur guide keeps the day flexible for photos and a comfortable return.",
+  "description": "A private full day journey down Sri Lanka’s south coast, built around four memorable stops. Visit a sea turtle hatchery to learn about conservation and see different turtle species, then explore UNESCO Galle Dutch Fort, colonial streets, ramparts, and ocean views.\nOn the same circuit, take a Bentota River boat ride through mangroves and wildlife, and pause at the Tsunami Memorial to understand the 2004 disaster and its impact on coastal communities. Your chauffeur guide keeps the day flexible for photos and a comfortable return.",
   "location": {
     "name": "Galle",
     "region": "Southern Province",
@@ -276,9 +276,9 @@
     }
   ],
   "includes": [
-    "Air-conditioned private vehicle",
-    "English-speaking professional driver",
-    "Pickup & drop-off",
+    "Air conditioned private vehicle",
+    "English speaking professional driver",
+    "Pickup & drop off",
     "Fuel & parking fees",
     "24-hour service",
     "Free bottled water"

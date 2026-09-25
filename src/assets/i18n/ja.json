@@ -212,14 +212,14 @@
     "nextTitle": "今後の流れ",
     "next1": "担当者がご希望の日程とツアー内容を確認します。",
     "next2": "メールまたはWhatsAppで確認のご連絡をします。",
-    "next3": "プライベートホストとご旅行 — 現地払い。",
+    "next3": "プライベートホストとご旅行, 現地払い。",
     "print": "請求書を印刷",
     "browseTours": "他のツアーを見る",
     "contactUs": "お問い合わせ",
     "whatsappCta": "この予約についてWhatsApp",
     "viewTours": "スリランカのツアーを見る",
-    "whatsappPrefill": "こんにちは Hai Sri Lanka — 予約 {{ref}}（{{tour}}）について。",
-    "whatsappPrefillGeneric": "こんにちは Hai Sri Lanka — 予約について質問があります。"
+    "whatsappPrefill": "こんにちは Hai Sri Lanka, 予約 {{ref}}（{{tour}}）について。",
+    "whatsappPrefillGeneric": "こんにちは Hai Sri Lanka, 予約について質問があります。"
   },
   "consent": {
     "title": "Cookieとプライバシー",

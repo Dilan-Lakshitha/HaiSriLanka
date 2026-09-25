@@ -45,7 +45,7 @@
   },
   "itinerary": [
     {
-      "title": "Aeroporto / Hotel – Sigiriya",
+      "title": "Aeroporto / Hotel to Sigiriya",
       "description": "Viaggio verso l’interno fino a Sigiriya. Salite Pidurangala, fate un tour del villaggio e rilassatevi con un massaggio Ayurveda prima della notte a Sigiriya."
     },
     {
@@ -53,30 +53,30 @@
       "description": "Salite la Roccia del Leone di Sigiriya, poi un safari in jeep a Minneriya, Kaudulla o Hurulu Eco Park. Notte nello stesso hotel."
     },
     {
-      "title": "Sigiriya – Kandy",
+      "title": "Sigiriya to Kandy",
       "description": "Lasciate il Triangolo via il Tempio delle grotte di Dambulla e il giardino delle spezie di Matale, poi Upper Lake Drive, museo delle gemme, danza culturale kandyan e Tempio del Dente."
     },
     {
-      "title": "Kandy – Nuwara Eliya",
+      "title": "Kandy to Nuwara Eliya",
       "description": "Salita verso le colline del tè con la torre Ambuluwawa, visita a piantagione e fabbrica di tè e city tour di Nuwara Eliya."
     },
     {
-      "title": "Nuwara Eliya – Ella",
+      "title": "Nuwara Eliya to Ella",
       "description": "Trekking al mattino presto a Horton Plains, poi treno panoramico fino a Ella."
     },
     {
-      "title": "Ella – Yala",
+      "title": "Ella to Yala",
       "description": "Discesa verso le pianure con sosta alle cascate Ravana, poi safari nel Parco Nazionale di Yala."
     },
     {
-      "title": "Yala – Aeroporto / Hotel",
+      "title": "Yala to Aeroporto / Hotel",
       "description": "Finale costiero: avvistamento balene o snorkeling con balene o tartarughe a Mirissa, Galle Fort, giro in barca a Bentota e allevamento di tartarughe prima del trasferimento in aeroporto o hotel."
     }
   ],
   "faqs": [
     {
       "question": "L’itinerario può essere personalizzato?",
-      "answer": "Sì. Adattiamo ritmo, hotel ed esperienze — ad esempio il tempo Ayurveda o l’orario del safari — alle vostre preferenze."
+      "answer": "Sì. Adattiamo ritmo, hotel ed esperienze, ad esempio il tempo Ayurveda o l’orario del safari, alle vostre preferenze."
     },
     {
       "question": "L’avvistamento delle balene è stagionale?",

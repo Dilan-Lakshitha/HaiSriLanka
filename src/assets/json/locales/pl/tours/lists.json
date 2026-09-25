@@ -3,7 +3,7 @@
     "hero": {
       "eyebrow": "Wycieczki po Sri Lance",
       "title": "Prywatne wycieczki i pakiety Sri Lanka",
-      "subtitle": "Wybierz prywatną wycieczkę jednodniową lub wielodniowy pakiet wakacyjny — spokojne tempo, zaufane hotele, anglojęzyczny przewodnik i jasne ceny.",
+      "subtitle": "Wybierz prywatną wycieczkę jednodniową lub wielodniowy pakiet wakacyjny, spokojne tempo, zaufane hotele, anglojęzyczny przewodnik i jasne ceny.",
       "image": {
         "alt": "Prywatne wycieczki po Sri Lance z Hai Sri Lanka"
       }
@@ -17,28 +17,28 @@
     "hero": {
       "eyebrow": "Wycieczki jednodniowe",
       "title": "Prywatne wycieczki jednodniowe na Sri Lance",
-      "subtitle": "Prywatne wycieczki jednodniowe z wybrzeża do Trójkąta Kulturowego — Galle, Sigirija, Kandy, Ella i więcej. Własny pojazd i przewodnik, tempo dla komfortu.",
+      "subtitle": "Prywatne wycieczki jednodniowe z wybrzeża do Trójkąta Kulturowego, Galle, Sigirija, Kandy, Ella i więcej. Własny pojazd i przewodnik, tempo dla komfortu.",
       "image": {
         "alt": "Jednodniowe wycieczki po Sri Lance"
       }
     },
     "seo": {
       "metaTitle": "Wycieczki jednodniowe Sri Lanka | Prywatne wyprawy",
-      "metaDescription": "Prywatne wycieczki jednodniowe na Sri Lance z Kolombo i zachodniego wybrzeża — Galle, Sigirija, Kandy, Ella i więcej. Własny pojazd, anglojęzyczny przewodnik, elastyczne tempo."
+      "metaDescription": "Prywatne wycieczki jednodniowe na Sri Lance z Kolombo i zachodniego wybrzeża, Galle, Sigirija, Kandy, Ella i więcej. Własny pojazd, anglojęzyczny przewodnik, elastyczne tempo."
     }
   },
   "multi-day": {
     "hero": {
       "eyebrow": "Wycieczki wielodniowe",
       "title": "Pakiety i wycieczki wielodniowe na Sri Lance",
-      "subtitle": "Prywatne trasy wakacyjne przez kulturę, herbatę, przyrodę i wybrzeże — elastyczne noce i zaufane hotele.",
+      "subtitle": "Prywatne trasy wakacyjne przez kulturę, herbatę, przyrodę i wybrzeże, elastyczne noce i zaufane hotele.",
       "image": {
         "alt": "Wielodniowe wycieczki na Sri Lankę"
       }
     },
     "seo": {
       "metaTitle": "Pakiety Sri Lanka | Prywatne wycieczki wielodniowe",
-      "metaDescription": "Prywatne pakiety wakacyjne na Sri Lance: kultura, herbata, przyroda i plaże z hotelami 4-gwiazdkowymi i prywatnym transportem."
+      "metaDescription": "Prywatne pakiety wakacyjne na Sri Lance: kultura, herbata, przyroda i plaże z hotelami 4 gwiazdkowymi i prywatnym transportem."
     }
   }
 }

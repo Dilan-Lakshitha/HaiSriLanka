@@ -1,12 +1,12 @@
 {
   "seo": {
     "metaTitle": "Circuits Sri Lanka | Voyages privés & séjours",
-    "metaDescription": "Circuits privés au Sri Lanka et séjours sur mesure. Excursions et packages vers Sigiriya, Kandy, Ella, Yala, Galle et la côte — guide anglophone, hôtels, paiement sur place."
+    "metaDescription": "Circuits privés au Sri Lanka et séjours sur mesure. Excursions et packages vers Sigiriya, Kandy, Ella, Yala, Galle et la côte, guide anglophone, hôtels, paiement sur place."
   },
   "hero": {
     "eyebrow": "Circuits privés au Sri Lanka · séjours sur mesure",
     "title": "Circuits Sri Lanka, privés et sur mesure",
-    "subtitle": "Séjours et excursions vers les plus beaux lieux du Sri Lanka — temples, thé, faune et plages — avec votre propre guide anglophone.",
+    "subtitle": "Séjours et excursions vers les plus beaux lieux du Sri Lanka, temples, thé, faune et plages, avec votre propre guide anglophone.",
     "image": {
       "alt": "Pont à neuf arches et pays du thé près d'Ella, Sri Lanka",
       "title": "Pont à neuf arches d'Ella"
@@ -29,7 +29,7 @@
         "title": "La faune de Yala"
       },
       {
-        "alt": "Pont à neuf arches s'élevant au-dessus des plantations de thé d'Ella",
+        "alt": "Pont à neuf arches s'élevant au dessus des plantations de thé d'Ella",
         "title": "Hauts plateaux d'Ella"
       }
     ],
@@ -91,7 +91,7 @@
         "label": "Plage et côte"
       },
       {
-        "label": "Luxe & bien-être"
+        "label": "Luxe & bien être"
       },
       {
         "label": "Famille"
@@ -101,7 +101,7 @@
   "whyChoose": {
     "eyebrow": "Pourquoi Hai Sri Lanka",
     "title": "Circuits privés au Sri Lanka, pas de bus de groupe",
-    "subtitle": "Nous concevons des packages et séjours privés sur toute l’île — votre véhicule, votre rythme, des hôtes locaux qui connaissent chaque route.",
+    "subtitle": "Nous concevons des packages et séjours privés sur toute l’île, votre véhicule, votre rythme, des hôtes locaux qui connaissent chaque route.",
     "items": [
       {
         "title": "Expériences entièrement privées",
@@ -110,7 +110,7 @@
       },
       {
         "title": "Hôtes locaux experts",
-        "description": "Chauffeurs-guides formés à la narration, à la sécurité et à l'hospitalité de luxe tranquille à travers l'île.",
+        "description": "Chauffeurs guides formés à la narration, à la sécurité et à l'hospitalité de luxe tranquille à travers l'île.",
         "id": "experts"
       },
       {
@@ -128,7 +128,7 @@
   "tourCategories": {
     "eyebrow": "Packages Sri Lanka",
     "title": "Choisissez votre circuit au Sri Lanka",
-    "subtitle": "D’une excursion privée à un séjour complet entre hauts plateaux, faune et côte — commencez par le style qui vous convient.",
+    "subtitle": "D’une excursion privée à un séjour complet entre hauts plateaux, faune et côte, commencez par le style qui vous convient.",
     "items": [
       {
         "title": "Excursions d'une journée",
@@ -173,13 +173,13 @@
   "featuredDay": {
     "eyebrow": "Une journée parfaite",
     "title": "Excursions privées au Sri Lanka",
-    "subtitle": "Excursions privées depuis Colombo et la côte ouest — Galle, Sigiriya, Kandy, Ella et plus.",
+    "subtitle": "Excursions privées depuis Colombo et la côte ouest, Galle, Sigiriya, Kandy, Ella et plus.",
     "viewAllLabel": "Voir toutes les excursions d'une journée"
   },
   "destinations": {
     "eyebrow": "Lieux à visiter",
     "title": "Les plus beaux lieux du Sri Lanka",
-    "subtitle": "Du Rocher du Lion à Sigiriya au Fort de Galle, Ella, Yala et le pays du thé — les lieux qui façonnent chaque grand voyage.",
+    "subtitle": "Du Rocher du Lion à Sigiriya au Fort de Galle, Ella, Yala et le pays du thé, les lieux qui façonnent chaque grand voyage.",
     "viewAllLabel": "Explorer les destinations"
   },
   "map": {
@@ -256,9 +256,9 @@
   "cta": {
     "eyebrow": "Commencez ici",
     "title": "Planifiez vos vacances au Sri Lanka",
-    "subtitle": "Indiquez vos dates et envies — nous composerons un circuit privé autour des lieux que vous souhaitez voir.",
+    "subtitle": "Indiquez vos dates et envies, nous composerons un circuit privé autour des lieux que vous souhaitez voir.",
     "image": {
-      "alt": "Pont à neuf arches s'élevant au-dessus des plantations de thé à Ella, Sri Lanka",
+      "alt": "Pont à neuf arches s'élevant au dessus des plantations de thé à Ella, Sri Lanka",
       "title": "Pont à neuf arches d'Ella"
     }
   }

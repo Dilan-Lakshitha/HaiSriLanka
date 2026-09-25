@@ -1,7 +1,7 @@
 {
   "brand": {
     "name": "Hai Sri Lanka",
-    "tagline": "Premium Inbound-Reisen durch Sri Lanka"
+    "tagline": "Premium Inbound Reisen durch Sri Lanka"
   },
   "nav": {
     "home": "Startseite",
@@ -26,7 +26,7 @@
     "skipToContent": "Zum Inhalt springen",
     "whatsapp": "WhatsApp",
     "viewAllTours": "Alle Touren anzeigen",
-    "toursMegaCopy": "Private Sri-Lanka-Touren, Tagesausflüge und mehrtägige Urlaubspakete.",
+    "toursMegaCopy": "Private Sri Lanka Touren, Tagesausflüge und mehrtägige Urlaubspakete.",
     "primary": "Hauptnavigation",
     "contactLabel": "Kontakt",
     "social": "Soziale Medien"
@@ -37,7 +37,7 @@
     "legal": "Rechtliches",
     "rights": "Alle Rechte vorbehalten.",
     "contactCta": "Reise planen",
-    "newsletterThanks": "Danke — Sie stehen auf der Liste."
+    "newsletterThanks": "Danke, Sie stehen auf der Liste."
   },
   "common": {
     "loading": "Laden…",
@@ -80,7 +80,7 @@
     "freeCancel": "Kostenlos stornieren",
     "payLater": "Später zahlen",
     "payAtDestination": "Zahlung vor Ort",
-    "whatsappAdmin": "Tour-Administrator per WhatsApp"
+    "whatsappAdmin": "Tour Administrator per WhatsApp"
   },
   "placeholder": {
     "pageTitle": "{{page}}",
@@ -89,27 +89,27 @@
   "seo": {
     "home": {
       "title": "Sri Lanka Touren | Privatreisen & Urlaubspakete",
-      "description": "Private Sri-Lanka-Touren und maßgeschneiderte Urlaubspakete. Tagesausflüge und Rundreisen nach Sigiriya, Kandy, Ella, Yala, Galle und an die Küste — Guide, Hotels, Zahlung vor Ort."
+      "description": "Private Sri Lanka Touren und maßgeschneiderte Urlaubspakete. Tagesausflüge und Rundreisen nach Sigiriya, Kandy, Ella, Yala, Galle und an die Küste, Guide, Hotels, Zahlung vor Ort."
     },
     "about": {
-      "title": "Über Hai Sri Lanka Tours | Privates Inbound-Reisen",
-      "description": "Hai Sri Lanka Tours in Colombo — private Tages- und Mehrtagesreisen auf Sri Lanka seit 2020."
+      "title": "Über Hai Sri Lanka Tours | Privates Inbound Reisen",
+      "description": "Hai Sri Lanka Tours in Colombo, private Tages- und Mehrtagesreisen auf Sri Lanka seit 2020."
     },
     "toursHub": {
       "title": "Sri Lanka Touren | Private Tages- und Mehrtagespakete",
-      "description": "Private Sri-Lanka-Tourpakete: Tagestouren und mehrtägige Urlaubsreisen mit Hotels, Fahrer-Guide und transparenten Preisen. Für Paare, Familien und kleine Gruppen."
+      "description": "Private Sri Lanka Tourpakete: Tagestouren und mehrtägige Urlaubsreisen mit Hotels, Fahrer Guide und transparenten Preisen. Für Paare, Familien und kleine Gruppen."
     },
     "dayTours": {
       "title": "Sri Lanka Tagestouren | Private Tagesausflüge",
-      "description": "Private Tagestouren in Sri Lanka ab Colombo und der Westküste — Galle, Sigiriya, Kandy, Ella und mehr. Eigenes Fahrzeug, englischsprachiger Guide, flexibles Tempo."
+      "description": "Private Tagestouren in Sri Lanka ab Colombo und der Westküste, Galle, Sigiriya, Kandy, Ella und mehr. Eigenes Fahrzeug, englischsprachiger Guide, flexibles Tempo."
     },
     "multiDayTours": {
       "title": "Sri Lanka Rundreisen | Private Mehrtagespakete",
-      "description": "Private Sri-Lanka-Urlaubspakete: Kultur, Teeland, Wildlife und Strände mit 4-Sterne-Hotels und privatem Transport."
+      "description": "Private Sri Lanka Urlaubspakete: Kultur, Teeland, Wildlife und Strände mit 4 Sterne Hotels und privatem Transport."
     },
     "destinations": {
       "title": "Sri Lanka Sehenswürdigkeiten | Orte zum Besuchen",
-      "description": "Die schönsten Orte in Sri Lanka: Galle, Sigiriya, Kandy, Yala, Ella, Colombo und das Teeland. Planen Sie eine Privattour um die Top-Reiseziele der Insel."
+      "description": "Die schönsten Orte in Sri Lanka: Galle, Sigiriya, Kandy, Yala, Ella, Colombo und das Teeland. Planen Sie eine Privattour um die Top Reiseziele der Insel."
     },
     "travelGuide": {
       "title": "Sri Lanka Reisen Reiseführer | Hai Sri Lanka",
@@ -128,12 +128,12 @@
       "description": "A visual journey through Sri Lanka with Hai Sri Lanka Tours."
     },
     "faq": {
-      "title": "FAQ | Private Sri-Lanka-Touren | Hai Sri Lanka",
+      "title": "FAQ | Private Sri Lanka Touren | Hai Sri Lanka",
       "description": "Antworten zu Privattouren, Zahlung vor Ort, Transfers, Storno und Sprachen bei Hai Sri Lanka Tours."
     },
     "contact": {
-      "title": "Kontakt Hai Sri Lanka Tours | Private Sri-Lanka-Reise planen",
-      "description": "Schreiben Sie Hai Sri Lanka Tours, um eine private Sri-Lanka-Reise zu planen. Antwort per E-Mail oder WhatsApp, abgestimmt auf Ihre Reisedaten."
+      "title": "Kontakt Hai Sri Lanka Tours | Private Sri Lanka Reise planen",
+      "description": "Schreiben Sie Hai Sri Lanka Tours, um eine private Sri Lanka Reise zu planen. Antwort per E-Mail oder WhatsApp, abgestimmt auf Ihre Reisedaten."
     },
     "blog": {
       "title": "Reisen Blog | Hai Sri Lanka",
@@ -145,7 +145,7 @@
     },
     "privacy": {
       "title": "Datenschutz | Hai Sri Lanka Tours",
-      "description": "Wie Hai Sri Lanka Tours Anfrage-, Buchungs- und Cookie-Daten verwendet. Kontakt: haisrilankatour@gmail.com."
+      "description": "Wie Hai Sri Lanka Tours Anfrage-, Buchungs- und Cookie Daten verwendet. Kontakt: haisrilankatour@gmail.com."
     },
     "terms": {
       "title": "Nutzungsbedingungen | Hai Sri Lanka Tours",
@@ -212,14 +212,14 @@
     "nextTitle": "So geht es weiter",
     "next1": "Unser Team prüft Ihre Daten und Touranfrage.",
     "next2": "Wir melden uns per E-Mail oder WhatsApp zur Bestätigung.",
-    "next3": "Sie reisen mit Ihrem privaten Gastgeber — Zahlung vor Ort.",
+    "next3": "Sie reisen mit Ihrem privaten Gastgeber, Zahlung vor Ort.",
     "print": "Rechnung drucken",
     "browseTours": "Weitere Touren entdecken",
     "contactUs": "Kontakt",
     "whatsappCta": "WhatsApp zu dieser Buchung",
-    "viewTours": "Sri-Lanka-Touren ansehen",
-    "whatsappPrefill": "Hallo Hai Sri Lanka — bezüglich Buchung {{ref}} ({{tour}}).",
-    "whatsappPrefillGeneric": "Hallo Hai Sri Lanka — ich habe eine Frage zu meiner Buchung."
+    "viewTours": "Sri Lanka Touren ansehen",
+    "whatsappPrefill": "Hallo Hai Sri Lanka, bezüglich Buchung {{ref}} ({{tour}}).",
+    "whatsappPrefillGeneric": "Hallo Hai Sri Lanka, ich habe eine Frage zu meiner Buchung."
   },
   "consent": {
     "title": "Cookies & Datenschutz",
@@ -229,15 +229,15 @@
   },
   "contactPage": {
     "eyebrow": "Kontakt",
-    "title": "Planen Sie Ihre Sri-Lanka-Reise mit uns",
-    "intro": "Schreiben Sie uns kurz — wir antworten persönlich per E-Mail oder WhatsApp und gestalten eine private Route um Ihre Daten.",
+    "title": "Planen Sie Ihre Sri Lanka Reise mit uns",
+    "intro": "Schreiben Sie uns kurz, wir antworten persönlich per E-Mail oder WhatsApp und gestalten eine private Route um Ihre Daten.",
     "formTitle": "Nachricht senden",
     "formLead": "Sagen Sie uns, wonach Sie suchen. Ihre Nachricht geht direkt in unser Postfach.",
     "name": "Name *",
     "email": "E-Mail *",
-    "whatsapp": "WhatsApp-Nummer *",
+    "whatsapp": "WhatsApp Nummer *",
     "message": "Nachricht *",
-    "validation": "Bitte Name, gültige E-Mail, WhatsApp-Nummer und eine kurze Nachricht angeben.",
+    "validation": "Bitte Name, gültige E-Mail, WhatsApp Nummer und eine kurze Nachricht angeben.",
     "sending": "Wird gesendet…",
     "send": "Nachricht senden",
     "success": "Vielen Dank, Ihre Nachricht wurde gesendet.",
@@ -252,12 +252,12 @@
     "ctaBody": "Stöbern Sie in privaten Tages- und Mehrtagesreisen und nennen Sie uns Ihre Daten.",
     "exploreTours": "Touren entdecken",
     "schemaName": "Kontakt Hai Sri Lanka Tours",
-    "schemaDescription": "Kontaktieren Sie Hai Sri Lanka Tours per Formular, Telefon, WhatsApp oder E-Mail für eine private Sri-Lanka-Reise."
+    "schemaDescription": "Kontaktieren Sie Hai Sri Lanka Tours per Formular, Telefon, WhatsApp oder E-Mail für eine private Sri Lanka Reise."
   },
   "destinationsPage": {
     "eyebrow": "Reiseziele",
     "title": "Sri Lanka Sehenswürdigkeiten und Reiseorte",
-    "intro": "Entdecken Sie die besten Orte in Sri Lanka — Galle Fort, Sigiriya, Kandy, Ella, Yala, Teeland und die Südküste — und machen Sie daraus eine Privattour oder ein Urlaubspaket.",
+    "intro": "Entdecken Sie die besten Orte in Sri Lanka, Galle Fort, Sigiriya, Kandy, Ella, Yala, Teeland und die Südküste, und machen Sie daraus eine Privattour oder ein Urlaubspaket.",
     "allTitle": "Alle Reiseziele",
     "count": "{{count}} Orte zum Entdecken",
     "filterAria": "Nach Region filtern",
@@ -265,24 +265,24 @@
     "empty": "Noch keine Reiseziele in dieser Region.",
     "cta": "Diese Orte zu einer privaten Route machen?",
     "exploreTours": "Touren entdecken",
-    "schemaName": "Sri-Lanka-Reiseorte"
+    "schemaName": "Sri Lanka Reiseorte"
   },
   "aboutPage": {
     "eyebrow": "Über uns",
-    "title": "Ein privates Inbound-Studio für Sri Lanka",
+    "title": "Ein privates Inbound Studio für Sri Lanka",
     "intro": "Hai Sri Lanka Tours gestaltet private Tages- und Mehrtagesreisen mit lokalen Gastgebern, ruhigem Tempo und Zahlung vor Ort.",
     "storyTitle": "Wer wir sind",
-    "story1": "Seit 2020 in Colombo: ein kleines Inbound-Team für Paare, Familien und Freunde, die die Insel ohne Sammelgruppen erleben möchten.",
-    "story2": "Routen um Galle, das Cultural Triangle, Kandy, Teeland, Yala und die Südküste — erreichbar per E-Mail und WhatsApp von der ersten Anfrage bis zur Abreise.",
+    "story1": "Seit 2020 in Colombo: ein kleines Inbound Team für Paare, Familien und Freunde, die die Insel ohne Sammelgruppen erleben möchten.",
+    "story2": "Routen um Galle, das Cultural Triangle, Kandy, Teeland, Yala und die Südküste, erreichbar per E-Mail und WhatsApp von der ersten Anfrage bis zur Abreise.",
     "valuesTitle": "So reisen wir",
     "values": [
       {
         "title": "Privat als Standard",
-        "body": "Fahrzeug und Fahrer-Guide sind nur für Ihre Gruppe. Der Tag bleibt flexibel."
+        "body": "Fahrzeug und Fahrer Guide sind nur für Ihre Gruppe. Der Tag bleibt flexibel."
       },
       {
         "title": "Klare Logistik",
-        "body": "Keine Online-Vorauszahlung für die Anfrage. Bestätigung per E-Mail, Zahlung am Ziel."
+        "body": "Keine Online Vorauszahlung für die Anfrage. Bestätigung per E-Mail, Zahlung am Ziel."
       },
       {
         "title": "Gastgeber auf der ganzen Insel",
@@ -290,7 +290,7 @@
       }
     ],
     "ctaEyebrow": "Mit uns planen",
-    "ctaBody": "Stöbern Sie in privaten Touren oder senden Sie Daten — wir antworten persönlich.",
+    "ctaBody": "Stöbern Sie in privaten Touren oder senden Sie Daten, wir antworten persönlich.",
     "exploreTours": "Touren entdecken",
     "schemaName": "Über Hai Sri Lanka Tours"
   },
@@ -299,7 +299,7 @@
     "title": "Fragen vor der Reise",
     "intro": "Private Touren, Zahlung vor Ort, Flughafentransfers und Buchung bei Hai Sri Lanka Tours.",
     "ctaEyebrow": "Noch unsicher?",
-    "ctaBody": "Schreiben Sie uns Ihre Daten — wir nennen den nächsten klaren Schritt.",
+    "ctaBody": "Schreiben Sie uns Ihre Daten, wir nennen den nächsten klaren Schritt.",
     "exploreTours": "Touren entdecken"
   },
   "privacyPage": {
@@ -310,7 +310,7 @@
     "sections": [
       {
         "title": "Wer wir sind",
-        "body": "Hai Sri Lanka Tours ist ein Inbound-Reiseunternehmen in Colombo. Kontakt: haisrilankatour@gmail.com oder +94 74 313 7241."
+        "body": "Hai Sri Lanka Tours ist ein Inbound Reiseunternehmen in Colombo. Kontakt: haisrilankatour@gmail.com oder +94 74 313 7241."
       },
       {
         "title": "Welche Daten wir erheben",
@@ -318,11 +318,11 @@
       },
       {
         "title": "Zweck",
-        "body": "Antworten auf Anfragen, Bestätigung privater Touren, Logistik und buchungsbezogene E-Mails. Kein Verkauf von Daten. Analytics nur nach Cookie-Zustimmung."
+        "body": "Antworten auf Anfragen, Bestätigung privater Touren, Logistik und buchungsbezogene E-Mails. Kein Verkauf von Daten. Analytics nur nach Cookie Zustimmung."
       },
       {
         "title": "Cookies",
-        "body": "Essenzielle Cookies für den Betrieb. Analyse- und Werbe-Cookies (inkl. Google) nur bei „Alle akzeptieren“."
+        "body": "Essenzielle Cookies für den Betrieb. Analyse- und Werbe Cookies (inkl. Google) nur bei „Alle akzeptieren“."
       },
       {
         "title": "Weitergabe und Speicherung",
@@ -334,7 +334,7 @@
       }
     ],
     "ctaEyebrow": "Fragen zu Daten",
-    "ctaBody": "Schreiben Sie uns — wir erklären, wie Ihre Anfrage verarbeitet wird.",
+    "ctaBody": "Schreiben Sie uns, wir erklären, wie Ihre Anfrage verarbeitet wird.",
     "exploreTours": "Touren entdecken"
   },
   "termsPage": {
@@ -345,11 +345,11 @@
     "sections": [
       {
         "title": "Buchungsanfragen",
-        "body": "Das Formular ist eine Anfrage, keine Garantie. Wir prüfen Verfügbarkeit und bestätigen per E-Mail oder WhatsApp. Keine Online-Zahlung für die Anfrage."
+        "body": "Das Formular ist eine Anfrage, keine Garantie. Wir prüfen Verfügbarkeit und bestätigen per E-Mail oder WhatsApp. Keine Online Zahlung für die Anfrage."
       },
       {
         "title": "Zahlung",
-        "body": "Sofern nicht anders vereinbart, Zahlung am Ziel in der bestätigten Währung. Website-Preise sind Richtwerte."
+        "body": "Sofern nicht anders vereinbart, Zahlung am Ziel in der bestätigten Währung. Website Preise sind Richtwerte."
       },
       {
         "title": "Änderungen und Storno",
@@ -361,7 +361,7 @@
       },
       {
         "title": "Haftung",
-        "body": "Wir planen sorgfältig, haften aber nicht für Wetter, Parksperren, Verkehr oder höhere Gewalt. Zwingende Haftung nach sri-lankischem Recht bleibt unberührt."
+        "body": "Wir planen sorgfältig, haften aber nicht für Wetter, Parksperren, Verkehr oder höhere Gewalt. Zwingende Haftung nach sri lankischem Recht bleibt unberührt."
       },
       {
         "title": "Recht",
@@ -369,7 +369,7 @@
       }
     ],
     "ctaEyebrow": "Bereit zur Buchung",
-    "ctaBody": "Fragen Sie eine Privattour an — wir bestätigen Details vor der Reise.",
+    "ctaBody": "Fragen Sie eine Privattour an, wir bestätigen Details vor der Reise.",
     "exploreTours": "Touren entdecken"
   }
 }

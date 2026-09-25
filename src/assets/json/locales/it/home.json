@@ -1,12 +1,12 @@
 {
   "seo": {
     "metaTitle": "Tour Sri Lanka | Viaggi privati e pacchetti",
-    "metaDescription": "Tour privati in Sri Lanka e pacchetti vacanza su misura. Gite e itinerari a Sigiriya, Kandy, Ella, Yala, Galle e la costa — guida in inglese, hotel, pagamento a destinazione."
+    "metaDescription": "Tour privati in Sri Lanka e pacchetti vacanza su misura. Gite e itinerari a Sigiriya, Kandy, Ella, Yala, Galle e la costa, guida in inglese, hotel, pagamento a destinazione."
   },
   "hero": {
     "eyebrow": "Tour privati in Sri Lanka · pacchetti su misura",
     "title": "Tour in Sri Lanka, privati e su misura",
-    "subtitle": "Pacchetti vacanza e tour di un giorno nei luoghi più belli dello Sri Lanka — templi, tè, fauna e spiagge — con la vostra guida in inglese.",
+    "subtitle": "Pacchetti vacanza e tour di un giorno nei luoghi più belli dello Sri Lanka, templi, tè, fauna e spiagge, con la vostra guida in inglese.",
     "image": {
       "alt": "Ponte a nove archi e paese del tè vicino a Ella, Sri Lanka",
       "title": "Ponte a nove archi di Ella"
@@ -68,7 +68,7 @@
         "label": "Tour giornalieri"
       },
       {
-        "label": "3–7 giorni"
+        "label": "3 to 7 giorni"
       },
       {
         "label": "8-14 giorni"
@@ -101,7 +101,7 @@
   "whyChoose": {
     "eyebrow": "Perché Hai Sri Lanka",
     "title": "Tour privati in Sri Lanka, non bus di gruppo",
-    "subtitle": "Progettiamo pacchetti e vacanze private in tutta l’isola — il vostro veicolo, il vostro ritmo e host locali che conoscono ogni strada.",
+    "subtitle": "Progettiamo pacchetti e vacanze private in tutta l’isola, il vostro veicolo, il vostro ritmo e host locali che conoscono ogni strada.",
     "items": [
       {
         "title": "Esperienze completamente private",
@@ -119,7 +119,7 @@
         "id": "tailored"
       },
       {
-        "title": "Assistenza end-to-end",
+        "title": "Assistenza end to end",
         "description": "Dall'accoglienza in aeroporto al trasferimento d'addio, un team dedicato supporta ogni giorno del tuo viaggio.",
         "id": "care"
       }
@@ -128,7 +128,7 @@
   "tourCategories": {
     "eyebrow": "Pacchetti tour Sri Lanka",
     "title": "Scegliete il vostro tour in Sri Lanka",
-    "subtitle": "Da un tour privato di un giorno a un pacchetto vacanza tra altopiani, fauna e costa — partite dallo stile che fa per voi.",
+    "subtitle": "Da un tour privato di un giorno a un pacchetto vacanza tra altopiani, fauna e costa, partite dallo stile che fa per voi.",
     "items": [
       {
         "title": "Tour giornalieri",
@@ -173,13 +173,13 @@
   "featuredDay": {
     "eyebrow": "Un giorno perfetto",
     "title": "Tour privati di un giorno in Sri Lanka",
-    "subtitle": "Tour privati di un giorno da Colombo e la costa ovest — Galle, Sigiriya, Kandy, Ella e altro.",
+    "subtitle": "Tour privati di un giorno da Colombo e la costa ovest, Galle, Sigiriya, Kandy, Ella e altro.",
     "viewAllLabel": "Visualizza tutti i tour giornalieri"
   },
   "destinations": {
     "eyebrow": "Luoghi di viaggio",
     "title": "I luoghi più belli da visitare in Sri Lanka",
-    "subtitle": "Dalla Roccia del Leone a Sigiriya al Forte di Galle, Ella, Yala e il tè — i luoghi che definiscono ogni grande tour.",
+    "subtitle": "Dalla Roccia del Leone a Sigiriya al Forte di Galle, Ella, Yala e il tè, i luoghi che definiscono ogni grande tour.",
     "viewAllLabel": "Esplora le destinazioni"
   },
   "map": {
@@ -256,7 +256,7 @@
   "cta": {
     "eyebrow": "Inizia qui",
     "title": "Pianificate la vostra vacanza in Sri Lanka",
-    "subtitle": "Condividete date e interessi — creeremo un pacchetto tour privato intorno ai luoghi che volete vedere.",
+    "subtitle": "Condividete date e interessi, creeremo un pacchetto tour privato intorno ai luoghi che volete vedere.",
     "image": {
       "alt": "Ponte a nove archi che si erge sopra le piantagioni di tè a Ella, Sri Lanka",
       "title": "Ponte a nove archi di Ella"

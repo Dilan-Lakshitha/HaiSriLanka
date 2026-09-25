@@ -3,14 +3,14 @@
     "id": "dest-galle",
     "slug": "galle",
     "title": "Galle",
-    "shortDescription": "UNESCO-listed fort city on Sri Lanka’s southern coast.",
-    "description": "Wander Dutch-era ramparts, boutique streets, and ocean light in one of Asia’s most atmospheric coastal towns. Galle pairs heritage walks with beach evenings and mangrove boat safaris nearby ideal as a day trip from Colombo or a soft landing on multi-day routes.",
+    "shortDescription": "UNESCO listed fort city on Sri Lanka’s southern coast.",
+    "description": "Wander Dutch era ramparts, boutique streets, and ocean light in one of Asia’s most atmospheric coastal towns. Galle pairs heritage walks with beach evenings and mangrove boat safaris nearby ideal as a day trip from Colombo or a soft landing on multi day routes.",
     "region": "Southern Province",
     "highlights": [
       "Galle Fort ramparts and lighthouse views",
       "Boutique streets and Dutch colonial lanes",
       "Nearby beaches and mangrove boat safaris",
-      "Easy day-tour or multi-day coastal stop"
+      "Easy day tour or multi day coastal stop"
     ],
     "images": [
       {
@@ -42,11 +42,18 @@
         "height": 1200
       }
     ],
-    "relatedTourSlugs": ["galle-day-tour", "7-days-sri-lanka-highlights"],
+    "relatedTourSlugs": [
+      "galle-day-tour",
+      "7-days-sri-lanka-highlights"
+    ],
     "seo": {
       "metaTitle": "Galle Travel Guide | Destinations | Hai Sri Lanka",
       "metaDescription": "Plan your visit to Galle with Hai Sri Lanka fort walks, beaches, mangrove safaris, and curated southern coast tours.",
-      "keywords": ["Galle Sri Lanka", "Galle Fort", "Southern Province"]
+      "keywords": [
+        "Galle Sri Lanka",
+        "Galle Fort",
+        "Southern Province"
+      ]
     },
     "status": "published"
   },
@@ -55,7 +62,7 @@
     "slug": "sigiriya",
     "title": "Sigiriya",
     "shortDescription": "The Lion Rock fortress and Cultural Triangle icon.",
-    "description": "Climb the ancient rock fortress for frescoes, mirror wall lore, and jungle views across the Cultural Triangle. Pair Sigiriya with Dambulla cave temples for a full day, or linger across a multi-day route with Pidurangala sunsets and countryside stays.",
+    "description": "Climb the ancient rock fortress for frescoes, mirror wall lore, and jungle views across the Cultural Triangle. Pair Sigiriya with Dambulla cave temples for a full day, or linger across a multi day route with Pidurangala sunsets and countryside stays.",
     "region": "Central Province",
     "highlights": [
       "Sigiriya Rock Fortress ascent",
@@ -93,11 +100,18 @@
         "height": 1200
       }
     ],
-    "relatedTourSlugs": ["sigiriya-dambulla-day-tour", "7-days-sri-lanka-highlights"],
+    "relatedTourSlugs": [
+      "sigiriya-dambulla-day-tour",
+      "7-days-sri-lanka-highlights"
+    ],
     "seo": {
       "metaTitle": "Sigiriya Travel Guide | Destinations | Hai Sri Lanka",
       "metaDescription": "Discover Sigiriya with Hai Sri Lanka Tours Lion Rock, gardens, Dambulla, and Cultural Triangle journeys.",
-      "keywords": ["Sigiriya", "Lion Rock", "Cultural Triangle"]
+      "keywords": [
+        "Sigiriya",
+        "Lion Rock",
+        "Cultural Triangle"
+      ]
     },
     "status": "published"
   },
@@ -144,11 +158,17 @@
         "height": 1050
       }
     ],
-    "relatedTourSlugs": ["kandy-day-tour", "10-days-classic-ceylon"],
+    "relatedTourSlugs": [
+      "kandy-day-tour",
+      "10-days-classic-ceylon"
+    ],
     "seo": {
       "metaTitle": "Kandy Travel Guide | Destinations | Hai Sri Lanka",
       "metaDescription": "Explore Kandy Temple of the Tooth and highland gateway with Hai Sri Lanka private tours.",
-      "keywords": ["Kandy Sri Lanka", "Temple of the Tooth"]
+      "keywords": [
+        "Kandy Sri Lanka",
+        "Temple of the Tooth"
+      ]
     },
     "status": "published"
   },
@@ -163,7 +183,7 @@
       "Private jeep safaris at first light",
       "Leopard and elephant habitat",
       "Lagoons and coastal scrub landscapes",
-      "Pairs well with south-coast stays"
+      "Pairs well with south coast stays"
     ],
     "images": [
       {
@@ -195,11 +215,16 @@
         "height": 1200
       }
     ],
-    "relatedTourSlugs": ["10-days-classic-ceylon"],
+    "relatedTourSlugs": [
+      "10-days-classic-ceylon"
+    ],
     "seo": {
       "metaTitle": "Yala National Park | Destinations | Hai Sri Lanka",
       "metaDescription": "Plan Yala safari experiences with Hai Sri Lanka Tours private jeeps, wildlife, and southeast coast routes.",
-      "keywords": ["Yala safari", "Yala National Park"]
+      "keywords": [
+        "Yala safari",
+        "Yala National Park"
+      ]
     },
     "status": "published"
   },
@@ -246,11 +271,19 @@
         "height": 1080
       }
     ],
-    "relatedTourSlugs": ["ella-day-tour", "7-days-sri-lanka-highlights", "10-days-classic-ceylon"],
+    "relatedTourSlugs": [
+      "ella-day-tour",
+      "7-days-sri-lanka-highlights",
+      "10-days-classic-ceylon"
+    ],
     "seo": {
       "metaTitle": "Ella Travel Guide | Destinations | Hai Sri Lanka",
       "metaDescription": "Visit Ella with Hai Sri Lanka Nine Arch Bridge, tea country, and highland private tours.",
-      "keywords": ["Ella Sri Lanka", "Nine Arch Bridge", "tea country"]
+      "keywords": [
+        "Ella Sri Lanka",
+        "Nine Arch Bridge",
+        "tea country"
+      ]
     },
     "status": "published"
   },
@@ -290,11 +323,18 @@
         "height": 1050
       }
     ],
-    "relatedTourSlugs": ["galle-day-tour", "kandy-day-tour", "7-days-sri-lanka-highlights"],
+    "relatedTourSlugs": [
+      "galle-day-tour",
+      "kandy-day-tour",
+      "7-days-sri-lanka-highlights"
+    ],
     "seo": {
       "metaTitle": "Colombo Travel Guide | Destinations | Hai Sri Lanka",
       "metaDescription": "Discover Colombo with Hai Sri Lanka city culture, coastal evenings, and private arrival tours.",
-      "keywords": ["Colombo Sri Lanka", "Colombo city tour"]
+      "keywords": [
+        "Colombo Sri Lanka",
+        "Colombo city tour"
+      ]
     },
     "status": "published"
   },
@@ -334,11 +374,17 @@
         "height": 1600
       }
     ],
-    "relatedTourSlugs": ["10-days-classic-ceylon"],
+    "relatedTourSlugs": [
+      "10-days-classic-ceylon"
+    ],
     "seo": {
       "metaTitle": "Anuradhapura Travel Guide | Destinations | Hai Sri Lanka",
       "metaDescription": "Explore Anuradhapura’s sacred city with Hai Sri Lanka private Cultural Triangle tours.",
-      "keywords": ["Anuradhapura", "Cultural Triangle", "Sri Lanka heritage"]
+      "keywords": [
+        "Anuradhapura",
+        "Cultural Triangle",
+        "Sri Lanka heritage"
+      ]
     },
     "status": "published"
   },
@@ -378,11 +424,18 @@
         "height": 1050
       }
     ],
-    "relatedTourSlugs": ["sigiriya-dambulla-day-tour", "10-days-classic-ceylon"],
+    "relatedTourSlugs": [
+      "sigiriya-dambulla-day-tour",
+      "10-days-classic-ceylon"
+    ],
     "seo": {
       "metaTitle": "Polonnaruwa Travel Guide | Destinations | Hai Sri Lanka",
       "metaDescription": "Visit Polonnaruwa with Hai Sri Lanka medieval ruins and Cultural Triangle private tours.",
-      "keywords": ["Polonnaruwa", "Gal Vihara", "Cultural Triangle"]
+      "keywords": [
+        "Polonnaruwa",
+        "Gal Vihara",
+        "Cultural Triangle"
+      ]
     },
     "status": "published"
   },
@@ -391,12 +444,12 @@
     "slug": "arugam-bay",
     "title": "Arugam Bay",
     "shortDescription": "East coast surf town with lagoon sunsets.",
-    "description": "Arugam Bay brings easier east-coast energy surf breaks, lagoon life, and long golden evenings. Best in season, it makes a striking finale or freestanding stay when you want ocean space beyond the south.",
+    "description": "Arugam Bay brings easier east coast energy surf breaks, lagoon life, and long golden evenings. Best in season, it makes a striking finale or freestanding stay when you want ocean space beyond the south.",
     "region": "Eastern Province",
     "highlights": [
       "Surf beaches and coastal cafés",
       "Lagoon boat moments",
-      "Seasonal east-coast sunshine",
+      "Seasonal east coast sunshine",
       "Relaxed contrast to heritage routes"
     ],
     "images": [
@@ -422,11 +475,17 @@
         "height": 1050
       }
     ],
-    "relatedTourSlugs": ["12-days-sri-lanka-explorer"],
+    "relatedTourSlugs": [
+      "12-days-sri-lanka-explorer"
+    ],
     "seo": {
       "metaTitle": "Arugam Bay Travel Guide | Destinations | Hai Sri Lanka",
       "metaDescription": "Plan Arugam Bay with Hai Sri Lanka east coast surf, lagoons, and longer private itineraries.",
-      "keywords": ["Arugam Bay", "east coast Sri Lanka", "surf Sri Lanka"]
+      "keywords": [
+        "Arugam Bay",
+        "east coast Sri Lanka",
+        "surf Sri Lanka"
+      ]
     },
     "status": "published"
   },
@@ -473,11 +532,18 @@
         "height": 1440
       }
     ],
-    "relatedTourSlugs": ["10-days-classic-ceylon", "7-days-sri-lanka-highlights"],
+    "relatedTourSlugs": [
+      "10-days-classic-ceylon",
+      "7-days-sri-lanka-highlights"
+    ],
     "seo": {
       "metaTitle": "Tea Country Travel Guide | Destinations | Hai Sri Lanka",
       "metaDescription": "Explore Sri Lanka’s tea country with Hai Sri Lanka Nuwara Eliya, plantations, and highland private tours.",
-      "keywords": ["tea country Sri Lanka", "Nuwara Eliya", "highland tours"]
+      "keywords": [
+        "tea country Sri Lanka",
+        "Nuwara Eliya",
+        "highland tours"
+      ]
     },
     "status": "published"
   }

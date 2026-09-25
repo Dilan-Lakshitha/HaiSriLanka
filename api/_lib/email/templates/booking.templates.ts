@@ -89,7 +89,7 @@ function bookingSummaryTable(booking: BookingPayload, bookingRef: string): strin
   const guest = booking.primaryTraveler;
   const total = formatMoney(booking.totalPrice, booking.currency);
   const perPerson = formatMoney(booking.pricePerPerson, booking.currency);
-  const duration = booking.tourDuration ? escapeHtml(booking.tourDuration) : '—';
+  const duration = booking.tourDuration ? escapeHtml(booking.tourDuration) : 'n/a';
 
   return `
     <table style="width:100%;border-collapse:collapse;margin:16px 0 0;">
@@ -103,8 +103,8 @@ function bookingSummaryTable(booking: BookingPayload, bookingRef: string): strin
       ${row('Guest name', `${escapeHtml(guest.firstName)} ${escapeHtml(guest.lastName)}`)}
       ${row('Email', escapeHtml(guest.email))}
       ${row('Phone', escapeHtml(guest.phone))}
-      ${row('Country', escapeHtml(guest.nationality || '—'))}
-      ${row('Notes', escapeHtml(guest.specialRequests || '—'))}
+      ${row('Country', escapeHtml(guest.nationality || 'n/a'))}
+      ${row('Notes', escapeHtml(guest.specialRequests || 'n/a'))}
     </table>`;
 }
 
@@ -141,7 +141,7 @@ export function travelerConfirmationHtml(booking: BookingPayload, bookingRef: st
       No payment has been taken online. You can pay securely at destination once your tour is confirmed.
     </p>
     <p style="margin:16px 0 0;font-size:15px;line-height:1.6;">
-      Questions? Message us on WhatsApp or reply to this email — we are happy to help.
+      Questions? Message us on WhatsApp or reply to this email. We are happy to help.
     </p>
     <p style="margin:24px 0 0;font-size:15px;line-height:1.6;">
       Warm regards,<br />

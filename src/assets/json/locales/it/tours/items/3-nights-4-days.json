@@ -18,10 +18,10 @@
     },
     {
       "title": "Scenic train and Yala safari",
-      "description": "A hill-country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
+      "description": "A hill country train window, Ravana Falls, and a jeep safari in Yala for leopards, elephants, and wild coast scrub."
     },
     {
-      "title": "South-coast finale",
+      "title": "South coast finale",
       "description": "Mirissa whale watching, Galle Fort, a turtle hatchery, and Bentota before your hotel or airport drop."
     }
   ],
@@ -45,19 +45,19 @@
   },
   "itinerary": [
     {
-      "title": "Aeroporto/Hotel – Kandy",
+      "title": "Aeroporto/Hotel to Kandy",
       "description": "Viaggia nell'entroterra verso Kandy con le classiche soste culturali: elefanti a Pinnawala, profumi del giardino delle spezie, viste sul lago e una serata di danza Kandyan."
     },
     {
-      "title": "Kandy-Ella",
+      "title": "Kandy Ella",
       "description": "Mattinata al Tempio della Reliquia del Dente, poi addentratevi nella regione del tè con una visita alla fabbrica prima di stabilirvi a Ella per un tranquillo tour della città."
     },
     {
-      "title": "Ella – Yala",
+      "title": "Ella to Yala",
       "description": "Viaggia sul treno panoramico attraverso le colline, fai una pausa alle Ravana Falls, quindi prosegui per Yala per un safari pomeridiano o serale nel parco nazionale."
     },
     {
-      "title": "Yala – Bentota – Hotel/Aeroporto",
+      "title": "Yala to Bentota to Hotel/Aeroporto",
       "description": "Finale costiero lungo il sud: osservazione delle balene a Mirissa o snorkeling con balene o tartarughe marine, Forte di Galle, un vivaio di tartarughe e un safari in barca a Bentota prima del trasferimento in hotel o aeroporto."
     }
   ],

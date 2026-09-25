@@ -3,7 +3,7 @@
     "hero": {
       "eyebrow": "Sri Lanka Tours",
       "title": "斯里兰卡私人行程与套餐",
-      "subtitle": "选择私人一日游或多日度假套餐——从容节奏、可靠酒店、英语导游与透明价格。",
+      "subtitle": "选择私人一日游或多日度假套餐, 从容节奏、可靠酒店、英语导游与透明价格。",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
         "alt": "Private Sri Lanka tours with Hai Sri Lanka",
@@ -18,7 +18,7 @@
         "Sri Lanka tours",
         "private Sri Lanka packages",
         "day tours Sri Lanka",
-        "multi-day Sri Lanka tour"
+        "multi day Sri Lanka tour"
       ]
     }
   },
@@ -26,7 +26,7 @@
     "hero": {
       "eyebrow": "一日游s",
       "title": "斯里兰卡私人一日游",
-      "subtitle": "从海岸到文化三角的私人一日游——加勒、狮子岩、康提、埃拉等。专车与导游，舒适节奏。",
+      "subtitle": "从海岸到文化三角的私人一日游, 加勒、狮子岩、康提、埃拉等。专车与导游，舒适节奏。",
       "image": {
         "src": "/assets/images/tours/category-day.webp",
         "alt": "Sri Lanka 一日游s",
@@ -36,7 +36,7 @@
     },
     "seo": {
       "metaTitle": "斯里兰卡一日游 | 私人日间行程",
-      "metaDescription": "从科伦坡与西海岸出发的斯里兰卡私人一日游——加勒、狮子岩、康提、埃拉等。专车、英语导游、节奏灵活。",
+      "metaDescription": "从科伦坡与西海岸出发的斯里兰卡私人一日游, 加勒、狮子岩、康提、埃拉等。专车、英语导游、节奏灵活。",
       "keywords": [
         "Sri Lanka day tours",
         "private day trip Sri Lanka",
@@ -48,7 +48,7 @@
     "hero": {
       "eyebrow": "Multi-一日游s",
       "title": "斯里兰卡旅游套餐与多日游",
-      "subtitle": "私人度假行程覆盖文化、茶园、野生动物与海岸——灵活住宿与可靠酒店。",
+      "subtitle": "私人度假行程覆盖文化、茶园、野生动物与海岸, 灵活住宿与可靠酒店。",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
         "alt": "Sri Lanka multi-一日游s",
@@ -61,7 +61,7 @@
       "metaDescription": "斯里兰卡私人度假套餐：文化、茶园、野生动物与海滩，四星酒店与私人交通。",
       "keywords": [
         "Sri Lanka tour packages",
-        "multi-day Sri Lanka tour",
+        "multi day Sri Lanka tour",
         "private itinerary"
       ]
     }

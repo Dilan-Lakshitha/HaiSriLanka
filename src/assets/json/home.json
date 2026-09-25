@@ -1,27 +1,29 @@
 {
   "seo": {
-    "metaTitle": "Sri Lanka Tours | Private Tours & Vacation Packages",
-    "metaDescription": "Private Sri Lanka tours and tailor-made vacation packages. Day trips and multi-day tour packages to Sigiriya, Kandy, Ella, Yala, Galle, and the coast — English-speaking guide, hotels, and pay at destination.",
+    "metaTitle": "Private Sri Lanka Tours & Packages | Hai Sri Lanka",
+    "metaDescription": "Book a private Sri Lanka tour with your own driver guide. Day trips and 4 to 12 day packages to Sigiriya, Kandy, Ella, Yala & Galle. Hotels included. Pay at destination. Get a free itinerary.",
     "keywords": [
-      "Sri Lanka tours",
-      "Sri Lanka private tour",
-      "vacation in Sri Lanka",
-      "Sri Lanka tour package",
-      "Sri Lanka travel places",
-      "private tours Sri Lanka",
+      "private Sri Lanka tours",
+      "Sri Lanka tour packages",
+      "Sri Lanka day tours from Colombo",
+      "Sri Lanka vacation packages",
+      "private driver Sri Lanka",
+      "Sigiriya day tour",
+      "Yala safari tour",
+      "tailor made Sri Lanka itinerary",
       "Hai Sri Lanka"
     ]
   },
   "hero": {
-    "eyebrow": "Private Sri Lanka tours · tailor-made packages",
-    "title": "Sri Lanka tours, private and tailor-made",
-    "subtitle": "Vacation packages and day tours across Sri Lanka’s best travel places — temples, tea country, wildlife, and beaches — with your own English-speaking guide.",
+    "eyebrow": "Private driver guide · 5.0 guests · pay at destination",
+    "title": "Private Sri Lanka tours & vacation packages",
+    "subtitle": "Your vehicle, your pace. Day tours from Colombo and 4 to 12 day itineraries to Sigiriya, Kandy, Ella, Yala, and Galle, English speaking guide, trusted hotels, no prepayment.",
     "primaryCta": {
-      "label": "View Sri Lanka tours",
+      "label": "Browse private tours",
       "path": "sri-lanka-tours"
     },
     "secondaryCta": {
-      "label": "Plan with us",
+      "label": "Get a free itinerary",
       "path": "contact"
     },
     "image": {
@@ -34,7 +36,7 @@
     "images": [
       {
         "src": "/assets/images/hero/carousel-guest-moments.webp",
-        "alt": "Hai Sri Lanka guest moments — king coconuts, tuk-tuk rides, cycling, and elephant experiences",
+        "alt": "Hai Sri Lanka guest moments, king coconuts, tuk tuk rides, cycling, and elephant experiences",
         "title": "Guest moments",
         "width": 960,
         "height": 540
@@ -113,11 +115,11 @@
       },
       {
         "value": "3-7",
-        "label": "3–7 days"
+        "label": "3 to 7 days"
       },
       {
         "value": "8-14",
-        "label": "8–14 days"
+        "label": "8 to 14 days"
       },
       {
         "value": "15+",
@@ -154,7 +156,7 @@
   "whyChoose": {
     "eyebrow": "Why Hai Sri Lanka",
     "title": "Private Sri Lanka tours, not group buses",
-    "subtitle": "We design private tour packages and vacations across the island — your vehicle, your pace, and local hosts who know every winding road.",
+    "subtitle": "Book a private driver guide, not a 40-seat coach. We design day tours and vacation packages around your dates, hotels, and must see places.",
     "items": [
       {
         "id": "private",
@@ -165,18 +167,18 @@
       {
         "id": "experts",
         "title": "Expert local hosts",
-        "description": "Chauffeur-guides trained in storytelling, safety, and quiet luxury hospitality across the island.",
+        "description": "Chauffeur guides trained in storytelling, safety, and quiet luxury hospitality across the island.",
         "icon": "hosts"
       },
       {
         "id": "tailored",
-        "title": "Tailor-made itineraries",
+        "title": "Tailor made itineraries",
         "description": "We refine hotels, timing, and hidden stops to match how you prefer to travel.",
         "icon": "tailored"
       },
       {
         "id": "care",
-        "title": "End-to-end care",
+        "title": "End to end care",
         "description": "From airport welcome to farewell transfer, a dedicated team supports every day of your journey.",
         "icon": "care"
       }
@@ -185,7 +187,7 @@
   "tourCategories": {
     "eyebrow": "Sri Lanka tour packages",
     "title": "Choose your Sri Lanka tour",
-    "subtitle": "From a private day tour to a full vacation package through highlands, wildlife, and coast — start with the style that fits you.",
+    "subtitle": "From a private day tour to a full vacation package through highlands, wildlife, and coast, start with the style that fits you.",
     "items": [
       {
         "id": "day",
@@ -201,12 +203,12 @@
       },
       {
         "id": "multi",
-        "title": "Multi-Day Tours",
+        "title": "Multi Day Tours",
         "description": "Curated island circuits combining culture, tea country, wildlife, and shoreline stays.",
         "path": "multi-day-tours",
         "image": {
           "src": "/assets/images/tours/category-multi.webp",
-          "alt": "Multi-day journey through Sri Lanka highlands",
+          "alt": "Multi day journey through Sri Lanka highlands",
           "width": 340,
           "height": 227
         }
@@ -240,21 +242,21 @@
   "featuredMultiDay": {
     "eyebrow": "Featured journeys",
     "title": "Sri Lanka tour packages travelers love",
-    "subtitle": "Private multi-day vacation itineraries with culture, tea country, wildlife, and coast in balance.",
+    "subtitle": "Private multi day vacation itineraries with culture, tea country, wildlife, and coast in balance.",
     "viewAllPath": "multi-day-tours",
-    "viewAllLabel": "View all multi-day tours"
+    "viewAllLabel": "View all multi day tours"
   },
   "featuredDay": {
     "eyebrow": "One perfect day",
     "title": "Private Sri Lanka day tours",
-    "subtitle": "Private day tours from Colombo and the west coast — Galle, Sigiriya, Kandy, Ella, and more.",
+    "subtitle": "Private day tours from Colombo and the west coast, Galle, Sigiriya, Kandy, Ella, and more.",
     "viewAllPath": "day-tours",
     "viewAllLabel": "View all day tours"
   },
   "destinations": {
     "eyebrow": "Travel places",
     "title": "Best places to visit in Sri Lanka",
-    "subtitle": "From Sigiriya’s Lion Rock to Galle Fort, Ella, Yala, and tea country — the travel places that shape every great tour.",
+    "subtitle": "From Sigiriya’s Lion Rock to Galle Fort, Ella, Yala, and tea country, the travel places that shape every great tour.",
     "viewAllPath": "destinations",
     "viewAllLabel": "Explore destinations"
   },
@@ -341,15 +343,15 @@
     "pageKey": "home"
   },
   "cta": {
-    "eyebrow": "Begin here",
-    "title": "Plan your Sri Lanka vacation",
-    "subtitle": "Share your dates and interests — we will craft a private Sri Lanka tour package around the places you want to see.",
+    "eyebrow": "Free itinerary in 24 hours",
+    "title": "Ready for a private Sri Lanka tour?",
+    "subtitle": "Share your dates and must see places. We send a tailor made package with hotels and a private driver guide, you pay at destination.",
     "primaryCta": {
-      "label": "Contact our planners",
+      "label": "Get a free itinerary",
       "path": "contact"
     },
     "secondaryCta": {
-      "label": "Browse tours",
+      "label": "See tour packages",
       "path": "sri-lanka-tours"
     },
     "image": {

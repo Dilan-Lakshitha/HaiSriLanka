@@ -1,9 +1,9 @@
 {
   "hub": {
     "hero": {
-      "eyebrow": "Sri Lanka Tours",
-      "title": "Private Sri Lanka tours & packages",
-      "subtitle": "Choose a private day tour or a multi-day vacation package — curated pacing, trusted hotels, English-speaking guide, and transparent pricing.",
+      "eyebrow": "Sri Lanka tour packages",
+      "title": "Private Sri Lanka tours & vacation packages",
+      "subtitle": "Choose a private day tour from Colombo or a 4 to 12 day package, your driver guide, trusted hotels, and prices you see before you book.",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
         "alt": "Private Sri Lanka tours with Hai Sri Lanka",
@@ -12,22 +12,22 @@
       }
     },
     "seo": {
-      "metaTitle": "Sri Lanka Tours | Private Day & Multi-Day Packages",
-      "metaDescription": "Browse Sri Lanka tour packages: private day tours and multi-day vacation itineraries with hotels, driver-guide, and transparent pricing. Tailor-made for couples, families, and small groups.",
+      "metaTitle": "Sri Lanka Tour Packages | Private Day & Multi Day",
+      "metaDescription": "Compare private Sri Lanka tour packages: day tours from Colombo and 4 to 12 day vacation itineraries with hotels, driver guide, and clear prices. Tailor made for couples, families, and small groups.",
       "keywords": [
-        "Sri Lanka tours",
-        "Sri Lanka private tour",
-        "Sri Lanka tour package",
-        "day tours Sri Lanka",
-        "multi-day Sri Lanka tour"
+        "Sri Lanka tour packages",
+        "private Sri Lanka tours",
+        "Sri Lanka day tours",
+        "multi day Sri Lanka tour",
+        "private driver Sri Lanka"
       ]
     }
   },
   "day": {
     "hero": {
       "eyebrow": "Day Tours",
-      "title": "Private Sri Lanka day tours",
-      "subtitle": "Private day tours from the coast to the Cultural Triangle — Galle, Sigiriya, Kandy, Ella, and more. Your vehicle and guide, paced for comfort.",
+      "title": "Private Sri Lanka day tours from Colombo",
+      "subtitle": "Galle, Sigiriya, Kandy, and Ella in one private day, your vehicle and English speaking driver guide, not a group bus.",
       "image": {
         "src": "/assets/images/tours/category-day.webp",
         "alt": "Sri Lanka day tours",
@@ -36,35 +36,38 @@
       }
     },
     "seo": {
-      "metaTitle": "Sri Lanka Day Tours | Private Day Trips",
-      "metaDescription": "Private Sri Lanka day tours from Colombo and the west coast — Galle, Sigiriya, Kandy, Ella, and more. Your vehicle, English-speaking guide, and flexible pacing.",
+      "metaTitle": "Sri Lanka Day Tours from Colombo | Private Driver",
+      "metaDescription": "Private Sri Lanka day tours from Colombo and the west coast, Galle, Sigiriya, Kandy, and Ella. Your vehicle, English speaking driver guide, and flexible stops. Request today’s availability.",
       "keywords": [
-        "Sri Lanka day tours",
-        "private day trip Sri Lanka",
-        "Galle day tour"
+        "Sri Lanka day tours from Colombo",
+        "Sigiriya day tour",
+        "Galle day tour",
+        "Kandy day tour",
+        "private driver Sri Lanka"
       ]
     }
   },
   "multi-day": {
     "hero": {
-      "eyebrow": "Multi-Day Tours",
-      "title": "Sri Lanka tour packages & multi-day tours",
-      "subtitle": "Private vacation itineraries across culture, tea country, wildlife, and coast — flexible nights and trusted hotels.",
+      "eyebrow": "Multi Day Tours",
+      "title": "Sri Lanka vacation packages & multi day tours",
+      "subtitle": "Private 4 to 12 day itineraries: Cultural Triangle, tea country, Yala, and the south coast, 4 star hotels and a dedicated driver guide.",
       "image": {
         "src": "/assets/images/tours/category-multi.webp",
-        "alt": "Sri Lanka multi-day tours",
+        "alt": "Sri Lanka multi day tours",
         "width": 1600,
         "height": 900
       }
     },
     "seo": {
-      "metaTitle": "Sri Lanka Tour Packages | Private Multi-Day Tours",
-      "metaDescription": "Private Sri Lanka tour packages and vacation itineraries: culture, tea country, wildlife, and beaches with 4-star hotels and private transport.",
+      "metaTitle": "Sri Lanka Vacation Packages | 4 to 12 Day Private Tours",
+      "metaDescription": "Private Sri Lanka vacation packages with 4 star hotels and a dedicated driver guide. Culture, tea country, Yala wildlife, and beaches, paced for you. Get a custom itinerary.",
       "keywords": [
+        "Sri Lanka vacation packages",
         "Sri Lanka tour packages",
-        "vacation in Sri Lanka",
-        "multi-day Sri Lanka tour",
-        "private itinerary"
+        "8 day Sri Lanka tour",
+        "private Sri Lanka itinerary",
+        "Yala safari tour"
       ]
     }
   }
